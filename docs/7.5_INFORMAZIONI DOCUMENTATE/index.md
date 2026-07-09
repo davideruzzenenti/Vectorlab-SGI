@@ -2,8 +2,10 @@
 
 ## Documenti
 
+- [MDPR08.1.A - Elenco Informazioni documentate](MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate.md)
 - [MDPR08.1.B - PO num - titolo](MDPR08.1.B%20-%20PO%20num%20-%20titolo.md)
 - [MDPR08.1.C - PR num - titolo](MDPR08.1.C%20-%20PR%20num%20-%20titolo.md)
+- [MDPR08.1.D - MD num - titolo - formato EXCEL](MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20EXCEL.md)
 - [MDPR08.1.D - MD num - titolo - formato WORD](MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20WORD.md)
 - [MDPR08.1.E - Regolamento xxxx](MDPR08.1.E%20-%20Regolamento%20xxxx.md)
 - [MDPR08.1.F - AL num - titolo - formato WORD](MDPR08.1.F%20-%20AL%20num%20-%20titolo%20-%20formato%20WORD.md)

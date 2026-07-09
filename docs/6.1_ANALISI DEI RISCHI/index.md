@@ -3,6 +3,7 @@
 ## Documenti
 
 - [PR33.2 - Processo Analisi del Rischio Privacy](PR33.2%20-%20Processo%20Analisi%20del%20Rischio%20Privacy.md)
+- [asset_inventory_vectorlab](asset_inventory_vectorlab.md)
 
 ## Altri file
 
