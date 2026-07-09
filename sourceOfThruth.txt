@@ -1,0 +1,32 @@
+- Vectorlab è una software house B2B a socio unico e amministratore unico.
+- specializzata nello sviluppo di software custom ad alto contenuto tecnologico.
+- L'azienda realizza applicazioni web, desktop, mobile ed embedded, 
+  sistemi 3D e di computer graphics, simulatori, applicazioni di realtà virtuale e aumentata, videogiochi, 
+  piattaforme cloud e soluzioni basate su Intelligenza Artificiale.
+
+- L'attività comprende analisi dei requisiti, progettazione architetturale, sviluppo software, 
+  integrazione con sistemi e dispositivi di terze parti, manutenzione evolutiva, 
+  consulenza tecnica e ricerca e sviluppo. 
+  
+- I progetti vengono realizzati sia come commesse complete sia attraverso consulenza specialistica 
+  all'interno dei team del cliente.
+
+- Vectorlab opera in diversi settori, tra cui healthcare, difesa, robotica, industria, formazione,
+  gaming, entertainment, lusso e ricerca, sviluppando soluzioni su misura in funzione delle esigenze
+  specifiche di ciascun cliente.
+  
+- L'azienda adotta un approccio tecnologicamente indipendente: 
+  linguaggi, framework, motori grafici, servizi cloud e modelli di Intelligenza Artificiale 
+  vengono selezionati esclusivamente in base ai requisiti tecnici e funzionali del progetto, 
+  senza dipendere da specifici vendor.
+  
+- Oltre alle attività conto terzi, Vectorlab investe nello sviluppo di tecnologie e prodotti proprietari,
+  con particolare attenzione ai sistemi basati su Intelligenza Artificiale, Large Language Models, 
+  computer graphics e applicazioni realtime.
+  
+- L'azienda dedica inoltre parte delle proprie risorse ad attività di ricerca e sviluppo, 
+  alla sperimentazione di nuove tecnologie e alla realizzazione di componenti software riutilizzabili.
+  
+- Il processo di sviluppo è iterativo e collaborativo e prevede il coinvolgimento 
+  continuo del cliente durante tutte le fasi del progetto, dalla definizione dei requisiti 
+  fino al rilascio e alla manutenzione del software.
