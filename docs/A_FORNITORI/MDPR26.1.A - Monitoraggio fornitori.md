@@ -4,7 +4,7 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>CDA</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>Amministratore Unico</td><td>Interno</td></tr>
 </table>
 
 ## Qualifica iniziale
@@ -118,16 +118,16 @@
 <tr><td>12.4.4</td><td>Informazioni relative a sincronizzazione data e ora</td><td></td><td></td><td></td></tr>
 <tr><td>CLD 12.4.5</td><td>Funzionalità di monitoraggio del servizio</td><td></td><td></td><td></td></tr>
 <tr><td>12.6.1</td><td>Gestione delle vulnerabilità tecniche da parte del provider</td><td></td><td></td><td></td></tr>
-<tr><td>13.1.3</td><td>Accettabilità delle specifiche infrastrutturali del servizio in relazione a quanto previsto da NOME AZIENDA</td><td></td><td></td><td></td></tr>
-<tr><td>14.1.1</td><td>Accettabilità delle specifiche di sicurezza del servizio in relazione a quanto previsto da NOME AZIENDA</td><td></td><td></td><td></td></tr>
-<tr><td>14.2.1</td><td>Utilizzo di politiche di sicurezza da parte del Provider conformi con quanto utilizzato da NOME AZIENDA</td><td></td><td></td><td></td></tr>
-<tr><td>15.1.2</td><td>Conformità delle attività volte alla sicurezza delle informazioni da parte del Provider con quanto definito da NOME AZIENDA, misurato tramite metriche</td><td></td><td></td><td></td></tr>
+<tr><td>13.1.3</td><td>Accettabilità delle specifiche infrastrutturali del servizio in relazione a quanto previsto da Vectorlab</td><td></td><td></td><td></td></tr>
+<tr><td>14.1.1</td><td>Accettabilità delle specifiche di sicurezza del servizio in relazione a quanto previsto da Vectorlab</td><td></td><td></td><td></td></tr>
+<tr><td>14.2.1</td><td>Utilizzo di politiche di sicurezza da parte del Provider conformi con quanto utilizzato da Vectorlab</td><td></td><td></td><td></td></tr>
+<tr><td>15.1.2</td><td>Conformità delle attività volte alla sicurezza delle informazioni da parte del Provider con quanto definito da Vectorlab, misurato tramite metriche</td><td></td><td></td><td></td></tr>
 <tr><td>16.1.1</td><td>Definizione di responsabilità del Provider in caso di incidente relativo al servizio cloud erogato</td><td></td><td></td><td></td></tr>
-<tr><td>16.1.2</td><td>Presenza di canale di comunicazione tra Provider e NOME AZIENDA</td><td></td><td></td><td></td></tr>
+<tr><td>16.1.2</td><td>Presenza di canale di comunicazione tra Provider e Vectorlab</td><td></td><td></td><td></td></tr>
 <tr><td>16.1.7</td><td>Presenza di procedure per la comunicazione di evidenze digitali a scopo forense</td><td></td><td></td><td></td></tr>
 <tr><td>18..1.1</td><td>Conformità del Provider agli standard di business in cloud</td><td></td><td></td><td></td></tr>
 <tr><td>18.1.3</td><td>Informazioni sulla protezione dei dati salvati sul servizio cloud rilevanti ai fini dell&#x27;utilizzo del servizio stesso</td><td></td><td></td><td></td></tr>
-<tr><td>18.1.5</td><td>Rispetto, da parte del Provider, degli eventuali requisiti crittografici definiti da NOME AZIENDA</td><td></td><td></td><td></td></tr>
+<tr><td>18.1.5</td><td>Rispetto, da parte del Provider, degli eventuali requisiti crittografici definiti da Vectorlab</td><td></td><td></td><td></td></tr>
 <tr><td>18.2.1</td><td>Rispondenza a requisiti di sicurezza delle informazioni, ad esempio verificando presenza di certificazione o linee guida cloud adottate</td><td></td><td></td><td></td></tr>
 </table>
 

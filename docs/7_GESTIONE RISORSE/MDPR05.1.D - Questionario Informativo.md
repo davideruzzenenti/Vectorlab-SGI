@@ -33,7 +33,7 @@
 <p>HR</p>
 </blockquote></td>
 <td><blockquote>
-<p>CDA</p>
+<p>Amministratore Unico</p>
 </blockquote></td>
 </tr>
 <tr class="odd">
@@ -909,7 +909,7 @@
 </tbody>
 </table>
 
-> Il personale Vectolab presente al colloquio dichiara che l’intervista
+> Il personale Vectorlab presente al colloquio dichiara che l’intervista
 > è stata condotta senza porre domande inopportune o invadenti della
 > sfera privata dell’intervistata o intervistato che potessero creare
 > disagio o imbarazzo.

@@ -503,7 +503,7 @@ causato da un prodotto chimico.
 
 # Telefoni ed indirizzi di strutture pubbliche di Pronto Intervento e Soccorso
 
-| **SQUADRA EMERGENZA NOME AZIENDA** |                 |
+| **SQUADRA EMERGENZA VECTORLAB** |                 |
 | ---------------------------------- | --------------- |
 | **Nome Cognome**                   | **n. telefono** |
 |                                    |                 |

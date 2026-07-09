@@ -7,9 +7,8 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: adattamento del template al contesto cloud-first (risorse AWS/Aruba/Google Workspace, valori in EUR); rimozione di esempi server-room e placeholder | RSGI | Amministratore Unico |
 |          |            |                 |             |               |
 
 # 
@@ -25,7 +24,8 @@ soglie e il servizio ne risenta.
 # Scopo
 
 Questo documento rappresenta il Piano di Capacità per il servizio
-erogato da Vectorlab nel periodo di 12 mesi a partire da mm/aaaa. Esso
+erogato da Vectorlab nel periodo di 12 mesi a partire dalla data di
+emissione. Esso
 tiene conto delle richieste future dei Clienti e le bilancia con
 l'attuale utilizzo dei vari componenti del servizio, al fine di arrivare
 a un piano di azione consigliato per garantire che il servizio sia
@@ -69,23 +69,19 @@ capacità del servizio nel periodo considerato.
 Si prevede che le seguenti modifiche avranno un impatto sulla capacità
 da fornire nei prossimi 12 mesi:
 
-  - L'implementazione di un nuovo sistema
+  - avvio di nuovi progetti/commesse con nuovi ambienti applicativi su
+    AWS;
 
-  - Importanti vittorie aziendali previste come provider di servizi
-    cloud (solo CSP)
+  - crescita del numero di servizi/container in produzione;
 
-  - L'espansione del lavoro mobile
+  - variazioni dell’organico (nuove assunzioni) con impatto su licenze
+    Google Workspace e postazioni;
 
-  - Ulteriore estensione del sistema esistente ad altri reparti
+  - sviluppo di prodotti proprietari e attività di R\&S ad alto uso di
+    risorse di calcolo (es. workload AI/GPU).
 
-  - Vari traslochi di uffici – il numero di utenti non cambierà ma ci
-    sarà una maggiore concentrazione di utenti negli uffici più grandi.
-    Questi uffici ei collegamenti dati tra di essi sono stati
-    dimensionati per far fronte a questo aumento.
-
-  - XXXX
-
-Ognuno di questi problemi può avere un impatto su XXX
+Ciascuno di questi elementi può avere un impatto sulla capacità delle
+risorse cloud e sui relativi costi.
 
 # Tendenze
 
@@ -125,31 +121,40 @@ fronte ai cambiamenti previsti.
 <td><strong>PRIORITÀ</strong></td>
 </tr>
 <tr class="even">
-<td>&lt;server name&gt;</td>
-<td>Live Database Server</td>
-<td>&lt;service name&gt;</td>
-<td>CPU – Above threshold</td>
-<td>15% increase due to rollout of app to further departments</td>
-<td>Add third processor</td>
-<td>Medium</td>
+<td>AWS (ECS/EC2)</td>
+<td>Ambiente di produzione container applicativi</td>
+<td>Servizi back-end erogati ai clienti</td>
+<td>da compilare</td>
+<td>da compilare</td>
+<td>Scale-up/scale-out del servizio (tier successivo)</td>
+<td>da compilare</td>
 </tr>
 <tr class="odd">
-<td>HOTBAK1</td>
-<td>Hot Backup server</td>
-<td>[XYZ]</td>
-<td>DISK – at threshold</td>
-<td>10% increase due to need to provide 99.9% availability</td>
-<td>Add 5 further disks to the set</td>
-<td>High</td>
+<td>AWS (S3/EFS)</td>
+<td>Storage dati applicativi e backup</td>
+<td>Conservazione dati e backup</td>
+<td>da compilare</td>
+<td>da compilare</td>
+<td>Adeguamento dello spazio/tier</td>
+<td>da compilare</td>
 </tr>
 <tr class="even">
-<td>Cloud Service 1</td>
-<td>Cloud CRM system</td>
-<td>CRM</td>
-<td>High</td>
-<td>30% increase in number of transactions</td>
-<td>Upgrade account to next tier of charging</td>
-<td>High</td>
+<td>Server Aruba</td>
+<td>Infrastruttura specifica gestita in IaC (incl. Bitwarden)</td>
+<td>Servizi interni</td>
+<td>da compilare</td>
+<td>da compilare</td>
+<td>Adeguamento risorse del server</td>
+<td>da compilare</td>
+</tr>
+<tr class="odd">
+<td>Google Workspace</td>
+<td>Postazioni/licenze utente</td>
+<td>Collaborazione e posta</td>
+<td>da compilare</td>
+<td>Variabile con l’organico</td>
+<td>Adeguamento numero licenze</td>
+<td>da compilare</td>
 </tr>
 </tbody>
 </table>
@@ -170,11 +175,11 @@ individuati i seguenti potenziamenti del servizio.
 <td><strong>COSTI</strong></td>
 </tr>
 <tr class="even">
-<td>Cloud Service 1</td>
-<td>From 25,000 to 50,000 transactions</td>
-<td>25,000 transactions</td>
-<td>1 month</td>
-<td>£XX,XXX</td>
+<td>AWS (servizio applicativo)</td>
+<td>Passaggio al tier successivo</td>
+<td>da compilare</td>
+<td>da compilare</td>
+<td>€ da compilare</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -195,15 +200,12 @@ individuati i seguenti potenziamenti del servizio.
 
 # Impatto delle nuove tecnologie
 
-Aumento dell'uso della virtualizzazione dei server come mezzo per
-consolidare diversi server fisici su un numero inferiore di piattaforme
-e fornire maggiore flessibilità nell'utilizzo delle risorse. Questo
-processo richiederà un'attenta valutazione delle implicazioni in termini
-di capacità.
-
-XXXXXX
-
-XXXXXX
+L’adozione di servizi cloud gestiti e di container (AWS, server Aruba in
+IaC) consente di adeguare dinamicamente le risorse in funzione della
+domanda, riducendo la necessità di sovradimensionamento. L’eventuale
+introduzione di workload ad alto uso di calcolo (es. GPU per attività
+AI/computer graphics) richiederà un’attenta valutazione delle
+implicazioni in termini di capacità e costi.
 
 # Altre raccomandazioni
 
@@ -213,9 +215,9 @@ raccomandazioni aggiuntive:
 1.  Gli aggiornamenti elencati nella Tabella 2 devono essere acquistati
     nei tempi indicati
 
-2.  Dovrebbe essere intrapresa una revisione degli strumenti in grado di
-    fornire informazioni sull'utilizzo di WAN e LAN al fine di
-    identificare una soluzione conveniente
+2.  Dovrebbe essere mantenuto il monitoraggio dei consumi delle risorse
+    cloud (dashboard AWS CloudWatch e console Aruba/Google Workspace)
+    per individuare tempestivamente scostamenti e ottimizzare i costi
 
 3.  I servizi aggiuntivi dovrebbero essere incorporati in questo piano
-    il prima possibile, ad es. XXX
+    il prima possibile (ad esempio nuovi servizi cloud attivati)

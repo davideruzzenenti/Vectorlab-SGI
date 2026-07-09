@@ -7,7 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | CISO        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -489,7 +489,7 @@ una violazione dei dati diventa evidente, ed è tradotto dal “Guidelines
 on Personal Data Breach notification under Regulation 2016/679”, rev.
 06/02/2018 dal Gruppo di Lavoro “Articolo 29”.
 
-![](/sessions/intelligent-magical-einstein/mnt/Conversione%20ISO/MD-output/Master/A_EVENTI%20&%20INCIDENTI/PO27%20-%20Gestione%20Eventi%20e%20Incidenti/media/image1.png)
+![](PO27%20-%20Gestione%20Eventi%20e%20Incidenti/media/image1.png)
 
 *Figura 1 - Diagramma di flusso che indica obblighi di notifica*
 

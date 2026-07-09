@@ -3,7 +3,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 00       | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 00       | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -136,7 +136,7 @@
 </tr>
 <tr class="even">
 <td>Welfare e fondo sanitario</td>
-<td><p>[NXT] Nextage SGI - Pubblicato\C_DOCUMENTI ORIGINE ESTERNA\Regolamenti:</p>
+<td><p>Vectorlab-SGI\C_DOCUMENTI ORIGINE ESTERNA\Regolamenti:</p>
 <p>Fondo sanitario ………………………………</p>
 <p>Welfare ………………………………………...</p></td>
 <td>HR</td>

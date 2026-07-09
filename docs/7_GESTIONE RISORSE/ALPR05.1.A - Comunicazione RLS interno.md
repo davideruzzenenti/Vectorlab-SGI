@@ -12,7 +12,7 @@
 
 **COMUNICAZIONE** **RAPPRESENTANTE DELLA SICUREZZA DEI LAVORATORI**
 
-Con la presente Vectolab S.r.l. con sede in Piazza Borgo Pila 39, 16129
+Con la presente Vectorlab S.r.l. con sede in Piazza Borgo Pila 39, 16129
 Genova, P.IVA e C.F. 02830460990, nella persona del suo legale
 rappresentante pro tempore Andrea Ruzzenenti,
 

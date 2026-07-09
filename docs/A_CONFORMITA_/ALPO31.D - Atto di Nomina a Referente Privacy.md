@@ -231,7 +231,7 @@ Titolare nelle seguenti attività:
 
   - non utilizzare le stesse credenziali (username e password) per
     l’accesso ai diversi servizi online (es. Posta elettronica
-    dell’Associazione, Facebook, Home banking, Posta elettronica
+    aziendale, Facebook, Home banking, Posta elettronica
     personale, ecc.);
 
   - conservare eventuali supporti magnetici rimovibili utilizzati nel

@@ -84,7 +84,7 @@
 > Il presente documento è stato redatto seguendo le indicazioni
 > derivanti dalle seguenti fonti:
 
-  - > standard internazionale ISO/IEC 27001:2013;
+  - > standard internazionale ISO/IEC 27001:2022;
 
   - > linee guida sull’uso della posta elettronica ed internet emanate
     > con la delibera n. 13 del 1° marzo 2007 (doc. web n. 1387522) del

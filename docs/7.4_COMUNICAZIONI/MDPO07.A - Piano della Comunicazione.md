@@ -43,7 +43,7 @@
 <tr><td>Titolare</td><td>Autorità di vigilanza</td><td>Data Breach</td><td>Esterna</td><td>Modulo di notifica spedito via PEC</td><td>In caso di violazione dei dati personali con rischio elevato  per i diritti e le libertà degli interessati  ENTRO 72 ore</td><td>xxx</td></tr>
 <tr><td>Titolare</td><td>Interessati</td><td>Data Breach</td><td>Esterna/Interna</td><td>Notifica via e-mail</td><td>In caso di violazione dei dati personali con rischio elevato  per i diritti e le libertà degli interessati</td><td>xxx</td></tr>
 <tr><td>Personale</td><td>Referente Privacy</td><td>Richiesta informazioni/supporto su tematiche relativa alla protezione dei dati personali</td><td>Interna</td><td>E-mail:<br>xxxxxx</td><td>Occorrenza</td><td>xxx</td></tr>
-<tr><td>Clienti</td><td>CDA</td><td>Comunicazioni di natura legale</td><td>Esterna</td><td>Iscritto ed inviate a mezzo fax e confermate tramite lettera raccomandata con ricevuta di ritorno</td><td>Occorrenza</td><td>xxx</td></tr>
+<tr><td>Clienti</td><td>Amministratore Unico</td><td>Comunicazioni di natura legale</td><td>Esterna</td><td>Per iscritto a mezzo PEC</td><td>Occorrenza</td><td>xxx</td></tr>
 <tr><td>Clienti</td><td>xxx</td><td>Reclami</td><td>Esterna</td><td>E-mail</td><td>Occorrenza</td><td>xxx</td></tr>
 <tr><td>xxx</td><td>Cliente/Utente</td><td>Disservizio (anche a seguito di scenario di crisi)</td><td>Esterna</td><td>Email</td><td>Occorrenza</td><td>xxx</td></tr>
 <tr><td>HR</td><td>Personale</td><td>Attivazione modalità di lavoro Agile</td><td>Interna</td><td>Email</td><td>Occorrenza</td><td>xxx</td></tr>

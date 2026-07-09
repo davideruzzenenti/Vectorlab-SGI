@@ -3,7 +3,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | HR          | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -20,7 +20,7 @@ della legge 22 maggio 2017 n. 81)**
 
 **AVVERTENZE GENERALI**
 
-Si informano i lavoratori di Vectolab degli obblighi e dei diritti
+Si informano i lavoratori di Vectorlab degli obblighi e dei diritti
 previsti dalla legge del 22 maggio 2017 n. 81 e dal decreto legislativo
 del 9 aprile 2008 n. 81.
 

@@ -1,7 +1,7 @@
 # ALPR31.2.D - Informativa Privacy Fornitori
 
 **Informativa ex art. 13 Regolamento UE 2016/679 per il Trattamento dei
-Dati Personali dei fornitori di NOME AZIENDA**
+Dati Personali dei fornitori di Vectorlab SRL**
 
 La informiamo che, ai sensi del Regolamento UE 2016/679 (infra:
 “**Regolamento**”) e del D.lgs. 196/2003 (Codice in materia di
@@ -44,7 +44,7 @@ autorizzati ai dati personali.
 
 Il trattamento dei dati personali avverrà, per le finalità di seguito
 descritte, in conformità alla vigente normativa in materia di Privacy,
-pertanto NOME AZIENDA si impegna a trattarli secondo i principi di
+pertanto Vectorlab SRL si impegna a trattarli secondo i principi di
 correttezza, liceità, trasparenza, nel rispetto delle finalità di
 seguito indicate, raccogliendoli nella misura necessaria ed esatta per
 il trattamento, utilizzandoli solo da personale allo scopo autorizzato.
@@ -112,9 +112,9 @@ all’art. 5, par. 1, lett. c) del GDPR, o comunque è il periodo previsto
 da specifici obblighi legali o dalla normativa applicabile.
 
 In ogni caso, poiché tali dati sono trattati in funzione del contratto,
-NOME AZIENDA potrà conservarli per un periodo maggiore, in particolare
+Vectorlab SRL potrà conservarli per un periodo maggiore, in particolare
 per quanto possa essere necessario al fine di proteggere gli interessi
-di NOME AZIENDA in caso di possibili controversie e contenziosi relativi
+di Vectorlab SRL in caso di possibili controversie e contenziosi relativi
 al contratto.
 
 **I suoi diritti**
@@ -136,6 +136,6 @@ controllo competente (Garante per la Protezione dei Dati Personali), ai
 sensi dell'art. 77 del Regolamento, qualora ritenga che il trattamento
 dei suoi Dati Personali sia contrario alla normativa in vigore.
 
-> NOME AZIENDA
+> Vectorlab SRL
 
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

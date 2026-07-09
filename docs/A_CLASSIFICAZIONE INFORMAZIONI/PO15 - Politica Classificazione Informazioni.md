@@ -7,7 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -87,7 +87,7 @@ dovere di agire in conformità con quanto definito in questo documento.
 > Anonimizzazione - Operazione di de-identificazione mirata a
 > trasformare irreversibilmente i dati personali in dati anonimi
 
-> CDA – Consiglio di Amministrazione
+> CDA – Funzioni dell'organo di amministrazione, esercitate dall'Amministratore Unico (società a socio unico e amministratore unico)
 
 > DLP – Data Loss Prevention
 
@@ -330,7 +330,7 @@ livello di classificazione è definito come segue:
 <tr class="odd">
 <td>CONFIDENZIALE</td>
 <td><p>Informazioni riservate solo al personale autorizzato e al personale di Terze Parti autorizzate con cui sussistono accordi contrattuali e NDA.</p>
-<p>Ad esempio: verbali di CDA, documentazione di progetto, ecc.</p></td>
+<p>Ad esempio: verbali/decisioni dell'Amministratore Unico, documentazione di progetto, ecc.</p></td>
 </tr>
 </tbody>
 </table>

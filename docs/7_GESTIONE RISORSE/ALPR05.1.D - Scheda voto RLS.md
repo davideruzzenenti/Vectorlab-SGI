@@ -8,7 +8,7 @@
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
-Indicare di seguito il nominativo del dipendente di Nextage S.r.l. che
+Indicare di seguito il nominativo del dipendente di Vectorlab S.r.l. che
 si vuole voltare come Responsabile dei Lavoratori per la Sicurezza (RLS)
 
 NOME:

@@ -15,7 +15,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -630,7 +630,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Clienti potenziali</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comitato Direzionale</p>
+<p>Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Comunità</p>
@@ -680,7 +680,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Input</td>
 <td><ul>
 <li><blockquote>
-<p>Notizie ricevute dal CDA e CEO</p>
+<p>Notizie ricevute dalla Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Progetti di ricerca</p>
@@ -752,7 +752,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Clienti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comitato Direzionale</p>
+<p>Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Comunità</p>
@@ -2357,7 +2357,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Digital</p>
 </blockquote></li>
 <li><blockquote>
-<p>CDA</p>
+<p>Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Enti e Autorità</p>

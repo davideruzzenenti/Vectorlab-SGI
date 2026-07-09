@@ -199,7 +199,7 @@ distinto.
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce in accordo con il CDA le strategie per lo sviluppo commerciale</p>
+<p>Definisce in accordo con la Direzione (Amministratore Unico) le strategie per lo sviluppo commerciale</p>
 </blockquote></li>
 <li><blockquote>
 <p>Partecipa alla bozza di budget relativa ai componenti commerciali</p>
@@ -208,7 +208,7 @@ distinto.
 <p>Gestisce le attività di controllo dei progetti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Controlla la fatturazione mensile (approvazione e fatturazione) in rappresentanza del CDA</p>
+<p>Controlla la fatturazione mensile (approvazione e fatturazione) in rappresentanza dell'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Definisce nuovi finanziamenti (previsioni, piano di ammortamento)</p>
@@ -324,14 +324,14 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>BOARD OF DIRECTOR</strong></td>
+<td><strong>DIREZIONE</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Rappresentante Legale dell’Azienda con poteri di firma e di delega espressa dal Consiglio di Amministrazione</p>
+<p>Rappresentante Legale dell’Azienda con poteri di firma e di delega propri dell'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Definisce le strategie di business, commerciale e di indirizzamento tecnologico a breve e medio termine</p>
@@ -382,7 +382,7 @@ distinto.
 <p>Definisce la fattibilità per partecipazione a bandi di gara e successiva gestione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riporta direttamente al CDA</p>
+<p>Riporta direttamente all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -433,7 +433,7 @@ distinto.
 <p>Promuove l’azienda nelle relazioni con Associazioni, consorzi, istituzioni</p>
 </blockquote></li>
 <li><blockquote>
-<p>Approva il bilancio preventivo e prepara le note periodiche da presentare al Consiglio di Amministrazione</p>
+<p>Approva il bilancio preventivo e prepara le note periodiche da sottoporre all'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Collabora alla stesura delle proposte tecniche e delle offerte economiche per i servizi strategici della Società</p>
@@ -463,7 +463,7 @@ distinto.
 <p>Supporta la preparazione, elaborazione e chiusura dei rendiconti finanziari statutari (in collaborazione con Amministrazione)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Progetta i report finanziari da portare in CdA (anche con il supporto della Governance)</p>
+<p>Progetta i report finanziari da sottoporre all'Amministratore Unico (anche con il supporto della Governance)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Definisce i costi di capitalizzazione sul bilancio</p>
@@ -498,7 +498,7 @@ distinto.
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Autorizzazioni descritte nel Consiglio di Amministrazione come suo componente</p>
+<p>Autorizzazioni esercitate direttamente in qualità di Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Rappresentare l’azienda in qualunque tipo di evento</p>
@@ -528,14 +528,14 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>BOARD OF DIRECTOR</strong></td>
+<td><strong>DIREZIONE</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce e implementa lo sviluppo e la gestione delle strategie di Delivery in accordo con il CDA</p>
+<p>Definisce e implementa lo sviluppo e la gestione delle strategie di Delivery in accordo con la Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Definisce le strategie di crescita dell'offerta tecnologica</p>
@@ -553,7 +553,7 @@ distinto.
 <p>Revisiona ed approva i regolamenti interni della propria direzione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce direttamente al CDA</p>
+<p>Riferisce direttamente all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -672,14 +672,14 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>BOARD OF DIRECTOR</strong></td>
+<td><strong>DIREZIONE</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Riferisce direttamente al CDA</p>
+<p>Riferisce direttamente all'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Sviluppa una strategia aziendale perché i beni d'informazione e le tecnologie aziendali siano adeguatamente protetti</p>
@@ -776,7 +776,7 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>BOARD OF DIRECTOR</strong></td>
+<td><strong>DIREZIONE</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
@@ -792,7 +792,7 @@ distinto.
 <p>Garantisce l’applicazione del Sistema da parte di tutto lo staff, effettuando sessioni periodiche di formazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riporta direttamente al CDA</p>
+<p>Riporta direttamente all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -834,7 +834,7 @@ distinto.
 <p>Assicura che i processi necessari per il sistema di gestione per la sicurezza delle informazioni, qualità sia predisposto, attuato, monitorato e tenuto aggiornato</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce al CdA sulle prestazioni dei sistemi di gestione implementati e in merito a ogni esigenza per il miglioramento</p>
+<p>Riferisce all'Amministratore Unico sulle prestazioni dei sistemi di gestione implementati e in merito a ogni esigenza per il miglioramento</p>
 </blockquote></li>
 <li><blockquote>
 <p>Gestisce periodicamente la formazione del personale aziendale sui contenuti dei sistemi di gestione e supporta HR Director nell’identificazione del fabbisogno formativo su tali tematiche</p>
@@ -1158,7 +1158,7 @@ distinto.
 <p>Opera nelle proprie mansioni in base a indicazioni ricevute a livello superiore</p>
 </blockquote></li>
 <li><blockquote>
-<p>Fornisce un regolare e periodico aggiornamento delle proprie attività verso il CTO e CDA</p>
+<p>Fornisce un regolare e periodico aggiornamento delle proprie attività verso il CTO e la Direzione (Amministratore Unico)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Esegue le attività di manutenzione ordinaria e straordinaria sull’hardware in uso nell’azienda</p>
@@ -1413,14 +1413,14 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>BOARD OF DIRECTOR</strong></td>
+<td><strong>DIREZIONE</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce con il CdA e implementa tutte le strategie relative allo staff</p>
+<p>Definisce con la Direzione (Amministratore Unico) e implementa tutte le strategie relative allo staff</p>
 </blockquote></li>
 <li><blockquote>
 <p>Coordina la gestione dell’archiviazione dei CV e dei profili professionali interni ed esterni</p>
@@ -1435,7 +1435,7 @@ distinto.
 <p>Revisiona ed approva i regolamenti interni della propria direzione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce direttamente al Consiglio di amministrazione</p>
+<p>Riferisce direttamente all'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Gestisce il processo disciplinare</p>
@@ -1510,7 +1510,7 @@ distinto.
 <p>Mantiene i rapporti con i consulenti del lavoro</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riporta periodicamente gli indicatori di performance in base alle precise politiche del CDA</p>
+<p>Riporta periodicamente gli indicatori di performance in base agli indirizzi dell'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Raccoglie le evidenze e la documentazione a supporto della gestione delle violazioni disciplinare avvalendosi di altre figure interne all’azienda</p>
@@ -1861,7 +1861,7 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>ELT</strong></td>
+<td><strong>AREA INNOVATION</strong></td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
@@ -2354,7 +2354,7 @@ Qualora possibile, Vectorlab cerca quindi di garantire che:
     > informatiche) siano indipendenti dalle altre funzioni; questo per
     > evitare che le scelte siano basate solo sul parametro
     > dell'efficienza; idealmente, i responsabili della sicurezza
-    > dipendono direttamente dalla Direzione (CDA);
+    > dipendono direttamente dalla Direzione (Amministratore Unico);
 
   - > la funzione IT non dipenda da altre funzioni dell'organizzazione
     > utilizzatrici dei sistemi informatici, perché queste tendono a

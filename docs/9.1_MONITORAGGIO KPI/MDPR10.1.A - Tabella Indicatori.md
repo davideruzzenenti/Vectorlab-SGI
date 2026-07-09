@@ -4,7 +4,7 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>CDA</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>Amministratore Unico</td><td>Interno</td></tr>
 </table>
 
 ## Indicatori

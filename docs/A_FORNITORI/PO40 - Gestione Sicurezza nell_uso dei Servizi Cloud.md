@@ -7,7 +7,7 @@ Politica Gestione Sicurezza nell’uso dei Servizi Cloud
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | CISO        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |

@@ -114,7 +114,7 @@ ed altre norme applicabili
 
 **PREMESSO in fatto**
 
-  - che VectorlabSRL (P.IVA 02830460990) con sede in Genova – Piazza
+  - che Vectorlab SRL (P.IVA 02830460990) con sede in Genova – Piazza
     Borgo Pila 39/22 è Titolare del trattamento dei dati personali di
     lavoratori, clienti, fornitori, terzi, effettuati anche mediante
     strumenti elettronici;

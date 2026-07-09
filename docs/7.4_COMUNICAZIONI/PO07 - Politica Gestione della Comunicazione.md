@@ -62,7 +62,7 @@ paragrafi seguenti.
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
 
-CDA - Consiglio di Amministrazione
+CDA - Funzioni dell'organo di amministrazione, esercitate dall'Amministratore Unico (società a socio unico e amministratore unico)
 
 RSGI – Responsabile Sistema di Gestione Integrato
 

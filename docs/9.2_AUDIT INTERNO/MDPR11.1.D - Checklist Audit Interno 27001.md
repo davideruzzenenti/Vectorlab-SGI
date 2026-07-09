@@ -90,7 +90,7 @@
 </tr>
 <tr class="even">
 <td></td>
-<td>Has the organization established, implemented, maintained and continually improve an ISMS, including the process needed and their interactions, according to ISO/IEC 27001:2013 requirements?</td>
+<td>Has the organization established, implemented, maintained and continually improve an ISMS, including the process needed and their interactions, according to ISO/IEC 27001:2022 requirements?</td>
 <td></td>
 <td></td>
 <td></td>
@@ -470,7 +470,7 @@
 </tr>
 <tr class="odd">
 <td></td>
-<td>Does ISMS include documented information required by ISO/IEC 27001:2013 and determined by organizations as being necessary for the effectiveness of ISMS?</td>
+<td>Does ISMS include documented information required by ISO/IEC 27001:2022 and determined by organizations as being necessary for the effectiveness of ISMS?</td>
 <td></td>
 <td></td>
 <td></td>
@@ -649,7 +649,7 @@
 </tr>
 <tr class="even">
 <td></td>
-<td>Has the organization conducted internal audits at planned intervals to provide information on whether the ISMS conforms to the organization’s own requirements, the requirements of ISO/IEC 27001:2013, is effectively implemented and maintained?</td>
+<td>Has the organization conducted internal audits at planned intervals to provide information on whether the ISMS conforms to the organization’s own requirements, the requirements of ISO/IEC 27001:2022, is effectively implemented and maintained?</td>
 <td></td>
 <td></td>
 <td></td>

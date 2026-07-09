@@ -5,7 +5,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -109,7 +109,7 @@ alle seguenti misure:
 
   - **casi e modalità con cui è possibile risolvere il Contratto prima
     della sua naturale scadenza:** salvo ed impregiudicato ogni altro
-    rimedio di legge e di Contratto, NOME AZIENDA avrà il diritto di
+    rimedio di legge e di Contratto, Vectorlab SRL avrà il diritto di
     risolvere il Contratto con effetto immediato, senza necessità di
     preavviso, a mezzo di comunicazione scritta in tal senso inviata al
     Fornitore con lettera raccomandata con ricevuta di ritorno o PEC in

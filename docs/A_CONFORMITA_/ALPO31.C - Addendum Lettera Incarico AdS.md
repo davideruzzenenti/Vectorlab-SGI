@@ -26,7 +26,7 @@ Nomina la S.V Nome Cognome
 
 # Quale incaricato per il Trattamento per la sicurezza dei dati e Amministratore di Sistema per il cliente XXXX.
 
-Ai sensi dell’art. 28 del Regolamento EU 697/2016 e delle intese
+Ai sensi dell’art. 28 del Regolamento EU 679/2016 e delle intese
 intercorse, e nell’ambito dell’incarico professionale (contratto d’opera
 e di servizi) assegnato, Vi comunichiamo la nomina quale addendum a
 responsabile del trattamento per la gestione dei dati e/o dei sistemi

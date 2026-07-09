@@ -16,7 +16,7 @@ Revisioni
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | HR          | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: allineato il ruolo RSPP alla realtà aziendale; corretti riferimenti a un dominio email non aggiornato | HR          | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -84,7 +84,7 @@ ALPO01.A – Organigramma
 
 # Definizioni, Acronimi, Abbreviazioni
 
-> CDA – Consiglio Di Amministrazione
+> CDA – Funzioni dell'organo di amministrazione, esercitate dall'Amministratore Unico (società a socio unico e amministratore unico)
 
 > Data Breach – Violazione dati personali
 

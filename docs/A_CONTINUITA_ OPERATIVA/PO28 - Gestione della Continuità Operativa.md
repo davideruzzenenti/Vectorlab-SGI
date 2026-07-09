@@ -7,7 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | CDA           |
+| 0.0      | 24/04/2026 | Prima emissione | CISO        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -201,7 +201,7 @@ l’organizzazione.
 
 ![Immagine che contiene schermata, Diagramma, Carattere, diagramma
 Descrizione generata
-automaticamente](/sessions/intelligent-magical-einstein/mnt/Conversione%20ISO/MD-output/Master/A_CONTINUITA_%20OPERATIVA/PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image1.png)
+automaticamente](PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image1.png)
 
 Il valore di RPO è strettamente legato alla struttura informatica, in
 quanto, salvo in rarissime eccezioni, il dato è al 99,99% su struttura
@@ -215,7 +215,7 @@ immagine:
 
 ![Immagine che contiene diagramma, schermata, origami, design
 Descrizione generata
-automaticamente](/sessions/intelligent-magical-einstein/mnt/Conversione%20ISO/MD-output/Master/A_CONTINUITA_%20OPERATIVA/PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image2.jpg)
+automaticamente](PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image2.jpg)
 
 # Business Impact Analysis
 
@@ -419,7 +419,7 @@ raggruppate in 5 fasi; ogni fase rappresenta un passo nel piano di
 ripresa delle operazioni.
 
 ![Immagine che contiene diagramma Descrizione generata
-automaticamente](/sessions/intelligent-magical-einstein/mnt/Conversione%20ISO/MD-output/Master/A_CONTINUITA_%20OPERATIVA/PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image3.png)
+automaticamente](PO28%20-%20Gestione%20della%20Continuità%20Operativa/media/image3.png)
 
 1)  **Fase 1 – Prima risposta e valutazione:** intraprendere ogni azione
     immediata a seguito di un incidente, valutare l’impatto
