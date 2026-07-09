@@ -217,7 +217,7 @@ quanto a Vectorlab:
 
 Indirizzo: Piazza Borgo Pila 39/22, 16129 Genova
 
-PEC: [XXXXXX](mailto:nextage@pec.it)
+PEC: [vectorlab@pec.it](mailto:vectorlab@pec.it) *(verificare indirizzo PEC effettivo prima dell’uso)*
 
 quanto a **YYY**:
 

@@ -9,8 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito il rapporto CDA/Amministratore Unico; aggiunte le schede RSPP, Referente Privacy e Responsabile di Area, citate in altre procedure ma prive di scheda propria | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -49,6 +48,12 @@ assicurano l'integrità dei processi e la sicurezza indipendentemente
 dalla coincidenza delle persone fisiche.
 
 ### 2.1 Board of Directors (BOD – CDA)
+
+Nota: coerentemente con la forma societaria di Vectorlab (società a
+socio unico e amministratore unico), le funzioni descritte in questa
+scheda sono esercitate dall'Amministratore Unico, che agisce come
+organo di governo della società; non è presente un organo collegiale
+distinto.
 
 <table>
 <thead>
@@ -2135,6 +2140,196 @@ dalla coincidenza delle persone fisiche.
 </tr>
 </tbody>
 </table>
+
+### 2.16 Responsabile del Servizio di Prevenzione e Protezione (RSPP)
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Responsabile del Servizio di Prevenzione e Protezione (RSPP)</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FUNZIONE</strong></td>
+<td><strong>SICUREZZA SUL LAVORO</strong></td>
+</tr>
+<tr class="even">
+<td><p><strong>RESPONSABILITÀ</strong></p>
+<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
+<td><ul>
+<li><blockquote>
+<p>Individua e valuta i fattori di rischio e le misure per la sicurezza e la salubrità degli ambienti di lavoro, in conformità al D.Lgs. 81/08</p>
+</blockquote></li>
+<li><blockquote>
+<p>Elabora, per quanto di competenza, le misure preventive e protettive e i sistemi di controllo di tali misure</p>
+</blockquote></li>
+<li><blockquote>
+<p>Propone i programmi di informazione e formazione dei lavoratori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipa alle consultazioni in materia di tutela della salute e sicurezza sul lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riferisce al Datore di Lavoro</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPETENZE</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Possesso dei requisiti di cui all’art. 32 D.Lgs. 81/08 e della formazione specifica prevista per il/i modulo/i di rischio del settore ATECO aziendale, con relativi aggiornamenti periodici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Conoscenza approfondita del D.Lgs. 81/08 e della normativa di settore</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>ANNI DI ESPERIENZA</strong></td>
+<td><ul>
+<li><blockquote>
+<p>N.A.</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPITI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Elabora, redige e aggiorna il Documento di Valutazione dei Rischi (DVR) insieme al Datore di Lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipa alla riunione periodica di prevenzione e protezione dai rischi (art. 35 D.Lgs. 81/08)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Collabora con il Medico Competente e con RLS</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Nessuna</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Il ruolo non è compatibile con quello di RLS (i due ruoli devono essere ricoperti da persone diverse), coerentemente con quanto previsto alla scheda “Health and Safety Representative (HSR – RLS)”</p>
+</blockquote></li>
+<li><blockquote>
+<p>In Vectorlab il ruolo è ricoperto internamente ai sensi dell’art. 34 D.Lgs. 81/08 (RSPP interno, anche coincidente con il Datore di Lavoro nei casi consentiti dalla norma), previa frequenza dei corsi di formazione specifici e dei relativi aggiornamenti periodici</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+### 2.17 Referente Privacy
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Referente Privacy</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FUNZIONE</strong></td>
+<td><strong>PRIVACY / COMPLIANCE</strong></td>
+</tr>
+<tr class="even">
+<td><p><strong>RESPONSABILITÀ</strong></p>
+<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
+<td><ul>
+<li><blockquote>
+<p>Supporta il Titolare del trattamento (Amministratore Unico) nell’applicazione dei principi e degli obblighi del GDPR</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestisce e aggiorna il Registro dei Trattamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestisce le richieste di esercizio dei diritti degli interessati e le segnalazioni in ambito privacy</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valuta l’opportunità di una DPIA, coinvolgendo il DPO ove nominato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riferisce al Titolare del trattamento</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPETENZE</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Conoscenza del Regolamento UE 679/2016 (GDPR) e della normativa privacy applicabile</p>
+</blockquote></li>
+<li><blockquote>
+<p>Capacità di analisi dei processi aziendali di trattamento dati</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>ANNI DI ESPERIENZA</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Nessun requisito minimo; richiesta formazione specialistica documentata (vedi “<em>PO31 - Misure di sicurezza protezione dati personali</em>”)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPITI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Compiti di dettaglio descritti in “<em>ALPO31.D – Atto di Nomina a Referente Privacy</em>”</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>“<em>SGI – ALPO31.D – Atto di Nomina a Referente Privacy</em>”</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Nomina formalizzata tramite atto scritto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Il ruolo può essere cumulato con altre funzioni operative purché non generi conflitto di interesse rispetto ai trattamenti sottoposti a verifica</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non essendo Vectorlab soggetta all’obbligo di designazione di un DPO ex art. 37 GDPR (vedi “<em>PO31</em>”), il Referente Privacy opera in autonomia salvo diversa futura decisione dell’Amministratore Unico</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+### 2.18 Responsabile di Area
+
+Nota: “Responsabile di Area” è il termine trasversale utilizzato in
+altre procedure (es. PO02, PR05.1) per indicare, senza distinzione di
+scheda propria, la persona che coordina una specifica Area/Direzione
+aziendale (Digital, Business Development, Innovation & Research
+Projects, IT, Amministrazione). Non introduce competenze o
+responsabilità ulteriori rispetto a quelle già descritte nella scheda
+del ruolo apicale della relativa Area (es. Chief Technical Officer per
+l’Area Digital, Business Development per l’Area commerciale, Innovation
+& Research Projects Manager per l’omonima Area, HR Director per
+l’Area Risorse Umane).
 
 ## 3 Segregazione dei Compiti
 

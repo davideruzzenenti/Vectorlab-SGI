@@ -16,6 +16,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -214,8 +215,8 @@ campo di applicazione del Sistema di Gestione Integrato ISO 9001 e
 ISO/IEC 27001 garantendo la gestione e la governance della sicurezza dei
 dati nel Cloud.
 
-La struttura snella di Vectorlab, composta da un team di 10 persone,
-rappresenta un fattore abilitante fondamentale per la resilienza e la
+La struttura snella e compatta di Vectorlab rappresenta un fattore
+abilitante fondamentale per la resilienza e la
 gestione del rischio. In questo contesto, la comunicazione diretta e la
 flessibilità operativa consentono una reazione immediata alle minacce e
 ai cambiamenti del mercato, superando in efficacia le tradizionali

@@ -17,7 +17,7 @@ Revisioni
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | HR          | CDA           |
-|          |            |                 |             |               |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: allineato il ruolo RSPP alla realtà aziendale; corretti riferimenti a un dominio email non aggiornato | HR          | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -196,7 +196,7 @@ Tabella - Numeri telefonici
 
 **<span class="underline">IMPORTANTE:</span>** chiunque riceva un CV in
 una casella di posta differente da
-[<span class="underline">XXX@XXX</span>](mailto:candidati@nextage-on.com)
+[<span class="underline">candidati@vectorlab.it</span>](mailto:candidati@vectorlab.it)
 deve inoltrarlo alla suddetta casella di posta ed eliminarlo
 definitivamente dalla casella non deputata a tale compito.
 
@@ -320,7 +320,7 @@ In caso di impossibilità a svolgere il proprio lavoro (uffici VECTORLAB
 o sede Cliente, o Smart Working) a seguito di malattia, infortunio o
 improvviso evento, il personale deve darne notizia la mattina stessa del
 giorno di inattività, ad HR
-[<span class="underline">XXX@nXXX</span>](mailto:amministrazione@nextage-on.com),
+[<span class="underline">amministrazione@vectorlab.it</span>](mailto:amministrazione@vectorlab.it),
 riportando il numero del certificato attribuito dalla ASL, e al
 Responsabile di Area.
 
@@ -342,7 +342,7 @@ Per permettere un’efficiente organizzazione del lavoro, evitando
 disservizi ai Clienti, occorre avere un quadro puntuale della presenza
 del personale; pertanto, è necessario che le richieste di ferie o
 permesso vengano inviati al personale tempestivamente
-[<span class="underline">XXX@nXXX</span>](mailto:amministrazione@nextage-on.com),
+[<span class="underline">amministrazione@vectorlab.it</span>](mailto:amministrazione@vectorlab.it),
 previa valutazione del Responsabile di Area.
 
 In base alla tipologia di contratto e al CCNL la richiesta di ferie
@@ -432,7 +432,7 @@ esami finali.
 
 Tale specifico permesso aggiuntivo dovrà essere preventivamente
 richiesto ad HR
-<span class="underline">[XXX@nXXX](mailto:amministrazione@nextage-on.com)</span>
+<span class="underline">[amministrazione@vectorlab.it](mailto:amministrazione@vectorlab.it)</span>
 mettendo in copia il proprio Responsabile di Area e dovrà essere
 approvato dalla Direzione.
 
@@ -450,7 +450,7 @@ permesso non retribuito all’anno per le seguenti casistiche:
 
 Tale specifico permesso aggiuntivo dovrà essere preventivamente
 richiesto ad HR
-<span class="underline">[XXX@nXXX](mailto:amministrazione@nextage-on.com)</span>
+<span class="underline">[amministrazione@vectorlab.it](mailto:amministrazione@vectorlab.it)</span>
 mettendo in copia il proprio Responsabile di Area.
 
 Inoltre, è riconosciuto 1 giorno di permesso non retribuito all’anno nei
@@ -476,7 +476,7 @@ utilizzato entro 7 giorni dall’evento.
 
 Tale specifico permesso aggiuntivo dovrà essere preventivamente
 richiesto ah HR
-<span class="underline">[XXX@nXXX](mailto:amministrazione@nextage-on.com)</span>
+<span class="underline">[amministrazione@vectorlab.it](mailto:amministrazione@vectorlab.it)</span>
 mettendo in copia il proprio Responsabile di Area.
 
 ### Congedo matrimoniale
@@ -487,7 +487,7 @@ lavoratori sono considerati a tutti gli effetti in attività di servizio.
 
 La richiesta di congedo dovrà essere avanzata con un preavviso di almeno
 sei giorni dal suo inizio, salvo casi eccezionali tramite mail ad HR
-<span class="underline">[XXX@nXXX](mailto:amministrazione@nextage-on.com)</span>
+<span class="underline">[amministrazione@vectorlab.it](mailto:amministrazione@vectorlab.it)</span>
 mettendo in copia il proprio Responsabile di Area .
 
 Il congedo è utilizzabile entro 6 mesi dalla data delle nozze.
@@ -502,7 +502,7 @@ Ai lavoratori a cui INPS ha attivato il permesso per l’assistenza
 familiare ai fine della Legge n. 104/92 – 106/25 spettano dei giorni di
 permesso retribuito in base alla richiesta presentata all’INPS. Il
 certificato che ne attesta l’approvazione deve essere mandato ad HR
-[<span class="underline">XXX@nXXX</span>](mailto:amministrazione@nextage-on.com).
+[<span class="underline">amministrazione@vectorlab.it</span>](mailto:amministrazione@vectorlab.it).
 
 ### Permesso per donazione del sangue
 
@@ -543,7 +543,7 @@ dell’Azienda.
 
 I documenti andranno consegnati sia in formato cartaceo sia inviati,
 come pdf della scansione, via mail ad Amministrazione
-[XXX@nXXX](mailto:amministrazione@nextage-on.com) entro la fine del mese
+[amministrazione@vectorlab.it](mailto:amministrazione@vectorlab.it) entro la fine del mese
 corrente ove possibile o entro i primi giorni del mese successivo. Nel
 caso di invio via mail gli originali devono essere conservati presso la
 sede di lavoro del dipendente, e consegnati appena possibile.
@@ -571,9 +571,10 @@ prevenzione infortuni e sicurezza nei luoghi di lavoro. Lo strumento
 prevalentemente utilizzato dall’Azienda per garantire al personale le
 informazioni sulla sicurezza sul luogo di lavoro è la formazione che
 viene svolta periodicamente dai soggetti preposti ed al supporto delle
-figure professionali (RSPP e Medico Competente) quali consulenti del
-Datore di lavoro che garantiscono il rispetto delle norme del Dlgs.
-81.08 e dell’Accordo Stato-Regione.
+figure preposte alla sicurezza (RSPP, ricoperto internamente, e Medico
+Competente, quale consulente esterno del Datore di lavoro) che
+garantiscono il rispetto delle norme del Dlgs. 81.08 e dell’Accordo
+Stato-Regione.
 
 Per tematiche relative alla salute e sicurezza dei lavoratori il
 personale può fare riferimento al RLS utilizzando l’apposita mailing

@@ -8,6 +8,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | CISO        | DPO           |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito lo status del DPO rispetto al Referente Privacy, in assenza di un obbligo di designazione ex art. 37 GDPR | CISO        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -408,6 +409,18 @@ delle seguenti nomine interne:
   - Referente Privacy
 
   - Amministratori di Sistema.
+
+Sulla base di una valutazione della natura, dell’ambito e delle
+finalità dei trattamenti effettuati, Vectorlab non rientra nei casi per
+i quali il GDPR (art. 37) impone la designazione obbligatoria di un
+Responsabile della Protezione dei Dati (DPO). La figura del Referente
+Privacy, con nomina interna formalizzata, svolge pertanto in autonomia
+le funzioni operative di supporto al Titolare in materia di protezione
+dei dati personali. Qualora in futuro Vectorlab decida di avvalersi
+comunque di un DPO (interno o esterno), tale figura affiancherà il
+Referente Privacy con le funzioni consultive e di supervisione previste
+dagli artt. 38-39 GDPR, e ne verrà data evidenza tramite apposito atto
+di nomina.
 
 Analogamente, per il personale esterno all’organizzazione, è previsto un
 processo di gestione della nomina a:

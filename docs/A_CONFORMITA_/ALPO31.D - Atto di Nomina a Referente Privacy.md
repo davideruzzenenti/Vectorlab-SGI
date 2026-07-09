@@ -102,14 +102,15 @@ Titolare nelle seguenti attività:
     > comunicazione di cui all’art. 34 GDPR;
 
   - > svolgere ogni iniziativa e attività più opportuna per l’attuazione
-    > di eventuali prescrizioni del DPO o del Garante per la Protezione
-    > dei Dati Personali;
+    > di eventuali prescrizioni del DPO, ove nominato, o del Garante per
+    > la Protezione dei Dati Personali;
 
   - > redigere e tenere aggiornato il Registro dei Trattamenti di cui
     > all’art. 30 GDPR;
 
-  - > valutare unitamente al DPO, l’opportunità di svolgere una
-    > valutazione di impatto ai sensi dell’art. 35 GDPR e/o una
+  - > valutare, coinvolgendo il DPO ove nominato, l’opportunità di
+    > svolgere una valutazione di impatto ai sensi dell’art. 35 GDPR e/o
+    > una
     > consultazione preventiva ai sensi dell’art. 36 GDPR e, in caso
     > positivo, collaborare con il Titolare e altri eventuali Referenti
     > nello svolgimento di dette operazioni;

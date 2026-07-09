@@ -9,7 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
-|          |            |                 |             |               |
+| 0.1      | 09/07/2026 | Revisione assistita da IA: chiarita la corrispondenza tra CDA e Amministratore Unico coerentemente con la forma societaria; arricchita la descrizione aziendale (Sez. 3) | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 
 ## 1 Introduzione
@@ -65,7 +65,11 @@ INN - PR34.1 – Innovation & Research Projects
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
 
-> CDA – Consiglio di Amministrazione
+> CDA – Organo di Amministrazione. Coerentemente con la forma societaria
+> di Vectorlab (società a socio unico e amministratore unico), le
+> funzioni e le responsabilità attribuite in questo Sistema di Gestione
+> al CDA sono esercitate dall'Amministratore Unico, quale organo di
+> governo e di approvazione del Sistema di Gestione Integrato.
 
 > RSGI – Responsabile del Sistema di Gestione Integrato
 
@@ -136,16 +140,51 @@ miglioramento continuo e innovazione sicura.
 
 ## 3 Vectorlab
 
-Vectorlab è una realtà specializzata nello sviluppo di soluzioni
-digitali innovative ad alto contenuto tecnologico, operante nei settori
-dello sviluppo software, delle tecnologie immersive, dell’automazione
-dei processi e delle soluzioni deep tech.
+Vectorlab è una software house B2B, a socio unico e amministratore
+unico, specializzata nello sviluppo di software custom ad alto
+contenuto tecnologico. L’azienda realizza applicazioni web, desktop,
+mobile ed embedded, sistemi 3D e di computer graphics, simulatori,
+applicazioni di realtà virtuale e aumentata, videogiochi, piattaforme
+cloud e soluzioni basate su Intelligenza Artificiale.
 
-L’Organizzazione integra competenze multidisciplinari nell’ambito dello
-sviluppo software, della computer grafica 3D, dell’intelligenza
-artificiale e dei sistemi digitali avanzati, supportando aziende e
-organizzazioni nella progettazione di soluzioni tecnologiche innovative
-e personalizzate.
+L’attività comprende analisi dei requisiti, progettazione
+architetturale, sviluppo software, integrazione con sistemi e
+dispositivi di terze parti, manutenzione evolutiva, consulenza tecnica
+e ricerca e sviluppo. I progetti vengono realizzati sia come commesse
+complete sia attraverso consulenza specialistica all’interno dei team
+del cliente.
+
+Vectorlab opera in diversi settori, tra cui healthcare, difesa,
+robotica, industria, formazione, gaming, entertainment, lusso e
+ricerca, sviluppando soluzioni su misura in funzione delle esigenze
+specifiche di ciascun cliente.
+
+L’azienda adotta un approccio tecnologicamente indipendente: linguaggi,
+framework, motori grafici, servizi cloud e modelli di Intelligenza
+Artificiale vengono selezionati esclusivamente in base ai requisiti
+tecnici e funzionali del progetto, senza dipendere da specifici vendor.
+
+Oltre alle attività conto terzi, Vectorlab investe nello sviluppo di
+tecnologie e prodotti proprietari, con particolare attenzione ai
+sistemi basati su Intelligenza Artificiale, Large Language Models,
+computer graphics e applicazioni realtime. L’azienda dedica inoltre
+parte delle proprie risorse ad attività di ricerca e sviluppo, alla
+sperimentazione di nuove tecnologie e alla realizzazione di componenti
+software riutilizzabili.
+
+Il processo di sviluppo è iterativo e collaborativo e prevede il
+coinvolgimento continuo del cliente durante tutte le fasi del progetto,
+dalla definizione dei requisiti fino al rilascio e alla manutenzione
+del software.
+
+Vectorlab mantiene una struttura organizzativa volutamente snella e
+orizzontale, in cui le competenze tecniche e gestionali sono
+distribuite su un team compatto e multidisciplinare. Questo modello
+favorisce rapidità decisionale, comunicazione diretta tra tutte le
+funzioni aziendali e un forte allineamento tra strategia, sviluppo e
+delivery, con responsabilità distribuite e verificate tramite strumenti
+digitali di controllo e tracciabilità (versionamento del codice,
+sistemi di project tracking, revisione tra pari).
 
 ### 3.1 Area Digital
 
@@ -286,7 +325,8 @@ contenuti nel GDPR per garantire che tutti i dati siano:
   - > non trasferiti all'estero senza adeguata protezione.
 
 Sono state stabilite le responsabilità generali del Titolare del
-trattamento nella figura del Legale Rappresentante (membro del CDA) per
+trattamento nella figura del Legale Rappresentante (Amministratore
+Unico) per
 qualsiasi trattamento di dati personali che effettui direttamente o che
 altri effettuino per suo conto. In particolare, Vectorlab mette in atto
 misure adeguate ed efficaci, così da essere in grado di dimostrare la
