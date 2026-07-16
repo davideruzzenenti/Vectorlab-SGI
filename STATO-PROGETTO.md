@@ -99,6 +99,8 @@ Su richiesta di Davide, dopo aver discusso l'approccio: generate le bozze di tut
 
 **Non ancora fatto**: `PO20` (contenuto sbagliato, parla di Configurazioni invece che Capacità) e `REG01` (5 codici diversi per lo stesso regolamento) restano da correggere — erano marcati "misto" (serve una decisione, non solo una correzione meccanica), non toccati in questa passata.
 
+**Correzione dashboard (stesso giorno, dopo un feedback di Davide)**: la colonna "Cosa serve" (rinominata "Domanda aperta") e la sezione "Chi deve fare cosa" erano scritte in forma dichiarativa invece che come vere domande — non risultavano riconoscibili come tali. Riscritte tutte le 88 righe della tabella che richiedono un input umano/misto come domande esplicite (es. "Qual è l'indirizzo PEC reale...?"), oltre ai 4 punti della sezione "Umano" in alto. Verificato con `node --check` e un `eval` con DOM stubbato che l'array JS resti valido e che ogni riga non-IA abbia una domanda con punto interrogativo.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
