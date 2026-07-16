@@ -1,0 +1,381 @@
+<title>Stato documentazione SGI — Vectorlab</title>
+<style>
+:root{
+  --paper:#EEF0EA; --ink:#1B211D; --ink-soft:#4B554E; --panel:#FFFFFF; --line:#D7DAD0;
+  --accent:#1E5C56; --accent-soft:#DCEAE7;
+  --good:#2F7A4D; --good-soft:#E3F1E6;
+  --todo:#9C6B0A; --todo-soft:#F5EBD6;
+  --boiler:#6E4E86; --boiler-soft:#ECE3F1;
+  --bad:#B3392A; --bad-soft:#F6E2DE;
+  --missing:#5B6169; --missing-soft:#E7E8E5;
+  --shadow: 0 1px 2px rgba(27,33,29,.06), 0 6px 16px rgba(27,33,29,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#131715; --ink:#E7EAE4; --ink-soft:#A9B1A9; --panel:#1B211D; --line:#2B322C;
+    --accent:#57B3AA; --accent-soft:#1E3230;
+    --good:#63C08A; --good-soft:#1D3324;
+    --todo:#E0AA4E; --todo-soft:#3A2E13;
+    --boiler:#C6A0DE; --boiler-soft:#2E2438;
+    --bad:#E8887A; --bad-soft:#3B211D;
+    --missing:#9BA1A6; --missing-soft:#262A28;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 20px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131715; --ink:#E7EAE4; --ink-soft:#A9B1A9; --panel:#1B211D; --line:#2B322C;
+  --accent:#57B3AA; --accent-soft:#1E3230;
+  --good:#63C08A; --good-soft:#1D3324;
+  --todo:#E0AA4E; --todo-soft:#3A2E13;
+  --boiler:#C6A0DE; --boiler-soft:#2E2438;
+  --bad:#E8887A; --bad-soft:#3B211D;
+  --missing:#9BA1A6; --missing-soft:#262A28;
+}
+:root[data-theme="light"]{
+  --paper:#EEF0EA; --ink:#1B211D; --ink-soft:#4B554E; --panel:#FFFFFF; --line:#D7DAD0;
+  --accent:#1E5C56; --accent-soft:#DCEAE7;
+  --good:#2F7A4D; --good-soft:#E3F1E6;
+  --todo:#9C6B0A; --todo-soft:#F5EBD6;
+  --boiler:#6E4E86; --boiler-soft:#ECE3F1;
+  --bad:#B3392A; --bad-soft:#F6E2DE;
+  --missing:#5B6169; --missing-soft:#E7E8E5;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.5; font-size:16px;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:2.5rem 1.5rem 5rem}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif; text-wrap:balance; margin:0}
+code,.mono,.num{font-family:ui-monospace,"SF Mono","Cascadia Code",Consolas,monospace; font-variant-numeric:tabular-nums}
+
+header.top{display:flex;flex-direction:column;gap:.6rem;margin-bottom:2.2rem;border-bottom:2px solid var(--ink);padding-bottom:1.4rem}
+header.top .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--accent);font-weight:700}
+header.top h1{font-size:2.1rem;font-weight:700}
+header.top .meta{color:var(--ink-soft);font-size:.92rem}
+
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:1.8rem 0 2.4rem}
+.kpi{background:var(--panel);padding:1.1rem 1.3rem;display:flex;flex-direction:column;gap:.25rem}
+.kpi .n{font-family:Georgia,serif;font-size:2.1rem;font-weight:700;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:.8rem;color:var(--ink-soft)}
+.kpi.good .n{color:var(--good)}
+.kpi.todo .n{color:var(--todo)}
+.kpi.bad .n{color:var(--bad)}
+.kpi.missing .n{color:var(--missing)}
+
+section{margin:2.6rem 0}
+section > h2{font-size:1.4rem;margin-bottom:.3rem}
+section > .sub{color:var(--ink-soft);font-size:.92rem;margin-bottom:1.1rem;max-width:70ch}
+
+.chip{display:inline-flex;align-items:center;gap:.35rem;border-radius:999px;padding:.2rem .65rem;font-size:.78rem;font-weight:600;white-space:nowrap}
+.chip.good{background:var(--good-soft);color:var(--good)}
+.chip.todo{background:var(--todo-soft);color:var(--todo)}
+.chip.boiler{background:var(--boiler-soft);color:var(--boiler)}
+.chip.bad{background:var(--bad-soft);color:var(--bad)}
+.chip.missing{background:var(--missing-soft);color:var(--missing)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.2rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.5rem}
+.card .file{font-family:ui-monospace,"SF Mono",Consolas,monospace;font-size:.8rem;color:var(--ink-soft)}
+.card h3{font-size:1.02rem;font-weight:700;line-height:1.3}
+.card p{margin:0;font-size:.92rem;color:var(--ink-soft)}
+
+.missing-cluster{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.3rem;margin-bottom:1rem}
+.missing-cluster h3{font-size:.98rem;margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
+.missing-list{display:flex;flex-wrap:wrap;gap:.4rem}
+.missing-list span{font-family:ui-monospace,"SF Mono",Consolas,monospace;font-size:.78rem;background:var(--missing-soft);color:var(--missing);padding:.18rem .5rem;border-radius:5px}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:1rem;position:sticky;top:0;background:var(--paper);padding:.7rem 0;z-index:5}
+.toolbar input[type=search]{
+  background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem;
+  color:var(--ink);font-size:.88rem;min-width:220px;font-family:inherit;
+}
+.filter-btn{
+  border:1px solid var(--line);background:var(--panel);color:var(--ink-soft);
+  border-radius:999px;padding:.32rem .8rem;font-size:.8rem;font-weight:600;cursor:pointer;
+  font-family:inherit;
+}
+.filter-btn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.filter-btn:focus-visible, .filter-btn:focus{outline:2px solid var(--accent);outline-offset:2px}
+.count-label{font-size:.8rem;color:var(--ink-soft);margin-left:auto}
+
+.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.87rem;background:var(--panel)}
+thead th{
+  position:sticky;top:0;background:var(--panel);text-align:left;font-size:.72rem;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--ink-soft);padding:.6rem .8rem;border-bottom:1px solid var(--line);white-space:nowrap
+}
+tbody td{padding:.55rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--accent-soft)}
+td.cat{color:var(--ink-soft);font-size:.78rem;white-space:nowrap}
+td.file code{font-size:.82rem}
+td.note{color:var(--ink-soft);max-width:420px}
+td.rev{white-space:nowrap;font-size:.8rem;color:var(--ink-soft)}
+
+.next-steps{counter-reset:step}
+.next-steps ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.8rem}
+.next-steps li{
+  counter-increment:step;display:grid;grid-template-columns:2.2rem 1fr;gap:.9rem;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.9rem 1.1rem;
+}
+.next-steps li::before{
+  content:counter(step);font-family:Georgia,serif;font-weight:700;font-size:1.3rem;color:var(--accent);
+}
+.next-steps li b{display:block;margin-bottom:.15rem}
+.next-steps li span{color:var(--ink-soft);font-size:.9rem}
+
+footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--ink-soft);font-size:.82rem}
+
+@media (max-width:640px){
+  header.top h1{font-size:1.5rem}
+  .kpi .n{font-size:1.6rem}
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Vectorlab · Sistema di Gestione Integrato ISO 9001 / ISO 27001</div>
+    <h1>Stato della documentazione: cosa c'è, cosa è valido, cosa manca</h1>
+    <div class="meta">Revisione completa del repository — 16 luglio 2026 · basata su lettura integrale di 114 documenti esistenti e confronto con i riferimenti della SOA</div>
+  </header>
+
+  <div class="kpi-grid">
+    <div class="kpi"><div class="n num">114</div><div class="l">Documenti esistenti valutati</div></div>
+    <div class="kpi good"><div class="n num">24</div><div class="l">Pronti così come sono</div></div>
+    <div class="kpi todo"><div class="n num">40</div><div class="l">Template vuoti da popolare</div></div>
+    <div class="kpi bad"><div class="n num">44</div><div class="l">Con difetti da correggere</div></div>
+    <div class="kpi missing"><div class="n num">33</div><div class="l">Documenti citati ma mai creati</div></div>
+  </div>
+
+  <section>
+    <h2>Come leggere questi numeri</h2>
+    <p class="sub">Molti documenti sono stati consegnati dall'ente di certificazione come template standard: non è un errore che siano ancora vuoti — è normale finché non vengono usati la prima volta. Il problema reale è nei 44 documenti con difetti concreti (placeholder mai risolti, riferimenti tra documenti rotti, contraddizioni) e nei 33 mai creati.</p>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+      <span class="chip good">● Reale — testo compilato, specifico per Vectorlab</span>
+      <span class="chip todo">● Template vuoto — normale, da popolare al primo uso</span>
+      <span class="chip boiler">● Boilerplate — policy vera ma mai adattata a Vectorlab</span>
+      <span class="chip bad">● Da correggere — difetto concreto (placeholder, contraddizione, riferimento rotto)</span>
+      <span class="chip missing">● Mancante — citato nella SOA ma il file non esiste</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>I 10 problemi che pesano di più</h2>
+    <p class="sub">Non tutti i 44 "da correggere" sono uguali. Questi sono quelli con impatto reale su un audit o sulla sicurezza, non semplice pulizia di forma.</p>
+    <div class="cards" id="priority-cards"></div>
+  </section>
+
+  <section>
+    <h2>Il vuoto più grande: 33 documenti mai creati</h2>
+    <p class="sub">Estratti confrontando l'elenco "Riferimenti a Informazioni Documentate" della SOA con i file realmente presenti nel repository. Il blocco più consistente riguarda i controlli tecnologici (accesso, crittografia, vulnerabilità, sviluppo sicuro, reti) — la SOA descrive queste attività come già svolte informalmente, ma non esiste ancora nessuna policy/procedura scritta a supporto.</p>
+    <div id="missing-clusters"></div>
+  </section>
+
+  <section>
+    <h2>Tutti i documenti, uno per uno</h2>
+    <p class="sub">Filtra per stato o cerca per nome. Ogni riga riporta il tipo di documento (PO=Politica, PR=Procedura, MD=Modulo/registro, AL=Allegato, REG=Regolamento) e lo stato della revisione.</p>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Cerca per nome file…">
+      <button class="filter-btn" data-filter="all" aria-pressed="true">Tutti</button>
+      <button class="filter-btn" data-filter="good" aria-pressed="false">Reale</button>
+      <button class="filter-btn" data-filter="todo" aria-pressed="false">Template vuoto</button>
+      <button class="filter-btn" data-filter="boiler" aria-pressed="false">Boilerplate</button>
+      <button class="filter-btn" data-filter="bad" aria-pressed="false">Da correggere</button>
+      <span class="count-label" id="count-label"></span>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Categoria</th><th>File</th><th>Tipo</th><th>Stato</th><th>Rev.</th><th>Nota</th></tr></thead>
+        <tbody id="doc-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="next-steps">
+    <h2>Ordine consigliato per chiudere il lavoro</h2>
+    <ol>
+      <li><b>Correggi le 4-5 contraddizioni interne prima di tutto.</b><span>PO20 col contenuto sbagliato, PR27.1/allegati che trattano il DPO come obbligatorio, la SOA con note che contraddicono PR11.1/PO15 — sono cose che un auditor nota entro i primi minuti.</span></li>
+      <li><b>Verifica se ci sono davvero residui di un altro cliente del consulente.</b><span>Date sospette (05/2009, 15/03/2021), "NOME AZIENDA" al posto di Vectorlab in più atti, dominio email di un'altra azienda già trovato una volta — vale la pena un controllo mirato su tutto il corpus.</span></li>
+      <li><b>Compila i moduli di emergenza con nomi reali.</b><span>MDPR18.1.F/G/H hanno ancora "Nome Cognome" al posto degli addetti — qui non è solo documentazione, è conformità D.Lgs 81/08.</span></li>
+      <li><b>Sistema i riferimenti incrociati rotti tra documenti.</b><span>Almeno 6 casi di documenti che citano un altro documento con il codice sbagliato (es. PR12.1 → MDPR10.1.C che non esiste, PO27 → PR A16.1 che non esiste).</span></li>
+      <li><b>Decidi la priorità dei 33 documenti mancanti.</b><span>Il blocco tecnologico (accessi, crittografia, vulnerabilità, sviluppo sicuro, reti, configurazioni) è il gap strutturale più importante: la SOA racconta pratiche reali ma senza policy scritta dietro.</span></li>
+      <li><b>Solo alla fine, popola i template vuoti "normali".</b><span>Registri e moduli come RLS, formazione, fornitori qualificati: normale lavoro operativo, non blocca la certificazione se il processo dietro esiste già.</span></li>
+    </ol>
+  </section>
+
+  <footer>Generato leggendo integralmente 114 documenti + confronto degli elenchi documentali nella SOA. Le valutazioni "boilerplate non adattato" e "da correggere" riflettono il contenuto alla data del 16/07/2026; il file sorgente di questa analisi non è stato salvato nel repository.</footer>
+</div>
+
+<script>
+const DATA = [
+["01_POLITICA SISTEMA INTEGRATO","PO01 - Sistema Integrato","PO","good","0.1","Descrizione aziendale specifica e coerente, CDA/Amministratore Unico chiarito."],
+["01_POLITICA SISTEMA INTEGRATO","ALPO01.B - Mansionario","AL","good","0.1","Tutte le schede compilate; aggiunte RSPP e Referente Privacy prima mancanti."],
+["02_SOA","SOA - Statement of Applicability","Registro ISO","bad","0.0","Placeholder \"xxxxxx\" in copertina; note informali non editate (\"Francesco gestisce tutti i profili\"); contraddice PR11.1 e PO15 sugli stessi controlli."],
+["4_CONTESTO","PO02 - Gestione del Contesto","PO","good","0.1","Mappa processi dettagliata, KPI reali, contesto specifico Vectorlab."],
+["4_CONTESTO","ALPO02.B - Analisi Stakeholder","AL","good","0.0","Tabella aspettative compilata per tutte le categorie di stakeholder."],
+["6.1_ANALISI DEI RISCHI","PR33.2 - Analisi Rischio Privacy","PR","good","0.0","Metodologia WP29/ENISA con classificazione tarata su Vectorlab."],
+["6.1_ANALISI DEI RISCHI","asset_inventory_vectorlab","Registro asset","good","—","49 asset reali con owner e strumenti reali (ClickUp, Discord, N8N, Aruba)."],
+["6.2_OBIETTIVI","PO03 - Gestione Obiettivi","PO","good","0.0","Breve ma coerente con la struttura piatta di Vectorlab."],
+["6.2_OBIETTIVI","MDPO03.A - Lista Obiettivi","MD","todo","0.0","Colonna Obiettivi/KPI ancora vuota."],
+["10_NC E MIGLIORAMENTO","PR13.1 - Gestione NC","PR","good","0.0","Workflow integrato con strumenti reali (ClickUp/Jira, email rsgi@vectorlab)."],
+["7.4_COMUNICAZIONI","PO07 - Politica Comunicazione","PO","good","0.0","Testo specifico Vectorlab (Jira, GitHub, ruoli reali)."],
+["7.4_COMUNICAZIONI","MDPO07.A - Piano Comunicazione","MD","bad","0.0","Molte righe con \"xxx\" mai risolto in colonne chiave."],
+["7.5_INFORMAZIONI DOCUMENTATE","PR08.1 - Gestione Informazioni Documentate","PR","good","0.1","Riallineato al modello reale Git/GitHub/MkDocs."],
+["7.5_INFORMAZIONI DOCUMENTATE","MDPR08.1.A - Elenco Informazioni documentate","MD","good","0.0","Foglio principale popolato; fogli Tools/Forum/Mailing ancora vuoti."],
+["7.5_INFORMAZIONI DOCUMENTATE","MDPR08.1.B/C/D/E/F - meta-template","MD","todo","0.0","Template per generare nuovi PO/PR/MD/AL — placeholder corretti per lo scopo."],
+["7_GESTIONE RISORSE","PR05.1 - Gestione del personale","PR","bad","0.1","Decine di \"XXXXXX\" mai risolti, sezioni intere ancora da descrivere."],
+["7_GESTIONE RISORSE","REG01 - Regolamento strumenti aziendali","REG","bad","0.0","Il regolamento di ticketing è citato con 5 codici diversi; firma mai inserita."],
+["7_GESTIONE RISORSE","REG02 - Regolamento comportamentale","REG","bad","0.1","Restano sezioni \"XXXXXXXXXX\", CCNL non compilato."],
+["7_GESTIONE RISORSE","ALPR05.1.A/B/C/D - RLS (comunicazione/verbale/nomina/scheda)","AL","todo","0.0","RLS non ancora eletto in Vectorlab, moduli mai usati."],
+["7_GESTIONE RISORSE","ALPR05.1.E - Accordo Lavoro Agile","AL","bad","—","Giorni/settimana di lavoro agile mai deciso (\"X giorni\")."],
+["7_GESTIONE RISORSE","ALPR05.1.F - Informativa Lavoro Agile","AL","good","0.0","Contenuto coerente, collegato correttamente a REG01/ALPR05.1.E."],
+["7_GESTIONE RISORSE","ALPR05.1.G - Lista software permessi","AL","good","0.0","Elenco reale di strumenti usati (GitHub Desktop, Postman, MongoDB...)."],
+["7_GESTIONE RISORSE","MDPR05.1.A/B/L/S/T/U - moduli HR vari","MD","todo","0.0","Checklist/registri mai compilati con un caso reale."],
+["7_GESTIONE RISORSE","MDPR05.1.D - Questionario Informativo","MD","todo","0.0","Data prima emissione \"15/03/2021\" — non coerente col resto del SGI (2026), possibile residuo di altro cliente."],
+["7_GESTIONE RISORSE","MDPR05.1.H - Processo Disciplinare","MD","todo","0.0","Modulo mai usato; refuso \"FRIMA\" invece di \"FIRMA\"."],
+["7_GESTIONE RISORSE","MDPR05.1.M - Anagrafica Dipendenti","MD","bad","0.0","Zero dipendenti registrati; nomina RLS/antincendio datata \"05/2009\" — sospetto residuo di altro cliente."],
+["7_GESTIONE RISORSE","MDPR05.1.V - Modulo consegna/riconsegna HW","MD","bad","—","Riferimenti incrociati a Consegna/Restituzione Chiavi invertiti rispetto ai codici reali."],
+["7_GESTIONE RISORSE","MDPR06.1.B/D - Scheda formazione / Modulo partecipanti","MD","todo","0.0","Solo intestazioni, nessuna formazione mai registrata."],
+["7_GESTIONE RISORSE","MDPR06.1.C - Piano formazione [aaaa]","MD","todo","0.0","Nome file con placeholder anno mai risolto — mai usato."],
+["7_GESTIONE RISORSE","MDPR06.1.E - Griglia competenze","MD","bad","0.0","Nessun dipendente censito; placeholder \"xxx\" nella legenda."],
+["9.1_MONITORAGGIO KPI","PR10.1 - Gestione Monitoraggio","PR","bad","0.0","Cartella di salvataggio \"XXXXX\"; cita MDPR10.1.B/C con codici invertiti rispetto ai file reali."],
+["9.1_MONITORAGGIO KPI","MDPR10.1.A - Questionario Soddisfazione Cliente","MD","bad","—","Invio email tramite \"XXX\" non risolto."],
+["9.1_MONITORAGGIO KPI","MDPR10.1.A - Tabella Indicatori","MD","good","0.0","~50 KPI reali definiti; colonne operative (valore, soglia, responsabile) mai popolate."],
+["9.1_MONITORAGGIO KPI","MDPR10.1.B - Analisi Soddisfazione Cliente","MD","todo","0.0","Nessun cliente/valutazione mai inserito."],
+["9.2_AUDIT INTERNO","PR11.1 - Audit Interno","PR","bad","0.1","Auditor esterno reso obbligatorio (rev 0.1), ma la sezione Introduzione è rimasta vuota."],
+["9.2_AUDIT INTERNO","MDPR11.1.A - Programma Audit","MD","bad","0.0","Placeholder \"Area XXXX\" ripetuto 8 volte; nessuna data/criterio mai inserito."],
+["9.2_AUDIT INTERNO","MDPR11.1.B - Piano di Audit e Report","MD","todo","0.0","Mappatura ISO 9001/27001 pronta ma mai usata."],
+["9.2_AUDIT INTERNO","MDPR11.1.C - Piano di Audit Tecnici","MD","todo","0.0","Attività reali definite, griglia/stato mai compilati."],
+["9.2_AUDIT INTERNO","MDPR11.1.D - Checklist Audit 27001","MD","boiler","0.0","Intero documento in inglese, mai tradotto/adattato a Vectorlab."],
+["9.2_AUDIT INTERNO","MDPR11.1.L - Checklist Audit 9001","MD","boiler","—","Traduzione letterale della norma, zero personalizzazione."],
+["9.2_AUDIT INTERNO","MDPR11.1.M - Checklist Audit AdS","MD","boiler","—","Basata su normativa privacy 2003/2008 obsoleta, mai aggiornata."],
+["9.2_AUDIT INTERNO","MDPR11.1.N - Checklist Audit DPO","MD","todo","0.0","Errore Excel \"#DIV/0!\" residuo dalla conversione mai risolto."],
+["9.3_RIESAME DIREZIONE","PR12.1 - Riesame della Direzione","PR","bad","0.0","Cita 2 volte \"MDPR10.1.C\" — documento inesistente (il file reale è MDPR10.1.B)."],
+["A_ASSET & CONFIGURAZIONE","PR14.1 - Gestione Asset","PR","good","0.0","Procedura dettagliata e coerente, nessun difetto rilevato."],
+["A_BACKUP & RESTORE","PO21 - Gestione Backup","PO","boiler","0.0","Link a Google Docs esterni rotti, indice del documento corrotto."],
+["A_BACKUP & RESTORE","PR21.1 - Gestione Backup","PR","bad","0.1","Allineato allo stack reale (AWS/Aruba/Bitwarden), ma tabella riepilogo strategie quasi vuota."],
+["A_BACKUP & RESTORE","MDPR21.1.A - Piano di Restore","MD","bad","0.0","Elenca ancora Dropbox/VMware/Hyper-V/Onedrive, sistemi che PR21.1 ha dichiarato dismessi."],
+["A_BACKUP & RESTORE","MDPR21.1.B - Richiesta Restore","MD","todo","0.0","Nessuna richiesta mai registrata."],
+["A_CAMBIAMENTO","PR19.1 - Gestione del Cambiamento","PR","bad","0.0","Placeholder \"tool aziendale XX/XXX\" non risolti; elenchi corrotti dalla conversione."],
+["A_CLASSIFICAZIONE INFORMAZIONI","PO15 - Classificazione Informazioni","PO","bad","0.0","Policy completa e matura, ma contraddice la SOA (5.12/5.13 dicono \"non ancora formalizzato\")."],
+["A_CLASSIFICAZIONE INFORMAZIONI","MDPO15.A - Data Retention","MD","todo","0.0","Solo intestazioni, zero dati reali."],
+["A_CONFORMITA_","PO31 - Misure sicurezza dati personali","PO","good","0.1","Posizione DPO/Referente Privacy coerente in tutto il documento."],
+["A_CONFORMITA_","PR31.1 - Diritti Interessati","PR","bad","0.0","\"privacy@xxx.xx\" ripetuto 4 volte; manca la clausola \"ove nominato\" per il DPO."],
+["A_CONFORMITA_","PR31.2 - Gestione Consensi","PR","good","0.0","Coerente con l'assenza di obbligo DPO."],
+["A_CONFORMITA_","PR31.3 - Procedura DPIA","PR","good","0.1","Data di revisione corretta, contenuto coerente."],
+["A_CONFORMITA_","PR31.4 - Registro trattamenti","PR","good","0.1","Clausola DPO esplicita e corretta."],
+["A_CONFORMITA_","ALPO31.A - Lettera incarico AdS","AL","bad","0.0","\"NOME AZIENDA\" al posto di Vectorlab, già nominata nello stesso atto."],
+["A_CONFORMITA_","ALPO31.B/C - Nomina Autorizzato / Addendum AdS","AL","todo","0.0","Placeholder normali per un fac-simile da compilare caso per caso."],
+["A_CONFORMITA_","ALPO31.D - Nomina Referente Privacy","AL","bad","—","Già modificato 2 volte via git, ma non ha mai avuto una tabella Revisioni che lo tracci."],
+["A_CONFORMITA_","ALPR31.2.A-F - Informative Privacy (dipendenti/candidati/visitatori/fornitori/clienti/sito)","AL","bad","—","Contatti \"privacy@xxx.xx\"/\"tel. xxx\" mai risolti nel corpo; la D ha anche \"NOME AZIENDA\"."],
+["A_CONFORMITA_","ALPR31.2.G - Liberatoria Foto-Video","AL","todo","—","Solo placeholder attesi per il firmatario."],
+["A_CONFORMITA_","MDPR31.1.A - Registro delle richieste","MD","todo","0.0","Nessuna richiesta mai registrata."],
+["A_CONFORMITA_","MDPR31.4.A/B - Registro Trattamenti Titolare/Responsabile","MD","todo","0.0","Contatti \"COMPLETARE\" non risolti in copertina; zero trattamenti censiti."],
+["A_CONTINUITA_ OPERATIVA","PO28 - Gestione Continuità Operativa","PO","bad","0.0","Istruzione \"Descrivere se... XXX\" lasciata irrisolta nel testo."],
+["A_CONTINUITA_ OPERATIVA","PR28.1 - Procedura Continuità Operativa","PR","bad","0.0","Istruzioni editoriali in maiuscolo mai completate (dove si conservano le evidenze)."],
+["A_CONTINUITA_ OPERATIVA","ALPR28.1.A / MDPR28.1.A/B/C - Piani, BIA, test","MD/AL","todo","0.0","Intera sezione continuità operativa mai compilata con un caso reale Vectorlab."],
+["A_EVENTI & INCIDENTI","PO27 - Gestione Eventi e Incidenti","PO","bad","0.0","Cita \"PR A16.1\" — documento inesistente (il file reale è PR27.1)."],
+["A_EVENTI & INCIDENTI","PR27.1 - Gestione Incidenti e Data Breach","PR","bad","0.0","Tratta il DPO come ruolo obbligatorio, in contraddizione diretta con PO31 rev 0.1; riferimenti a registri inesistenti."],
+["A_EVENTI & INCIDENTI","ALPR27.1.A - Notifica Data Breach","AL","todo","—","Fac-simile normale, mai usato."],
+["A_EVENTI & INCIDENTI","ALPR27.1.B - Incident Lessons Learned","AL","bad","0.0","Copertina \"Approvato: DPO\" — incoerente con l'assenza di obbligo DPO."],
+["A_EVENTI & INCIDENTI","MDPR27.1.A - Registro Data Breach","MD","todo","0.0","3 righe vuote; stessa incoerenza \"Approvato: DPO\" in copertina."],
+["A_FORNITORI","PO26 - Gestione Fornitori","PO","boiler","0.0","Testo standard da consulente, nessun fornitore o processo reale citato."],
+["A_FORNITORI","PR26.1 - Gestione Fornitori","PR","bad","0.0","Placeholder \"XXX\"; cita l'elenco fornitori con codice invertito (MDPR26.1.C invece di .B)."],
+["A_FORNITORI","PO40 - Sicurezza Servizi Cloud","PO","boiler","0.0","Parla solo di \"CSP\" in astratto, non nomina mai lo stack reale (AWS/Aruba/Workspace)."],
+["A_FORNITORI","MDPR26.1.A - Monitoraggio fornitori","MD","bad","0.0","\"Anno XXXX\" non risolto; errori Excel \"#VALUE!\" residui."],
+["A_FORNITORI","MDPR26.1.B/C - Elenco fornitori qualificati / Report consuntivazione","MD","todo","0.0","Zero fornitori/ore mai registrati."],
+["A_FORNITORI","ALPR16.1.C - Contratto di fornitura","AL","bad","0.0","Decine di \"XXX\" non risolti; il file è nominato in modo diverso da come lo citano PO26/PR26.1 (ALPR26.1.C)."],
+["A_FORNITORI","ALPR26.1.A - Comunicazione SGSI fornitori","AL","good","—","Lettera già specifica e utilizzabile."],
+["A_FORNITORI","ALPR26.1.B.3 - Accordo di Riservatezza","AL","bad","0.0","Controparte non compilata (\"YYY\" ripetuti); naming diverso da come viene citato altrove (ALPR26.1.B)."],
+["A_FORNITORI","ALPR26.1.E - Requisiti di sicurezza","AL","bad","0.0","PEC per reclami \"XXX\" non risolta."],
+["A_MONITORAGGIO SISTEMI & CAPACITY","PO20 - Gestione della Capacità","PO","bad","0.0","L'80% del testo tratta Gestione delle Configurazioni, non Capacità — probabile copia-incolla sbagliato dal template."],
+["A_MONITORAGGIO SISTEMI & CAPACITY","PR20.1 - Capacità e Monitoraggio Tecnico","PR","good","0.2","Coerente con lo stack reale (AWS, Aruba IaC, Google Workspace)."],
+["A_MONITORAGGIO SISTEMI & CAPACITY","ALPO20.A - Piano di Capacità","AL","bad","0.1","\"Utilizzo del BYOD - XXXX\" non risolto; molte celle previsionali ancora da compilare."],
+["A_SICUREZZA FISICA AMBIENTALE","PR18.1 - Gestione sicurezza fisica","PR","good","0.1","Coerente col modello cloud-first, nessun CED fittizio."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.A/E - Registro personale / visitatori","MD","todo","—","Solo intestazioni, mai compilati."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.B - Registro accessi CED","MD","bad","—","Presuppone un CED che PR18.1 dichiara esplicitamente inesistente — registro orfano."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.D - Registri interventi ambientali","MD","bad","0.0","Date corrotte dalla conversione (\"28/06/1900\"); kit primo soccorso con scadenze 2021-2023 mai aggiornate."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.F - Locandina emergenza","MD","bad","0.0","\"Nome Cognome\" non risolto per l'addetto emergenza."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.G - Contatti di emergenza","MD","bad","0.0","\"[nome compagnia]\" non risolto per quasi tutti i contatti."],
+["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.H - Piano di emergenza ed evacuazione","MD","bad","0.0","\"Nome Cognome\" ripetuto ovunque, numero estintori \"XX\", planimetria \"XXXXXXX\"."],
+["D_GESTIONE PROGETTO","3 moduli RINA per certificazione","Modulo esterno","good","—","Compilati con dati reali Vectorlab; 2 dei 3 file sono duplicati quasi identici, uno eliminabile."],
+];
+
+const CLUSTERS = [
+  ["Controlli tecnologici (il blocco più grande)", ["PO16 - Gestione Accessi","PR16.1 - Gestione Accessi","PO17 - Crittografia","PO23 - Minacce e Vulnerabilità","PR23.1 - Vulnerabilità Tecniche","PR23.2 - Monitoraggio Minacce","PO25 - Sviluppo Sicuro","PR24.1 - Gestione Reti","PO32 - Gestione Configurazioni","PR32.1 - Gestione Configurazioni","PR22.1 - Gestione Patch","ALPO25.A - Regole scrittura codice","ALPR16.1.A - Lista utenze","ALPR23.2.A - Report Monitoraggio Minacce","ALPR24.1.A - Schema di Rete","ALPR24.1.B - Schema Infrastruttura","MDPO25.A - OWASP ASVS Checklist","MDPO25.B - Definizione Requisiti","MDPO25.C - Documentazione Tecnica","MDPR23.1.A - Piano Vulnerabilità","MDPR23.2.A - Monitoraggio Minacce Template","MDPR32.1.A - Config. Base Firewall/PC/Router/Switch (4 template)"]],
+  ["Procedure di area generiche", ["PR03.1 - IT","PR04.1 - Amministrazione","PR06.1 - Gestione Performance","PR09.1 - Gestione Commerciale"]],
+  ["Conformità e continuità", ["PO29 - Gestione Conformità","PO30 - Privacy by design e by default","PR28.2 - Business Impact Analysis (procedura)","PR33.1 - Analisi del Rischio e Trattamento","MDPO29.D - Elenco AdS"]],
+  ["Altro", ["REG03 - Regolamento Lavoro Agile","ALPR26.1.D - Nomina Responsabile Trattamenti Dati Personali"]],
+];
+
+const PRIORITIES = [
+  ["PO20 · Gestione della Capacità","L'80% del documento tratta Gestione delle Configurazioni, non Capacità come da titolo — probabile copia-incolla sbagliato mai corretto."],
+  ["PR27.1 e allegati · Gestione Incidenti","Trattano il DPO come ruolo obbligatorio, in contraddizione diretta con PO31 (rev. 0.1) che chiarisce come il DPO non sia obbligatorio per Vectorlab."],
+  ["SOA · Note importate da ERA","Alcune note appena importate contraddicono documenti già maturi citati nella stessa riga (5.35 vs PR11.1, 5.12/5.13 vs PO15)."],
+  ["Moduli di emergenza fisica","MDPR18.1.F/G/H hanno ancora \"Nome Cognome\" al posto degli addetti reali — non solo carta, è conformità D.Lgs 81/08."],
+  ["Possibili residui di un altro cliente","Date sospette (05/2009, 15/03/2021), \"NOME AZIENDA\" al posto di Vectorlab in più atti — da verificare su tutto il corpus."],
+  ["MDPR21.1.A vs PR21.1","Il piano di restore elenca ancora Dropbox/VMware/Hyper-V/Onedrive, sistemi che la procedura collegata ha dichiarato dismessi."],
+  ["Riferimenti incrociati rotti","Almeno 6 casi di documenti che citano un altro documento con il codice sbagliato (es. PR12.1 → \"MDPR10.1.C\" inesistente)."],
+  ["REG01 · Regolamento strumenti","Il regolamento di ticketing interno è citato con 5 codici diversi nello stesso documento, nessuno risolto; manca la firma."],
+  ["Checklist di audit non tradotte","MDPR11.1.D è interamente in inglese; L e M ricalcano la norma senza alcun adattamento a Vectorlab."],
+  ["33 documenti mai creati","Soprattutto l'intero blocco tecnico (accessi, crittografia, vulnerabilità, sviluppo sicuro, reti) — vedi sezione dedicata sotto."],
+];
+
+const tbody = document.getElementById('doc-table-body');
+const STATUS_LABEL = {good:'Reale',todo:'Template vuoto',boiler:'Boilerplate',bad:'Da correggere'};
+DATA.forEach(row=>{
+  const [cat,file,type,status,rev,note] = row;
+  const tr = document.createElement('tr');
+  tr.dataset.status = status;
+  tr.dataset.text = (file+' '+note).toLowerCase();
+  tr.innerHTML = `<td class="cat">${cat}</td><td class="file"><code>${file}</code></td><td>${type}</td><td><span class="chip ${status}">${STATUS_LABEL[status]}</span></td><td class="rev">${rev}</td><td class="note">${note}</td>`;
+  tbody.appendChild(tr);
+});
+
+const missingWrap = document.getElementById('missing-clusters');
+CLUSTERS.forEach(([title,items])=>{
+  const div = document.createElement('div');
+  div.className='missing-cluster';
+  div.innerHTML = `<h3><span class="chip missing">${items.length}</span> ${title}</h3><div class="missing-list">${items.map(i=>`<span>${i}</span>`).join('')}</div>`;
+  missingWrap.appendChild(div);
+});
+
+const cardsWrap = document.getElementById('priority-cards');
+PRIORITIES.forEach(([title,note])=>{
+  const div = document.createElement('div');
+  div.className='card';
+  div.innerHTML = `<h3>${title}</h3><p>${note}</p>`;
+  cardsWrap.appendChild(div);
+});
+
+const buttons = document.querySelectorAll('.filter-btn');
+const searchInput = document.getElementById('search');
+const countLabel = document.getElementById('count-label');
+let activeFilter = 'all';
+
+function applyFilters(){
+  const q = searchInput.value.trim().toLowerCase();
+  let visible = 0;
+  document.querySelectorAll('#doc-table-body tr').forEach(tr=>{
+    const matchesStatus = activeFilter==='all' || tr.dataset.status===activeFilter;
+    const matchesText = !q || tr.dataset.text.includes(q);
+    const show = matchesStatus && matchesText;
+    tr.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  countLabel.textContent = visible + ' di ' + DATA.length + ' documenti';
+}
+buttons.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    buttons.forEach(b=>b.setAttribute('aria-pressed','false'));
+    btn.setAttribute('aria-pressed','true');
+    activeFilter = btn.dataset.filter;
+    applyFilters();
+  });
+});
+searchInput.addEventListener('input', applyFilters);
+applyFilters();
+</script>
