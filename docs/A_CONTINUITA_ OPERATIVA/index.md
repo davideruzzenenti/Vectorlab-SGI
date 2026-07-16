@@ -8,6 +8,7 @@
 - [MDPR28.1.C - Report Test di Continuità Operativa [template]](MDPR28.1.C%20-%20Report%20Test%20di%20Continuit%C3%A0%20Operativa%20%5Btemplate%5D.md)
 - [PO28 - Gestione della Continuità Operativa](PO28%20-%20Gestione%20della%20Continuit%C3%A0%20Operativa.md)
 - [PR28.1 - Procedura di gestione della continuità operativa](PR28.1%20-%20Procedura%20di%20gestione%20della%20continuit%C3%A0%20operativa.md)
+- [PR28.2 - Processo Business Impact Analysis](PR28.2%20-%20Processo%20Business%20Impact%20Analysis.md)
 
 ## Altri file
 

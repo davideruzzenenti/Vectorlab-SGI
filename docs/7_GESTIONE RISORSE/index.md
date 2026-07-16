@@ -24,6 +24,7 @@
 - [MDPR06.1.D - Modulo partecipanti](MDPR06.1.D%20-%20Modulo%20partecipanti.md)
 - [MDPR06.1.E - Griglia delle competenze](MDPR06.1.E%20-%20Griglia%20delle%20competenze.md)
 - [PR05.1 - Gestione del personale](PR05.1%20-%20Gestione%20del%20personale.md)
+- [PR06.1 - Gestione delle Performance](PR06.1%20-%20Gestione%20delle%20Performance.md)
 - [REG01 - Regolamento sull’utilizzo degli strumenti aziendali](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md)
 - [REG02 - Regolamento comportamentale del personale](REG02%20-%20Regolamento%20comportamentale%20del%20personale.md)
 

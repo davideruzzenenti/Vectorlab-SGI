@@ -8,6 +8,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
+| 0.1      | 16/07/2026 | Revisione assistita da IA: rimosso un placeholder non risolto | RSGI        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -864,9 +865,7 @@ Alcune tra le tecniche di mascheramento utilizzate includono procedure
 di offuscamento, anonimizzazione e pseudonimizzazione (tra cui la
 cifratura) applicate ai seguenti ambiti:
 
-  - sviluppo software, in particolare nella fase di testing;
-
-  - xxxx
+  - sviluppo software, in particolare nella fase di testing.
 
 Funzionalmente al contesto ed agli obiettivi prefissati, si opta per la
 tecnica di mascheramento in grado di dare le migliori risposte sia dal

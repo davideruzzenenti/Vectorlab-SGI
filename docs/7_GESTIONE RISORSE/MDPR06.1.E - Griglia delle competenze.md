@@ -5,6 +5,7 @@
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
 <tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
+<tr><td>0.1</td><td>16/07/2026</td><td colspan="4">Revisione assistita da IA: rimosso un placeholder non risolto nella legenda</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
 </table>
 
 ## Legenda
@@ -19,7 +20,7 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Tipologia di competenze</td><td colspan="5">Descrizione</td><td></td><td>Livello competenza</td><td>Definizione</td></tr>
 <tr><td>Soft skills</td><td colspan="5">Competenze relative alle attitudini del personale a svolgere certe mansioni</td><td></td><td>1</td><td>non competente</td></tr>
-<tr><td>Trasversali</td><td colspan="5">Competenze idonee al mantenimento del Sistema di Gestione xxx e trasversali a tutti i sistemi certificati</td><td></td><td>2</td><td>competente ma non autonomo o competenza di basso livello</td></tr>
+<tr><td>Trasversali</td><td colspan="5">Competenze idonee al mantenimento del Sistema di Gestione e trasversali a tutti i sistemi certificati</td><td></td><td>2</td><td>competente ma non autonomo o competenza di basso livello</td></tr>
 <tr><td>ISO27001 - ISO9001</td><td colspan="5">Competenze specifiche necessarie al mantenimento dei Sistemi ISO27001 e relativo Annex A, ISO9001</td><td></td><td>3</td><td>competente e autonomo</td></tr>
 <tr><td>GDPR</td><td colspan="5">Competenze specifiche necessarie alla compliance al GDPR</td><td></td><td>4</td><td>competente e capace di insegnare agli altri e aiutare chi è competente ma non autonomo</td></tr>
 <tr><td>Competenze specifiche area business</td><td colspan="5">Competenze specifiche necessarie all&#x27;erogazione dei servizi offerti dalle differenti aree di business</td><td></td><td></td><td></td></tr>

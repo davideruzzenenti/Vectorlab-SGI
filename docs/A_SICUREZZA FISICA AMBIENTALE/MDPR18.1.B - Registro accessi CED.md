@@ -1,5 +1,12 @@
 # MDPR18.1.B - Registro accessi CED
 
+> Nota aggiunta il 16/07/2026 in sede di revisione: "*PR18.1 - Gestione
+> sicurezza fisica e ambientale*" chiarisce che Vectorlab non dispone di
+> un CED o di una sala server propria (infrastruttura cloud-first). Il
+> presente registro è pertanto da considerarsi non applicabile allo
+> stato attuale; viene mantenuto per completezza qualora in futuro
+> venisse allestito un locale tecnico da presidiare.
+
 **Sede: Vectorlab SRL - Piazza Borgo Pila 39/22 - 16129 - GENOVA (GE)**
 
 <table>

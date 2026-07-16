@@ -56,9 +56,9 @@
 
 <table>
 <tr><th colspan="4">Valutazione conformità</th><th></th><th colspan="4">Codifica Problema</th></tr>
-<tr><td>NA</td><td>Non Applicabile</td><td>0</td><td>#DIV/0!</td><td></td><td>0</td><td>Nessun problema</td><td>0</td><td>#DIV/0!</td></tr>
-<tr><td>0</td><td>Non Conforme</td><td>0</td><td>#DIV/0!</td><td></td><td>1</td><td>Difetto documentale</td><td>0</td><td>#DIV/0!</td></tr>
-<tr><td>1</td><td>Mediamente Conforme</td><td>0</td><td>#DIV/0!</td><td></td><td>2</td><td>Non applicato</td><td>0</td><td>#DIV/0!</td></tr>
-<tr><td>2</td><td>Buono, da migliorare</td><td>0</td><td>#DIV/0!</td><td></td><td>3</td><td>Non documentato</td><td>0</td><td>#DIV/0!</td></tr>
-<tr><td>3</td><td>Conforme</td><td>0</td><td>#DIV/0!</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>NA</td><td>Non Applicabile</td><td>0</td><td>n/d</td><td></td><td>0</td><td>Nessun problema</td><td>0</td><td>n/d</td></tr>
+<tr><td>0</td><td>Non Conforme</td><td>0</td><td>n/d</td><td></td><td>1</td><td>Difetto documentale</td><td>0</td><td>n/d</td></tr>
+<tr><td>1</td><td>Mediamente Conforme</td><td>0</td><td>n/d</td><td></td><td>2</td><td>Non applicato</td><td>0</td><td>n/d</td></tr>
+<tr><td>2</td><td>Buono, da migliorare</td><td>0</td><td>n/d</td><td></td><td>3</td><td>Non documentato</td><td>0</td><td>n/d</td></tr>
+<tr><td>3</td><td>Conforme</td><td>0</td><td>n/d</td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>

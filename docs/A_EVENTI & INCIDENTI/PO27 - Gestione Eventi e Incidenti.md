@@ -8,7 +8,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | CISO        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.1      | 16/07/2026 | Revisione assistita da IA: corretto un riferimento a documento inesistente ("PR A16.1" → PR27.1) | CISO        | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -494,7 +494,7 @@ on Personal Data Breach notification under Regulation 2016/679”, rev.
 *Figura 1 - Diagramma di flusso che indica obblighi di notifica*
 
 La procedura dettagliata di gestione di un Data Breach e relative
-notifiche è descritta in *“PR A16.1 - Gestione Incidenti e Data
+notifiche è descritta in *“PR27.1 - Gestione Incidenti e Data
 Breach”.*
 
 # Comunicazione e reportistica degli incidenti di sicurezza

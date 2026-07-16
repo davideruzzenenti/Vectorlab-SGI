@@ -182,8 +182,8 @@ relativo alla sicurezza,
 
       - > assegnare e gestire il sistema di autenticazione informatica
         > secondo le modalità indicate nelle politiche aziendali del
-        > sistema di gestione della sicurezza informatica di NOME
-        > AZIENDA e quindi, fra le altre, generare, sostituire ed
+        > sistema di gestione della sicurezza informatica di VECTORLAB
+        > e quindi, fra le altre, generare, sostituire ed
         > invalidare, in relazione agli strumenti ed alle applicazioni
         > informatiche utilizzate, le password ed i Codici
         > identificativi personali da assegnare agli incaricati del
@@ -199,8 +199,8 @@ relativo alla sicurezza,
 
       - > predisporre ed implementare le eventuali ulteriori misure
         > minime di sicurezza imposte dalle politiche aziendali del
-        > sistema di gestione della sicurezza informatica di NOME
-        > AZIENDA per il trattamento informatico dei dati sensibili (e
+        > sistema di gestione della sicurezza informatica di VECTORLAB
+        > per il trattamento informatico dei dati sensibili (e
         > giudiziari, se esistenti) e per la conseguente tutela degli
         > strumenti elettronici;
 

@@ -1,5 +1,12 @@
 # ALPO31.D - Atto di Nomina a Referente Privacy
 
+### Revisioni
+
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
+| 0.1      | 16/07/2026 | Revisione assistita da IA: chiarito il rapporto con il DPO ("ove nominato"); corretto un refuso | RSGI        | Amministratore Unico |
+
 **<span class="underline">ATTO DI NOMINA A REFERENTE PRIVACY</span>**
 
 *Art. 29 Regolamento UE (GDPR) n. 679/2016*

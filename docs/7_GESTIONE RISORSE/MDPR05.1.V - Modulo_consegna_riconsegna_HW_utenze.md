@@ -1,5 +1,12 @@
 # MDPR05.1.V - Modulo_consegna_riconsegna_HW_utenze
 
+### Revisioni
+
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
+| 0.1      | 16/07/2026 | Revisione assistita da IA: corretti i riferimenti incrociati a Consegna/Restituzione Chiavi (invertiti rispetto ai codici reali) | HR          | Amministratore Unico |
+
 <table>
 <tbody>
 <tr class="odd">
@@ -76,8 +83,8 @@
 </tr>
 <tr class="odd">
 <td><strong>Modulistica</strong></td>
-<td><p>MDPR05.1.T – Consegna Chiavi SI NO</p>
-<p>MDPR05.1.U – Restituzione Chiavi SI NO</p></td>
+<td><p>MDPR05.1.S – Consegna Chiavi SI NO</p>
+<p>MDPR05.1.T – Restituzione Chiavi SI NO</p></td>
 <td></td>
 <td></td>
 </tr>

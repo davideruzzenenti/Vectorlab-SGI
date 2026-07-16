@@ -71,6 +71,34 @@ Su richiesta di Davide, revisione dell'intero corpus (non solo i file già tocca
 
 **In sintesi**: 24 documenti pronti così come sono, 40 template vuoti normali da popolare, 44 con difetti concreti (placeholder mai risolti, riferimenti incrociati rotti tra documenti, contraddizioni interne), 33 mai creati. I problemi più seri: `PO20` ha l'80% del testo che parla di Gestione delle Configurazioni invece che di Capacità (copia-incolla sbagliato dal template); `PR27.1` e i suoi allegati trattano il DPO come obbligatorio, contraddicendo la revisione già fatta su `PO31`; i moduli di emergenza fisica (`MDPR18.1.F/G/H`) hanno ancora "Nome Cognome" non compilato (gap di conformità D.Lgs 81/08, non solo carta); sospetti residui di un altro cliente del consulente (date "05/2009" e "15/03/2021", "NOME AZIENDA" al posto di Vectorlab in più atti) da verificare.
 
+## Generazione bozze documenti mancanti e correzioni (16/07/2026, stessa giornata)
+
+Su richiesta di Davide, dopo aver discusso l'approccio: generate le bozze di tutti i documenti risultati mancanti nella revisione precedente, corrette le contraddizioni già identificate, aggiornato l'elenco documenti e la dashboard.
+
+**Standard adottato per le bozze**: niente lorem ipsum. Contenuto reale e verosimile basato sui fatti già noti nel repository (stack AWS/Aruba/Google Workspace/GitHub, testo già reale della SOA, documenti "fratelli" già maturi), con un banner blu "DOCUMENTO IN BOZZA" in cima a ogni file generato e le frasi/parametri assunti evidenziati con `<span style="color:#B3392A">[DA CONFERMARE: ...]</span>` nel testo. Tutti i documenti generati sono in Rev. 0.1, "Redatto: IA", "Approvato: Da approvare".
+
+**Esecuzione**: 7 sub-agent in parallelo (uno per gruppo tematico), ciascuno con lo stesso standard di marcatura e un elenco di fatti verificati da cui partire, per mantenere coerenza senza dover rileggere tutto a mano. Generati 36 documenti (contando anche i 4 template Firewall/PC/Router/Switch di MDPR32.1.A come file separati). Non generato solo REG03 (vedi sotto, chiarimento inatteso).
+
+**Correzione importante prima di generare**: confrontando i codici mancanti con `MDPR08.1.A - Elenco Informazioni documentate` (che aveva già righe segnaposto per quasi tutti questi documenti, con la cartella "ufficiale" prevista dal consulente), sono emerse cartelle diverse da quelle inizialmente create. Rinominate per coerenza:
+- `A_CONTROLLO ACCESSI` → `A_ACCESSI`
+- PO17 spostato dalla cartella Asset&Configurazione in una cartella propria `A_CRITTOGRAFIA`
+- `A_MINACCE E VULNERABILITA` → `A_MINACCE & VULNERABILITA_`
+- `A_PROGETTAZIONE E SVILUPPO SICURO` → `A_PROGETTAZIONE & SVILUPPO SICURO`
+- `A_SICUREZZA SISTEMI E RETI` → `A_SICUREZZA SISTEMI & RETI`
+- `A_GESTIONE COMMERCIALE` → `8.2_PRODOTTI & SERVIZI`
+
+**Scoperta inattesa**: REG03, che si ipotizzava riguardasse il lavoro agile, secondo l'elenco documenti è in realtà un "Regolamento accesso esterni" (processo Sicurezza Fisica e Ambientale). Non generato: da decidere con la Direzione se serve, dato che il lavoro agile è già coperto da `ALPR05.1.E/F`.
+
+**Altra scoperta**: l'elenco documenti cita `PR33.1` due volte, con due metodologie diverse (analisi rischio SGSI/SGCO/SGS completa, e una versione HLS semplificata) — è stato generato un solo documento con la metodologia principale; da verificare se ne serve un secondo.
+
+**Correzioni applicate ai documenti esistenti** (13 punti, tutti in nuova riga di revisione): riferimenti a documenti inesistenti corretti in `PR12.1`, `PO27`, `PR27.1` (MDPR10.1.C→MDPR10.1.B, PR A16.1→PR27.1, MDPR31.5.A→MDPR27.1.A); chiarito che il DPO non è obbligatorio (coerente con `PO31`) in `PR27.1`, `ALPR27.1.B`, `MDPR27.1.A`; corretto "NOME AZIENDA"→Vectorlab in `ALPO31.A`; aggiunta tabella Revisioni mancante in `ALPO31.D`; sistemati riferimenti incrociati invertiti in `MDPR05.1.V`; rimossi placeholder residui in `MDPR06.1.E`, `MDPR11.1.N` (errore Excel `#DIV/0!`), `PO15`; aggiunta l'introduzione mancante in `PR11.1`; segnalato come non applicabile (non più orfano) il registro CED in `MDPR18.1.B`; riconciliate le note della SOA sui controlli 5.12 e 5.35 (ora rimandano a `PO15`/`PR11.1` invece di contraddirli) e compilato il campo "Controlli Non Applicabili" in copertina.
+
+**Elenco documenti** (`MDPR08.1.A`): compilate le colonne Rev./Data/Cartella per tutti i documenti generati, aggiunte 4 righe che mancavano del tutto (MDPR23.1.A, PR06.1, MDPO29.D, PR28.2).
+
+**Dashboard**: `docs/STATO-DOCUMENTAZIONE.html` aggiornata — i 36 documenti generati sono ora tracciati con stato "Nuovo (bozza IA)" invece che "mancante"; le 13 righe corrette aggiornate; KPI ricalcolati (150 documenti totali, 32 pronti, 44 template vuoti, 32 da correggere, 36 nuovi, 1 ancora da creare/decidere: REG03).
+
+**Non ancora fatto**: `PO20` (contenuto sbagliato, parla di Configurazioni invece che Capacità) e `REG01` (5 codici diversi per lo stesso regolamento) restano da correggere — erano marcati "misto" (serve una decisione, non solo una correzione meccanica), non toccati in questa passata.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
@@ -84,9 +112,13 @@ Su richiesta di Davide, revisione dell'intero corpus (non solo i file già tocca
 - [ ] Verificare l'indirizzo PEC reale di Vectorlab da inserire in `ALPR26.1.B.3` al posto del placeholder
 - [ ] CTO prosegue la revisione dei documenti mancanti (era arrivato a "A_Asset e configurazione")
 - [x] Integrare l'export CSV di ERA nella SOA del repo (fatto il 16/07/2026, vedi sezione dedicata sopra)
-- [ ] Riconciliare le note appena importate nella SOA con i riferimenti documentali già presenti (alcune si contraddicono, es. 5.35, probabilmente 5.12/5.13)
+- [x] Riconciliare le note appena importate nella SOA con i riferimenti documentali già presenti (fatto il 16/07/2026: 5.12 e 5.35 corretti, vedi sezione dedicata sopra)
 - [x] Repo tornato pubblico (16/07/2026) per riavere Pages attivo, dopo una breve parentesi privata
-- [ ] Consultare `docs/STATO-DOCUMENTAZIONE.html` (anche via `davideruzzenenti.github.io/Vectorlab-SGI/STATO-DOCUMENTAZIONE.html`) e decidere l'ordine di lavoro sui 44 documenti da correggere e i 33 mancanti
-- [ ] Correggere `PO20` (contenuto sbagliato), `PR27.1`+allegati (DPO trattato come obbligatorio, da allineare a `PO31`), moduli di emergenza fisica (nominativi mancanti)
+- [x] Generare le bozze dei 33 documenti mancanti citati nella SOA/Elenco (fatto il 16/07/2026: 36 file generati, solo REG03 lasciato in sospeso — vedi sezione dedicata sopra)
+- [ ] Rivedere una per una le 36 bozze generate dalla IA e confermarle/correggerle (contenuti evidenziati in rosso "DA CONFERMARE" da verificare, poi passare lo stato revisione da "Da approvare" a una revisione formale)
+- [ ] Decidere se serve davvero `REG03` ("Regolamento accesso esterni", non generato) dato che `ALPR05.1.E/F` coprono già il lavoro agile
+- [ ] Decidere se serve un secondo `PR33.1` per la metodologia "HLS semplificata" citata nell'Elenco, o se è solo una nota interna al documento esistente
+- [ ] Correggere `PO20` (contenuto sbagliato, parla di Capacity Management ma tratta Configuration Management)
+- [ ] Correggere `REG01` (citato con 5 codici diversi e tutti inesistenti nell'Elenco, da uniformare)
 - [ ] Verificare se ci sono davvero residui di un altro cliente del consulente (date sospette, "NOME AZIENDA" al posto di Vectorlab)
 - [ ] Fase 2 (idea originale del CTO, non ancora iniziata): usare un LLM di grosse dimensioni per scandagliare il corpus consolidato e individuare incongruenze tra documenti — ora fattibile perché tutto è in un unico formato strutturato e ragionevolmente pulito
