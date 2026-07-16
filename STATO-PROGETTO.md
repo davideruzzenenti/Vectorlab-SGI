@@ -53,6 +53,16 @@ Prima passata di revisione della documentazione assistita da IA (Claude), su ric
 - Diversi placeholder "XXX"/"Area XXXX" in moduli/piani (`MDPR11.1.A/B/C`, Piano della Comunicazione, Piano di Capacità, contratti/NDA fornitori) sono stati lasciati intenzionalmente: sono campi di template da compilare caso per caso, non errori.
 - Le nuove righe di revisione (0.1) riportano "Approvato: Amministratore Unico" in modo formale/documentale; l'approvazione sostanziale da parte di Davide/Andrea resta comunque da dare a mente fredda leggendo i diff.
 
+## Integrazione SOA con export ERA (16/07/2026)
+
+Luca Corradi ha condiviso un export CSV (`era-control-vect.csv`, salvato in `docs/02_SOA/` come riferimento) dallo strumento "ERA" usato dal team per compilare la Dichiarazione di Applicabilità ISO 27001/27002, con l'obiettivo di far coincidere questo lavoro con la SOA già presente nel repo (`docs/02_SOA/SOA - Statement of Applicability...md`).
+
+**Scoperta importante**: la SOA nel repo non era un template vuoto (come inizialmente ipotizzato) — ha già per ogni controllo i riferimenti ai documenti, una tassonomia di attributi ISO 27002:2022 (tipo di controllo, proprietà CIA, concetti Cybersecurity, domini di sicurezza, mappatura ai processi) e un'intera sezione aggiuntiva "AGID CSP-SAAS" (requisiti di qualificazione cloud per la PA) assenti dal CSV. Il CSV, al contrario, non ha riferimenti a documenti né tassonomia, ma aveva note testuali compilate per **tutti** i 93 controlli, mentre la SOA le aveva solo per ~20 controlli (soprattutto nella sezione tecnologica, con note operative dirette tipo "Francesco gestisce tutti i profili").
+
+**Integrazione fatta** (via script Python, poi rimosso, non uno strumento permanente): per ogni controllo con nota vuota nella SOA, importata la nota del CSV (usando il campo giusto a seconda che il controllo fosse marcato applicabile o meno), senza toccare le note già presenti, i riferimenti documentali, gli attributi o la sezione AGID. Puliti anche i problemi di codifica (mojibake) presenti nel CSV originale. Per i 3 controlli che il CSV segna come non applicabili (7.12 Cablaggi, 8.11 Mascheramento dati, 8.30 Sviluppo esterno) è stata compilata anche la colonna "Motivo Esclusione".
+
+**Non ancora fatto (prossimo passo)**: alcune note appena importate sono in contraddizione con i riferimenti documentali già presenti nella stessa riga della SOA — es. il controllo 5.35 "Riesame indipendente" dice ancora "non è ancora formalizzato" pur citando `PR11.1 - Audit Interno`, che è invece una procedura già matura; probabile anche per 5.12/5.13 (Classificazione) rispetto a `PO15`. Vanno riconciliati controllo per controllo, verificando il contenuto reale dei documenti citati (non solo la loro esistenza — es. i moduli "MD" sono spesso form vuoti, mentre le "PO"/"PR" sono policy sostanziali).
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
@@ -65,6 +75,7 @@ Prima passata di revisione della documentazione assistita da IA (Claude), su ric
 - [ ] Rileggere con calma le modifiche della "Revisione IA (09/07/2026)" e confermarle (o correggerle) come vere e proprie approvazioni documentali
 - [ ] Verificare l'indirizzo PEC reale di Vectorlab da inserire in `ALPR26.1.B.3` al posto del placeholder
 - [ ] CTO prosegue la revisione dei documenti mancanti (era arrivato a "A_Asset e configurazione")
-- [ ] Dopo la revisione, procedere con la SOA
+- [x] Integrare l'export CSV di ERA nella SOA del repo (fatto il 16/07/2026, vedi sezione dedicata sopra)
+- [ ] Riconciliare le note appena importate nella SOA con i riferimenti documentali già presenti (alcune si contraddicono, es. 5.35, probabilmente 5.12/5.13)
 - [ ] Quando i documenti conterranno dati reali: repo privato + valutare GitHub Pro per mantenere Pages attivo
 - [ ] Fase 2 (idea originale del CTO, non ancora iniziata): usare un LLM di grosse dimensioni per scandagliare il corpus consolidato e individuare incongruenze tra documenti — ora fattibile perché tutto è in un unico formato strutturato e ragionevolmente pulito
