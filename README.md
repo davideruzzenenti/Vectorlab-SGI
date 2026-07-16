@@ -1,5 +1,9 @@
 # Vectorlab SGI
 
+**Stato documentazione:** https://davideruzzenenti.github.io/Vectorlab-SGI/STATO-DOCUMENTAZIONE.html
+
+**Consulta la documentazione:** https://davideruzzenenti.github.io/Vectorlab-SGI/
+
 Documentazione del Sistema di Gestione Integrato (SGI) di Vectorlab — Qualità (ISO 9001) e Sicurezza delle Informazioni (ISO/IEC 27001) — migrata da Google Drive a Markdown e pubblicata come sito consultabile via browser.
 
 ## Cosa contiene questo repository
@@ -25,6 +29,8 @@ mkdocs serve
 
 Per la cronologia dettagliata della migrazione (cosa è stato fatto, limiti noti, decisioni prese, revisioni in corso) vedere **[STATO-PROGETTO.md](STATO-PROGETTO.md)**.
 
+Per lo stato di completezza dei singoli documenti del SGI (cosa è pronto, cosa è ancora un template da compilare, cosa va corretto, cosa manca del tutto, e chi deve intervenire) vedere la dashboard **[STATO-DOCUMENTAZIONE.html](https://davideruzzenenti.github.io/Vectorlab-SGI/STATO-DOCUMENTAZIONE.html)**.
+
 ## Nota sulla visibilità del repository
 
-Il repository è **pubblico** in questa fase, perché la documentazione contiene ancora bozze e nessun dato reale. È previsto il passaggio a un repository privato (con relativa valutazione di GitHub Pro per mantenere attivo GitHub Pages) quando i documenti conterranno dati aziendali reali.
+Il repository è **pubblico**: su piano GitHub Free, Pages (il sito di consultazione) funziona solo con repo pubblici — passare a privato richiederebbe GitHub Pro o un'organizzazione Enterprise Cloud per mantenere il sito attivo. Vedere `STATO-PROGETTO.md` per i dettagli di questa scelta.

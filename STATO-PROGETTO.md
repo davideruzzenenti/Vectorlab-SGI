@@ -8,7 +8,7 @@ Spostare la documentazione ISO di Vectorlab da Google Drive (Word/Excel, organiz
 
 ## Repository
 
-`https://github.com/davideruzzenenti/Vectorlab-SGI.git` — **passato a privato il 16/07/2026** (prima era pubblico). Conseguenza: GitHub Pages (piano Free) non funziona più su repo privato — il sito `davideruzzenenti.github.io/Vectorlab-SGI/` risulta 404 finché non si sceglie tra tornare pubblico o passare a GitHub Pro (vedi "Cose da sapere" e "Prossimi passi").
+`https://github.com/davideruzzenenti/Vectorlab-SGI.git` — passato a privato il 16/07/2026, poi **tornato pubblico lo stesso giorno** per riavere GitHub Pages attivo (il piano Free non pubblica Pages su repo privati). Sito di nuovo raggiungibile su `davideruzzenenti.github.io/Vectorlab-SGI/`.
 
 ## Cosa è stato fatto
 
@@ -67,7 +67,7 @@ Luca Corradi ha condiviso un export CSV (`era-control-vect.csv`, salvato in `doc
 
 Su richiesta di Davide, revisione dell'intero corpus (non solo i file già toccati in precedenza): per ogni documento esistente, valutazione se è contenuto reale compilato da Vectorlab, un template ancora vuoto (normale prima del primo uso), un boilerplate generico mai adattato dal consulente, o un documento con difetti concreti da correggere. Confrontato anche l'elenco "Riferimenti a Informazioni Documentate" della SOA con i file realmente presenti, per capire quali documenti sono citati ma non sono mai stati creati.
 
-**Risultato**: `STATO-DOCUMENTAZIONE.html` (alla root del repo) — dashboard con tabella filtrabile di 114 documenti valutati, i 10 problemi con impatto maggiore, e i 33 documenti citati ma mai creati (in gran parte l'intero blocco tecnologico: gestione accessi, crittografia, minacce/vulnerabilità, sviluppo sicuro, reti, configurazioni, patch). Aprire il file in un browser per consultarla.
+**Risultato**: `docs/STATO-DOCUMENTAZIONE.html` — dashboard con tabella filtrabile di 114 documenti valutati, i 10 problemi con impatto maggiore, i 33 documenti citati ma mai creati (in gran parte l'intero blocco tecnologico: gestione accessi, crittografia, minacce/vulnerabilità, sviluppo sicuro, reti, configurazioni, patch), e per ogni voce chi deve intervenire (IA in autonomia / misto / serve input umano). Spostato dentro `docs/` (e non alla root) apposta perché MkDocs/Pages lo includano nel sito pubblicato: raggiungibile su `davideruzzenenti.github.io/Vectorlab-SGI/STATO-DOCUMENTAZIONE.html` (non compare nel menu di navigazione, solo via link diretto).
 
 **In sintesi**: 24 documenti pronti così come sono, 40 template vuoti normali da popolare, 44 con difetti concreti (placeholder mai risolti, riferimenti incrociati rotti tra documenti, contraddizioni interne), 33 mai creati. I problemi più seri: `PO20` ha l'80% del testo che parla di Gestione delle Configurazioni invece che di Capacità (copia-incolla sbagliato dal template); `PR27.1` e i suoi allegati trattano il DPO come obbligatorio, contraddicendo la revisione già fatta su `PO31`; i moduli di emergenza fisica (`MDPR18.1.F/G/H`) hanno ancora "Nome Cognome" non compilato (gap di conformità D.Lgs 81/08, non solo carta); sospetti residui di un altro cliente del consulente (date "05/2009" e "15/03/2021", "NOME AZIENDA" al posto di Vectorlab in più atti) da verificare.
 
@@ -85,8 +85,8 @@ Su richiesta di Davide, revisione dell'intero corpus (non solo i file già tocca
 - [ ] CTO prosegue la revisione dei documenti mancanti (era arrivato a "A_Asset e configurazione")
 - [x] Integrare l'export CSV di ERA nella SOA del repo (fatto il 16/07/2026, vedi sezione dedicata sopra)
 - [ ] Riconciliare le note appena importate nella SOA con i riferimenti documentali già presenti (alcune si contraddicono, es. 5.35, probabilmente 5.12/5.13)
-- [x] Repo passato a privato (16/07/2026) — decidere se tornare pubblico o passare a GitHub Pro per riavere Pages attivo (vedi sezione Repository)
-- [ ] Consultare `STATO-DOCUMENTAZIONE.html` e decidere l'ordine di lavoro sui 44 documenti da correggere e i 33 mancanti
+- [x] Repo tornato pubblico (16/07/2026) per riavere Pages attivo, dopo una breve parentesi privata
+- [ ] Consultare `docs/STATO-DOCUMENTAZIONE.html` (anche via `davideruzzenenti.github.io/Vectorlab-SGI/STATO-DOCUMENTAZIONE.html`) e decidere l'ordine di lavoro sui 44 documenti da correggere e i 33 mancanti
 - [ ] Correggere `PO20` (contenuto sbagliato), `PR27.1`+allegati (DPO trattato come obbligatorio, da allineare a `PO31`), moduli di emergenza fisica (nominativi mancanti)
 - [ ] Verificare se ci sono davvero residui di un altro cliente del consulente (date sospette, "NOME AZIENDA" al posto di Vectorlab)
 - [ ] Fase 2 (idea originale del CTO, non ancora iniziata): usare un LLM di grosse dimensioni per scandagliare il corpus consolidato e individuare incongruenze tra documenti — ora fattibile perché tutto è in un unico formato strutturato e ragionevolmente pulito
