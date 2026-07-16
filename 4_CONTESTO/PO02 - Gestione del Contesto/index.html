@@ -1,0 +1,10902 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema di Gestione Integrato - Documentazione ISO">
+      
+      
+      
+      
+        <link rel="prev" href="../ALPO02.B-%20Analisi%20Stakeholder/">
+      
+      
+        <link rel="next" href="../../6.1_ANALISI%20DEI%20RISCHI/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>PO02 - Gestione del Contesto - Vectorlab SGI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#po02-gestione-del-contesto" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Vectorlab SGI" class="md-header__button md-logo" aria-label="Vectorlab SGI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vectorlab SGI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PO02 - Gestione del Contesto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Vectorlab SGI" class="md-nav__button md-logo" aria-label="Vectorlab SGI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Vectorlab SGI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema di Gestione Integrato Vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 POLITICA SISTEMA INTEGRATO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 POLITICA SISTEMA INTEGRATO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01_POLITICA SISTEMA INTEGRATO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO01.B - Mansionario-Rev 0.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO01 - Sistema Integrato-Rev 0.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 SOA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 SOA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_SOA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02_SOA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_SOA/SOA%20-%20Statement%20of%20Applicability%20-%20Dichiarazione%20di%20Applicabilit%C3%A0%2027001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOA - Statement of Applicability - Dichiarazione di Applicabilità 27001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 GESTIONE NON CONFORMITA  E MIGLIORAMENTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10 GESTIONE NON CONFORMITA  E MIGLIORAMENTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10_GESTIONE NON CONFORMITA_ E MIGLIORAMENTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR13.1 - Gestione delle Non Conformità e Azioni di Miglioramento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 CONTESTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4 CONTESTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4_CONTESTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ALPO02.B-%20Analisi%20Stakeholder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO02.B- Analisi Stakeholder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO02 - Gestione del Contesto
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO02 - Gestione del Contesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#revisioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduzione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 Introduzione
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 Introduzione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-scopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Scopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-campo-di-applicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Campo di applicazione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-riferimenti-e-allegati" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Riferimenti e Allegati
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-definizioni-acronimi-abbreviazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Definizioni, Acronimi, Abbreviazioni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-responsabilita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Responsabilità
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-violazione-della-politica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 Violazione della Politica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-riesame" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 Riesame
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comprendere-lorganizzazione-e-il-suo-contesto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 Comprendere l’Organizzazione e il suo contesto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comprendere-le-esigenze-e-le-aspettative-delle-terze-parti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Comprendere le esigenze e le aspettative delle terze parti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-determinare-il-campo-di-applicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Determinare il campo di applicazione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sistema-di-gestione-integrato-e-relativi-processi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 Sistema di Gestione Integrato e relativi processi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 Sistema di Gestione Integrato e relativi processi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-mappa-dei-processi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Mappa dei processi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Mappa dei processi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-amministrazione-e-finanza" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.1 Amministrazione e Finanza
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-comunicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.2 Comunicazione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#513-digital" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.3 Digital
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#514-gestione-commerciale-business-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.4 Gestione commerciale (Business Development)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#516-innovation-research-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.6 Innovation &amp; Research Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#517-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.7 IT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#518-risorse-umane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.8 Risorse Umane
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#519-sistema-di-gestione-integrato" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.9 Sistema di Gestione Integrato
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.1 ANALISI DEI RISCHI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6.1 ANALISI DEI RISCHI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.1_ANALISI DEI RISCHI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20di%20Analisi%20del%20Rischio%20e%20Trattamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR33.1 - Processo di Analisi del Rischio e Trattamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.2%20-%20Processo%20Analisi%20del%20Rischio%20Privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR33.2 - Processo Analisi del Rischio Privacy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/asset_inventory_vectorlab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    asset_inventory_vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.2 OBIETTIVI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6.2 OBIETTIVI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.2_OBIETTIVI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO03.A - Lista Obiettivi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO03 - Gestione Obiettivi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.4 COMUNICAZIONI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7.4 COMUNICAZIONI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.4_COMUNICAZIONI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO07.A - Piano della Comunicazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/PO07%20-%20Politica%20Gestione%20della%20Comunicazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO07 - Politica Gestione della Comunicazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.5 INFORMAZIONI DOCUMENTATE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7.5 INFORMAZIONI DOCUMENTATE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.5_INFORMAZIONI DOCUMENTATE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.A - Elenco Informazioni documentate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.B%20-%20PO%20num%20-%20titolo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.B - PO num - titolo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.C%20-%20PR%20num%20-%20titolo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.C - PR num - titolo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20EXCEL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.D - MD num - titolo - formato EXCEL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20WORD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.D - MD num - titolo - formato WORD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.E%20-%20Regolamento%20xxxx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.E - Regolamento xxxx
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.F%20-%20AL%20num%20-%20titolo%20-%20formato%20WORD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.F - AL num - titolo - formato WORD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/PR08.1%20-%20Gestione%20Informazioni%20Documentate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR08.1 - Gestione Informazioni Documentate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7 GESTIONE RISORSE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7 GESTIONE RISORSE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7_GESTIONE RISORSE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.A%20-%20Comunicazione%20RLS%20interno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.A - Comunicazione RLS interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.B%20-%20Verbale%20elezione%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.B - Verbale elezione RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.C%20-%20Nomina%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.C - Nomina RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.D%20-%20Scheda%20voto%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.D - Scheda voto RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.E - Accordo Lavoro Agile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.F - Informativa Lavoro Agile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.G%20-%20Lista%20software%20permessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.G - Lista software permessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.A%20-%20Checklist%20Documenti%20per%20Inserimento%20Personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.A - Checklist Documenti per Inserimento Personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.B-%20%20Rimborso%20Spese%20Trasferta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.B- Rimborso Spese Trasferta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.D%20-%20Questionario%20Informativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.D - Questionario Informativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.H%20-%20Processo%20Disciplinare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.H - Processo Disciplinare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.L%20-%20Checklist%20documenti%20per%20uscita%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.L - Checklist documenti per uscita personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.M%20-%20Anagrafica%20Dipendenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.M - Anagrafica Dipendenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.S%20-%20Consegna%20Chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.S - Consegna Chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.T%20-%20Restituzione%20Chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.T - Restituzione Chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.U - Gestione chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.V - Modulo_consegna_riconsegna_HW_utenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.B%20-%20Scheda%20personale%20della%20formazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.B - Scheda personale della formazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.C - Piano della formazione_[aaaa]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.D%20-%20Modulo%20partecipanti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.D - Modulo partecipanti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.E%20-%20Griglia%20delle%20competenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.E - Griglia delle competenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR05.1 - Gestione del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/PR06.1%20-%20Gestione%20delle%20Performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR06.1 - Gestione delle Performance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REG01 - Regolamento sull’utilizzo degli strumenti aziendali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/REG02%20-%20Regolamento%20comportamentale%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REG02 - Regolamento comportamentale del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8.2 PRODOTTI & SERVIZI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    8.2 PRODOTTI & SERVIZI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8.2_PRODOTTI &amp; SERVIZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR09.1 - Gestione Commerciale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.1 MONITORAGGIO KPI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.1 MONITORAGGIO KPI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.1_MONITORAGGIO KPI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Questionario%20Soddisfazione%20Cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.A - Questionario Soddisfazione Cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.A - Tabella Indicatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.B - Analisi Soddisfazione Cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR10.1-Procedura Gestione del Monitoraggio, misurazione, analisi e valutazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.2 AUDIT INTERNO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.2 AUDIT INTERNO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.2_AUDIT INTERNO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.A - Programma Audit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.B - Piano di Audit e Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.C%20-%20Piano%20di%20Audit%20Tecnici/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.C - Piano di Audit Tecnici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.D%20-%20Checklist%20Audit%20Interno%2027001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.D - Checklist Audit Interno 27001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.L%20-%20Checklist%20Audit%20Interno%209001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.L - Checklist Audit Interno 9001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.M%20-%20Checklist%20Audit%20Interno%20Ads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.M - Checklist Audit Interno Ads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.N%20-%20Checklist%20Audit%20DPO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.N - Checklist Audit DPO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR11.1 - Audit Interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.3 RIESAME DIREZIONE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.3 RIESAME DIREZIONE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.3_RIESAME%20DIREZIONE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.3_RIESAME DIREZIONE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR12.1 - Riesame della Direzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A ACCESSI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A ACCESSI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_ACCESSI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/ALPR16.1.A%20-%20Lista%20utenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR16.1.A - Lista utenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/PO16%20-%20Gestione%20degli%20Accessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO16 - Gestione degli Accessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR16.1 - Gestione degli Accessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A AMMINISTRAZIONE E FINANZA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A AMMINISTRAZIONE E FINANZA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_AMMINISTRAZIONE%20E%20FINANZA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_AMMINISTRAZIONE E FINANZA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_AMMINISTRAZIONE%20E%20FINANZA/PR04.1%20-%20Amministrazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR04.1 - Amministrazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A ASSET & CONFIGURAZIONE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A ASSET & CONFIGURAZIONE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_ASSET &amp; CONFIGURAZIONE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20FIREWALL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base FIREWALL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20PC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base PC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20ROUTER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base ROUTER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20SWITCH/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base SWITCH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PO32%20-%20Gestione%20delle%20Configurazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO32 - Gestione delle Configurazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR03.1%20-%20IT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR03.1 - IT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR14.1%20-%20Gestione%20Asset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR14.1 - Gestione Asset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR22.1%20-%20Gestione%20delle%20Patch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR22.1 - Gestione delle Patch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR32.1 - Gestione delle Configurazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A BACKUP & RESTORE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A BACKUP & RESTORE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_BACKUP &amp; RESTORE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR21.1.A - Piano di Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.B%20-%20Richiesta%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR21.1.B - Richiesta Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/PO21%20-%20Gestione%20dei%20Backup%20e%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO21 - Gestione dei Backup e Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR21.1 - Gestione dei Backup e Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CAMBIAMENTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CAMBIAMENTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CAMBIAMENTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CAMBIAMENTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR19.1 - Gestione del Cambiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CLASSIFICAZIONE INFORMAZIONI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CLASSIFICAZIONE INFORMAZIONI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CLASSIFICAZIONE INFORMAZIONI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO15.A - Data Retention informazioni aziendali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO15 - Politica Classificazione Informazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_21" >
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CONFORMITA 
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CONFORMITA 
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CONFORMITA_
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.A - Lettera incarico AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.B - Atto di Nomina ad Autorizzato del Trattamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.C%20-%20Addendum%20Lettera%20Incarico%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.C - Addendum Lettera Incarico AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.D - Atto di Nomina a Referente Privacy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.A - Informativa Privacy Dipendenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.B%20-%20Informativa%20Privacy%20Candidati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.B - Informativa Privacy Candidati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.C%20-%20Informativa%20Privacy%20Visitatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.C - Informativa Privacy Visitatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.D%20-%20Informativa%20Privacy%20Fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.D - Informativa Privacy Fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.E%20-%20Informativa%20Privacy%20Clienti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.E - Informativa Privacy Clienti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.F%20-%20Informativa%20Privacy%20Sito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.F - Informativa Privacy Sito
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.G%20-%20Liberatoria%20Foto-Video/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.G - Liberatoria Foto-Video
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.H%20-%20Registro%20Consensi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.H - Registro Consensi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPO29.D%20-%20Elenco%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO29.D - Elenco AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.1.A%20-%20Registro%20delle%20richieste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.1.A - Registro delle richieste
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.4.A - Registro dei Trattamenti Titolare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.4.B - Registro dei Trattamenti Responsabile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO29%20-%20Gestione%20della%20Conformit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO29 - Gestione della Conformità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO30%20-%20Privacy%20by%20design%20e%20by%20default/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO30 - Privacy by design e by default
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO31 - Misure di sicurezza protezione dati personali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.1 - Gestione dei Diritti degli Interessati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.2%20-%20Gestione%20dei%20Consensi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.2 - Gestione dei Consensi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.3 - Procedura Valutazione d_impatto sulla protezione dei dati (DPIA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.4%20-%20Gestione%20registro%20dei%20trattamenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.4 - Gestione registro dei trattamenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CONTINUITA  OPERATIVA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CONTINUITA  OPERATIVA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CONTINUITA_ OPERATIVA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/ALPR28.1.A%20-%20Piani%20di%20Continuit%C3%A0%20Operativa%20%5Btemplate%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR28.1.A - Piani di Continuità Operativa [template]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.A - BIA_Business Impact Analysis (27001)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.B%20-%20Piano%20dei%20Test%20di%20Continuit%C3%A0%20Operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.B - Piano dei Test di Continuità Operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.C%20-%20Report%20Test%20di%20Continuit%C3%A0%20Operativa%20%5Btemplate%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.C - Report Test di Continuità Operativa [template]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PO28%20-%20Gestione%20della%20Continuit%C3%A0%20Operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO28 - Gestione della Continuità Operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Procedura%20di%20gestione%20della%20continuit%C3%A0%20operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR28.1 - Procedura di gestione della continuità operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PR28.2%20-%20Processo%20Business%20Impact%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR28.2 - Processo Business Impact Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CRITTOGRAFIA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CRITTOGRAFIA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CRITTOGRAFIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CRITTOGRAFIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CRITTOGRAFIA/PO17%20-%20Crittografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO17 - Crittografia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A EVENTI & INCIDENTI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A EVENTI & INCIDENTI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_EVENTI &amp; INCIDENTI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/ALPR27.1.A%20-%20Notifica%20Data%20Breach%20all%E2%80%99interessato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR27.1.A - Notifica Data Breach all’interessato
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/ALPR27.1.B%20-%20Information%20Security%20Incident%20Lessons%20Learned%20-%20Template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR27.1.B - Information Security Incident Lessons Learned - Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/MDPR27.1.A%20-%20Registro%20Data%20Breach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR27.1.A - Registro Data Breach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/PO27%20-%20Gestione%20Eventi%20e%20Incidenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO27 - Gestione Eventi e Incidenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR27.1 - Gestione Incidenti e Data Breach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A FORNITORI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A FORNITORI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_FORNITORI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR16.1.C%20-%20Contratto%20di%20fornitura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR16.1.C - Contratto di fornitura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.A%20-%20Comunicazione%20SGSI%20per%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.A - Comunicazione SGSI per fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.B.3%20-%20Accordo%20di%20Riservatezza%20con%20le%20Terze%20Parti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.D%20-%20Nomina%20Responsabile%20Trattamenti%20Dati%20Personali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.D - Nomina Responsabile Trattamenti Dati Personali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.E%20-%20Requisiti%20di%20sicurezza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.E - Requisiti di sicurezza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.A%20-%20Monitoraggio%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.A - Monitoraggio fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.B - Elenco fornitori qualificati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.C%20-%20Report%20consuntivazione%20attivit%C3%A0%20periodo%20di%20riferimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.C - Report consuntivazione attività periodo di riferimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PO26%20-%20Gestione%20dei%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO26 - Gestione dei fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PO40%20-%20Gestione%20Sicurezza%20nell_uso%20dei%20Servizi%20Cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO40 - Gestione Sicurezza nell_uso dei Servizi Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR26.1 - Gestione dei fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A MINACCE & VULNERABILITA 
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A MINACCE & VULNERABILITA 
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_MINACCE &amp; VULNERABILITA'
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/ALPR23.2.A%20-%20Report%20Monitoraggio%20Minacce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR23.2.A - Report Monitoraggio Minacce
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.1.A%20-%20Piano%20Gestione%20delle%20Vulnerabilit%C3%A0%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR23.1.A - Piano Gestione delle Vulnerabilità [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.2.A%20-%20Monitoraggio%20Minacce%20-%20Template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR23.2.A - Monitoraggio Minacce - Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PO23%20-%20Gestione%20delle%20Minacce%20e%20Vulnerabilit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO23 - Gestione delle Minacce e Vulnerabilità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Vulnerabilit%C3%A0%20Tecniche/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR23.1 - Gestione delle Vulnerabilità Tecniche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PR23.2%20-%20Monitoraggio%20delle%20Minacce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR23.2 - Monitoraggio delle Minacce
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_27" >
+        
+          
+          <label class="md-nav__link" for="__nav_27" id="__nav_27_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A MONITORAGGIO SISTEMI & LOGGING & CAPACITY
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_27_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_27">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A MONITORAGGIO SISTEMI & LOGGING & CAPACITY
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_MONITORAGGIO SISTEMI &amp; LOGGING &amp; CAPACITY
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/ALPO20.A%20-%20Piano%20di%20Capacit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO20.A - Piano di Capacità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/PO20%20-%20Gestione%20della%20Capacit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO20 - Gestione della Capacità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/PR20.1%20-%20Capacit%C3%A0%20e%20Monitoraggio%20Tecnico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR20.1 - Capacità e Monitoraggio Tecnico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A PROGETTAZIONE & SVILUPPO SICURO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A PROGETTAZIONE & SVILUPPO SICURO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_PROGETTAZIONE &amp; SVILUPPO SICURO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/ALPO25.A%20-%20Regole%20scrittura%20codice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO25.A - Regole scrittura codice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/MDPO25.A%20-%20OWASP%20ASVS%20Checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.A - OWASP ASVS Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.B - Definizione dei Requisiti [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/MDPO25.C%20-%20Documentazione%20Tecnica%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.C - Documentazione Tecnica [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO25 - Sviluppo Sicuro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A SICUREZZA FISICA AMBIENTALE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A SICUREZZA FISICA AMBIENTALE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_SICUREZZA FISICA AMBIENTALE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.A%20-%20Registro%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.A - Registro del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.B%20-%20Registro%20accessi%20CED/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.B - Registro accessi CED
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.D%20-%20Registri%20interventi%20ambientali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.D - Registri interventi ambientali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.E%20-%20Registro%20dei%20visitatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.E - Registro dei visitatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.F%20-%20Locandina%20emergenza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.F - Locandina emergenza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.G%20-%20Contatti%20di%20emergenza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.G - Contatti di emergenza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.H%20-%20Piano%20di%20emergenza%20ed%20evacuazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.H - Piano di emergenza ed evacuazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR18.1 - Gestione sicurezza fisica e ambientale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A SICUREZZA SISTEMI & RETI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A SICUREZZA SISTEMI & RETI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_SICUREZZA SISTEMI &amp; RETI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/ALPR24.1.A%20-%20Schema%20di%20Rete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR24.1.A - Schema di Rete
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/ALPR24.1.B%20-%20Schema%20Infrastruttura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR24.1.B - Schema Infrastruttura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/PR24.1%20-%20Gestione%20delle%20Reti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR24.1 - Gestione delle Reti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31" >
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D GESTIONE PROGETTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    D GESTIONE PROGETTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D_GESTIONE PROGETTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_31_2" id="__nav_31_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificazione SGI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_31_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificazione SGI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificazione SGI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_31_2_2" id="__nav_31_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documenti per RINA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_31_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documenti per RINA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documenti per RINA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/Annex%20ISO27001%20FORM-SYS01-ALL-04%20ita_rev04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annex ISO27001 FORM-SYS01-ALL-04 ita_rev04
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/_FORM-SYS01-ALL-04_2024-09%20ita%20-%20corretto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    _FORM-SYS01-ALL-04_2024-09 ita - corretto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/_FORM-SYS01-ALL-04_2024-09%20ita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    _FORM-SYS01-ALL-04_2024-09 ita
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_31_3" id="__nav_31_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logokit vectorlab
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_31_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logokit vectorlab
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/logokit%20vectorlab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    logokit vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#revisioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisioni
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduzione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 Introduzione
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 Introduzione">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-scopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1 Scopo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-campo-di-applicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2 Campo di applicazione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-riferimenti-e-allegati" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Riferimenti e Allegati
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-definizioni-acronimi-abbreviazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4 Definizioni, Acronimi, Abbreviazioni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-responsabilita" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5 Responsabilità
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-violazione-della-politica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6 Violazione della Politica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-riesame" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7 Riesame
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comprendere-lorganizzazione-e-il-suo-contesto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 Comprendere l’Organizzazione e il suo contesto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comprendere-le-esigenze-e-le-aspettative-delle-terze-parti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Comprendere le esigenze e le aspettative delle terze parti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-determinare-il-campo-di-applicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Determinare il campo di applicazione
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sistema-di-gestione-integrato-e-relativi-processi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 Sistema di Gestione Integrato e relativi processi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 Sistema di Gestione Integrato e relativi processi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-mappa-dei-processi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Mappa dei processi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Mappa dei processi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-amministrazione-e-finanza" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.1 Amministrazione e Finanza
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-comunicazione" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.2 Comunicazione
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#513-digital" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.3 Digital
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#514-gestione-commerciale-business-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.4 Gestione commerciale (Business Development)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#516-innovation-research-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.6 Innovation &amp; Research Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#517-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.7 IT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#518-risorse-umane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.8 Risorse Umane
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#519-sistema-di-gestione-integrato" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1.9 Sistema di Gestione Integrato
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="po02-gestione-del-contesto">PO02 - Gestione del Contesto</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><p>Politica di</p>
+<p>Gestione del Contesto</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="revisioni">Revisioni</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Rev.</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Descrizione</strong></th>
+<th><strong>Redatto</strong></th>
+<th><strong>Approvato</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0</td>
+<td>24/04/2026</td>
+<td>Prima emissione</td>
+<td>RSGI</td>
+<td>Amministratore Unico</td>
+</tr>
+<tr>
+<td>0.1</td>
+<td>09/07/2026</td>
+<td>Revisione assistita da IA: generalizzato il riferimento dimensionale del team</td>
+<td>RSGI</td>
+<td>Amministratore Unico</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-introduzione">1 Introduzione</h2>
+<h3 id="11-scopo">1.1 Scopo</h3>
+<p>Il presente documento delinea come Vectorlab stabilisce, attua, mantiene
+e migliora in modo continuo il sistema di gestione integrato, compresi i
+processi necessari e le loro interazioni in conformità alla sicurezza
+delle informazioni e qualità dei propri servizi/prodotti.</p>
+<p>Per conseguire il successo durevole, la Direzione di Vectorlab adotta un
+approccio di gestione per la qualità, la sicurezza delle informazioni e
+la parità di genere, basandosi sui seguenti principi:</p>
+<ol>
+<li>
+<blockquote>
+<p>orientamento al cliente</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>preservare riservatezza, integrità e disponibilità</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>leadership</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>coinvolgimento delle persone, con attenzione all’inclusività e
+    &gt; alla collaborazione</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>approccio per processi</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>approccio sistematico alla gestione</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>miglioramento continuo</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>decisioni basate su dati di fatto</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>rapporti di reciproco beneficio con i fornitori.</p>
+</blockquote>
+</li>
+</ol>
+<p>Il contesto di un'organizzazione è incerto e in continuo mutamento, e
+per conseguire il successo durevole la Direzione di Vectorlab:</p>
+<ul>
+<li>
+<blockquote>
+<p>ha una prospettiva di pianificazione di lungo periodo;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>monitora costantemente ed analizza ad intervalli regolari il
+    &gt; contesto dell'organizzazione;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>identifica tutte le sue parti interessate pertinenti, valutare i
+    &gt; loro singoli impatti potenziali sulle prestazioni
+    &gt; dell’organizzazione, nonché determina come soddisfare le loro
+    &gt; esigenze ed aspettative in modo bilanciato;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>coinvolge continuamente le parti interessate e le tiene informate
+    &gt; sulle attività e sui piani dell'organizzazione;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>stabilisce rapporti di reciproco beneficio con fornitori, partner
+    &gt; ed altre parti interessate;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>utilizza un'ampia varietà di approcci, incluse la negoziazione e
+    &gt; la mediazione, per ponderare le esigenze e le aspettative, spesso
+    &gt; contrastanti, delle parti interessate;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>identifica i relativi rischi di breve e lungo periodo e sviluppare
+    &gt; una strategia complessiva per l'organizzazione al fine di
+    &gt; mitigarli;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>anticipa future esigenze di risorse (comprese le competenze
+    &gt; richieste per le sue persone);</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>stabilisce processi appropriati per realizzare la strategia
+    &gt; dell'organizzazione, assicurando che essi siano capaci di
+    &gt; rispondere velocemente a circostanze mutevoli;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>valuta con regolarità la conformità con piani e procedure
+    &gt; correnti, ed intraprende appropriate azioni correttive e
+    &gt; preventive;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>assicura che le persone dell'organizzazione abbiano pari
+    &gt; opportunità di apprendimento sia a loro beneficio, sia per
+    &gt; mantenere la vitalità dell'organizzazione;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>stabilisce e mantiene attivi processi per l'innovazione ed il
+    &gt; miglioramento continuo.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="12-campo-di-applicazione">1.2 Campo di applicazione</h3>
+<p>La presente politica si applica a tutta l’Organizzazione.</p>
+<h3 id="13-riferimenti-e-allegati">1.3 Riferimenti e Allegati</h3>
+<blockquote>
+<p>ALPO02.A.1 – Contesto e Processi</p>
+<p>ALPO02.B.1 – Analisi Stakeholder</p>
+<p>MDPR28.1.A.1 – Piani di Continuità Operativa_Indisponibilità sede
+eventi avversi esterni ID-PBC05.</p>
+</blockquote>
+<h3 id="14-definizioni-acronimi-abbreviazioni">1.4 Definizioni, Acronimi, Abbreviazioni</h3>
+<blockquote>
+<p>RSGI – Responsabile Sistema di Gestione Integrato</p>
+<p>SGI – Sistema di Gestione Integrato</p>
+</blockquote>
+<h3 id="15-responsabilita">1.5 Responsabilità</h3>
+<p>RSGI ha la responsabilità di redigere, mantenere aggiornata e comunicare
+la presente politica.</p>
+<p>Il personale, a qualsiasi livello, e i collaboratori esterni devono
+attenersi alle procedure definite dall’Organizzazione per assicurarsi
+che la presente politica sia correttamente applicata.</p>
+<p>I responsabili dell’attuazione della presente politica sono:</p>
+<ul>
+<li>
+<blockquote>
+<p>la Direzione di Vectorlab, che stabilisce i processi di business e
+    &gt; li integra con i processi del sistema di gestione; fornisce le
+    &gt; risorse necessarie per garantire la corretta applicazione della
+    &gt; sicurezza delle informazioni e protezione dei dati personali,
+    &gt; qualità dei processi/prodotti e parità di genere, affidando alle
+    &gt; diverse funzioni compiti di implementazione, gestione e
+    &gt; monitoraggio dell’efficacia ed efficienza del sistema. All’interno
+    &gt; di ogni funzione è stabilita la definizione degli opportuni ruoli
+    &gt; e responsabilità per la gestione della sicurezza
+    &gt; dell’informazione, qualità e gestione del servizio, in maniera
+    &gt; equa e senza disparità,</p>
+</blockquote>
+</li>
+</ul>
+<!-- end list -->
+
+<ul>
+<li>
+<blockquote>
+<p>il Responsabile del SGI, che facilita l’attuazione della presente
+    &gt; politica attraverso norme e procedure appropriate,</p>
+</blockquote>
+</li>
+</ul>
+<!-- end list -->
+
+<ul>
+<li>
+<blockquote>
+<p>tutto il personale di Vectorlab, a cui sono assegnati precisi
+    &gt; ruoli e responsabilità. Data la struttura agile
+    &gt; dell'organizzazione, i ruoli chiave di responsabilità (RSGI, CISO,
+    &gt; CTO) sono assegnati in base alle competenze specifiche dei membri
+    &gt; del team. La separazione dei compiti (segregation of duties) è
+    &gt; garantita dall'adozione di strumenti digitali di controllo (es.
+    &gt; Jira, Git) e da processi di revisione peer-to-peer, riducendo la
+    &gt; necessità di formalismi burocratici. Ogni collaboratore deve avere
+    &gt; un'adeguata competenza per svolgere i compiti richiesti ed è
+    &gt; responsabile di reagire tempestivamente agli incidenti e segnalare
+    &gt; al RSGI qualsiasi punto debole individuato.</p>
+</blockquote>
+</li>
+</ul>
+<!-- end list -->
+
+<ul>
+<li>
+<blockquote>
+<p>i Clienti e Fornitori coinvolti nella gestione dei
+    &gt; prodotti/servizi implementati, che rientrano nel perimetro di
+    &gt; applicazione del SGI. Essi sono tenuti al rispetto delle Politiche
+    &gt; di Vectorlab per garantire la sicurezza delle informazioni
+    &gt; trattate e la protezione dei dati personali e a prendere atto
+    &gt; dell’impegno di Vectorlab sui temi della parità di genere e
+    &gt; della diversità e inclusione.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="16-violazione-della-politica">1.6 Violazione della Politica</h3>
+<p>Qualsiasi azione non conforme alla politica aziendale di Vectorlab sarà
+considerata una violazione della sicurezza e come tale potrà tradursi
+nella sospensione dell'accesso alle aree e alle risorse informatiche,
+rete e documenti. L'uso improprio degli strumenti aziendali costituisce
+una grave violazione del dovere di correttezza e può comportare
+l'adozione di provvedimenti disciplinari in conformità alla normativa
+vigente.</p>
+<p>I casi gravi saranno segnalati all'autorità competente e potranno essere
+oggetto di provvedimenti disciplinari o legali.</p>
+<h3 id="17-riesame">1.7 Riesame</h3>
+<p>La revisione di tale politica è effettuata da RSGI almeno una volta
+all'anno e prima del Riesame della Direzione, e in risposta a
+cambiamenti significativi dell'ambiente organizzativo, del business, di
+riferimenti normativi o dell’ambiente tecnologico aziendale. Il riesame
+è condotto per valutare l'efficienza e l'efficacia del sistema e per
+assicurare che siano implementate le azioni necessarie per consentire il
+miglioramento continuo secondo i requisiti definiti dai sistemi di
+gestione, basati su principi di inclusione e rispetto delle diversità, e
+in tutte le situazioni per le quali è richiesta una modifica
+dell'attività aziendale che possa anche avere impatto sulla qualità,
+sulla parità di genere ed inclusione, sulla sicurezza delle informazioni
+o sull'operatività.</p>
+<h2 id="2-comprendere-lorganizzazione-e-il-suo-contesto">2 Comprendere l’Organizzazione e il suo contesto</h2>
+<p>Vectorlab ha effettuato e mantiene aggiornata un’analisi del contesto
+che viene monitorata costantemente dall'organizzazione e confermata
+durante i riesami della Direzione. Tale monitoraggio permette
+all'organizzazione di identificare, valutare e gestire i rischi relativi
+alle parti interessate, ed alle loro mutevoli esigenze ed aspettative.</p>
+<p>La Direzione assume decisioni relative al cambiamento organizzativo e
+all'innovazione in modo tempestivo, al fine di mantenere e migliorare le
+prestazioni dell'organizzazione. A tal proposito, per ottemperare ai
+nuovi requisiti normativi in ambito Cloud ed ampliare l’offerta dei
+propri servizi sul mercato attuale, l’Azienda ha deciso di estendere il
+campo di applicazione del Sistema di Gestione Integrato ISO 9001 e
+ISO/IEC 27001 garantendo la gestione e la governance della sicurezza dei
+dati nel Cloud.</p>
+<p>La struttura snella e compatta di Vectorlab rappresenta un fattore
+abilitante fondamentale per la resilienza e la
+gestione del rischio. In questo contesto, la comunicazione diretta e la
+flessibilità operativa consentono una reazione immediata alle minacce e
+ai cambiamenti del mercato, superando in efficacia le tradizionali
+strutture gerarchiche e garantendo una risposta agile alle sfide della
+sicurezza e della qualità.</p>
+<p>Un’ulteriore analisi viene effettuata in relazione ai cambiamenti
+climatici e alle conseguenze sull’operatività: il clima ligure è un
+clima temperato, dove le temperature più calde provenienti dal mare si
+possono scontrare con le temperature più fresche degli appennini che
+possono dare origine a temporali autorigeneranti, provocando forti
+piogge e possibili inondazioni. Nonostante la sede aziendale si
+collochi, quindi, in un territorio potenzialmente soggetto ad alluvioni,
+questo non è un problema per la produttività aziendale né per la
+sicurezza delle informazioni, dal momento che l’ufficio si trova ad un
+piano alto ed è stato definito un apposito piano per la continuità
+operativa in caso di indisponibilità della sede per eventi avversi
+esterni (vedere “<em>MDPR28.1.A.1 - Piani di Continuità
+Operativa_Indisponibilità sede eventi avversi esterni ID-PBC05</em>”), per
+il quale facilmente si attivano le procedure per lo smart working.
+Pertanto, anche gli stakeholders esterni non nutrono preoccupazioni nei
+confronti dell’operatività di Vectorlab, la quale garantisce la
+continuità dei propri servizi.</p>
+<p>Il risultato di tale analisi è riportato in “<em>ALPO02.A.1 – Contesto e
+Processi</em>”.</p>
+<h2 id="3-comprendere-le-esigenze-e-le-aspettative-delle-terze-parti">3 Comprendere le esigenze e le aspettative delle terze parti</h2>
+<p>Vectorlab si confronta e dialoga con una serie di stakeholder, interni
+ed esterni all’organizzazione, sistematicamente aggiornati.</p>
+<p>Attualmente sono state individuate cinque categorie di stakeholder e per
+ognuna l’azienda ha ipotizzato dei cosiddetti “temi rilevanti” sui quali
+avviare o rinforzare percorsi di dialogo e coinvolgimento, con
+particolare riferimento ai requisiti di tali stakeholder che risultano
+significativi per il Sistema di Gestione.</p>
+<p>L’analisi delle parti interessate e delle rispettive aspettative è
+descritta in “<em>ALPO02.B.1 - Analisi Stakeholder</em>”.</p>
+<h2 id="4-determinare-il-campo-di-applicazione">4 Determinare il campo di applicazione</h2>
+<p>Il campo di applicazione del Sistema di Gestione è:</p>
+<p><strong>Sistema di gestione della Sicurezza delle Informazioni</strong></p>
+<p><em>“Progettazione e sviluppo di applicativi software e consulenza in
+particolare in ambito deep tech”</em></p>
+<p><em>“Design and development of software applications and consultancy
+primarily in deep tech”</em></p>
+<h2 id="5-sistema-di-gestione-integrato-e-relativi-processi">5 Sistema di Gestione Integrato e relativi processi</h2>
+<p>Vectorlab adotta un approccio di "Compliance as Code", ritenendo che i
+risultati previsti si raggiungano efficacemente attraverso la gestione
+tecnica dei processi. Le evidenze richieste dal sistema di gestione
+(cambiamenti, approvazioni, log di sicurezza, tracciamento task) sono
+generate nativamente dai flussi di lavoro tecnici già in uso, come Git
+commits, workflow Jira e pipeline CI/CD. Questo rende i tool tecnici le
+fonti primarie di evidenza per l'audit, minimizzando il carico
+amministrativo e garantendo l'integrità dei dati.</p>
+<p>La gestione per processi assicura di:</p>
+<ul>
+<li>
+<blockquote>
+<p>comprendere e soddisfare costantemente i requisiti imposti
+    &gt; dall’azienda stessa;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>considerarli in termini di valore aggiunto;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>raggiungere prestazioni efficaci;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>migliorare l’azienda basandosi sulla valutazione dei dati e delle
+    &gt; informazioni.</p>
+</blockquote>
+</li>
+</ul>
+<p>L’approccio per processi è applicato facendo ricorso alla metodologia
+PLAN-DO-CHECK-ACT con particolare attenzione al Pensiero Basato sul
+Rischio quale mezzo di prevenzione.</p>
+<h3 id="51-mappa-dei-processi">5.1 Mappa dei processi</h3>
+<p>I processi sono descritti nelle Procedure e per ognuno sono stati
+individuati:</p>
+<ul>
+<li>
+<blockquote>
+<p>le fonti di input e le fonti di output</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>gli input richiesti e gli output attesi;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>i criteri, i metodi (incluse misurazioni e indicatori di
+    &gt; prestazioni) e modalità di controllo dei processi;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>le risorse necessarie e le modalità per garantire la loro
+    &gt; disponibilità;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>compiti e responsabilità assegnate;</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>metodi per monitorare, misurare e valutare i processi e, se
+    &gt; necessario, le modifiche da adottare per raggiungere i risultati
+    &gt; attesi.</p>
+</blockquote>
+</li>
+</ul>
+<p>Tutte le informazioni relative al funzionamento dei processi sono
+documentate e conservate come previsto nelle apposite procedure.</p>
+<p>Nella tabella seguente vengono mappati i processi necessari per il
+Sistema di Gestione Integrato (gestione per la Qualità e Parità di
+Genere, Sicurezza delle Informazioni e relative estensioni) e la loro
+applicazione nell’ambito dell’organizzazione.</p>
+<h4 id="511-amministrazione-e-finanza">5.1.1 Amministrazione e Finanza</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Amministrazione e Finanza</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti potenziali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Commercialista</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Cedolini e presenze del personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Consuntivazione fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Costi orari del personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione contrattuale per i fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documenti di gara</p>
+</blockquote></li>
+<li><blockquote>
+<p>F24</p>
+</blockquote></li>
+<li><blockquote>
+<p>Offerte e ordini dei clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta acquisti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta apertura di una commessa dal Responsabile di Area con relativo personale associato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di fatturazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di pagamento vs fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste rimborsi spese e trasferte</p>
+</blockquote></li>
+<li><blockquote>
+<p>Tracking/Timesheet del personale</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Acquisti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Apertura commesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>Contatti con fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Controllo di gestione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fatturazione attiva e passiva</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione offerte / documenti di gara</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione posta cartacea</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pagamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rapporti con studio commercialisti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Recupero crediti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rendicontazione progetti Area Innovation</p>
+</blockquote></li>
+<li><blockquote>
+<p>Trasferte</p>
+</blockquote></li>
+<li><blockquote>
+<p>Verifica commesse</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Bonifici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Cassa</p>
+</blockquote></li>
+<li><blockquote>
+<p>CU autonomi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione di gara</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione per lo Studio Commercialisti (Estratti conto Banche, Copie bonifici effettuati, Estratti conto Carte Di Credito, Registrazioni di Cassa, Fatture Non pervenute tramite Sdi, Quietanze F24, Moduli trasferte e relativi giustificativi di spesa)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione su richiesta delle parti interessate (iscrizioni corsi, dati societari, ecc.)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fatture attive e passive</p>
+</blockquote></li>
+<li><blockquote>
+<p>File commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>File di commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>File flussi bancari</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rapporti di audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ricevute di pagamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riepilogo commesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>Statini</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Commercialista</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Dipendenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse Umane</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>CEO</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile Amministrazione</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>AF1 – Gestione efficace del budget aziendale</p>
+</blockquote></li>
+<li><blockquote>
+<p>RF1 – Qualifica fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>RF2 – Verifica non conformità fornitori</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="512-comunicazione">5.1.2 Comunicazione</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Comunicazione</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Associazioni di categoria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti potenziali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione (Amministratore Unico)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti di ricerca</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation and Research Projects</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Mercato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Organi di informazione locale, nazionale e internazionale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partners</p>
+</blockquote></li>
+<li><blockquote>
+<p>Soddisfazione del cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Università</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Notizie ricevute dalla Direzione (Amministratore Unico)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Progetti di ricerca</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Creazione del piano di comunicazione aziendale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Creazione e gestione del materiale promozionale dell’azienda (con il supporto delle Aree coinvolte)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle relazioni con i media</p>
+</blockquote></li>
+<li><blockquote>
+<p>Monitoraggio e gestione di menzioni, citazioni e altre referenze relative all’azienda, anche sul sito internet e sui social media aziendali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipazione a eventi del settore</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pianificazione di campagne mediatiche</p>
+</blockquote></li>
+<li><blockquote>
+<p>Scrittura e modifica delle notizie</p>
+</blockquote></li>
+<li><blockquote>
+<p>Supervisione delle attività di produzione di pubblicazioni, sia digitali sia cartacee (esempio siti web, volantini, brochure, company profile, biglietti da visita, cataloghi servizi, cataloghi corsi)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Comunicazioni esterne su Social Network aziendali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazioni interne</p>
+</blockquote></li>
+<li><blockquote>
+<p>Materiale promozionale (con il supporto delle Aree coinvolte)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pubblicazioni per l’organizzazione e per il contesto esterno</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Amministrazione e Finanza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Associazioni di categoria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione (Amministratore Unico)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti di ricerca</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research project</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Organi di informazione locale, nazionale e internazionale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partners</p>
+</blockquote></li>
+<li><blockquote>
+<p>Social Media Manager</p>
+</blockquote></li>
+<li><blockquote>
+<p>Università</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Forum</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>CM1 – Efficacia comunicazione interna</p>
+</blockquote></li>
+<li><blockquote>
+<p>CM3 – Efficacia comunicazione esterna</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>PO07 - Gestione della Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPO07.A.1 - Piano della Comunicazione</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="513-digital">5.1.3 Digital</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Digital – Progettazione e sviluppo software</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Associazioni di categoria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti potenziali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione commerciale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research Project</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Mercato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Università</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Offerta fornitore</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ordine cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Requisiti iniziali (cliente che internamente)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta offerta</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste da Associazioni di categoria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di sinergie</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Progettazione</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Definizione del gruppo di progetto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Apertura del progetto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pianificazione del progetto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Analisi e formalizzazione dei requisiti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Analisi, progettazione e sviluppo software (applicativi full stack web e mobile)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Analisi, progettazione e sviluppo software (applicativi full stack web e mobile) per utilizzo interno all’azienda</p>
+</blockquote></li>
+<li><blockquote>
+<p>Manutenzione del software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Interfacciamento e supporto verso il cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Help Desk</p>
+</blockquote></li>
+<li><blockquote>
+<p>VA/PT applicativo</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Testing</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Piano di test</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test funzionali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test di integrazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test sulla sicurezza di sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test delle prestazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test di carico</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test di stress</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test di accettazione di sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test di collaudo con il cliente</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Deploy e Rilascio</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Identificazione del rilascio</p>
+</blockquote></li>
+<li><blockquote>
+<p>Classificazione della release</p>
+</blockquote></li>
+<li><blockquote>
+<p>Implementazione della release</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rilascio</p>
+</blockquote></li>
+<li><blockquote>
+<p>Verifica del Rilascio</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Sicurezza delle Informazioni</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Definizione requisiti di sicurezza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sicurezza dei servizi applicativi su rete pubblica</p>
+</blockquote></li>
+<li><blockquote>
+<p>Protezione delle transazioni nei servizi applicativi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Politica di sviluppo sicuro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Protezione dei dati di test</p>
+</blockquote></li>
+<li><blockquote>
+<p>Procedure di controllo dei cambiamenti di sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>Revisione tecnica delle applicazioni dopo cambiamenti sulla piattaforma</p>
+</blockquote></li>
+<li><blockquote>
+<p>Restrizioni sui cambiamenti ai package software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Principi di ingegnerizzazione sicura dei sistemi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ambiente di sviluppo sicuro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sviluppo esternalizzato</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Analisi di Rischio alla Sicurezza delle Informazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle change</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipazione ad eventi commerciali/networking/fiere di settore</p>
+</blockquote></li>
+<li><blockquote>
+<p>Prospezione mercato e contatto commerciale col cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Tracciamento delle offerte emesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>Tutela nell’esperienza di soddisfazione del cliente curando la relazione</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Analisi commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione prodotto/servizio</p>
+</blockquote></li>
+<li><blockquote>
+<p>Erogazione formazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lista offerte emesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>Manutenzione prodotto/servizio</p>
+</blockquote></li>
+<li><blockquote>
+<p>Prospezioni di mercato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Quotazione in giornate per lavoro tecnico (sia per cliente che interno)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rapporti di audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rilascio prodotto/servizio</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Amministrazione e Finanza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Associazioni di categoria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research Project</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Università</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>Amministratore di Sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>CTO</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools:</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Repository / Controllo di versione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistemi per lo sviluppo / deploy</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistemi per lo sviluppo (web)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistemi per lo sviluppo (mobile)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistemi di ticketing, tracking e monitoring</p>
+</blockquote></li>
+<li><blockquote>
+<p>Servizi di gestione app mobile</p>
+</blockquote></li>
+<li><blockquote>
+<p>Servizi di file hosting e file sharing</p>
+</blockquote></li>
+<li><blockquote>
+<p>Servizi Cloud</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistemi Operativi</p>
+</blockquote></li>
+<li><blockquote>
+<p>VPN Client</p>
+</blockquote></li>
+<li><blockquote>
+<p>DBMS</p>
+</blockquote></li>
+<li><blockquote>
+<p>Dispositivi IoT</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Personale di supporto (consulenti esterni, personale di altre aree interne)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile di Area</p>
+</blockquote></li>
+<li><blockquote>
+<p>SW Developer</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>ERA 2 – Indisponibilità – reclami – incidenti sul servizio</p>
+</blockquote></li>
+<li><blockquote>
+<p>GC4 – Incremento fatturato</p>
+</blockquote></li>
+<li><blockquote>
+<p>GC6 – Gestione efficace delle commesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS4 – Reclami clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS5 – Soddisfazione del cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>SS1 – Efficienza della programmazione delle attività di sviluppo</p>
+</blockquote></li>
+<li><blockquote>
+<p>SS2 – Efficienza nell’attività di sviluppo</p>
+</blockquote></li>
+<li><blockquote>
+<p>SS3 – Conformità nella documentazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>SS4 – Tempi di consegna (Lead time)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>PO25 – Sviluppo Sicuro</p>
+</blockquote></li>
+<li><blockquote>
+<p>PR35.1 – Digital</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="514-gestione-commerciale-business-development">5.1.4 Gestione commerciale (Business Development)</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Gestione Commerciale</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti potenziali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation and Research Projects</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Mercato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Soddisfazione del cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Analisi di mercato</p>
+</blockquote></li>
+<li><blockquote>
+<p>NDA</p>
+</blockquote></li>
+<li><blockquote>
+<p>Offerta fornitore</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ordine cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta offerta</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Gestione del contatto coi clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del contatto con partner</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione dell’ordine</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle offerte per la Pubblica Amministrazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipazione e gestione della gara</p>
+</blockquote></li>
+<li><blockquote>
+<p>Preparazione dell’offerta tecnica, economica e analisi rischio commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>Protocollo d’offerta</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riesame dei requisiti e modifica dei requisiti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione del Margine di Produzione</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Documenti requisiti di business</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documenti richiesti dal cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Offerta</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riesame requisiti di business</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Amministrazione e Finanza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Commercialista</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sito web/profili social</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile Amministrazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabili di Area</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>ERA 1 – Aumento contratti servizio Cloud (ERA)</p>
+</blockquote></li>
+<li><blockquote>
+<p>GC2 – Gestione efficace del processo commerciale</p>
+</blockquote></li>
+<li><blockquote>
+<p>GC3, GC4, GC5 – Incremento fatturato</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>PR09.1 – Gestione Commerciale</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="516-innovation-research-project">5.1.6 Innovation &amp; Research Project</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Innovation &amp; Research Project</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Associazioni di utenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti finanziatori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione commerciale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partners</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse Umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Università e Enti di Ricerca</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Bandi di progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione amministrativa</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione dei Partners</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione risorse umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di collaborazione da Università / Enti di ricerca</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di sinergie</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Analisi di Rischio alla Sicurezza delle Informazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione verso l’esterno e attività di networking</p>
+</blockquote></li>
+<li><blockquote>
+<p>Consulenze esterne</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle change</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione risultati di progetto e sfruttamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Preparazione dei progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Ricerca e marketing</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Attività sui social (con il supporto del Responsabile Comunicazione)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione di progetto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lista di partner</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lista di progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Prototipi di progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Associazioni di utenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti di ricerca</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti finanziatori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partners</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>SW Developper</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research Projects Staff</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT Staff</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile di Area</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>GP1 – Gestione efficace dei progetti</p>
+</blockquote></li>
+<li><blockquote>
+<p>GP2 – Gestione efficace dei progetti</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>PO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>INN - PR34.1 – Innovation &amp; Research project</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="517-it">5.1.7 IT</h4>
+<table>
+<thead>
+<tr class="header">
+<th>IT</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione commerciale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (infrastrutturale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research Project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistema di Gestione Integrato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Incidenti di sicurezza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Report tecnici (es. VA/PT)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta assegnazione/ritiro asset</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta di evoluzioni infrastrutturali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richiesta di ricerca per acquisto hardware/software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste aperture account</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di configurazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste di supporto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste manutenzione</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Consegna e restituzione asset</p>
+</blockquote></li>
+<li><blockquote>
+<p>Creazione e revisione documentazione IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione account</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione CED virtuale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione rete</p>
+</blockquote></li>
+<li><blockquote>
+<p>Implementazione in ambienti di test e produzione di soluzioni create dall’azienda</p>
+</blockquote></li>
+<li><blockquote>
+<p>Piano di audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Setup PC</p>
+</blockquote></li>
+<li><blockquote>
+<p>Supporto a clienti post installazione software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Trouble ticketing / Helpdesk</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Consegna ambienti configurati</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione tecnica</p>
+</blockquote></li>
+<li><blockquote>
+<p>Erogazione Formazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lista software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lista utenze</p>
+</blockquote></li>
+<li><blockquote>
+<p>Moduli consegna e restituzione asset</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rapporti di audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risoluzione richieste (sia da clienti che interne)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse Umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sistema di Gestione Integrato</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>Amministratori di sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>CISO</p>
+</blockquote></li>
+<li><blockquote>
+<p>CTO</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>CM2 – CMDB</p>
+</blockquote></li>
+<li><blockquote>
+<p>DA1 – Diritti di Accesso</p>
+</blockquote></li>
+<li><blockquote>
+<p>MT2 – Verifiche periodiche sugli asset aziendali</p>
+</blockquote></li>
+<li><blockquote>
+<p>SC1 – Disponibilità rete</p>
+</blockquote></li>
+<li><blockquote>
+<p>SF2 – Manutenzione apparecchiature</p>
+</blockquote></li>
+<li><blockquote>
+<p>SO3 – Restore</p>
+</blockquote></li>
+<li><blockquote>
+<p>SO4 – Copertura scansioni VA</p>
+</blockquote></li>
+<li><blockquote>
+<p>SO5 – Rispetto dei tempi pianificati nella risoluzione delle vulnerabilità segnalate con VA/PT</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>ALPR05.1.C.1 – Lista software permessi</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR05.1.G.2 – Consegna chiavi</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR05.1.G.3 – Restituzione chiavi</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR05.1.A.3 – Modulo_consegna_riconsegna_HW_utenze</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR11.1.A.3 – Piano di Audit Tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PO21 – Backup</p>
+</blockquote></li>
+<li><blockquote>
+<p>PO28 – Gestione della Continuità Operativa</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PO16 – Gestione degli Accessi</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PR03.1 – IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PR21.1 – Backup</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PR24.1 – Gestione delle Reti</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – PR16.1 – Gestione degli Accessi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Procedura customizzazione standard pre consegna PC aziendali (documentazione tecnica reparto IT)</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT – REG01 – Regolamento di utilizzo degli strumenti informatici aziendali.</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="518-risorse-umane">5.1.8 Risorse Umane</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Risorse Umane</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Amministrazione e Finanza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comitato Guida</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Confindustria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Consulente del lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Medico competente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>RSPP</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Comunicazione e gestione della maternità/paternità nelle sue varie fasi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazioni di assunzione/dimissione (Unilav)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Dati personali delle risorse umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documentazione fiscale (CU, cedolini, presenze, posizioni contributive, ecc.)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documenti da Confindustria</p>
+</blockquote></li>
+<li><blockquote>
+<p>Documenti legati al mondo sindacale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Report RSPP e medico competente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Richieste formazioni da pianificare e risultati efficacia</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Analisi di Rischio alla Sicurezza delle Informazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Attività audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Attività di prevenzione di ogni forma di abuso fisico, verbale, digitale (molestia) sui luoghi di lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Competenze del personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Contrattualizzazione del rapporto di lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Definizione profili di reclutamento e selezione del personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Formazione e consapevolezza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle performance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione rapporto di lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione sicurezza lavoratori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risoluzione del rapporto di lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Selezione ed assunzione/recruitment (analisi fabbisogni, selezione, onboarding, payroll)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sicurezza ambiente del lavoro</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Cedolini</p>
+</blockquote></li>
+<li><blockquote>
+<p>Contratto di lavoro e documenti relativi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Griglia delle competenze e piano degli obiettivi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Piano della formazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta KPI</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rapporti di audit tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Registri interventi ambientali</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risultati survey effettuate</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Amministrazione e Finanza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Consulente del lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>Consulenza Area Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Dipendenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Medico competente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Progettazione e sviluppo SW e corsi di formazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>RSPP</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>Archivi cartacei</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile Amministrazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Responsabile Risorse Umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Staff</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>ACA1 – Analisi clima</p>
+</blockquote></li>
+<li><blockquote>
+<p>CVL1 – Conciliazione tempi vita-lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>FAB1 – Analisi fabbisogni</p>
+</blockquote></li>
+<li><blockquote>
+<p>RDP1 – Report dati del personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>RU1 – Erogazione Formazione sul Sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>RU2 – Erogazione Formazione trasversale</p>
+</blockquote></li>
+<li><blockquote>
+<p>RU4 – Piano formativo</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>ALPO01.B.1 – Mansionario</p>
+</blockquote></li>
+<li><blockquote>
+<p>HR – PR05.1 – Gestione del Personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>HR – REG02 – Regolamento comportamentale personale</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="519-sistema-di-gestione-integrato">5.1.9 Sistema di Gestione Integrato</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Sistema di Gestione Integrato</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonti di input</td>
+<td><ul>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione (Amministratore Unico)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Enti e Autorità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione commerciale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione degli incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione del cambiamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della capacità (personale)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della continuità</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Non Conformità e Azioni Correttive</p>
+</blockquote></li>
+<li><blockquote>
+<p>Opportunity &amp; Risk Assessment</p>
+</blockquote></li>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Input</td>
+<td><ul>
+<li><blockquote>
+<p>Norme ISO</p>
+</blockquote></li>
+<li><blockquote>
+<p>Normative cogenti (vedi MDPR08.1.A.1 – Informazioni documentate / Compliance)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Attività</td>
+<td><ul>
+<li><blockquote>
+<p>Definizione dei processi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione della documentazione</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Definizione – approvazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Archiviazione e comunicazione</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Valutazione delle performance</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Raccolta e analisi KPI</p>
+</blockquote></li>
+<li><blockquote>
+<p>Definizione programma e piani di audit</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riesame della direzione</p>
+</blockquote></li>
+</ul>
+<ul>
+<li><blockquote>
+<p>Miglioramento continuo</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle Non Conformità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Definizione piani di continuità operativa e piani di test</p>
+</blockquote></li>
+<li><blockquote>
+<p>Attività audit tecnico</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione incidenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Analisi di Rischio alla Sicurezza delle Informazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Analisi Rischi e Opportunità</p>
+</blockquote></li>
+<li><blockquote>
+<p>Gestione delle change</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Output</td>
+<td><ul>
+<li><blockquote>
+<p>Informazioni documentate</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccolta evidenze</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Destinatari degli output</td>
+<td><ul>
+<li><blockquote>
+<p>Business Development</p>
+</blockquote></li>
+<li><blockquote>
+<p>Digital</p>
+</blockquote></li>
+<li><blockquote>
+<p>Innovation &amp; Research Project</p>
+</blockquote></li>
+<li><blockquote>
+<p>Direzione generale</p>
+</blockquote></li>
+<li><blockquote>
+<p>Approvvigionamenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Risorse Umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Compliance</p>
+</blockquote></li>
+<li><blockquote>
+<p>IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>Clienti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partners</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Risorse</td>
+<td><ul>
+<li><blockquote>
+<p>Responsabile del Sistema di Gestione Integrato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Referente Privacy</p>
+</blockquote></li>
+<li><blockquote>
+<p>CISO</p>
+</blockquote></li>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>KPI</td>
+<td><ul>
+<li><blockquote>
+<p>AR1 – Implementazione di misure per mitigare o ridurre il rischio</p>
+</blockquote></li>
+<li><blockquote>
+<p>AR2 – Conformità con i piani di attuazione delle azioni approvate per moderare il rischio</p>
+</blockquote></li>
+<li><blockquote>
+<p>AR3 – Maturità sistema (Maturity model)</p>
+</blockquote></li>
+<li><blockquote>
+<p>CG1 – Coinvolgimento Comitato Guida</p>
+</blockquote></li>
+<li><blockquote>
+<p>CM1 – Efficacia comunicazione interna</p>
+</blockquote></li>
+<li><blockquote>
+<p>CM3 – Efficacia comunicazione esterna</p>
+</blockquote></li>
+<li><blockquote>
+<p>CO1, CO2 – Continuità Operativa</p>
+</blockquote></li>
+<li><blockquote>
+<p>CVL1 – Conciliazione tempi vita-lavoro</p>
+</blockquote></li>
+<li><blockquote>
+<p>ERA2 – Indisponibilità – reclami – incidenti sul servizio</p>
+</blockquote></li>
+<li><blockquote>
+<p>FAB1 – Analisi fabbisogni</p>
+</blockquote></li>
+<li><blockquote>
+<p>IN1, IN2 – Incidenti di Sicurezza</p>
+</blockquote></li>
+<li><blockquote>
+<p>IN3, IN4 – Data Breach</p>
+</blockquote></li>
+<li><blockquote>
+<p>IN5 – Incidenti causati da Malware</p>
+</blockquote></li>
+<li><blockquote>
+<p>MPS1 – Revisione Manifesto e relativo Piano Strategico</p>
+</blockquote></li>
+<li><blockquote>
+<p>MT1 – Livello di copertura dei monitoraggi tecnici effettuati (audit tecnici)</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS1 – Rispetto delle azioni di miglioramento</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS2 – Conformità alla norma del sistema</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS3 – Efficacia del processo di gestione dei rilievi</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS6 – Rilievi etici</p>
+</blockquote></li>
+<li><blockquote>
+<p>PS7 – Gestione rilievi etici</p>
+</blockquote></li>
+<li><blockquote>
+<p>RF1 – Qualifica fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>RF2 – Verifica non conformità fornitori</p>
+</blockquote></li>
+<li><blockquote>
+<p>RF5 – Rispetto misure di sicurezza</p>
+</blockquote></li>
+<li><blockquote>
+<p>SO1– Gestione delle change</p>
+</blockquote></li>
+<li><blockquote>
+<p>SP1, SP2 – Segnalazioni Privacy</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Informazioni documentate</td>
+<td><ul>
+<li><blockquote>
+<p>MDPR08.1.A.1 – Informazioni documentate</p>
+</blockquote></li>
+<li><blockquote>
+<p>BD – PR36.1 – Business Development</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
