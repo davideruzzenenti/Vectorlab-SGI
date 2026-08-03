@@ -9,3 +9,5 @@ theme:
     - search.suggest
     - content.code.copy
 docs_dir: docs
+extra_css:
+  - stylesheets/extra.css
