@@ -1,4 +1,4 @@
-# SOA - Statement of Applicability - Dichiarazione di Applicabilità 27001
+﻿# SOA - Statement of Applicability - Dichiarazione di Applicabilità 27001
 
 ## Cover
 
