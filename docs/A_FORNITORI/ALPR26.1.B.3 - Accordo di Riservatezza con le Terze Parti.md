@@ -10,7 +10,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.1      | 19/10/2026 | Revisione assistita da IA: inserita la PEC reale di Vectorlab (vectorlab@legalmail.it, dal modulo RINA firmato) al posto del segnaposto | RSGI | Amministratore Unico |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -217,7 +217,7 @@ quanto a Vectorlab:
 
 Indirizzo: Piazza Borgo Pila 39/22, 16129 Genova
 
-PEC: [vectorlab@pec.it](mailto:vectorlab@pec.it) *(verificare indirizzo PEC effettivo prima dell’uso)*
+PEC: [vectorlab@legalmail.it](mailto:vectorlab@legalmail.it)
 
 quanto a **YYY**:
 
