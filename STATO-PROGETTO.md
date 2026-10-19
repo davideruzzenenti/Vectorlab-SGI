@@ -117,7 +117,9 @@ Decisione di Davide: il repo è la destinazione finale del SGI; Drive serve solo
 
 **Rilevato durante l'inventario**: su Drive 164 file su 166 sono in "0_Working"; "Da Approvare" e "Ultima Versione" sono vuote, quindi nessun documento risulta formalmente approvato. 12 documenti importati riportano ancora "Approvato: CDA" invece di Amministratore Unico.
 
-**Non toccati** (decisione rinviata): le 27 correzioni IA di luglio su documenti che Drive non ha più modificato restano nel repo, da approvare; PR06.1, PR28.2, ALPR26.1.D e ALPR23.2.A sono bozze IA senza corrispettivo su Drive; `STATO-DOCUMENTAZIONE.html` non è ancora aggiornata.
+**Non toccati** (decisione rinviata): le 27 correzioni IA di luglio su documenti che Drive non ha più modificato restano nel repo, da approvare; PR06.1, PR28.2, ALPR26.1.D e ALPR23.2.A sono bozze IA senza corrispettivo su Drive.
+
+**Dashboard aggiornata** (stesso giorno): `STATO-DOCUMENTAZIONE.html` ora traccia le versioni Nextage al posto delle bozze IA (161 documenti: 37 pronti, 62 template, 51 da correggere, 5 boilerplate, 4 bozze IA, 2 mancanti). Aggiunto il valore "Nextage" nella colonna "Chi agisce" per le correzioni da chiedere a Nextage su Drive (es. «Approvato: CDA»), e lo stato "Mancante" per MDPO25.F. Le righe importate sono state valutate da tabella revisioni, segnaposto e inizio del testo, non da una rilettura integrale. Emersi: la PEC reale vectorlab@legalmail.it dal modulo RINA firmato (da confermare per ALPR26.1.B.3); PR33.1.1 è la metodologia HLS semplificata, quindi non serve un secondo PR33.1; report e piano di trattamento dei rischi 2026 riportano una revisione 0.0 del 24/04/2026, precedente all'analisi stessa.
 
 ## Cose da sapere / limiti noti
 
