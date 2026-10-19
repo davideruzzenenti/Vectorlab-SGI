@@ -101,6 +101,24 @@ Su richiesta di Davide, dopo aver discusso l'approccio: generate le bozze di tut
 
 **Correzione dashboard (stesso giorno, dopo un feedback di Davide)**: la colonna "Cosa serve" (rinominata "Domanda aperta") e la sezione "Chi deve fare cosa" erano scritte in forma dichiarativa invece che come vere domande — non risultavano riconoscibili come tali. Riscritte tutte le 88 righe della tabella che richiedono un input umano/misto come domande esplicite (es. "Qual è l'indirizzo PEC reale...?"), oltre ai 4 punti della sezione "Umano" in alto. Verificato con `node --check` e un `eval` con DOM stubbato che l'array JS resti valido e che ogni riga non-IA abbia una domanda con punto interrogativo.
 
+## Allineamento con Drive (19/10/2026)
+
+Decisione di Davide: il repo è la destinazione finale del SGI; Drive serve solo finché Nextage ci lavora e poi verrà eliminato. Sul contenuto vince la versione più recente di Nextage su Drive.
+
+**Inventario** della cartella "Vectorlab SGI - Master" (166 file) confrontata con il repo per codice documento. Confronto completo in `confronto-drive-repo-2026-10-19.csv` (consegnato a Davide in chat, non nel repo).
+
+**Importati in questo ramo** (`allineamento-drive-2026-10-19`), convertiti da Word/Excel con pandoc e openpyxl:
+- 27 documenti per cui Drive aveva una versione Nextage successiva a luglio: sostituiscono le bozze IA del 16/07 (blocco accessi, crittografia, minacce e vulnerabilità, sviluppo sicuro, configurazioni, patch, reti, conformità, PR33.1, PR03.1, PR04.1, PR09.1, MDPR08.1.A).
+- 13 documenti presenti solo su Drive: PR29, PR33.1.1, MDPR33.1.A/B/D (modelli), MDPO25.D/E/G, MDPO29.A (sostituisce la bozza IA MDPO29.D, stesso documento), MDPR23.2.A (modello e registrazione del 27/07), modulo RINA firmato (PDF) e versione corretta.
+- Nuova cartella `B_REGISTRAZIONI/Analisi dei Rischi/2026`: report analisi dei rischi e piano di trattamento 2026 (Nextage, 25-29/09).
+- Aggiornati i 23 link della SOA verso documenti che hanno cambiato nome.
+
+**Non importato**: MDPO25.F - Definizione UI-UX [progetto] (16 MB, oltre il limite di download del connettore Drive): da copiare a mano.
+
+**Rilevato durante l'inventario**: su Drive 164 file su 166 sono in "0_Working"; "Da Approvare" e "Ultima Versione" sono vuote, quindi nessun documento risulta formalmente approvato. 12 documenti importati riportano ancora "Approvato: CDA" invece di Amministratore Unico.
+
+**Non toccati** (decisione rinviata): le 27 correzioni IA di luglio su documenti che Drive non ha più modificato restano nel repo, da approvare; PR06.1, PR28.2, ALPR26.1.D e ALPR23.2.A sono bozze IA senza corrispettivo su Drive; `STATO-DOCUMENTAZIONE.html` non è ancora aggiornata.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.

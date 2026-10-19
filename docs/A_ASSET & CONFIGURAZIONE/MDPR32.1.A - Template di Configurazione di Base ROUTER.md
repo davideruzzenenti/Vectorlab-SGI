@@ -1,50 +1,76 @@
 # MDPR32.1.A - Template di Configurazione di Base ROUTER
 
-**Modulo Template - Configurazione di Base ROUTER**
-
-<div style="border-left:4px solid #2A5C8A;background:#EAF1F7;padding:.75rem 1rem;margin:1rem 0">
-<strong>DOCUMENTO IN BOZZA — generato il 16/07/2026</strong> per colmare una lacuna rilevata durante la revisione della documentazione (citato nella SOA ma non ancora creato). Contenuto basato su pratiche reali già note da altri documenti del SGI; le parti evidenziate in rosso sono da confermare prima dell'approvazione formale.
-</div>
-
 ### Revisioni
 
+|          |            |                 |             |               |
+|----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.1      | 16/07/2026 | Prima bozza — documento mancante generato per colmare una lacuna rilevata nella SOA | IA          | Da approvare  |
+| 0.0      | 24/04/2026 | Prima emissione | IT          | CTO           |
+|          |            |                 |             |               |
+|          |            |                 |             |               |
 |          |            |                 |             |               |
 
-## Istruzioni per l'uso del modulo
+**Configurazione di Base ROUTER**
 
-Il presente modulo è un **template vuoto**, da compilare a cura dell'IT
-in occasione della messa in servizio, sostituzione o revisione
-periodica del router aziendale, secondo quanto previsto in "*PR32.1 -
-Gestione delle Configurazioni*".
+| **INFORMAZIONI GENERALI** |                   |
+|---------------------------|-------------------|
+| **Nome dispositivo**      | \[Inserire nome\] |
+| **Owner dispositivo**     | \[Inserire nome\] |
 
-**Riferimento asset / CI (CMDB):** _da compilare_
+| **SPECIFICHE HARDWARE** |                       |
+|-------------------------|-----------------------|
+| **Interfacce di rete**  |                       |
+| Tipo                    | \[Inserire tipo\]     |
+| Numero di porte         | \[Inserire numero\]   |
+| WAN                     | \[Inserire dettagli\] |
+| LAN                     | \[Inserire dettagli\] |
+| Console                 | \[Inserire dettagli\] |
 
-**Data compilazione:** _da compilare_
+| **SPECIFICHE SOFTWARE** |                       |
+|-------------------------|-----------------------|
+| **Firmware**            |                       |
+| Versione                | \[Inserire versione\] |
 
-**Compilato da:** _da compilare_
+| **CONFIGURAZIONI DI RETE** |                          |
+|----------------------------|--------------------------|
+| **Indirizzi IP**           |                          |
+| Indirizzo IP               | \[Inserire IP\]          |
+| Subnet Mask                | \[Inserire Subnet Mask\] |
+| Gateway                    | \[Inserire Gateway\]     |
 
-## Checklist parametri di configurazione
+| **CONFIGURAZIONI DI SICUREZZA** |                       |          |
+|---------------------------------|-----------------------|----------|
+| **Policy di accesso**           |                       |          |
+| Amministratore                  | \[Inserire dettagli\] |          |
+| Utenti autorizzati              | \[Inserire dettagli\] |          |
+| Autenticazione a due fattori    | SI                    | \[note\] |
+|                                 | NO                    | \[note\] |
+| **Regole di sicurezza**         |                       |          |
+| Regola \#1                      | \[Descrivere regola\] |          |
+| Regola \#2                      | \[Descrivere regola\] |          |
+| Regola \#3                      | \[Descrivere regola\] |          |
+| …                               | …                     |          |
+| **VPN**                         |                       |          |
+| Tipo                            | \[Inserire tipo\]     |          |
+| Configurazione                  | \[Inserire dettagli\] |          |
+| **Firewall integrato**          |                       |          |
+| Abilitato                       | SI                    | \[note\] |
+|                                 | NO                    | \[note\] |
+| Configurazione                  | \[Inserire dettagli\] |          |
 
-| **Categoria** | **Parametro di configurazione** | **Valore configurato** | **Verificato (Sì/No)** | **Note** |
-| -------------- | -------------------------------------------------------- | ----------------------- | ----------------------- | -------- |
-| Accesso amministrativo | Credenziali di default sostituite | | | |
-| Accesso amministrativo | Interfaccia di gestione non esposta su rete pubblica | | | |
-| Firmware | Versione firmware in uso | | | |
-| Firmware | Aggiornamenti di sicurezza applicati / abilitati | | | |
-| Rete Wi-Fi aziendale | Protocollo di cifratura Wi-Fi (WPA2 o superiore) | | | |
-| Rete Wi-Fi aziendale | Password Wi-Fi conforme a policy aziendale | | | |
-| Rete Wi-Fi guest | Rete Wi-Fi ospiti separata dalla rete aziendale | | | |
-| Firewall integrato | Funzionalità firewall integrata attiva (cfr. "*MDPR32.1.A - Template di Configurazione di Base FIREWALL*") | | | |
-| Servizi non necessari | Servizi non necessari disabilitati (es. UPnP, gestione remota) | | | |
-| VPN | Configurazione VPN per accesso remoto (ove prevista) | | | |
-| Logging | Logging attivo per eventi di connessione/navigazione | | | |
+| **CONFIGURAZIONI DI LOGGING E MONITORAGGIO** |                        |
+|----------------------------------------------|------------------------|
+| **Logging**                                  |                        |
+| Tipi di log                                  | \[Inserire dettagli\]  |
+| Posizione di archiviazione                   | \[Inserire posizione\] |
+| Durata di conservazione                      | \[Inserire durata\]    |
+| **Monitoraggio**                             |                        |
+| Strumenti utilizzati                         | \[Inserire strumenti\] |
+| Frequenza di monitoraggio                    | \[Inserire frequenza\] |
+| Parametri monitorati                         | \[Inserire parametri\] |
 
-## Note e osservazioni
-
-_Spazio per eventuali osservazioni, eccezioni concordate o motivazioni
-di scostamento dalla configurazione di base, da riportare secondo
-quanto previsto in "*PR32.1 - Gestione delle Configurazioni*", par.
-2.6._
+| **DOCUMENTAZIONE**           |                       |
+|------------------------------|-----------------------|
+| **Documentazione associata** |                       |
+| Manuali di configurazione    | \[Inserire dettagli\] |
+| Guida utente                 | \[Inserire dettagli\] |

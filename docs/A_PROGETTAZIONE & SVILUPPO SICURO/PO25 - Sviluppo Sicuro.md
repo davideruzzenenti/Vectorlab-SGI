@@ -1,307 +1,451 @@
 # PO25 - Sviluppo Sicuro
 
-**Politica di Sviluppo Sicuro del Software**
+**Politica Sviluppo Sicuro**
 
-<div style="border-left:4px solid #2A5C8A;background:#EAF1F7;padding:.75rem 1rem;margin:1rem 0">
-<strong>DOCUMENTO IN BOZZA — generato il 16/07/2026</strong> per colmare una lacuna rilevata durante la revisione della documentazione (citato nella SOA ma non ancora creato). Contenuto basato su pratiche reali già note da altri documenti del SGI; le parti evidenziate in rosso sono da confermare prima dell'approvazione formale.
-</div>
+Revisioni
 
-### Revisioni
-
+|          |            |                 |             |               |
+|----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.1      | 16/07/2026 | Prima bozza — documento mancante generato per colmare una lacuna rilevata nella SOA | IA          | Da approvare  |
+| 0.0      | 24/04/2026 | Prima emissione | CTO         | CEO           |
+|          |            |                 |             |               |
+|          |            |                 |             |               |
 |          |            |                 |             |               |
 
-## 1 Introduzione
+> Indice
 
-### 1.1 Scopo / Campo di applicazione
+# 
 
-La presente politica descrive i principi e le regole adottate da
-VECTORLAB per garantire che la progettazione, lo sviluppo, il test e il
-rilascio del software siano condotti in modo sicuro, riducendo il
-rischio che vulnerabilità di sicurezza vengano introdotte nei prodotti e
-nei servizi realizzati dall'Azienda.
+#  
 
-VECTORLAB sviluppa applicazioni web, desktop, mobile ed embedded,
-sistemi 3D/computer graphics, simulatori, soluzioni di realtà
-virtuale/aumentata (VR/AR), videogiochi, piattaforme cloud e soluzioni
-basate su Intelligenza Artificiale/Large Language Model (LLM). Data la
-varietà delle tecnologie e dei contesti di utilizzo, la presente
-politica definisce i principi comuni di sicurezza che devono essere
-applicati indipendentemente dalla tipologia di prodotto sviluppato,
-lasciando ai documenti operativi collegati (allegati e moduli) il
-compito di declinare tali principi in regole e strumenti concreti.
+# 1. Introduzione
 
-Il documento si applica a tutti i progetti di sviluppo software gestiti
-da VECTORLAB, sia realizzati per uso interno che per conto di Clienti,
-e a tutto il personale (dipendenti e collaboratori esterni) coinvolto
-nelle attività di progettazione, sviluppo, test e rilascio del
-software.
+# 1.1. Scopo
 
-<span style="color:#B3392A">[DA CONFERMARE: lo sviluppo software è attualmente svolto interamente con personale interno/collaboratori diretti; non risultano ad oggi progetti di sviluppo affidati integralmente in outsourcing a terze parti. Qualora ciò cambiasse, la presente politica dovrà essere estesa con requisiti specifici di supervisione dello sviluppo esternalizzato]</span>.
+La Politica di Sviluppo Sicuro è un documento che fornisce la direzione e il supporto necessari per raggiungere e mantenere la Sicurezza delle Informazioni secondo i requisiti di Business, il cogente e i regolamenti vigenti nel processo di sviluppo software e di sistemi, attraverso la definizione di funzionalità di sicurezza.
 
-### 1.2 Riferimenti e Allegati
+Quando un'applicazione è sviluppata indipendentemente dalla sicurezza, può diventare una minaccia per l’ambiente in cui è sviluppata esponendo a rischi sia l’organizzazione che sviluppa che l’utilizzatore finale.
 
-> ALPO25.A - Regole scrittura codice
+Per rendere quindi sicura l’architettura delle applicazioni è necessario comprendere i requisiti della Politica di Sicurezza in modo che possano essere presi in considerazione insieme ai requisiti funzionali.
 
-> MDPO25.A - OWASP ASVS Checklist
+Le regole di progettazione e sviluppo di applicazioni sicure sono un attributo importante e necessario di un ambiente informatico sicuro. Applicazioni che proteggono dati da accessi non autorizzati o modifiche che assicurano la sua disponibilità sono vantaggi importanti per le organizzazioni con risorse fisiche e con informazioni che richiedono un tale ambiente.
 
-> MDPO25.B - Definizione dei Requisiti \[progetto\]
+Applicazioni non sicure contribuiscono ad aumentare interconnessioni di sistemi che forniscono porte aperte a possibili compromissioni di informazioni sensibili e critiche e di sistemi.
 
-> MDPO25.C - Documentazione Tecnica \[progetto\]
+Pertanto, al fine di produrre applicazioni robuste e sicure, gli sviluppatori devono conoscere e aderire ad alcuni fondamentali principi di sicurezza in tutte le fasi del Ciclo di Vita del Software, in un’ottica cosiddetta “Secure by Design”.
 
-> PO16 - Gestione degli Accessi
+Obiettivo di questo documento è quindi definire un processo per guidare gli sviluppatori nella definizione e implementazione di applicazioni sicure prendendo in considerazione:
 
-> PO17 - Crittografia
+> ● la sicurezza dell’ambiente di sviluppo;
+>
+> ● una guida sulla sicurezza nel ciclo di vita e nella metodologia di sviluppo del software;
+>
+> ● requisiti di sicurezza nella fase di design (progettazione);
+>
+> ● security checkpoints nelle fasi di progetto;
+>
+> ● repository sicuri;
+>
+> ● sicurezza nel controllo di versione;
+>
+> ● capacità degli sviluppatori di evitare, trovare e sistemare eventuali vulnerabilità.
 
-> PO32 – Gestione delle Configurazioni
+# 1.2. Campo di applicazione
 
-> PR19.1 - Gestione del Cambiamento
+La presente Politica è rivolta al personale di Vectorlab delle aree Digital/SW Development e IT, nonché ai Fornitori esterni che collaborano allo sviluppo.
 
-> PR20.1 - Capacità e Monitoraggio Tecnico
+Maggiore dettaglio sulle attività svolte dalle singole aree è presente nelle procedure “*DIG - PR35.1 - Digital*”, “*IT - PR38.1 - IT*“.
 
-> PR33.1 - Processo Analisi del Rischio e Trattamento
+# 1.3. Riferimenti e Allegati
 
-> MDPR11.1.C - Piano di Audit Tecnici
+ALPO25.A - Linee guida per lo sviluppo software
 
-> SOA - Statement of Applicability - Dichiarazione di Applicabilità.
+MDPR08.1.A - Informazioni Documentate
 
-### 1.3 Definizioni, Acronimi, Abbreviazioni
+MDPO25.A - Vectorlab - OWASP ASVS Checklist
 
-> ASVS – Application Security Verification Standard (OWASP)
+MDPO25.B - Definizione dei Requisiti
 
-> CI/CD – Continuous Integration / Continuous Delivery
+MDPO25.C - Documentazione Tecnica
 
-> CTO – Chief Technical Officer
+MDPO25.G - Piano di Test
 
-> DAST – Dynamic Application Security Testing
+PO21 - Gestione dei Backup e Restore
 
-> LLM – Large Language Model
+PO26 - Gestione dei Fornitori
 
-> OWASP – Open Web Application Security Project
+PO27 - Gestione Eventi e Incidenti
 
-> RSGI – Responsabile del Sistema di Gestione Integrato
+REG01 - Regolamento di utilizzo degli strumenti aziendali.
 
-> SAST – Static Application Security Testing
+# 1.4. Definizioni, Acronimi, Abbreviazioni
 
-> SDLC – Software Development Life Cycle (Ciclo di Vita di Sviluppo del Software)
+CEO - Chief Executive Officer
 
-> SGI – Sistema di Gestione Integrato
+CISO - Chief Information Security Officer
 
-> VR/AR – Virtual Reality / Augmented Reality.
+CTO – Chief Technical Officer
 
-## 2 Principi Generali
+DPIA - Data Protection Impact Assessment
 
-VECTORLAB adotta un processo strutturato per lo sviluppo del software,
-che include attività di progettazione, sviluppo, test e rilascio. Il
-codice sorgente di tutti i progetti è gestito tramite sistemi di
-versionamento (GitHub) e le modifiche vengono controllate prima della
-messa in produzione, in accordo con quanto descritto in "*PR19.1 -
-Gestione del Cambiamento*".
+GDPR – General Data Protection Regulation
 
-I principi fondamentali a cui si ispira la presente politica sono:
+IT – Information Technology
 
-  - **Security by design** – i requisiti di sicurezza sono considerati
-    fin dalla fase di analisi e progettazione di ciascun progetto, e
-    non aggiunti a posteriori;
+LTS – Long Time Support
 
-  - **Riduzione della superficie di attacco** – i sistemi vengono
-    progettati minimizzando i componenti, i servizi e le interfacce
-    esposte non strettamente necessari;
+PT – Penetration Test
 
-  - **Difesa in profondità** – i controlli di sicurezza sono applicati
-    a più livelli (rete, applicazione, dati, accessi) in modo che il
-    fallimento di un singolo controllo non comprometta l'intero
-    sistema;
+PM - Project Manager
 
-  - **Least privilege** – l'accesso a codice, ambienti e dati è
-    concesso secondo il principio del privilegio minimo necessario, in
-    coerenza con "*PO16 - Gestione degli Accessi*";
+SGI - Sistema di Gestione Integrato
 
-  - **Miglioramento continuo** – le pratiche di sviluppo sicuro sono
-    riviste periodicamente alla luce dell'evoluzione delle minacce,
-    degli standard di settore (es. OWASP) e delle tecnologie adottate
-    dall'Azienda.
+SO – Sistema Operativo
 
-## 3 Ciclo di Vita di Sviluppo Sicuro (SDLC)
+UI – User Interface
 
-Il ciclo di vita di sviluppo del software adottato da VECTORLAB prevede
-le seguenti fasi principali, applicate in modo proporzionato alla
-dimensione e criticità di ciascun progetto:
+VA – Vulnerability Assessment.
 
-1.  **Analisi e definizione dei requisiti** – vengono raccolti i
-    requisiti funzionali e non funzionali del progetto, inclusi i
-    requisiti di sicurezza applicabili (vedere "*MDPO25.B - Definizione
-    dei Requisiti \[progetto\]*");
+# 1.5. Responsabilità
 
-2.  **Progettazione (design)** – viene definita l'architettura della
-    soluzione applicando i principi di architettura sicura descritti
-    al capitolo 4;
+CTO ha la responsabilità di redigere e mantenere aggiornata la presente politica.
 
-3.  **Sviluppo** – il codice viene realizzato secondo le linee guida di
-    codifica sicura definite in "*ALPO25.A - Regole scrittura
-    codice*" e gestito tramite repository GitHub con controllo delle
-    versioni;
+RSGI ha la responsabilità di comunicare la presente politica.
 
-4.  **Test** – vengono eseguiti test funzionali e verifiche di
-    sicurezza di base, secondo quanto descritto al capitolo 6;
+Il personale, a qualsiasi livello, e i collaboratori esterni devono attenersi alle procedure definite dall’Organizzazione per assicurarsi che la presente Politica sia correttamente applicata.
 
-5.  **Rilascio (release)** – il software viene rilasciato in ambiente
-    di produzione solo a seguito del superamento delle attività di
-    test e dell'approvazione delle modifiche, secondo quanto descritto
-    in "*PR19.1 - Gestione del Cambiamento*";
+I responsabili dell’attuazione della presente politica sono:
 
-6.  **Manutenzione** – successivamente al rilascio, il software viene
-    mantenuto e aggiornato, incluse le attività di gestione delle
-    vulnerabilità individuate.
+- CTO
 
-<span style="color:#B3392A">[DA CONFERMARE: le fasi del ciclo di vita non sono ad oggi supportate da un template/workflow formale unico e uniforme per tutti i progetti; la modalità di applicazione pratica (es. metodologia Agile/Scrum, cadenza degli sprint, strumenti di project management) può variare da progetto a progetto]</span>.
+- CISO
 
-## 4 Requisiti di Sicurezza delle Applicazioni
+- Responsabile Area Digital
 
-Per ciascun progetto di sviluppo, i requisiti di sicurezza applicabili
-vengono identificati, specificati e approvati in fase di analisi,
-tenendo conto della tipologia di applicazione (web, mobile, desktop,
-embedded, cloud, basata su AI/LLM, ecc.), dei dati trattati e del
-contesto di utilizzo (interno o per conto di Clienti).
+- Staff Digital.
 
-I requisiti di sicurezza individuati vengono documentati utilizzando il
-modulo "*MDPO25.B - Definizione dei Requisiti \[progetto\]*" e, per i
-progetti di maggiore complessità o esposizione, verificati anche
-tramite la checklist "*MDPO25.A - OWASP ASVS Checklist*", basata
-sull'OWASP Application Security Verification Standard.
+# 1.6. Violazione della Politica
 
-## 5 Principi di Architettura e Ingegnerizzazione Sicura
+Qualsiasi azione non conforme alla politica aziendale di Vectorlab sarà considerata una violazione della sicurezza e come tale potrà tradursi nella sospensione dell'accesso alle aree e alle risorse informatiche, rete e documenti. L'uso improprio degli strumenti aziendali costituisce una grave violazione del dovere di correttezza e può comportare l'adozione di provvedimenti disciplinari in conformità alla normativa vigente.
 
-Durante la progettazione dei sistemi e delle applicazioni vengono
-adottati principi di architettura sicura, tra cui:
+I casi gravi saranno segnalati all'autorità competente e potranno essere oggetto di provvedimenti disciplinari o legali.
 
-  - **isolamento dei componenti**, per limitare l'impatto di un'eventuale
-    compromissione di un singolo modulo/servizio sul resto del sistema;
+# 1.7. Riesame
 
-  - **gestione degli accessi**, applicando autenticazione, autorizzazione
-    e segregazione dei ruoli in coerenza con "*PO16 - Gestione degli
-    Accessi*";
+Il riesame della presente politica viene effettuato periodicamente dalla Direzione al fine di valutare l’efficienza e l’efficacia delle misure messe in atto per garantire la Sicurezza delle Informazioni tramite l'adozione di principi di sicurezza all'interno del Ciclo di Vita del Software. Il riesame viene inoltre effettuato in tutte le situazioni per le quali viene richiesta una modifica relativa al business aziendale che può avere impatto anche sulla Sicurezza delle Informazioni.
 
-  - **protezione dei dati**, sia in transito che a riposo, tramite
-    l'uso di meccanismi crittografici in coerenza con "*PO17 -
-    Crittografia*";
+# 2. Development Environment Security
 
-  - **riduzione delle superfici di attacco**, limitando servizi,
-    porte, dipendenze e componenti esposti al minimo necessario per il
-    funzionamento dell'applicazione.
+L’ambiente di sviluppo è costituito da un insieme di componenti hardware e software, utilizzati dai diversi gruppi di sviluppo che ne definiscono le caratteristiche in base alla tipologia / campo di applicazione del prodotto software da sviluppare.
 
-Le soluzioni sono progettate considerando i rischi di sicurezza propri
-del contesto operativo (applicazioni web e cloud esposte su Internet,
-applicazioni mobile distribuite su store pubblici, sistemi embedded con
-vincoli di aggiornamento, soluzioni basate su LLM con rischi specifici
-di prompt injection e gestione dei dati in input/output) e applicando
-misure adeguate a mitigarli.
+Il gruppo di lavoro (Team di sviluppo) è gestito da una figura responsabile (PM) che ha, tra le proprie mansioni, la responsabilità della gestione dei diversi componenti che costituiscono l’ambiente di sviluppo, definendone la loro costituzione iniziale, l’evoluzione, l’accessibilità, operando per ognuno di questi aspetti in stretta collaborazione con la funzione IT. Ogni variazione nella configurazione deve essere autorizzata dal Responsabile Area Digital o CTO.
 
-<span style="color:#B3392A">[DA CONFERMARE: non risulta un documento di architettura di riferimento unico e trasversale a tutti i progetti; le scelte architetturali (es. pattern di isolamento, uso di container, API gateway) sono valutate progetto per progetto]</span>.
+L’ambiente di sviluppo di una applicazione utilizza come elementi principali i seguenti componenti:
 
-## 6 Codifica Sicura
+- Postazioni degli sviluppatori
 
-Durante lo sviluppo del software vengono adottate pratiche di codifica
-sicura, includendo la validazione degli input, la gestione corretta
-degli accessi e la protezione dei dati, in coerenza con i principi
-generali dell'OWASP (Open Web Application Security Project).
+- Strumenti di sviluppo
 
-Le regole operative di codifica sicura, comprensive di indicazioni su
-validazione input, gestione di segreti e credenziali nel codice e
-gestione delle dipendenze di terze parti, sono riportate nell'allegato
-"*ALPO25.A - Regole scrittura codice*".
+- Server di versionamento
 
-## 7 Test di Sicurezza e Accettazione
+- Server di sviluppo – Unit testing
 
-Durante lo sviluppo delle applicazioni vengono eseguiti test funzionali
-e verifiche di sicurezza di base, al fine di identificare e correggere
-eventuali vulnerabilità prima del rilascio. Le attività di test sono
-proporzionate al contesto operativo e ai rischi associati al singolo
-progetto, e comprendono di norma:
+- Ambiente di Quality
 
-  - test funzionali, per verificare la corrispondenza tra il software
-    realizzato e i requisiti definiti;
+- Ambiente di VA/PT
 
-  - verifiche di sicurezza di base sulle funzionalità critiche (es.
-    autenticazione, gestione sessione, controllo accessi, validazione
-    input), supportate, ove applicabile, dalla checklist "*MDPO25.A -
-    OWASP ASVS Checklist*";
+- Server di compilazioni delle build
 
-  - test manuali con strumenti quali Postman per la verifica delle API
-    esposte dalle applicazioni.
+- Gestione degli incidenti.
 
-Le evidenze delle attività di analisi, test e verifica svolte per
-ciascun progetto vengono raccolte nel modulo "*MDPO25.C -
-Documentazione Tecnica \[progetto\]*".
+# 2.1. Configurazione postazioni degli sviluppatori
 
-<span style="color:#B3392A">[DA CONFERMARE: non risultano ad oggi in uso strumenti automatizzati di SAST/DAST/scansione delle dipendenze integrati stabilmente nella pipeline CI/CD; le verifiche di sicurezza sono allo stato attuale prevalentemente manuali]</span>.
+<span class="mark">Il PC aziendale in uso da personale Digital è installato di default con SO Linux Ubuntu nella versione LTS corrente e o</span>pportunamente configurato. L’installazione deve essere mantenuta aggiornata tramite i repository ufficiali. Non è consentito aggiornare la versione di SO installata salvo la disponibilità di una nuova versione LTS e previa autorizzazione in modo da evitare rischi per il corretto svolgimento delle attività di sviluppo. Tale aggiornamento dovrà avvenire pertanto in un periodo temporale concordato.
 
-## 8 Separazione degli Ambienti
+Eccezione a quanto sopra in caso le attività richieste allo sviluppatore richiedano l’utilizzo di una postazione specifica (es. computer Mac per sviluppo di applicazioni iOS).
 
-Gli ambienti di sviluppo, test e produzione sono logicamente separati.
-L'accesso agli ambienti è controllato e limitato in base ai ruoli, in
-coerenza con "*PO16 - Gestione degli Accessi*". Le modifiche vengono
-testate in ambienti dedicati prima del rilascio in produzione e non è
-consentito effettuare sviluppo direttamente in ambiente di produzione.
+L’accesso alle postazioni di lavoro è protetto con <span class="mark">password e, indipendentemente dal SO installato, lo storage è criptato; per quanto riguarda le installazioni miste (Linux/Windows) che prevedono *dual boot*, vengono criptate le partizioni contenenti dati sensibili. Per queste</span> macchine l’accesso a Internet è limitato/governato dalle best practice aziendali per la navigazione Internet (vedi “*REG01 - Regolamento di ut<span class="mark">ilizzo degli strumenti aziendali</span>*<span class="mark">”).</span>
 
-Data la natura cloud-first dell'infrastruttura di VECTORLAB (assenza di
-un CED fisico), la separazione degli ambienti è realizzata tramite
-piattaforme e servizi cloud, con configurazioni e credenziali di
-accesso distinte per ciascun ambiente.
+<span class="mark">La procedura di prima configurazione della postazione prevede anche l’installazione dei principali strumenti software adottati dall’area e relativa configurazione.</span>
 
-<span style="color:#B3392A">[DA CONFERMARE: le modalità tecniche esatte di separazione degli ambienti (es. progetti/istanze cloud distinti, branching model su GitHub, naming convention degli ambienti) possono variare da progetto a progetto e non sono ad oggi standardizzate in un unico documento]</span>.
+# 2.2. Strumenti di sviluppo
 
-## 9 Gestione dei Cambiamenti
+l tool di sviluppo sono nella disponibilità degli sviluppatori in due forme distinte, a seconda delle caratteristiche tecniche dei tool stessi:
 
-Le modifiche al codice e ai sistemi in produzione sono gestite in modo
-controllato: prima dell'introduzione in produzione, i cambiamenti
-vengono valutati, testati e approvati, e sono tracciati e documentati
-tramite il sistema di versionamento (storico delle revisioni e delle
-modifiche su GitHub), con possibilità di ripristino in caso di
-problemi. Il processo di gestione del cambiamento è descritto in
-dettaglio in "*PR19.1 - Gestione del Cambiamento*".
+- pacchetti installabili mediante i repository ufficiali della distribuzione Linux;
 
-## 10 Dati di Test
+- pacchetti .deb da installare sulle singole macchine degli sviluppatori.
 
-I dati utilizzati nelle attività di test e sviluppo non devono
-contenere dati reali sensibili o dati personali di Clienti, salvo
-laddove opportunamente mascherati, anonimizzati o pseudonimizzati.
-L'accesso ai dati e ai report di test è riservato al personale
-autorizzato.
+Il download di nuovi componenti (librerie, tools, documentazione, ecc.) deve avvenire attraverso una connessione HTTPS. Una volta acquisiti, i nuovi componenti prima di essere utilizzati devono essere verificati tramite un successivo test di integrazione con gli strumenti già in essere.
 
-## 11 Sviluppo Affidato all'Esterno
+# 2.3. Server di versionamento
 
-Lo sviluppo software di VECTORLAB non è ad oggi affidato a fornitori
-esterni ma è gestito internamente. Qualora in futuro si ricorresse a
-sviluppo esternalizzato, dovranno essere definiti requisiti specifici
-di supervisione, monitoraggio e revisione delle attività affidate a
-terze parti, in coerenza con "*PR26.1 - Gestione dei fornitori*".
+La storicizzazione e l'archiviazione dei file che formano i sorgenti di ogni applicazione avviene attraverso appositi tool di controllo delle versioni, differenziati a seconda del gruppo di utilizzo/applicazione da sviluppare.
 
-## 12 Protezione dei Sistemi durante Audit e Test
+<span class="mark">L’area IT, coordinandosi con i responsabili dei gruppi di lavoro, mantiene un inventario dei repository ufficiali per i diversi progetti. È responsabilità della funzione IT garantire il backup (vedasi “*PO21 - Gestione dei Backup e Restore*”).</span>
 
-Le attività di test, audit e verifica sui sistemi informativi sono
-pianificate e controllate per evitare impatti negativi sull'operatività
-dei sistemi in uso, in coerenza con "*MDPR11.1.C - Piano di Audit
-Tecnici*". Gli accessi concessi per finalità di audit e test sono
-limitati, monitorati e autorizzati.
+Ogni gruppo di lavoro deve archiviare i sorgenti sul repository aziendale di riferimento per il proprio progetto.
 
-## 13 Responsabilità
+Viene usato lo strumento aziendale di versionamento (vedasi “*MDPR08.1.A - Informazioni Documentate/Tools*”), opportunamente configurato per consentire ai soli utenti censiti e autorizzati l’accesso ai sorgenti di competenza.
 
-RSGI ha la responsabilità di redigere, mantenere aggiornata e comunicare
-la presente politica.
+I sorgenti delle applicazioni sono ivi catalogate mediante la strutturazione opportuna di progetti e repository dedicati e suddivisi per Cliente.
 
-Il personale coinvolto nelle attività di sviluppo, a qualsiasi livello,
-e i collaboratori esterni devono attenersi alle regole definite dalla
-presente politica e dai relativi allegati e moduli operativi.
+La notifica all’area IT della necessità di attivare / disattivare accessi logici ai repository per i membri del gruppo di lavoro è a carico dei referenti dei gruppi, con particolare attenzione posta agli accessi dati a fornitori e collaboratori esterni.
 
-<span style="color:#B3392A">[DA CONFERMARE: dato il contesto organizzativo snello di VECTORLAB (Amministratore Unico che ricopre anche il ruolo di CTO), la responsabilità di approvazione tecnica finale dei rilasci e di supervisione dell'applicazione della presente politica è verosimilmente in capo al CTO; da confermare formalmente l'assegnazione dei ruoli operativi (es. revisione del codice, gestione della checklist ASVS) tra le risorse coinvolte nello sviluppo]</span>.
+# 2.4. Server di Sviluppo – Unit testing
 
-## 14 Riesame
+Durante la fase di sviluppo, le attività di test in-progress (derivanti dal consolidamento dei codici sorgenti sviluppati e testati dai singoli programmatori) avvengono su una o più macchine dedicate (che possono coincidere con quelle di sviluppo) dove è presente un ambiente (file di configurazione, database, ecc.) il più possibile significativo per la verifica di quanto implementato.
 
-La revisione della presente politica è effettuata da RSGI almeno una
-volta all'anno e prima del riesame della Direzione, e in risposta a
-cambiamenti significativi delle tecnologie di sviluppo adottate, degli
-standard di sicurezza di riferimento (es. evoluzione dell'OWASP ASVS) o
-del contesto organizzativo e di business di VECTORLAB.
+L’accesso a tali macchine deve essere limitato agli sviluppatori e tester, ed eventualmente, ma solo a livello di accesso alla UI degli applicativi, ad altri utenti.
+
+Le evidenze relative ai piani di test eseguiti per ogni progetto, sono raccolte nel documento “*MDPO25.G - Piano di Test*”.
+
+# 2.5. Ambiente di Quality
+
+Con lo scopo di consentire ai gruppi di tester (Team di test) di effettuare un test funzionale degli elementi rilasciati in-progress a seguito della fase di sviluppo, una o più macchine server dedicate sono destinate ad ospitare questi ambienti di lavoro.
+
+È alimentato dai Team di sviluppo e successivamente configurato in collaborazione con i Team di test per rappresentare (a livello di file di configurazione, database, ecc.) nel modo più significativo possibile il campo di applicazione target.
+
+Le evidenze relative ai test eseguiti per ogni progetto, sono raccolte nel documento “*MDPO25.G - Piano di Test*”.
+
+# 2.6. Ambiente di VA/PT
+
+Con lo scopo di consentire opportune verifiche di sicurezza e consentire test di VA/PT degli elementi rilasciati in-progress o finali, una o più macchine server dedicate sono destinate ad ospitare questi ambienti di lavoro. Può coincidere con ambiente di Quality.
+
+Ambiente alimentato dai Team di sviluppo e successivamente configurati in collaborazione con i Team di test per rappresentare (a livello di file di configurazione, database, ecc.) nel modo più significativo possibile il campo di applicazione target.
+
+# 2.7. Server di compilazione delle build
+
+La compilazione per rilascio delle varie applicazioni avviene accedendo al repository del tool di versionamento utilizzato, così da poter selezionare <span class="mark">le versioni corrette ed aggiornare i sorgenti.</span>
+
+<span class="mark">Per ogni progetto, la procedura di build (manuale o automatica) è documentata nella documentazione di progetto (vedasi “*MDPO25.C - Documentazione Tecnica*”).</span>
+
+# 2.8. Gestione degli incidenti
+
+Ogni evento che determina una possibile “incidente di sicurezza” per questi componenti (es. perdita di un portatile di uno sviluppatore, mancata riservatezza delle credenziali di accesso di uno sviluppatore, penetrazione di un virus su un PC di una risorsa di sviluppo, fail di un backup di un server di sviluppo ecc.) non appena nella visibilità dell’area IT, prevede il coinvolgimento del Responsabile Area Digital o CTO in modo che possa concorrere nel definire congiuntamente le azioni correttive immediate, nonché valutare comportamenti azioni atte a prevenire il ripetersi di analoghe situazione di rischio.
+
+È responsabilità di ogni membro del Team di sviluppo di segnalare tempestivamente al proprio responsabile e alla funzione IT qualsiasi anomalia alla propria postazione di lavoro o agli ambienti di sviluppo condiviso, tramite mail.
+
+Maggiore dettaglio sul flusso della gestione degli incidenti da seguire è descritto nella politica “*PO27 - Gestione Eventi e Incidenti*”.
+
+# 3. Ciclo di Sviluppo Sicuro
+
+Il raggiungimento di un efficace livello di sicurezza richiede attenzione a tutte le fasi del processo di progettazione e sviluppo del software.
+
+A titolo esplicativo, la seguente matrice riporta un indice quantitativo di effort in termini di costi necessario nella risoluzione delle problematiche di sicurezza applicativa:
+
+|                     |                     |                                                 |                              |                                  |                              |                               |
+|---------------------|---------------------|-------------------------------------------------|------------------------------|----------------------------------|------------------------------|-------------------------------|
+|                     |                     | **PROBLEMATICHE DI SICUREZZA (VULNERABILITA')** |                              |                                  |                              |                               |
+|                     |                     | Scoperte in fase di progettazione e design      | Scoperte in fase di sviluppo | Scoperte in fase di integrazione | Scoperte in fase di collaudo | Scoperte in fase di esercizio |
+| **DOVUTE A ERRORI** | **Architetturali**  | 1x                                              | 5x                           | 10x                              | 20x                          | 30x                           |
+|                     | **Di codifica**     | \-                                              | 1x                           | 10x                              | 20x                          | 30x                           |
+|                     | **Di integrazione** | \-                                              | \-                           | 1x                               | 10x                          | 15x                           |
+
+*Tabella 1 - Vulnerabilità dovute a errori*
+
+Un ciclo di sviluppo sicuro considera e implementa opportune attività di sicurezza nel corso di tutte le fasi del processo.
+
+Al fine di ottemperare al concetto di *Privacy by design* e *Privacy by default*, il ciclo di vita dei nostri software deve tenere conto dei <span class="mark">risultati di un’eventuale valutazione della DPIA, per cui viene utilizzato lo strumento indicato in “*MDPR08.1.A - Informazioni Documentate/Tools*”.</span>
+
+Gli step del processo che sono coinvolti dall’applicazione di misure di sicurezza, a cui concorrono per la definizione le aree Digital e Governance, sono:
+
+- **Requisiti**: in questa fase vengono effettuate le analisi dei requisiti di sicurezza, dei rischi, delle probabilità di impatto delle minacce. Si considerano inoltre le best practice di carattere generale nella definizione dei requisiti di sicurezza (vedi capp. 3.1.2 e 3.1.3);
+
+- **Progettazione**: in questa fase si esamina il sistema in divenire con l’ausilio di tecniche di analisi e modellazione delle minacce, producendo requisiti di sicurezza di dettaglio che si aggiungono a quelli prodotti dalla precedente fase;
+
+- **Implementazione**: in questa fase si realizza il sistema attraverso la programmazione di codice sicuro, test di sicurezza basati sull'analisi delle minacce e analisi statica del codice sorgente. Quest’ultima può produrre nuovi requisiti di sicurezza che indirizzano la revisione del codice;
+
+- **Verifica**: in questa fase si analizzano gli aspetti di sicurezza del sistema in esecuzione in un ambiente controllato impiegando tecniche e strumenti di analisi dinamica;
+
+- **Validazione**: è la fase immediatamente prima del rilascio, viene effettuata una *final security review* per verifica del rispetto dei requisiti dati;
+
+- **Miglioramento continuo**: il processo viene periodicamente sottoposto a revisione da parte dei soggetti coinvolti, adeguandolo alle rinnovate necessità tecniche e/o di business, ai mutati scenari sistemistici/architetturali, e tarandolo sulle skill acquisite dalle figure coinvolte.
+
+Le principali azioni di sicurezza da attuare sono:
+
+- Definizione degli elementi di sicurezza applicativa, finalizzata alla valutazione dei requisiti relativamente a:
+
+<!-- -->
+
+- Integrità
+
+- Autenticità
+
+- Riservatezza.
+
+<!-- -->
+
+- Definizione dei requisiti di privacy, attraverso la raccolta strutturata delle seguenti categorie di informazioni:
+
+<!-- -->
+
+- Dati personali
+
+- Servizi di terze parti
+
+- Policy.
+
+<!-- -->
+
+- Risk Assessment, finalizzato alla valutazione del rischio.
+
+Ogni fase è caratterizzata dall'adozione di opportuni strumenti software a supporto delle operazioni.
+
+# 3.1 Requisiti
+
+### 3.1.1. Valutazione Rischio e Minacce
+
+L'analisi viene eseguita in maniera qualitativa suddividendo l’attività di sviluppo in task su cui dovrà essere decretato il livello di rischio in una scala che prevede i valori: *assente*, *basso*, *medio*, *alto*. In assenza di strumenti a supporto, l’analisi sarà eseguita dal progettista di maggior esperienza. L’attività è effettuata mediante il documento “*MDPO25.B - Definizione dei Requisiti*”.
+
+Nel caso di rischio *assente*, si procede come da flusso standard, senza più alcun rilievo inerente alla sicurezza.
+
+Nel caso di rischio *basso*, ci si limita ad inserire una segnalazione di attenzione all’interno della specifica, ma per il resto si procede come da flusso standard, senza più alcun rilievo inerente alla sicurezza.
+
+Nel caso di rischio *medio* o *alto*, oltre a inserire una segnalazione di attenzione all’interno della specifica, si procede con la stesura dei requisiti di sicurezza tecnici e di business, come descritto ai capp. 3.1.2 e 3.1.3.
+
+### 3.1.2. Definizione dei Requisiti di sicurezza a livello di business
+
+Qualora possibile, i requisiti di sicurezza a livello di business saranno dettagliati in una sezione dedicata della specifica funzionale, in modo da accrescere l’evidenza a tutti gli stakeholder del processo. Nei casi in cui tali requisiti siano fortemente compenetrati con l'argomento stesso della segnalazione, ne definiscono il vero e proprio contenuto e saranno piuttosto annegati nelle varie parti della specifica.
+
+### 3.1.3. Definizione dei Requisiti di sicurezza tecnici
+
+<span class="mark">Nel documento “*MDPO25.B - Definizione dei Requisiti*” vengono descritti i requisiti di sicurezza a livello di business; devono altresì dettagliarsi le soluzioni tecniche necessarie da implementare per garantire i requisiti tecnici di sicurezza identificati.</span>
+
+Il dettaglio e la completezza della descrizione dei requisiti devono essere tali da consentire all’incaricato alla progettazione di scegliere una soluzione di dettaglio idonea ai requisiti, e al personale destinato al test di verificare i casi d’uso necessari alla validazione di tutti i requisiti.
+
+<span class="mark">I</span> punti di attenzione di sicurezza, descritti in dettaglio nella specifica funzionale, sono elencati in “*MDPO25.B - Definizione dei Requisiti*” e “*MDPO25.A - Vectorlab – OWASP ASVS Checklist*” assieme alla soluzione implementativa identificata. Ciò rende evidente, sia allo sviluppatore incaricato dell’implementazione che all’assegnatario del test, che la specifica funzionale deve contenere indicazioni dettagliate relative a ciascuno dei topic indicati.
+
+Poiché vi sono requisiti tecnici di sicurezza che sono nativamente gestiti dal framework, di essi non è necessario dettagliare su ogni task le modalità di implementazione. In tali casi, tuttavia, la specifica funzionale deve indicare esplicitamente che il requisito non è oggetto di una specifica implementazione poiché già soddisfatto da meccanismi nativi del framework, limitandosi a citarli. In tal caso, anche le note di sicurezza nella checklist OWASP citeranno, per ogni requisito, l’eventuale riferimento alla feature di framework che lo implementa.
+
+Qualora l’implementazione di un requisito di sicurezza, sia esso di business o tecnico, non venga assolto dalla sola implementazione tecnica di sviluppo, ma richieda una specifica configurazione dell'ambiente di installazione, la specifica funzionale deve indicare le configurazioni necessarie e le implicazioni nel caso queste non fossero implementate. In tal caso, le note di sicurezza della checklist OWASP devono indicare che esiste un rischio legato alla mancata implementazione delle configurazioni indicate in specifica.
+
+# 3.2. Progettazione
+
+Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:
+
+- analisi e modellazione delle minacce, attraverso l’identificazione dei componenti applicativi coinvolti, delle interfacce e degli agenti che potrebbero minacciare il sistema;
+
+- analisi della superficie d’attacco e della finestra di opportunità, allo scopo di individuare le parti del sistema che possono essere esposte ad attacchi e pertanto lo rendono vulnerabile;
+
+- piano di mitigazione, attraverso l’identificazione delle contromisure da adottare in questa fase al fine di mitigare le potenziali minacce individuate (utilizzando anche tool automatici e semiautomatici);
+
+- Secure Design Refactoring, revisione progettuale che attua le contromisure individuate; produzione di un High Level Design conforme ai principi del Secure by Design.
+
+<span class="mark">Questa fa</span>se produce le specifiche funzionali e applicative, che tengono in considerazione i requisiti, tramite “*MDPO25.B - Definizione dei Requisiti*”.
+
+La progettazione del software è ispirata, entro i vincoli tecnologici e di progetto, ai principi di sicurezza by design OWASP, di cui si tiene conto tramite “*MDPO25.A - Vectorlab – OWASP ASVS Checklist*”.
+
+Il flusso di attività relativo alla privacy in ambito progettazione in questa fase può essere schematizzato come:
+
+- **Input**: requisiti di privacy di base e test; Standard, cogente, best practice e procedure applicabili sulla privacy, requisiti funzionali, Profili di rischio per la privacy;
+
+- **Attività**: nel caso ne sia stata riscontrata la necessità, svolgere una Data Protection Impact Assessment parametrata sugli obiettivi di protezione individuati;
+
+- **Output**: requisiti di protezione per la privacy specifici per il software.
+
+### 3.2.1. Privacy by design e by default
+
+Il concetto di *Privacy by Design* consiste nel considerare l’interessato al centro del sistema di protezione dei dati personali, progettando un'applicazione che segue i requisiti di sicurezza sin da subito garantendo i diritti e le libertà dell’interessato.
+
+La progettazione di qualsiasi software che coinvolga il trattamento dei dati personali deve essere preceduta da un'identificazione dei requisiti di protezione per la privacy, in quanto dal trattamento o dall’elaborazione dei dati personali potrebbero derivare dei rischi e delle minacce ai diritti e alla libertà dell’interessato. I rischi per la privacy negli applicativi software che comportano il trattamento dei dati personali, dovrebbero essere trattati prima della loro implementazione, ossia sin dalla fase di progettazione (Engineering Privacy by Design). Dovranno quindi essere analizzati i rischi collegati alle applicazioni software.
+
+In linea con i requisiti di attuazione previsti dal GDPR, qualora un trattamento dei dati personali possa presentare un rischio elevato per i diritti e le libertà delle persone fisiche, i titolari di quest’ultimo dovranno effettuare una valutazione dell’impatto del trattamento sulla protezione dei dati personali o Data Protection Impact Assessment (DPIA); quest’obbligo è applicabile anche al ciclo di vita del software.
+
+Per quanto riguarda il concetto di *Privacy by Default*, si può definire come: qualunque applicazione deve garantire che ogni accesso a un dato sensibile sia sempre mediato dall’applicazione di una policy di sicurezza.
+
+Le policy di sicurezza devono sempre integrare:
+
+- autorizzazioni legate ai ruoli degli utenti;
+
+- autorizzazioni legate ai consensi espressi dall’interessato;
+
+- tracciamento delle operazioni di accesso ai dati.
+
+# 3.3. Implementazione
+
+Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:
+
+- **Regole di scrittura**: scrivere codice secondo le guideline aziendali sulla strutturazione e scrittura formale del codice, presenti nell’allegato tecnico “*ALPO25.A - Linee guida per lo sviluppo software*”;
+
+- **Regole implementative**: produrre software secondo le regole di base aziendale definite per la gestione di macro-tematiche di interesse, sempre in riferimento all’allegato tecnico “*ALPO25.A - Linee guida per lo sviluppo software*”;
+
+- **Code review**: il codice deve essere sottoposto periodicamente dal Responsabile Area Digital a controlli di aderenza alle guideline sopra riportate. In caso alcune parti non soddisfino i requisiti di cui sopra la porzione di codice deve essere sottoposta a revisione;
+
+- **Data Validation**: verificare la presenza di vulnerabilità che possono riguardare eventuali dati corrotti in ingresso e che possono portare a un comportamento anomalo dell’applicazione;
+
+- **Control Flow**: verificare i rischi collegati all’assenza di specifiche sequenze di operazioni che, se non eseguite nel corretto ordine, possono portare a violazioni sulla memoria o sull’uso scorretto di determinati componenti;
+
+- **Controllo Configurazioni**: verificare i parametri intrinseci di configurazione dell’applicazione.
+
+Il flusso di attività relativo alla privacy in ambito implementazione può essere schematizzato come:
+
+- **Input**: requisiti architetturali e funzionali specifici per la privacy;
+
+- **Attività**: implementare i requisiti di protezione della privacy definiti nella fase di progettazione;
+
+- **Output**: componenti del software implementati; Mitigazione dei rischi accettabili per la privacy residua.
+
+L'implementazione del software è ispirata, entro i vincoli tecnologici e di progetto, ai principi di Secure Coding OWASP integrati con le best practice e guideline specifiche per le singole tecnologie di sviluppo in uso.
+
+# 3.4. Verifica della sicurezza delle applicazioni
+
+Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:
+
+- **Penetration Test**: attraverso l’esecuzione di scansioni ed analisi della superficie di attacco;
+
+- **Test di autenticazione multilivello**: attraverso la verifica delle modalità di gestione dell'accesso degli utenti;
+
+- **Business Logic test**: attraverso l’esecuzione di test manuali sulle applicazioni in fase di esecuzione;
+
+- **Analisi dei risultati**: attraverso l’individuazione e la rimozione dei falsi positivi;
+
+- **Remediation Plan**: attraverso la definizione del piano di rientro e la produzione di reportistica di sintesi e di dettaglio;
+
+- **Proof of Concept**: per le vulnerabilità riscontrate, comprensiva di azioni per la riduzione della superficie d’attacco.
+
+Il flusso di attività relativo a privacy in ambito verifica e validazione può essere schematizzato come:
+
+- **Input**: componenti del software implementati; Requisiti di privacy specifici del sistema e test; Politiche e procedure di privacy applicabili;
+
+- **Attività**: sviluppare / perfezionare dei test sulla privacy; Eseguire delle verifiche sulla privacy; Verificare il comportamento operativo rispetto alle politiche e alle procedure sulla privacy applicabili;
+
+- **Output**: risultati dei test di privacy; Documentazione delle incoerenze sulla privacy documentate; Descrizione del piano di trattamento della privacy.
+
+L’esame delle applicazioni in esecuzione in ambiente di test può avvenire tramite VA, portando alla produzione delle seguenti tipologie di documenti:
+
+- **Vulnerability Assessment**: report di dettaglio delle vulnerabilità riscontrate nella fase di analisi dinamica dell’applicazione tramite gli strumenti a supporto;
+
+- **Remediation Plan**: report che analizza i falsi positivi ed indirizza la risoluzione delle problematiche riscontrate nell’analisi stessa.
+
+<span class="mark">Per lo svolgimento di VA e PT Vectorlab può appoggiarsi a fornitori esterni.</span>
+
+# 3.5. Supporto per la manutenzione di applicazioni sicure
+
+L’obiettivo di questa fase è mantenere un prodotto sicuro, a partire dagli ultimi trend sugli attacchi/minacce. Il team deve quindi analizzare le nuove minacce e individuare le contromisure necessarie rilasciando nuovi aggiornamenti/patch laddove necessario attraverso un processo di *Continuous Security*.
+
+# 4. Sviluppo in Outsourcing
+
+I fornitori esterni che collaborano allo sviluppo ottemperano alla presente Policy nella stessa misura delle risorse interne, e vengono consegnate loro la Policy e tutti i documenti a cui essa fa riferimento.
+
+Ogni fornitore, prima di essere abilitato ad accedere alle risorse aziendali, oltre ad un accordo di riservatezza, sottoscrive una dichiarazione con cui conferma la presa visione delle procedure in essa elencate e ne garantisce l’applicazione.
+
+Viene fornito un estratto della documentazione al fornitore atta a garantire la piena conformità ai requisiti di sicurezza che vengono adottati dall’Azienda, che può includere il presente documento o un suo estratto, “*MDPO25.B - Definizione dei Requisiti*”, “*MDPO25.A - Vectorlab OWASP ASVS Checklist*” e “*MDPO25.C - Documentazione Tecnica*”.
+
+Inoltre, nella contrattualizzazione dell’accordo possono essere indirizzati anche i seguenti punti:
+
+- requisiti per lo sviluppo sicuro in progettazione, codifica e test;
+
+- fornitura di evidenze per la conformità del prodotto software sviluppato ai requisiti di sviluppo sicuro;
+
+- fornitura di evidenze dell’applicazione di test sufficienti a garantire l'assenza di contenuti dannosi sia intenzionali che non intenzionali al momento della consegna;
+
+- accordi di deposito a garanzia (“source escrow”), per evitare l’indisponibilità del codice sorgente;
+
+- possibilità di effettuare audit tecnici di seconda parte;
+
+- documentazione efficace del prodotto sviluppato;
+
+- accordi di licenza, proprietà del codice e diritti di proprietà intellettuale relativi al progetto software sviluppato.
+
+La gestione del fornitore e requisiti di sicurezza sono descritti nella politica “*PO26 - Gestione dei Fornitori*”.

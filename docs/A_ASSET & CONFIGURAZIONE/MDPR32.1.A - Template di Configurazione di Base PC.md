@@ -1,55 +1,80 @@
 # MDPR32.1.A - Template di Configurazione di Base PC
 
-**Modulo Template - Configurazione di Base PC**
-
-<div style="border-left:4px solid #2A5C8A;background:#EAF1F7;padding:.75rem 1rem;margin:1rem 0">
-<strong>DOCUMENTO IN BOZZA — generato il 16/07/2026</strong> per colmare una lacuna rilevata durante la revisione della documentazione (citato nella SOA ma non ancora creato). Contenuto basato su pratiche reali già note da altri documenti del SGI; le parti evidenziate in rosso sono da confermare prima dell'approvazione formale.
-</div>
+### 
 
 ### Revisioni
 
+|          |            |                 |             |               |
+|----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.1      | 16/07/2026 | Prima bozza — documento mancante generato per colmare una lacuna rilevata nella SOA | IA          | Da approvare  |
+| 0.0      | 24/04/2026 | Prima emissione | IT          | CTO           |
+|          |            |                 |             |               |
+|          |            |                 |             |               |
 |          |            |                 |             |               |
 
-## Istruzioni per l'uso del modulo
+**Configurazione di Base PC**
 
-Il presente modulo è un **template vuoto**, da compilare a cura dell'IT
-in occasione della consegna, riassegnazione o revisione periodica di un
-PC aziendale (fisso o portatile), secondo quanto previsto in "*PR32.1 -
-Gestione delle Configurazioni*" e "*PR14.1 - Gestione Asset*".
+| **INFORMAZIONI GENERALI** |                   |
+|---------------------------|-------------------|
+| **Nome dispositivo**      | \[Inserire nome\] |
+| **Owner dispositivo**     | \[Inserire nome\] |
 
-**Riferimento asset / CI (CMDB):** _da compilare_
+| **SPECIFICHE HARDWARE** |                           |
+|-------------------------|---------------------------|
+| **Processore**          |                           |
+| Marca                   | \[Inserire marca\]        |
+| Modello                 | \[Inserire modello\]      |
+| Velocità                | \[Inserire velocità\] GHz |
+| **Memoria (RAM)**       |                           |
+| Capacità                | \[Inserire capacità\] GB  |
+| **Archiviazione**       |                           |
+| Tipo di disco           | \[Inserire descrizione\]  |
+| Capacità                | \[Inserire capacità\] GB  |
+| Partizioni              | \[Inserire descrizione\]  |
+| **Scheda grafica**      |                           |
+| Marca                   | \[Inserire marca\]        |
+| Modello                 | \[Inserire modello\]      |
+| Memoria                 | \[Inserire memoria\] GB   |
 
-**Owner / assegnatario:** _da compilare_
+| **SPECIFICHE SOFTWARE**   |                         |          |
+|---------------------------|-------------------------|----------|
+| **Sistema Operativo**     |                         |          |
+| Tipo                      | Windows / Linux / MacOS |          |
+| **Software di base**      |                         |          |
+| Suite Office              | SI                      | \[Note\] |
+|                           | NO                      | \[Note\] |
+| Antivirus                 | SI                      | \[Note\] |
+|                           | NO                      | \[Note\] |
+| VPN                       | SI                      | \[Note\] |
+|                           | NO                      | \[Note\] |
+| Altri software essenziali | \[Inserire dettagli\]   |          |
 
-**Data compilazione:** _da compilare_
-
-**Compilato da:** _da compilare_
-
-## Checklist parametri di configurazione
-
-| **Categoria** | **Parametro di configurazione** | **Valore configurato** | **Verificato (Sì/No)** | **Note** |
-| -------------- | -------------------------------------------------------- | ----------------------- | ----------------------- | -------- |
-| Account | Account amministratore locale rinominato/protetto | | | |
-| Account | Account utente dedicato con privilegi non amministrativi (ove applicabile) | | | |
-| Account | Password conforme a policy aziendale | | | |
-| Blocco schermo | Blocco automatico dopo inattività abilitato | | | |
-| Cifratura | Cifratura del disco (full disk encryption) abilitata | | | |
-| Antivirus | Antivirus installato, aggiornato e non disabilitabile dall'utente | | | |
-| Firewall locale | Firewall di sistema attivo | | | |
-| Aggiornamenti | Aggiornamento automatico del sistema operativo abilitato | | | |
-| Aggiornamenti | Aggiornamento automatico delle applicazioni principali abilitato | | | |
-| Software installato | Software installato limitato a quanto previsto in "*ALPR05.1.G - Lista software permessi*" | | | |
-| Rete | Configurazione di rete (Wi-Fi aziendale / VPN) applicata | | | |
-| Supporti rimovibili | Politica di utilizzo supporti rimovibili applicata (cfr. "*PR14.1 - Gestione Asset*", par. 2.6) | | | |
-| Backup | Cartelle/aree soggette a backup configurate secondo indicazioni IT | | | |
-| Dotazione | Etichettatura/identificativo asset apposto | | | |
-
-## Note e osservazioni
-
-_Spazio per eventuali osservazioni, eccezioni concordate o motivazioni
-di scostamento dalla configurazione di base, da riportare secondo
-quanto previsto in "*PR32.1 - Gestione delle Configurazioni*", par.
-2.6._
+| **CONFIGURAZIONI DI SICUREZZA** |                          |                          |
+|---------------------------------|--------------------------|--------------------------|
+| **Policy di accesso**           |                          |                          |
+| Password complessa              | SI                       | \[Inserire descrizione\] |
+|                                 | NO                       | \[Inserire descrizione\] |
+| Cambio password                 | \[descrivere\]           |                          |
+| Screen saver                    | Min                      |                          |
+| Autenticazione a due fattori    | SI                       | \[Note\]                 |
+|                                 | NO                       | \[Note\]                 |
+| Blocco porte USB / SD           | SI                       | \[Note\]                 |
+|                                 | NO                       | \[Note\]                 |
+| Crittografia disco              | \[descrivere\]           |                          |
+| Abilitazione screenshot         | SI                       | \[Note\]                 |
+|                                 | NO                       | \[Note\]                 |
+| Utente admin                    | SI                       | \[Note\]                 |
+|                                 | NO                       | \[Note\]                 |
+| Utente AdS                      | SI                       | \[Note\]                 |
+|                                 | NO                       | \[Note\]                 |
+| Sincronizzazione orologio       | \[Server NTP\]           |                          |
+| Cancellazione sicura            | \[Inserire descrizione\] |                          |
+| **Backup e Ripristino**         |                          |                          |
+| Metodo di backup                | \[Inserire metodo\]      |                          |
+| Frequenza di backup             | \[Inserire frequenza\]   |                          |
+| Posizione di backup             | \[Inserire posizione\]   |                          |
+| **Gestione remota**             |                          |                          |
+| Bloccare il dispositivo         | \[Inserire descrizione\] |                          |
+| Cancellare il dispositivo       | \[Inserire descrizione\] |                          |
+| Individuare il dispositivo      | \[Inserire descrizione\] |                          |
+| Distribuire applicazioni        | \[Inserire descrizione\] |                          |

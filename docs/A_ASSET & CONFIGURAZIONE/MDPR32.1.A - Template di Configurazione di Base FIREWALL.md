@@ -1,62 +1,86 @@
 # MDPR32.1.A - Template di Configurazione di Base FIREWALL
 
-**Modulo Template - Configurazione di Base FIREWALL**
-
-<div style="border-left:4px solid #2A5C8A;background:#EAF1F7;padding:.75rem 1rem;margin:1rem 0">
-<strong>DOCUMENTO IN BOZZA — generato il 16/07/2026</strong> per colmare una lacuna rilevata durante la revisione della documentazione (citato nella SOA ma non ancora creato). Contenuto basato su pratiche reali già note da altri documenti del SGI; le parti evidenziate in rosso sono da confermare prima dell'approvazione formale.
-</div>
-
 ### Revisioni
 
+|          |            |                 |             |               |
+|----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.1      | 16/07/2026 | Prima bozza — documento mancante generato per colmare una lacuna rilevata nella SOA | IA          | Da approvare  |
+| 0.0      | 24/04/2026 | Prima emissione | IT          | CTO           |
+|          |            |                 |             |               |
+|          |            |                 |             |               |
 |          |            |                 |             |               |
 
-## Istruzioni per l'uso del modulo
+**Configurazione di Base FIREWALL**
 
-Il presente modulo è un **template vuoto**, da compilare a cura dell'IT
-in occasione della messa in servizio, della sostituzione o della
-revisione periodica di un apparato con funzionalità firewall (dedicato
-o integrato nel router aziendale), secondo quanto previsto in "*PR32.1
-- Gestione delle Configurazioni*".
+| **INFORMAZIONI GENERALI** |                   |
+|---------------------------|-------------------|
+| **Nome dispositivo**      | \[Inserire nome\] |
+| **Owner dispositivo**     | \[Inserire nome\] |
 
-<span style="color:#B3392A">[DA CONFERMARE: allo stato attuale
-VECTORLAB utilizza le funzionalità firewall integrate nel router
-aziendale; il presente template si applica quindi alla componente
-firewall di tale apparato, salvo diversa indicazione risultante da
-future modifiche infrastrutturali]</span>.
+| **SPECIFICHE HARDWARE** |                      |
+|-------------------------|----------------------|
+| **Processore**          |                      |
+| Marca                   | \[Inserire marca\]   |
+| Modello                 | \[Inserire modello\] |
+| **Interfacce di rete**  |                      |
+| Tipo                    | \[Inserire tipo\]    |
+| Numero di porte         | \[Inserire numero\]  |
 
-**Riferimento asset / CI (CMDB):** _da compilare_
+| **SPECIFICHE SOFTWARE** |                       |
+|-------------------------|-----------------------|
+| **Firmware**            |                       |
+| Versione                | \[Inserire versione\] |
 
-**Data compilazione:** _da compilare_
+| **CONFIGURAZIONI DI RETE** |                          |
+|----------------------------|--------------------------|
+| **Indirizzi IP**           |                          |
+| WAN                        | \[Inserire IP\]          |
+| LAN                        | \[Inserire IP\]          |
+| DMZ                        | \[Inserire IP\]          |
+| Subnet Mask                | \[Inserire Subnet Mask\] |
+| Gateway                    | \[Inserire Gateway\]     |
+| DNS                        | \[Inserire DNS\]         |
 
-**Compilato da:** _da compilare_
+| **CONFIGURAZIONI DI SICUREZZA**                     |                       |          |
+|-----------------------------------------------------|-----------------------|----------|
+| **Policy di accesso**                               |                       |          |
+| Amministratore                                      | \[Inserire dettagli\] |          |
+| Utenti autorizzati                                  | \[Inserire dettagli\] |          |
+| Autenticazione a due fattori                        | SI                    | \[Note\] |
+|                                                     | NO                    | \[Note\] |
+| **Regole Firewall**                                 |                       |          |
+| Regola \#1                                          | \[Descrivere regola\] |          |
+| Regola \#2                                          | \[Descrivere regola\] |          |
+| Regola \#3                                          | \[Descrivere regola\] |          |
+| …                                                   | …                     |          |
+| **VPN**                                             |                       |          |
+| Tipo                                                | \[Inserire tipo\]     |          |
+| Configurazione                                      | \[Inserire dettagli\] |          |
+| **Intrusion Detection/Prevention System (IDS/IPS)** |                       |          |
+| Abilitato                                           | SI                    | \[Note\] |
+|                                                     | NO                    | \[Note\] |
+| Configurazione                                      | \[Inserire dettagli\] |          |
 
-## Checklist parametri di configurazione
+| **PROCEDURE DI BACKUP E RIPRISTINO** |                        |
+|--------------------------------------|------------------------|
+| **Backup**                           |                        |
+| Metodo di backup                     | \[Inserire metodo\]    |
+| Frequenza di backup                  | \[Inserire frequenza\] |
+| Posizione di backup                  | \[Inserire posizione\] |
 
-| **Categoria** | **Parametro di configurazione** | **Valore configurato** | **Verificato (Sì/No)** | **Note** |
-| -------------- | -------------------------------------------------------- | ----------------------- | ----------------------- | -------- |
-| Accesso amministrativo | Credenziali di default sostituite | | | |
-| Accesso amministrativo | Accesso amministrativo limitato a rete interna / IP autorizzati | | | |
-| Accesso amministrativo | Autenticazione a più fattori abilitata (ove supportata) | | | |
-| Firmware | Versione firmware in uso | | | |
-| Firmware | Aggiornamenti automatici / periodici abilitati | | | |
-| Regole di filtraggio | Politica di default in ingresso (deny by default) | | | |
-| Regole di filtraggio | Regole di inoltro porte (port forwarding) documentate | | | |
-| Regole di filtraggio | Regole obsolete/non utilizzate rimosse | | | |
-| Content / Web filtering | Content filtering verso categorie di siti non pertinenti/malevoli attivo | | | |
-| Content / Web filtering | Elenco eccezioni (whitelist) aggiornato | | | |
-| VPN | Accesso VPN configurato e limitato agli utenti autorizzati | | | |
-| VPN | Protocollo di cifratura VPN in uso | | | |
-| Logging | Logging degli eventi di sicurezza abilitato | | | |
-| Logging | Conservazione dei log conforme a "*PR20.1 - Capacità e Monitoraggio Tecnico*" | | | |
-| Segmentazione | Segregazione rete aziendale / rete Guest (ove presente) | | | |
-| Servizi non necessari | Servizi/protocolli di gestione non necessari disabilitati (es. Telnet, UPnP) | | | |
+| **CONFIGURAZIONI DI LOGGING E MONITORAGGIO** |                        |
+|----------------------------------------------|------------------------|
+| **Logging**                                  |                        |
+| Tipi di log                                  | \[Inserire dettagli\]  |
+| Posizione di archiviazione                   | \[Inserire posizione\] |
+| Durata di conservazione                      | \[Inserire durata\]    |
+| **Monitoraggio**                             |                        |
+| Strumenti utilizzati                         | \[Inserire strumenti\] |
+| Frequenza di monitoraggio                    | \[Inserire frequenza\] |
+| Parametri monitorati                         | \[Inserire parametri\] |
 
-## Note e osservazioni
-
-_Spazio per eventuali osservazioni, eccezioni concordate o motivazioni
-di scostamento dalla configurazione di base, da riportare secondo
-quanto previsto in "*PR32.1 - Gestione delle Configurazioni*", par.
-2.6._
+| **DOCUMENTAZIONE**           |                       |
+|------------------------------|-----------------------|
+| **Documentazione associata** |                       |
+| Manuali di configurazione    | \[Inserire dettagli\] |
+| Guida utente                 | \[Inserire dettagli\] |
