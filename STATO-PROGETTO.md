@@ -136,6 +136,12 @@ Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 
 5. SoA (rev 0.4–0.5): compilati Applicabile/Applicato e motivi di inclusione per i 93 controlli dall'export ERA (`docs/02_SOA/era-control-vect.csv`, verificato con screenshot ERA del 20/10: Plan/Do/Check invariati); rimossa la sezione AGID CSP-SAAS (residui di un altro cliente). La SoA è gestita da Nextage in ERA: il repo ne è una copia.
 6. Elenco informazioni documentate: generato in automatico dal repo con `tools/genera_elenco.py` (anche nella pipeline prima della pubblicazione); PR08.1 rev 0.2 adeguata a repository privato sul server aziendale e approvazione tramite tabella Revisioni (decisione Davide: il repo resta pubblico per ora, ma i documenti si scrivono come se fosse già spostato e privato).
 
+7. Elenco leggi e regolamenti: nuovo registro `MDPO29.C` (27 riferimenti, verificati il 20/10/2026: AI Act come modificato dal Reg. UE 2026/1744, L. 132/2025, Cyber Resilience Act con segnalazioni dal 11/09/2026, NIS2 non applicabile direttamente per dimensione); PO29 rimanda al registro; corretti i codici sbagliati in PR05.1 (MDPO29.B → MDPR31.4.A) e PR18.1 (MDPO29.D → MDPO29.A).
+
+8. Attività svolte presso terzi: compilato `MDPR26.1.B - Elenco fornitori qualificati` (21 voci dai fornitori del foglio «Elenco Fornitori» del Resoconto Finanziario 2026 e dall'inventario asset), che PR26.1 rev 0.1 indica anche come elenco delle attività presso terzi. Cyber Resilience Act dichiarato non applicabile in MDPO29.C: Vectorlab fa solo consulenza e sviluppo software B2B, non vende prodotti software (Davide, 20/10/2026).
+
+**In attesa (20/10/2026)**: risposte di Andrei sull'infrastruttura (il server Vectorlab con n8n gira probabilmente su AWS; AWS non compare nell'anagrafica fornitori). Domande nel task ClickUp «ISO». Bloccano il documento 9 (schema ICT) e il completamento di MDPR26.1.B, PR21.1, PR16.1, PR24.1. Serve anche una planimetria o foto dell'ufficio per ALPR18.1.A.
+
 **Emerso**: PR34.1/PR35.1/PR36.1 (procedure dei processi principali) citate ma inesistenti; piano di trattamento 2026 con tutti i rischi accettati senza azioni (da discutere con Nextage); nel modulo RINA il civico del sito è «39/2» invece di 39/22.
 
 **Attenzione ai nomi file**: nel terminale Windows le lettere accentate appaiono come «├á»: è solo visualizzazione (`git config core.quotepath false`, `chcp 65001`), i file non vanno rinominati.

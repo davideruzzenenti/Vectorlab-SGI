@@ -15,6 +15,7 @@
 - [ALPR31.2.G - Liberatoria Foto-Video](ALPR31.2.G%20-%20Liberatoria%20Foto-Video.md)
 - [ALPR31.2.H - Registro Consensi](ALPR31.2.H%20-%20Registro%20Consensi.md)
 - [MDPO29.A - Elenco AdS](MDPO29.A%20-%20Elenco%20AdS.md)
+- [MDPO29.C - Elenco leggi, regolamenti e norme applicabili](MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili.md)
 - [MDPR31.1.A - Registro delle richieste](MDPR31.1.A%20-%20Registro%20delle%20richieste.md)
 - [MDPR31.4.A - Registro dei Trattamenti Titolare](MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md)
 - [MDPR31.4.B - Registro dei Trattamenti Responsabile](MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md)

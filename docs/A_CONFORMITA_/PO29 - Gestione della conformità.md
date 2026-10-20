@@ -8,7 +8,7 @@
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
-|          |            |                 |             |               |
+| 0.1      | 20/10/2026 | §2.1: l'elenco delle normative applicabili è ora il registro MDPO29.C, riesaminato almeno annualmente | RSGI        | Da approvare  |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -158,7 +158,7 @@ L'importanza di questo processo è evidente se si considera che la mancata confo
 
 Il primo passo verso una gestione efficace della conformità prevede che l’Azienda identifichi puntualmente a quali requisiti legali, statutari, regolamentari e contrattuali è soggetta affinché possa organizzarsi e definire le azioni da intraprendere per garantire il rispetto ed il controllo di tali requisiti.
 
-Nel documento “*MDPR08.1.A - Informazioni documentate/Compliance*” sono elencate tutte le normative vigenti applicabili (cogenti e volontarie) che hanno impatto sulla sicurezza delle informazioni gestite da Vectorlab. L’identificazione di tali normative viene condivisa con tutta l’Organizzazione e l’elenco è tenuto costantemente aggiornato, in linea con le modifiche e le novità introdotte a livello legislativo e regolamentare, nonché in occasione dell’adempimento a nuovi standard di settore.
+Nel registro “*MDPO29.C - Elenco leggi, regolamenti e norme applicabili*” sono elencate le normative applicabili (cogenti e volontarie) che hanno impatto sul Sistema di Gestione Integrato, con l’indicazione dei documenti con cui vengono rispettate e dell’owner che ne segue l’evoluzione. L’identificazione di tali normative viene condivisa con tutta l’Organizzazione e il registro è riesaminato da RSGI almeno una volta l’anno, prima del Riesame della Direzione, in linea con le modifiche e le novità introdotte a livello legislativo e regolamentare, nonché in occasione dell’adempimento a nuovi standard di settore.
 
 In base ai requisiti identificati, vengono definite:
 

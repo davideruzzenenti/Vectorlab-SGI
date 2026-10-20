@@ -182,7 +182,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
 
   <div class="kpi-grid">
     <div class="kpi"><div class="n num">164</div><div class="l">Documenti tracciati (161 al 19/10 + 3 procedure dei processi principali citate ma mancanti)</div></div>
-    <div class="kpi good"><div class="n num">6</div><div class="l">Corretti il 20/10, da approvare</div></div>
+    <div class="kpi good"><div class="n num">14</div><div class="l">Corretti o creati il 20/10, da approvare</div></div>
     <div class="kpi good"><div class="n num">34</div><div class="l">Pronti così come sono</div></div>
     <div class="kpi todo"><div class="n num">62</div><div class="l">Template vuoti da popolare</div></div>
     <div class="kpi bad"><div class="n num">49</div><div class="l">Con difetti da correggere</div></div>
@@ -202,9 +202,9 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
         <tr><td>4</td><td>Metodologia rischio (PR33.1), report e piano 2026</td><td><span class="chip bad">Aperto</span></td><td>Piano: tutti i rischi accettati senza azioni; owner e controllo 1.23 da confermare.</td></tr>
         <tr><td>5</td><td>SoA</td><td><span class="chip bad">Aperto</span></td><td>Gestita da Nextage in ERA. 20/10: compilati Applicabile/Applicato per tutti i 93 controlli dall'export ERA. Aperti: sezione AGID con residui di un altro cliente; 29 controlli solo pianificati.</td></tr>
         <tr><td>6</td><td>Elenco procedure (MDPR08.1.A) + PR08.1</td><td><span class="chip approve">Da approvare</span></td><td>Elenco generato in automatico dal repo; PR08.1 adeguata a repo privato e approvazione tramite tabella Revisioni. Aperto: PR34.1/35.1/36.1 mancanti; codici duplicati (MDPR10.1.A ×2).</td></tr>
-        <tr><td>7</td><td>Elenco leggi e regolamenti</td><td><span class="chip missing">Mancante</span></td><td>Da creare.</td></tr>
-        <tr><td>8</td><td>Elenco attività svolte presso terzi</td><td><span class="chip missing">Mancante</span></td><td>Da creare: cloud (AWS, Aruba, Google Workspace, GitHub), IT esterno (Andrei Apostu).</td></tr>
-        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">Da fare</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage.</td></tr>
+        <tr><td>7</td><td>Elenco leggi e regolamenti (MDPO29.C)</td><td><span class="chip approve">Da approvare</span></td><td>Creato il 20/10: 27 riferimenti con applicabilità, documenti SGI collegati e owner; include AI Act (dopo Digital Omnibus), L. 132/2025, Cyber Resilience Act, NIS2 (non applicabile direttamente). PO29 aggiornata.</td></tr>
+        <tr><td>8</td><td>Elenco attività svolte presso terzi (MDPR26.1.B)</td><td><span class="chip approve">Da approvare</span></td><td>Compilato il 20/10 nel registro fornitori qualificati: 21 voci con criticità e impatto. Aperti: AWS sì/no, consulenti tecnici su progetti clienti (8.30), Discord, qualifica e NDA dei fornitori critici.</td></tr>
+        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">In attesa</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage. In attesa delle risposte di Andrei sull'infrastruttura (AWS, Aruba, backup, accessi, rete; domande del 20/10 nel task ClickUp «ISO») e di una planimetria o foto dell'ufficio.</td></tr>
         <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip todo">Da fare</span></td><td>«Area XXXX» da compilare.</td></tr>
         <tr><td>11</td><td>Verbale ultimo riesame</td><td><span class="chip todo">Dopo l'audit</span></td><td>Dopo l'audit interno di fine novembre.</td></tr>
         <tr><td>—</td><td>Visura camerale</td><td><span class="chip todo">In corso</span></td><td>Ultima su Drive del 26/06/2025, CAP vecchio: nuova visura richiesta a Francesco (Backlog Amministrazione).</td></tr>
@@ -222,6 +222,9 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
       <li>SoA: decidere se togliere la sezione AGID CSP-SAAS (residui di un altro cliente: Nutanix, CMDBuild, «LD 2019»); verificare con Nextage i 29 controlli solo pianificati in ERA.</li>
       <li>Repo ancora pubblico su GitHub: spostarlo sul server aziendale e renderlo privato (i documenti sono già scritti come se lo fosse).</li>
       <li>Codice duplicato: due documenti MDPR10.1.A (Questionario soddisfazione e Tabella indicatori), da rinumerare.</li>
+      <li>In attesa di Andrei: dove gira il server Vectorlab (probabilmente AWS) e cosa c'è su AWS e Aruba, account e MFA, dati, backup, accessi, rete, patch e log. Servono per lo schema ICT e per completare MDPR26.1.B, PR21.1, PR16.1, PR24.1.</li>
+      <li>Fornitori: chiarire se i consulenti tecnici esterni lavorano su progetti dei clienti (SoA 8.30 esclusa); completare qualifica, NDA e nomine dei fornitori critici (MDPR26.1.B).</li>
+      <li>Discord è in uso come messaggistica (asset A0017) ma non è accettato dal SGI: decidere sostituzione o limitazione.</li>
       <li>Approvazione unica di Andrea a fine stage 1 (documenti «Da approvare» + soglia rischio 45).</li>
     </ul>
   </section>
@@ -427,7 +430,7 @@ const DATA = [
 ["A_FORNITORI","PR26.1 - Gestione Fornitori","PR","bad","0.0","Placeholder \"XXX\"; cita l'elenco fornitori con codice invertito (MDPR26.1.C invece di .B).","misto","Come classifichi, ai fini GDPR, il fornitore critico citato in questa procedura? (il riferimento incrociato lo correggo da solo)"],
 ["A_FORNITORI","PO40 - Sicurezza Servizi Cloud","PO","boiler","0.0","Parla solo di \"CSP\" in astratto, non nomina mai lo stack reale (AWS/Aruba/Workspace).","misto","Vuoi che scriva una bozza di questa policy nominando lo stack cloud reale (AWS/Aruba/Workspace) invece di parlare solo di \"CSP\" in astratto?"],
 ["A_FORNITORI","MDPR26.1.A - Monitoraggio fornitori","MD","bad","0.0","\"Anno XXXX\" non risolto; errori Excel \"#VALUE!\" residui.","umano","Qual è l'anno di riferimento e quali sono i punteggi reali dei fornitori? (oggi ci sono solo errori Excel residui)"],
-["A_FORNITORI","MDPR26.1.B/C - Elenco fornitori qualificati / Report consuntivazione","MD","todo","0.0","Zero fornitori/ore mai registrati.","umano","Quali sono i fornitori qualificati reali e le ore consuntivate da registrare in questi moduli?"],
+["A_FORNITORI", "MDPR26.1.B - Elenco fornitori qualificati (= elenco attività presso terzi)", "MD", "approve", "0.1", "20/10/2026: compilato con 21 voci di fornitori che svolgono attività nel campo del SGI (cloud, IT esterno, consulenti, paghe, contabilità, sicurezza lavoro, sede), con criticità 9001/27001 e impatto. Qualifica di tutti «da valutare»; NDA/nomine da verificare.", "umano", "Usate AWS (citato in molti documenti ma assente dall'anagrafica fornitori)? I consulenti tecnici esterni lavorano su progetti dei clienti (controllo 8.30)?"],
 ["A_FORNITORI","ALPR16.1.C - Contratto di fornitura","AL","bad","0.0","Decine di \"XXX\" non risolti; il file è nominato in modo diverso da come lo citano PO26/PR26.1 (ALPR26.1.C).","misto","C'è già un contratto di fornitura reale da usare per compilare questo modulo? (il nome file incoerente lo correggo da solo)"],
 ["A_FORNITORI","ALPR26.1.A - Comunicazione SGSI fornitori","AL","good","—","Lettera già specifica e utilizzabile.","ok",""],
 ["A_FORNITORI","ALPR26.1.B.3 - Accordo di Riservatezza","AL","bad","0.1","Controparte non compilata (\"YYY\" ripetuti); naming diverso da come viene citato altrove (ALPR26.1.B). PEC di Vectorlab inserita il 19/10/2026.","misto","Quali sono i dati reali della controparte per questo accordo di riservatezza? (il naming incoerente lo correggo da solo)"],
@@ -487,6 +490,7 @@ const NEW_DOCS = [
 DATA.push(...NEW_DOCS);
 // Aggiunti il 20/10/2026 (lavoro sui documenti dello stage 1)
 DATA.push(
+["A_CONFORMITA_", "MDPO29.C - Elenco leggi, regolamenti e norme applicabili", "MD", "approve", "0.0", "20/10/2026: nuovo registro dei requisiti cogenti e volontari (sostituisce il foglio «Compliance» dell'Excel MDPR08.1.A). Cyber Resilience Act non applicabile (nessun prodotto software proprio sul mercato, solo consulenza B2B). Da valutare: accessibilità, Data Act.", "ok", ""],
 ["01_POLITICA SISTEMA INTEGRATO", "ALPO01.A - Organigramma", "AL", "approve", "0.1", "20/10/2026: Amministratore Unico al posto del CdA; IT segnato come esterno (Andrei Apostu, libero professionista); Francesco Cappetti Referente Privacy; RLS Marco Ottone Casagrande. 10 persone interne + 1 esterno, coerente con la domanda RINA.", "ok", ""],
 ["7_GESTIONE RISORSE", "MDPR05.1.S/T - Consegna / Restituzione chiavi", "MD", "todo", "0.0", "20/10/2026: indirizzo completo della sede (39/22, piano 8, 16129). Modulo mai usato.", "umano", "Sono già state consegnate chiavi da registrare?"],
 ["8.2_PRODOTTI & SERVIZI", "PR34.1 / PR35.1 / PR36.1 - Procedure Innovation & Research, Digital, Business Development", "PR", "missing", "—", "Citate in PO01, PO02 e PO25 come procedure dei processi principali, ma non esistono né nel repo né su Drive né nell'elenco documenti MDPR08.1.A. Per la 9001 descrivono come si progetta e si consegna il software.", "misto", "Le scrivo in bozza (una procedura snella per area) partendo da PO25, PR09.1 e dal modo reale in cui lavorate?"]
