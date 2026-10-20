@@ -121,6 +121,25 @@ Decisione di Davide: il repo è la destinazione finale del SGI; Drive serve solo
 
 **Dashboard aggiornata** (stesso giorno): `STATO-DOCUMENTAZIONE.html` ora traccia le versioni Nextage al posto delle bozze IA (161 documenti: 37 pronti, 62 template, 51 da correggere, 5 boilerplate, 4 bozze IA, 2 mancanti). Aggiunto il valore "Nextage" nella colonna "Chi agisce" per le correzioni da chiedere a Nextage su Drive (es. «Approvato: CDA»), e lo stato "Mancante" per MDPO25.F. Le righe importate sono state valutate da tabella revisioni, segnaposto e inizio del testo, non da una rilettura integrale. Emersi: la PEC reale vectorlab@legalmail.it dal modulo RINA firmato (da confermare per ALPR26.1.B.3); PR33.1.1 è la metodologia HLS semplificata, quindi non serve un secondo PR33.1; report e piano di trattamento dei rischi 2026 riportano una revisione 0.0 del 24/04/2026, precedente all'analisi stessa.
 
+## Revisione dei documenti dello stage 1 (20/10/2026)
+
+Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 1 di Nextage (mail del 07/10/2026). Claude scrive le modifiche direttamente nella copia del repo sul Desktop di Davide; Davide fa commit e push. Ogni sessione aggiorna anche `docs/STATO-DOCUMENTAZIONE.html` (sezione «Avanzamento stage 1») e il task ClickUp «ISO» nella lista Task Davide, che raccoglie le cose da fare. Tutto ciò che è corretto resta «Da approvare»: l'approvazione dell'Amministratore Unico è prevista in un'unica sessione a fine stage 1, con mail di conferma come evidenza.
+
+**Dati confermati**: sede Piazza Borgo Pila 39/22, piano 8, 16129 Genova (dati comunicati a Innovares per il bando SPAIC, settembre 2026; CAP corretto in CCIAA con variazione anagrafica). Visura su Drive del 26/06/2025, superata: richiesta una nuova a Francesco (Backlog Amministrazione). Andrei Apostu (IT) è libero professionista esterno; Francesco Cappetti è Referente Privacy; i 7 sviluppatori sono dipendenti; i progetti di ricerca rientrano nel campo di applicazione.
+
+**Fatto**:
+1. Campo di applicazione: PO02 §4 riscritto (9001:2026 + 27001:2024+A1:2024, testo uguale alla domanda RINA, sede, aree, confini cloud, esclusioni); PO01 §6 allineato; indirizzo completato in ALPR05.1.A, MDPR05.1.S/T, PR18.1.
+2. Politica PO01 (rev 0.2): impegni su obiettivi, requisiti applicabili e miglioramento; comunicazione della politica; DPO allineato a PO31.
+3. Organigramma ALPO01.A (rev 0.1) e Mansionario ALPO01.B (rev 0.2): Amministratore Unico, IT esterno, Referente Privacy, misure compensative per i ruoli concentrati.
+4. PR33.1 (rev 0.1), report e piano rischi 2026 (rev 0.1): archivio, approvazione, frequenza annuale, date di emissione, campo, owner.
+
+5. SoA (rev 0.4–0.5): compilati Applicabile/Applicato e motivi di inclusione per i 93 controlli dall'export ERA (`docs/02_SOA/era-control-vect.csv`, verificato con screenshot ERA del 20/10: Plan/Do/Check invariati); rimossa la sezione AGID CSP-SAAS (residui di un altro cliente). La SoA è gestita da Nextage in ERA: il repo ne è una copia.
+6. Elenco informazioni documentate: generato in automatico dal repo con `tools/genera_elenco.py` (anche nella pipeline prima della pubblicazione); PR08.1 rev 0.2 adeguata a repository privato sul server aziendale e approvazione tramite tabella Revisioni (decisione Davide: il repo resta pubblico per ora, ma i documenti si scrivono come se fosse già spostato e privato).
+
+**Emerso**: PR34.1/PR35.1/PR36.1 (procedure dei processi principali) citate ma inesistenti; piano di trattamento 2026 con tutti i rischi accettati senza azioni (da discutere con Nextage); nel modulo RINA il civico del sito è «39/2» invece di 39/22.
+
+**Attenzione ai nomi file**: nel terminale Windows le lettere accentate appaiono come «├á»: è solo visualizzazione (`git config core.quotepath false`, `chcp 65001`), i file non vanno rinominati.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.

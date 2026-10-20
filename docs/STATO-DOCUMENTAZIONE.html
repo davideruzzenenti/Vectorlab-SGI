@@ -68,7 +68,7 @@ header.top .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.72r
 header.top h1{font-size:2.1rem;font-weight:700}
 header.top .meta{color:var(--ink-soft);font-size:.92rem}
 
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:1.8rem 0 2.4rem}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:1.8rem 0 2.4rem}
 .kpi{background:var(--panel);padding:1.1rem 1.3rem;display:flex;flex-direction:column;gap:.25rem}
 .kpi .n{font-family:Georgia,serif;font-size:2.1rem;font-weight:700;font-variant-numeric:tabular-nums}
 .kpi .l{font-size:.8rem;color:var(--ink-soft)}
@@ -88,6 +88,11 @@ section > .sub{color:var(--ink-soft);font-size:.92rem;margin-bottom:1.1rem;max-w
 .chip.bad{background:var(--bad-soft);color:var(--bad)}
 .chip.missing{background:var(--missing-soft);color:var(--missing)}
 .chip.nuovo{background:var(--actor-ia-soft);color:var(--actor-ia)}
+.chip.approve{background:var(--good-soft);color:var(--good);outline:1px dashed var(--good)}
+.stage1{width:100%;border-collapse:collapse;font-size:.88rem}
+.stage1 th,.stage1 td{border-bottom:1px solid var(--line);padding:.5rem .6rem;text-align:left;vertical-align:top}
+.stage1 th{font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-soft)}
+.todo-list li{margin:.35rem 0}
 
 .actor-tag{display:inline-flex;align-items:center;gap:.3rem;border-radius:5px;padding:.18rem .5rem;font-size:.74rem;font-weight:700;white-space:nowrap;border-left:3px solid}
 .actor-tag.ia{background:var(--actor-ia-soft);color:var(--actor-ia);border-color:var(--actor-ia)}
@@ -172,17 +177,54 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
   <header class="top">
     <div class="eyebrow">Vectorlab · Sistema di Gestione Integrato ISO 9001 / ISO 27001</div>
     <h1>Stato della documentazione: cosa c'è, cosa è valido, cosa manca</h1>
-    <div class="meta">Revisione completa del repository — 16 luglio 2026 · aggiornata il 19 ottobre 2026 dopo l'allineamento con la cartella Master su Drive: il blocco tecnologico generato in bozza dalla IA a luglio è stato in gran parte sostituito dalle versioni di Nextage</div>
+    <div class="meta">Revisione completa del repository — 16 luglio 2026 · aggiornata il 19 ottobre 2026 (allineamento con Drive) e il 20 ottobre 2026 (revisione dei documenti dello stage 1, uno alla volta)</div>
   </header>
 
   <div class="kpi-grid">
-    <div class="kpi"><div class="n num">161</div><div class="l">Documenti tracciati (114 preesistenti + 47 del blocco tecnologico, importati da Drive o ancora in bozza IA)</div></div>
-    <div class="kpi good"><div class="n num">37</div><div class="l">Pronti così come sono</div></div>
+    <div class="kpi"><div class="n num">164</div><div class="l">Documenti tracciati (161 al 19/10 + 3 procedure dei processi principali citate ma mancanti)</div></div>
+    <div class="kpi good"><div class="n num">6</div><div class="l">Corretti il 20/10, da approvare</div></div>
+    <div class="kpi good"><div class="n num">34</div><div class="l">Pronti così come sono</div></div>
     <div class="kpi todo"><div class="n num">62</div><div class="l">Template vuoti da popolare</div></div>
-    <div class="kpi bad"><div class="n num">51</div><div class="l">Con difetti da correggere</div></div>
+    <div class="kpi bad"><div class="n num">49</div><div class="l">Con difetti da correggere</div></div>
     <div class="kpi" style="background:var(--actor-ia-soft)"><div class="n num" style="color:var(--actor-ia)">4</div><div class="l">Bozze IA senza corrispettivo su Drive</div></div>
-    <div class="kpi missing"><div class="n num">2</div><div class="l">Mancanti (REG03 da decidere, MDPO25.F da copiare da Drive)</div></div>
+    <div class="kpi missing"><div class="n num">5</div><div class="l">Mancanti (PR34.1/35.1/36.1, REG03 da decidere, MDPO25.F da copiare da Drive)</div></div>
   </div>
+
+  <section>
+    <h2>Avanzamento stage 1 (aggiornato il 20/10/2026)</h2>
+    <p class="sub">Documenti che RINA verifica allo stage 1 (lista Nextage del 07/10/2026), in ordine di lavorazione. «Da approvare» = contenuto corretto nel repo, manca l'approvazione dell'Amministratore Unico, prevista in un'unica sessione a fine lavoro (con mail di conferma come evidenza).</p>
+    <table class="stage1">
+      <thead><tr><th>#</th><th>Documento</th><th>Stato</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Campo di applicazione (PO02 §4, PO01 §6)</td><td><span class="chip approve">Da approvare</span></td><td>Integrato 9001+27001, testo uguale alla domanda RINA, ricerca inclusa.</td></tr>
+        <tr><td>2</td><td>Politica (PO01)</td><td><span class="chip approve">Da approvare</span></td><td>Da decidere la pubblicazione sul sito.</td></tr>
+        <tr><td>3</td><td>Organigramma SGI (ALPO01.A) + Mansionario</td><td><span class="chip approve">Da approvare</span></td><td>IT esterno, Referente Privacy Francesco, misure compensative.</td></tr>
+        <tr><td>4</td><td>Metodologia rischio (PR33.1), report e piano 2026</td><td><span class="chip bad">Aperto</span></td><td>Piano: tutti i rischi accettati senza azioni; owner e controllo 1.23 da confermare.</td></tr>
+        <tr><td>5</td><td>SoA</td><td><span class="chip bad">Aperto</span></td><td>Gestita da Nextage in ERA. 20/10: compilati Applicabile/Applicato per tutti i 93 controlli dall'export ERA. Aperti: sezione AGID con residui di un altro cliente; 29 controlli solo pianificati.</td></tr>
+        <tr><td>6</td><td>Elenco procedure (MDPR08.1.A) + PR08.1</td><td><span class="chip approve">Da approvare</span></td><td>Elenco generato in automatico dal repo; PR08.1 adeguata a repo privato e approvazione tramite tabella Revisioni. Aperto: PR34.1/35.1/36.1 mancanti; codici duplicati (MDPR10.1.A ×2).</td></tr>
+        <tr><td>7</td><td>Elenco leggi e regolamenti</td><td><span class="chip missing">Mancante</span></td><td>Da creare.</td></tr>
+        <tr><td>8</td><td>Elenco attività svolte presso terzi</td><td><span class="chip missing">Mancante</span></td><td>Da creare: cloud (AWS, Aruba, Google Workspace, GitHub), IT esterno (Andrei Apostu).</td></tr>
+        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">Da fare</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage.</td></tr>
+        <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip todo">Da fare</span></td><td>«Area XXXX» da compilare.</td></tr>
+        <tr><td>11</td><td>Verbale ultimo riesame</td><td><span class="chip todo">Dopo l'audit</span></td><td>Dopo l'audit interno di fine novembre.</td></tr>
+        <tr><td>—</td><td>Visura camerale</td><td><span class="chip todo">In corso</span></td><td>Ultima su Drive del 26/06/2025, CAP vecchio: nuova visura richiesta a Francesco (Backlog Amministrazione).</td></tr>
+      </tbody>
+    </table>
+    <h3 style="margin-top:1.4rem">Cose aperte (anche nel task ClickUp «ISO» di Davide)</h3>
+    <ul class="todo-list">
+      <li>Andrei Apostu (IT esterno): incarico firmato, accordo di riservatezza, nomina ad Amministratore di Sistema.</li>
+      <li>Registro Amministratori di Sistema (MDPO29.A) da compilare con Andrei e Andrea.</li>
+      <li>Nomina di Francesco a Referente Privacy (ALPO31.D) da firmare.</li>
+      <li>Piano di trattamento rischi 2026: decidere con Nextage se A0039 (codici sorgente clienti) passa da accettato a trattato; owner immagine/reputazione; «1.23» → 5.23.</li>
+      <li>Politica PO01 da pubblicare sul sito, o togliere il riferimento.</li>
+      <li>Comunicare a RINA il civico corretto del sito (39/22, non 39/2) con la visura nuova.</li>
+      <li>Scrivere le procedure PR34.1 / PR35.1 / PR36.1.</li>
+      <li>SoA: decidere se togliere la sezione AGID CSP-SAAS (residui di un altro cliente: Nutanix, CMDBuild, «LD 2019»); verificare con Nextage i 29 controlli solo pianificati in ERA.</li>
+      <li>Repo ancora pubblico su GitHub: spostarlo sul server aziendale e renderlo privato (i documenti sono già scritti come se lo fosse).</li>
+      <li>Codice duplicato: due documenti MDPR10.1.A (Questionario soddisfazione e Tabella indicatori), da rinumerare.</li>
+      <li>Approvazione unica di Andrea a fine stage 1 (documenti «Da approvare» + soglia rischio 45).</li>
+    </ul>
+  </section>
 
   <section>
     <h2>Come leggere questi numeri</h2>
@@ -224,7 +266,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
 
   <section>
     <h2>I problemi che pesano di più</h2>
-    <p class="sub">Non tutti i 51 "da correggere" sono uguali. Questi sono quelli con impatto reale su un audit o sulla sicurezza, non semplice pulizia di forma.</p>
+    <p class="sub">Non tutti i 49 "da correggere" sono uguali. Questi sono quelli con impatto reale su un audit o sulla sicurezza, non semplice pulizia di forma.</p>
     <div class="cards" id="priority-cards"></div>
   </section>
 
@@ -267,6 +309,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
     <div class="toolbar">
       <input type="search" id="search" placeholder="Cerca per nome file…">
       <button class="filter-btn" data-filter="all" data-group="status" aria-pressed="true">Tutti gli stati</button>
+      <button class="filter-btn" data-filter="approve" data-group="status" aria-pressed="false">Corretto, da approvare</button>
       <button class="filter-btn" data-filter="good" data-group="status" aria-pressed="false">Reale</button>
       <button class="filter-btn" data-filter="todo" data-group="status" aria-pressed="false">Template vuoto</button>
       <button class="filter-btn" data-filter="boiler" data-group="status" aria-pressed="false">Boilerplate</button>
@@ -309,10 +352,10 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
 
 <script>
 const DATA = [
-["01_POLITICA SISTEMA INTEGRATO","PO01 - Sistema Integrato","PO","good","0.1","Descrizione aziendale specifica e coerente, CDA/Amministratore Unico chiarito.","ok",""],
-["01_POLITICA SISTEMA INTEGRATO","ALPO01.B - Mansionario","AL","good","0.1","Tutte le schede compilate; aggiunte RSPP e Referente Privacy prima mancanti.","ok",""],
-["02_SOA", "SOA - Statement of Applicability", "Registro ISO", "bad", "0.3", "Testo allineato all'export ERA, link funzionanti, copertina allineata allo storico (rev 0.3). Ma 91 controlli su 93 non hanno compilato «Applicabile» e nessuno ha compilato «Applicato» (lacuna ereditata dall'Excel originale); 8.11 è escluso ma ha motivi di inclusione e una descrizione sull'HTTPS; 7.12 e 8.30 sono esclusi ma hanno un motivo di inclusione e la motivazione «applicabile ma non applicato»; 7.11 non ha motivo di inclusione.", "umano", "Quali controlli sono già attuati e quali solo pianificati, e 7.12/8.30 sono davvero non applicabili o applicabili ma non ancora attuati?"],
-["4_CONTESTO","PO02 - Gestione del Contesto","PO","good","0.1","Mappa processi dettagliata, KPI reali, contesto specifico Vectorlab.","ok",""],
+["01_POLITICA SISTEMA INTEGRATO", "PO01 - Sistema Integrato", "PO", "approve", "0.2", "20/10/2026: edizioni norme aggiornate (27001:2024+A1:2024, 9001:2026); aggiunti impegni su obiettivi, requisiti applicabili e miglioramento (§5.1) e comunicazione della politica (§7); DPO allineato a PO31; ambito allineato a PO02. Cita PR34.1/PR35.1/PR36.1, che non esistono.", "umano", "La politica va pubblicata sul sito vectorlab-cg.com (come dichiara il §7) o resa disponibile solo su richiesta?"],
+["01_POLITICA SISTEMA INTEGRATO", "ALPO01.B - Mansionario", "AL", "approve", "0.2", "20/10/2026: misure compensative per i ruoli concentrati sull'Amministratore Unico, doppio controllo sulle operazioni critiche, IT affidato a professionista esterno.", "umano", "Andrea approva le misure compensative aggiunte in sez. 3?"],
+["02_SOA", "SOA - Statement of Applicability", "Registro ISO", "bad", "0.4", "20/10/2026: compilati «Applicabile», «Applicato» e motivi di inclusione per tutti i 93 controlli dall'export ERA (Applicato = fase Do in ERA): 61 applicati, 29 applicabili non attuati, 3 esclusi (7.12, 8.11, 8.30). Restano: la sezione AGID CSP-SAAS contiene residui di un altro cliente (Nutanix, «LD in iter di certificazione 2019», CMDBuild); 8.11 escluso ma con descrizione sull'HTTPS.", "umano", "La sezione AGID (requisiti per fornitori cloud della PA) va tolta? Vectorlab è qualificata o vuole qualificarsi come fornitore SaaS per la PA? I 29 controlli «solo Plan» in ERA (es. 5.01, 7.02-7.14, 8.01) sono davvero non ancora attuati?"],
+["4_CONTESTO", "PO02 - Gestione del Contesto", "PO", "approve", "0.2", "20/10/2026: §4 campo di applicazione integrato 9001+27001, testo uguale alla domanda RINA, sede (Piazza Borgo Pila 39/22, piano 8, 16129), aree incluse (anche Innovation & Research), confini cloud, esclusioni.", "ok", ""],
 ["4_CONTESTO","ALPO02.B - Analisi Stakeholder","AL","good","0.0","Tabella aspettative compilata per tutte le categorie di stakeholder.","ok",""],
 ["6.1_ANALISI DEI RISCHI","PR33.2 - Analisi Rischio Privacy","PR","good","0.0","Metodologia WP29/ENISA con classificazione tarata su Vectorlab.","ok",""],
 ["6.1_ANALISI DEI RISCHI","asset_inventory_vectorlab","Registro asset","good","—","49 asset reali con owner e strumenti reali (ClickUp, Discord, N8N, Aruba).","ok",""],
@@ -321,13 +364,13 @@ const DATA = [
 ["10_NC E MIGLIORAMENTO","PR13.1 - Gestione NC","PR","good","0.0","Workflow integrato con strumenti reali (ClickUp/Jira, email rsgi@vectorlab).","ok",""],
 ["7.4_COMUNICAZIONI","PO07 - Politica Comunicazione","PO","good","0.0","Testo specifico Vectorlab (Jira, GitHub, ruoli reali).","ok",""],
 ["7.4_COMUNICAZIONI","MDPO07.A - Piano Comunicazione","MD","bad","0.0","Molte righe con \"xxx\" mai risolto in colonne chiave.","umano","Per ciascuna riga del piano di comunicazione, quale informazione o documento viene davvero comunicato in quel flusso?"],
-["7.5_INFORMAZIONI DOCUMENTATE","PR08.1 - Gestione Informazioni Documentate","PR","good","0.1","Riallineato al modello reale Git/GitHub/MkDocs.","ok",""],
-["7.5_INFORMAZIONI DOCUMENTATE", "MDPR08.1.A - Elenco Informazioni documentate", "MD", "bad", "0.0", "Versione Nextage da Drive (19/10/2026): tutti i documenti in stato «Working»; Owner ancora «CDA/Direzione» in più righe; fogli Tools/Forum/Mailing ancora vuoti.", "nextage", "Nextage può sostituire «CDA/Direzione» con «Amministratore Unico/Direzione» negli Owner su Drive?"],
+["7.5_INFORMAZIONI DOCUMENTATE", "PR08.1 - Gestione Informazioni Documentate", "PR", "approve", "0.2", "20/10/2026: repository privato sul server aziendale e sito interno (situazione obiettivo: oggi il repo è ancora pubblico su GitHub); approvazione registrata nella tabella Revisioni con evidenza commit/PR/e-mail, PR facoltativa; nuovo §2.9 sull'elenco generato automaticamente.", "umano", "Quando viene spostato il repository sul server aziendale e reso privato?"],
+["7.5_INFORMAZIONI DOCUMENTATE", "MDPR08.1.A - Elenco Informazioni documentate", "MD", "approve", "auto", "20/10/2026: l'elenco è ora generato automaticamente dal repository (tools/genera_elenco.py, anche a ogni pubblicazione del sito): codice, titolo, ultima revisione, redattore, approvatore, formato, cartella. L'Excel di Nextage resta come storico (conteneva rev 0.0/«Working» per tutti, codici diversi dai file, owner CDA/DPO). Il foglio «Compliance» dell'Excel è la base dell'elenco leggi (documento 7).", "ok", ""],
 ["7.5_INFORMAZIONI DOCUMENTATE","MDPR08.1.B/C/D/E/F - meta-template","MD","todo","0.0","Template per generare nuovi PO/PR/MD/AL — placeholder corretti per lo scopo.","ok",""],
 ["7_GESTIONE RISORSE","PR05.1 - Gestione del personale","PR","bad","0.1","Decine di \"XXXXXX\" mai risolti, sezioni intere ancora da descrivere.","misto","Qual è il nome reale del repository/cloud e l'indirizzo email da usare? Come funzionano davvero i processi di presenze, trasferte e welfare aziendale?"],
 ["7_GESTIONE RISORSE","REG01 - Regolamento strumenti aziendali","REG","bad","0.0","Il regolamento di ticketing è citato con 5 codici diversi; firma mai inserita.","misto","Qual è il codice corretto per il regolamento di ticketing (nessuno dei 5 citati nel documento esiste), e chi deve firmarlo?"],
 ["7_GESTIONE RISORSE","REG02 - Regolamento comportamentale","REG","bad","0.1","Restano sezioni \"XXXXXXXXXX\", CCNL non compilato.","misto","Come funzionano davvero i processi di buoni pasto e trasferte, quale CCNL si applica, e qual è l'email reale da indicare?"],
-["7_GESTIONE RISORSE","ALPR05.1.A/B/C/D - RLS (comunicazione/verbale/nomina/scheda)","AL","todo","0.0","RLS non ancora eletto in Vectorlab, moduli mai usati.","umano","È già stato eletto un RLS (Rappresentante dei Lavoratori per la Sicurezza)? Se no, quando è previsto?"],
+["7_GESTIONE RISORSE", "ALPR05.1.A/B/C/D - RLS (comunicazione/verbale/nomina/scheda)", "AL", "todo", "0.0 / A: 01", "RLS indicato in organigramma: Marco Ottone Casagrande. 20/10/2026: corretto l'indirizzo della sede in ALPR05.1.A.", "umano", "Verbale di elezione e nomina dell'RLS sono stati compilati e firmati?"],
 ["7_GESTIONE RISORSE","ALPR05.1.E - Accordo Lavoro Agile","AL","bad","—","Giorni/settimana di lavoro agile mai deciso (\"X giorni\").","umano","Quanti giorni a settimana di lavoro agile volete concedere?"],
 ["7_GESTIONE RISORSE","ALPR05.1.F - Informativa Lavoro Agile","AL","good","0.0","Contenuto coerente, collegato correttamente a REG01/ALPR05.1.E.","ok",""],
 ["7_GESTIONE RISORSE","ALPR05.1.G - Lista software permessi","AL","good","0.0","Elenco reale di strumenti usati (GitHub Desktop, Postman, MongoDB...).","ok",""],
@@ -392,7 +435,7 @@ const DATA = [
 ["A_MONITORAGGIO SISTEMI & CAPACITY","PO20 - Gestione della Capacità","PO","bad","0.0","L'80% del testo tratta Gestione delle Configurazioni, non Capacità — probabile copia-incolla sbagliato dal template.","misto","Vuoi che riscriva questo documento usando i dati reali già noti da PR20.1 (AWS/CloudWatch), dato che oggi parla per l'80% di Gestione delle Configurazioni invece che di Capacità?"],
 ["A_MONITORAGGIO SISTEMI & CAPACITY","PR20.1 - Capacità e Monitoraggio Tecnico","PR","good","0.2","Coerente con lo stack reale (AWS, Aruba IaC, Google Workspace).","ok",""],
 ["A_MONITORAGGIO SISTEMI & CAPACITY","ALPO20.A - Piano di Capacità","AL","bad","0.1","\"Utilizzo del BYOD - XXXX\" non risolto; molte celle previsionali ancora da compilare.","umano","Esiste una policy BYOD reale in Vectorlab, e quali sono i dati previsionali di utilizzo/costi da inserire nel piano di capacità?"],
-["A_SICUREZZA FISICA AMBIENTALE","PR18.1 - Gestione sicurezza fisica","PR","good","0.1","Coerente col modello cloud-first, nessun CED fittizio.","ok",""],
+["A_SICUREZZA FISICA AMBIENTALE", "PR18.1 - Gestione sicurezza fisica", "PR", "good", "0.2", "Coerente col modello cloud-first, nessun CED fittizio. 20/10/2026: indirizzo completo della sede.", "ok", ""],
 ["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.A/E - Registro personale / visitatori","MD","todo","—","Solo intestazioni, mai compilati.","umano","Ci sono presenze o visite reali già avvenute da registrare in questi moduli?"],
 ["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.B - Registro accessi CED","MD","todo","0.1","Aggiunta una nota che segnala il registro come non applicabile (nessun CED, coerente con PR18.1), mantenuto per completezza.","ok",""],
 ["A_SICUREZZA FISICA AMBIENTALE","MDPR18.1.D - Registri interventi ambientali","MD","bad","0.0","Date corrotte dalla conversione (\"28/06/1900\"); kit primo soccorso con scadenze 2021-2023 mai aggiornate.","misto","Puoi verificare lo stato reale del kit di primo soccorso (le scadenze attuali segnate sono 2021-2023)? (le date corrotte dalla conversione le ripulisco da solo)"],
@@ -431,23 +474,31 @@ const NEW_DOCS = [
 ["A_CONFORMITA_", "PR29 - Gestione Verifiche Ispettive", "PR", "bad", "0.0", "Nuovo da Drive: testo completo, manca dove si archivia la reportistica delle ispezioni (XXX).", "umano", "Dove viene archiviata la reportistica delle verifiche ispettive?"],
 ["A_CONFORMITA_", "MDPO29.A - Elenco AdS", "MD", "todo", "0.0", "Versione Nextage da Drive (19/10/2026) (sostituisce la bozza IA MDPO29.D): registro vuoto.", "umano", "Chi sono gli Amministratori di Sistema nominati da registrare?"],
 ["A_CONTINUITA_ OPERATIVA", "PR28.2 - Processo Business Impact Analysis", "PR", "nuovo", "0.1", "Bozza IA del 16/07, senza corrispettivo su Drive: Procedura madre di MDPR28.1.A (BIA), già esistente e orfano.", "misto", "Qual è l'RPO (Recovery Point Objective) per ciascun sistema critico, e con quale periodicità va aggiornata la BIA?"],
-["6.1_ANALISI DEI RISCHI", "PR33.1 - Processo Analisi del Rischio e Trattamento", "PR", "bad", "0.0", "Versione Nextage da Drive (19/10/2026): manca dove si archiviano report e piano di trattamento (XXXXX); «Approvato: CDA» e «Direzione/CDA» nel testo.", "umano", "Dove vengono archiviati il report di analisi dei rischi e il piano di trattamento?"],
+["6.1_ANALISI DEI RISCHI", "PR33.1 - Processo Analisi del Rischio e Trattamento", "PR", "approve", "0.1", "20/10/2026: indicata la cartella di archivio di report e piano (B_REGISTRAZIONI), approvazione all'Amministratore Unico, valutazione almeno annuale. Resta «Approvato: CDA» nella riga storica 0.0.", "ok", ""],
 ["6.1_ANALISI DEI RISCHI", "PR33.1.1 - Analisi Rischi e Opportunità", "PR", "bad", "0.0", "Nuovo da Drive: è la metodologia HLS semplificata citata nell'elenco documenti, quindi chiude il dubbio su un secondo PR33.1; «Approvato: CDA».", "nextage", "Nextage può sostituire «CDA» con «Amministratore Unico» su Drive, come già fatto a luglio negli altri documenti?"],
 ["6.1_ANALISI DEI RISCHI", "MDPR33.1.A / B / D - modelli di report, piano di trattamento e analisi rischi e opportunità", "MD", "todo", "0.0", "Nuovi da Drive: modelli; le registrazioni 2026 sono in B_REGISTRAZIONI.", "ok", ""],
-["B_REGISTRAZIONI", "MDPR33.1.A - Report Analisi dei Rischi - 2026", "MD", "bad", "0.0", "Nuovo da Drive: analisi reale (49 asset, ERA v2.0, agosto-settembre 2026), ma la tabella revisioni riporta 0.0 del 24/04/2026 e «Approvato: CDA».", "nextage", "Nextage può aggiornare la tabella revisioni con la data reale dell'analisi e l'approvazione dell'Amministratore Unico?"],
-["B_REGISTRAZIONI", "MDPR33.1.B - Piano di Trattamento dei Rischi - 2026", "MD", "bad", "0.0", "Nuovo da Drive: piano reale (29/09/2026), ma la tabella revisioni riporta 0.0 del 24/04/2026 e «Approvato: CDA».", "nextage", "Nextage può aggiornare la tabella revisioni con la data reale del piano e l'approvazione dell'Amministratore Unico?"],
+["B_REGISTRAZIONI", "MDPR33.1.A - Report Analisi dei Rischi - 2026", "MD", "approve", "0.1", "20/10/2026: data di emissione corretta (25/09/2026), campo allineato a PO02, accettazione della soglia RA 45 attribuita all'Amministratore Unico (da registrare nel riesame 2026).", "umano", "Andrea approva la soglia di rischio accettabile 45 (nel riesame della direzione)?"],
+["B_REGISTRAZIONI", "MDPR33.1.B - Piano di Trattamento dei Rischi - 2026", "MD", "bad", "0.1", "20/10/2026: data di emissione corretta (29/09/2026), campo allineato, owner «IT» → «CTO». Aperto: tutti e 5 i rischi sopra soglia sono ACCETTATI senza azioni, motivati dal «mancato processo di gestione delle configurazioni» che contraddice PO32/PR32.1; owner «Andrea (BD)» incoerente (BD = Davide); controllo «1.23» inesistente (probabile 5.23).", "umano", "Il rischio sui codici sorgente dei clienti (A0039) passa da accettato a trattato (baseline GitHub secondo PR32.1)? Owner di immagine/reputazione: Andrea (CEO) o Davide (BD)? «1.23» va corretto in 5.23?"],
 ["7_GESTIONE RISORSE", "PR06.1 - Gestione delle Performance", "PR", "nuovo", "0.1", "Bozza IA del 16/07, senza corrispettivo su Drive: Procedura madre dei moduli MDPR06.1.* già esistenti e orfani.", "misto", "Qual è la soglia di spesa formativa approvabile autonomamente, quando si svolge la valutazione annuale delle performance, e quali sono i target KPI?"],
 ["A_FORNITORI", "ALPR26.1.D - Nomina Responsabile Trattamenti", "AL", "nuovo", "0.1", "Bozza IA del 16/07, senza corrispettivo su Drive: fac-simile ex art. 28 GDPR.", "umano", "C'è già un fornitore reale che tratta dati personali per cui compilare questa nomina?"],
 ["A_AMMINISTRAZIONE E FINANZA", "PR04.1 - Amministrazione", "PR", "bad", "0.0", "Versione Nextage da Drive (19/10/2026): segnaposto XXX/XXXX sulla validazione della fatturazione; definisce e cita ancora il CDA («riportando direttamente al CDA»).", "misto", "Come e da chi vengono validati i dati mensili per la fatturazione attiva di ciascuna area?"],
 ["8.2_PRODOTTI & SERVIZI", "PR09.1 - Gestione Commerciale", "PR", "bad", "0.0", "Versione Nextage da Drive (19/10/2026): ruoli commerciali ancora XXX; definisce ancora il CDA.", "umano", "Chi gestisce la trattativa con il cliente e la ricerca di nuovi clienti, e quali sono i ruoli dell'area commerciale?"]
 ];
 DATA.push(...NEW_DOCS);
+// Aggiunti il 20/10/2026 (lavoro sui documenti dello stage 1)
+DATA.push(
+["01_POLITICA SISTEMA INTEGRATO", "ALPO01.A - Organigramma", "AL", "approve", "0.1", "20/10/2026: Amministratore Unico al posto del CdA; IT segnato come esterno (Andrei Apostu, libero professionista); Francesco Cappetti Referente Privacy; RLS Marco Ottone Casagrande. 10 persone interne + 1 esterno, coerente con la domanda RINA.", "ok", ""],
+["7_GESTIONE RISORSE", "MDPR05.1.S/T - Consegna / Restituzione chiavi", "MD", "todo", "0.0", "20/10/2026: indirizzo completo della sede (39/22, piano 8, 16129). Modulo mai usato.", "umano", "Sono già state consegnate chiavi da registrare?"],
+["8.2_PRODOTTI & SERVIZI", "PR34.1 / PR35.1 / PR36.1 - Procedure Innovation & Research, Digital, Business Development", "PR", "missing", "—", "Citate in PO01, PO02 e PO25 come procedure dei processi principali, ma non esistono né nel repo né su Drive né nell'elenco documenti MDPR08.1.A. Per la 9001 descrivono come si progetta e si consegna il software.", "misto", "Le scrivo in bozza (una procedura snella per area) partendo da PO25, PR09.1 e dal modo reale in cui lavorate?"]
+);
 
 const PRIORITIES = [
+  ["Repository pubblico","Il repository con analisi dei rischi, inventario asset e organigramma è pubblico su GitHub, mentre i documenti sono classificati «Interno» (27001 controlli 5.12, 5.13, 8.3). PR08.1 è già scritta per il repository privato sul server aziendale: va completato lo spostamento prima dell'audit."],
   ["Nessun documento formalmente approvato","Su Drive 164 file su 166 sono in \"0_Working\"; \"Da Approvare\" e \"Ultima Versione\" sono vuote. È il blocco principale per la certificazione."],
   ["SOA · applicabilità non compilata","91 controlli su 93 senza «Applicabile», nessuno con «Applicato»; 8.11 escluso ma con motivi di inclusione e descrizione sbagliata; 7.12 e 8.30 descritti come «applicabili ma non applicati» pur essendo esclusi."],
-  ["«Approvato: CDA» nei documenti di Nextage","Più documenti importati da Drive riportano ancora il CDA, che Vectorlab non ha (Amministratore Unico): stessa contraddizione già corretta a luglio negli altri documenti."],
-  ["Analisi dei rischi 2026 con revisione incoerente","Report e piano di trattamento sono reali (agosto-settembre 2026), ma la tabella revisioni riporta 0.0 del 24/04/2026: un auditor nota subito che la data precede l'analisi."],
+  ["Procedure dei processi principali mancanti","PR34.1 (Innovation & Research), PR35.1 (Digital) e PR36.1 (Business Development) sono citate da PO01, PO02 e PO25 ma non esistono: per la 9001 sono le procedure che descrivono come si progetta e consegna il software."],
+  ["«Approvato: CDA» nei documenti di Nextage","Più documenti importati da Drive riportano ancora il CDA, che Vectorlab non ha (Amministratore Unico). Corretto il 20/10 in organigramma, PO01, PR33.1 e registrazioni rischi 2026; resta negli altri documenti Nextage."],
+  ["Piano di trattamento rischi 2026: tutto accettato","Date di revisione corrette il 20/10. Resta il punto sostanziale: tutti e 5 i rischi sopra soglia sono accettati senza azioni, con una motivazione («mancato processo di gestione delle configurazioni») che contraddice PO32/PR32.1."],
   ["PO20 · Gestione della Capacità","L'80% del documento tratta Gestione delle Configurazioni, non Capacità come da titolo — probabile copia-incolla sbagliato, non ancora corretto."],
   ["REG01 · Regolamento strumenti","Il regolamento di ticketing interno è citato con 5 codici diversi nello stesso documento, nessuno risolto; manca la firma. Non ancora corretto (serve decidere il codice giusto)."],
   ["Moduli di emergenza fisica","MDPR18.1.F/G/H hanno ancora \"Nome Cognome\" al posto degli addetti reali — non solo carta, è conformità D.Lgs 81/08."],
@@ -457,7 +508,7 @@ const PRIORITIES = [
 ];
 
 const tbody = document.getElementById('doc-table-body');
-const STATUS_LABEL = {good:'Reale',todo:'Template vuoto',boiler:'Boilerplate',bad:'Da correggere',nuovo:'Nuovo (bozza IA)',missing:'Mancante'};
+const STATUS_LABEL = {approve:'Corretto, da approvare',good:'Reale',todo:'Template vuoto',boiler:'Boilerplate',bad:'Da correggere',nuovo:'Nuovo (bozza IA)',missing:'Mancante'};
 const ACTOR_LABEL = {ia:'IA',misto:'Misto',umano:'Umano',nextage:'Nextage',ok:'—'};
 DATA.forEach(row=>{
   const [cat,file,type,status,rev,note,actor,input] = row;

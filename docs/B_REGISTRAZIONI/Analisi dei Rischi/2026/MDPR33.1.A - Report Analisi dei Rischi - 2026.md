@@ -7,8 +7,8 @@
 |          |            |                 |             |               |
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | CDA           |
-|          |            |                 |             |               |
+| 0.0      | 25/09/2026 | Prima emissione: analisi dei rischi agosto-settembre 2026 | CISO        | Da approvare (Amministratore Unico) |
+| 0.1      | 20/10/2026 | Corretta la data di emissione (riportava quella del modello); campo di applicazione allineato a PO02; accettazione del rischio attribuita all'Amministratore Unico | RSGI        | Da approvare  |
 |          |            |                 |             |               |
 
 ### Indice 
@@ -78,7 +78,7 @@ Tabella 1 - Informazioni sull'Analisi dei Rischi
 
 L’attività di Analisi del Rischio è relativa all’ambito di certificazione ISO/IEC 27001 relativo all’ambito di certificazione:
 
-***“Progettazione ed sviluppo software e consulenza in particolare in ambito deep tech” - “Design and development of software applications and consultancy primarily in Deep Tech”.***
+***“Progettazione, sviluppo software e consulenza in particolare in ambito deep tech” - “Design, software development and consultancy primarily in deep tech”.***
 
 # 1.2 Riferimenti e Allegati
 
@@ -190,7 +190,7 @@ Il valore di RA viene stabilito dalla Direzione in fase di analisi di rischio e 
 | **Piano di Rischio accettabile** |                                         |                             |                             |                  |          |
 |----------------------------------|-----------------------------------------|-----------------------------|-----------------------------|------------------|----------|
 | **Anno**                         | **Soglia rischio accettabile definita** | **Proposta futuro RA**      | **Data Riesame**            | **Accettazione** | **Note** |
-| 2026                             | 45                                      | <span class="mark">-</span> | <span class="mark">-</span> | C.D.A.           |          |
+| 2026                             | 45                                      | - | Da registrare nel Riesame della Direzione 2026 | Amministratore Unico |          |
 |                                  |                                         |                             |                             |                  |          |
 |                                  |                                         |                             |                             |                  |          |
 |                                  |                                         |                             |                             |                  |          |

@@ -10,7 +10,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito il rapporto CDA/Amministratore Unico; aggiunte le schede RSPP, Referente Privacy e Responsabile di Area, citate in altre procedure ma prive di scheda propria | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.2      | 20/10/2026 | Sez. 3: aggiunte le misure compensative per i ruoli concentrati sull'Amministratore Unico e per la funzione IT affidata a un professionista esterno; allineamento all'organigramma ALPO01.A rev 0.1 | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -2393,3 +2393,26 @@ conflitto:
     > sistema IT da cui i log vengono generati non è lo stesso che
     > provvede alla loro analisi al fine di evitare possibili
     > alterazioni/manomissioni dei messaggi di log.
+
+  - > **Ruoli concentrati sull’Amministratore Unico** (CEO, CTO,
+    > responsabile Digital, CISO, RSPP): le decisioni sulle misure di
+    > sicurezza e i relativi esiti sono riesaminati dall’RSGI, che non
+    > svolge attività tecniche sui sistemi; l’audit interno sulle aree
+    > tecniche e di sicurezza è svolto da un auditor esterno (PR11.1);
+    > il Riesame della Direzione (PR12.1) si svolge con la
+    > partecipazione dell’RSGI e del consulente esterno del sistema di
+    > gestione;
+
+  - > **Operazioni critiche sui sistemi** (creazione o revoca di
+    > utenze amministrative, modifiche ai permessi sui sistemi di
+    > produzione, cancellazione di dati o backup): richiedono la
+    > richiesta di una persona e l’esecuzione o la verifica di una
+    > persona diversa, con traccia nel sistema di ticketing o nei log
+    > dei servizi cloud;
+
+  - > **Funzione IT affidata a un professionista esterno**: le attività
+    > di System Administrator sono svolte da un libero professionista
+    > incaricato, gestito come fornitore secondo PR26.1, con accordo di
+    > riservatezza e nomina ad Amministratore di Sistema (ALPO31.A); le
+    > sue utenze amministrative sono nominative e riesaminate
+    > periodicamente dal CTO secondo PR16.1.

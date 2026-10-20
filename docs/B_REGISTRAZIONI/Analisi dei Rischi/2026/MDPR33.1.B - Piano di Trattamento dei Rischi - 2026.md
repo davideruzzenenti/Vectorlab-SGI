@@ -9,15 +9,15 @@
 |          |            |                 |             |               |
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | CDA           |
-|          |            |                 |             |               |
+| 0.0      | 29/09/2026 | Prima emissione: piano di trattamento dei rischi 2026 | CISO        | Da approvare (Amministratore Unico) |
+| 0.1      | 20/10/2026 | Corretta la data di emissione (riportava quella del modello); campo di applicazione allineato a PO02; ruolo «IT» dell'owner corretto in «CTO» (la funzione IT è esterna) | RSGI        | Da approvare  |
 |          |            |                 |             |               |
 
 ### Indice 
 
 # 1 Introduzione
 
-A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorlab, effettuata ai sensi della norma ISO/IEC 27001 relativa all’ambito di certificazione ***“Progettazione ed sviluppo software e consulenza in particolare in ambito deep tech” - “Design and development of software applications and consultancy primarily in Deep Tech”*** di Vectorlab è stato predisposto un piano di trattamento dei rischi evidenziati dall’analisi.
+A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorlab, effettuata ai sensi della norma ISO/IEC 27001 relativa all’ambito di certificazione ***“Progettazione, sviluppo software e consulenza in particolare in ambito deep tech” - “Design, software development and consultancy primarily in deep tech”*** di Vectorlab è stato predisposto un piano di trattamento dei rischi evidenziati dall’analisi.
 
 # 2 Piano di trattamento
 
@@ -75,7 +75,7 @@ A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorl
 </ul></td>
 <td><p>5.37</p>
 <p>8.09</p></td>
-<td><em>Andrea Ruzzenenti (IT) – Andrea Ruzzenenti (CEO)</em></td>
+<td><em>Andrea Ruzzenenti (CTO) – Andrea Ruzzenenti (CEO)</em></td>
 <td>45</td>
 <td>N.A.</td>
 <td>N.A.</td>
@@ -98,7 +98,7 @@ A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorl
 <p>8.09</p>
 <p>8.15</p>
 <p>1.23</p></td>
-<td><em>Andrea Ruzzenenti (IT) – Andrea Ruzzenenti (CEO)</em></td>
+<td><em>Andrea Ruzzenenti (CTO) – Andrea Ruzzenenti (CEO)</em></td>
 <td>45</td>
 <td>N.A.</td>
 <td>N.A.</td>
@@ -116,7 +116,7 @@ In quanto l’organizzazione valuta:</p>
 <li><p>I limiti operativi che potrebbero impattare su esigenze organizzative tenuto anche conto della bassa numerosità del personale.</p></li>
 </ul></td>
 <td>5.37, 8.09</td>
-<td><em>Andrea Ruzzenenti (IT) – Andrea Ruzzenenti (CEO)</em></td>
+<td><em>Andrea Ruzzenenti (CTO) – Andrea Ruzzenenti (CEO)</em></td>
 <td>45</td>
 <td>N.A.</td>
 <td>N.A.</td>
