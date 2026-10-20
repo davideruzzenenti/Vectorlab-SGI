@@ -6,13 +6,13 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 00       | 24/04/2026 | Prima emissione | HR          | RSGI          |
-|          |            |                 |             |               |
+| 01       | 20/10/2026 | Corretto l'indirizzo della sede (39/22) | RSGI        | Da approvare  |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
 **COMUNICAZIONE** **RAPPRESENTANTE DELLA SICUREZZA DEI LAVORATORI**
 
-Con la presente Vectorlab S.r.l. con sede in Piazza Borgo Pila 39, 16129
+Con la presente Vectorlab S.r.l. con sede in Piazza Borgo Pila 39/22, 16129
 Genova, P.IVA e C.F. 02830460990, nella persona del suo legale
 rappresentante pro tempore Andrea Ruzzenenti,
 

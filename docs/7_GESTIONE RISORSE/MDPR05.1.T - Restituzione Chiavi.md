@@ -16,7 +16,7 @@ via\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 in qualità di
 
 restituisce a VECTORLAB S.r.l. le chiavi per l’accesso all’ufficio di
-P.zza Borgo Pila 39, Genova, composto da:
+P.zza Borgo Pila 39/22, piano 8, 16129 Genova, composto da:
 
 > n° 3 chiavi della porta d’ingresso
 

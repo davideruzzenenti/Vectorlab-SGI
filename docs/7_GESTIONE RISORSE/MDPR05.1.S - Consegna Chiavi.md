@@ -21,7 +21,7 @@ ore\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 in relazione a motivi di servizio riceve da VECTORLAB S.r.l. **n. 1**
-accesso all’ufficio di P.zza Borgo Pila 39, Genova, composto da:
+accesso all’ufficio di P.zza Borgo Pila 39/22, piano 8, 16129 Genova, composto da:
 
 > n° 3 chiavi della porta d’ingresso
 

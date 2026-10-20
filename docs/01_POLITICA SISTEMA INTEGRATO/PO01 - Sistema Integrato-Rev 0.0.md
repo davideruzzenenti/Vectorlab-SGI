@@ -10,7 +10,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarita la corrispondenza tra CDA e Amministratore Unico coerentemente con la forma societaria; arricchita la descrizione aziendale (Sez. 3) | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.2      | 20/10/2026 | Aggiornate le edizioni delle norme di riferimento (Sez. 1.3 e 5); Sez. 6 allineata al campo di applicazione di PO02 e alla domanda di certificazione RINA; aggiunti gli impegni su obiettivi, requisiti applicabili e miglioramento continuo e le modalità di comunicazione della politica (Sez. 5.1, 7); DPO allineato a PO31; corretti i codici degli allegati | RSGI        | Da approvare |
 
 ## 1 Introduzione
 
@@ -50,16 +50,21 @@ ALPO02.B – Analisi Stakeholder
 
 PO02 – Gestione del Contesto
 
+PO03 – Gestione Obiettivi
+
+PO31 – Misure di sicurezza protezione dati personali
+
 DIG - PR35.1 – Digital
 
 BD - PR36.1 – Business Development
 
 INN - PR34.1 – Innovation & Research Projects
 
-> ISO 9001:2015 – Sistemi di Gestione per la Qualità – Requisiti
+> ISO 9001:2026 – Sistemi di Gestione per la Qualità – Requisiti
 
-> ISO/IEC 27001:2022 – Sistemi di gestione per la sicurezza delle
-> informazioni, cybersecurity e protezione della privacy – Requisiti
+> UNI CEI EN ISO/IEC 27001:2024+A1:2024 – Sistemi di gestione per la
+> sicurezza delle informazioni, cybersecurity e protezione della
+> privacy – Requisiti
 
 > RDGP (GDPR) – Regolamento Generale sulla Protezione dei Dati
 
@@ -235,9 +240,9 @@ mappato i processi aziendali sia di core business che di supporto in
 documento “*PO02* *– Gestione del Contesto*”.
 
 L’analisi degli Stakeholder interni ed esterni di Vectorlab è illustrata
-in dettaglio nell’Allegato “*ALPO02.B.1 – Analisi Stakeholder”.*
+in dettaglio nell’Allegato “*ALPO02.B – Analisi Stakeholder”.*
 
-L'organigramma è definito in "*ALPO01.A.1* *– Organigramma*" e riflette
+L'organigramma è definito in "*ALPO01.A* *– Organigramma*" e riflette
 la struttura dei processi definiti nel contesto.
 
 ## 5 Politica per la Qualità, la Sicurezza delle informazioni e la Protezione dei dati personali
@@ -250,8 +255,8 @@ Sicurezza delle Informazioni.
 Vectorlab si impegna ad attuare, implementare, gestire, monitorare,
 revisionare, mantenere e migliorare il sistema di gestione per la
 Sicurezza delle Informazioni, Qualità e Protezione dei dati personali in
-conformità alla norma ISO/IEC 27001:2022, alla norma ISO 9001:2015 e
-Regolamento UE 2016/679.
+conformità alla norma UNI CEI EN ISO/IEC 27001:2024+A1:2024, alla
+norma ISO 9001:2026 e al Regolamento UE 2016/679.
 
 Con l’attuazione della presente politica, Vectorlab garantisce ai propri
 dipendenti e Clienti prodotti sicuri nel rispetto della qualità e della
@@ -294,8 +299,10 @@ applicabile a partire da 25 Maggio 2018, attraverso:
     > a garantire la sicurezza dei dati e derivanti da un processo di
     > analisi del rischio;
 
-  - > designazione di un Responsabile della Protezione dei Dati (Data
-    > Protection Officer)
+  - > la valutazione della necessità di designare un Responsabile della
+    > Protezione dei Dati (DPO): Vectorlab non rientra nei casi di
+    > designazione obbligatoria (art. 37 GDPR) e si avvale di un
+    > Referente Privacy interno, come descritto in PO31;
 
   - > definizione all'interno (e se necessario all’esterno) dell’azienda
     > di ruoli e responsabilità relativi al trattamento dei dati.
@@ -377,6 +384,28 @@ del rischio per i diritti e le libertà delle persone fisiche.
 
 <!-- end list -->
 
+### 5.1 Impegni della Direzione
+
+L’Amministratore Unico, in qualità di Direzione, si impegna a:
+
+  - > soddisfare i requisiti applicabili: quelli dei clienti e dei
+    > contratti, quelli cogenti (leggi e regolamenti, tra cui il GDPR) e
+    > quelli relativi alla sicurezza delle informazioni;
+
+  - > fissare ogni anno obiettivi misurabili per la qualità e la
+    > sicurezza delle informazioni, coerenti con questa politica e con
+    > i risultati dell’analisi dei rischi, secondo PO03 – Gestione
+    > Obiettivi; gli obiettivi sono registrati in MDPO03.A – Lista
+    > Obiettivi e verificati nel Riesame della Direzione (PR12.1);
+
+  - > migliorare in modo continuo l’efficacia del Sistema di Gestione
+    > Integrato, a partire dai risultati degli audit, delle non
+    > conformità (PR13.1), degli indicatori (PR10.1) e del Riesame
+    > della Direzione;
+
+  - > rendere disponibili le risorse necessarie al Sistema di Gestione
+    > Integrato.
+
 ## 6 Ambito di Applicazione
 
 L’obiettivo di Vectorlab è quello di certificare l’azienda in materia di
@@ -385,10 +414,28 @@ possa essere di supporto al business e quindi al raggiungimento degli
 obiettivi strategici. La Direzione ha definito il seguente ambito di
 certificazione:
 
-Sistema di gestione della Sicurezza delle Informazioni e Qualità
+Sistema di Gestione Integrato Qualità e Sicurezza delle Informazioni
 
-***“Progettazione ed sviluppo software e consulenza in particolare in
+***“Progettazione, sviluppo software e consulenza in particolare in
 ambito deep tech”.***
 
-***“Design and development of software applications and consultancy
-primarily in Deep Tech”.***
+***“Design, software development and consultancy primarily in deep
+tech”.***
+
+Sede, aree incluse, interfacce con i fornitori ed esclusioni sono
+descritte in PO02 – Gestione del Contesto, sez. 4.
+
+## 7 Comunicazione e disponibilità della Politica
+
+La presente politica è:
+
+  - > approvata dall’Amministratore Unico e riesaminata secondo il
+    > par. 1.7;
+
+  - > comunicata a tutto il personale e ai collaboratori al momento
+    > dell’inserimento e a ogni nuova revisione, e resa disponibile
+    > nell’archivio documentale del Sistema di Gestione Integrato;
+
+  - > resa disponibile alle parti interessate (clienti, fornitori,
+    > partner) su richiesta e tramite il sito web aziendale, secondo
+    > MDPO07.A – Piano della Comunicazione.

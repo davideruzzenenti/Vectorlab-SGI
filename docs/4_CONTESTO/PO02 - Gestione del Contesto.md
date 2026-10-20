@@ -17,7 +17,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.2      | 20/10/2026 | Sez. 4: campo di applicazione esteso alla Qualità (ISO 9001), allineato al testo della domanda di certificazione RINA, completato con sede, aree, confini e interfacce con terzi ed esclusioni | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -260,15 +260,65 @@ descritta in “*ALPO02.B.1 - Analisi Stakeholder*”.
 
 ## 4 Determinare il campo di applicazione
 
-Il campo di applicazione del Sistema di Gestione è:
+Il campo di applicazione è stato determinato considerando i fattori
+interni ed esterni (sez. 2), i requisiti delle parti interessate
+(sez. 3) e le interfacce e dipendenze con le attività svolte da
+organizzazioni esterne.
 
-**Sistema di gestione della Sicurezza delle Informazioni**
+**Sistema di Gestione Integrato Qualità e Sicurezza delle Informazioni**
 
-*“Progettazione e sviluppo di applicativi software e consulenza in
-particolare in ambito deep tech”*
+Norme di riferimento: ISO 9001:2026 e UNI CEI EN ISO/IEC
+27001:2024+A1:2024.
 
-*“Design and development of software applications and consultancy
-primarily in deep tech”*
+*“Progettazione, sviluppo software e consulenza in particolare in
+ambito deep tech”*
+
+*“Design, software development and consultancy primarily in deep
+tech”*
+
+### 4.1 Sede
+
+Unico sito: Vector Lab S.r.l., Piazza Borgo Pila 39/22, piano 8, 16129
+Genova (GE), sede legale e operativa. Non sono presenti unità locali.
+Il lavoro svolto in modalità agile (ALPR05.1.E, ALPR05.1.F) fa parte
+del campo di applicazione e non costituisce un sito aggiuntivo.
+
+### 4.2 Organizzazione e processi inclusi
+
+Sono incluse tutte le aree e tutto il personale (dipendenti e
+collaboratori) che operano nelle attività del campo di applicazione:
+
+  - > Area Digital;
+
+  - > Area Business Development;
+
+  - > Area Innovation & Research Projects, compresi i progetti di
+    > ricerca svolti con partner esterni;
+
+  - > i processi di supporto descritti nella mappa dei processi
+    > (sez. 5.1).
+
+### 4.3 Confini e interfacce con organizzazioni esterne
+
+Vectorlab non gestisce sale server proprie: l’infrastruttura di
+sviluppo, collaborazione e produzione è erogata da fornitori di servizi
+cloud (tra cui AWS, Aruba, Google Workspace, GitHub). Questi servizi
+rientrano nel campo di applicazione come attività affidate a terzi: la
+sicurezza fisica e infrastrutturale dei data center è in carico ai
+fornitori, mentre la configurazione, gli accessi e i dati restano in
+carico a Vectorlab. I fornitori sono gestiti secondo PO26, PR26.1 e
+PO40.
+
+### 4.4 Esclusioni
+
+  - > ISO 9001: nessun requisito escluso; tutti i requisiti sono
+    > applicabili, compresa la progettazione e lo sviluppo di prodotti
+    > e servizi.
+
+  - > ISO/IEC 27001: tutti i requisiti dei capitoli 4–10 sono
+    > applicabili. L’applicabilità dei controlli dell’Annex A è
+    > dichiarata nella SOA – Dichiarazione di Applicabilità, nella
+    > revisione in vigore.
 
 ## 5 Sistema di Gestione Integrato e relativi processi
 
