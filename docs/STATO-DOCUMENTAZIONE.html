@@ -182,7 +182,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
 
   <div class="kpi-grid">
     <div class="kpi"><div class="n num">164</div><div class="l">Documenti tracciati (161 al 19/10 + 3 procedure dei processi principali citate ma mancanti)</div></div>
-    <div class="kpi good"><div class="n num">14</div><div class="l">Corretti o creati il 20/10, da approvare</div></div>
+    <div class="kpi good"><div class="n num">15</div><div class="l">Corretti o creati il 20/10, da approvare</div></div>
     <div class="kpi good"><div class="n num">34</div><div class="l">Pronti così come sono</div></div>
     <div class="kpi todo"><div class="n num">62</div><div class="l">Template vuoti da popolare</div></div>
     <div class="kpi bad"><div class="n num">49</div><div class="l">Con difetti da correggere</div></div>
@@ -204,8 +204,8 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
         <tr><td>6</td><td>Elenco procedure (MDPR08.1.A) + PR08.1</td><td><span class="chip approve">Da approvare</span></td><td>Elenco generato in automatico dal repo; PR08.1 adeguata a repo privato e approvazione tramite tabella Revisioni. Aperto: PR34.1/35.1/36.1 mancanti; codici duplicati (MDPR10.1.A ×2).</td></tr>
         <tr><td>7</td><td>Elenco leggi e regolamenti (MDPO29.C)</td><td><span class="chip approve">Da approvare</span></td><td>Creato il 20/10: 27 riferimenti con applicabilità, documenti SGI collegati e owner; include AI Act (dopo Digital Omnibus), L. 132/2025, Cyber Resilience Act, NIS2 (non applicabile direttamente). PO29 aggiornata.</td></tr>
         <tr><td>8</td><td>Elenco attività svolte presso terzi (MDPR26.1.B)</td><td><span class="chip approve">Da approvare</span></td><td>Compilato il 20/10 nel registro fornitori qualificati: 21 voci con criticità e impatto. Aperti: AWS sì/no, consulenti tecnici su progetti clienti (8.30), Discord, qualifica e NDA dei fornitori critici.</td></tr>
-        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">In attesa</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage. In attesa delle risposte di Andrei sull'infrastruttura (AWS, Aruba, backup, accessi, rete; domande del 20/10 nel task ClickUp «ISO») e di una planimetria o foto dell'ufficio.</td></tr>
-        <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip todo">Da fare</span></td><td>«Area XXXX» da compilare.</td></tr>
+        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">In attesa</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage. Schema ICT preparato il 20/10 fuori dal repo (contiene dettagli sensibili, il repo è pubblico): da inserire quando il repo sarà privato. Manca la planimetria o foto dell'ufficio.</td></tr>
+        <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip approve">Da approvare</span></td><td>Programma 2026–2028 compilato il 20/10. Audit 2026 completo nella settimana 23–27/11 con auditor esterno: nominativo e data da confermare. Da preparare poi il piano di audit MDPR11.1.B.</td></tr>
         <tr><td>11</td><td>Verbale ultimo riesame</td><td><span class="chip todo">Dopo l'audit</span></td><td>Dopo l'audit interno di fine novembre.</td></tr>
         <tr><td>—</td><td>Visura camerale</td><td><span class="chip todo">In corso</span></td><td>Ultima su Drive del 26/06/2025, CAP vecchio: nuova visura richiesta a Francesco (Backlog Amministrazione).</td></tr>
       </tbody>
@@ -222,9 +222,11 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
       <li>SoA: decidere se togliere la sezione AGID CSP-SAAS (residui di un altro cliente: Nutanix, CMDBuild, «LD 2019»); verificare con Nextage i 29 controlli solo pianificati in ERA.</li>
       <li>Repo ancora pubblico su GitHub: spostarlo sul server aziendale e renderlo privato (i documenti sono già scritti come se lo fosse).</li>
       <li>Codice duplicato: due documenti MDPR10.1.A (Questionario soddisfazione e Tabella indicatori), da rinumerare.</li>
-      <li>In attesa di Andrei: dove gira il server Vectorlab (probabilmente AWS) e cosa c'è su AWS e Aruba, account e MFA, dati, backup, accessi, rete, patch e log. Servono per lo schema ICT e per completare MDPR26.1.B, PR21.1, PR16.1, PR24.1.</li>
+      <li>Infrastruttura: ricevute il 20/10 le risposte dell'IT esterno (server dedicato Aruba, nessun servizio AWS secondo l'IT; conferma attesa dall'Amministrazione). Le azioni tecniche prioritarie prima dell'audit interno sono tracciate nel task ClickUp «ISO» (non nel repo, finché è pubblico).</li>
+      <li>Repo pubblico: non inserire nel repository dettagli dell'infrastruttura (indirizzi, servizi esposti, debolezze) finché non è privato; lo schema ICT è tenuto fuori dal repo.</li>
       <li>Fornitori: chiarire se i consulenti tecnici esterni lavorano su progetti dei clienti (SoA 8.30 esclusa); completare qualifica, NDA e nomine dei fornitori critici (MDPR26.1.B).</li>
       <li>Discord è in uso come messaggistica (asset A0017) ma non è accettato dal SGI: decidere sostituzione o limitazione.</li>
+      <li>Audit interno 2026: incaricare l'auditor esterno (consigliato un auditor Nextage non coinvolto nella redazione) e fissare la data nella settimana 23–27/11; Riesame della Direzione entro la prima settimana di dicembre.</li>
       <li>Approvazione unica di Andrea a fine stage 1 (documenti «Da approvare» + soglia rischio 45).</li>
     </ul>
   </section>
@@ -390,7 +392,7 @@ const DATA = [
 ["9.1_MONITORAGGIO KPI","MDPR10.1.A - Tabella Indicatori","MD","good","0.0","~50 KPI reali definiti; colonne operative (valore, soglia, responsabile) mai popolate.","umano","Per ciascuno dei ~50 KPI già definiti, qual è il valore attuale, la soglia e il responsabile?"],
 ["9.1_MONITORAGGIO KPI","MDPR10.1.B - Analisi Soddisfazione Cliente","MD","todo","0.0","Nessun cliente/valutazione mai inserito.","umano","Ci sono valutazioni clienti reali già raccolte da registrare in questo modulo?"],
 ["9.2_AUDIT INTERNO","PR11.1 - Audit Interno","PR","good","0.2","Auditor esterno reso obbligatorio (rev 0.1); aggiunta l'introduzione, rimasta vuota dalla prima emissione (rev 0.2).","ok",""],
-["9.2_AUDIT INTERNO","MDPR11.1.A - Programma Audit","MD","bad","0.0","Placeholder \"Area XXXX\" ripetuto 8 volte; nessuna data/criterio mai inserito.","misto","Vuoi che proponga una mappatura area/controllo usando il Mansionario esistente, da confermare poi con te?"],
+["9.2_AUDIT INTERNO", "MDPR11.1.A - Programma Audit", "MD", "approve", "0.1", "20/10/2026: programma triennale 2026–2028 compilato: audit 2026 completo (4–10 e tutto l'Annex A) nella settimana 23–27/11, auditor esterno qualificato, 2 giorni/uomo, aree reali al posto di «Area XXXX», temi a rischio alto ogni anno.", "umano", "Chi è l'auditor esterno 2026 (consigliato un auditor Nextage non coinvolto nella redazione) e la data esatta?"],
 ["9.2_AUDIT INTERNO","MDPR11.1.B - Piano di Audit e Report","MD","todo","0.0","Mappatura ISO 9001/27001 pronta ma mai usata.","umano","È già stato svolto un primo audit interno da registrare in questo piano?"],
 ["9.2_AUDIT INTERNO","MDPR11.1.C - Piano di Audit Tecnici","MD","todo","0.0","Attività reali definite, griglia/stato mai compilati.","umano","Sono già stati eseguiti i test tecnici pianificati, da registrare in questo documento?"],
 ["9.2_AUDIT INTERNO","MDPR11.1.D - Checklist Audit 27001","MD","boiler","0.0","Intero documento in inglese, mai tradotto/adattato a Vectorlab.","misto","Vuoi che traduca e adatti a Vectorlab una prima bozza di questa checklist (oggi è interamente in inglese)?"],

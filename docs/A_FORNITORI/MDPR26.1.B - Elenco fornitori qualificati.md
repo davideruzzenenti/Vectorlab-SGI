@@ -5,7 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione (modello vuoto) | RSGI | Amministratore Unico |
-| 0.1      | 20/10/2026 | Prima compilazione: fornitori che svolgono attività e processi per conto di Vectorlab nel campo di applicazione del SGI (elenco delle attività svolte presso terzi), ricavati dall'anagrafica fornitori amministrativa e dall'inventario degli asset. Stato di qualifica e accordi da verificare | RSGI | Da approvare |
+| 0.1      | 20/10/2026 | Prima compilazione: fornitori che svolgono attività e processi per conto di Vectorlab nel campo di applicazione del SGI (elenco delle attività svolte presso terzi), ricavati dall'anagrafica fornitori amministrativa e dall'inventario degli asset. Stato di qualifica e accordi da verificare; voce Aruba aggiornata con le informazioni dell'IT esterno (server dedicato) | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -15,6 +15,11 @@ Gestione Integrato (attività svolte presso terzi), con la loro
 classificazione di criticità secondo PR26.1. Risponde anche alla
 richiesta dell'ente di certificazione di un «elenco delle attività
 svolte presso terzi».
+
+I servizi applicativi (es. la piattaforma di automazione n8n, asset A0022)
+sono installati e gestiti da Vectorlab sul server dedicato Aruba: la
+gestione applicativa è interna, l'infrastruttura fisica e il data center
+sono del fornitore (voce 1).
 
 Non sono elencati i fornitori senza impatto sul SGI (ristorazione,
 viaggi, cancelleria, acquisti occasionali di attrezzature).
@@ -36,7 +41,7 @@ sulle condizioni contrattuali standard (DPA), secondo PO40.
 
 | # | Fornitore | Attività svolta per Vectorlab | Critico 9001 | Critico 27001 | Impatto | Dati personali (art. 28 GDPR) | Qualifica | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Aruba S.p.A. | Infrastruttura cloud: server virtuali, sito web, web server e FTP, LLM in hosting (asset A0011, A0018, A0020, A0023–A0025) | SI | SI | A | SI | DV | Asset A0011 a criticità 5 |
+| 1 | Aruba S.p.A. | Server dedicato (bare-metal) in data center Aruba, gestito da Vectorlab: siti web aziendali e Ynsera, API e servizi interni, n8n, gestione credenziali, ambienti di sviluppo e demo per i clienti, game server (asset A0011, A0018, A0020, A0022–A0025) | SI | SI | A | SI | DV | Fornitore più critico: tutta l'infrastruttura applicativa è su questo server |
 | 2 | Google (Google Workspace / Google Cloud Italy S.r.l.) | Posta elettronica, archiviazione documentale, collaborazione (A0016; dati amministrativi, contratti, personale) | SI | SI | A | SI | DV | DPA standard Google |
 | 3 | GitHub, Inc. | Repository del codice sorgente, anche di proprietà dei clienti (A0039) | SI | SI | A | SI | DV | Asset A0039 a criticità 5; trasferimento USA (Data Privacy Framework) |
 | 4 | Mango Technologies, Inc. (ClickUp) | Gestione progetti, ticketing, CRM, promemoria (A0014, A0015) | SI | SI | A | SI | DV | Trasferimento USA |

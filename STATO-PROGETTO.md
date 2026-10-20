@@ -140,7 +140,11 @@ Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 
 
 8. Attività svolte presso terzi: compilato `MDPR26.1.B - Elenco fornitori qualificati` (21 voci dai fornitori del foglio «Elenco Fornitori» del Resoconto Finanziario 2026 e dall'inventario asset), che PR26.1 rev 0.1 indica anche come elenco delle attività presso terzi. Cyber Resilience Act dichiarato non applicabile in MDPO29.C: Vectorlab fa solo consulenza e sviluppo software B2B, non vende prodotti software (Davide, 20/10/2026).
 
+10. Pianificazione audit interni: `MDPR11.1.A` rev 0.1, programma triennale 2026–2028; audit 2026 completo nella settimana 23–27/11 con auditor esterno (da incaricare), Riesame della Direzione entro la prima settimana di dicembre.
+
 **In attesa (20/10/2026)**: risposte di Andrei sull'infrastruttura (il server Vectorlab con n8n gira probabilmente su AWS; AWS non compare nell'anagrafica fornitori). Domande nel task ClickUp «ISO». Bloccano il documento 9 (schema ICT) e il completamento di MDPR26.1.B, PR21.1, PR16.1, PR24.1. Serve anche una planimetria o foto dell'ufficio per ALPR18.1.A.
+
+**Infrastruttura (20/10/2026, pomeriggio)**: l'IT esterno indica un unico server dedicato Aruba (nessun AWS; conferma attesa da Francesco/Amministrazione prima di correggere i documenti che citano AWS). Le debolezze tecniche emerse e le azioni prioritarie prima dell'audit interno sono nel task ClickUp «ISO», volutamente non nel repo finché è pubblico. Lo schema ICT è tenuto fuori dal repo per lo stesso motivo.
 
 **Emerso**: PR34.1/PR35.1/PR36.1 (procedure dei processi principali) citate ma inesistenti; piano di trattamento 2026 con tutti i rischi accettati senza azioni (da discutere con Nextage); nel modulo RINA il civico del sito è «39/2» invece di 39/22.
 
