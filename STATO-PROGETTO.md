@@ -150,6 +150,14 @@ Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 
 
 **Attenzione ai nomi file**: nel terminale Windows le lettere accentate appaiono come «├á»: è solo visualizzazione (`git config core.quotepath false`, `chcp 65001`), i file non vanno rinominati.
 
+## Procedure dei processi principali (21/10/2026)
+
+Metodo: skill `procedura-processo-sgi`, intervista una domanda alla volta (preferenza di Davide).
+
+**PR35.1 Digital** (rev 0.0, da approvare), in `docs/8.2_PRODOTTI & SERVIZI/`. Modello reale: Vectorlab vende un team qualificato inserito nel progetto del cliente, a giornata, dopo uno studio; il team usa strumenti e processo del cliente. Decisioni: offerta firmata = riesame requisiti; task Prospect = scheda commessa (commento di avvio e di chiusura, nuovo stato «finito» da creare); PM = responsabile di commessa; capacity planner per l'allocazione (niente tracciamento ore); regole su dati e codice del cliente: prima NDA e clausole del cliente, poi solo strumenti aziendali approvati; form di fine commessa (da far realizzare ad Andrei). In sospeso: strumenti di IA autorizzati (Claude su piano individuale usato da Davide e Francesco; GitHub Copilot «Copilot Max» su account personale `vectorlab-developer` condiviso dai programmatori). Da riallineare: PO25, che descrive ambienti di quality, team di test e PC Ubuntu non esistenti.
+
+Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/22, CAP 16129, piano 8.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
@@ -173,3 +181,4 @@ Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 
 - [ ] Correggere `REG01` (citato con 5 codici diversi e tutti inesistenti nell'Elenco, da uniformare)
 - [ ] Verificare se ci sono davvero residui di un altro cliente del consulente (date sospette, "NOME AZIENDA" al posto di Vectorlab)
 - [ ] Fase 2 (idea originale del CTO, non ancora iniziata): usare un LLM di grosse dimensioni per scandagliare il corpus consolidato e individuare incongruenze tra documenti — ora fattibile perché tutto è in un unico formato strutturato e ragionevolmente pulito
+- [ ] Documenti grafici (21/10/2026): convertire in .md con diagrammi Mermaid ALPO01.A Organigramma, ALPO02.A Contesto e processi, ALPR24.1.A/B Schemi (quando il repo sarà privato), MDPR12.1.A Riesame; piantina ALPR18.1.A come immagine; abilitare Mermaid in `mkdocs.yml`; convertire l'immagine .emf di PR33.1; togliere le 7 immagini inutilizzate di PR08.1; decidere che per i moduli con doppia versione xlsx/md vale il .md

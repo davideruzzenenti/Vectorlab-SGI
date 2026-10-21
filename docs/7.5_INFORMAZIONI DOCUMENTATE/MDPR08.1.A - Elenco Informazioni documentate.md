@@ -1,10 +1,10 @@
 # MDPR08.1.A - Elenco Informazioni documentate
 
-Elenco generato automaticamente dal repository del Sistema di Gestione Integrato (script `tools/genera_elenco.py`, PR08.1 §2.9). Ultima generazione: 20/10/2026.
+Elenco generato automaticamente dal repository del Sistema di Gestione Integrato (script `tools/genera_elenco.py`, PR08.1 §2.9). Ultima generazione: 21/10/2026.
 
 Per ogni documento sono riportati i dati dell'ultima riga della tabella «Revisioni». «Da approvare» indica una revisione non ancora approvata dalla Direzione; «n.d.» indica un documento senza tabella «Revisioni» (allegato o modulo). Lo storico completo di ogni documento è nella cronologia del repository.
 
-## Documenti del Sistema di Gestione (166)
+## Documenti del Sistema di Gestione (167)
 
 <table>
 <tr><th>Tipo</th><th>Codice</th><th>Titolo</th><th>Rev.</th><th>Data rev.</th><th>Redatto</th><th>Approvato</th><th>Formato</th><th>Cartella</th></tr>
@@ -61,6 +61,7 @@ Per ogni documento sono riportati i dati dell'ultima riga della tabella «Revisi
 <tr><td>Regolamento</td><td><a href="../7_GESTIONE RISORSE/REG01 - Regolamento sull’utilizzo degli strumenti aziendali/">REG01</a></td><td>Regolamento sull’utilizzo degli strumenti aziendali</td><td>0.0</td><td>24/04/2026</td><td>CISO</td><td>CEO</td><td>md</td><td>7_GESTIONE RISORSE</td></tr>
 <tr><td>Regolamento</td><td><a href="../7_GESTIONE RISORSE/REG02 - Regolamento comportamentale del personale/">REG02</a></td><td>Regolamento comportamentale del personale</td><td>0.1</td><td>09/07/2026</td><td>HR</td><td>Amministratore Unico</td><td>md</td><td>7_GESTIONE RISORSE</td></tr>
 <tr><td>Procedura</td><td><a href="../8.2_PRODOTTI &amp; SERVIZI/PR09.1 - Gestione Commerciale/">PR09.1</a></td><td>Gestione Commerciale</td><td>0.0</td><td>24/04/2026</td><td>RSGI</td><td>CDA</td><td>md</td><td>8.2_PRODOTTI &amp; SERVIZI</td></tr>
+<tr><td>Procedura</td><td><a href="../8.2_PRODOTTI &amp; SERVIZI/PR35.1 - Digital/">PR35.1</a></td><td>Digital</td><td>0.0</td><td>21/10/2026</td><td>RSGI</td><td>Da approvare</td><td>md</td><td>8.2_PRODOTTI &amp; SERVIZI</td></tr>
 <tr><td>Modulo</td><td><a href="../9.1_MONITORAGGIO KPI/MDPR10.1.A - Questionario Soddisfazione Cliente/">MDPR10.1.A</a></td><td>Questionario Soddisfazione Cliente</td><td>n.d.</td><td></td><td></td><td></td><td>md</td><td>9.1_MONITORAGGIO KPI</td></tr>
 <tr><td>Modulo</td><td><a href="../9.1_MONITORAGGIO KPI/MDPR10.1.A - Tabella Indicatori/">MDPR10.1.A</a></td><td>Tabella Indicatori</td><td>0.0</td><td>24/04/2026</td><td>RSGI</td><td>Amministratore Unico</td><td>md, xlsx</td><td>9.1_MONITORAGGIO KPI</td></tr>
 <tr><td>Modulo</td><td><a href="../9.1_MONITORAGGIO KPI/MDPR10.1.B  - Analisi Soddisfazione Cliente/">MDPR10.1.B</a></td><td>Analisi Soddisfazione Cliente</td><td>0.0</td><td>24/04/2026</td><td>RSGI</td><td>Amministratore Unico</td><td>md, xlsx</td><td>9.1_MONITORAGGIO KPI</td></tr>

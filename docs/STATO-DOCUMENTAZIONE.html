@@ -182,12 +182,12 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
 
   <div class="kpi-grid">
     <div class="kpi"><div class="n num">164</div><div class="l">Documenti tracciati (161 al 19/10 + 3 procedure dei processi principali citate ma mancanti)</div></div>
-    <div class="kpi good"><div class="n num">15</div><div class="l">Corretti o creati il 20/10, da approvare</div></div>
+    <div class="kpi good"><div class="n num">16</div><div class="l">Corretti o creati il 20/10, da approvare</div></div>
     <div class="kpi good"><div class="n num">34</div><div class="l">Pronti così come sono</div></div>
     <div class="kpi todo"><div class="n num">62</div><div class="l">Template vuoti da popolare</div></div>
     <div class="kpi bad"><div class="n num">49</div><div class="l">Con difetti da correggere</div></div>
     <div class="kpi" style="background:var(--actor-ia-soft)"><div class="n num" style="color:var(--actor-ia)">4</div><div class="l">Bozze IA senza corrispettivo su Drive</div></div>
-    <div class="kpi missing"><div class="n num">5</div><div class="l">Mancanti (PR34.1/35.1/36.1, REG03 da decidere, MDPO25.F da copiare da Drive)</div></div>
+    <div class="kpi missing"><div class="n num">4</div><div class="l">Mancanti (PR34.1/36.1, REG03 da decidere, MDPO25.F da copiare da Drive)</div></div>
   </div>
 
   <section>
@@ -207,7 +207,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
         <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">In attesa</span></td><td>ALPR18.1.A, ALPR24.1.A/B sono solo esempi Nextage. Schema ICT preparato il 20/10 fuori dal repo (contiene dettagli sensibili, il repo è pubblico): da inserire quando il repo sarà privato. Manca la planimetria o foto dell'ufficio.</td></tr>
         <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip approve">Da approvare</span></td><td>Programma 2026–2028 compilato il 20/10. Audit 2026 completo nella settimana 23–27/11 con auditor esterno: nominativo e data da confermare. Da preparare poi il piano di audit MDPR11.1.B.</td></tr>
         <tr><td>11</td><td>Verbale ultimo riesame</td><td><span class="chip todo">Dopo l'audit</span></td><td>Dopo l'audit interno di fine novembre.</td></tr>
-        <tr><td>—</td><td>Visura camerale</td><td><span class="chip todo">In corso</span></td><td>Ultima su Drive del 26/06/2025, CAP vecchio: nuova visura richiesta a Francesco (Backlog Amministrazione).</td></tr>
+        <tr><td>—</td><td>Visura camerale</td><td><span class="chip good">Fatto</span></td><td>Visura aggiornata estratta il 09/09/2026 (Drive): sede Piazza Borgo Pila 39/22, CAP 16129, piano 8. Resta da comunicare a RINA il civico corretto del sito.</td></tr>
       </tbody>
     </table>
     <h3 style="margin-top:1.4rem">Cose aperte (anche nel task ClickUp «ISO» di Davide)</h3>
@@ -227,6 +227,8 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
       <li>Fornitori: chiarire se i consulenti tecnici esterni lavorano su progetti dei clienti (SoA 8.30 esclusa); completare qualifica, NDA e nomine dei fornitori critici (MDPR26.1.B).</li>
       <li>Discord è in uso come messaggistica (asset A0017) ma non è accettato dal SGI: decidere sostituzione o limitazione.</li>
       <li>Audit interno 2026: incaricare l'auditor esterno (consigliato un auditor Nextage non coinvolto nella redazione) e fissare la data nella settimana 23–27/11; Riesame della Direzione entro la prima settimana di dicembre.</li>
+      <li>PR35.1 Digital: creare lo stato «finito» nella lista Prospect; definire gli strumenti di IA autorizzati (Claude piano individuale; Copilot «Copilot Max» su account GitHub personale condiviso dai programmatori); form di fine commessa (Andrei); riallineare PO25 alla realtà.</li>
+      <li>Documenti grafici non visibili sul sito (solo pptx/drawio da scaricare): ALPO01.A Organigramma, ALPO02.A Contesto e processi, ALPR18.1.A Piantina, ALPR24.1.A/B Schemi, MDPR12.1.A Riesame. Da convertire in .md con diagrammi Mermaid (abilitare Mermaid in mkdocs.yml); piantina come immagine PNG/SVG. Inoltre: immagine .emf in PR33.1 non visualizzabile (convertire in PNG/SVG), 7 immagini inutilizzate in PR08.1, circa 40 moduli con doppia versione xlsx/md (decidere che vale il .md e l'Excel resta archivio).</li>
       <li>Approvazione unica di Andrea a fine stage 1 (documenti «Da approvare» + soglia rischio 45).</li>
     </ul>
   </section>
@@ -495,7 +497,8 @@ DATA.push(
 ["A_CONFORMITA_", "MDPO29.C - Elenco leggi, regolamenti e norme applicabili", "MD", "approve", "0.0", "20/10/2026: nuovo registro dei requisiti cogenti e volontari (sostituisce il foglio «Compliance» dell'Excel MDPR08.1.A). Cyber Resilience Act non applicabile (nessun prodotto software proprio sul mercato, solo consulenza B2B). Da valutare: accessibilità, Data Act.", "ok", ""],
 ["01_POLITICA SISTEMA INTEGRATO", "ALPO01.A - Organigramma", "AL", "approve", "0.1", "20/10/2026: Amministratore Unico al posto del CdA; IT segnato come esterno (Andrei Apostu, libero professionista); Francesco Cappetti Referente Privacy; RLS Marco Ottone Casagrande. 10 persone interne + 1 esterno, coerente con la domanda RINA.", "ok", ""],
 ["7_GESTIONE RISORSE", "MDPR05.1.S/T - Consegna / Restituzione chiavi", "MD", "todo", "0.0", "20/10/2026: indirizzo completo della sede (39/22, piano 8, 16129). Modulo mai usato.", "umano", "Sono già state consegnate chiavi da registrare?"],
-["8.2_PRODOTTI & SERVIZI", "PR34.1 / PR35.1 / PR36.1 - Procedure Innovation & Research, Digital, Business Development", "PR", "missing", "—", "Citate in PO01, PO02 e PO25 come procedure dei processi principali, ma non esistono né nel repo né su Drive né nell'elenco documenti MDPR08.1.A. Per la 9001 descrivono come si progetta e si consegna il software.", "misto", "Le scrivo in bozza (una procedura snella per area) partendo da PO25, PR09.1 e dal modo reale in cui lavorate?"]
+["8.2_PRODOTTI & SERVIZI", "PR34.1 / PR36.1 - Procedure Innovation & Research, Business Development", "PR", "missing", "—", "Citate in PO01 e PO02 ma non ancora scritte. PR35.1 Digital scritta il 21/10/2026.", "misto", "Da scrivere con la skill procedura-processo-sgi (intervista una domanda alla volta)."],
+["8.2_PRODOTTI & SERVIZI", "PR35.1 - Digital", "PR", "approve", "0.0", "21/10/2026: nuova procedura dalle risposte di Davide: offerta firmata = riesame requisiti; task Prospect = scheda commessa con commenti di avvio e chiusura e nuovo stato «finito»; team nel processo e negli strumenti del cliente; capacity planner per l'allocazione; regole su dati, codice e IA; form di fine commessa. Aperti: elenco strumenti di IA autorizzati (Claude piano individuale, Copilot su account condiviso), stato «finito» da creare in ClickUp, PO25 da riallineare (descrive ambienti e team di test che non esistono).", "umano", "Quali strumenti di IA sono autorizzati (piano Claude, account Copilot condiviso «vectorlab-developer»)?"],
 );
 
 const PRIORITIES = [
