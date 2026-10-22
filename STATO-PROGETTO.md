@@ -167,6 +167,15 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **MDPO29.C** (rev 0.1): Cyber Resilience Act da valutare per i prodotti Vectorlab, fuori dal campo ISO.
 - Aperti: condizioni generali nel modello di preventivo Ynsera (revisione legale); contratti Ynsera come appalto di servizi; comunicazione a Nextage.
 
+## Obiettivi, rischi, personale (22/10/2026, pomeriggio)
+
+- **MDPO03.A Lista Obiettivi** (rev 0.1): 6 obiettivi 2026–2027 approvati da Davide (certificazione, accessi sicuri, backup, soddisfazione clienti, formazione, processo commerciale).
+- **MDPR33.1.B** (rev 0.2): owner di immagine e reputazione = Amministratore Unico; «1.23» → 5.23. Rischio Copilot da inserire in ERA con Nextage.
+- **PR05.1** (rev 0.3): gestione della casella email dell'uscente secondo il Garante (04/12/2019).
+- **PR13.1** (rev 0.1): registro delle non conformità = lista ClickUp «Non conformità e miglioramento» (creata il 22/10, cartella SGI); stati e campi da configurare a mano.
+- **PR11.1** (rev 0.3) e **PR12.1** (rev 0.2): allineate al registro NC in ClickUp, ai codici corretti dei documenti sui rischi e degli obiettivi, al campo di applicazione.
+- Utenze: 10 account Google Workspace, nessuno con verifica in due passaggi; 4 interni in ClickUp con Gmail personale (task di correzione creato in ClickUp, scadenza 30/10).
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.

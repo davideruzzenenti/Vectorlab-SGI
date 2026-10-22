@@ -11,6 +11,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 29/09/2026 | Prima emissione: piano di trattamento dei rischi 2026 | CISO        | Da approvare (Amministratore Unico) |
 | 0.1      | 20/10/2026 | Corretta la data di emissione (riportava quella del modello); campo di applicazione allineato a PO02; ruolo «IT» dell'owner corretto in «CTO» (la funzione IT è esterna) | RSGI        | Da approvare  |
+| 0.2      | 22/10/2026 | Owner dei rischi su immagine (A0048) e reputazione (A0049): l'Amministratore Unico al posto di «BD»; controllo «1.23» corretto in 5.23 (inesistente nell'Annex A) | RSGI        | Da approvare  |
 |          |            |                 |             |               |
 
 ### Indice 
@@ -97,7 +98,7 @@ A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorl
 <p>8.03</p>
 <p>8.09</p>
 <p>8.15</p>
-<p>1.23</p></td>
+<p>5.23</p></td>
 <td><em>Andrea Ruzzenenti (CTO) – Andrea Ruzzenenti (CEO)</em></td>
 <td>45</td>
 <td>N.A.</td>
@@ -134,7 +135,7 @@ In quanto l’organizzazione valuta:</p>
 <li><p>I limiti operativi che potrebbero impattare su esigenze organizzative tenuto anche conto della bassa numerosità del personale.</p></li>
 </ul></td>
 <td>5.37, 8.09</td>
-<td>Andrea Ruzzenenti (BD) – Andrea Ruzzenenti (CEO)</td>
+<td>Andrea Ruzzenenti (Amministratore Unico)</td>
 <td>45</td>
 <td>N.A.</td>
 <td>N.A.</td>
@@ -152,7 +153,7 @@ In quanto l’organizzazione valuta:</p>
 <li><p>I limiti operativi che potrebbero impattare su esigenze organizzative tenuto anche conto della bassa numerosità del personale.</p></li>
 </ul></td>
 <td>5.37, 8.09</td>
-<td>Andrea Ruzzenenti (BD) – Andrea Ruzzenenti (CEO)</td>
+<td>Andrea Ruzzenenti (Amministratore Unico)</td>
 <td>45</td>
 <td>N.A.</td>
 <td>N.A.</td>
@@ -162,7 +163,7 @@ In quanto l’organizzazione valuta:</p>
 <td colspan="8"><strong>Considerazioni</strong></td>
 </tr>
 <tr class="even">
-<td colspan="8">Data ultimo aggiornamento 29/09/2026</td>
+<td colspan="8">Data ultimo aggiornamento 22/10/2026</td>
 </tr>
 </tbody>
 </table>
