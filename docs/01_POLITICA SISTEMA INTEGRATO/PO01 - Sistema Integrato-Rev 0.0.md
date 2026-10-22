@@ -11,6 +11,7 @@
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarita la corrispondenza tra CDA e Amministratore Unico coerentemente con la forma societaria; arricchita la descrizione aziendale (Sez. 3) | RSGI        | Amministratore Unico |
 | 0.2      | 20/10/2026 | Aggiornate le edizioni delle norme di riferimento (Sez. 1.3 e 5); Sez. 6 allineata al campo di applicazione di PO02 e alla domanda di certificazione RINA; aggiunti gli impegni su obiettivi, requisiti applicabili e miglioramento continuo e le modalità di comunicazione della politica (Sez. 5.1, 7); DPO allineato a PO31; corretti i codici degli allegati | RSGI        | Da approvare |
+| 0.3      | 22/10/2026 | Campo di applicazione limitato al servizio della business unit Ynsera; escluse dal campo la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca (Sez. 3.3, 6); procedura commerciale PR09.1 al posto di PR36.1, mai emessa; tolto il riferimento a PR34.1; indicata la ISO 9001:2015 come norma di certificazione RINA (Sez. 1.3, 5) | RSGI        | Da approvare |
 
 ## 1 Introduzione
 
@@ -56,11 +57,13 @@ PO31 – Misure di sicurezza protezione dati personali
 
 DIG - PR35.1 – Digital
 
-BD - PR36.1 – Business Development
-
-INN - PR34.1 – Innovation & Research Projects
+BD - PR09.1 – Gestione Commerciale
 
 > ISO 9001:2026 – Sistemi di Gestione per la Qualità – Requisiti
+
+> ISO 9001:2015 – Sistemi di Gestione per la Qualità – Requisiti
+> (norma di certificazione, offerta RINA 2026/CITGE/749; transizione
+> alla 2026 alla prima ricertificazione)
 
 > UNI CEI EN ISO/IEC 27001:2024+A1:2024 – Sistemi di gestione per la
 > sicurezza delle informazioni, cybersecurity e protezione della
@@ -215,8 +218,8 @@ commerciali, nella gestione delle commesse e nel coordinamento delle
 attività orientate alla crescita e al consolidamento del business.
 
 Le attività e i servizi erogati da questa area di business sono
-dettagliatamente descritti nella procedura “*PR36.1 – Business
-Development”.*
+dettagliatamente descritti nella procedura “*PR09.1 – Gestione
+Commerciale”.*
 
 ### 3.3 Area Innovation & Research Projects
 
@@ -228,9 +231,9 @@ L’area si occupa dell’analisi di nuove tecnologie, dello sviluppo di
 prototipi e della realizzazione di progetti innovativi nell’ambito
 software, automazione, intelligenza artificiale e tecnologie immersive.
 
-Le attività e i servizi erogati da questa area di business sono
-dettagliatamente descritti nella procedura “*PR34.1 – Innovation &
-Research Projects*”.
+Le attività di quest'area (progetti di ricerca, anche finanziati da
+bandi) sono escluse dal campo di applicazione del Sistema di Gestione
+Integrato (PO02, sez. 4.4).
 
 ## 4 Contesto
 
@@ -256,7 +259,8 @@ Vectorlab si impegna ad attuare, implementare, gestire, monitorare,
 revisionare, mantenere e migliorare il sistema di gestione per la
 Sicurezza delle Informazioni, Qualità e Protezione dei dati personali in
 conformità alla norma UNI CEI EN ISO/IEC 27001:2024+A1:2024, alla
-norma ISO 9001:2026 e al Regolamento UE 2016/679.
+norma ISO 9001:2026 (certificazione sulla ISO 9001:2015, i cui
+requisiti sono coperti) e al Regolamento UE 2016/679.
 
 Con l’attuazione della presente politica, Vectorlab garantisce ai propri
 dipendenti e Clienti prodotti sicuri nel rispetto della qualità e della
@@ -421,6 +425,12 @@ ambito deep tech”.***
 
 ***“Design, software development and consultancy primarily in deep
 tech”.***
+
+Il campo di applicazione riguarda il servizio erogato tramite la
+business unit Ynsera: team di sviluppo e consulenza software di
+Vectorlab inseriti nei progetti dei clienti. Sono escluse la vendita di
+prodotti della unit Vectorlab, la partecipazione a bandi e i progetti di
+ricerca.
 
 Sede, aree incluse, interfacce con i fornitori ed esclusioni sono
 descritte in PO02 – Gestione del Contesto, sez. 4.

@@ -6,6 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione (modello) | RSGI | Direzione |
 | 0.1      | 20/10/2026 | Programma triennale 2026–2028 compilato: aree reali di Vectorlab al posto di «Area XXXX», auditor, date, criteri e metodo; rimossi i riferimenti a UNI/PdR 125 (non adottata) e al DPO (non nominato, sostituito dal Referente Privacy) | RSGI | Da approvare |
+| 0.2      | 22/10/2026 | Tolta l'area «Progetti di ricerca e innovazione», esclusa dal campo di applicazione; criteri: ISO 9001:2015 come norma di certificazione | RSGI | Da approvare |
 
 ## 1 Impostazione del programma
 
@@ -13,7 +14,7 @@
 | --- | --- |
 | Periodo | Triennio 2026–2028 (un audit interno all'anno, più audit straordinari se necessari: PR11.1 §2.5) |
 | Tipo di audit | Audit interno di prima parte sul Sistema di Gestione Integrato (ISO 9001 + ISO/IEC 27001) |
-| Criteri | ISO 9001:2026; UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di MDPO29.C; requisiti contrattuali dei clienti |
+| Criteri | ISO 9001:2015 (norma di certificazione) e ISO 9001:2026 (su cui è impostato il sistema); UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di MDPO29.C; requisiti contrattuali dei clienti |
 | Metodo | Interviste, esame di documenti e registrazioni, verifica a campione delle evidenze negli strumenti (repository, ClickUp, Google Workspace, console dei servizi cloud); checklist MDPR11.1.D (27001) e MDPR11.1.L (9001). In presenza in sede, con parti da remoto se concordato |
 | Auditor | Auditor esterno qualificato secondo PR11.1 §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: [DA CONFERMARE: nominativo; consigliato un auditor Nextage non coinvolto nella redazione della documentazione] |
 | Siti | Unico sito: Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo di applicazione (PO02 §4) |
@@ -45,7 +46,6 @@ distribuiti tra 2027 e 2028.
 | Pianificazione e controllo operativo, valutazione e trattamento dei rischi di sicurezza | 8.1–8.3 (27001) | SGSI | RSGI, CISO | ✔ | ✔ | ✔ |
 | Gestione del cliente e offerte | 8.2 (9001) | SGQ | Business Development | ✔ | ✔ | ✔ |
 | Progettazione e sviluppo del software | 8.3 (9001); A.5.8, A.8.25–A.8.29, A.8.31, A.8.33 | SGI | Digital | ✔ | Ogni anno | Ogni anno |
-| Progetti di ricerca e innovazione | 8.3, 8.5 (9001); A.5.8 | SGI | Innovation & Research Projects | ✔ | ✔ | ✔ |
 | Erogazione, rilascio, non conformità del prodotto | 8.5–8.7 (9001) | SGQ | Digital | ✔ | ✔ | ✔ |
 | Fornitori e servizi cloud | 8.4 (9001); A.5.19–A.5.23, A.6.6 | SGI | Amministrazione, CTO | ✔ | Ogni anno | Ogni anno |
 | Monitoraggio, misurazione, audit, riesame | 9; A.5.35, A.5.36, A.8.34 | SGI | RSGI, Direzione | ✔ | ✔ | ✔ |

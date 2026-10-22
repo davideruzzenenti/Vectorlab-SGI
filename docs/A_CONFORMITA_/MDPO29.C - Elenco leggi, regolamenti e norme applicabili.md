@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 20/10/2026 | Prima emissione: sostituisce il foglio «Compliance» del vecchio elenco Excel MDPR08.1.A (riferimenti superati: ISO/IEC 27001:2013, ISO 9001:2015, ISO/IEC 27002:2017); aggiunte le norme su intelligenza artificiale, cybersicurezza dei prodotti, lavoro agile, trasferimenti di dati extra UE | RSGI | Da approvare |
+| 0.1      | 22/10/2026 | Cyber Resilience Act: da «non applicabile» a «da valutare» per i prodotti della unit Vectorlab, esclusi dal campo di applicazione; ISO 9001: indicata la 2015 come norma di certificazione RINA | RSGI | Da approvare |
 
 ## 1 Scopo e uso
 
@@ -51,7 +52,7 @@ nell'offerta (PR09.1, PR26.1).
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
 | [D.Lgs. 138/2024 – recepimento direttiva NIS2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138) | Obblighi di sicurezza e notifica per soggetti essenziali e importanti | Non applicabile direttamente: Vectorlab è una piccola impresa, sotto le soglie di dimensione. Clienti soggetti a NIS2 possono imporre requisiti nella catena di fornitura, gestiti come requisiti contrattuali | PR26.1 (lato fornitore), PR27.1 | CISO |
-| [Reg. (UE) 2024/2847 – Cyber Resilience Act](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) | Requisiti di sicurezza per prodotti hardware e software con elementi digitali immessi sul mercato UE; segnalazione di vulnerabilità sfruttate e incidenti dal 11/09/2026, applicazione piena dal 11/12/2027 | Non applicabile: Vectorlab non immette sul mercato prodotti software propri; svolge solo sviluppo e consulenza software su commessa B2B (confermato dalla Direzione il 20/10/2026). Da rivalutare se in futuro venderà prodotti software | — | CTO |
+| [Reg. (UE) 2024/2847 – Cyber Resilience Act](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) | Requisiti di sicurezza per prodotti hardware e software con elementi digitali immessi sul mercato UE; segnalazione di vulnerabilità sfruttate e incidenti dal 11/09/2026, applicazione piena dal 11/12/2027 | Non applicabile al servizio nel campo di applicazione (team Ynsera presso i clienti). **Da valutare** per i prodotti della unit Vectorlab (es. Gaia), esclusi dal campo di applicazione ma soggetti all'obbligo di legge se immessi sul mercato UE (rettifica del 22/10/2026) | Valutazione per prodotto, fuori dal SGI | CTO |
 
 ## 5 Intelligenza artificiale
 
@@ -74,7 +75,7 @@ nell'offerta (PR09.1, PR26.1).
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
 | UNI CEI EN ISO/IEC 27001:2024 + A1:2024 | Sistema di gestione per la sicurezza delle informazioni | Applicabile (certificazione) | Intero SGI, SoA | RSGI |
-| ISO 9001:2026 | Sistema di gestione per la qualità | Applicabile (certificazione) | Intero SGI | RSGI |
+| ISO 9001:2026 (certificazione RINA sulla ISO 9001:2015, transizione alla prima ricertificazione) | Sistema di gestione per la qualità | Applicabile (certificazione) | Intero SGI | RSGI |
 | ISO/IEC 27002:2022 | Linee guida per i controlli di sicurezza | Riferimento per i controlli dell'Annex A | SoA | CISO |
 | ISO/IEC 27005:2022 e ISO 31000:2018 | Gestione del rischio | Riferimento per la metodologia | PR33.1, PR33.1.1 | CISO |
 | ISO 19011:2018 | Linee guida per gli audit dei sistemi di gestione | Riferimento per gli audit interni | PR11.1 | RSGI |

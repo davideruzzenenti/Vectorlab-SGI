@@ -18,6 +18,7 @@
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
 | 0.2      | 20/10/2026 | Sez. 4: campo di applicazione esteso alla Qualità (ISO 9001), allineato al testo della domanda di certificazione RINA, completato con sede, aree, confini e interfacce con terzi ed esclusioni | RSGI        | Da approvare |
+| 0.3      | 22/10/2026 | Sez. 4: campo di applicazione limitato al servizio della business unit Ynsera; escluse la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca, con le interfacce sulle risorse condivise; PR09.1 al posto di PR36.1; processo Innovation & Research segnato come escluso; indicata la ISO 9001:2015 come norma di certificazione RINA | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -269,6 +270,9 @@ organizzazioni esterne.
 
 Norme di riferimento: ISO 9001:2026 e UNI CEI EN ISO/IEC
 27001:2024+A1:2024.
+La certificazione RINA è sulla ISO 9001:2015 (offerta 2026/CITGE/749):
+il sistema è già impostato sulla ISO 9001:2026, che ne copre i
+requisiti; la transizione avverrà alla prima ricertificazione.
 
 *“Progettazione, sviluppo software e consulenza in particolare in
 ambito deep tech”*
@@ -285,15 +289,17 @@ del campo di applicazione e non costituisce un sito aggiuntivo.
 
 ### 4.2 Organizzazione e processi inclusi
 
-Sono incluse tutte le aree e tutto il personale (dipendenti e
-collaboratori) che operano nelle attività del campo di applicazione:
+Il campo di applicazione riguarda il servizio erogato tramite la
+business unit **Ynsera**: team di sviluppo e consulenza software di
+Vectorlab inseriti nei progetti dei clienti, con lavoro a giornata
+organizzato e supervisionato da un PM di Vectorlab.
 
-  - > Area Digital;
+Sono inclusi le aree, il personale (dipendenti e collaboratori) e i
+processi che erogano o supportano questo servizio:
 
-  - > Area Business Development;
+  - > Area Digital, per le commesse Ynsera (PR35.1);
 
-  - > Area Innovation & Research Projects, compresi i progetti di
-    > ricerca svolti con partner esterni;
+  - > Area Business Development, per le opportunità Ynsera (PR09.1);
 
   - > i processi di supporto descritti nella mappa dei processi
     > (sez. 5.1).
@@ -310,6 +316,22 @@ carico a Vectorlab. I fornitori sono gestiti secondo PO26, PR26.1 e
 PO40.
 
 ### 4.4 Esclusioni
+
+Attività escluse dal campo di applicazione:
+
+  - > vendita e sviluppo di prodotti della unit Vectorlab (es. Gaia),
+    > identificati nel CRM dal campo «Unit» = Vectorlab;
+
+  - > partecipazione a bandi e progetti di ricerca (Area Innovation &
+    > Research Projects).
+
+Le attività escluse condividono con il servizio Ynsera la sede, il
+personale, gli strumenti aziendali e l'infrastruttura (sez. 4.3). Le
+regole e i controlli del Sistema di Gestione Integrato su queste
+risorse condivise (accessi, asset, fornitori, backup, sicurezza
+fisica, formazione) si applicano quindi a tutta l'organizzazione.
+
+Requisiti delle norme:
 
   - > ISO 9001: nessun requisito escluso; tutti i requisiti sono
     > applicabili, compresa la progettazione e lo sviluppo di prodotti
@@ -1782,7 +1804,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>PO01.B.1 – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>INN - PR34.1 – Innovation &amp; Research project</p>
+<p>Processo escluso dal campo di applicazione (sez. 4.4)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2669,7 +2691,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>MDPR08.1.A.1 – Informazioni documentate</p>
 </blockquote></li>
 <li><blockquote>
-<p>BD – PR36.1 – Business Development</p>
+<p>BD – PR09.1 – Gestione Commerciale</p>
 </blockquote></li>
 </ul></td>
 </tr>

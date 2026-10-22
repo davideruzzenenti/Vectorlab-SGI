@@ -158,6 +158,15 @@ Metodo: skill `procedura-processo-sgi`, intervista una domanda alla volta (prefe
 
 Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/22, CAP 16129, piano 8.
 
+## Campo di applicazione e procedura commerciale (22/10/2026)
+
+- **Campo di applicazione**: deciso di certificare solo il servizio della business unit **Ynsera** (team di Vectorlab inseriti nei progetti dei clienti, a giornata). Esclusi la unit Vectorlab (prodotti per aziende, es. Gaia), la partecipazione a bandi e i progetti di ricerca; si potranno aggiungere con un'estensione del certificato. Il testo inviato a RINA resta invariato. Aggiornati PO02 §4.2/§4.4 (rev 0.3), PO01 §3.3/§6 (rev 0.3), PR35.1 (rev 0.1), MDPR11.1.A (rev 0.2).
+- **PR09.1 Gestione Commerciale** (rev 0.1): riscritta sul processo reale e limitata a Ynsera; assorbe PR36.1, mai emessa. PR34.1 non serve più.
+- **MDPO15.A** (rev 0.1): registro di conservazione compilato per tutti i processi; casella email dei cessati 6 mesi; durata dei backup da decidere con l'IT.
+- **ISO 9001**: documenti impostati sulla 2026; indicata la 2015 come norma di certificazione RINA (PO01, PO02, MDPO29.C, MDPR11.1.A).
+- **MDPO29.C** (rev 0.1): Cyber Resilience Act da valutare per i prodotti Vectorlab, fuori dal campo ISO.
+- Aperti: condizioni generali nel modello di preventivo Ynsera (revisione legale); contratti Ynsera come appalto di servizi; comunicazione a Nextage.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
@@ -182,3 +191,5 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - [ ] Verificare se ci sono davvero residui di un altro cliente del consulente (date sospette, "NOME AZIENDA" al posto di Vectorlab)
 - [ ] Fase 2 (idea originale del CTO, non ancora iniziata): usare un LLM di grosse dimensioni per scandagliare il corpus consolidato e individuare incongruenze tra documenti — ora fattibile perché tutto è in un unico formato strutturato e ragionevolmente pulito
 - [ ] Documenti grafici (21/10/2026): convertire in .md con diagrammi Mermaid ALPO01.A Organigramma, ALPO02.A Contesto e processi, ALPR24.1.A/B Schemi (quando il repo sarà privato), MDPR12.1.A Riesame; piantina ALPR18.1.A come immagine; abilitare Mermaid in `mkdocs.yml`; convertire l'immagine .emf di PR33.1; togliere le 7 immagini inutilizzate di PR08.1; decidere che per i moduli con doppia versione xlsx/md vale il .md
+- [ ] Modello di preventivo Ynsera: aggiungere condizioni generali (riservatezza, proprietà intellettuale, organizzazione del lavoro a cura del PM, dati personali) dopo revisione legale
+- [ ] MDPO15.A: fissare con l'IT la durata dei backup
