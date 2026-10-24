@@ -1,5 +1,14 @@
 # ALPR31.2.G - Liberatoria Foto-Video
 
+### Revisioni
+
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI | Amministratore Unico |
+| 0.1      | 24/10/2026 | Contatti del titolare completati (ragione sociale, P.IVA, privacy@vectorlab-cg.com, PEC); aggiunte la tabella delle revisioni e le modalità di consegna | RSGI | Da approvare |
+
+> Consegna: firmata dalla persona ritratta prima di pubblicare foto o video in cui compare.
+
 **Liberatoria/Autorizzazione per la pubblicazione di foto e video dei
 lavoratori dipendenti e dei collaboratori da parte di Vectorlab**
 
@@ -26,7 +35,7 @@ immediatamente cancellato dagli archivi della Società.
 
 La pubblicazione/diffusione potrà avvenire:
 
-\- sui siti internet della Società *(come ad esempio www.xxx.com);*
+\- sui siti internet della Società *(come ad esempio www.ynsera.com, www.vectorlab-cg.com);*
 
 \- sui canali social della Società (come ad esempio Youtube);
 

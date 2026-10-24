@@ -1,5 +1,14 @@
 # ALPR31.2.B - Informativa Privacy Candidati
 
+### Revisioni
+
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0      | 24/04/2026 | Prima emissione | RSGI | Amministratore Unico |
+| 0.1      | 24/10/2026 | Contatti del titolare completati (ragione sociale, P.IVA, privacy@vectorlab-cg.com, PEC); aggiunte la tabella delle revisioni e le modalità di consegna | RSGI | Da approvare |
+
+> Consegna: link all'informativa nella risposta a chi invia una candidatura e nella pagina «Lavora con noi» del sito.
+
 **Informativa ex artt. 13 e 14 Regolamento UE 2016/679**
 
 **per il Trattamento dei Dati Personali dei candidati da parte di
@@ -20,10 +29,10 @@ trattamento (“**Titolare**”).
 
 **Titolare del trattamento**
 
-Il Titolare del trattamento è Vectorlab SRL con sede in Genova – Piazza
-Borgo Pila 39/22, tel. xxx, email:
-[<span class="underline">privacy@xxx.xx</span>](mailto:privacy@xxx.xx) –
-pec: xxx.
+Il Titolare del trattamento è Vector Lab S.r.l. (P.IVA 02830460990), con sede in
+Genova – Piazza Borgo Pila 39/22, piano 8, 16129, email:
+[<span class="underline">privacy@vectorlab-cg.com</span>](mailto:privacy@vectorlab-cg.com) –
+PEC: vectorlab@legalmail.it.
 
 In tale veste è responsabile di garantire l’applicazione delle misure
 organizzative e tecniche necessarie e adeguate alla protezione dei dati.
@@ -100,7 +109,7 @@ I suoi Dati Personali potranno essere condivisi con:
 
 I rispettivi nominativi possono essere richiesti al Titolare del
 trattamento scrivendo a:
-[<span class="underline">privacy@xxx.xx</span>](mailto:privacy@xxx.xx).
+[<span class="underline">privacy@vectorlab-cg.com</span>](mailto:privacy@vectorlab-cg.com).
 
 Il Titolare non trasferisce i suoi Dati Personali al di fuori dello
 Spazio Economico Europeo.
@@ -128,7 +137,7 @@ previsti dall'art. 20 del Regolamento.
 
 Le richieste vanno rivolte per iscritto al Titolare al seguente
 indirizzo:
-[<span class="underline">privacy@xxx.xx</span>](mailto:privacy@xxx.xx).
+[<span class="underline">privacy@vectorlab-cg.com</span>](mailto:privacy@vectorlab-cg.com).
 
 In ogni caso lei ha sempre diritto di proporre reclamo all'autorità di
 controllo competente (Garante per la Protezione dei Dati Personali), ai

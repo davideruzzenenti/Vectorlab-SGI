@@ -176,6 +176,14 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **PR11.1** (rev 0.3) e **PR12.1** (rev 0.2): allineate al registro NC in ClickUp, ai codici corretti dei documenti sui rischi e degli obiettivi, al campo di applicazione.
 - Utenze: 10 account Google Workspace, nessuno con verifica in due passaggi; 4 interni in ClickUp con Gmail personale (task di correzione creato in ClickUp, scadenza 30/10).
 
+## Incidenti e prima non conformità (23–24/10/2026)
+
+- Prima NC registrata nella lista ClickUp: certificato SSL *.vectorlab-cg.com scaduto il 21/10 (n8n e sito Ynsera con problemi, nessun cliente coinvolto); causa: mancato passaggio di informazioni tra acquisto (Amministrazione) e installazione (IT esterno).
+- **PR27.1** (rev 0.2) e **PR13.1**: segnalazioni a sicurezza@vectorlab-cg.com (gruppo Google da creare); incidenti registrati nella lista NC con Origine = Incidente.
+- PO25 in attesa delle risposte del CTO (task ClickUp con 6 domande); sviluppatori su PC personali Windows.
+- Informative privacy ALPR31.2.A–G e PR31.1: titolare Vector Lab S.r.l. con P.IVA, privacy@vectorlab-cg.com (gruppo Google), PEC vectorlab@legalmail.it. Gruppo sicurezza@vectorlab-cg.com creato il 24/10.
+- Privacy semplificata (24/10): le informative restano solo nel repo SGI; ALPR31.2.A–G (rev 0.1) hanno ora tabella delle revisioni e riga «Consegna». Presa visione del personale con un unico modulo Google «Presa visione dei documenti aziendali» (foglio risposte = registro); le altre informative si consegnano nelle rispettive occasioni. Da fare: creare il modulo, aggiornare PR05.1 e PO31.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.
