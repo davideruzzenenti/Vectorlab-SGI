@@ -1,0 +1,8664 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema di Gestione Integrato - Documentazione ISO">
+      
+      
+      
+      
+        <link rel="prev" href="../MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D/">
+      
+      
+        <link rel="next" href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>PO25 - Sviluppo Sicuro - Vectorlab SGI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#po25-sviluppo-sicuro" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Vectorlab SGI" class="md-header__button md-logo" aria-label="Vectorlab SGI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vectorlab SGI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PO25 - Sviluppo Sicuro
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Vectorlab SGI" class="md-nav__button md-logo" aria-label="Vectorlab SGI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Vectorlab SGI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema di Gestione Integrato Vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 POLITICA SISTEMA INTEGRATO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 POLITICA SISTEMA INTEGRATO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01_POLITICA SISTEMA INTEGRATO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO01.B - Mansionario-Rev 0.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO01 - Sistema Integrato-Rev 0.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 SOA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 SOA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_SOA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02_SOA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_SOA/SOA%20-%20Statement%20of%20Applicability%20-%20Dichiarazione%20di%20Applicabilit%C3%A0%2027001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOA - Statement of Applicability - Dichiarazione di Applicabilità 27001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 GESTIONE NON CONFORMITA  E MIGLIORAMENTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10 GESTIONE NON CONFORMITA  E MIGLIORAMENTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10_GESTIONE NON CONFORMITA_ E MIGLIORAMENTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR13.1 - Gestione delle Non Conformità e Azioni di Miglioramento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 CONTESTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4 CONTESTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_CONTESTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4_CONTESTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO02.B- Analisi Stakeholder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO02 - Gestione del Contesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.1 ANALISI DEI RISCHI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6.1 ANALISI DEI RISCHI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.1_ANALISI DEI RISCHI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR33.1.A - Report Analisi dei Rischi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR33.1.B - Piano di Trattamento dei Rischi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/MDPR33.1.D%20-%20Analisi%20Rischi%20Opportunit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR33.1.D - Analisi Rischi Opportunità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR33.1 - Processo Analisi del Rischio e Trattamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1.1%20-%20Analisi%20Rischi%20e%20Opportunit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR33.1.1 - Analisi Rischi e Opportunità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.2%20-%20Processo%20Analisi%20del%20Rischio%20Privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR33.2 - Processo Analisi del Rischio Privacy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.1_ANALISI%20DEI%20RISCHI/asset_inventory_vectorlab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    asset_inventory_vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.2 OBIETTIVI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6.2 OBIETTIVI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.2_OBIETTIVI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO03.A - Lista Obiettivi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO03 - Gestione Obiettivi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.4 COMUNICAZIONI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7.4 COMUNICAZIONI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.4_COMUNICAZIONI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO07.A - Piano della Comunicazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.4_COMUNICAZIONI/PO07%20-%20Politica%20Gestione%20della%20Comunicazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO07 - Politica Gestione della Comunicazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.5 INFORMAZIONI DOCUMENTATE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7.5 INFORMAZIONI DOCUMENTATE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.5_INFORMAZIONI DOCUMENTATE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.A - Elenco Informazioni documentate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.B%20-%20PO%20num%20-%20titolo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.B - PO num - titolo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.C%20-%20PR%20num%20-%20titolo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.C - PR num - titolo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20EXCEL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.D - MD num - titolo - formato EXCEL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.D%20-%20MD%20num%20-%20titolo%20-%20formato%20WORD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.D - MD num - titolo - formato WORD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.E%20-%20Regolamento%20xxxx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.E - Regolamento xxxx
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.F%20-%20AL%20num%20-%20titolo%20-%20formato%20WORD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR08.1.F - AL num - titolo - formato WORD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/PR08.1%20-%20Gestione%20Informazioni%20Documentate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR08.1 - Gestione Informazioni Documentate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7 GESTIONE RISORSE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7 GESTIONE RISORSE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7_GESTIONE RISORSE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.A%20-%20Comunicazione%20RLS%20interno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.A - Comunicazione RLS interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.B%20-%20Verbale%20elezione%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.B - Verbale elezione RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.C%20-%20Nomina%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.C - Nomina RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.D%20-%20Scheda%20voto%20RLS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.D - Scheda voto RLS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.E - Accordo Lavoro Agile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.F - Informativa Lavoro Agile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/ALPR05.1.G%20-%20Lista%20software%20permessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR05.1.G - Lista software permessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.A%20-%20Checklist%20Documenti%20per%20Inserimento%20Personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.A - Checklist Documenti per Inserimento Personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.B-%20%20Rimborso%20Spese%20Trasferta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.B- Rimborso Spese Trasferta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.D%20-%20Questionario%20Informativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.D - Questionario Informativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.H%20-%20Processo%20Disciplinare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.H - Processo Disciplinare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.L%20-%20Checklist%20documenti%20per%20uscita%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.L - Checklist documenti per uscita personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.M%20-%20Anagrafica%20Dipendenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.M - Anagrafica Dipendenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.S%20-%20Consegna%20Chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.S - Consegna Chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.T%20-%20Restituzione%20Chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.T - Restituzione Chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.U - Gestione chiavi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR05.1.V - Modulo_consegna_riconsegna_HW_utenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.B%20-%20Scheda%20personale%20della%20formazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.B - Scheda personale della formazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.C - Piano della formazione_[aaaa]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.D%20-%20Modulo%20partecipanti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.D - Modulo partecipanti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/MDPR06.1.E%20-%20Griglia%20delle%20competenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR06.1.E - Griglia delle competenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR05.1 - Gestione del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/PR06.1%20-%20Gestione%20delle%20Performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR06.1 - Gestione delle Performance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REG01 - Regolamento sull’utilizzo degli strumenti aziendali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7_GESTIONE%20RISORSE/REG02%20-%20Regolamento%20comportamentale%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REG02 - Regolamento comportamentale del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8.2 PRODOTTI & SERVIZI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    8.2 PRODOTTI & SERVIZI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8.2_PRODOTTI &amp; SERVIZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR09.1 - Gestione Commerciale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR35.1 - Digital
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.1 MONITORAGGIO KPI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.1 MONITORAGGIO KPI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.1_MONITORAGGIO KPI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Questionario%20Soddisfazione%20Cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.A - Questionario Soddisfazione Cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.A - Tabella Indicatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR10.1.B - Analisi Soddisfazione Cliente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR10.1-Procedura Gestione del Monitoraggio, misurazione, analisi e valutazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.2 AUDIT INTERNO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.2 AUDIT INTERNO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.2_AUDIT INTERNO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.A - Programma Audit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.B - Piano di Audit e Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.C%20-%20Piano%20di%20Audit%20Tecnici/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.C - Piano di Audit Tecnici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.D%20-%20Checklist%20Audit%20Interno%2027001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.D - Checklist Audit Interno 27001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.L%20-%20Checklist%20Audit%20Interno%209001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.L - Checklist Audit Interno 9001
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.M%20-%20Checklist%20Audit%20Interno%20Ads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.M - Checklist Audit Interno Ads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.N%20-%20Checklist%20Audit%20DPO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR11.1.N - Checklist Audit DPO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR11.1 - Audit Interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.3 RIESAME DIREZIONE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9.3 RIESAME DIREZIONE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.3_RIESAME%20DIREZIONE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9.3_RIESAME DIREZIONE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR12.1 - Riesame della Direzione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A ACCESSI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A ACCESSI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_ACCESSI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/ALPR16.1.A%20-%20Lista%20utenze/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR16.1.A - Lista utenze
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/PO16%20-%20Gestione%20degli%20Accessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO16 - Gestione degli Accessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR16.1 - Gestione degli Accessi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A AMMINISTRAZIONE E FINANZA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A AMMINISTRAZIONE E FINANZA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_AMMINISTRAZIONE%20E%20FINANZA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_AMMINISTRAZIONE E FINANZA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_AMMINISTRAZIONE%20E%20FINANZA/PR04.1%20-%20Amministrazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR04.1 - Amministrazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A ASSET & CONFIGURAZIONE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A ASSET & CONFIGURAZIONE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_ASSET &amp; CONFIGURAZIONE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20FIREWALL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base FIREWALL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20PC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base PC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20ROUTER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base ROUTER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/MDPR32.1.A%20-%20Template%20di%20Configurazione%20di%20Base%20SWITCH/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR32.1.A - Template di Configurazione di Base SWITCH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PO32%20-%20Gestione%20delle%20Configurazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO32 - Gestione delle Configurazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR03.1%20-%20IT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR03.1 - IT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR14.1%20-%20Gestione%20Asset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR14.1 - Gestione Asset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR22.1%20-%20Gestione%20delle%20Patch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR22.1 - Gestione delle Patch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR32.1 - Gestione delle Configurazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A BACKUP & RESTORE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A BACKUP & RESTORE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_BACKUP &amp; RESTORE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR21.1.A - Piano di Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.B%20-%20Richiesta%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR21.1.B - Richiesta Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/PO21%20-%20Gestione%20dei%20Backup%20e%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO21 - Gestione dei Backup e Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR21.1 - Gestione dei Backup e Restore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CAMBIAMENTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CAMBIAMENTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CAMBIAMENTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CAMBIAMENTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR19.1 - Gestione del Cambiamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CLASSIFICAZIONE INFORMAZIONI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CLASSIFICAZIONE INFORMAZIONI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CLASSIFICAZIONE INFORMAZIONI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO15.A - Data Retention informazioni aziendali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO15 - Politica Classificazione Informazioni
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_21" >
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CONFORMITA 
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CONFORMITA 
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CONFORMITA_
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.A - Lettera incarico AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.B - Atto di Nomina ad Autorizzato del Trattamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.C%20-%20Addendum%20Lettera%20Incarico%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.C - Addendum Lettera Incarico AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO31.D - Atto di Nomina a Referente Privacy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.A - Informativa Privacy Dipendenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.B%20-%20Informativa%20Privacy%20Candidati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.B - Informativa Privacy Candidati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.C%20-%20Informativa%20Privacy%20Visitatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.C - Informativa Privacy Visitatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.D%20-%20Informativa%20Privacy%20Fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.D - Informativa Privacy Fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.E%20-%20Informativa%20Privacy%20Clienti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.E - Informativa Privacy Clienti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.F%20-%20Informativa%20Privacy%20Sito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.F - Informativa Privacy Sito
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.G%20-%20Liberatoria%20Foto-Video/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.G - Liberatoria Foto-Video
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/ALPR31.2.H%20-%20Registro%20Consensi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR31.2.H - Registro Consensi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPO29.A%20-%20Elenco%20AdS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO29.A - Elenco AdS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO29.C - Elenco leggi, regolamenti e norme applicabili
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.1.A%20-%20Registro%20delle%20richieste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.1.A - Registro delle richieste
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.4.A - Registro dei Trattamenti Titolare
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR31.4.B - Registro dei Trattamenti Responsabile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO29%20-%20Gestione%20della%20conformit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO29 - Gestione della conformità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO30%20-%20Privacy%20by%20Design%20e%20by%20Default/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO30 - Privacy by Design e by Default
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO31 - Misure di sicurezza protezione dati personali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR29%20-%20Gestione%20Verifiche%20Ispettive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR29 - Gestione Verifiche Ispettive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.1 - Gestione dei Diritti degli Interessati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.2%20-%20Gestione%20dei%20Consensi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.2 - Gestione dei Consensi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.3 - Procedura Valutazione d_impatto sulla protezione dei dati (DPIA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONFORMITA_/PR31.4%20-%20Gestione%20registro%20dei%20trattamenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR31.4 - Gestione registro dei trattamenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CONTINUITA  OPERATIVA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CONTINUITA  OPERATIVA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CONTINUITA_ OPERATIVA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/ALPR28.1.A%20-%20Piani%20di%20Continuit%C3%A0%20Operativa%20%5Btemplate%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR28.1.A - Piani di Continuità Operativa [template]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.A - BIA_Business Impact Analysis (27001)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.B%20-%20Piano%20dei%20Test%20di%20Continuit%C3%A0%20Operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.B - Piano dei Test di Continuità Operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.C%20-%20Report%20Test%20di%20Continuit%C3%A0%20Operativa%20%5Btemplate%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR28.1.C - Report Test di Continuità Operativa [template]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PO28%20-%20Gestione%20della%20Continuit%C3%A0%20Operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO28 - Gestione della Continuità Operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Procedura%20di%20gestione%20della%20continuit%C3%A0%20operativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR28.1 - Procedura di gestione della continuità operativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CONTINUITA_%20OPERATIVA/PR28.2%20-%20Processo%20Business%20Impact%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR28.2 - Processo Business Impact Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A CRITTOGRAFIA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A CRITTOGRAFIA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CRITTOGRAFIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_CRITTOGRAFIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_CRITTOGRAFIA/PO17%20-%20Crittografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO17 - Crittografia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A EVENTI & INCIDENTI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A EVENTI & INCIDENTI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_EVENTI &amp; INCIDENTI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/ALPR27.1.A%20-%20Notifica%20Data%20Breach%20all%E2%80%99interessato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR27.1.A - Notifica Data Breach all’interessato
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/ALPR27.1.B%20-%20Information%20Security%20Incident%20Lessons%20Learned%20-%20Template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR27.1.B - Information Security Incident Lessons Learned - Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/MDPR27.1.A%20-%20Registro%20Data%20Breach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR27.1.A - Registro Data Breach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/PO27%20-%20Gestione%20Eventi%20e%20Incidenti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO27 - Gestione Eventi e Incidenti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR27.1 - Gestione Incidenti e Data Breach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A FORNITORI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A FORNITORI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_FORNITORI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR16.1.C%20-%20Contratto%20di%20fornitura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR16.1.C - Contratto di fornitura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.A%20-%20Comunicazione%20SGSI%20per%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.A - Comunicazione SGSI per fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.B.3%20-%20Accordo%20di%20Riservatezza%20con%20le%20Terze%20Parti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.D%20-%20Nomina%20Responsabile%20Trattamenti%20Dati%20Personali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.D - Nomina Responsabile Trattamenti Dati Personali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/ALPR26.1.E%20-%20Requisiti%20di%20sicurezza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR26.1.E - Requisiti di sicurezza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.A%20-%20Monitoraggio%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.A - Monitoraggio fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.B - Elenco fornitori qualificati
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/MDPR26.1.C%20-%20Report%20consuntivazione%20attivit%C3%A0%20periodo%20di%20riferimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR26.1.C - Report consuntivazione attività periodo di riferimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PO26%20-%20Gestione%20dei%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO26 - Gestione dei fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PO40%20-%20Gestione%20Sicurezza%20nell_uso%20dei%20Servizi%20Cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO40 - Gestione Sicurezza nell_uso dei Servizi Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR26.1 - Gestione dei fornitori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A MINACCE & VULNERABILITA 
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A MINACCE & VULNERABILITA 
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_MINACCE &amp; VULNERABILITA_
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/ALPR23.2.A%20-%20Report%20Monitoraggio%20Minacce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPR23.2.A - Report Monitoraggio Minacce
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.1.A%20-%20Piano%20di%20Gestione%20delle%20Vulnerabilit%C3%A0%20Tecniche%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR23.1.A - Piano di Gestione delle Vulnerabilità Tecniche [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.2.A%20-%20Monitoraggio%20delle%20minacce_20260727/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR23.2.A - Monitoraggio delle minacce_20260727
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.2.A%20-%20Monitoraggio%20delle%20minacce_template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR23.2.A - Monitoraggio delle minacce_template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PO23%20-%20Gestione%20delle%20Minacce%20e%20Vulnerabilit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO23 - Gestione delle Minacce e Vulnerabilità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Vulnerabilit%C3%A0%20Tecniche/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR23.1 - Gestione delle Vulnerabilità Tecniche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MINACCE%20%26%20VULNERABILITA_/PR23.2%20-%20Monitoraggio%20delle%20Minacce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR23.2 - Monitoraggio delle Minacce
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_27" >
+        
+          
+          <label class="md-nav__link" for="__nav_27" id="__nav_27_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A MONITORAGGIO SISTEMI & LOGGING & CAPACITY
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_27_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_27">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A MONITORAGGIO SISTEMI & LOGGING & CAPACITY
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_MONITORAGGIO SISTEMI &amp; LOGGING &amp; CAPACITY
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/ALPO20.A%20-%20Piano%20di%20Capacit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO20.A - Piano di Capacità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/PO20%20-%20Gestione%20della%20Capacit%C3%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO20 - Gestione della Capacità
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_MONITORAGGIO%20SISTEMI%20%26%20LOGGING%20%26%20CAPACITY/PR20.1%20-%20Capacit%C3%A0%20e%20Monitoraggio%20Tecnico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR20.1 - Capacità e Monitoraggio Tecnico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_28" id="__nav_28_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A PROGETTAZIONE & SVILUPPO SICURO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_28">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A PROGETTAZIONE & SVILUPPO SICURO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_PROGETTAZIONE &amp; SVILUPPO SICURO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ALPO25.A - Linee guida per lo sviluppo software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.A%20-%20Vectorlab%20-%20OWASP%20ASVS%20Checklist%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.A - Vectorlab - OWASP ASVS Checklist [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.B - Definizione dei Requisiti [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.C%20-%20Documentazione%20Tecnica%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.C - Documentazione Tecnica [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.D%20-%20Changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.D - Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.E%20-%20Definizione%20di%20Progetto%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.E - Definizione di Progetto [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPO25.G - Piano di Test [progetto]
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PO25 - Sviluppo Sicuro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_29" >
+        
+          
+          <label class="md-nav__link" for="__nav_29" id="__nav_29_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A SICUREZZA FISICA AMBIENTALE
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_29_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_29">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A SICUREZZA FISICA AMBIENTALE
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_SICUREZZA FISICA AMBIENTALE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.A%20-%20Registro%20del%20personale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.A - Registro del personale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.B%20-%20Registro%20accessi%20CED/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.B - Registro accessi CED
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.D%20-%20Registri%20interventi%20ambientali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.D - Registri interventi ambientali
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.E%20-%20Registro%20dei%20visitatori/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.E - Registro dei visitatori
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.F%20-%20Locandina%20emergenza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.F - Locandina emergenza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.G%20-%20Contatti%20di%20emergenza/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.G - Contatti di emergenza
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.H%20-%20Piano%20di%20emergenza%20ed%20evacuazione/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR18.1.H - Piano di emergenza ed evacuazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR18.1 - Gestione sicurezza fisica e ambientale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_30" >
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A SICUREZZA SISTEMI & RETI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A SICUREZZA SISTEMI & RETI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A_SICUREZZA SISTEMI &amp; RETI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../A_SICUREZZA%20SISTEMI%20%26%20RETI/PR24.1%20-%20Gestione%20delle%20Reti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PR24.1 - Gestione delle Reti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31" >
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B REGISTRAZIONI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    B REGISTRAZIONI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../B_REGISTRAZIONI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B_REGISTRAZIONI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_31_2" id="__nav_31_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analisi dei Rischi
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_31_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analisi dei Rischi
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../B_REGISTRAZIONI/Analisi%20dei%20Rischi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analisi dei Rischi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_31_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_31_2_2" id="__nav_31_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_31_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2026
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi%20-%202026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR33.1.A - Report Analisi dei Rischi - 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDPR33.1.B - Piano di Trattamento dei Rischi - 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_32" >
+        
+          
+          <label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D GESTIONE PROGETTO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_32_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    D GESTIONE PROGETTO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D_GESTIONE PROGETTO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_32_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_32_2" id="__nav_32_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificazione SGI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_32_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Certificazione SGI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificazione SGI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_32_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_32_2_2" id="__nav_32_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documenti per RINA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_32_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documenti per RINA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documenti per RINA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/Annex%20ISO27001%20FORM-SYS01-ALL-04%20ita_rev04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Annex ISO27001 FORM-SYS01-ALL-04 ita_rev04
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/_FORM-SYS01-ALL-04_2024-09%20ita%20-%20corretto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    _FORM-SYS01-ALL-04_2024-09 ita - corretto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/Certificazione%20SGI/Documenti%20per%20RINA/_FORM-SYS01-ALL-04_2024-09%20ita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    _FORM-SYS01-ALL-04_2024-09 ita
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_32_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_32_3" id="__nav_32_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logokit vectorlab
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_32_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_32_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logokit vectorlab
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../D_GESTIONE%20PROGETTO/logokit%20vectorlab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    logokit vectorlab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="po25-sviluppo-sicuro">PO25 - Sviluppo Sicuro</h1>
+<p><strong>Politica Sviluppo Sicuro</strong></p>
+<p>Revisioni</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rev.</strong></td>
+<td><strong>Data</strong></td>
+<td><strong>Descrizione</strong></td>
+<td><strong>Redatto</strong></td>
+<td><strong>Approvato</strong></td>
+</tr>
+<tr>
+<td>0.0</td>
+<td>24/04/2026</td>
+<td>Prima emissione</td>
+<td>CTO</td>
+<td>CEO</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Indice</p>
+</blockquote>
+<h1 id="_1"></h1>
+<h1 id="_2"></h1>
+<h1 id="1-introduzione">1. Introduzione</h1>
+<h1 id="11-scopo">1.1. Scopo</h1>
+<p>La Politica di Sviluppo Sicuro è un documento che fornisce la direzione e il supporto necessari per raggiungere e mantenere la Sicurezza delle Informazioni secondo i requisiti di Business, il cogente e i regolamenti vigenti nel processo di sviluppo software e di sistemi, attraverso la definizione di funzionalità di sicurezza.</p>
+<p>Quando un'applicazione è sviluppata indipendentemente dalla sicurezza, può diventare una minaccia per l’ambiente in cui è sviluppata esponendo a rischi sia l’organizzazione che sviluppa che l’utilizzatore finale.</p>
+<p>Per rendere quindi sicura l’architettura delle applicazioni è necessario comprendere i requisiti della Politica di Sicurezza in modo che possano essere presi in considerazione insieme ai requisiti funzionali.</p>
+<p>Le regole di progettazione e sviluppo di applicazioni sicure sono un attributo importante e necessario di un ambiente informatico sicuro. Applicazioni che proteggono dati da accessi non autorizzati o modifiche che assicurano la sua disponibilità sono vantaggi importanti per le organizzazioni con risorse fisiche e con informazioni che richiedono un tale ambiente.</p>
+<p>Applicazioni non sicure contribuiscono ad aumentare interconnessioni di sistemi che forniscono porte aperte a possibili compromissioni di informazioni sensibili e critiche e di sistemi.</p>
+<p>Pertanto, al fine di produrre applicazioni robuste e sicure, gli sviluppatori devono conoscere e aderire ad alcuni fondamentali principi di sicurezza in tutte le fasi del Ciclo di Vita del Software, in un’ottica cosiddetta “Secure by Design”.</p>
+<p>Obiettivo di questo documento è quindi definire un processo per guidare gli sviluppatori nella definizione e implementazione di applicazioni sicure prendendo in considerazione:</p>
+<blockquote>
+<p>● la sicurezza dell’ambiente di sviluppo;</p>
+<p>● una guida sulla sicurezza nel ciclo di vita e nella metodologia di sviluppo del software;</p>
+<p>● requisiti di sicurezza nella fase di design (progettazione);</p>
+<p>● security checkpoints nelle fasi di progetto;</p>
+<p>● repository sicuri;</p>
+<p>● sicurezza nel controllo di versione;</p>
+<p>● capacità degli sviluppatori di evitare, trovare e sistemare eventuali vulnerabilità.</p>
+</blockquote>
+<h1 id="12-campo-di-applicazione">1.2. Campo di applicazione</h1>
+<p>La presente Politica è rivolta al personale di Vectorlab delle aree Digital/SW Development e IT, nonché ai Fornitori esterni che collaborano allo sviluppo.</p>
+<p>Maggiore dettaglio sulle attività svolte dalle singole aree è presente nelle procedure “<em>DIG - PR35.1 - Digital</em>”, “<em>IT - PR38.1 - IT</em>“.</p>
+<h1 id="13-riferimenti-e-allegati">1.3. Riferimenti e Allegati</h1>
+<p>ALPO25.A - Linee guida per lo sviluppo software</p>
+<p>MDPR08.1.A - Informazioni Documentate</p>
+<p>MDPO25.A - Vectorlab - OWASP ASVS Checklist</p>
+<p>MDPO25.B - Definizione dei Requisiti</p>
+<p>MDPO25.C - Documentazione Tecnica</p>
+<p>MDPO25.G - Piano di Test</p>
+<p>PO21 - Gestione dei Backup e Restore</p>
+<p>PO26 - Gestione dei Fornitori</p>
+<p>PO27 - Gestione Eventi e Incidenti</p>
+<p>REG01 - Regolamento di utilizzo degli strumenti aziendali.</p>
+<h1 id="14-definizioni-acronimi-abbreviazioni">1.4. Definizioni, Acronimi, Abbreviazioni</h1>
+<p>CEO - Chief Executive Officer</p>
+<p>CISO - Chief Information Security Officer</p>
+<p>CTO – Chief Technical Officer</p>
+<p>DPIA - Data Protection Impact Assessment</p>
+<p>GDPR – General Data Protection Regulation</p>
+<p>IT – Information Technology</p>
+<p>LTS – Long Time Support</p>
+<p>PT – Penetration Test</p>
+<p>PM - Project Manager</p>
+<p>SGI - Sistema di Gestione Integrato</p>
+<p>SO – Sistema Operativo</p>
+<p>UI – User Interface</p>
+<p>VA – Vulnerability Assessment.</p>
+<h1 id="15-responsabilita">1.5. Responsabilità</h1>
+<p>CTO ha la responsabilità di redigere e mantenere aggiornata la presente politica.</p>
+<p>RSGI ha la responsabilità di comunicare la presente politica.</p>
+<p>Il personale, a qualsiasi livello, e i collaboratori esterni devono attenersi alle procedure definite dall’Organizzazione per assicurarsi che la presente Politica sia correttamente applicata.</p>
+<p>I responsabili dell’attuazione della presente politica sono:</p>
+<ul>
+<li>
+<p>CTO</p>
+</li>
+<li>
+<p>CISO</p>
+</li>
+<li>
+<p>Responsabile Area Digital</p>
+</li>
+<li>
+<p>Staff Digital.</p>
+</li>
+</ul>
+<h1 id="16-violazione-della-politica">1.6. Violazione della Politica</h1>
+<p>Qualsiasi azione non conforme alla politica aziendale di Vectorlab sarà considerata una violazione della sicurezza e come tale potrà tradursi nella sospensione dell'accesso alle aree e alle risorse informatiche, rete e documenti. L'uso improprio degli strumenti aziendali costituisce una grave violazione del dovere di correttezza e può comportare l'adozione di provvedimenti disciplinari in conformità alla normativa vigente.</p>
+<p>I casi gravi saranno segnalati all'autorità competente e potranno essere oggetto di provvedimenti disciplinari o legali.</p>
+<h1 id="17-riesame">1.7. Riesame</h1>
+<p>Il riesame della presente politica viene effettuato periodicamente dalla Direzione al fine di valutare l’efficienza e l’efficacia delle misure messe in atto per garantire la Sicurezza delle Informazioni tramite l'adozione di principi di sicurezza all'interno del Ciclo di Vita del Software. Il riesame viene inoltre effettuato in tutte le situazioni per le quali viene richiesta una modifica relativa al business aziendale che può avere impatto anche sulla Sicurezza delle Informazioni.</p>
+<h1 id="2-development-environment-security">2. Development Environment Security</h1>
+<p>L’ambiente di sviluppo è costituito da un insieme di componenti hardware e software, utilizzati dai diversi gruppi di sviluppo che ne definiscono le caratteristiche in base alla tipologia / campo di applicazione del prodotto software da sviluppare.</p>
+<p>Il gruppo di lavoro (Team di sviluppo) è gestito da una figura responsabile (PM) che ha, tra le proprie mansioni, la responsabilità della gestione dei diversi componenti che costituiscono l’ambiente di sviluppo, definendone la loro costituzione iniziale, l’evoluzione, l’accessibilità, operando per ognuno di questi aspetti in stretta collaborazione con la funzione IT. Ogni variazione nella configurazione deve essere autorizzata dal Responsabile Area Digital o CTO.</p>
+<p>L’ambiente di sviluppo di una applicazione utilizza come elementi principali i seguenti componenti:</p>
+<ul>
+<li>
+<p>Postazioni degli sviluppatori</p>
+</li>
+<li>
+<p>Strumenti di sviluppo</p>
+</li>
+<li>
+<p>Server di versionamento</p>
+</li>
+<li>
+<p>Server di sviluppo – Unit testing</p>
+</li>
+<li>
+<p>Ambiente di Quality</p>
+</li>
+<li>
+<p>Ambiente di VA/PT</p>
+</li>
+<li>
+<p>Server di compilazioni delle build</p>
+</li>
+<li>
+<p>Gestione degli incidenti.</p>
+</li>
+</ul>
+<h1 id="21-configurazione-postazioni-degli-sviluppatori">2.1. Configurazione postazioni degli sviluppatori</h1>
+<p><span class="mark">Il PC aziendale in uso da personale Digital è installato di default con SO Linux Ubuntu nella versione LTS corrente e o</span>pportunamente configurato. L’installazione deve essere mantenuta aggiornata tramite i repository ufficiali. Non è consentito aggiornare la versione di SO installata salvo la disponibilità di una nuova versione LTS e previa autorizzazione in modo da evitare rischi per il corretto svolgimento delle attività di sviluppo. Tale aggiornamento dovrà avvenire pertanto in un periodo temporale concordato.</p>
+<p>Eccezione a quanto sopra in caso le attività richieste allo sviluppatore richiedano l’utilizzo di una postazione specifica (es. computer Mac per sviluppo di applicazioni iOS).</p>
+<p>L’accesso alle postazioni di lavoro è protetto con <span class="mark">password e, indipendentemente dal SO installato, lo storage è criptato; per quanto riguarda le installazioni miste (Linux/Windows) che prevedono <em>dual boot</em>, vengono criptate le partizioni contenenti dati sensibili. Per queste</span> macchine l’accesso a Internet è limitato/governato dalle best practice aziendali per la navigazione Internet (vedi “<em>REG01 - Regolamento di ut<span class="mark">ilizzo degli strumenti aziendali</span></em><span class="mark">”).</span></p>
+<p><span class="mark">La procedura di prima configurazione della postazione prevede anche l’installazione dei principali strumenti software adottati dall’area e relativa configurazione.</span></p>
+<h1 id="22-strumenti-di-sviluppo">2.2. Strumenti di sviluppo</h1>
+<p>l tool di sviluppo sono nella disponibilità degli sviluppatori in due forme distinte, a seconda delle caratteristiche tecniche dei tool stessi:</p>
+<ul>
+<li>
+<p>pacchetti installabili mediante i repository ufficiali della distribuzione Linux;</p>
+</li>
+<li>
+<p>pacchetti .deb da installare sulle singole macchine degli sviluppatori.</p>
+</li>
+</ul>
+<p>Il download di nuovi componenti (librerie, tools, documentazione, ecc.) deve avvenire attraverso una connessione HTTPS. Una volta acquisiti, i nuovi componenti prima di essere utilizzati devono essere verificati tramite un successivo test di integrazione con gli strumenti già in essere.</p>
+<h1 id="23-server-di-versionamento">2.3. Server di versionamento</h1>
+<p>La storicizzazione e l'archiviazione dei file che formano i sorgenti di ogni applicazione avviene attraverso appositi tool di controllo delle versioni, differenziati a seconda del gruppo di utilizzo/applicazione da sviluppare.</p>
+<p><span class="mark">L’area IT, coordinandosi con i responsabili dei gruppi di lavoro, mantiene un inventario dei repository ufficiali per i diversi progetti. È responsabilità della funzione IT garantire il backup (vedasi “<em>PO21 - Gestione dei Backup e Restore</em>”).</span></p>
+<p>Ogni gruppo di lavoro deve archiviare i sorgenti sul repository aziendale di riferimento per il proprio progetto.</p>
+<p>Viene usato lo strumento aziendale di versionamento (vedasi “<em>MDPR08.1.A - Informazioni Documentate/Tools</em>”), opportunamente configurato per consentire ai soli utenti censiti e autorizzati l’accesso ai sorgenti di competenza.</p>
+<p>I sorgenti delle applicazioni sono ivi catalogate mediante la strutturazione opportuna di progetti e repository dedicati e suddivisi per Cliente.</p>
+<p>La notifica all’area IT della necessità di attivare / disattivare accessi logici ai repository per i membri del gruppo di lavoro è a carico dei referenti dei gruppi, con particolare attenzione posta agli accessi dati a fornitori e collaboratori esterni.</p>
+<h1 id="24-server-di-sviluppo-unit-testing">2.4. Server di Sviluppo – Unit testing</h1>
+<p>Durante la fase di sviluppo, le attività di test in-progress (derivanti dal consolidamento dei codici sorgenti sviluppati e testati dai singoli programmatori) avvengono su una o più macchine dedicate (che possono coincidere con quelle di sviluppo) dove è presente un ambiente (file di configurazione, database, ecc.) il più possibile significativo per la verifica di quanto implementato.</p>
+<p>L’accesso a tali macchine deve essere limitato agli sviluppatori e tester, ed eventualmente, ma solo a livello di accesso alla UI degli applicativi, ad altri utenti.</p>
+<p>Le evidenze relative ai piani di test eseguiti per ogni progetto, sono raccolte nel documento “<em>MDPO25.G - Piano di Test</em>”.</p>
+<h1 id="25-ambiente-di-quality">2.5. Ambiente di Quality</h1>
+<p>Con lo scopo di consentire ai gruppi di tester (Team di test) di effettuare un test funzionale degli elementi rilasciati in-progress a seguito della fase di sviluppo, una o più macchine server dedicate sono destinate ad ospitare questi ambienti di lavoro.</p>
+<p>È alimentato dai Team di sviluppo e successivamente configurato in collaborazione con i Team di test per rappresentare (a livello di file di configurazione, database, ecc.) nel modo più significativo possibile il campo di applicazione target.</p>
+<p>Le evidenze relative ai test eseguiti per ogni progetto, sono raccolte nel documento “<em>MDPO25.G - Piano di Test</em>”.</p>
+<h1 id="26-ambiente-di-vapt">2.6. Ambiente di VA/PT</h1>
+<p>Con lo scopo di consentire opportune verifiche di sicurezza e consentire test di VA/PT degli elementi rilasciati in-progress o finali, una o più macchine server dedicate sono destinate ad ospitare questi ambienti di lavoro. Può coincidere con ambiente di Quality.</p>
+<p>Ambiente alimentato dai Team di sviluppo e successivamente configurati in collaborazione con i Team di test per rappresentare (a livello di file di configurazione, database, ecc.) nel modo più significativo possibile il campo di applicazione target.</p>
+<h1 id="27-server-di-compilazione-delle-build">2.7. Server di compilazione delle build</h1>
+<p>La compilazione per rilascio delle varie applicazioni avviene accedendo al repository del tool di versionamento utilizzato, così da poter selezionare <span class="mark">le versioni corrette ed aggiornare i sorgenti.</span></p>
+<p><span class="mark">Per ogni progetto, la procedura di build (manuale o automatica) è documentata nella documentazione di progetto (vedasi “<em>MDPO25.C - Documentazione Tecnica</em>”).</span></p>
+<h1 id="28-gestione-degli-incidenti">2.8. Gestione degli incidenti</h1>
+<p>Ogni evento che determina una possibile “incidente di sicurezza” per questi componenti (es. perdita di un portatile di uno sviluppatore, mancata riservatezza delle credenziali di accesso di uno sviluppatore, penetrazione di un virus su un PC di una risorsa di sviluppo, fail di un backup di un server di sviluppo ecc.) non appena nella visibilità dell’area IT, prevede il coinvolgimento del Responsabile Area Digital o CTO in modo che possa concorrere nel definire congiuntamente le azioni correttive immediate, nonché valutare comportamenti azioni atte a prevenire il ripetersi di analoghe situazione di rischio.</p>
+<p>È responsabilità di ogni membro del Team di sviluppo di segnalare tempestivamente al proprio responsabile e alla funzione IT qualsiasi anomalia alla propria postazione di lavoro o agli ambienti di sviluppo condiviso, tramite mail.</p>
+<p>Maggiore dettaglio sul flusso della gestione degli incidenti da seguire è descritto nella politica “<em>PO27 - Gestione Eventi e Incidenti</em>”.</p>
+<h1 id="3-ciclo-di-sviluppo-sicuro">3. Ciclo di Sviluppo Sicuro</h1>
+<p>Il raggiungimento di un efficace livello di sicurezza richiede attenzione a tutte le fasi del processo di progettazione e sviluppo del software.</p>
+<p>A titolo esplicativo, la seguente matrice riporta un indice quantitativo di effort in termini di costi necessario nella risoluzione delle problematiche di sicurezza applicativa:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td><strong>PROBLEMATICHE DI SICUREZZA (VULNERABILITA')</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Scoperte in fase di progettazione e design</td>
+<td>Scoperte in fase di sviluppo</td>
+<td>Scoperte in fase di integrazione</td>
+<td>Scoperte in fase di collaudo</td>
+<td>Scoperte in fase di esercizio</td>
+</tr>
+<tr>
+<td><strong>DOVUTE A ERRORI</strong></td>
+<td><strong>Architetturali</strong></td>
+<td>1x</td>
+<td>5x</td>
+<td>10x</td>
+<td>20x</td>
+<td>30x</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Di codifica</strong></td>
+<td>-</td>
+<td>1x</td>
+<td>10x</td>
+<td>20x</td>
+<td>30x</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Di integrazione</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1x</td>
+<td>10x</td>
+<td>15x</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabella 1 - Vulnerabilità dovute a errori</em></p>
+<p>Un ciclo di sviluppo sicuro considera e implementa opportune attività di sicurezza nel corso di tutte le fasi del processo.</p>
+<p>Al fine di ottemperare al concetto di <em>Privacy by design</em> e <em>Privacy by default</em>, il ciclo di vita dei nostri software deve tenere conto dei <span class="mark">risultati di un’eventuale valutazione della DPIA, per cui viene utilizzato lo strumento indicato in “<em>MDPR08.1.A - Informazioni Documentate/Tools</em>”.</span></p>
+<p>Gli step del processo che sono coinvolti dall’applicazione di misure di sicurezza, a cui concorrono per la definizione le aree Digital e Governance, sono:</p>
+<ul>
+<li>
+<p><strong>Requisiti</strong>: in questa fase vengono effettuate le analisi dei requisiti di sicurezza, dei rischi, delle probabilità di impatto delle minacce. Si considerano inoltre le best practice di carattere generale nella definizione dei requisiti di sicurezza (vedi capp. 3.1.2 e 3.1.3);</p>
+</li>
+<li>
+<p><strong>Progettazione</strong>: in questa fase si esamina il sistema in divenire con l’ausilio di tecniche di analisi e modellazione delle minacce, producendo requisiti di sicurezza di dettaglio che si aggiungono a quelli prodotti dalla precedente fase;</p>
+</li>
+<li>
+<p><strong>Implementazione</strong>: in questa fase si realizza il sistema attraverso la programmazione di codice sicuro, test di sicurezza basati sull'analisi delle minacce e analisi statica del codice sorgente. Quest’ultima può produrre nuovi requisiti di sicurezza che indirizzano la revisione del codice;</p>
+</li>
+<li>
+<p><strong>Verifica</strong>: in questa fase si analizzano gli aspetti di sicurezza del sistema in esecuzione in un ambiente controllato impiegando tecniche e strumenti di analisi dinamica;</p>
+</li>
+<li>
+<p><strong>Validazione</strong>: è la fase immediatamente prima del rilascio, viene effettuata una <em>final security review</em> per verifica del rispetto dei requisiti dati;</p>
+</li>
+<li>
+<p><strong>Miglioramento continuo</strong>: il processo viene periodicamente sottoposto a revisione da parte dei soggetti coinvolti, adeguandolo alle rinnovate necessità tecniche e/o di business, ai mutati scenari sistemistici/architetturali, e tarandolo sulle skill acquisite dalle figure coinvolte.</p>
+</li>
+</ul>
+<p>Le principali azioni di sicurezza da attuare sono:</p>
+<ul>
+<li>Definizione degli elementi di sicurezza applicativa, finalizzata alla valutazione dei requisiti relativamente a:</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>
+<p>Integrità</p>
+</li>
+<li>
+<p>Autenticità</p>
+</li>
+<li>
+<p>Riservatezza.</p>
+</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>Definizione dei requisiti di privacy, attraverso la raccolta strutturata delle seguenti categorie di informazioni:</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>
+<p>Dati personali</p>
+</li>
+<li>
+<p>Servizi di terze parti</p>
+</li>
+<li>
+<p>Policy.</p>
+</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>Risk Assessment, finalizzato alla valutazione del rischio.</li>
+</ul>
+<p>Ogni fase è caratterizzata dall'adozione di opportuni strumenti software a supporto delle operazioni.</p>
+<h1 id="31-requisiti">3.1 Requisiti</h1>
+<h3 id="311-valutazione-rischio-e-minacce">3.1.1. Valutazione Rischio e Minacce</h3>
+<p>L'analisi viene eseguita in maniera qualitativa suddividendo l’attività di sviluppo in task su cui dovrà essere decretato il livello di rischio in una scala che prevede i valori: <em>assente</em>, <em>basso</em>, <em>medio</em>, <em>alto</em>. In assenza di strumenti a supporto, l’analisi sarà eseguita dal progettista di maggior esperienza. L’attività è effettuata mediante il documento “<em>MDPO25.B - Definizione dei Requisiti</em>”.</p>
+<p>Nel caso di rischio <em>assente</em>, si procede come da flusso standard, senza più alcun rilievo inerente alla sicurezza.</p>
+<p>Nel caso di rischio <em>basso</em>, ci si limita ad inserire una segnalazione di attenzione all’interno della specifica, ma per il resto si procede come da flusso standard, senza più alcun rilievo inerente alla sicurezza.</p>
+<p>Nel caso di rischio <em>medio</em> o <em>alto</em>, oltre a inserire una segnalazione di attenzione all’interno della specifica, si procede con la stesura dei requisiti di sicurezza tecnici e di business, come descritto ai capp. 3.1.2 e 3.1.3.</p>
+<h3 id="312-definizione-dei-requisiti-di-sicurezza-a-livello-di-business">3.1.2. Definizione dei Requisiti di sicurezza a livello di business</h3>
+<p>Qualora possibile, i requisiti di sicurezza a livello di business saranno dettagliati in una sezione dedicata della specifica funzionale, in modo da accrescere l’evidenza a tutti gli stakeholder del processo. Nei casi in cui tali requisiti siano fortemente compenetrati con l'argomento stesso della segnalazione, ne definiscono il vero e proprio contenuto e saranno piuttosto annegati nelle varie parti della specifica.</p>
+<h3 id="313-definizione-dei-requisiti-di-sicurezza-tecnici">3.1.3. Definizione dei Requisiti di sicurezza tecnici</h3>
+<p><span class="mark">Nel documento “<em>MDPO25.B - Definizione dei Requisiti</em>” vengono descritti i requisiti di sicurezza a livello di business; devono altresì dettagliarsi le soluzioni tecniche necessarie da implementare per garantire i requisiti tecnici di sicurezza identificati.</span></p>
+<p>Il dettaglio e la completezza della descrizione dei requisiti devono essere tali da consentire all’incaricato alla progettazione di scegliere una soluzione di dettaglio idonea ai requisiti, e al personale destinato al test di verificare i casi d’uso necessari alla validazione di tutti i requisiti.</p>
+<p><span class="mark">I</span> punti di attenzione di sicurezza, descritti in dettaglio nella specifica funzionale, sono elencati in “<em>MDPO25.B - Definizione dei Requisiti</em>” e “<em>MDPO25.A - Vectorlab – OWASP ASVS Checklist</em>” assieme alla soluzione implementativa identificata. Ciò rende evidente, sia allo sviluppatore incaricato dell’implementazione che all’assegnatario del test, che la specifica funzionale deve contenere indicazioni dettagliate relative a ciascuno dei topic indicati.</p>
+<p>Poiché vi sono requisiti tecnici di sicurezza che sono nativamente gestiti dal framework, di essi non è necessario dettagliare su ogni task le modalità di implementazione. In tali casi, tuttavia, la specifica funzionale deve indicare esplicitamente che il requisito non è oggetto di una specifica implementazione poiché già soddisfatto da meccanismi nativi del framework, limitandosi a citarli. In tal caso, anche le note di sicurezza nella checklist OWASP citeranno, per ogni requisito, l’eventuale riferimento alla feature di framework che lo implementa.</p>
+<p>Qualora l’implementazione di un requisito di sicurezza, sia esso di business o tecnico, non venga assolto dalla sola implementazione tecnica di sviluppo, ma richieda una specifica configurazione dell'ambiente di installazione, la specifica funzionale deve indicare le configurazioni necessarie e le implicazioni nel caso queste non fossero implementate. In tal caso, le note di sicurezza della checklist OWASP devono indicare che esiste un rischio legato alla mancata implementazione delle configurazioni indicate in specifica.</p>
+<h1 id="32-progettazione">3.2. Progettazione</h1>
+<p>Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:</p>
+<ul>
+<li>
+<p>analisi e modellazione delle minacce, attraverso l’identificazione dei componenti applicativi coinvolti, delle interfacce e degli agenti che potrebbero minacciare il sistema;</p>
+</li>
+<li>
+<p>analisi della superficie d’attacco e della finestra di opportunità, allo scopo di individuare le parti del sistema che possono essere esposte ad attacchi e pertanto lo rendono vulnerabile;</p>
+</li>
+<li>
+<p>piano di mitigazione, attraverso l’identificazione delle contromisure da adottare in questa fase al fine di mitigare le potenziali minacce individuate (utilizzando anche tool automatici e semiautomatici);</p>
+</li>
+<li>
+<p>Secure Design Refactoring, revisione progettuale che attua le contromisure individuate; produzione di un High Level Design conforme ai principi del Secure by Design.</p>
+</li>
+</ul>
+<p><span class="mark">Questa fa</span>se produce le specifiche funzionali e applicative, che tengono in considerazione i requisiti, tramite “<em>MDPO25.B - Definizione dei Requisiti</em>”.</p>
+<p>La progettazione del software è ispirata, entro i vincoli tecnologici e di progetto, ai principi di sicurezza by design OWASP, di cui si tiene conto tramite “<em>MDPO25.A - Vectorlab – OWASP ASVS Checklist</em>”.</p>
+<p>Il flusso di attività relativo alla privacy in ambito progettazione in questa fase può essere schematizzato come:</p>
+<ul>
+<li>
+<p><strong>Input</strong>: requisiti di privacy di base e test; Standard, cogente, best practice e procedure applicabili sulla privacy, requisiti funzionali, Profili di rischio per la privacy;</p>
+</li>
+<li>
+<p><strong>Attività</strong>: nel caso ne sia stata riscontrata la necessità, svolgere una Data Protection Impact Assessment parametrata sugli obiettivi di protezione individuati;</p>
+</li>
+<li>
+<p><strong>Output</strong>: requisiti di protezione per la privacy specifici per il software.</p>
+</li>
+</ul>
+<h3 id="321-privacy-by-design-e-by-default">3.2.1. Privacy by design e by default</h3>
+<p>Il concetto di <em>Privacy by Design</em> consiste nel considerare l’interessato al centro del sistema di protezione dei dati personali, progettando un'applicazione che segue i requisiti di sicurezza sin da subito garantendo i diritti e le libertà dell’interessato.</p>
+<p>La progettazione di qualsiasi software che coinvolga il trattamento dei dati personali deve essere preceduta da un'identificazione dei requisiti di protezione per la privacy, in quanto dal trattamento o dall’elaborazione dei dati personali potrebbero derivare dei rischi e delle minacce ai diritti e alla libertà dell’interessato. I rischi per la privacy negli applicativi software che comportano il trattamento dei dati personali, dovrebbero essere trattati prima della loro implementazione, ossia sin dalla fase di progettazione (Engineering Privacy by Design). Dovranno quindi essere analizzati i rischi collegati alle applicazioni software.</p>
+<p>In linea con i requisiti di attuazione previsti dal GDPR, qualora un trattamento dei dati personali possa presentare un rischio elevato per i diritti e le libertà delle persone fisiche, i titolari di quest’ultimo dovranno effettuare una valutazione dell’impatto del trattamento sulla protezione dei dati personali o Data Protection Impact Assessment (DPIA); quest’obbligo è applicabile anche al ciclo di vita del software.</p>
+<p>Per quanto riguarda il concetto di <em>Privacy by Default</em>, si può definire come: qualunque applicazione deve garantire che ogni accesso a un dato sensibile sia sempre mediato dall’applicazione di una policy di sicurezza.</p>
+<p>Le policy di sicurezza devono sempre integrare:</p>
+<ul>
+<li>
+<p>autorizzazioni legate ai ruoli degli utenti;</p>
+</li>
+<li>
+<p>autorizzazioni legate ai consensi espressi dall’interessato;</p>
+</li>
+<li>
+<p>tracciamento delle operazioni di accesso ai dati.</p>
+</li>
+</ul>
+<h1 id="33-implementazione">3.3. Implementazione</h1>
+<p>Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:</p>
+<ul>
+<li>
+<p><strong>Regole di scrittura</strong>: scrivere codice secondo le guideline aziendali sulla strutturazione e scrittura formale del codice, presenti nell’allegato tecnico “<em>ALPO25.A - Linee guida per lo sviluppo software</em>”;</p>
+</li>
+<li>
+<p><strong>Regole implementative</strong>: produrre software secondo le regole di base aziendale definite per la gestione di macro-tematiche di interesse, sempre in riferimento all’allegato tecnico “<em>ALPO25.A - Linee guida per lo sviluppo software</em>”;</p>
+</li>
+<li>
+<p><strong>Code review</strong>: il codice deve essere sottoposto periodicamente dal Responsabile Area Digital a controlli di aderenza alle guideline sopra riportate. In caso alcune parti non soddisfino i requisiti di cui sopra la porzione di codice deve essere sottoposta a revisione;</p>
+</li>
+<li>
+<p><strong>Data Validation</strong>: verificare la presenza di vulnerabilità che possono riguardare eventuali dati corrotti in ingresso e che possono portare a un comportamento anomalo dell’applicazione;</p>
+</li>
+<li>
+<p><strong>Control Flow</strong>: verificare i rischi collegati all’assenza di specifiche sequenze di operazioni che, se non eseguite nel corretto ordine, possono portare a violazioni sulla memoria o sull’uso scorretto di determinati componenti;</p>
+</li>
+<li>
+<p><strong>Controllo Configurazioni</strong>: verificare i parametri intrinseci di configurazione dell’applicazione.</p>
+</li>
+</ul>
+<p>Il flusso di attività relativo alla privacy in ambito implementazione può essere schematizzato come:</p>
+<ul>
+<li>
+<p><strong>Input</strong>: requisiti architetturali e funzionali specifici per la privacy;</p>
+</li>
+<li>
+<p><strong>Attività</strong>: implementare i requisiti di protezione della privacy definiti nella fase di progettazione;</p>
+</li>
+<li>
+<p><strong>Output</strong>: componenti del software implementati; Mitigazione dei rischi accettabili per la privacy residua.</p>
+</li>
+</ul>
+<p>L'implementazione del software è ispirata, entro i vincoli tecnologici e di progetto, ai principi di Secure Coding OWASP integrati con le best practice e guideline specifiche per le singole tecnologie di sviluppo in uso.</p>
+<h1 id="34-verifica-della-sicurezza-delle-applicazioni">3.4. Verifica della sicurezza delle applicazioni</h1>
+<p>Le azioni di sicurezza attuabili in questa fase possono essere così sintetizzate:</p>
+<ul>
+<li>
+<p><strong>Penetration Test</strong>: attraverso l’esecuzione di scansioni ed analisi della superficie di attacco;</p>
+</li>
+<li>
+<p><strong>Test di autenticazione multilivello</strong>: attraverso la verifica delle modalità di gestione dell'accesso degli utenti;</p>
+</li>
+<li>
+<p><strong>Business Logic test</strong>: attraverso l’esecuzione di test manuali sulle applicazioni in fase di esecuzione;</p>
+</li>
+<li>
+<p><strong>Analisi dei risultati</strong>: attraverso l’individuazione e la rimozione dei falsi positivi;</p>
+</li>
+<li>
+<p><strong>Remediation Plan</strong>: attraverso la definizione del piano di rientro e la produzione di reportistica di sintesi e di dettaglio;</p>
+</li>
+<li>
+<p><strong>Proof of Concept</strong>: per le vulnerabilità riscontrate, comprensiva di azioni per la riduzione della superficie d’attacco.</p>
+</li>
+</ul>
+<p>Il flusso di attività relativo a privacy in ambito verifica e validazione può essere schematizzato come:</p>
+<ul>
+<li>
+<p><strong>Input</strong>: componenti del software implementati; Requisiti di privacy specifici del sistema e test; Politiche e procedure di privacy applicabili;</p>
+</li>
+<li>
+<p><strong>Attività</strong>: sviluppare / perfezionare dei test sulla privacy; Eseguire delle verifiche sulla privacy; Verificare il comportamento operativo rispetto alle politiche e alle procedure sulla privacy applicabili;</p>
+</li>
+<li>
+<p><strong>Output</strong>: risultati dei test di privacy; Documentazione delle incoerenze sulla privacy documentate; Descrizione del piano di trattamento della privacy.</p>
+</li>
+</ul>
+<p>L’esame delle applicazioni in esecuzione in ambiente di test può avvenire tramite VA, portando alla produzione delle seguenti tipologie di documenti:</p>
+<ul>
+<li>
+<p><strong>Vulnerability Assessment</strong>: report di dettaglio delle vulnerabilità riscontrate nella fase di analisi dinamica dell’applicazione tramite gli strumenti a supporto;</p>
+</li>
+<li>
+<p><strong>Remediation Plan</strong>: report che analizza i falsi positivi ed indirizza la risoluzione delle problematiche riscontrate nell’analisi stessa.</p>
+</li>
+</ul>
+<p><span class="mark">Per lo svolgimento di VA e PT Vectorlab può appoggiarsi a fornitori esterni.</span></p>
+<h1 id="35-supporto-per-la-manutenzione-di-applicazioni-sicure">3.5. Supporto per la manutenzione di applicazioni sicure</h1>
+<p>L’obiettivo di questa fase è mantenere un prodotto sicuro, a partire dagli ultimi trend sugli attacchi/minacce. Il team deve quindi analizzare le nuove minacce e individuare le contromisure necessarie rilasciando nuovi aggiornamenti/patch laddove necessario attraverso un processo di <em>Continuous Security</em>.</p>
+<h1 id="4-sviluppo-in-outsourcing">4. Sviluppo in Outsourcing</h1>
+<p>I fornitori esterni che collaborano allo sviluppo ottemperano alla presente Policy nella stessa misura delle risorse interne, e vengono consegnate loro la Policy e tutti i documenti a cui essa fa riferimento.</p>
+<p>Ogni fornitore, prima di essere abilitato ad accedere alle risorse aziendali, oltre ad un accordo di riservatezza, sottoscrive una dichiarazione con cui conferma la presa visione delle procedure in essa elencate e ne garantisce l’applicazione.</p>
+<p>Viene fornito un estratto della documentazione al fornitore atta a garantire la piena conformità ai requisiti di sicurezza che vengono adottati dall’Azienda, che può includere il presente documento o un suo estratto, “<em>MDPO25.B - Definizione dei Requisiti</em>”, “<em>MDPO25.A - Vectorlab OWASP ASVS Checklist</em>” e “<em>MDPO25.C - Documentazione Tecnica</em>”.</p>
+<p>Inoltre, nella contrattualizzazione dell’accordo possono essere indirizzati anche i seguenti punti:</p>
+<ul>
+<li>
+<p>requisiti per lo sviluppo sicuro in progettazione, codifica e test;</p>
+</li>
+<li>
+<p>fornitura di evidenze per la conformità del prodotto software sviluppato ai requisiti di sviluppo sicuro;</p>
+</li>
+<li>
+<p>fornitura di evidenze dell’applicazione di test sufficienti a garantire l'assenza di contenuti dannosi sia intenzionali che non intenzionali al momento della consegna;</p>
+</li>
+<li>
+<p>accordi di deposito a garanzia (“source escrow”), per evitare l’indisponibilità del codice sorgente;</p>
+</li>
+<li>
+<p>possibilità di effettuare audit tecnici di seconda parte;</p>
+</li>
+<li>
+<p>documentazione efficace del prodotto sviluppato;</p>
+</li>
+<li>
+<p>accordi di licenza, proprietà del codice e diritti di proprietà intellettuale relativi al progetto software sviluppato.</p>
+</li>
+</ul>
+<p>La gestione del fornitore e requisiti di sicurezza sono descritti nella politica “<em>PO26 - Gestione dei Fornitori</em>”.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
