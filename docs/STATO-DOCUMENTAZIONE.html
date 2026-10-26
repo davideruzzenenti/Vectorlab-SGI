@@ -191,7 +191,7 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
   </div>
 
   <section>
-    <h2>Avanzamento stage 1 (aggiornato il 22/10/2026)</h2>
+    <h2>Avanzamento stage 1 (aggiornato il 26/10/2026)</h2>
     <p class="sub">Documenti che RINA verifica allo stage 1 (lista Nextage del 07/10/2026), in ordine di lavorazione. «Da approvare» = contenuto corretto nel repo, manca l'approvazione dell'Amministratore Unico, prevista in un'unica sessione a fine lavoro (con mail di conferma come evidenza).</p>
     <table class="stage1">
       <thead><tr><th>#</th><th>Documento</th><th>Stato</th><th>Note</th></tr></thead>
@@ -212,6 +212,11 @@ footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color
     </table>
     <h3 style="margin-top:1.4rem">Cose aperte (anche nel task ClickUp «ISO» di Davide)</h3>
     <ul class="todo-list">
+      <li>NC01 certificati TLS (<a href="https://app.clickup.com/t/1246t8yuv1g">lista NC</a>, ricostruita il 26/10 dopo l’eliminazione della registrazione del 23/10): wildcard *.vectorlab-cg.com scaduto il 21/10/2026, n8n e sito Ynsera non raggiungibili. Correzione: ricaricati da Andrea (AU e CTO) previo confronto con Andrei. Causa radice: passaggio acquisto (Amministrazione) → installazione (IT) senza proprietario né scadenza tracciata. Azioni: proprietario unico (Andrei), passaggio su task ClickUp, rinnovo automatico ACME, allarme a 30 giorni indipendente da n8n, certificati nell’inventario asset. Verifica di efficacia entro aprile 2027.</li>
+      <li>Durata dei certificati TLS in calo per il ballot CA/Browser Forum SC-081v3: 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029. Il rinnovo manuale non regge: automazione necessaria entro il 2027.</li>
+      <li>Organigramma SGI: verificare che Andrea risulti sia Amministratore Unico sia CTO. Collegato: separazione dei compiti (27001 5.3) da dichiarare nell’analisi dei rischi con le misure compensative.</li>
+      <li>Edizione 27001 citata in modo non uniforme: «ISO/IEC 27001:2022» in 16 punti su 5 documenti, «UNI CEI EN ISO/IEC 27001:2024+A1:2024» altrove. Non è un errore (sono due designazioni valide della stessa norma), ma va resa coerente. Da decidere quale forma adottare.</li>
+      <li>Quando Claude scrive nel repo deve salvare i file con fine riga Unix: i file sul PC Windows sono CRLF, nel repo sono LF, e una scrittura CRLF fa apparire l’intero documento riscritto nel diff.</li>
       <li>Andrei Apostu (IT esterno): incarico firmato, accordo di riservatezza, nomina ad Amministratore di Sistema.</li>
       <li>Registro Amministratori di Sistema (MDPO29.A) da compilare con Andrei e Andrea.</li>
       <li>Nomina di Francesco a Referente Privacy (ALPO31.D) da firmare.</li>
@@ -370,7 +375,7 @@ const DATA = [
 ["6.1_ANALISI DEI RISCHI","asset_inventory_vectorlab","Registro asset","good","—","49 asset reali con owner e strumenti reali (ClickUp, Discord, N8N, Aruba).","ok",""],
 ["6.2_OBIETTIVI","PO03 - Gestione Obiettivi","PO","good","0.0","Breve ma coerente con la struttura piatta di Vectorlab.","ok",""],
 ["6.2_OBIETTIVI", "MDPO03.A - Lista Obiettivi", "MD", "approve", "0.1", "22/10/2026: 6 obiettivi 2026–2027 con owner, indicatore, scadenza, risorse e verifica: certificazione, accessi sicuri (2SV, ClickUp aziendale), backup e ripristino, soddisfazione clienti Ynsera, formazione sicurezza e privacy, processo commerciale.", "ok", ""],
-["10_NC E MIGLIORAMENTO", "PR13.1 - Gestione NC", "PR", "approve", "0.1", "22/10/2026: registro delle NC definito nella lista ClickUp «Non conformità e miglioramento» (cartella SGI) con stati e campi; tolto Jira. Aperto: configurare in ClickUp gli stati e i 3 campi (Tipo, Origine, Riferimento norma).", "ok", ""],
+["10_NC E MIGLIORAMENTO", "PR13.1 - Gestione NC", "PR", "approve", "0.2", "26/10/2026: aggiunta la verifica dell’efficacia alle fasi delle NC di produzione-progettazione (§2.1), reclami clienti (§2.2) e fornitura (§2.3); prima era prevista solo per le NC di processo, mentre 27001 10.2 e 9001 10.2.1 d) la richiedono per ogni azione correttiva. 22/10: registro delle NC nella lista ClickUp «Non conformità e miglioramento» (cartella SGI) con stati e campi; tolto Jira. Aperto: configurare in ClickUp gli stati e i 3 campi (Tipo, Origine, Riferimento norma).", "ok", ""],
 ["7.4_COMUNICAZIONI","PO07 - Politica Comunicazione","PO","good","0.0","Testo specifico Vectorlab (Jira, GitHub, ruoli reali).","ok",""],
 ["7.4_COMUNICAZIONI","MDPO07.A - Piano Comunicazione","MD","bad","0.0","Molte righe con \"xxx\" mai risolto in colonne chiave.","umano","Per ciascuna riga del piano di comunicazione, quale informazione o documento viene davvero comunicato in quel flusso?"],
 ["7.5_INFORMAZIONI DOCUMENTATE", "PR08.1 - Gestione Informazioni Documentate", "PR", "approve", "0.2", "20/10/2026: repository privato sul server aziendale e sito interno (situazione obiettivo: oggi il repo è ancora pubblico su GitHub); approvazione registrata nella tabella Revisioni con evidenza commit/PR/e-mail, PR facoltativa; nuovo §2.9 sull'elenco generato automaticamente.", "umano", "Quando viene spostato il repository sul server aziendale e reso privato?"],
