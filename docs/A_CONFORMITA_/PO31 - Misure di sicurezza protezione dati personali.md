@@ -9,6 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | CISO        | DPO           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito lo status del DPO rispetto al Referente Privacy, in assenza di un obbligo di designazione ex art. 37 GDPR | CISO        | Amministratore Unico |
+| 0.2      | 26/10/2026 | Formazione: informativa ai dipendenti e presa visione tramite il pacchetto ALPR05.1.H e la lista ClickUp «Consapevolezza e formazione» (PR05.1); consegna delle altre informative secondo ALPR31.2.B–G | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -395,7 +396,17 @@ sulla normativa e sulla prassi in materia di protezione dei dati
 personali.
 
 Tutti i corsi di formazione e le iniziative di sensibilizzazione sulla
-sicurezza e sul GDPR sono pianificati ed erogati.
+sicurezza e sul GDPR sono pianificati ed erogati e sono registrati nella
+lista ClickUp «Consapevolezza e formazione» (cartella SGI).
+
+L'informativa ai dipendenti e collaboratori (*ALPR31.2.A*) fa parte del
+pacchetto *“ALPR05.1.H - Documenti per il personale”*: la presa visione
+si registra all'ingresso, ogni anno e a ogni revisione sostanziale,
+secondo *PR05.1* (paragrafo «Consapevolezza»). Le altre informative
+(*ALPR31.2.B–G*) si forniscono nelle occasioni indicate in testa a
+ciascuna: risposta ai candidati, ingresso dei visitatori, ordine o
+contratto con il fornitore, offerta al cliente, sito web, pubblicazione
+di foto e video.
 
 # Ruoli e responsabilità
 

@@ -182,7 +182,7 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **PR27.1** (rev 0.2) e **PR13.1**: segnalazioni a sicurezza@vectorlab-cg.com (gruppo Google da creare); incidenti registrati nella lista NC con Origine = Incidente.
 - PO25 in attesa delle risposte del CTO (task ClickUp con 6 domande); sviluppatori su PC personali Windows.
 - Informative privacy ALPR31.2.A–G e PR31.1: titolare Vector Lab S.r.l. con P.IVA, privacy@vectorlab-cg.com (gruppo Google), PEC vectorlab@legalmail.it. Gruppo sicurezza@vectorlab-cg.com creato il 24/10.
-- Privacy semplificata (24/10): le informative restano solo nel repo SGI; ALPR31.2.A–G (rev 0.1) hanno ora tabella delle revisioni e riga «Consegna». Presa visione del personale con un unico modulo Google «Presa visione dei documenti aziendali» (foglio risposte = registro); le altre informative si consegnano nelle rispettive occasioni. Da fare: creare il modulo, aggiornare PR05.1 e PO31.
+- Privacy semplificata (24/10, rivista il 26/10): le informative restano solo nel repo SGI; ALPR31.2.A–G (rev 0.1) hanno tabella delle revisioni e riga «Consegna». Le altre informative si consegnano nelle rispettive occasioni.
 
 ## Verifica sui testi di norma e NC certificati (26/10/2026)
 
@@ -193,6 +193,18 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **NC certificati, aggiornamento**: i certificati li ha ricaricati Andrea (Amministratore Unico e CTO) previo confronto con Andrei; servizi ripristinati. La correzione è fatta, l'azione correttiva no. Causa confermata: il passaggio acquisto (Amministrazione) → installazione (IT) non ha proprietario né scadenza presidiata. Registrazione del 23/10 eliminata e ricostruita il 26/10 come NC01 nella lista «Non conformità e miglioramento» (stato «azione in corso»). Azioni: proprietario unico del ciclo di vita (Andrei), task ClickUp al posto dei passaggi su Telegram, rinnovo automatico ACME, allarme a 30 giorni indipendente da n8n, certificati nell'inventario asset. Contesto: ballot CA/Browser Forum SC-081v3, durata massima dei certificati TLS pubblici 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029.
 - **Da verificare**: organigramma SGI con il doppio ruolo di Andrea (AU e CTO) e, collegata, la separazione dei compiti (27001 5.3) da dichiarare nell'analisi dei rischi con le misure compensative.
 - **Fine riga**: i file sul PC Windows sono CRLF, nel repo sono LF (git per Windows converte, l'ambiente Linux no). Chi scrive nel repo da Linux deve salvare in LF, altrimenti il diff mostra l'intero documento riscritto.
+
+## Presa visione e consapevolezza (26/10/2026)
+
+- Scartato il modulo Google per documento e revisione (menu da aggiornare a ogni revisione, non mantenibile). Scelto un **pacchetto unico** `ALPR05.1.H - Documenti per il personale` (PO01, REG01, ALPR31.2.A, PR27.1 segnalazione) confermato in blocco: all'ingresso, ogni anno a gennaio, a ogni revisione sostanziale. La revisione in vigore alla data risulta dalle tabelle delle revisioni e dalla cronologia git.
+- Registro: lista ClickUp **«Consapevolezza e formazione»** (cartella SGI). Un task per occasione, un sottotask per persona con due voci (lettura del pacchetto; il proprio portatile Vectorlab rispetta i requisiti di REG01 §3). La persona chiude il proprio sottotask: chi chiude e quando è l'evidenza. Nella stessa lista le sessioni di formazione (obiettivo 5).
+- Creato il task «Presa visione documenti per il personale – 2026» con 10 sottotask (6 sviluppatori, Davide, Andrea, Francesco, Andrei), **senza assegnatari**: si assegnano dopo l'approvazione di Andrea.
+- Aggiornati PR05.1 (rev 0.4) e PO31 (rev 0.2); ALPR31.2.A rimanda ad ALPR05.1.H.
+- **Correzione del 26/10**: i portatili sono **forniti da Vectorlab**, non personali (A0007/A0008 nell'inventario asset sono corretti). Nessuna procedura sui portatili esisteva.
+- **REG01 rev 0.1 (27/10)**: riscritto da 1.435 righe di modello a ~200 righe sugli strumenti reali. Portatili con 4 requisiti minimi (disco cifrato con BitLocker o Crittografia dispositivo, password con blocco schermo, aggiornamenti automatici, Defender attivo), confermati da Andrei e Andrea, verificati da ciascuno sul proprio portatile; sviluppatori amministratori del proprio PC come scelta motivata. Account aziendali con verifica in due passaggi, Bitwarden, niente account condivisi, password lunghe senza scadenza fissa (NIST SP 800-63B). Tolti ticketing, firewall con filtri, NAS, VPN, sfondi, KeePass. Casella dell'uscente allineata a PR05.1 (6 mesi, non 60 giorni). Aperti: app di messaggistica ammessa al posto di Discord; rete Wi-Fi e stampante dell'ufficio.
+- Controllo dei portatili (27/10): non lo fa Andrei, lo fa **ogni persona in autonomia** e lo registra nel proprio sottotask di presa visione con modello e numero di serie; i sottotask formano l'inventario. Chiave di ripristino BitLocker nel Bitwarden aziendale. Da fare prima dell'audit interno. Poi si possono assegnare i sottotask di presa visione (dopo l'approvazione di Andrea).
+
+- **PR35.1 rev 0.2 (27/10)**: allineata a PR09.1 (offerta firmata dal CTO; le clausole su riservatezza, proprietà intellettuale e dati personali non sono più date per presenti, restano «DA COMPLETARE»), a REG01 (portatili Vectorlab) e a PR27.1 (incidenti a sicurezza@). Resta aperto l'elenco degli strumenti di IA autorizzati (§2.3).
 
 ## Cose da sapere / limiti noti
 
