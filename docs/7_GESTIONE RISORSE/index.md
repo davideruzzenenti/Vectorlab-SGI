@@ -9,6 +9,7 @@
 - [ALPR05.1.E - Accordo Lavoro Agile](ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile.md)
 - [ALPR05.1.F - Informativa Lavoro Agile](ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile.md)
 - [ALPR05.1.G - Lista software permessi](ALPR05.1.G%20-%20Lista%20software%20permessi.md)
+- [ALPR05.1.H - Documenti per il personale](ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md)
 - [MDPR05.1.A - Checklist Documenti per Inserimento Personale](MDPR05.1.A%20-%20Checklist%20Documenti%20per%20Inserimento%20Personale.md)
 - [MDPR05.1.B-  Rimborso Spese Trasferta](MDPR05.1.B-%20%20Rimborso%20Spese%20Trasferta.md)
 - [MDPR05.1.D - Questionario Informativo](MDPR05.1.D%20-%20Questionario%20Informativo.md)
