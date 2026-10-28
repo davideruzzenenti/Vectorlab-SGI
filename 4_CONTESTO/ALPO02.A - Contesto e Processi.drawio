@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" pages="6">
+  <diagram name="1 - Contesto" id="mnB2nUt4djtMelcO_-jP">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-3" parent="1" value="CONTESTO ESTERNO&#xa;AI, XR, Deep Tech&#xa;Mercato Digitale&#xa;Normative e GDPR&#xa;Cybersecurity" vertex="1">
+          <mxGeometry height="120" width="500" x="591" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-4" parent="1" value="CLIENTI&#xa;Aziende&#xa;Startup&#xa;Enti" vertex="1">
+          <mxGeometry height="140" width="220" x="290" y="1071" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-5" parent="1" value="VECTORLAB S.r.l.&#xa;Progettazione e sviluppo software&#xa;e consulenza in ambito Deep Tech&#xa;" vertex="1">
+          <mxGeometry height="180" width="400" x="630" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-6" parent="1" value="PARTNER E COLLABORATORI&#xa;Partner tecnologici&#xa;Consulenti&#xa;Freelance" vertex="1">
+          <mxGeometry height="140" width="240" x="1141" y="1071" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-7" parent="1" value="FORNITORI&#xa;Hosting&#xa;Cloud&#xa;Software Vendor" vertex="1">
+          <mxGeometry height="140" width="240" x="290" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-8" parent="1" value="OUTPUT&#xa;Software&#xa;Consulenza&#xa;Soluzioni tecnologiche" vertex="1">
+          <mxGeometry height="140" width="240" x="1141" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga7sI61J9slE0GO7Tw4D-9" parent="1" value="INFRASTRUTTURA OPERATIVA&#xa;ClickUp - Google Workspace - n8n - Cloud" vertex="1">
+          <mxGeometry height="100" width="600" x="541" y="1520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2 - Processi" id="t15GCpRnvn_Zxx1CcGqj">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Input -->
+        <mxCell id="p1" value="INPUT&#xa;Lead / Richieste" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Core processes -->
+        <mxCell id="p2" value="MARKETING&#xa;RISCAN / CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="SALES&#xa;Preventivi / Chiusura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="PRODUZIONE&#xa;3D / XR / Software" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="DELIVERY&#xa;Deploy / Supporto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Output -->
+        <mxCell id="p6" value="OUTPUT&#xa;Cliente soddisfatto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Support -->
+        <mxCell id="p7" value="SUPPORTO&#xa;HR / IT / Admin / ISO / Audit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="400" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Contesto" id="P7-1I7QjTeiChkW7BsCI">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-10" parent="1" value="INPUT" vertex="1">
+          <mxGeometry height="60" width="120" x="849.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-11" parent="1" value="MARKETING" vertex="1">
+          <mxGeometry height="60" width="120" x="989.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-12" parent="1" value="SALES" vertex="1">
+          <mxGeometry height="60" width="120" x="1129.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-13" parent="1" value="PRODUZIONE" vertex="1">
+          <mxGeometry height="60" width="140" x="1269.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-14" parent="1" value="DELIVERY" vertex="1">
+          <mxGeometry height="60" width="120" x="1429.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-15" parent="1" value="OUTPUT" vertex="1">
+          <mxGeometry height="60" width="120" x="1569.7142857142858" y="732.2380952380952" as="geometry" />
+        </mxCell>
+        <mxCell id="lHNriP93EDVnyTa4tHAQ-16" parent="1" value="SUPPORTO: HR / IT / ADMIN / ISO" vertex="1">
+          <mxGeometry height="80" width="300" x="1089.7142857142858" y="832.2380952380952" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Processi" id="3gtQQCFEpKrgN3jpXxfS">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1" value="INPUT&#xa;Lead" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="MARKETING&#xa;RISCAN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="SALES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="PRODUZIONE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="DELIVERY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" value="OUTPUT&#xa;Cliente soddisfatto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7" value="SUPPORTO&#xa;HR / IT / Admin / ISO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="400" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="1 - Contesto" id="LDyZE5jkms3sQKd8L8vl">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="VECTORLAB S.r.l.&#xa;Sistema di Gestione Integrato&#xa;XR / 3D / Automation" vertex="1">
+          <mxGeometry height="120" width="300" x="500" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CLIENTI&#xa;Aziende / Musei / Eventi&#xa;&#xa;PARTNER&#xa;Strategici / Commerciali&#xa;&#xa;FORNITORI&#xa;Hardware / Software" vertex="1">
+          <mxGeometry height="140" width="260" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="COLLABORATORI&#xa;Freelance / Esterni&#xa;&#xa;ENTI / NORMATIVA&#xa;GDPR / Compliance&#xa;&#xa;MERCATO&#xa;Competitor / Trend" vertex="1">
+          <mxGeometry height="140" width="260" x="900" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FATTORI ESTERNI&#xa;- AI / XR evoluzione&#xa;- Mercato variabile&#xa;- Normative&#xa;- Tool dipendenti" vertex="1">
+          <mxGeometry height="120" width="300" x="500" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INFRASTRUTTURA&#xa;Drive / ClickUp / n8n / Cloud&#xa;&#xa;MODELLO OPERATIVO&#xa;Team distribuito / remoto" vertex="1">
+          <mxGeometry height="120" width="300" x="500" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-1" parent="1" value="INPUT" vertex="1">
+          <mxGeometry height="60" width="120" x="1190" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-2" parent="1" value="MARKETING" vertex="1">
+          <mxGeometry height="60" width="120" x="1330" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-3" parent="1" value="SALES" vertex="1">
+          <mxGeometry height="60" width="120" x="1470" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-4" parent="1" value="PRODUZIONE" vertex="1">
+          <mxGeometry height="60" width="140" x="1610" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-5" parent="1" value="DELIVERY" vertex="1">
+          <mxGeometry height="60" width="120" x="1770" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-6" parent="1" value="OUTPUT" vertex="1">
+          <mxGeometry height="60" width="120" x="1910" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ1t7YOh8Y3FVjwOFuIO-7" parent="1" value="SUPPORTO: HR / IT / ADMIN / ISO" vertex="1">
+          <mxGeometry height="80" width="300" x="1430" y="1330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2 - Processi" id="OWsNReRPN36lBY0A9HWz">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Input -->
+        <mxCell id="p1" value="INPUT&#xa;Lead / Richieste" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Core processes -->
+        <mxCell id="p2" value="MARKETING&#xa;RISCAN / CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="SALES&#xa;Preventivi / Chiusura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="PRODUZIONE&#xa;3D / XR / Software" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="DELIVERY&#xa;Deploy / Supporto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Output -->
+        <mxCell id="p6" value="OUTPUT&#xa;Cliente soddisfatto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="300" width="180" height="80" as="geometry" />
+        </mxCell>
+        <!-- Support -->
+        <mxCell id="p7" value="SUPPORTO&#xa;HR / IT / Admin / ISO / Audit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="400" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
