@@ -6,6 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
 | 0.1      | 16/07/2026 | Revisione assistita da IA: corretti i riferimenti incrociati a Consegna/Restituzione Chiavi (invertiti rispetto ai codici reali) | HR          | Amministratore Unico |
+| 0.2      | 28/10/2026 | Chiavi: rimando al registro unico MDPR05.1.U (MDPR05.1.S e T ritirati) | RSGI        | Da approvare |
 
 <table>
 <tbody>
@@ -83,8 +84,7 @@
 </tr>
 <tr class="odd">
 <td><strong>Modulistica</strong></td>
-<td><p>MDPR05.1.S – Consegna Chiavi SI NO</p>
-<p>MDPR05.1.T – Restituzione Chiavi SI NO</p></td>
+<td><p>MDPR05.1.U – Gestione chiavi (consegna / restituzione registrata) SI NO</p></td>
 <td></td>
 <td></td>
 </tr>

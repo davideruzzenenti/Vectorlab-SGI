@@ -9,6 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.1      | 16/07/2026 | Prima bozza (fac-simile) — documento mancante generato per colmare una lacuna rilevata nella SOA, sulla base di quanto già previsto in "PR26.1 - Gestione dei fornitori" e "PR27.1 - Gestione Incidenti e Data Breach". Le parti evidenziate in rosso sono ipotesi da confermare prima dell'uso; i campi come "Nome Fornitore" e "Nome Cognome referente" sono normali placeholder da compilare caso per caso | IA          | Da approvare  |
+| 0.2      | 28/10/2026 | Verifica annuale sul responsabile: rimando a MDPR26.1.B §6 (MDPR26.1.A ritirato) | RSGI        | Da approvare |
 |          |            |                 |             |               |
 
 **Tra**
@@ -141,8 +142,8 @@ Il Responsabile si impegna a:
 <span style="color:#B3392A">[DA CONFERMARE: modalità e periodicità con
 cui Vectorlab esercita l'attività di verifica/audit sul Fornitore — si
 ipotizza una verifica annuale nell'ambito del monitoraggio fornitori di
-cui a "MDPR26.1.A - Monitoraggio fornitori" (tab "Responsabile
-Trattamento"), salvo diversa necessità]</span>.
+cui a "MDPR26.1.B - Elenco fornitori qualificati" (§6 Valutazione
+annuale), salvo diversa necessità]</span>.
 
 **7. Ricorso a Sub-Responsabili**
 

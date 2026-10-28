@@ -117,6 +117,24 @@ def main():
         head + "\n".join(riga(v) for v in regs) + "\n</table>",
         "",
     ]
+    rit = DOCS.parent / "tools" / "ritirati.csv"
+    if rit.exists():
+        import csv
+        with open(rit, encoding="utf-8") as f:
+            righe = list(csv.DictReader(f))
+        out += [
+            f"## Documenti ritirati o uniti ({len(righe)})",
+            "",
+            "Documenti tolti dal Sistema di Gestione (PR08.1, conservazione e successive disposizioni). "
+            "Il testo resta nella cronologia del repository; l'elenco è in `tools/ritirati.csv`.",
+            "",
+            "<table>\n<tr><th>Codice</th><th>Titolo</th><th>Data</th><th>Esito</th><th>Sostituito da</th><th>Motivo</th></tr>\n"
+            + "\n".join(
+                "<tr>" + "".join(f"<td>{html.escape(r[k])}</td>" for k in ("codice", "titolo", "data", "esito", "sostituito_da", "motivo")) + "</tr>"
+                for r in righe)
+            + "\n</table>",
+            "",
+        ]
     OUT.write_text("\n".join(out), encoding="utf-8")
     print(f"Generato {OUT.relative_to(DOCS.parent)}: {len(docs)} documenti, {len(regs)} registrazioni")
 

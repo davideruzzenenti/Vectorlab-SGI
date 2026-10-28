@@ -2,7 +2,6 @@
 
 ## Documenti
 
-- [ALPR23.2.A - Report Monitoraggio Minacce](ALPR23.2.A%20-%20Report%20Monitoraggio%20Minacce.md)
 - [MDPR23.1.A - Piano di Gestione delle Vulnerabilità Tecniche [progetto]](MDPR23.1.A%20-%20Piano%20di%20Gestione%20delle%20Vulnerabilit%C3%A0%20Tecniche%20%5Bprogetto%5D.md)
 - [MDPR23.2.A - Monitoraggio delle minacce_20260727](MDPR23.2.A%20-%20Monitoraggio%20delle%20minacce_20260727.md)
 - [MDPR23.2.A - Monitoraggio delle minacce_template](MDPR23.2.A%20-%20Monitoraggio%20delle%20minacce_template.md)

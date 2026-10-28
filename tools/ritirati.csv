@@ -1,0 +1,42 @@
+codice,titolo,data,esito,sostituito_da,motivo
+ALPO20.A,Piano di Capacità,28/10/2026,Ritirato,PR32.1,Piano di capacità basato su infrastruttura AWS non in uso
+ALPR05.1.A,Comunicazione RLS interno,28/10/2026,Ritirato,MDPO29.C,Elezione RLS: adempimento D.Lgs. 81/2008 gestito fuori dal SGI
+ALPR05.1.B,Verbale elezione RLS,28/10/2026,Ritirato,MDPO29.C,Elezione RLS: adempimento D.Lgs. 81/2008 gestito fuori dal SGI
+ALPR05.1.C,Nomina RLS,28/10/2026,Ritirato,MDPO29.C,Elezione RLS: adempimento D.Lgs. 81/2008 gestito fuori dal SGI
+ALPR05.1.D,Scheda voto RLS,28/10/2026,Ritirato,MDPO29.C,Elezione RLS: adempimento D.Lgs. 81/2008 gestito fuori dal SGI
+ALPR23.2.A,Report Monitoraggio Minacce,28/10/2026,Unito,MDPR23.2.A,Doppione del registro di monitoraggio delle minacce
+ALPR24.1.A,Schema_Rete_esempio,28/10/2026,Ritirato,Schema ICT,Schema di esempio del modello; sostituito dallo schema ICT reale
+ALPR24.1.B,Schema Infrastruttura-esempio,28/10/2026,Ritirato,Schema ICT,Schema di esempio del modello; sostituito dallo schema ICT reale
+MDPR05.1.B,Rimborso Spese Trasferta,28/10/2026,Ritirato,,"Modulo amministrativo, non richiesto dal SGI"
+MDPR05.1.D,Questionario Informativo,28/10/2026,Ritirato,MDPR06.1.E,Questionario di colloquio sproporzionato; competenze registrate nella griglia
+MDPR05.1.M,Anagrafica Dipendenti,28/10/2026,Ritirato,,"Strumento HR con dati personali, tenuto fuori dal repository"
+MDPR05.1.S,Consegna Chiavi,28/10/2026,Unito,MDPR05.1.U,Consegna chiavi registrata nel registro unico
+MDPR05.1.T,Restituzione Chiavi,28/10/2026,Unito,MDPR05.1.U,Restituzione chiavi registrata nel registro unico
+MDPR06.1.B,Scheda personale della formazione,28/10/2026,Ritirato,Lista ClickUp Consapevolezza e formazione,Formazione registrata nella lista ClickUp «Consapevolezza e formazione»
+MDPR06.1.D,Modulo partecipanti,28/10/2026,Ritirato,Lista ClickUp Consapevolezza e formazione,Partecipanti registrati nella lista ClickUp «Consapevolezza e formazione»
+MDPR08.1.B,PO num - titolo,28/10/2026,Ritirato,PR08.1,Modello Word superato: i documenti si scrivono in Markdown
+MDPR08.1.C,PR num - titolo,28/10/2026,Ritirato,PR08.1,Modello Word superato: i documenti si scrivono in Markdown
+MDPR08.1.D,MD num - titolo - formato EXCEL,28/10/2026,Ritirato,PR08.1,Modello Word/Excel superato: i documenti si scrivono in Markdown
+MDPR08.1.D,MD num - titolo - formato WORD,28/10/2026,Ritirato,PR08.1,Modello Word/Excel superato: i documenti si scrivono in Markdown
+MDPR08.1.E,Regolamento xxxx,28/10/2026,Ritirato,PR08.1,Modello Word superato: i documenti si scrivono in Markdown
+MDPR08.1.F,AL num - titolo - formato WORD,28/10/2026,Ritirato,PR08.1,Modello Word/PowerPoint superato: i documenti si scrivono in Markdown
+MDPR08.1.F,AL num - titolo - formato POWER POINT,28/10/2026,Ritirato,PR08.1,Modello Word/PowerPoint superato: i documenti si scrivono in Markdown
+MDPR10.1.A,Questionario Soddisfazione Cliente,28/10/2026,Ritirato,PR35.1,Questionario sostituito dal form di fine commessa (PR35.1); risolto il codice doppio
+MDPR11.1.C,Piano di Audit Tecnici,28/10/2026,Unito,MDPR11.1.A,Verifiche tecniche spostate nel programma di audit (§6)
+MDPR11.1.N,Checklist Audit DPO,28/10/2026,Ritirato,,Nessun DPO nominato
+MDPR18.1.B,Registro accessi CED,28/10/2026,Ritirato,PR18.1,Nessun CED presso la sede
+MDPR18.1.F,Locandina emergenza,28/10/2026,Ritirato,,Documento D.Lgs. 81/2008 gestito fuori dal SGI
+MDPR18.1.H,Piano di emergenza ed evacuazione,28/10/2026,Ritirato,,Documento D.Lgs. 81/2008 gestito fuori dal SGI
+MDPR21.1.B,Richiesta Restore,28/10/2026,Ritirato,PR21.1,Richiesta di ripristino via mail o task ClickUp
+MDPR26.1.A,Monitoraggio fornitori,28/10/2026,Unito,MDPR26.1.B,Criteri di valutazione spostati nell'elenco fornitori (§6)
+MDPR26.1.C,Report consuntivazione attività periodo di riferimento,28/10/2026,Ritirato,,"Controllo amministrativo, non richiesto dal SGI"
+MDPR32.1.A,Template di Configurazione di Base SWITCH,28/10/2026,Ritirato,PR32.1 + REG01,Modelli di configurazione di apparati non presenti; configurazione nel repository Ansible e in REG01 §3
+MDPR32.1.A,Template di Configurazione di Base ROUTER,28/10/2026,Ritirato,PR32.1 + REG01,Modelli di configurazione di apparati non presenti; configurazione nel repository Ansible e in REG01 §3
+MDPR32.1.A,Template di Configurazione di Base PC,28/10/2026,Ritirato,PR32.1 + REG01,Modelli di configurazione di apparati non presenti; configurazione nel repository Ansible e in REG01 §3
+MDPR32.1.A,Template di Configurazione di Base FIREWALL,28/10/2026,Ritirato,PR32.1 + REG01,Modelli di configurazione di apparati non presenti; configurazione nel repository Ansible e in REG01 §3
+MDPR33.1.A,Report Analisi dei Rischi,28/10/2026,Ritirato,MDPR33.1.A (B_REGISTRAZIONI 2026),Doppione vuoto del report 2026 in B_REGISTRAZIONI
+MDPR33.1.B,Piano di Trattamento dei Rischi,28/10/2026,Ritirato,MDPR33.1.B (B_REGISTRAZIONI 2026),Doppione vuoto del piano 2026 in B_REGISTRAZIONI
+PO27,Gestione Eventi e Incidenti,28/10/2026,Unito,PR27.1,Contenuto già in PR27.1
+PO30,Privacy by Design e by Default,28/10/2026,Unito,PO31,Contenuto riportato in PO31 (art. 25 GDPR)
+PR29,Gestione Verifiche Ispettive,28/10/2026,Ritirato,PO29,Gestione delle ispezioni ridotta a PO29
+PR33.1.1,Analisi Rischi e Opportunità,28/10/2026,Unito,PR33.1,Contenuto riportato in PR33.1

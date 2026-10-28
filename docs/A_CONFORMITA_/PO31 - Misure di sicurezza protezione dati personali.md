@@ -10,6 +10,7 @@
 | 0.0      | 24/04/2026 | Prima emissione | CISO        | DPO           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito lo status del DPO rispetto al Referente Privacy, in assenza di un obbligo di designazione ex art. 37 GDPR | CISO        | Amministratore Unico |
 | 0.2      | 26/10/2026 | Formazione: informativa ai dipendenti e presa visione tramite il pacchetto ALPR05.1.H e la lista ClickUp «Consapevolezza e formazione» (PR05.1); consegna delle altre informative secondo ALPR31.2.B–G | RSGI        | Da approvare |
+| 0.3      | 28/10/2026 | Privacy by design e by default (art. 25 GDPR) riportata qui in sintesi: PO30 unita a questa politica e ritirata | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -52,8 +53,6 @@ trattamento di dati personali.
 > MDPR31.4.A - Registro trattamenti Titolare
 
 > MDPR31.4.B - Registro trattamenti Responsabile
-
-> PO30 - Privacy by design e by default
 
 > PR27.1 - Gestione Data Breach
 
@@ -362,8 +361,8 @@ dati personali, in Vectorlab avviene attraverso:
 
 Alcune politiche e procedure sono definite per regolamentare e
 descrivere specifici aspetti di protezione dei dati personali richiesti
-dal GDPR, come il principio di *privacy by design e by default* (cfr.
-“*PO30* - *Privacy by design e by default*”), la gestione dei diritti
+dal GDPR, come il principio di *privacy by design e by default* (§
+«Misure tecniche» e “*PR31.3* - *Valutazione d'impatto*”), la gestione dei diritti
 e dei consensi degli interessati (cfr. “*PR31.1* - *Gestione dei diritti
 degli interessati*” e “*PR31.2* - *Gestione dei consensi*”), la stesura
 ed il mantenimento dei Registri dei trattamenti (cfr. “*MDPR31.4.A* -
@@ -496,11 +495,13 @@ tratta, pertanto, di un vero e proprio approccio, come quello orientato
 al rischio, che l’Azienda deve tenere affinché possa essere attuata e
 dimostrata la protezione dei dati.
 
-Nel documento “*PO30* - *Privacy by design e by default*” si delineano
-le linee guida per la protezione dei dati personali sin dalle prime fasi
-di progettazione di un nuovo processo, prodotto o servizio prendendo in
-considerazione tutti i requisiti di sicurezza applicabili e limitando il
-trattamento e l’accesso ai soli dati necessari.
+Per ogni nuovo processo, prodotto o servizio che tratta dati personali
+(art. 25 GDPR) si considerano fin dalla progettazione i requisiti di
+sicurezza applicabili e si limitano trattamento e accessi ai soli dati
+necessari: chi progetta valuta la necessità di una DPIA secondo
+“*PR31.3*”, sceglie impostazioni predefinite che raccolgono il minimo
+dei dati, li conserva per i tempi di MDPO15.A e documenta le scelte nei
+requisiti del progetto (PO25).
 
 Nel rispetto di tali principi, sanciti dal GDPR, nel seguito si citano
 alcune tra le misure di sicurezza tecniche implementate da Vectorlab per

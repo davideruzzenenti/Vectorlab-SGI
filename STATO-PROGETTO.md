@@ -206,6 +206,25 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 
 - **PR35.1 rev 0.2 (27/10)**: allineata a PR09.1 (offerta firmata dal CTO; le clausole su riservatezza, proprietà intellettuale e dati personali non sono più date per presenti, restano «DA COMPLETARE»), a REG01 (portatili Vectorlab) e a PR27.1 (incidenti a sicurezza@). Resta aperto l'elenco degli strumenti di IA autorizzati (§2.3).
 
+## Triage dei documenti (28/10/2026)
+
+- Verificato sui testi UNI: la 27001 (7.5.1) e la 9001 chiedono pochi documenti obbligatori; il resto è a scelta dell'organizzazione, proporzionato alle dimensioni. Un documento si può ritirare se la SoA viene aggiornata, i rimandi corretti e le registrazioni conservate.
+- Triage di tutti i 172 file del repo (documento «Triage documenti SGI» tra gli artifact): 81 tenere, 16 riscrivere, 13 compilare, 25 unire, 31 ritirare (−26% di righe). Ritiri e unioni approvati da Davide il 28/10; Nextage avvisata.
+- Esame di verifica: requisiti obbligatori 27001/9001 tutti coperti; 51 controlli SoA da riallineare (+3 errori già presenti: 5.8 senza documenti, 5.31 senza MDPO29.C, 6.6 senza NDA); 34 documenti con rimandi da correggere; nessuna registrazione reale nei documenti da ritirare.
+- **Lacuna**: MDPR33.1.D (rischi e opportunità per la qualità, ISO 9001 6.1) è vuoto e non c'è altra analisi: da fare prima dell'audit.
+- Da decidere con Nextage: applicabilità di 9001 7.1.5 e 8.3 (PO02 §4.4 dichiara tutto applicabile).
+
+### Ritiri e unioni applicati (28/10/2026)
+
+- Ritirati o uniti **41 documenti** (53 file). Elenco con motivo e documento sostitutivo in `tools/ritirati.csv`; `genera_elenco.py` lo riporta in fondo a MDPR08.1.A («Documenti ritirati o uniti»). Le versioni precedenti restano nella cronologia git (evidenza per 7.5.3).
+- Contenuti assorbiti: PR33.1 rev 0.2 (rischi e opportunità ISO 9001, da PR33.1.1); MDPR11.1.A §6 «Verifiche tecniche periodiche» (da MDPR11.1.C); MDPR26.1.B §6 «Valutazione annuale» (da MDPR26.1.A); PO31 privacy by design art. 25 (da PO30); registro chiavi unico MDPR05.1.U (da MDPR05.1.S/T); PR08.1 senza modelli Word/Excel.
+- Rimandi corretti in REG01, PR18.1 (rev 0.3), PR11.1, PR12.1, PR08.1, PR27.1, MDPR05.1.V, ALPR26.1.D, MDPO29.C, PO31. I rimandi nei documenti da riscrivere si correggono alla riscrittura.
+- **MDPR18.1.D** (registro visitatori) tenuto: l'ipotesi che lo gestisse il condominio non era verificata. Emergenza ed evacuazione: documenti D.Lgs. 81 seguiti dal consulente sicurezza, fuori dal SGI.
+- ALPR05.1.E rev 0.1: giornate di lavoro agile non fisse, concordate di settimana in settimana con il PM o la Direzione.
+- Rinviati: REG02 (regolamento disciplinare) e PR04.1, da decidere se escluderli dal SGI.
+- Dashboard: PO25 e PR20.1 declassati a «da rifare»; righe dei documenti ritirati tolte.
+- Prossimo: riscritture P1 (PR16.1, PR32.1, PR26.1, PR10.1, PR05.1, PO25) e compilazione di MDPR33.1.D con Andrea; riallineamento SoA (54 controlli) con Nextage.
+
 ## Cose da sapere / limiti noti
 
 - **Qualità conversione Excel**: fogli semplici (liste, registri) vengono puliti; fogli con layout complesso (es. copertina della SOA) restano leggibili ma non identici all'originale — limite fisiologico di qualunque conversione tabella libera → tabella strutturata. Originali sempre disponibili come fallback.

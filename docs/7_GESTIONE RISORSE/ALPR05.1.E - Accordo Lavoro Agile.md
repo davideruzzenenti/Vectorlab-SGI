@@ -4,6 +4,13 @@
 
 **(Artt. 18 e ss., L. n. 81/2017)**
 
+### Revisioni
+
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0      | 24/04/2026 | Prima emissione (modello) | HR | Amministratore Unico |
+| 0.1      | 28/10/2026 | Art. 2: giornate di lavoro agile non fisse, concordate di settimana in settimana con il PM o la Direzione (al posto di «massimo X giorni»); aggiunta la tabella delle revisioni | RSGI | Da approvare |
+
 Tra
 
 Vectorlab S.rl. con sede in Piazza Borgo Pila 39/22, 16129 – Genova,
@@ -66,13 +73,11 @@ di tale accordo.
 
 **Art. 2 - Svolgimento del rapporto**
 
-Al fine di assicurare il principio della prevalenza della prestazione in
-presenza sarà possibile svolgere attività lavorativa in modalità agile
-per un massimo di X giorni alla settimana (intere giornate).
-
-È possibile svolgere lavoro agile anche a mezza giornata (almeno 4 ore)
-previo accordi specifici tra il lavoratore e il responsabile di area o
-la Direzione.
+Le giornate di lavoro agile non sono fisse: si concordano di settimana
+in settimana con il PM o con la Direzione, in base alle esigenze del
+progetto e del cliente (per esempio giornate di presenza richieste dal
+cliente o riunioni in sede). È possibile svolgere lavoro agile anche a
+mezza giornata (almeno 4 ore).
 
 Al fine di consentire all'Azienda di organizzare l'attività lavorativa
 senza alcun pregiudizio della normale operatività si richiede di
@@ -93,10 +98,7 @@ rilevanti di natura collettiva correlati alla tutela della continuità
 operativa della società, alla garanzia del servizio al cliente, nonché
 alla sicurezza dei lavoratori.
 
-Il mancato uso delle giornate di lavoro agile all'interno del mese non è
-differibile il mese successivo mentre è gestibile nelle successive
-settimane del mese corrente qualora, per situazioni particolari, queste
-non venissero godute.
+
 
 Per lo svolgimento della prestazione in modalità lavoro agile al di
 fuori dalla abituale sede di lavoro presso

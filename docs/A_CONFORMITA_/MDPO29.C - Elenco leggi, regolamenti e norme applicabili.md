@@ -6,6 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 20/10/2026 | Prima emissione: sostituisce il foglio «Compliance» del vecchio elenco Excel MDPR08.1.A (riferimenti superati: ISO/IEC 27001:2013, ISO 9001:2015, ISO/IEC 27002:2017); aggiunte le norme su intelligenza artificiale, cybersicurezza dei prodotti, lavoro agile, trasferimenti di dati extra UE | RSGI | Da approvare |
 | 0.1      | 22/10/2026 | Cyber Resilience Act: da «non applicabile» a «da valutare» per i prodotti della unit Vectorlab, esclusi dal campo di applicazione; ISO 9001: indicata la 2015 come norma di certificazione RINA | RSGI | Da approvare |
+| 0.2      | 28/10/2026 | Rimando a PR33.1.1 sostituito da PR33.1 (unite) | RSGI        | Da approvare |
 
 ## 1 Scopo e uso
 
@@ -77,6 +78,6 @@ nell'offerta (PR09.1, PR26.1).
 | UNI CEI EN ISO/IEC 27001:2024 + A1:2024 | Sistema di gestione per la sicurezza delle informazioni | Applicabile (certificazione) | Intero SGI, SoA | RSGI |
 | ISO 9001:2026 (certificazione RINA sulla ISO 9001:2015, transizione alla prima ricertificazione) | Sistema di gestione per la qualità | Applicabile (certificazione) | Intero SGI | RSGI |
 | ISO/IEC 27002:2022 | Linee guida per i controlli di sicurezza | Riferimento per i controlli dell'Annex A | SoA | CISO |
-| ISO/IEC 27005:2022 e ISO 31000:2018 | Gestione del rischio | Riferimento per la metodologia | PR33.1, PR33.1.1 | CISO |
+| ISO/IEC 27005:2022 e ISO 31000:2018 | Gestione del rischio | Riferimento per la metodologia | PR33.1 | CISO |
 | ISO 19011:2018 | Linee guida per gli audit dei sistemi di gestione | Riferimento per gli audit interni | PR11.1 | RSGI |
 | OWASP ASVS | Requisiti di verifica della sicurezza delle applicazioni | Riferimento per lo sviluppo sicuro | PO25, MDPO25.A | CTO |

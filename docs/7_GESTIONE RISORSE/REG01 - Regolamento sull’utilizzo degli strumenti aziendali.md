@@ -163,7 +163,7 @@ gestione segue PR27.1.
   vista, schermo bloccato quando ci si allontana.
 - Gli ospiti sono accompagnati e non usano i portatili aziendali.
 - Le chiavi della sede sono personali; consegna e restituzione
-  secondo MDPR05.1.S e MDPR05.1.T.
+  nel registro MDPR05.1.U.
 - I documenti cartacei riservati si distruggono, non si buttano interi.
 - [DA CONFERMARE con l'IT: rete Wi-Fi dell'ufficio (rete ospiti
   separata o no) e stampante.]

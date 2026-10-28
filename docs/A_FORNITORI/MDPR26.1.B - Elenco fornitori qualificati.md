@@ -6,6 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione (modello vuoto) | RSGI | Amministratore Unico |
 | 0.1      | 20/10/2026 | Prima compilazione: fornitori che svolgono attività e processi per conto di Vectorlab nel campo di applicazione del SGI (elenco delle attività svolte presso terzi), ricavati dall'anagrafica fornitori amministrativa e dall'inventario degli asset. Stato di qualifica e accordi da verificare; voce Aruba aggiornata con le informazioni dell'IT esterno (server dedicato) | RSGI | Da approvare |
+| 0.2      | 28/10/2026 | Aggiunta la §6 «Valutazione annuale» con i criteri Q, T, S: sostituisce il modulo MDPR26.1.A, ritirato | RSGI        | Da approvare |
 
 ## 1 Scopo
 
@@ -87,3 +88,26 @@ con il supporto di RSGI, completa:
 
 Il registro è riesaminato almeno una volta l'anno e a ogni nuovo
 fornitore critico.
+
+## 6 Valutazione annuale
+
+Sostituisce il vecchio modulo MDPR26.1.A. Una volta l'anno, prima del
+Riesame della Direzione, l'Amministrazione con RSGI valuta ogni
+fornitore critico con tre voti da 1 a 10:
+
+- **Q** – qualità e affidabilità del servizio (disservizi, errori, supporto);
+- **T** – rispetto dei tempi e degli impegni;
+- **S** – rispetto dei requisiti di sicurezza e, per i responsabili del
+  trattamento, degli obblighi dell'art. 28 GDPR (6 se non ci sono
+  requisiti di sicurezza da verificare).
+
+Esito sulla media: 7 o più **qualificato**; da 5 a 6,9 **sotto
+osservazione**, con un'azione nella lista «Non conformità e
+miglioramento»; sotto 5 **non qualificato**, da sostituire o da
+gestire come rischio. Un incidente o una NC causata dal fornitore si
+annota nella valutazione dell'anno.
+
+| # | Fornitore | Data | Q | T | S | Media | Esito | Note e riferimenti (NC, incidenti) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | | |
+
