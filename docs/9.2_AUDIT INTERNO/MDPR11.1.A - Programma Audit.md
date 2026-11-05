@@ -8,6 +8,7 @@
 | 0.1      | 20/10/2026 | Programma triennale 2026–2028 compilato: aree reali di Vectorlab al posto di «Area XXXX», auditor, date, criteri e metodo; rimossi i riferimenti a UNI/PdR 125 (non adottata) e al DPO (non nominato, sostituito dal Referente Privacy) | RSGI | Da approvare |
 | 0.2      | 22/10/2026 | Tolta l'area «Progetti di ricerca e innovazione», esclusa dal campo di applicazione; criteri: ISO 9001:2015 come norma di certificazione | RSGI | Da approvare |
 | 0.3      | 28/10/2026 | Aggiunta la §6 «Verifiche tecniche periodiche» con le verifiche reali: sostituisce il piano MDPR11.1.C, ritirato | RSGI        | Da approvare |
+| 0.4      | 05/11/2026 | Audit 2026 fissato al 24–25 novembre con due auditor Nextage (mail di Micaela Leone del 02/11/2026); durata 2026 aggiornata a circa 4 giorni/uomo; stage 1 RINA confermato al 15/12/2026 | RSGI        | Da approvare |
 
 ## 1 Impostazione del programma
 
@@ -17,16 +18,16 @@
 | Tipo di audit | Audit interno di prima parte sul Sistema di Gestione Integrato (ISO 9001 + ISO/IEC 27001) |
 | Criteri | ISO 9001:2015 (norma di certificazione) e ISO 9001:2026 (su cui è impostato il sistema); UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di MDPO29.C; requisiti contrattuali dei clienti |
 | Metodo | Interviste, esame di documenti e registrazioni, verifica a campione delle evidenze negli strumenti (repository, ClickUp, Google Workspace, console dei servizi cloud); checklist MDPR11.1.D (27001) e MDPR11.1.L (9001). In presenza in sede, con parti da remoto se concordato |
-| Auditor | Auditor esterno qualificato secondo PR11.1 §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: [DA CONFERMARE: nominativo; consigliato un auditor Nextage non coinvolto nella redazione della documentazione] |
+| Auditor | Auditor esterno qualificato secondo PR11.1 §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: due auditor Nextage (Nextage, mail del 02/11/2026) [DA CONFERMARE: nominativi e qualifiche; non devono essere le persone che hanno redatto la documentazione] |
 | Siti | Unico sito: Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo di applicazione (PO02 §4) |
-| Durata stimata | 2 giorni/uomo all'anno (organizzazione di circa 10 persone, sistema integrato su un sito) |
+| Durata stimata | 2026: 2 giornate con 2 auditor, circa 4 giorni/uomo (primo audit, copertura completa). Dal 2027: circa 2 giorni/uomo all'anno (organizzazione di circa 10 persone, sistema integrato su un sito) |
 | Esiti | Piano e report in MDPR11.1.B; non conformità e azioni secondo PR13.1; risultati riportati nel Riesame della Direzione (PR12.1) |
 
 ## 2 Calendario
 
 | Anno | Periodo | Copertura | Note |
 | --- | --- | --- | --- |
-| 2026 | Settimana del 23–27 novembre 2026 [DA CONFERMARE] | **Completa**: tutti i requisiti 4–10 di entrambe le norme e tutti i controlli applicabili dell'Annex A | Primo audit, prima della certificazione: deve chiudersi in tempo per il Riesame della Direzione e lo stage 1 RINA (metà dicembre 2026) |
+| 2026 | 24–25 novembre 2026 | **Completa**: tutti i requisiti 4–10 di entrambe le norme e tutti i controlli applicabili dell'Annex A | Primo audit, prima della certificazione: deve chiudersi in tempo per il Riesame della Direzione e lo stage 1 RINA (15 dicembre 2026) |
 | 2027 | Ottobre 2027 | Requisiti 4–10 completi + temi dell'Annex A marcati «2027» o «Ogni anno» | Prima della sorveglianza RINA |
 | 2028 | Ottobre 2028 | Requisiti 4–10 completi + temi dell'Annex A marcati «2028» o «Ogni anno» | Prima del rinnovo |
 
