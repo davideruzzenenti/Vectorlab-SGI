@@ -6,6 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0      | 24/04/2026 | Prima emissione (modello) | CISO | CEO |
 | 0.1      | 27/10/2026 | Riscritto sugli strumenti reali: portatili forniti da Vectorlab con 4 requisiti minimi verificati da ciascuno in autonomia, account aziendali con verifica in due passaggi, Bitwarden, regole su dati e codice dei clienti, segnalazioni a sicurezza@. Tolti i riferimenti a strumenti inesistenti (ticketing, firewall con filtri, NAS, VPN, sfondi); uscita allineata a PR05.1 (casella 6 mesi) | RSGI | Da approvare |
+| 0.2      | 28/10/2026 | Aggiunta la §11 «Violazioni e processo disciplinare» (ISO/IEC 27001 A.6.4), che sostituisce REG02, ritirato | RSGI | Da approvare |
 
 ## 1 Scopo e destinatari
 
@@ -185,22 +186,47 @@ l'informativa ai dipendenti è *ALPR31.2.A*.
 L'accesso alla casella di una persona assente o uscita segue PR05.1
 («Casella email e account Google Workspace»).
 
-Le violazioni del regolamento possono avere conseguenze disciplinari
-secondo il contratto collettivo applicato (REG02).
+## 11 Violazioni e processo disciplinare
 
-## 11 Riferimenti alle norme
+Una violazione di questo regolamento, delle politiche e delle
+procedure del sistema di gestione è trattata così:
+
+1. **Segnalazione.** Chiunque se ne accorga la segnala a RSGI o a
+   sicurezza@vectorlab-cg.com. Le violazioni emergono anche da audit,
+   incidenti (PR27.1) e controlli dell'IT.
+2. **Prima di tutto la sicurezza.** Se serve, l'IT sospende subito
+   gli accessi interessati e mette al sicuro le informazioni; l'evento
+   si registra nella lista ClickUp «Non conformità e miglioramento»
+   (PR13.1).
+3. **Valutazione.** L'Amministratore Unico, con RSGI, valuta i fatti,
+   la gravità, l'intenzionalità e se la violazione si è ripetuta.
+   Un errore in buona fede segnalato subito si gestisce con
+   formazione e azioni correttive, non con sanzioni.
+4. **Dipendenti.** Le sanzioni sono quelle del codice disciplinare
+   del contratto collettivo applicato, affisso in ufficio, nel
+   rispetto dell'art. 7 della L. 300/1970: contestazione scritta,
+   almeno 5 giorni per le difese, poi la decisione.
+5. **Collaboratori, IT esterno e fornitori.** Si applicano le
+   conseguenze previste dal contratto (fino alla risoluzione) e la
+   revoca degli accessi.
+6. **Registrazione.** Il procedimento si registra nel modulo
+   *MDPR05.1.H - Processo Disciplinare*, conservato in modo riservato.
+
+## 12 Riferimenti alle norme
 
 | Requisito | Dove nel regolamento |
 | --- | --- |
 | ISO/IEC 27001:2022, A.5.10 Utilizzo accettabile delle informazioni e degli altri asset associati | §5, §6, §7 |
 | ISO/IEC 27001:2022, A.5.17 Informazioni di autenticazione | §2 |
 | ISO/IEC 27001:2022, A.6.7 Lavoro da remoto | §3, §4 |
+| ISO/IEC 27001:2022, A.6.4 Processo disciplinare | §11 |
 | ISO/IEC 27001:2022, A.6.8 Segnalazione degli eventi relativi alla sicurezza delle informazioni | §8 |
 | ISO/IEC 27001:2022, A.7.7 Scrivania pulita e schermo pulito | §3, §9 |
 | ISO/IEC 27001:2022, A.7.9 Sicurezza degli asset all'esterno delle sedi | §3 |
 | ISO/IEC 27001:2022, A.8.1 Dispositivi terminali degli utenti | §3, §4 |
 | ISO/IEC 27001:2022, A.8.7 Protezione contro il malware | §3 |
 | L. 300/1970, art. 4; Regolamento UE 2016/679 | §10 |
+| L. 300/1970, art. 7 | §11 |
 
 I titoli dei controlli sono da verificare sul testo UNI CEI EN ISO/IEC
 27001:2024+A1:2024.

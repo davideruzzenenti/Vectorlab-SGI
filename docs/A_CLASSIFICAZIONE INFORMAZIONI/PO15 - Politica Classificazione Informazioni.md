@@ -9,6 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
 | 0.1      | 16/07/2026 | Revisione assistita da IA: rimosso un placeholder non risolto | RSGI        | Amministratore Unico |
+| 0.2      | 28/10/2026 | Rimandi a REG02 sostituiti con REG01 | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -79,7 +80,7 @@ dovere di agire in conformità con quanto definito in questo documento.
 
 > PR33.1 - Processo Analisi del Rischio e Trattamento
 
-> *REG02 - Regolamento comportamentale personale*
+> *REG01 - Regolamento sull’utilizzo degli strumenti aziendali*
 
 > SOA - Statement of Applicability - Dichiarazione di Applicabilità.
 
@@ -658,7 +659,7 @@ esigenze di business e con i requisiti di legge applicabili.
 
 Chiunque entri in possesso di informazioni di cui non è il reale
 destinatario è chiamato ad attenersi alle norme comportamentali definite
-nel “*REG02 -* *Regolamento comportamentale personale”* (dipendenti) e
+nel “*REG01 - Regolamento sull’utilizzo degli strumenti aziendali*” (dipendenti e collaboratori) e
 nelle clausole contrattuali (Terze Parti).
 
 # Gestione delle Informazioni e dei Dati Classificati secondo Criticità

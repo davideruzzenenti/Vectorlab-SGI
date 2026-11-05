@@ -7,6 +7,7 @@
 | 0.0      | 20/10/2026 | Prima emissione: sostituisce il foglio «Compliance» del vecchio elenco Excel MDPR08.1.A (riferimenti superati: ISO/IEC 27001:2013, ISO 9001:2015, ISO/IEC 27002:2017); aggiunte le norme su intelligenza artificiale, cybersicurezza dei prodotti, lavoro agile, trasferimenti di dati extra UE | RSGI | Da approvare |
 | 0.1      | 22/10/2026 | Cyber Resilience Act: da «non applicabile» a «da valutare» per i prodotti della unit Vectorlab, esclusi dal campo di applicazione; ISO 9001: indicata la 2015 come norma di certificazione RINA | RSGI | Da approvare |
 | 0.2      | 28/10/2026 | Rimando a PR33.1.1 sostituito da PR33.1 (unite) | RSGI        | Da approvare |
+| 0.3      | 28/10/2026 | L. 300/1970 art. 7 (processo disciplinare) con rimando a REG01 §11; tolti REG02 e PR04.1 (ritirati) | RSGI        | Da approvare |
 
 ## 1 Scopo e uso
 
@@ -44,7 +45,7 @@ nell'offerta (PR09.1, PR26.1).
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
 | [D.Lgs. 81/2008 – Testo unico salute e sicurezza](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81) | Valutazione dei rischi, RSPP, RLS, formazione, emergenze | Applicabile | DVR (gestito da RSPP), PR18.1, MDPR18.1.*, ALPR05.1.A–D | RSPP |
-| [L. 300/1970 – Statuto dei lavoratori](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300), in particolare art. 4 | Limiti ai controlli a distanza sui lavoratori tramite strumenti informatici | Applicabile | REG01, REG02, ALPR31.2.A | HR |
+| [L. 300/1970 – Statuto dei lavoratori](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300), in particolare artt. 4 e 7 | Limiti ai controlli a distanza sui lavoratori tramite strumenti informatici (art. 4); procedimento disciplinare e affissione del codice disciplinare (art. 7) | Applicabile | REG01 §10–§11, ALPR31.2.A | HR |
 | [L. 81/2017 – Lavoro agile](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-05-22;81) | Accordo individuale e sicurezza nel lavoro agile | Applicabile | ALPR05.1.E, ALPR05.1.F | HR |
 | [D.Lgs. 24/2023 – Whistleblowing](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-10;24) | Canali di segnalazione degli illeciti | Non applicabile: meno di 50 lavoratori e nessun modello 231 adottato | — | HR |
 
@@ -67,7 +68,7 @@ nell'offerta (PR09.1, PR26.1).
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
 | [L. 633/1941 – Diritto d'autore](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633) | Tutela del software e dei contenuti; uso di licenze | Applicabile (sviluppo software, uso di librerie e software di terzi) | ALPR05.1.G, PO29 §2.2 (licenze), contratti con clienti (PR09.1) | CTO |
-| Codice civile, artt. 2214–2220 | Tenuta e conservazione delle scritture contabili (10 anni) | Applicabile | PR04.1, MDPO15.A | Resp. Amministrazione |
+| Codice civile, artt. 2214–2220 | Tenuta e conservazione delle scritture contabili (10 anni) | Applicabile | MDPO15.A | Resp. Amministrazione |
 | [D.Lgs. 82/2022 – Accessibilità di prodotti e servizi (European Accessibility Act)](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-05-27;82) e [L. 4/2004](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4) | Requisiti di accessibilità per servizi digitali al consumatore e siti della PA | Da valutare: si applica ai prodotti e servizi digitali realizzati per clienti che ricadono nel campo di applicazione (es. e-commerce, PA) | Requisiti di progetto (MDPO25.B) | CTO |
 | [Reg. (UE) 2023/2854 – Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) | Accesso ai dati dei prodotti connessi; passaggio tra fornitori di servizi cloud | Da valutare: solo se Vectorlab fornisce servizi cloud o prodotti connessi | PO40 | CTO |
 

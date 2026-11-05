@@ -16,7 +16,6 @@
 - [PR05.1 - Gestione del personale](PR05.1%20-%20Gestione%20del%20personale.md)
 - [PR06.1 - Gestione delle Performance](PR06.1%20-%20Gestione%20delle%20Performance.md)
 - [REG01 - Regolamento sull’utilizzo degli strumenti aziendali](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md)
-- [REG02 - Regolamento comportamentale del personale](REG02%20-%20Regolamento%20comportamentale%20del%20personale.md)
 
 ## Altri file
 

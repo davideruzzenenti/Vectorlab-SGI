@@ -4,7 +4,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 00       | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.1      | 28/10/2026 | Tolta la riga di REG02 (ritirato) | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -161,13 +161,6 @@
 <td>Regolamento utilizzo strumenti informatici aziendali</td>
 <td>REG01 - Regolamento di utilizzo degli strumenti informatici aziendali</td>
 <td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Regolamento comportamentale personale</td>
-<td>REG02 - Regolamento comportamentale personale</td>
-<td>HR</td>
 <td></td>
 <td></td>
 </tr>

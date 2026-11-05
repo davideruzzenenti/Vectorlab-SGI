@@ -19,6 +19,7 @@
 | 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
 | 0.2      | 20/10/2026 | Sez. 4: campo di applicazione esteso alla Qualità (ISO 9001), allineato al testo della domanda di certificazione RINA, completato con sede, aree, confini e interfacce con terzi ed esclusioni | RSGI        | Da approvare |
 | 0.3      | 22/10/2026 | Sez. 4: campo di applicazione limitato al servizio della business unit Ynsera; escluse la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca, con le interfacce sulle risorse condivise; PR09.1 al posto di PR36.1; processo Innovation & Research segnato come escluso; indicata la ISO 9001:2015 come norma di certificazione RINA | RSGI        | Da approvare |
+| 0.4      | 28/10/2026 | Tolto il rimando a REG02 (ritirato) | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -2388,9 +2389,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>HR – PR05.1 – Gestione del Personale</p>
-</blockquote></li>
-<li><blockquote>
-<p>HR – REG02 – Regolamento comportamentale personale</p>
 </blockquote></li>
 </ul></td>
 </tr>
