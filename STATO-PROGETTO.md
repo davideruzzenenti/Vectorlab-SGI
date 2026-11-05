@@ -221,7 +221,7 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - Rimandi corretti in REG01, PR18.1 (rev 0.3), PR11.1, PR12.1, PR08.1, PR27.1, MDPR05.1.V, ALPR26.1.D, MDPO29.C, PO31. I rimandi nei documenti da riscrivere si correggono alla riscrittura.
 - **MDPR18.1.D** (registro visitatori) tenuto: l'ipotesi che lo gestisse il condominio non era verificata. Emergenza ed evacuazione: documenti D.Lgs. 81 seguiti dal consulente sicurezza, fuori dal SGI.
 - ALPR05.1.E rev 0.1: giornate di lavoro agile non fisse, concordate di settimana in settimana con il PM o la Direzione.
-- Rinviati: REG02 (regolamento disciplinare) e PR04.1, da decidere se escluderli dal SGI.
+- REG02 e PR04.1 ritirati (deciso 28/10): non richiesti dalle norme e pieni di contenuti da modello. Il processo disciplinare richiesto da 27001 A.6.4 è ora in REG01 §11 (rev 0.2), comunicato con la presa visione di ALPR05.1.H; SoA rev 0.5 (6.4 non più «non formalizzato», tolti i rimandi a REG02 e PR04.1, corretto «REGO01» in 5.4). Il processo Amministrazione resta descritto in PO02. Da verificare con il consulente del lavoro: codice disciplinare del contratto collettivo affisso in ufficio (art. 7 L. 300/1970).
 - Dashboard: PO25 e PR20.1 declassati a «da rifare»; righe dei documenti ritirati tolte.
 - Prossimo: riscritture P1 (PR16.1, PR32.1, PR26.1, PR10.1, PR05.1, PO25) e compilazione di MDPR33.1.D con Andrea; riallineamento SoA (54 controlli) con Nextage.
 
@@ -251,3 +251,16 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - [ ] Documenti grafici (21/10/2026): convertire in .md con diagrammi Mermaid ALPO01.A Organigramma, ALPO02.A Contesto e processi, ALPR24.1.A/B Schemi (quando il repo sarà privato), MDPR12.1.A Riesame; piantina ALPR18.1.A come immagine; abilitare Mermaid in `mkdocs.yml`; convertire l'immagine .emf di PR33.1; togliere le 7 immagini inutilizzate di PR08.1; decidere che per i moduli con doppia versione xlsx/md vale il .md
 - [ ] Modello di preventivo Ynsera: aggiungere condizioni generali (riservatezza, proprietà intellettuale, organizzazione del lavoro a cura del PM, dati personali) dopo revisione legale
 - [ ] MDPO15.A: fissare con l'IT la durata dei backup
+
+## Piano di audit MDPR11.1.B (04/11/2026)
+
+Nextage ha chiesto il «template di piano di audit» per l'audit interno di fine novembre. Il file era ancora il modello generico Nextage (rev 0.0, cartella Drive 0_Working). Portato a rev 0.1 «Da approvare» nel .md:
+
+- una sola modalità, per funzione (tolta quella per processo);
+- funzioni reali allineate al programma MDPR11.1.A §3: Direzione, CTO/CISO con IT esterno, RSGI, Business Development, Digital, Amministrazione, HR, Referente Privacy;
+- tolti ISO 27017/27018, DPO, PM, «Area XXXX» e i controlli non applicabili da SoA (A.7.12, A.8.11, A.8.30);
+- aggiunta la sezione dati dell'audit (obiettivi, campo, criteri, metodo, auditor) e il collegamento dei rilievi alla lista ClickUp NC (PR13.1).
+
+Aperto: il .xlsx accanto è ancora il modello Nextage rev 0.0; date, orari e auditor da compilare con Nextage.
+
+Nota (05/11/2026): modifiche fatte il 04/11 in una seconda copia del repo (`OneDrive\Desktop\Conversione ISO`, altro PC) mai committata; riapplicate qui il 05/11. Quella copia va scartata: lavorare solo in `Desktop\Vectorlab-SGI`.
