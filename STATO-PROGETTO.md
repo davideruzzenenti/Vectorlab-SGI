@@ -140,7 +140,7 @@ Metodo deciso da Davide: un documento alla volta, nell'ordine della lista stage 
 
 8. Attività svolte presso terzi: compilato `MDPR26.1.B - Elenco fornitori qualificati` (21 voci dai fornitori del foglio «Elenco Fornitori» del Resoconto Finanziario 2026 e dall'inventario asset), che PR26.1 rev 0.1 indica anche come elenco delle attività presso terzi. Cyber Resilience Act dichiarato non applicabile in MDPO29.C: Vectorlab fa solo consulenza e sviluppo software B2B, non vende prodotti software (Davide, 20/10/2026).
 
-10. Pianificazione audit interni: `MDPR11.1.A` rev 0.1, programma triennale 2026–2028; audit 2026 completo nella settimana 23–27/11 con auditor esterno (da incaricare), Riesame della Direzione entro la prima settimana di dicembre.
+10. Pianificazione audit interni: `MDPR11.1.A` rev 0.1, programma triennale 2026–2028; audit 2026 completo nella settimana 23–27/11 con auditor esterno (da incaricare; poi fissato al 25–26/11, vedi sotto), Riesame della Direzione entro la prima settimana di dicembre.
 
 **In attesa (20/10/2026)**: risposte di Andrei sull'infrastruttura (il server Vectorlab con n8n gira probabilmente su AWS; AWS non compare nell'anagrafica fornitori). Domande nel task ClickUp «ISO». Bloccano il documento 9 (schema ICT) e il completamento di MDPR26.1.B, PR21.1, PR16.1, PR24.1. Serve anche una planimetria o foto dell'ufficio per ALPR18.1.A.
 
@@ -264,3 +264,23 @@ Nextage ha chiesto il «template di piano di audit» per l'audit interno di fine
 Aperto: il .xlsx accanto è ancora il modello Nextage rev 0.0; date, orari e auditor da compilare con Nextage.
 
 Nota (05/11/2026): modifiche fatte il 04/11 in una seconda copia del repo (`OneDrive\Desktop\Conversione ISO`, altro PC) mai committata; riapplicate qui il 05/11. Quella copia va scartata: lavorare solo in `Desktop\Vectorlab-SGI`.
+
+## Piano dell'audit interno I/2026 (11/11/2026)
+
+Mail di Micaela Leone del 10/11/2026 «Piano audit interno»: piano pronto su Drive (*Master › B_REGISTRAZIONI › Audit Interno › Anno 2026 › MDPR11.1.B*), date spostate al **25–26/11/2026**. Il «template su GITLAB da cambiare» della mail significa: portare il piano compilato nel repo (Nextage lavora solo su Drive).
+
+- Nuova registrazione `docs/B_REGISTRAZIONI/Audit Interno/2026/MDPR11.1.B - Piano di Audit e Report - I-2026.md` (rev 0.0, «Da approvare»): trascrizione fedele del file Drive nel formato del modello VectorLab rev 0.1 (verificati tutti i 157 riferimenti all'Annex A). Il modello in `9.2_AUDIT INTERNO` resta invariato; l'Excel di Nextage non entra nel repo.
+- `MDPR11.1.A` rev 0.5: date 25–26/11 e nomi degli auditor (Micaela Leone, Francesca Capuano).
+- Indici `B_REGISTRAZIONI` e `Audit Interno/2026` aggiornati per la navigazione.
+
+Punti aperti sul piano, da chiarire con Nextage (non corretti nella trascrizione):
+
+- include controlli non applicabili da SoA: A.7.12 (sessione IT), A.8.11 (Referente Privacy, IT), A.8.30 (Digital, CTO);
+- il CISO è attribuito sia al CTO (Amministratore Unico) sia a RSGI: va allineato all'organigramma;
+- A.5.1 Politiche per la sicurezza delle informazioni non compare (nel modello VectorLab è nella sessione Direzione);
+- nel file Drive la copertina riporta «Approvato: CDA»;
+- indipendenza degli auditor: MDPR11.1.A §1 esclude chi ha redatto la documentazione.
+
+Da organizzare: Andrei il 25/11 alle 14:00 e il 26/11 dalle 9:30 alle 11:30; uno sviluppatore il 25/11 alle 11:00; chi sono «Resp. BD» e «Resp HR»; Riesame della Direzione tra il 27/11 e l'11/12 (stage 1 il 15/12).
+
+Nota (11/11/2026): la copia `OneDrive\Desktop\Conversione ISO` è stata riallineata a GitHub (stesso commit `6f77e4e`, contenuto identico a meno dei fine riga) ed è quella collegata a Claude su questo PC: la nota del 05/11 che la dava da scartare non vale più.
