@@ -11,9 +11,16 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Rev.</td><td>Data</td><td colspan="2">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificato</td></tr>
 <tr><td>0.0</td><td>24/04/2026</td><td colspan="2">Prima emissione</td><td></td><td></td><td>Interno</td></tr>
+<tr><td>0.1</td><td>11/11/2026</td><td colspan="2">Registrato che al 04/11/2026 Vectorlab non svolge trattamenti come responsabile per conto dei clienti (risposta dell&#x27;Amministrazione)</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Trattamenti
+
+Al 04/11/2026 Vectorlab non svolge trattamenti di dati personali come
+responsabile per conto dei clienti: il software sviluppato e i progetti
+non contengono dati personali gestiti da Vectorlab (risposta
+dell'Amministrazione). Il registro si compila quando un contratto con un
+cliente prevede la nomina a responsabile (art. 28 GDPR; PR09.1).
 
 <table>
 <tr><th></th><th rowspan="2"></th><th rowspan="2" colspan="6">Registro Trattamenti Responsabile</th><th colspan="2">MDPR31.4.B</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>

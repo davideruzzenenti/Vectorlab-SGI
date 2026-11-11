@@ -12,6 +12,7 @@
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarita la corrispondenza tra CDA e Amministratore Unico coerentemente con la forma societaria; arricchita la descrizione aziendale (Sez. 3) | RSGI        | Amministratore Unico |
 | 0.2      | 20/10/2026 | Aggiornate le edizioni delle norme di riferimento (Sez. 1.3 e 5); Sez. 6 allineata al campo di applicazione di PO02 e alla domanda di certificazione RINA; aggiunti gli impegni su obiettivi, requisiti applicabili e miglioramento continuo e le modalità di comunicazione della politica (Sez. 5.1, 7); DPO allineato a PO31; corretti i codici degli allegati | RSGI        | Da approvare |
 | 0.3      | 22/10/2026 | Campo di applicazione limitato al servizio della business unit Ynsera; escluse dal campo la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca (Sez. 3.3, 6); procedura commerciale PR09.1 al posto di PR36.1, mai emessa; tolto il riferimento a PR34.1; indicata la ISO 9001:2015 come norma di certificazione RINA (Sez. 1.3, 5) | RSGI        | Da approvare |
+| 0.4      | 11/11/2026 | Sez. 7: la politica non è pubblicata sul sito ed è resa disponibile alle parti interessate su richiesta (decisione dell'Amministratore Unico, 04/11/2026) | RSGI        | Da approvare |
 
 ## 1 Introduzione
 
@@ -447,5 +448,5 @@ La presente politica è:
     > nell’archivio documentale del Sistema di Gestione Integrato;
 
   - > resa disponibile alle parti interessate (clienti, fornitori,
-    > partner) su richiesta e tramite il sito web aziendale, secondo
+    > partner) su richiesta, secondo
     > MDPO07.A – Piano della Comunicazione.

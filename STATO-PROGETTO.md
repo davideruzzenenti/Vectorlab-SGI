@@ -284,3 +284,24 @@ Punti aperti sul piano, da chiarire con Nextage (non corretti nella trascrizione
 Da organizzare: Andrei il 25/11 alle 14:00 e il 26/11 dalle 9:30 alle 11:30; uno sviluppatore il 25/11 alle 11:00; chi sono «Resp. BD» e «Resp HR»; Riesame della Direzione tra il 27/11 e l'11/12 (stage 1 il 15/12).
 
 Nota (11/11/2026): la copia `OneDrive\Desktop\Conversione ISO` è stata riallineata a GitHub (stesso commit `6f77e4e`, contenuto identico a meno dei fine riga) ed è quella collegata a Claude su questo PC: la nota del 05/11 che la dava da scartare non vale più.
+
+## Risposte di Andrea e Francesco (riunione del 04/11/2026), applicate l'11/11/2026
+
+Fonte: documento Claude «ISO – Domande aperte per Andrea e Francesco (riunione 4/11)». Applicate solo le risposte che sono fatti chiari; ogni documento ha una riga di revisione «Da approvare».
+
+- `PO01` rev 0.4: politica non pubblicata sul sito, disponibile su richiesta (dom. 7).
+- `PO02` rev 0.5 e `PR18.1` rev 0.4: tolto AWS (dom. 28).
+- `REG01` rev 0.3: nessuna app di messaggistica ammessa per il lavoro; nessuna rete Wi-Fi ospiti; nessuna stampante (dom. 11–13).
+- `MDPR26.1.B` rev 0.3: accordi con i fornitori, Aruba, certificati Actalis/GoDaddy, consulenti tecnici, Davide e Francesco tra i fornitori critici (dom. 23–31).
+- `ALPO01.B` rev 0.3: misure compensative approvate dall'Amministratore Unico (dom. 8).
+- `MDPR06.1.C` rev 0.1: piano della formazione 2026–2027 (dom. 20 + obiettivo 5).
+- `MDPR06.1.E` rev 0.2: competenze tecniche del team (dom. 21); livelli da assegnare.
+- `PR19.1` rev 0.1: change come task ClickUp (dom. 17).
+- `PO25` rev 0.1: riscritta in forma breve con le risposte 1–6 del CTO.
+- `MDPR31.4.A` rev 0.1 e `MDPR31.4.B` rev 0.1: registro dei trattamenti come titolare (dom. 36, 40); nessun trattamento come responsabile. Telefono (dom. 37) non inserito finché il repo è pubblico.
+
+Decisioni dell'11/11 sui punti aperti: backup (dom. 16) **lasciato aperto** da Davide: A.8.13 e obiettivo 3 di MDPO03.A restano scoperti, probabile NC all'audit. BIA e continuità (dom. 18–19): **rischio accettato** per tutti i servizi, compresa la perdita definitiva dei dati del server Aruba senza backup; `MDPR28.1.A` rev 0.1 in forma minima e `PR28.1` rev 0.1 (applicazione ridotta, evidenze in B_REGISTRAZIONI); accettazione da approvare da Andrea.
+
+Non applicate, da decidere con Davide (risposte in contrasto con le norme o incomplete): backup «di competenza di Aruba» (dom. 16, lasciato aperto); ruolo GDPR di ABCD Lavoro e Google (dom. 39); A.8.30 con i consulenti esterni su progetti dei clienti (dom. 30–31); misura compensativa sui log (nota di Andrea alla dom. 8); i 29 controlli «solo pianificati» (dom. 10, da Davide); AGID da togliere dalla SoA (dom. 9, in ERA con Nextage); evidenze dei casi già avvenuti (dom. 44); KPI con responsabile Andrea (dom. 22).
+
+Altre decisioni dell'11/11: ruolo GDPR di ABCD Lavoro (dom. 39) **in attesa** dei documenti richiesti allo studio. A.8.30 e consulenti esterni (dom. 30–31): **contratto diretto tra consulente e cliente**, Vectorlab fa solo la parte amministrativa e contabile (Davide, 11/11): A.8.30 resta escluso; motivazione in `MDPR26.1.B` e `PO25` §6, da far riportare da Nextage in ERA (la motivazione attuale della SoA è contraddittoria: «applicabile ma non applicato»). Log (dom. 8): misura resa concreta nel `ALPO01.B` §3, log degli accessi degli amministratori al server conservati 6 mesi e **controllati da RSGI una volta l'anno** (minimo del provv. Garante 27/11/2008). Casi già avvenuti (dom. 44): chiavi, **registro MDPR05.1.U da compilare ora** (Francesco); portatili, aperto (sottotask di presa visione da assegnare); visitatori, **nessun registro, rischio accettato** (`PR18.1` rev 0.4, `PO26` rev 0.1); il modulo `MDPR18.1.E` resta nel repo ma non è più usato: da ritirare in `tools/ritirati.csv` e `MDPR08.1.A` al prossimo triage.

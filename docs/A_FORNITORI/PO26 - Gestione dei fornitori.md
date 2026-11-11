@@ -8,7 +8,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
+| 0.1      | 11/11/2026 | Tolto il registro visitatori MDPR18.1.E, non più usato (PR18.1 rev 0.4): le terze parti in sede sono accompagnate | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -31,7 +31,6 @@ servizio ha un'influenza sulle attività di Vectorlab.
 
 > ALPR26.1.B - Accordo di Riservatezza con le Terze Parti
 
-> MDPR18.1.E - Registro dei Visitatori
 
 > MDPR26.1.B - Elenco fornitori qualificati
 
@@ -254,9 +253,8 @@ il personale si adopererà per fare in modo che vengano eseguite le
 seguenti operazioni per garantire la sicurezza delle informazioni:
 
   - autorizzare l'accesso in base alle reali necessità. In particolare,
-    monitorare qualsiasi accesso ad aree protette e riservate e
-    registrare entrata e uscita nell’apposito registro visitatori
-    “*MDPR18.1.E - Registro dei Visitatori*”;
+    accompagnare le persone esterne per tutta la permanenza in sede
+    (PR18.1);
 
   - verificare, almeno una volta all'anno, gli accessi del personale
     esterno;

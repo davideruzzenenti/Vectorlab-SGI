@@ -20,6 +20,7 @@
 | 0.2      | 20/10/2026 | Sez. 4: campo di applicazione esteso alla Qualità (ISO 9001), allineato al testo della domanda di certificazione RINA, completato con sede, aree, confini e interfacce con terzi ed esclusioni | RSGI        | Da approvare |
 | 0.3      | 22/10/2026 | Sez. 4: campo di applicazione limitato al servizio della business unit Ynsera; escluse la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca, con le interfacce sulle risorse condivise; PR09.1 al posto di PR36.1; processo Innovation & Research segnato come escluso; indicata la ISO 9001:2015 come norma di certificazione RINA | RSGI        | Da approvare |
 | 0.4      | 28/10/2026 | Tolto il rimando a REG02 (ritirato) | RSGI        | Da approvare |
+| 0.5      | 11/11/2026 | §4.3: tolto AWS dai fornitori di servizi cloud (Vectorlab non ha un account AWS: risposta dell'Amministrazione del 04/11/2026) | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
@@ -309,7 +310,7 @@ processi che erogano o supportano questo servizio:
 
 Vectorlab non gestisce sale server proprie: l’infrastruttura di
 sviluppo, collaborazione e produzione è erogata da fornitori di servizi
-cloud (tra cui AWS, Aruba, Google Workspace, GitHub). Questi servizi
+cloud (tra cui Aruba, Google Workspace, GitHub). Questi servizi
 rientrano nel campo di applicazione come attività affidate a terzi: la
 sicurezza fisica e infrastrutturale dei data center è in carico ai
 fornitori, mentre la configurazione, gli accessi e i dati restano in

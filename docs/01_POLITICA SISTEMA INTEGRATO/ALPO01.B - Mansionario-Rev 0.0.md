@@ -11,7 +11,7 @@
 | 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
 | 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito il rapporto CDA/Amministratore Unico; aggiunte le schede RSPP, Referente Privacy e Responsabile di Area, citate in altre procedure ma prive di scheda propria | RSGI        | Amministratore Unico |
 | 0.2      | 20/10/2026 | Sez. 3: aggiunte le misure compensative per i ruoli concentrati sull'Amministratore Unico e per la funzione IT affidata a un professionista esterno; allineamento all'organigramma ALPO01.A rev 0.1 | RSGI        | Da approvare |
-|          |            |                 |             |               |
+| 0.3      | 11/11/2026 | Sez. 3: registrata l'approvazione delle misure compensative da parte dell'Amministratore Unico (riunione del 04/11/2026); misura sui log resa concreta: log degli accessi degli amministratori al server conservati 6 mesi (MDPO15.A) e controllati da RSGI una volta l'anno | RSGI        | Da approvare |
 |          |            |                 |             |               |
 |          |            |                 |             |               |
 
@@ -2392,7 +2392,12 @@ conflitto:
   - > **IT** – colui che compie operazioni di amministrazione del
     > sistema IT da cui i log vengono generati non è lo stesso che
     > provvede alla loro analisi al fine di evitare possibili
-    > alterazioni/manomissioni dei messaggi di log.
+    > alterazioni/manomissioni dei messaggi di log. In pratica: i log
+    > degli accessi degli amministratori al server dedicato Aruba sono
+    > conservati per almeno 6 mesi (MDPO15.A) e RSGI, che non amministra
+    > il server, li controlla una volta l'anno (provv. Garante del
+    > 27/11/2008 sugli amministratori di sistema); l'esito si registra
+    > in un task ClickUp.
 
   - > **Ruoli concentrati sull’Amministratore Unico** (CEO, CTO,
     > responsabile Digital, CISO, RSPP): le decisioni sulle misure di
@@ -2416,3 +2421,6 @@ conflitto:
     > riservatezza e nomina ad Amministratore di Sistema (ALPO31.A); le
     > sue utenze amministrative sono nominative e riesaminate
     > periodicamente dal CTO secondo PR16.1.
+
+Le misure compensative sono state approvate dall'Amministratore Unico
+nella riunione del 04/11/2026.

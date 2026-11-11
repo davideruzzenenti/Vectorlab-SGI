@@ -6,7 +6,29 @@
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
 <tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
 <tr><td>0.1</td><td>16/07/2026</td><td colspan="4">Revisione assistita da IA: rimosso un placeholder non risolto nella legenda</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
+<tr><td>0.2</td><td>11/11/2026</td><td colspan="4">Aggiunta la sezione «Competenze tecniche del team» con le competenze ricavate dai curriculum e confermate nella riunione del 04/11/2026; livelli da assegnare</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
+
+## Competenze tecniche del team
+
+Competenze ricavate dai curriculum su Drive e confermate nella riunione
+del 04/11/2026. I livelli da 1 a 4 (legenda sotto) li assegna
+l'Amministratore Unico nella valutazione annuale (PR06.1). [DA DEFINIRE:
+livelli; curriculum di Andrea Ruzzenenti e Francesco Cappetti da
+scrivere.]
+
+| Persona | Ruolo | Competenze tecniche | Livello | Formazione prevista (MDPR06.1.C) |
+| --- | --- | --- | --- | --- |
+| Alessandro Castrovillari | Sviluppatore senior | C/C++ (C++20), Qt, Unity, Unreal, VR/AR (HoloLens 2), WebGL/Three.js, Python, SQL | | |
+| Andrea Quidacciolu Turcatti | Sviluppatore | C++, Python, Unreal Engine 5, ottimizzazione numerica, NLP e LLM (PyTorch), Git; laurea in Matematica | | |
+| Federico Isola | Sviluppatore | TypeScript, React, Three.js, C++, C#, Unreal, Unity, sviluppo UI, Git; laurea in Matematica | | |
+| Marco Ottone Casagrande | Sviluppatore | C++, C, Unreal, Unity, ROS 2, simulazione distribuita (HLA, OpenDIS), MQTT, WebRTC, VR/AR, CMake, Git | | |
+| Riccardo Olivato | Sviluppatore | C++, Unreal Engine 5, Blueprint, C#, Python, GLSL, Qt, ROS 2, AR mobile e VR, Git | | |
+| Stefano Nae | Sviluppatore | C#, C++, Unity, TypeScript, Three.js, Python/Qt, AR (HoloLens 2), Git; laurea in Informatica in corso | | |
+| Andrei Apostu (esterno) | IT | Linux, Docker, NGINX, TLS, firewall, VPN, CI/CD (GitHub Actions), database, TypeScript, Python, Unreal | | |
+| Davide Ruzzenenti | RSGI, gestione progetti, sviluppo commerciale | Gestione di progetti e team, sviluppo commerciale, Unreal, Houdini, Cinema 4D, contenuti 3D/AR/VR, formazione | | |
+| Andrea Ruzzenenti | Amministratore Unico, CTO | [DA DEFINIRE] | | |
+| Francesco Cappetti | Amministrazione, Referente Privacy | [DA DEFINIRE] | | |
 
 ## Legenda
 

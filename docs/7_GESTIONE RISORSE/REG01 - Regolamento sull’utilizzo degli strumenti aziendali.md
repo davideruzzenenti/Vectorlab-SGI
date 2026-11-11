@@ -7,6 +7,7 @@
 | 0.0      | 24/04/2026 | Prima emissione (modello) | CISO | CEO |
 | 0.1      | 27/10/2026 | Riscritto sugli strumenti reali: portatili forniti da Vectorlab con 4 requisiti minimi verificati da ciascuno in autonomia, account aziendali con verifica in due passaggi, Bitwarden, regole su dati e codice dei clienti, segnalazioni a sicurezza@. Tolti i riferimenti a strumenti inesistenti (ticketing, firewall con filtri, NAS, VPN, sfondi); uscita allineata a PR05.1 (casella 6 mesi) | RSGI | Da approvare |
 | 0.2      | 28/10/2026 | Aggiunta la §11 «Violazioni e processo disciplinare» (ISO/IEC 27001 A.6.4), che sostituisce REG02, ritirato | RSGI | Da approvare |
+| 0.3      | 11/11/2026 | Punti aperti chiusi con le risposte della riunione del 04/11/2026: nessuna app di messaggistica ammessa per il lavoro (§5); in ufficio non c'è una rete Wi-Fi separata per gli ospiti e non ci sono stampanti (§9) | RSGI | Da approvare |
 
 ## 1 Scopo e destinatari
 
@@ -105,11 +106,10 @@ nell'inventario degli asset e, se serve, tra i fornitori (PR26.1).
 
 **Messaggistica.** Le decisioni e i passaggi di lavoro (per esempio
 «ho acquistato il certificato, va installato») si registrano in un
-task ClickUp o per mail, non in chat. Le app di messaggistica servono
-solo per comunicazioni veloci e non devono contenere credenziali, dati
-personali o informazioni dei clienti. [DA DECIDERE: quale app di
-messaggistica è ammessa; Discord non è accettato dal sistema di
-gestione.]
+task ClickUp o per mail, non in chat. Per il lavoro non è ammessa
+nessuna app di messaggistica (decisione del 04/11/2026): le
+comunicazioni passano da ClickUp e dalla posta aziendale. Discord non
+è accettato dal sistema di gestione e non si usa per il lavoro.
 
 ## 6 Posta elettronica
 
@@ -166,8 +166,9 @@ gestione segue PR27.1.
 - Le chiavi della sede sono personali; consegna e restituzione
   nel registro MDPR05.1.U.
 - I documenti cartacei riservati si distruggono, non si buttano interi.
-- [DA CONFERMARE con l'IT: rete Wi-Fi dell'ufficio (rete ospiti
-  separata o no) e stampante.]
+- In ufficio c'è una sola rete Wi-Fi, senza rete separata per gli
+  ospiti. [DA DECIDERE: se agli ospiti si dà l'accesso a questa rete.]
+- In ufficio non ci sono stampanti.
 
 ## 10 Controlli della Società
 
