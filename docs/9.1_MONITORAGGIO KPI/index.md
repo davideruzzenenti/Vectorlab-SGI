@@ -8,5 +8,4 @@
 
 ## Altri file
 
-- [MDPR10.1.A - Tabella Indicatori.xlsx](MDPR10.1.A%20-%20Tabella%20Indicatori.xlsx)
 - [MDPR10.1.B  - Analisi Soddisfazione Cliente.xlsx](MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente.xlsx)

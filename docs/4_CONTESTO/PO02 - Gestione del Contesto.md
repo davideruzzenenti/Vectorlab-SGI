@@ -15,15 +15,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-| 0.1      | 09/07/2026 | Revisione assistita da IA: generalizzato il riferimento dimensionale del team | RSGI        | Amministratore Unico |
-| 0.2      | 20/10/2026 | Sez. 4: campo di applicazione esteso alla Qualità (ISO 9001), allineato al testo della domanda di certificazione RINA, completato con sede, aree, confini e interfacce con terzi ed esclusioni | RSGI        | Da approvare |
-| 0.3      | 22/10/2026 | Sez. 4: campo di applicazione limitato al servizio della business unit Ynsera; escluse la unit Vectorlab (prodotti), la partecipazione a bandi e i progetti di ricerca, con le interfacce sulle risorse condivise; PR09.1 al posto di PR36.1; processo Innovation & Research segnato come escluso; indicata la ISO 9001:2015 come norma di certificazione RINA | RSGI        | Da approvare |
-| 0.4      | 28/10/2026 | Tolto il rimando a REG02 (ritirato) | RSGI        | Da approvare |
-| 0.5      | 11/11/2026 | §4.3: tolto AWS dai fornitori di servizi cloud (Vectorlab non ha un account AWS: risposta dell'Amministrazione del 04/11/2026) | RSGI        | Da approvare |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  |
 
 ## 1 Introduzione
 
@@ -108,11 +100,11 @@ La presente politica si applica a tutta l’Organizzazione.
 
 ### 1.3 Riferimenti e Allegati
 
-> ALPO02.A.1 – Contesto e Processi
+> ALPO02.A – Contesto e Processi
 
-> ALPO02.B.1 – Analisi Stakeholder
+> ALPO02.B – Analisi Stakeholder
 
-> MDPR28.1.A.1 – Piani di Continuità Operativa\_Indisponibilità sede
+> MDPR28.1.A – Piani di Continuità Operativa\_Indisponibilità sede
 > eventi avversi esterni ID-PBC05.
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
@@ -237,14 +229,14 @@ questo non è un problema per la produttività aziendale né per la
 sicurezza delle informazioni, dal momento che l’ufficio si trova ad un
 piano alto ed è stato definito un apposito piano per la continuità
 operativa in caso di indisponibilità della sede per eventi avversi
-esterni (vedere “*MDPR28.1.A.1 - Piani di Continuità
+esterni (vedere “*MDPR28.1.A - Piani di Continuità
 Operativa\_Indisponibilità sede eventi avversi esterni ID-PBC05*”), per
 il quale facilmente si attivano le procedure per lo smart working.
 Pertanto, anche gli stakeholders esterni non nutrono preoccupazioni nei
 confronti dell’operatività di Vectorlab, la quale garantisce la
 continuità dei propri servizi.
 
-Il risultato di tale analisi è riportato in “*ALPO02.A.1 – Contesto e
+Il risultato di tale analisi è riportato in “*ALPO02.A – Contesto e
 Processi*”.
 
 ## 3 Comprendere le esigenze e le aspettative delle terze parti
@@ -259,7 +251,7 @@ particolare riferimento ai requisiti di tali stakeholder che risultano
 significativi per il Sistema di Gestione.
 
 L’analisi delle parti interessate e delle rispettive aspettative è
-descritta in “*ALPO02.B.1 - Analisi Stakeholder*”.
+descritta in “*ALPO02.B - Analisi Stakeholder*”.
 
 ## 4 Determinare il campo di applicazione
 
@@ -476,13 +468,10 @@ applicazione nell’ambito dell’organizzazione.
 <p>Consuntivazione fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Costi orari del personale</p>
+<p>Costi giornalieri del personale</p>
 </blockquote></li>
 <li><blockquote>
 <p>Documentazione contrattuale per i fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>Documenti di gara</p>
 </blockquote></li>
 <li><blockquote>
 <p>F24</p>
@@ -506,7 +495,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Richieste rimborsi spese e trasferte</p>
 </blockquote></li>
 <li><blockquote>
-<p>Tracking/Timesheet del personale</p>
+<p>Allocazione del personale in giornate e mezze giornate (Planner)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -529,10 +518,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Fatturazione attiva e passiva</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione offerte / documenti di gara</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestione posta cartacea</p>
+<p>Gestione amministrativa delle offerte</p>
 </blockquote></li>
 <li><blockquote>
 <p>Pagamenti</p>
@@ -542,9 +528,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Recupero crediti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rendicontazione progetti Area Innovation</p>
 </blockquote></li>
 <li><blockquote>
 <p>Trasferte</p>
@@ -565,9 +548,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>CU autonomi</p>
-</blockquote></li>
-<li><blockquote>
-<p>Documentazione di gara</p>
 </blockquote></li>
 <li><blockquote>
 <p>Documentazione per lo Studio Commercialisti (Estratti conto Banche, Copie bonifici effettuati, Estratti conto Carte Di Credito, Registrazioni di Cassa, Fatture Non pervenute tramite Sdi, Quietanze F24, Moduli trasferte e relativi giustificativi di spesa)</p>
@@ -632,9 +612,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Risorse Umane</p>
 </blockquote></li>
 </ul></td>
@@ -646,7 +623,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>CEO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -657,13 +634,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>AF1 – Gestione efficace del budget aziendale</p>
+<p>GC3 – Andamento del fatturato</p>
 </blockquote></li>
 <li><blockquote>
-<p>RF1 – Qualifica fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>RF2 – Verifica non conformità fornitori</p>
+<p>RF6 – Accordi di riservatezza con i fornitori critici</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -671,7 +645,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -692,9 +666,6 @@ applicazione nell’ambito dell’organizzazione.
 <td>Fonti di input</td>
 <td><ul>
 <li><blockquote>
-<p>Associazioni di categoria</p>
-</blockquote></li>
-<li><blockquote>
 <p>Business Development</p>
 </blockquote></li>
 <li><blockquote>
@@ -713,13 +684,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Digital</p>
 </blockquote></li>
 <li><blockquote>
-<p>Enti di ricerca</p>
-</blockquote></li>
-<li><blockquote>
 <p>Fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>Innovation and Research Projects</p>
 </blockquote></li>
 <li><blockquote>
 <p>IT</p>
@@ -734,9 +699,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Non Conformità e Azioni Correttive</p>
 </blockquote></li>
 <li><blockquote>
-<p>Organi di informazione locale, nazionale e internazionale</p>
-</blockquote></li>
-<li><blockquote>
 <p>Opportunity &amp; Risk Assessment</p>
 </blockquote></li>
 <li><blockquote>
@@ -745,9 +707,6 @@ applicazione nell’ambito dell’organizzazione.
 <li><blockquote>
 <p>Soddisfazione del cliente</p>
 </blockquote></li>
-<li><blockquote>
-<p>Università</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -755,9 +714,6 @@ applicazione nell’ambito dell’organizzazione.
 <td><ul>
 <li><blockquote>
 <p>Notizie ricevute dalla Direzione (Amministratore Unico)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Progetti di ricerca</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -771,22 +727,10 @@ applicazione nell’ambito dell’organizzazione.
 <p>Creazione e gestione del materiale promozionale dell’azienda (con il supporto delle Aree coinvolte)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione delle relazioni con i media</p>
+<p>Pubblicazione e monitoraggio dei contenuti sul sito internet e sui social media aziendali, con il supporto del fornitore esterno Z1</p>
 </blockquote></li>
 <li><blockquote>
-<p>Monitoraggio e gestione di menzioni, citazioni e altre referenze relative all’azienda, anche sul sito internet e sui social media aziendali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Partecipazione a eventi del settore</p>
-</blockquote></li>
-<li><blockquote>
-<p>Pianificazione di campagne mediatiche</p>
-</blockquote></li>
-<li><blockquote>
-<p>Scrittura e modifica delle notizie</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supervisione delle attività di produzione di pubblicazioni, sia digitali sia cartacee (esempio siti web, volantini, brochure, company profile, biglietti da visita, cataloghi servizi, cataloghi corsi)</p>
+<p>Supervisione delle pubblicazioni digitali e cartacee (siti web, brochure, presentazioni, company profile, biglietti da visita)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -817,9 +761,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Amministrazione e Finanza</p>
 </blockquote></li>
 <li><blockquote>
-<p>Associazioni di categoria</p>
-</blockquote></li>
-<li><blockquote>
 <p>Business Development</p>
 </blockquote></li>
 <li><blockquote>
@@ -838,28 +779,16 @@ applicazione nell’ambito dell’organizzazione.
 <p>Direzione generale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Enti di ricerca</p>
-</blockquote></li>
-<li><blockquote>
 <p>Fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>Innovation &amp; Research project</p>
 </blockquote></li>
 <li><blockquote>
 <p>IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>Organi di informazione locale, nazionale e internazionale</p>
-</blockquote></li>
-<li><blockquote>
 <p>Partners</p>
 </blockquote></li>
 <li><blockquote>
-<p>Social Media Manager</p>
-</blockquote></li>
-<li><blockquote>
-<p>Università</p>
+<p>Business Development e Z1 (Social Media Manager esterno, fornitore)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -867,7 +796,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>Risorse</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Forum</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+</blockquote></li>
+<li><blockquote>
+<p>Z1 – Social Media Manager esterno (fornitore)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -875,10 +807,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>CM1 – Efficacia comunicazione interna</p>
-</blockquote></li>
-<li><blockquote>
-<p>CM3 – Efficacia comunicazione esterna</p>
+<p>Nessun indicatore dedicato: l’andamento si valuta nel Riesame della Direzione (PR12.1)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -886,13 +815,13 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
 <p>PO07 - Gestione della Comunicazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPO07.A.1 - Piano della Comunicazione</p>
+<p>MDPO07.A - Piano della Comunicazione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -912,9 +841,6 @@ applicazione nell’ambito dell’organizzazione.
 <tr class="odd">
 <td>Fonti di input</td>
 <td><ul>
-<li><blockquote>
-<p>Associazioni di categoria</p>
-</blockquote></li>
 <li><blockquote>
 <p>Audit</p>
 </blockquote></li>
@@ -952,9 +878,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Gestione della continuità</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research Project</p>
-</blockquote></li>
-<li><blockquote>
 <p>IT</p>
 </blockquote></li>
 <li><blockquote>
@@ -971,9 +894,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Risorse umane</p>
-</blockquote></li>
-<li><blockquote>
-<p>Università</p>
 </blockquote></li>
 <li><blockquote>
 <p>Valutazione delle performance</p>
@@ -1001,19 +921,13 @@ applicazione nell’ambito dell’organizzazione.
 <li><blockquote>
 <p>Richieste cliente</p>
 </blockquote></li>
-<li><blockquote>
-<p>Richieste da Associazioni di categoria</p>
-</blockquote></li>
-<li><blockquote>
-<p>Richieste di sinergie</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Attività</td>
 <td><ul>
 <li><blockquote>
-<p>Progettazione</p>
+<p>Partecipazione alla progettazione del cliente</p>
 </blockquote></li>
 </ul>
 <ul>
@@ -1021,28 +935,19 @@ applicazione nell’ambito dell’organizzazione.
 <p>Definizione del gruppo di progetto</p>
 </blockquote></li>
 <li><blockquote>
-<p>Apertura del progetto</p>
+<p>Avvio della commessa (PR35.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Pianificazione del progetto</p>
+<p>Partecipazione alla pianificazione del cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Analisi e formalizzazione dei requisiti</p>
+<p>Partecipazione all’analisi dei requisiti del cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Analisi, progettazione e sviluppo software (applicativi full stack web e mobile)</p>
+<p>Sviluppo software nel progetto del cliente (3D, VR/AR, simulazione, web), con il processo e gli strumenti del cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Analisi, progettazione e sviluppo software (applicativi full stack web e mobile) per utilizzo interno all’azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Manutenzione del software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Interfacciamento e supporto verso il cliente</p>
-</blockquote></li>
-<li><blockquote>
-<p>Help Desk</p>
+<p>Rapporto con il cliente durante la commessa (PM)</p>
 </blockquote></li>
 <li><blockquote>
 <p>VA/PT applicativo</p>
@@ -1076,33 +981,15 @@ applicazione nell’ambito dell’organizzazione.
 <p>Test di stress</p>
 </blockquote></li>
 <li><blockquote>
-<p>Test di accettazione di sistema</p>
-</blockquote></li>
-<li><blockquote>
-<p>Test di collaudo con il cliente</p>
+<p>Test di accettazione e collaudo: eseguiti dal cliente</p>
 </blockquote></li>
 </ul>
 <ul>
 <li><blockquote>
-<p>Deploy e Rilascio</p>
+<p>Consegna del codice secondo il processo del cliente; il rilascio in produzione è a cura del cliente</p>
 </blockquote></li>
 </ul>
 <ul>
-<li><blockquote>
-<p>Identificazione del rilascio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Classificazione della release</p>
-</blockquote></li>
-<li><blockquote>
-<p>Implementazione della release</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rilascio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Verifica del Rilascio</p>
-</blockquote></li>
 </ul>
 <ul>
 <li><blockquote>
@@ -1140,9 +1027,6 @@ applicazione nell’ambito dell’organizzazione.
 <li><blockquote>
 <p>Ambiente di sviluppo sicuro</p>
 </blockquote></li>
-<li><blockquote>
-<p>Sviluppo esternalizzato</p>
-</blockquote></li>
 </ul>
 <ul>
 <li><blockquote>
@@ -1150,18 +1034,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Gestione delle change</p>
-</blockquote></li>
-<li><blockquote>
-<p>Partecipazione ad eventi commerciali/networking/fiere di settore</p>
-</blockquote></li>
-<li><blockquote>
-<p>Prospezione mercato e contatto commerciale col cliente</p>
-</blockquote></li>
-<li><blockquote>
-<p>Tracciamento delle offerte emesse</p>
-</blockquote></li>
-<li><blockquote>
-<p>Tutela nell’esperienza di soddisfazione del cliente curando la relazione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1176,15 +1048,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Erogazione formazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Lista offerte emesse</p>
-</blockquote></li>
-<li><blockquote>
-<p>Manutenzione prodotto/servizio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Prospezioni di mercato</p>
 </blockquote></li>
 <li><blockquote>
 <p>Quotazione in giornate per lavoro tecnico (sia per cliente che interno)</p>
@@ -1210,9 +1073,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Approvvigionamenti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Associazioni di categoria</p>
-</blockquote></li>
-<li><blockquote>
 <p>Business Development</p>
 </blockquote></li>
 <li><blockquote>
@@ -1231,13 +1091,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research Project</p>
-</blockquote></li>
-<li><blockquote>
 <p>IT</p>
-</blockquote></li>
-<li><blockquote>
-<p>Università</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1251,56 +1105,26 @@ applicazione nell’ambito dell’organizzazione.
 <p>CTO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools:</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools:</p>
 </blockquote></li>
 </ul>
 <ul>
 <li><blockquote>
-<p>Repository / Controllo di versione</p>
+<p>Strumenti di sviluppo e di accesso indicati dal cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Sistemi per lo sviluppo / deploy</p>
-</blockquote></li>
-<li><blockquote>
-<p>Sistemi per lo sviluppo (web)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Sistemi per lo sviluppo (mobile)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Sistemi di ticketing, tracking e monitoring</p>
-</blockquote></li>
-<li><blockquote>
-<p>Servizi di gestione app mobile</p>
-</blockquote></li>
-<li><blockquote>
-<p>Servizi di file hosting e file sharing</p>
-</blockquote></li>
-<li><blockquote>
-<p>Servizi Cloud</p>
-</blockquote></li>
-<li><blockquote>
-<p>Sistemi Operativi</p>
-</blockquote></li>
-<li><blockquote>
-<p>VPN Client</p>
-</blockquote></li>
-<li><blockquote>
-<p>DBMS</p>
-</blockquote></li>
-<li><blockquote>
-<p>Dispositivi IoT</p>
+<p>Strumenti aziendali approvati (PR35.1)</p>
 </blockquote></li>
 </ul>
 <ul>
-<li><blockquote>
-<p>Personale di supporto (consulenti esterni, personale di altre aree interne)</p>
-</blockquote></li>
 <li><blockquote>
 <p>Responsabile di Area</p>
 </blockquote></li>
 <li><blockquote>
-<p>SW Developer</p>
+<p>Sviluppatori</p>
+</blockquote></li>
+<li><blockquote>
+<p>PM (responsabile di commessa)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1308,31 +1132,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>ERA 2 – Indisponibilità – reclami – incidenti sul servizio</p>
-</blockquote></li>
-<li><blockquote>
-<p>GC4 – Incremento fatturato</p>
-</blockquote></li>
-<li><blockquote>
-<p>GC6 – Gestione efficace delle commesse</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS4 – Reclami clienti</p>
-</blockquote></li>
-<li><blockquote>
 <p>PS5 – Soddisfazione del cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>SS1 – Efficienza della programmazione delle attività di sviluppo</p>
-</blockquote></li>
-<li><blockquote>
-<p>SS2 – Efficienza nell’attività di sviluppo</p>
-</blockquote></li>
-<li><blockquote>
-<p>SS3 – Conformità nella documentazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>SS4 – Tempi di consegna (Lead time)</p>
+<p>PS4 – Reclami clienti</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1340,7 +1143,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
 <p>PO25 – Sviluppo Sicuro</p>
@@ -1403,9 +1206,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Gestione della continuità</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation and Research Projects</p>
-</blockquote></li>
-<li><blockquote>
 <p>IT</p>
 </blockquote></li>
 <li><blockquote>
@@ -1455,28 +1255,19 @@ applicazione nell’ambito dell’organizzazione.
 <p>Gestione del contatto coi clienti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione del contatto con partner</p>
-</blockquote></li>
-<li><blockquote>
 <p>Gestione dell’ordine</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestione delle offerte per la Pubblica Amministrazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Partecipazione e gestione della gara</p>
 </blockquote></li>
 <li><blockquote>
 <p>Preparazione dell’offerta tecnica, economica e analisi rischio commessa</p>
 </blockquote></li>
 <li><blockquote>
-<p>Protocollo d’offerta</p>
+<p>Archiviazione delle offerte nella cartella Drive del prospect</p>
 </blockquote></li>
 <li><blockquote>
 <p>Riesame dei requisiti e modifica dei requisiti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Valutazione del Margine di Produzione</p>
+<p>Stima dell’impegno in giornate/uomo</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1528,9 +1319,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Sito web/profili social</p>
 </blockquote></li>
 </ul></td>
@@ -1539,7 +1327,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Risorse</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -1553,13 +1341,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>ERA 1 – Aumento contratti servizio Cloud (ERA)</p>
+<p>GC2 – Efficacia del processo commerciale</p>
 </blockquote></li>
 <li><blockquote>
-<p>GC2 – Gestione efficace del processo commerciale</p>
-</blockquote></li>
-<li><blockquote>
-<p>GC3, GC4, GC5 – Incremento fatturato</p>
+<p>GC3 – Andamento del fatturato</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1567,7 +1352,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
 <p>PR09.1 – Gestione Commerciale</p>
@@ -1578,6 +1363,9 @@ applicazione nell’ambito dell’organizzazione.
 </table>
 
 #### 5.1.6 Innovation & Research Project
+
+Nota: processo escluso dal campo di applicazione del Sistema di Gestione
+(§4.4); è riportato per completezza della mappa dei processi aziendali.
 
 <table>
 <thead>
@@ -1781,7 +1569,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>IT Staff</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile di Area</p>
@@ -1792,10 +1580,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>GP1 – Gestione efficace dei progetti</p>
-</blockquote></li>
-<li><blockquote>
-<p>GP2 – Gestione efficace dei progetti</p>
+<p>Nessun indicatore: processo escluso dal campo di applicazione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1803,7 +1588,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>PO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
 <p>Processo escluso dal campo di applicazione (sez. 4.4)</p>
@@ -1866,9 +1651,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Gestione della continuità</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research Project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Miglioramento continuo</p>
 </blockquote></li>
 <li><blockquote>
@@ -1924,43 +1706,28 @@ applicazione nell’ambito dell’organizzazione.
 <td>Attività</td>
 <td><ul>
 <li><blockquote>
-<p>Consegna e restituzione asset</p>
+<p>Consegna e restituzione di portatili e account al personale: Amministrazione (MDPR05.1.V)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Creazione e revisione documentazione IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione account</p>
+<p>Gestione account: utenze amministrative (System Administrator), account e repository GitHub (CTO)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione CED virtuale</p>
+<p>Gestione del server dedicato Aruba e dei servizi ospitati (System Administrator esterno)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestione rete</p>
+<p>Gestione della rete dell’ufficio (System Administrator esterno)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Implementazione in ambienti di test e produzione di soluzioni create dall’azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Piano di audit tecnici</p>
-</blockquote></li>
-<li><blockquote>
-<p>Setup PC</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporto a clienti post installazione software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Trouble ticketing / Helpdesk</p>
+<p>Verifiche tecniche periodiche (MDPR11.1.A §6)</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Output</td>
 <td><ul>
-<li><blockquote>
-<p>Consegna ambienti configurati</p>
-</blockquote></li>
 <li><blockquote>
 <p>Documentazione tecnica</p>
 </blockquote></li>
@@ -1983,7 +1750,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Rapporti di audit tecnici</p>
 </blockquote></li>
 <li><blockquote>
-<p>Risoluzione richieste (sia da clienti che interne)</p>
+<p>Risoluzione delle richieste interne</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2012,9 +1779,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Risorse Umane</p>
 </blockquote></li>
 <li><blockquote>
@@ -2041,7 +1805,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2049,28 +1813,13 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>CM2 – CMDB</p>
+<p>DA1 – Revisione dei diritti di accesso</p>
 </blockquote></li>
 <li><blockquote>
-<p>DA1 – Diritti di Accesso</p>
+<p>CN1 – Portatili cifrati</p>
 </blockquote></li>
 <li><blockquote>
-<p>MT2 – Verifiche periodiche sugli asset aziendali</p>
-</blockquote></li>
-<li><blockquote>
-<p>SC1 – Disponibilità rete</p>
-</blockquote></li>
-<li><blockquote>
-<p>SF2 – Manutenzione apparecchiature</p>
-</blockquote></li>
-<li><blockquote>
-<p>SO3 – Restore</p>
-</blockquote></li>
-<li><blockquote>
-<p>SO4 – Copertura scansioni VA</p>
-</blockquote></li>
-<li><blockquote>
-<p>SO5 – Rispetto dei tempi pianificati nella risoluzione delle vulnerabilità segnalate con VA/PT</p>
+<p>SO3 – Prove di ripristino</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2078,49 +1827,43 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>ALPR05.1.C.1 – Lista software permessi</p>
+<p>ALPR05.1.G – Lista software permessi</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR05.1.G.2 – Consegna chiavi</p>
+<p>MDPR05.1.U – Gestione chiavi</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR05.1.G.3 – Restituzione chiavi</p>
+<p>MDPR05.1.V – Modulo consegna e riconsegna HW e utenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR05.1.A.3 – Modulo_consegna_riconsegna_HW_utenze</p>
+<p>MDPR11.1.A – Programma Audit (§6 verifiche tecniche)</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR11.1.A.3 – Piano di Audit Tecnici</p>
-</blockquote></li>
-<li><blockquote>
-<p>IT – PO21 – Backup</p>
+<p>PO21 – Gestione dei Backup e Restore</p>
 </blockquote></li>
 <li><blockquote>
 <p>PO28 – Gestione della Continuità Operativa</p>
 </blockquote></li>
 <li><blockquote>
-<p>IT – PO16 – Gestione degli Accessi</p>
+<p>PO16 – Gestione degli Accessi</p>
 </blockquote></li>
 <li><blockquote>
-<p>IT – PR03.1 – IT</p>
+<p>PR03.1 – IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>IT – PR21.1 – Backup</p>
+<p>PR21.1 – Gestione dei Backup e Restore</p>
 </blockquote></li>
 <li><blockquote>
-<p>IT – PR24.1 – Gestione delle Reti</p>
+<p>PR24.1 – Gestione delle Reti</p>
 </blockquote></li>
 <li><blockquote>
-<p>IT – PR16.1 – Gestione degli Accessi</p>
+<p>PR16.1 – Gestione degli Accessi</p>
 </blockquote></li>
 <li><blockquote>
-<p>Procedura customizzazione standard pre consegna PC aziendali (documentazione tecnica reparto IT)</p>
-</blockquote></li>
-<li><blockquote>
-<p>IT – REG01 – Regolamento di utilizzo degli strumenti informatici aziendali.</p>
+<p>REG01 – Regolamento sull’utilizzo degli strumenti aziendali</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2147,16 +1890,10 @@ applicazione nell’ambito dell’organizzazione.
 <p>Audit</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comitato Guida</p>
-</blockquote></li>
-<li><blockquote>
 <p>Compliance</p>
 </blockquote></li>
 <li><blockquote>
 <p>Comunicazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Confindustria</p>
 </blockquote></li>
 <li><blockquote>
 <p>Consulente del lavoro</p>
@@ -2200,9 +1937,6 @@ applicazione nell’ambito dell’organizzazione.
 <td>Input</td>
 <td><ul>
 <li><blockquote>
-<p>Comunicazione e gestione della maternità/paternità nelle sue varie fasi</p>
-</blockquote></li>
-<li><blockquote>
 <p>Comunicazioni di assunzione/dimissione (Unilav)</p>
 </blockquote></li>
 <li><blockquote>
@@ -2210,12 +1944,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Documentazione fiscale (CU, cedolini, presenze, posizioni contributive, ecc.)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Documenti da Confindustria</p>
-</blockquote></li>
-<li><blockquote>
-<p>Documenti legati al mondo sindacale</p>
 </blockquote></li>
 <li><blockquote>
 <p>Report RSPP e medico competente</p>
@@ -2233,9 +1961,6 @@ applicazione nell’ambito dell’organizzazione.
 </blockquote></li>
 <li><blockquote>
 <p>Attività audit tecnici</p>
-</blockquote></li>
-<li><blockquote>
-<p>Attività di prevenzione di ogni forma di abuso fisico, verbale, digitale (molestia) sui luoghi di lavoro</p>
 </blockquote></li>
 <li><blockquote>
 <p>Competenze del personale</p>
@@ -2262,7 +1987,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Risoluzione del rapporto di lavoro</p>
 </blockquote></li>
 <li><blockquote>
-<p>Selezione ed assunzione/recruitment (analisi fabbisogni, selezione, onboarding, payroll)</p>
+<p>Selezione e assunzione (analisi dei fabbisogni, selezione, inserimento); cedolini tramite il consulente del lavoro</p>
 </blockquote></li>
 <li><blockquote>
 <p>Sicurezza ambiente del lavoro</p>
@@ -2293,9 +2018,6 @@ applicazione nell’ambito dell’organizzazione.
 <li><blockquote>
 <p>Registri interventi ambientali</p>
 </blockquote></li>
-<li><blockquote>
-<p>Risultati survey effettuate</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -2314,22 +2036,16 @@ applicazione nell’ambito dell’organizzazione.
 <p>Consulente del lavoro</p>
 </blockquote></li>
 <li><blockquote>
-<p>Consulenza Area Business Development</p>
-</blockquote></li>
-<li><blockquote>
 <p>Dipendenti</p>
 </blockquote></li>
 <li><blockquote>
 <p>Direzione generale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Medico competente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Progettazione e sviluppo SW e corsi di formazione</p>
+<p>Digital</p>
 </blockquote></li>
 <li><blockquote>
 <p>RSPP</p>
@@ -2343,7 +2059,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Archivi cartacei</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -2360,25 +2076,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>ACA1 – Analisi clima</p>
-</blockquote></li>
-<li><blockquote>
-<p>CVL1 – Conciliazione tempi vita-lavoro</p>
-</blockquote></li>
-<li><blockquote>
-<p>FAB1 – Analisi fabbisogni</p>
-</blockquote></li>
-<li><blockquote>
-<p>RDP1 – Report dati del personale</p>
-</blockquote></li>
-<li><blockquote>
-<p>RU1 – Erogazione Formazione sul Sistema</p>
-</blockquote></li>
-<li><blockquote>
-<p>RU2 – Erogazione Formazione trasversale</p>
-</blockquote></li>
-<li><blockquote>
-<p>RU4 – Piano formativo</p>
+<p>RU1 – Formazione sul sistema di gestione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2386,10 +2084,13 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B.1 – Mansionario</p>
+<p>ALPO01.B – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>HR – PR05.1 – Gestione del Personale</p>
+<p>PR05.1 – Gestione del Personale</p>
+</blockquote></li>
+<li><blockquote>
+<p>PR06.1 – Gestione delle Performance</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2472,7 +2173,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Norme ISO</p>
 </blockquote></li>
 <li><blockquote>
-<p>Normative cogenti (vedi MDPR08.1.A.1 – Informazioni documentate / Compliance)</p>
+<p>Normative cogenti (vedi MDPR08.1.A – Informazioni documentate / Compliance)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2558,9 +2259,6 @@ applicazione nell’ambito dell’organizzazione.
 <p>Digital</p>
 </blockquote></li>
 <li><blockquote>
-<p>Innovation &amp; Research Project</p>
-</blockquote></li>
-<li><blockquote>
 <p>Direzione generale</p>
 </blockquote></li>
 <li><blockquote>
@@ -2581,9 +2279,6 @@ applicazione nell’ambito dell’organizzazione.
 <li><blockquote>
 <p>Fornitori</p>
 </blockquote></li>
-<li><blockquote>
-<p>Partners</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -2599,7 +2294,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>CISO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate / Tools</p>
+<p>MDPR08.1.A – Informazioni documentate / Tools</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2607,79 +2302,19 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>AR1 – Implementazione di misure per mitigare o ridurre il rischio</p>
+<p>PS1 – Azioni di miglioramento chiuse in tempo</p>
 </blockquote></li>
 <li><blockquote>
-<p>AR2 – Conformità con i piani di attuazione delle azioni approvate per moderare il rischio</p>
+<p>PS3 – Rilievi chiusi in ritardo</p>
 </blockquote></li>
 <li><blockquote>
-<p>AR3 – Maturità sistema (Maturity model)</p>
+<p>IN1 – Incidenti di sicurezza critici</p>
 </blockquote></li>
 <li><blockquote>
-<p>CG1 – Coinvolgimento Comitato Guida</p>
+<p>IN4 – Data breach</p>
 </blockquote></li>
 <li><blockquote>
-<p>CM1 – Efficacia comunicazione interna</p>
-</blockquote></li>
-<li><blockquote>
-<p>CM3 – Efficacia comunicazione esterna</p>
-</blockquote></li>
-<li><blockquote>
-<p>CO1, CO2 – Continuità Operativa</p>
-</blockquote></li>
-<li><blockquote>
-<p>CVL1 – Conciliazione tempi vita-lavoro</p>
-</blockquote></li>
-<li><blockquote>
-<p>ERA2 – Indisponibilità – reclami – incidenti sul servizio</p>
-</blockquote></li>
-<li><blockquote>
-<p>FAB1 – Analisi fabbisogni</p>
-</blockquote></li>
-<li><blockquote>
-<p>IN1, IN2 – Incidenti di Sicurezza</p>
-</blockquote></li>
-<li><blockquote>
-<p>IN3, IN4 – Data Breach</p>
-</blockquote></li>
-<li><blockquote>
-<p>IN5 – Incidenti causati da Malware</p>
-</blockquote></li>
-<li><blockquote>
-<p>MPS1 – Revisione Manifesto e relativo Piano Strategico</p>
-</blockquote></li>
-<li><blockquote>
-<p>MT1 – Livello di copertura dei monitoraggi tecnici effettuati (audit tecnici)</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS1 – Rispetto delle azioni di miglioramento</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS2 – Conformità alla norma del sistema</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS3 – Efficacia del processo di gestione dei rilievi</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS6 – Rilievi etici</p>
-</blockquote></li>
-<li><blockquote>
-<p>PS7 – Gestione rilievi etici</p>
-</blockquote></li>
-<li><blockquote>
-<p>RF1 – Qualifica fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>RF2 – Verifica non conformità fornitori</p>
-</blockquote></li>
-<li><blockquote>
-<p>RF5 – Rispetto misure di sicurezza</p>
-</blockquote></li>
-<li><blockquote>
-<p>SO1– Gestione delle change</p>
-</blockquote></li>
-<li><blockquote>
-<p>SP1, SP2 – Segnalazioni Privacy</p>
+<p>AR2 – Attuazione del piano di trattamento dei rischi</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2687,10 +2322,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A.1 – Informazioni documentate</p>
+<p>MDPR08.1.A – Informazioni documentate</p>
 </blockquote></li>
 <li><blockquote>
-<p>BD – PR09.1 – Gestione Commerciale</p>
+<p>PR09.1 – Gestione Commerciale</p>
 </blockquote></li>
 </ul></td>
 </tr>

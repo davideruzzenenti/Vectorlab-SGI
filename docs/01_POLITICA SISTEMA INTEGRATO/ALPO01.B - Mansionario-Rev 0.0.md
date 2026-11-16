@@ -8,104 +8,76 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | CDA         | CDA           |
-| 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito il rapporto CDA/Amministratore Unico; aggiunte le schede RSPP, Referente Privacy e Responsabile di Area, citate in altre procedure ma prive di scheda propria | RSGI        | Amministratore Unico |
-| 0.2      | 20/10/2026 | Sez. 3: aggiunte le misure compensative per i ruoli concentrati sull'Amministratore Unico e per la funzione IT affidata a un professionista esterno; allineamento all'organigramma ALPO01.A rev 0.1 | RSGI        | Da approvare |
-| 0.3      | 11/11/2026 | Sez. 3: registrata l'approvazione delle misure compensative da parte dell'Amministratore Unico (riunione del 04/11/2026); misura sui log resa concreta: log degli accessi degli amministratori al server conservati 6 mesi (MDPO15.A) e controllati da RSGI una volta l'anno | RSGI        | Da approvare |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  |
 
 > Indice
 
 ## 1 Scopo
 
-Il mansionario è la raccolta di tutte le figure professionali che
-operano in azienda e che sono richiamate nel documento “*ALPO01.A*
-*Organigramma*”, specificandone le responsabilità, le competenze, i
-riporti e le attività previste, oltre alla segregazione delle funzioni e
-dei compiti.
+Il mansionario descrive le figure dell'organigramma *ALPO01.A*:
+responsabilità, competenze, riporti, attività e separazione dei compiti.
 
-In base al proprio ruolo, ciascun dipendente è inquadrato e associato a
-uno dei ruoli definiti di seguito; la gestione degli incarichi e la
-diffusione all'interno dell'organizzazione della descrizione del lavoro
-avviene tramite comunicazione diretta alle parti interessate.
+Ogni dipendente è associato a uno dei ruoli seguenti; incarico e
+descrizione del ruolo gli sono comunicati direttamente.
 
-Le competenze specificate costituiscono un insieme completo delle
-possibili skill richieste: ciò implica che rientrano in tali mansioni le
-persone che presentano almeno due delle competenze indicate con i
-livelli indicati e l’esperienza indicata.
+Le competenze elencate sono l'insieme completo di quelle possibili: per
+ricoprire un ruolo servono almeno due competenze, al livello indicato.
 
 ## 2 Descrizione delle Mansioni
 
-Nota Operativa: Date le dimensioni contenute di Vectorlab, le
-responsabilità descritte in questo mansionario definiscono funzioni
-operative indipendenti. È prassi consolidata che le stesse persone
-ricoprano più ruoli simultaneamente (es. la Direzione ricopre ruoli di
-CISO, IT Manager, HR). In tali casi, la segregazione dei compiti è
-garantita dall'adozione delle misure compensative descritte nella
-Sezione 3 (es. peer-review formali, log audit incrociato), che
-assicurano l'integrità dei processi e la sicurezza indipendentemente
-dalla coincidenza delle persone fisiche.
+Nota: in una piccola azienda come Vectorlab una persona può ricoprire
+più ruoli (ad es. l'Amministratore Unico è anche CTO, CISO e RSPP). La
+separazione dei compiti è garantita dalle misure compensative della
+Sezione 3.
 
-### 2.1 Board of Directors (BOD – CDA)
+### 2.1 Amministratore Unico
 
-Nota: coerentemente con la forma societaria di Vectorlab (società a
-socio unico e amministratore unico), le funzioni descritte in questa
-scheda sono esercitate dall'Amministratore Unico, che agisce come
-organo di governo della società; non è presente un organo collegiale
-distinto.
+Nota: Vectorlab è una S.r.l. a socio unico con Amministratore Unico: non
+è presente un consiglio di amministrazione. L'Amministratore Unico ricopre
+anche i ruoli di CEO, CTO, CISO e RSPP.
 
 <table>
 <thead>
 <tr class="header">
-<th><strong>Board of Director (BOD - CDA)</strong></th>
+<th><strong>Amministratore Unico</strong></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td></td>
+<td>DIREZIONE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>È un organo esecutivo nominato dai membri e rimane in carica fino alla revoca da parte dei membri</p>
+<p>È l'organo amministrativo della società: Amministratore Unico nominato dal socio unico, opera secondo lo Statuto e le norme del Codice civile sulle S.r.l.</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce alle disposizioni dello Statuto e alle leggi vigenti in materia di costituzione e gestione di società a responsabilità limitata</p>
+<p>Ha la legale rappresentanza: firma contratti, offerte, incarichi e accordi con clienti, fornitori e personale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce direttamente ai membri</p>
+<p>Definisce le strategie commerciali, tecnologiche e di innovazione e approva il budget</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce gli obiettivi di crescita del personale e parità di trattamento</p>
+<p>Redige il bilancio di esercizio con il supporto dello studio commercialista</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce gli obiettivi delle politiche di formazione del personale</p>
+<p>Approva la Politica del Sistema Integrato (PO01) e gli obiettivi (MDPO03.A) e assicura le risorse necessarie al Sistema di Gestione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce il budget in relazione alle componenti della gestione finanziaria</p>
+<p>Approva i documenti del Sistema di Gestione (PR08.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce le strategie per lo sviluppo commerciale, tecnologico e di innovazione</p>
+<p>Approva la valutazione dei rischi e il piano di trattamento e accetta formalmente il rischio residuo (PR33.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Delibera in via definitiva le richieste di ferie e permessi</p>
+<p>Conduce il Riesame della Direzione (PR12.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Delibera in via definitiva passaggi di livello (sulla base del piano delle carriere) e adeguamenti retributivi</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone il bilancio di esercizio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i rapporti con i commercialisti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i contatti con i consulenti legali</p>
+<p>Nomina RSGI, Referente Privacy e Amministratori di Sistema</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -116,26 +88,7 @@ distinto.
 <p>Capacità gestionali e di indirizzo strategico della società</p>
 </blockquote></li>
 <li><blockquote>
-<p>Capacità di controllo di gestione</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Vedi statuto aziendale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Comunicare sia con l’interno che con l'esterno in relazione alle proprie competenze</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>N.A.</p>
+<p>Controllo di gestione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -143,37 +96,32 @@ distinto.
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce la gestione dell'azienda con particolare riferimento a:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>budget strategico e operativo</p>
+<p>Definisce l'organizzazione della società, i ruoli e le responsabilità (ALPO01.A)</p>
 </blockquote></li>
 <li><blockquote>
-<p>risorse umane</p>
-</blockquote></li>
-<li><blockquote>
-<p>identificazione di partnership e strategie di sviluppo tecnologico</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Supervisiona la compilazione dei questionari ISTAT, rilevamento economico, ecc per la parte di sua competenza</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone risorse economiche finanziarie per la persecuzione, mantenimento e raggiungimento degli obiettivi di parità di genere stabiliti</p>
+<p>Individua partnership e strategie di sviluppo tecnologico</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Poteri previsti dallo Statuto</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Convoca riunioni formali via e-mail</p>
+<p>Convoca le riunioni formali via e-mail</p>
 </blockquote></li>
 <li><blockquote>
-<p>Redige verbale delle riunioni secondo lo stato di diritto</p>
+<p>Verbalizza le decisioni rilevanti per il Sistema di Gestione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -192,35 +140,26 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>AREA COMMERCIALE</strong></td>
+<td>AREA COMMERCIALE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce in accordo con la Direzione (Amministratore Unico) le strategie per lo sviluppo commerciale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Partecipa alla bozza di budget relativa ai componenti commerciali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce le attività di controllo dei progetti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Controlla la fatturazione mensile (approvazione e fatturazione) in rappresentanza dell'Amministratore Unico</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce nuovi finanziamenti (previsioni, piano di ammortamento)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la fattibilità per partecipare e le procedure dei bandi di gara</p>
+<p>Definisce con l'Amministratore Unico le strategie di sviluppo commerciale</p>
 </blockquote></li>
 <li><blockquote>
 <p>Esplora il mercato per nuovi prospect</p>
 </blockquote></li>
 <li><blockquote>
-<p>Controlla le attività di gestione dei Social</p>
+<p>Prepara le offerte secondo PR09.1; la firma spetta all'Amministratore Unico</p>
+</blockquote></li>
+<li><blockquote>
+<p>Cura la comunicazione esterna e i canali social di Vectorlab (PO07)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riferisce all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -228,84 +167,64 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Conoscenza approfondita delle offerte della Società da un punto di vista tecnologico e organizzativo</p>
+<p>Conoscenza dei servizi della Società dal punto di vista tecnico e organizzativo</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conoscenza del mercato e aree di interesse nei singoli settori merceologici</p>
+<p>Conoscenza del mercato e dei settori di interesse</p>
+</blockquote></li>
+<li><blockquote>
+<p>Preparazione di presentazioni e offerte</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunicazione e gestione dei canali social</p>
 </blockquote></li>
 <li><blockquote>
 <p>Conoscenza dei sistemi di gestione aziendale</p>
 </blockquote></li>
-<li><blockquote>
-<p>Seguire le nuove opportunità di business e identificare gli obiettivi di miglioramento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Strumenti e tecniche di gestione del progetto</p>
-</blockquote></li>
-<li><blockquote>
-<p>Organizzazione e gestione del team</p>
-</blockquote></li>
-<li><blockquote>
-<p>Pianificazione e preparazione delle presentazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Comunicare gli sviluppi di nuovi prodotti ai potenziali clienti</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
+<td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>5 anni nel settore di competenza (per i membri che lo compongono)</p>
+<p>Gestisce i contatti con prospect e nuovi clienti nel task Prospect in ClickUp (PR09.1)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Supporta la relazione con il cliente nelle fasi di presentazione e pianificazione</p>
+</blockquote></li>
+<li><blockquote>
+<p>Verifica la soddisfazione del cliente (MDPR10.1.B)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pianifica e controlla le pubblicazioni secondo il Piano della Comunicazione (MDPO07.A)</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Sviluppa offerte e accordi</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta le vendite nella relazione con il cliente per le fasi di pianificazione e presentazione dell'Azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Verifica il mantenimento della soddisfazione del cliente per consentire la sua fidelizzazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Verifica con aspetti finanziari e contabili del budget e della pianificazione finanziaria</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i contatti con i nuovi clienti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Comunica con e monitora il Responsabile Comunicazione</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
 <p>Azioni necessarie all’acquisizione di nuovi prospect o nuovi segmenti di mercato</p>
 </blockquote></li>
+<li><blockquote>
+<p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
+</blockquote></li>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati di prospect e clienti</p>
+</blockquote></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
 <p>Svolge le proprie attività indifferentemente negli uffici e fuori sede</p>
 </blockquote></li>
 <li><blockquote>
-<p>Le attività di supporto al cliente e il supporto decisionale continuo vengono eseguiti insieme alle vendite</p>
-</blockquote></li>
-<li><blockquote>
 <p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
 </blockquote></li>
 <li><blockquote>
-<p>È un riferimento per la sua funzione in relazione a SGI</p>
+<p>È un riferimento per la sua funzione in relazione al SGI</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -324,65 +243,38 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>DIREZIONE</strong></td>
+<td>DIREZIONE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Rappresentante Legale dell’Azienda con poteri di firma e di delega propri dell'Amministratore Unico</p>
+<p>Ruolo ricoperto dall'Amministratore Unico, con i poteri di firma e di delega propri della carica</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce le strategie di business, commerciale e di indirizzamento tecnologico a breve e medio termine</p>
+<p>Definisce le strategie di business e gli obiettivi di breve e medio termine</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce gli obiettivi strategici nel breve e medio termine</p>
+<p>Definisce le politiche aziendali in materia di qualità e sicurezza delle informazioni e ne garantisce l'applicazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce le politiche aziendali in materia di sicurezza ed erogazione del servizio espletate attraverso la propria rappresentanza</p>
+<p>Garantisce il rispetto degli obblighi di legge applicabili (MDPO29.C)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce e garantisce la conformità ai requisiti di sicurezza relativi alle informazioni aziendali in base alle politiche stabilite</p>
+<p>Valuta come i rischi per le informazioni influenzano gli obiettivi aziendali e agisce come Risk Owner (PR33.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce gli adempimenti di competenza legale e garantisce il rispetto della legge e degli orientamenti vigenti</p>
+<p>Garantisce che la gestione del rischio abbia risorse adeguate e sia comunicata al personale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comprende in che modo gli obiettivi strategici dell'azienda possono essere influenzati dai rischi per le informazioni</p>
+<p>Decide i rapporti con gli istituti di credito, le linee di credito, le priorità di pagamento e la struttura del debito</p>
 </blockquote></li>
 <li><blockquote>
-<p>Assume la responsabilità del processo di valutazione del rischio per le informazioni e sicurezza informatica, agendo come Risk Owner</p>
+<p>Approva le attività amministrative svolte dall'Amministrazione (fatturazione, incassi, pagamenti)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Garantisce che l'approccio della Società al rischio sia efficace in termini di risorse, impegno ed esecuzione e che ciò sia comunicato a tutto il personale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce i rapporti con gli istituti di credito</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rappresenta la società nei rapporti con le associazioni di categoria (Confindustria, ecc.)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la contabilità di esercizio e il cash flow aziendale</p>
-</blockquote></li>
-<li><blockquote>
-<p>È responsabile dell’attività di fatturazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i rapporti con i commercialisti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i contatti con i consulenti legali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Revisiona ed approva i regolamenti interni della propria direzione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce la fattibilità per partecipazione a bandi di gara e successiva gestione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riporta direttamente all'Amministratore Unico</p>
+<p>Gestisce i rapporti con i consulenti legali</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -390,122 +282,45 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Competenza di decisione e di indirizzamento strategico della società</p>
+<p>Capacità decisionali e di indirizzo strategico</p>
 </blockquote></li>
 <li><blockquote>
-<p>Controllo di gestione e gestione aziendale</p>
+<p>Controllo di gestione e amministrazione aziendale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conoscenza approfondita delle tecniche di amministrazione e controllo</p>
+<p>Conoscenza degli strumenti di credito</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conoscenza di strumenti di credito nazionali e internazionali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Criteri di gestione e strumenti per la gestione organizzativa</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di negoziare e collaborare con le società di gestione del credito (banche, associazioni, istituzioni, ecc.)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza dei sistemi di gestione aziendale e parte attiva nell'identificazione degli obiettivi di miglioramento</p>
+<p>Conoscenza dei sistemi di gestione aziendale</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
+<td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>N.A.</p>
+<p>Approva il budget e ne controlla l'andamento</p>
+</blockquote></li>
+<li><blockquote>
+<p>Firma contratti e incarichi del personale e dei consulenti</p>
+</blockquote></li>
+<li><blockquote>
+<p>Partecipa alla preparazione delle offerte e alla gestione dei clienti</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Definisce le linee guida strategiche e di gestione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce l’organizzazione della società, ruoli e responsabilità</p>
-</blockquote></li>
-<li><blockquote>
-<p>Promuove l’azienda nelle relazioni con Associazioni, consorzi, istituzioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Approva il bilancio preventivo e prepara le note periodiche da sottoporre all'Amministratore Unico</p>
-</blockquote></li>
-<li><blockquote>
-<p>Collabora alla stesura delle proposte tecniche e delle offerte economiche per i servizi strategici della Società</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supervisiona il riesame del Sistema di Gestione della Sicurezza delle Informazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce e approva le priorità di pagamento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce linee di credito e stabilire le priorità di pagamento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Pianifica la struttura del debito a breve, medio e lungo termine della società</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la stipula di contratti/incarichi di personale interno e consulenti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Controlla l'andamento della previsione secondo il budget aziendale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Collabora con la funzione Amministrazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta la preparazione, elaborazione e chiusura dei rendiconti finanziari statutari (in collaborazione con Amministrazione)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Progetta i report finanziari da sottoporre all'Amministratore Unico (anche con il supporto della Governance)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce i costi di capitalizzazione sul bilancio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce l’allocazione delle ore del personale su commesse e progetti di ricerca</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la documentazione per il credito di imposta</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la documentazione per le PMI innovative</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la comunicazione con i consulenti del lavoro per le assunzioni/cessazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone offerte come direzione di area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esplora prospect come direzione di area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce clienti nuovi e storici come direzione di area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce contatti con università ed enti di ricerca</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
 <p>Autorizzazioni esercitate direttamente in qualità di Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
-<p>Rappresentare l’azienda in qualunque tipo di evento</p>
+<p>Rappresenta l’azienda in qualunque tipo di evento</p>
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
@@ -518,6 +333,9 @@ distinto.
 
 ### 2.4 Chief Technical Officer (CTO)
 
+Nota: la scheda comprende la guida dell'area Digital. Nelle commesse il
+riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
+
 <table>
 <thead>
 <tr class="header">
@@ -528,32 +346,26 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>DIREZIONE</strong></td>
+<td>DIREZIONE – AREA DIGITAL</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce e implementa lo sviluppo e la gestione delle strategie di Delivery in accordo con la Direzione (Amministratore Unico)</p>
+<p>Ruolo ricoperto dall'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce le strategie di crescita dell'offerta tecnologica</p>
+<p>Definisce le strategie di delivery e di crescita dell'offerta tecnologica</p>
 </blockquote></li>
 <li><blockquote>
-<p>Coordina le attività di progettazione, sviluppo, assistenza clienti e analisi dei dati</p>
+<p>Guida l'area Digital: competenze del team, scelta delle persone e formazione tecnica (MDPR06.1.C, con Risorse Umane)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Collabora con le risorse umane per definire le competenze tecnologiche necessarie e identificare le risorse</p>
+<p>Definisce gli strumenti aziendali approvati per il lavoro nelle commesse (PR35.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Partecipa alla preparazione del budget per quanto riguarda la Delivery</p>
-</blockquote></li>
-<li><blockquote>
-<p>Revisiona ed approva i regolamenti interni della propria direzione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riferisce direttamente all'Amministratore Unico</p>
+<p>Fornisce supporto tecnico ai PM delle commesse</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -561,93 +373,61 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Conoscenza approfondita dell'offerta della Società su aspetti tecnologici, posizionamento e applicabilità sul mercato</p>
+<p>Conoscenza approfondita dei servizi della Società e delle tecnologie usate</p>
 </blockquote></li>
 <li><blockquote>
-<p>Strumenti e tecniche di gestione progetti</p>
+<p>Gestione di progetti e di team tecnici</p>
+</blockquote></li>
+<li><blockquote>
+<p>Conoscenza del ciclo di vita del software e delle nuove tecnologie</p>
 </blockquote></li>
 <li><blockquote>
 <p>Conoscenza dei sistemi di gestione aziendale</p>
 </blockquote></li>
-<li><blockquote>
-<p>Parte attiva nell'identificazione degli obiettivi di miglioramento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Organizzazione e gestione del team</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di identificare le fasi critiche nella gestione della Direzione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza dell'uso di strumenti aziendali per la gestione delle attività commerciali e di Delivery</p>
-</blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>7 anni in ICT</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Sviluppa le offerte tecnologiche e di prodotto e fornisce supporto allo sviluppo aziendale</p>
+<p>Prepara la parte tecnica delle offerte (PR09.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Coordina le attività del progetto ad alto livello</p>
+<p>Valuta e approva i change (PR19.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Verifica il mantenimento della soddisfazione del cliente per consentire la fidelizzazione del cliente</p>
+<p>Gestisce gli account e i repository GitHub degli sviluppatori e riesamina periodicamente le utenze amministrative (PR16.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Collabora con i responsabili delle varie funzioni aziendali</p>
+<p>Verifica con l'Amministrazione i costi delle commesse</p>
 </blockquote></li>
 <li><blockquote>
-<p>Prepara piani di reporting relativi alla funzione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Verifica con Amministrazione il controllo dei costi sui progetti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fornisce strumenti e metodi per raggiungere gli obiettivi</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone offerte per la propria direzione di area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce le risorse da allocare sui progetti di ricerca</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esplora prospect come direzione di area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce clienti nuovi e storici come direzione di area</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Definizione e approvazione change</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definizione e approvazione progetti e scelte architetturali e tecnologiche</p>
-</blockquote></li>
-<li><blockquote>
-<p>Scelta risorse afferenti all’Area Digital e IT</p>
+<p>Valuta lo sviluppo professionale del team e i livelli della griglia delle competenze (MDPR06.1.E)</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Definizione e approvazione dei change</p>
+</blockquote></li>
+<li><blockquote>
+<p>Scelte architetturali e tecnologiche</p>
+</blockquote></li>
+<li><blockquote>
+<p>Scelta delle risorse dell'area Digital e del fornitore IT</p>
+</blockquote></li>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti; gestione dei dati personali dei dipendenti</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Le attività di pianificazione, studio tecnologico e identificazione delle strategie di sviluppo sono svolte indifferentemente negli uffici e fuori sede</p>
+<p>Svolge le proprie attività indifferentemente negli uffici e fuori sede</p>
 </blockquote></li>
 <li><blockquote>
 <p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
@@ -709,14 +489,6 @@ distinto.
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>7 anni in IC</p>
-</blockquote></li>
-</ul></td>
-</tr>
 <tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
@@ -735,7 +507,7 @@ distinto.
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
+<p>“<em>SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
 </blockquote></li>
 </ul>
 <ul>
@@ -769,30 +541,30 @@ distinto.
 <table>
 <thead>
 <tr class="header">
-<th><strong>Integrated Management System Manager</strong></th>
+<th><strong>Integrated Management System Manager (RSGI)</strong></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>DIREZIONE</strong></td>
+<td>DIREZIONE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce e gestisce il sistema di Gestione Integrato: il sistema di gestione per la sicurezza delle informazioni, il sistema di gestione per la qualità e il sistema di protezione dei dati personali e del cogente individuato dal sistema di gestione stesso</p>
+<p>Definisce e gestisce il Sistema di Gestione Integrato: sicurezza delle informazioni, qualità, protezione dei dati personali e requisiti cogenti applicabili</p>
 </blockquote></li>
 <li><blockquote>
-<p>Coordina l’applicazione delle politiche di parità genere definite dall’Organizzazione</p>
+<p>Garantisce l’applicazione del Sistema da parte di tutto il personale, anche con sessioni periodiche di formazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Garantisce l’applicazione del Sistema da parte di tutto lo staff, effettuando sessioni periodiche di formazione</p>
+<p>Riesamina le decisioni sulle misure di sicurezza prese dall'Amministratore Unico (misura compensativa, §3)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riporta direttamente all'Amministratore Unico</p>
+<p>Riferisce all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -800,106 +572,73 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Conoscenza sistemi di gestione</p>
+<p>Conoscenza dei sistemi di gestione (ISO 9001, ISO/IEC 27001)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Capacità comunicative, organizzative e di genere, team building e problem solving</p>
+<p>Capacità comunicative e organizzative, problem solving</p>
 </blockquote></li>
 <li><blockquote>
 <p>Progettazione ed erogazione di attività formative</p>
 </blockquote></li>
 <li><blockquote>
-<p>Tecniche e strumenti per l’effettuazione di audit interni</p>
+<p>Tecniche e strumenti per gli audit interni</p>
 </blockquote></li>
 <li><blockquote>
-<p>Regolamento UE 679/2016 e D.Lgs 196/03</p>
+<p>Regolamento UE 679/2016 e D.Lgs. 196/03</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>5 anni in ambito ICT</p>
-</blockquote></li>
-<li><blockquote>
-<p>un anno di esperienza in ambito di gestione di sistemi a norma ISO</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Assicura che i processi necessari per il sistema di gestione per la sicurezza delle informazioni, qualità sia predisposto, attuato, monitorato e tenuto aggiornato</p>
+<p>Assicura che i processi del Sistema di Gestione siano predisposti, attuati, monitorati e aggiornati</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce all'Amministratore Unico sulle prestazioni dei sistemi di gestione implementati e in merito a ogni esigenza per il miglioramento</p>
+<p>Riferisce all'Amministratore Unico sulle prestazioni del Sistema e sulle esigenze di miglioramento</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce periodicamente la formazione del personale aziendale sui contenuti dei sistemi di gestione e supporta HR Director nell’identificazione del fabbisogno formativo su tali tematiche</p>
+<p>Gestisce la formazione del personale sul Sistema di Gestione e supporta Risorse Umane nel fabbisogno formativo</p>
 </blockquote></li>
 <li><blockquote>
-<p>Risponde tempestivamente a qualsiasi segnalazione di non conformità ai sistemi di gestione e a qualsiasi segnalazione che possa intaccare la sicurezza del business aziendale</p>
+<p>Gestisce le segnalazioni di non conformità e quelle che possono incidere sulla sicurezza (PR13.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Garantisce la consapevolezza del SGI in tutta l'organizzazione</p>
+<p>Comunica le modifiche al Sistema a tutta l’organizzazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comunica le modifiche al SGI a tutta l’organizzazione</p>
+<p>Controlla una volta l'anno i log degli accessi degli amministratori al server (§3)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce le comunicazioni e relazioni con l’Ente certificatore</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti e dei fornitori;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati del sistema di gestione integrato;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali dei dipendenti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati al fine di garantire la conformità al regolamento sulla protezione dei dati personali.</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Approva processi e informazioni documentate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Comunicare sia con l’interno che con l'esterno in relazione alle proprie competenze</p>
-</blockquote></li>
-<li><blockquote>
-<p>Definisce le informazioni documentate oggetto del sistema di gestione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Pianifica ed effettua attività di audit e test a sorpresa</p>
-</blockquote></li>
-<li><blockquote>
-<p>Tiene contatti con l’ente di certificazione</p>
+<p>Gestisce le comunicazioni con l’ente di certificazione</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Redige e verifica processi e informazioni documentate, che approva l'Amministratore Unico (PR08.1)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Pianifica gli audit interni (MDPR11.1.A)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
+</blockquote></li>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti e dei fornitori; gestione dei dati del sistema di gestione integrato; gestione dei dati personali dei dipendenti; gestione dei dati al fine di garantire la conformità al regolamento sulla protezione dei dati personali</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni e la qualità dei prodotti e servizi</p>
+<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali, garantendo la sicurezza delle informazioni e la qualità dei servizi</p>
 </blockquote></li>
 <li><blockquote>
-<p>È un riferimento per la sua funzione in relazione a SGI</p>
+<p>È un riferimento per la sua funzione in relazione al SGI</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -949,14 +688,6 @@ distinto.
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>N.A.</p>
-</blockquote></li>
-</ul></td>
-</tr>
 <tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
@@ -979,7 +710,7 @@ distinto.
 <p>Raccoglie le segnalazioni provenienti dai lavoratori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Partecipa alla nomina dell’addetto al primo soccorso, di quello antincendio e del medico competente</p>
+<p>È consultato sulla designazione degli addetti al primo soccorso e antincendio e del medico competente</p>
 </blockquote></li>
 <li><blockquote>
 <p>Partecipa alla stesura del piano di evacuazione</p>
@@ -1029,26 +760,23 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>IT</strong></td>
+<td>IT (FORNITORE ESTERNO)</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Si occupa di monitoraggio, manutenzione e aggiornamento dei sistemi informatici</p>
+<p>Gestisce il server dedicato Aruba e i servizi che ospita (es. n8n, siti web)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce l’infrastruttura di rete e gli account dell’azienda (per la parte in carico alla sua mansione)</p>
+<p>Gestisce i certificati TLS e le utenze amministrative dei sistemi aziendali</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce il buon governo dell’hardware e del software</p>
+<p>Gestisce la rete dell'ufficio (router, firewall, Wi-Fi)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Pianifica e progetta reti di sistemi informatici</p>
-</blockquote></li>
-<li><blockquote>
-<p>Ottimizza le risorse hardware e software</p>
+<p>Si occupa di monitoraggio, manutenzione e aggiornamento dei sistemi in carico</p>
 </blockquote></li>
 <li><blockquote>
 <p>Risponde al CTO</p>
@@ -1059,209 +787,62 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Capacità di lavoro in team</p>
+<p>Sistemi Linux e servizi web (es. Docker, NGINX)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Sistemi operativi: Conoscenza approfondita di UNIX, Linux, MS Windows</p>
+<p>Reti, firewall, VPN e certificati TLS</p>
 </blockquote></li>
 <li><blockquote>
-<p>Networking: Conoscenza approfondita delle reti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza delle tecniche di gestione e interrogazione / manipolazione / programmazione per almeno uno dei seguenti: SQL, Cpp, Python, Javascript</p>
+<p>Automazione e scripting (es. Python, CI/CD)</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>4 anni di esperienza come sistemista se in possesso di Laurea in discipline scientifiche</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Installa e configura hardware e software, sia lato client che lato server</p>
+<p>Applica le patch di sicurezza ai sistemi in carico (PR22.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce le patch di sicurezza dei sistemi informativi in uso all’azienda</p>
+<p>Monitora l’operatività del server e dei servizi</p>
 </blockquote></li>
 <li><blockquote>
-<p>Monitora l’operatività dei server aziendali e del sistema di backup</p>
+<p>Rinnova i certificati TLS prima della scadenza</p>
 </blockquote></li>
 <li><blockquote>
-<p>Esegue troubleshooting di malfunzionamenti sulle reti e sui server</p>
+<p>Esegue il troubleshooting di malfunzionamenti su rete e server</p>
 </blockquote></li>
 <li><blockquote>
-<p>Progetta migliorie per il sistema informatico aziendale</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.A.2 – Addendum Lettera Incarico AdS</em>”</p>
-</blockquote></li>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi aziendali;</p>
+<p>Propone migliorie per i sistemi aziendali</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Nomina ad Amministratore di Sistema: “ALPO31.A – Lettera incarico AdS” e “ALPO31.C – Addendum Lettera Incarico AdS”</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
+<li><blockquote>
+<p>Libero professionista esterno, gestito come fornitore secondo PR26.1 e vincolato da accordo di riservatezza</p>
+</blockquote></li>
 <li><blockquote>
 <p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
 </blockquote></li>
 <li><blockquote>
-<p>È un riferimento per la sua funzione in relazione a SGI</p>
+<p>È un riferimento per la sua funzione in relazione al SGI</p>
 </blockquote></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### 2.9 IT Staff
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>IT Staff</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FUNZIONE</strong></td>
-<td><strong>CTO</strong></td>
-</tr>
-<tr class="even">
-<td><p><strong>RESPONSABILITÀ</strong></p>
-<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
-<td><ul>
-<li><blockquote>
-<p>Opera nelle proprie mansioni in base a indicazioni ricevute a livello superiore</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fornisce un regolare e periodico aggiornamento delle proprie attività verso il CTO e la Direzione (Amministratore Unico)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esegue le attività di manutenzione ordinaria e straordinaria sull’hardware in uso nell’azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce le installazioni e le configurazioni di sistemi operativi e software di base sui sistemi aziendali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce il buon governo dell’hardware e del software</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPETENZE</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Conoscenza dell’hardware informatico: architetture, memorie, schede grafiche, supporti magnetici e ottici</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza delle periferiche hardware (stampanti, switch…)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza e gestione di ambienti virtualizzati (Docker, Hyper-V, Kubernetes, ...)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza delle componenti hardware e software di una rete</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di diagnosticare le problematiche sperimentabili dai diversi dispositivi e di intervenire per risolverle</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di assemblare sistemi informatici quali computer, server e reti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di problem solving</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>2 anni di esperienza come tecnico informatico</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Individua e risolve eventuali inconvenienti del software di base o di sistema</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esegue test tecnici dei sistemi controllandone le performances e l’affidabilità</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esegue parte dei test di carico e di collaudo su infrastrutture e applicativi software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce l’inventario hardware dell’azienda e i test funzionali del materiale hardware in ingresso all’azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Installa, gestisce e manutiene sistemi software creati dall'azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Produce documentazione tecnica sul know-how acquisito e sulle soluzioni infrastrutturali implementate</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Attività di manutenzione e gestione ordinarie</p>
-</blockquote></li>
-<li><blockquote>
-<p>“<em>SGI - ALPO31.B.1 - Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi aziendali.</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
-</blockquote></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### 2.10 Administration
+### 2.9 Administration
 
 <table>
 <thead>
@@ -1273,26 +854,23 @@ distinto.
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>AMMINISTRAZIONE</strong></td>
+<td>AMMINISTRAZIONE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Gestisce la parte amministrativa del personale e trasferte</p>
+<p>Gestisce la fatturazione, la prima nota, gli incassi e i pagamenti; le decisioni spettano all'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
-<p>Tiene la prima nota di cassa</p>
+<p>Gestisce i rapporti operativi con lo studio commercialista</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce le entrate e dei pagamenti</p>
+<p>Gestisce la parte amministrativa del personale e delle trasferte</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce la fatturazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta la contabilità generale e gli adempimenti fiscali</p>
+<p>Riferisce all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1300,145 +878,99 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Capacità di lavoro in team</p>
+<p>Conoscenze di ragioneria e partita doppia</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conoscenza del pacchetto MSOffice e Windows</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenze ragioneria/partita doppia</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza di ciclo attivo, contabilità relativa alle fatture emesse e in generale alle entrate, contabilità clienti, effetti e gestione del credito</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza di ciclo passivo, contabilità fornitori, gestione ritenuta d’acconto, obblighi previdenziali</p>
+<p>Ciclo attivo e passivo, contabilità clienti e fornitori, gestione del credito</p>
 </blockquote></li>
 <li><blockquote>
 <p>Utilizzo di sistemi informativi per le attività di gestione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Abilità relazionali comunicative e interpersonali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza del D.lgs. 9 aprile 2008, n. 81</p>
+<p>Capacità relazionali e di lavoro in team</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>2 anni di esperienza se in possesso di diploma di scuola superiore</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
 <p>Gestisce la contabilità clienti e fornitori</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce i flussi di cassa e attività di reportistica</p>
+<p>Gestisce i flussi di cassa e la reportistica</p>
 </blockquote></li>
 <li><blockquote>
-<p>Effettua servizio di centralino aziendale</p>
+<p>Gestisce la parte amministrativa delle offerte e degli ordini dei clienti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce la documentazione per il credito di imposta</p>
+<p>Gestisce la parte amministrativa dei fornitori: comunicazioni, ingaggi, archivio documentazione e valutazione annuale (PR26.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Supporta la documentazione per PMI innovativa</p>
+<p>Gestisce i fornitori per manutenzioni e servizi dell'ufficio</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce la parte amministrativa dei progetti di ricerca: attività di rendicontazione, gestione portali, produzione documentazione amministrativa</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i fornitori per manutenzioni e per rete/infrastruttura ufficio</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la parte amministrativa delle offerte e degli ordini dei clienti (comunicazioni cliente, revisione, archiviazione)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la parte amministrativa dei fornitori in termini di comunicazioni, ingaggi, archivio documentazione e coordinamento valutazione annuale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta la raccolta degli indicatori a carico dell’Amministrazione</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>“<em>SGI - ALPO31.B.1 - Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati personali e particolari dei dipendenti ai fini della rendicontazione di progetti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali degli attori che partecipano ai progetti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati dei clienti e dei fornitori.</p>
+<p>Raccoglie gli indicatori a carico dell’Amministrazione (MDPR10.1.A)</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali dei dipendenti per gli adempimenti amministrativi; gestione dei dati dei clienti e dei fornitori</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Gestisce i corrieri e la posta cartacea</p>
-</blockquote></li>
-<li><blockquote>
-<p>Lavora in conformità con i requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
+<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
 </blockquote></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### 2.11 Human Resources Director
+### 2.10 Risorse Umane
 
 <table>
 <thead>
 <tr class="header">
-<th><strong>Human Resources Director</strong></th>
+<th><strong>Risorse Umane</strong></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>FUNZIONE</strong></td>
-<td><strong>DIREZIONE</strong></td>
+<td>RISORSE UMANE</td>
 </tr>
 <tr class="even">
 <td><p><strong>RESPONSABILITÀ</strong></p>
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce con la Direzione (Amministratore Unico) e implementa tutte le strategie relative allo staff</p>
+<p>Gestisce la selezione del personale: annunci, colloqui e archivio dei CV (PR05.1)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Coordina la gestione dell’archiviazione dei CV e dei profili professionali interni ed esterni</p>
+<p>Gestisce ferie, permessi e presenze del personale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce le risorse umane per l'intero ciclo di vita (dal reclutamento alla cessazione) con particolare attenzione alla maternità/paternità/care giver</p>
+<p>Gestisce con il consulente del lavoro assunzioni, cessazioni e cedolini</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce il rispetto del cogente in termini di salute e sicurezza dei lavoratori e i rapporti con RSPP e Medico competente (D.lgs. 9 aprile 2008, n. 81)</p>
+<p>Prepara il piano di formazione con CTO e RSGI (MDPR06.1.C)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Revisiona ed approva i regolamenti interni della propria direzione</p>
+<p>Gestisce gli adempimenti del D.Lgs. 81/08 e i rapporti con RSPP e medico competente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Riferisce direttamente all'Amministratore Unico</p>
+<p>Gestisce il processo disciplinare (MDPR05.1.H)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce il processo disciplinare</p>
+<p>Riferisce all'Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1446,691 +978,48 @@ distinto.
 <td><strong>COMPETENZE</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Tecniche di reclutamento</p>
-</blockquote></li>
-<li><blockquote>
 <p>Tecniche di selezione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Abilità relative all'amministrazione e alla gestione del personale</p>
+<p>Amministrazione e gestione del personale</p>
 </blockquote></li>
 <li><blockquote>
-<p>Progettazione e gestione di corsi di formazione interni</p>
+<p>Conoscenza del D.Lgs. 81/08</p>
 </blockquote></li>
 <li><blockquote>
-<p>Criteri di gestione e strumenti per la gestione organizzativa</p>
-</blockquote></li>
-<li><blockquote>
-<p>Organizzazione e gestione delle attività di contabilità dell’area risorse umane</p>
-</blockquote></li>
-<li><blockquote>
-<p>Utilizzo di sistemi informativi per le attività di gestione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Abilità relazionali comunicative e interpersonali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza del D.lgs. 9 Aprile 2008, n.81</p>
-</blockquote></li>
-<li><blockquote>
-<p>Compila i questionari ISTAT, rilevamento economico, ecc per la parte di sua competenza</p>
+<p>Capacità relazionali e comunicative</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
+<td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>5 anni in gestione Risorse Umane nel settore ICT</p>
+<p>Gestisce l'ingresso e l'uscita del personale con le checklist MDPR05.1.A e MDPR05.1.L</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccoglie gli indicatori a carico delle Risorse Umane</p>
+</blockquote></li>
+<li><blockquote>
+<p>Raccoglie evidenze e documentazione per la gestione delle violazioni disciplinari</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Gestisce le attività di reclutamento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Seleziona i candidati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce le interviste di selezione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce il personale in modo operativo</p>
-</blockquote></li>
-<li><blockquote>
-<p>Prepara piani di formazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Autorizza e verifica i piani di presenza dei dipendenti (ferie, permessi, malattie, ecc.)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Mantiene i rapporti con i consulenti del lavoro</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riporta periodicamente gli indicatori di performance in base agli indirizzi dell'Amministratore Unico</p>
-</blockquote></li>
-<li><blockquote>
-<p>Raccoglie le evidenze e la documentazione a supporto della gestione delle violazioni disciplinare avvalendosi di altre figure interne all’azienda</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati personali e particolari dei dipendenti per la gestione del rapporto di lavoro;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali dei candidati.</p>
-</blockquote></li>
-</ul>
-<ul>
 <li><blockquote>
 <p>Colloqui con il personale per il monitoraggio dello stato di lavoro</p>
 </blockquote></li>
 <li><blockquote>
-<p>Comunica sia con l’interno che con l'esterno in relazione alle proprie competenze</p>
+<p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce ogni mese il calcolo delle ore di permesso retribuito e le eventuali ore di extra del personale in modo da distribuire correttamente i carichi del monte ore dei permessi retribuiti e delle ore extra accumulate</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Lavora in conformità con i requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
-</blockquote></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### 2.12 Human Resources Staff
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Human Resources Staff</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FUNZIONE</strong></td>
-<td><strong>HUMAN RESOURCES</strong></td>
-</tr>
-<tr class="even">
-<td><p><strong>RESPONSABILITÀ</strong></p>
-<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
-<td><ul>
-<li><blockquote>
-<p>Si occupa della gestione amministrativa del personale e trasferte</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si occupa della gestione dell’archiviazione dei CV e dei profili professionali interni ed esterni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce le risorse umane per l'intero ciclo di vita (dal reclutamento alla cessazione)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Collabora con HR Director alla gestione del rispetto del cogente in termini di salute e sicurezza dei lavoratori e i rapporti con RSPP e Medico competente (D.lgs. 9 aprile 2008, n. 81)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Collabora con HR Director per la gestione del questionario del clima</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPETENZE</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Capacità di lavoro in team</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza del pacchetto MSOffice e Windows</p>
-</blockquote></li>
-<li><blockquote>
-<p>Tecniche di reclutamento</p>
-</blockquote></li>
-<li><blockquote>
-<p>Tecniche di selezione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Abilità relative all'amministrazione e alla gestione del personale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestione di corsi di formazione interni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Organizzazione e attività di contabilità dell’area risorse umane</p>
-</blockquote></li>
-<li><blockquote>
-<p>Utilizzo di sistemi informativi per le attività di gestione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Abilità relazionali comunicative e interpersonali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza del D.lgs. 9 aprile 2008, n. 81</p>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali e particolari dei dipendenti per la gestione del rapporto di lavoro; gestione dei dati personali dei candidati</p>
 </blockquote></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>2 anni di esperienza se in possesso di diploma di scuola superiore</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Gestisce il personale in modo operativo</p>
-</blockquote></li>
-<li><blockquote>
-<p>Mantiene i piani di formazione</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone i cedolini del personale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta nella raccolta degli indicatori a carico dell’Human Resource</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta HR Director nella compilazione del report di sintesi del personale</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Effettua colloqui con il personale per il monitoraggio dello stato di lavoro</p>
-</blockquote></li>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati personali e particolari dei dipendenti per la gestione del rapporto di lavoro;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali dei candidati.</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Gestisce corrieri e posta cartacea</p>
-</blockquote></li>
-<li><blockquote>
-<p>Lavora in conformità con i requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
-</blockquote></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### 2.13 Digital Technical Manager
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Digital Technical Manager</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FUNZIONE</strong></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><strong>RESPONSABILITÀ</strong></p>
-<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
-<td><ul>
-<li><blockquote>
-<p>Collabora con lo Staff di Area e altri membri dello staff IT per gestire e monitorare le soluzioni implementative adottate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Interagisce attivamente con gli altri Manager</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riferisce al CTO</p>
-</blockquote></li>
-<li><blockquote>
-<p>Coadiuva lo Human Resources Director nella proposta di piani formativi per il personale afferente all’area, compreso se stesso</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fornisce supporto tecnico a HR in fase di colloquio per futuro personale afferente all’area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rappresenta il punto di riferimento tecnico per il personale dell’area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esplora il mercato per nuovi prospect</p>
-</blockquote></li>
-<li><blockquote>
-<p>E’ responsabile dello sviluppo e della creazione di soluzioni IT, installazione e configurazione di soluzioni, implementazione di componenti riutilizzabili, traduzione di requisiti tecnici, assistenza e supervisione in tutte le fasi del Ciclo di Vita del software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si impegna nel raggiungimento negli obiettivi assegnati all’area</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPETENZE</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Conoscere e individuare nuove tecnologie e strumenti correlati da introdurre nell'azienda per arricchire il know-how di Area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di problem solving</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di lavoro in team</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fornire supporto diretto durante tutte le fasi del ciclo di vita del software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Verificare per quanto di sua competenza che le soluzioni implementate soddisfino i requisiti e siano conformi alle politiche aziendali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Progettare e sviluppare applicazioni personalizzate Full Stack Web e Mobile, secondo gli standard e le tecnologie aziendali adottate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Progettare, implementare e testare infrastrutture concordate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supervisionare e automatizzare la distribuzione di applicazioni web e mobile, prevedendo configurazioni di sistema e impostazioni di sicurezza</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conosce e utilizza gli strumenti di produttività aziendale</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>5-8 anni in ambito ICT</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Crea soluzioni automatizzate mediante l'utilizzo della tecnologia di gestione della configurazione.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rilascia nuovi applicativi, moduli e aggiornamenti software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce tutti gli ambienti dedicati allo sviluppo del software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Risolve problemi relativi ai sistemi sviluppati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Valuta le applicazioni e le piattaforme esistenti, fornendo consigli per migliorarne le prestazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esegue attività di manutenzione delle applicazioni e dei sistemi sviluppati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Predispone la pianificazione di massima delle attività e la distribuzione dei compiti tra le risorse del team di progetto.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Formula valutazioni e fornisce pareri in merito allo sviluppo professionale delle risorse di area contribuendo all’aggiornamento del piano delle carriere.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i rapporti col cliente</p>
-</blockquote></li>
-<li><blockquote>
-<p>Segnala a RSGI eventuali reclami del cliente</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari dei dipendenti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati di test presenti in ambienti demo, di sviluppo e di test</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Comunica sia con l’interno che con l'esterno in relazione alle proprie competenze</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>È un riferimento per la sua funzione in relazione a SGI</p>
-</blockquote></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### 2.14 Innovation & Research Projects Manager
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Innovation &amp; Research Projects tecnical Manager</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FUNZIONE</strong></td>
-<td><strong>AREA INNOVATION</strong></td>
-</tr>
-<tr class="even">
-<td><p><strong>RESPONSABILITÀ</strong></p>
-<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
-<td><ul>
-<li><blockquote>
-<p>Si occupa della stesura e della presentazione delle proposte di progetti di ricerca finanziata in ambito nazionale e internazionale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si occupa della gestione e della rendicontazione dei progetti di ricerca finanziata acquisiti</p>
-</blockquote></li>
-<li><blockquote>
-<p>È responsabile/(si occupa) delle relazioni con altri attori (università, aziende) con cui condividere la partecipazione ai progetti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esplora il mercato per nuovi prospect</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riferisce al CTO</p>
-</blockquote></li>
-<li><blockquote>
-<p>Interagisce attivamente con gli altri Manager</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fornisce supporto tecnico a HR in fase di colloquio per futuro personale afferente all’area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rappresenta il punto di riferimento tecnico per il personale dell’area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si impegna nel raggiungimento negli obiettivi assegnati all’area</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPETENZE</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Conoscenza e capacità di relazione in ambito di associazioni, gruppi ed enti preposti per lo sviluppo di programmi di ricerca in ambito nazionale e internazionale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza approfondita dell’offerta dell’azienda, dal punto di vista tecnologico e dell’offerta al mercato</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscenza delle modalità di presentazione delle proposte ai vari enti finanziatori, nazionali e internazionali</p>
-</blockquote></li>
-<li><blockquote>
-<p>Ottima conoscenza della lingua inglese letta, parlata e scritta</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>5 anni di esperienza in ambito ricerca e sviluppo nel settore Digital e ICT</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Identifica e propone le strategie di collaborazione con i partner nazionali e internazionali con cui condividere proposte/progetti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Collabora con lo staff dell’area e tecnico per individuare/valutare soluzioni innovative da cui possono essere sviluppate proposte interessanti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la collaborazione tra lo staff dell’area e tecnico per la stesura delle proposte tecniche</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce la collaborazione con l’amministrazione per la stesura della parte amministrativa delle proposte tecniche e progetti finanziati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Provvede alla presentazione delle proposte nei tempi e nelle modalità previste dagli enti finanziatori</p>
-</blockquote></li>
-<li><blockquote>
-<p>Identifica e propone commesse di ricerca finanziata</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si relaziona con i partner nazionali e internazionali dei progetti già acquisiti affinché le attività previste siano portate avanti con diligenza e siano raggiunti gli obiettivi prefissati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Provvede alla gestione dei deliverable e di tutta la documentazione richiesta per i progetti dagli enti finanziatori</p>
-</blockquote></li>
-<li><blockquote>
-<p>Supporta nella relazione con il cliente per le fasi di pianificazione e presentazione dell'azienda</p>
-</blockquote></li>
-<li><blockquote>
-<p>Gestisce i rapporti col cliente</p>
-</blockquote></li>
-<li><blockquote>
-<p>Segnala a RSGI eventuali reclami del cliente</p>
-</blockquote></li>
-<li><blockquote>
-<p>Formula valutazioni e fornisce pareri in merito allo sviluppo professionale delle proprie risorse contribuendo all’aggiornamento del piano delle carriere.</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p><em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari dei dipendenti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati di test presenti in ambienti demo, di sviluppo e di test</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Comunica sia con l’interno che con l'esterno in relazione alle proprie competenze</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Lavora nel rispetto dei requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>È un riferimento per la sua funzione in relazione a SGI</p>
-</blockquote></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### 2.15 SW Developper
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Technology &amp; Digital Solutions Staff</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FUNZIONE</strong></td>
-<td><strong>DIGITAL</strong></td>
-</tr>
-<tr class="even">
-<td><p><strong>RESPONSABILITÀ</strong></p>
-<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
-<td><ul>
-<li><blockquote>
-<p>Opera nei suoi compiti sulla base delle indicazioni ricevute dal Digital Technical Manager</p>
-</blockquote></li>
-<li><blockquote>
-<p>Riferisce al Digital Technical Manager</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPETENZE</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Conoscere e individuare nuove tecnologie e strumenti correlati da introdurre nell'azienda per arricchire il know-how di Area</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscere e saper interagire in tutte le fasi del ciclo di vita del software</p>
-</blockquote></li>
-<li><blockquote>
-<p>Produce documentazione tecnica e manualistica</p>
-</blockquote></li>
-<li><blockquote>
-<p>Implementa applicazioni personalizzate Full Stack Web e Mobile, secondo gli standard e le tecnologie aziendali adottate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Implementa e testa infrastrutture concordate</p>
-</blockquote></li>
-<li><blockquote>
-<p>Automatizza la distribuzione di applicazioni web e mobile</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conosce e utilizza gli strumenti di produttività aziendale</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscere i principi di User-Centered Design e Design Thinking.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Saper applicare metodologie e strumenti di ricerca utente, analisi dei requisiti e test di usabilità.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscere e utilizzare strumenti di progettazione per la UX (user flow, wireframe, information architecture).</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscere e utilizzare strumenti di UI Design e Prototipazione interattiva (es. Figma, Adobe XD, Sketch).</p>
-</blockquote></li>
-<li><blockquote>
-<p>Saper collaborare con team tecnici e funzionali per tradurre le esigenze utente in soluzioni digitali efficaci.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Conoscere i principi base di accessibilità, design system e brand identity.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di problem solving e lavoro in team multidisciplinari.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Capacità di comunicare in modo efficace idee progettuali e risultati.</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Almeno 5 anni in ambito ICT</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>COMPITI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Collaborare con il Manager all’analisi dei requisiti di un progetto, alla quantificazione dell’effort necessario per nuove implementazioni</p>
-</blockquote></li>
-<li><blockquote>
-<p>Pianifica ed esegue parte dei test funzionali, di integrazione e di sistema in base ai requisiti</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si occupa dell’implementazione delle applicazioni secondo gli standard e le tecnologie adottate seguendo le specifiche di progetto</p>
-</blockquote></li>
-<li><blockquote>
-<p>Si occupa della redazione della documentazione tecnica e di requisiti dei progetti a cui partecipa e relativamente alle sue parti di competenza</p>
-</blockquote></li>
-<li><blockquote>
-<p>Esegue attività di manutenzione ordinaria ed evolutiva delle applicazioni e dei sistemi sviluppati</p>
-</blockquote></li>
-<li><blockquote>
-<p>Prende in carico la gestione di progetti/commesse che gli vengono affidate dal Manager</p>
-</blockquote></li>
-<li></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>AUTORIZZAZIONI</strong></td>
-<td><ul>
-<li><blockquote>
-<p>“<em>SGI – ALPO31.B.1 – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>gestione dei dati dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati personali e particolari presenti sui sistemi dei clienti;</p>
-</blockquote></li>
-<li><blockquote>
-<p>gestione dei dati di test presenti in ambienti demo, di sviluppo e di test.</p>
-</blockquote></li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
@@ -2141,7 +1030,189 @@ distinto.
 </tbody>
 </table>
 
-### 2.16 Responsabile del Servizio di Prevenzione e Protezione (RSPP)
+### 2.11 PM (responsabile di commessa)
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>PM (responsabile di commessa)</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FUNZIONE</strong></td>
+<td>COMMESSE</td>
+</tr>
+<tr class="even">
+<td><p><strong>RESPONSABILITÀ</strong></p>
+<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
+<td><ul>
+<li><blockquote>
+<p>Avvia, supervisiona e chiude la commessa secondo PR35.1</p>
+</blockquote></li>
+<li><blockquote>
+<p>Tiene i rapporti con il cliente durante la commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>Supervisiona il lavoro del team e ne registra l'allocazione nel capacity planner</p>
+</blockquote></li>
+<li><blockquote>
+<p>Registra avvio, fatti rilevanti e chiusura nel task Prospect in ClickUp</p>
+</blockquote></li>
+<li><blockquote>
+<p>Segnala a RSGI reclami e problemi di qualità del cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riferisce al CTO</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPETENZE</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Gestione di progetti e di team</p>
+</blockquote></li>
+<li><blockquote>
+<p>Conoscenza del servizio e delle regole su dati e codice del cliente (PR35.1)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Capacità relazionali con il cliente</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>COMPITI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Raccoglie le regole del cliente su strumenti, dati e accessi</p>
+</blockquote></li>
+<li><blockquote>
+<p>Chiede al cliente la chiusura degli accessi del team a fine commessa</p>
+</blockquote></li>
+<li><blockquote>
+<p>Invia al cliente il form di fine commessa</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
+</blockquote></li>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>È indicato per ogni commessa nel task Prospect</p>
+</blockquote></li>
+<li><blockquote>
+<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+### 2.12 Sviluppatore (Technology & Digital Solutions Staff)
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Sviluppatore (Technology & Digital Solutions Staff)</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FUNZIONE</strong></td>
+<td>DIGITAL</td>
+</tr>
+<tr class="even">
+<td><p><strong>RESPONSABILITÀ</strong></p>
+<p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
+<td><ul>
+<li><blockquote>
+<p>Lavora nelle commesse secondo le indicazioni del PM, con il processo e gli strumenti del cliente (PR35.1)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Riferisce al CTO</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>COMPETENZE</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Linguaggi di programmazione (es. C++, C#, Python, TypeScript)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Motori e librerie 3D (es. Unreal Engine, Unity, Three.js/WebGL)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sviluppo di applicazioni VR/AR e di simulazione (es. HoloLens, ROS 2)</p>
+</blockquote></li>
+<li><blockquote>
+<p>Controllo di versione (Git) e ciclo di vita del software</p>
+</blockquote></li>
+<li><blockquote>
+<p>Test, documentazione tecnica, problem solving e lavoro in team</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>COMPITI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Collabora con il PM all’analisi dei requisiti e alla stima dell’effort</p>
+</blockquote></li>
+<li><blockquote>
+<p>Sviluppa il software secondo le specifiche e gli standard del cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Esegue i test di sua competenza secondo il processo del cliente; i test di accettazione li esegue il cliente</p>
+</blockquote></li>
+<li><blockquote>
+<p>Redige la documentazione tecnica di sua competenza</p>
+</blockquote></li>
+<li><blockquote>
+<p>Esegue la manutenzione ordinaria ed evolutiva del software sviluppato</p>
+</blockquote></li>
+<li><blockquote>
+<p>Segnala al PM problemi e incidenti di sicurezza (PR27.1)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>AUTORIZZAZIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
+</blockquote></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
+<td><ul>
+<li><blockquote>
+<p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
+</blockquote></li>
+<li><blockquote>
+<p>Rispetta le regole su dati e codice del cliente (PR35.1)</p>
+</blockquote></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+### 2.13 Responsabile del Servizio di Prevenzione e Protezione (RSPP)
 
 <table>
 <thead>
@@ -2187,14 +1258,6 @@ distinto.
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>N.A.</p>
-</blockquote></li>
-</ul></td>
-</tr>
 <tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
@@ -2231,7 +1294,7 @@ distinto.
 </tbody>
 </table>
 
-### 2.17 Referente Privacy
+### 2.14 Referente Privacy
 
 <table>
 <thead>
@@ -2277,14 +1340,6 @@ distinto.
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><strong>ANNI DI ESPERIENZA</strong></td>
-<td><ul>
-<li><blockquote>
-<p>Nessun requisito minimo; richiesta formazione specialistica documentata (vedi “<em>PO31 - Misure di sicurezza protezione dati personali</em>”)</p>
-</blockquote></li>
-</ul></td>
-</tr>
 <tr class="odd">
 <td><strong>COMPITI</strong></td>
 <td><ul>
@@ -2318,18 +1373,16 @@ distinto.
 </tbody>
 </table>
 
-### 2.18 Responsabile di Area
+### 2.15 Responsabile di Area
 
-Nota: “Responsabile di Area” è il termine trasversale utilizzato in
-altre procedure (es. PO02, PR05.1) per indicare, senza distinzione di
-scheda propria, la persona che coordina una specifica Area/Direzione
-aziendale (Digital, Business Development, Innovation & Research
-Projects, IT, Amministrazione). Non introduce competenze o
-responsabilità ulteriori rispetto a quelle già descritte nella scheda
-del ruolo apicale della relativa Area (es. Chief Technical Officer per
-l’Area Digital, Business Development per l’Area commerciale, Innovation
-& Research Projects Manager per l’omonima Area, HR Director per
-l’Area Risorse Umane).
+Molte procedure usano il termine «Responsabile di Area» per indicare il
+responsabile diretto di una persona. In Vectorlab corrisponde a:
+
+| Area | Responsabile di Area |
+| --- | --- |
+| Digital (sviluppatori) e IT | CTO |
+| Commerciale e comunicazione | Business Development |
+| Amministrazione e Risorse Umane | Amministratore Unico |
 
 ## 3 Segregazione dei Compiti
 
@@ -2360,21 +1413,8 @@ Qualora possibile, Vectorlab cerca quindi di garantire che:
     > utilizzatrici dei sistemi informatici, perché queste tendono a
     > privilegiare le funzionalità rispetto alla sicurezza;
 
-  - > gli amministratori dei database in produzione, appartenenti al
-    > reparto IT o eventualmente membri autorizzati del reparto Digital,
-    > non siano in numero maggiore rispetto al necessario, per evitare
-    > che troppe persone abbiano accesso diretto ai dati e che la loro
-    > sicurezza non sia secondaria rispetto alle necessità di
-    > efficienza;
-
-  - > chi sviluppa le applicazioni sia indipendente da chi le mantiene
-    > perché, se tutto è in mano alle stesse persone, queste perdono
-    > l'abitudine di documentare quanto fatto e di effettuare i
-    > controlli e le verifiche previste;
-
-  - > chi sviluppa e mantiene le applicazioni sia indipendente da chi
-    > conduce i sistemi, per evitare che siano introdotti negli ambienti
-    > di produzione software non adeguatamente verificati;
+  - > le utenze amministrative sui sistemi aziendali siano limitate
+    > alle persone che ne hanno bisogno;
 
   - > gli auditor che effettuano audit di prima/seconda parte devono
     > garantire indipendenza.
@@ -2385,9 +1425,9 @@ distinti a persone diverse, Vectorlab attua delle misure compensative.
 Di seguito alcune misure in uso ove è stato valutato un possibile
 conflitto:
 
-  - > **Area Digital** – la persona che realizza l’applicazione, sia
-    > essa interna che realizzata per il cliente, non può svolgere i
-    > test per l’accettazione;
+  - > **Area Digital** – gli sviluppatori lavorano sugli ambienti e con
+    > il processo del cliente: i test di accettazione e il rilascio in
+    > produzione li esegue il cliente (PR35.1);
 
   - > **IT** – colui che compie operazioni di amministrazione del
     > sistema IT da cui i log vengono generati non è lo stesso che
@@ -2399,8 +1439,8 @@ conflitto:
     > 27/11/2008 sugli amministratori di sistema); l'esito si registra
     > in un task ClickUp.
 
-  - > **Ruoli concentrati sull’Amministratore Unico** (CEO, CTO,
-    > responsabile Digital, CISO, RSPP): le decisioni sulle misure di
+  - > **Ruoli concentrati sull’Amministratore Unico** (CEO, CTO e
+    > area Digital, CISO, RSPP): le decisioni sulle misure di
     > sicurezza e i relativi esiti sono riesaminati dall’RSGI, che non
     > svolge attività tecniche sui sistemi; l’audit interno sulle aree
     > tecniche e di sicurezza è svolto da un auditor esterno (PR11.1);
@@ -2412,8 +1452,8 @@ conflitto:
     > utenze amministrative, modifiche ai permessi sui sistemi di
     > produzione, cancellazione di dati o backup): richiedono la
     > richiesta di una persona e l’esecuzione o la verifica di una
-    > persona diversa, con traccia nel sistema di ticketing o nei log
-    > dei servizi cloud;
+    > persona diversa, con traccia in un task ClickUp o nei log del
+    > server;
 
   - > **Funzione IT affidata a un professionista esterno**: le attività
     > di System Administrator sono svolte da un libero professionista
