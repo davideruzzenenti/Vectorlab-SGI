@@ -300,7 +300,7 @@ Allegati:
 
 1.  Progetto
 
-2.  ALPR26.1.A - Comunicazione SGSI per fornitori
+2.  ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori
 
 3.  ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
 
