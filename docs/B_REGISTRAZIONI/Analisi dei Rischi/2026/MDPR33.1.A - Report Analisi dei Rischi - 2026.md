@@ -82,7 +82,7 @@ L’attività di Analisi del Rischio è relativa all’ambito di certificazione 
 
 ISO/IEC 27001 – ”Sicurezza delle informazioni, cybersecurity e protezione della privacy — Sistemi di gestione della sicurezza delle informazioni – Requisiti”
 
-PR33.1 – Processo Analisi del Rischio e Trattamento.
+[PR33.1](../../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) – Processo Analisi del Rischio e Trattamento.
 
 # 1.3 Definizioni, Acronimi, Abbreviazioni
 
@@ -100,7 +100,7 @@ SGSI - Sistema di Gestione della Sicurezza delle Informazioni.
 
 # 2 Impostazione per calcolo dei rischi
 
-Secondo quanto specificato nella metodologia *“PR33.1 – Processo Analisi del Rischio“,* sono stati applicati i seguenti passaggi per svolgere l’analisi e la valutazione dei rischi:
+Secondo quanto specificato nella metodologia *“[PR33.1](../../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) – Processo Analisi del Rischio“,* sono stati applicati i seguenti passaggi per svolgere l’analisi e la valutazione dei rischi:
 
 1.  definizione dello staff avente ruolo di **Process Owner** (PO) sui processi primari e di supporto;
 

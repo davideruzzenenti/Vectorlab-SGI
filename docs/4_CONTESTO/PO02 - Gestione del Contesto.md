@@ -100,11 +100,11 @@ La presente politica si applica a tutta l’Organizzazione.
 
 ### 1.3 Riferimenti e Allegati
 
-> ALPO02.A – Contesto e Processi
+> [ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e Processi
 
-> ALPO02.B – Analisi Stakeholder
+> [ALPO02.B](ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
 
-> MDPR28.1.A – Piani di Continuità Operativa\_Indisponibilità sede
+> [MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) – Piani di Continuità Operativa\_Indisponibilità sede
 > eventi avversi esterni ID-PBC05.
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
@@ -229,14 +229,14 @@ questo non è un problema per la produttività aziendale né per la
 sicurezza delle informazioni, dal momento che l’ufficio si trova ad un
 piano alto ed è stato definito un apposito piano per la continuità
 operativa in caso di indisponibilità della sede per eventi avversi
-esterni (vedere “*MDPR28.1.A - Piani di Continuità
+esterni (vedere “*[MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) - Piani di Continuità
 Operativa\_Indisponibilità sede eventi avversi esterni ID-PBC05*”), per
 il quale facilmente si attivano le procedure per lo smart working.
 Pertanto, anche gli stakeholders esterni non nutrono preoccupazioni nei
 confronti dell’operatività di Vectorlab, la quale garantisce la
 continuità dei propri servizi.
 
-Il risultato di tale analisi è riportato in “*ALPO02.A – Contesto e
+Il risultato di tale analisi è riportato in “*[ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e
 Processi*”.
 
 ## 3 Comprendere le esigenze e le aspettative delle terze parti
@@ -251,7 +251,7 @@ particolare riferimento ai requisiti di tali stakeholder che risultano
 significativi per il Sistema di Gestione.
 
 L’analisi delle parti interessate e delle rispettive aspettative è
-descritta in “*ALPO02.B - Analisi Stakeholder*”.
+descritta in “*[ALPO02.B](ALPO02.B-%20Analisi%20Stakeholder.md) - Analisi Stakeholder*”.
 
 ## 4 Determinare il campo di applicazione
 
@@ -278,7 +278,7 @@ tech”*
 
 Unico sito: Vector Lab S.r.l., Piazza Borgo Pila 39/22, piano 8, 16129
 Genova (GE), sede legale e operativa. Non sono presenti unità locali.
-Il lavoro svolto in modalità agile (ALPR05.1.E, ALPR05.1.F) fa parte
+Il lavoro svolto in modalità agile ([ALPR05.1.E](../7_GESTIONE%20RISORSE/ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile.md), [ALPR05.1.F](../7_GESTIONE%20RISORSE/ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile.md)) fa parte
 del campo di applicazione e non costituisce un sito aggiuntivo.
 
 ### 4.2 Organizzazione e processi inclusi
@@ -291,9 +291,9 @@ organizzato e supervisionato da un PM di Vectorlab.
 Sono inclusi le aree, il personale (dipendenti e collaboratori) e i
 processi che erogano o supportano questo servizio:
 
-  - > Area Digital, per le commesse Ynsera (PR35.1);
+  - > Area Digital, per le commesse Ynsera ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md));
 
-  - > Area Business Development, per le opportunità Ynsera (PR09.1);
+  - > Area Business Development, per le opportunità Ynsera ([PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md));
 
   - > i processi di supporto descritti nella mappa dei processi
     > (sez. 5.1).
@@ -306,7 +306,7 @@ cloud (tra cui Aruba, Google Workspace, GitHub). Questi servizi
 rientrano nel campo di applicazione come attività affidate a terzi: la
 sicurezza fisica e infrastrutturale dei data center è in carico ai
 fornitori, mentre la configurazione, gli accessi e i dati restano in
-carico a Vectorlab. I fornitori sono gestiti secondo PR26.1.
+carico a Vectorlab. I fornitori sono gestiti secondo [PR26.1](../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori.md).
 
 ### 4.4 Esclusioni
 
@@ -622,7 +622,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>CEO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -644,7 +644,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -795,7 +795,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Risorse</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Z1 – Social Media Manager esterno (fornitore)</p>
@@ -806,7 +806,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>KPI</td>
 <td><ul>
 <li><blockquote>
-<p>Nessun indicatore dedicato: l’andamento si valuta nel Riesame della Direzione (PR12.1)</p>
+<p>Nessun indicatore dedicato: l’andamento si valuta nel Riesame della Direzione (<a href="../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione/">PR12.1</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -814,13 +814,13 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>PO07 - Gestione della Comunicazione</p>
+<p><a href="../../7.4_COMUNICAZIONI/PO07%20-%20Politica%20Gestione%20della%20Comunicazione/">PO07</a> - Gestione della Comunicazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPO07.A - Piano della Comunicazione</p>
+<p><a href="../../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione/">MDPO07.A</a> - Piano della Comunicazione</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -934,7 +934,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Definizione del gruppo di progetto</p>
 </blockquote></li>
 <li><blockquote>
-<p>Avvio della commessa (PR35.1)</p>
+<p>Avvio della commessa (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Partecipazione alla pianificazione del cliente</p>
@@ -1104,7 +1104,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>CTO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools:</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools:</p>
 </blockquote></li>
 </ul>
 <ul>
@@ -1112,7 +1112,7 @@ applicazione nell’ambito dell’organizzazione.
 <p>Strumenti di sviluppo e di accesso indicati dal cliente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Strumenti aziendali approvati (PR35.1)</p>
+<p>Strumenti aziendali approvati (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 </ul>
 <ul>
@@ -1142,13 +1142,13 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>PO25 – Sviluppo Sicuro</p>
+<p><a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/">PO25</a> – Sviluppo Sicuro</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR35.1 – Digital</p>
+<p><a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a> – Digital</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1326,7 +1326,7 @@ applicazione nell’ambito dell’organizzazione.
 <td>Risorse</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -1351,10 +1351,10 @@ applicazione nell’ambito dell’organizzazione.
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR09.1 – Gestione Commerciale</p>
+<p><a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/">PR09.1</a> – Gestione Commerciale</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1568,7 +1568,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>IT Staff</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile di Area</p>
@@ -1587,7 +1587,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
 <p>Processo escluso dal campo di applicazione (sez. 4.4)</p>
@@ -1705,7 +1705,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Attività</td>
 <td><ul>
 <li><blockquote>
-<p>Consegna e restituzione di portatili e account al personale: Amministrazione (MDPR05.1.V)</p>
+<p>Consegna e restituzione di portatili e account al personale: Amministrazione (<a href="../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/">MDPR05.1.V</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Creazione e revisione documentazione IT</p>
@@ -1720,7 +1720,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>Gestione della rete dell’ufficio (System Administrator esterno)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Verifiche tecniche periodiche (MDPR11.1.A §6)</p>
+<p>Verifiche tecniche periodiche (<a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/">MDPR11.1.A</a> §6)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1804,7 +1804,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1826,34 +1826,34 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>ALPR05.1.G – Lista software permessi</p>
+<p><a href="../../7_GESTIONE%20RISORSE/ALPR05.1.G%20-%20Lista%20software%20permessi/">ALPR05.1.G</a> – Lista software permessi</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR05.1.U – Gestione chiavi</p>
+<p><a href="../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/">MDPR05.1.U</a> – Gestione chiavi</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR05.1.V – Modulo consegna e riconsegna HW e utenze</p>
+<p><a href="../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/">MDPR05.1.V</a> – Modulo consegna e riconsegna HW e utenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR11.1.A – Programma Audit (§6 verifiche tecniche)</p>
+<p><a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/">MDPR11.1.A</a> – Programma Audit (§6 verifiche tecniche)</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
+<p><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1</a> - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR21.1 – Gestione dei Backup e Restore</p>
+<p><a href="../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/">PR21.1</a> – Gestione dei Backup e Restore</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
+<p><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1</a> - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR16.1 – Gestione degli Accessi</p>
+<p><a href="../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/">PR16.1</a> – Gestione degli Accessi</p>
 </blockquote></li>
 <li><blockquote>
-<p>REG01 – Regolamento sull’utilizzo degli strumenti aziendali</p>
+<p><a href="../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/">REG01</a> – Regolamento sull’utilizzo degli strumenti aziendali</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2049,7 +2049,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>Archivi cartacei</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 <li><blockquote>
 <p>Responsabile Amministrazione</p>
@@ -2074,13 +2074,13 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>ALPO01.B – Mansionario</p>
+<p><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/">ALPO01.B</a> – Mansionario</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR05.1 – Gestione del Personale</p>
+<p><a href="../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale/">PR05.1</a> – Gestione del Personale</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR06.1 – Gestione delle Performance</p>
+<p><a href="../../7_GESTIONE%20RISORSE/PR06.1%20-%20Gestione%20delle%20Performance/">PR06.1</a> – Gestione delle Performance</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2163,7 +2163,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>Norme ISO</p>
 </blockquote></li>
 <li><blockquote>
-<p>Normative cogenti (vedi MDPR08.1.A – Informazioni documentate / Compliance)</p>
+<p>Normative cogenti (vedi <a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Compliance)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2284,7 +2284,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>CISO</p>
 </blockquote></li>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate / Tools</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate / Tools</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -2312,10 +2312,10 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Informazioni documentate</td>
 <td><ul>
 <li><blockquote>
-<p>MDPR08.1.A – Informazioni documentate</p>
+<p><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A</a> – Informazioni documentate</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR09.1 – Gestione Commerciale</p>
+<p><a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/">PR09.1</a> – Gestione Commerciale</p>
 </blockquote></li>
 </ul></td>
 </tr>

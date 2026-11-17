@@ -84,7 +84,7 @@ def main():
         rev, data, redatto, approvato = v["rev"] or ("n.d.", "", "", "")
         link = ""
         if v["md"] is not None:
-            rel = Path("../") / v["md"].relative_to(DOCS)
+            rel = Path("../../") / v["md"].relative_to(DOCS)
             link = "<a href=\"" + html.escape(rel.with_suffix("").as_posix() + "/") + "\">" + html.escape(v["code"]) + "</a>"
         else:
             link = html.escape(v["code"])

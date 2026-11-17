@@ -40,21 +40,21 @@ documento è pertanto rivolto ai seguenti destinatari:
 
 ### 1.3 Riferimenti e Allegati
 
-ALPO01.A – Organigramma
+[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx) – Organigramma
 
-ALPO02.A – Contesto e Processi
+[ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e Processi
 
-ALPO02.B – Analisi Stakeholder
+[ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
 
-PO02 – Gestione del Contesto
+[PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto
 
-PO03 – Gestione Obiettivi
+[PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione Obiettivi
 
-PO31 – Misure di sicurezza protezione dati personali
+[PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) – Misure di sicurezza protezione dati personali
 
-DIG - PR35.1 – Digital
+DIG - [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) – Digital
 
-BD - PR09.1 – Gestione Commerciale
+BD - [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione Commerciale
 
 > ISO 9001:2026 – Sistemi di Gestione per la Qualità – Requisiti
 
@@ -215,7 +215,7 @@ commerciali, nella gestione delle commesse e nel coordinamento delle
 attività orientate alla crescita e al consolidamento del business.
 
 Le attività e i servizi erogati da questa area di business sono
-dettagliatamente descritti nella procedura “*PR09.1 – Gestione
+dettagliatamente descritti nella procedura “*[PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione
 Commerciale”.*
 
 ### 3.3 Area Innovation & Research Projects
@@ -230,19 +230,19 @@ software, automazione, intelligenza artificiale e tecnologie immersive.
 
 Le attività di quest'area (progetti di ricerca, anche finanziati da
 bandi) sono escluse dal campo di applicazione del Sistema di Gestione
-Integrato (PO02, sez. 4.4).
+Integrato ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md), sez. 4.4).
 
 ## 4 Contesto
 
 L’Organizzazione ha identificato il contesto in termini di siti fisici,
 ambienti cloud, stakeholder afferenti al sistema di gestione e ha
 mappato i processi aziendali sia di core business che di supporto in
-documento “*PO02* *– Gestione del Contesto*”.
+documento “*[PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md)* *– Gestione del Contesto*”.
 
 L’analisi degli Stakeholder interni ed esterni di Vectorlab è illustrata
-in dettaglio nell’Allegato “*ALPO02.B – Analisi Stakeholder”.*
+in dettaglio nell’Allegato “*[ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder”.*
 
-L'organigramma è definito in "*ALPO01.A* *– Organigramma*" e riflette
+L'organigramma è definito in "*[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx)* *– Organigramma*" e riflette
 la struttura dei processi definiti nel contesto.
 
 ## 5 Politica per la Qualità, la Sicurezza delle informazioni e la Protezione dei dati personali
@@ -303,7 +303,7 @@ applicabile a partire da 25 Maggio 2018, attraverso:
   - > la valutazione della necessità di designare un Responsabile della
     > Protezione dei Dati (DPO): Vectorlab non rientra nei casi di
     > designazione obbligatoria (art. 37 GDPR) e si avvale di un
-    > Referente Privacy interno, come descritto in PO31;
+    > Referente Privacy interno, come descritto in [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md);
 
   - > definizione all'interno (e se necessario all’esterno) dell’azienda
     > di ruoli e responsabilità relativi al trattamento dei dati.
@@ -395,13 +395,13 @@ L’Amministratore Unico, in qualità di Direzione, si impegna a:
 
   - > fissare ogni anno obiettivi misurabili per la qualità e la
     > sicurezza delle informazioni, coerenti con questa politica e con
-    > i risultati dell’analisi dei rischi, secondo PO03 – Gestione
-    > Obiettivi; gli obiettivi sono registrati in MDPO03.A – Lista
-    > Obiettivi e verificati nel Riesame della Direzione (PR12.1);
+    > i risultati dell’analisi dei rischi, secondo [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione
+    > Obiettivi; gli obiettivi sono registrati in [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) – Lista
+    > Obiettivi e verificati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md));
 
   - > migliorare in modo continuo l’efficacia del Sistema di Gestione
     > Integrato, a partire dai risultati degli audit, delle non
-    > conformità (PR13.1), degli indicatori (PR10.1) e del Riesame
+    > conformità ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)), degli indicatori ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md)) e del Riesame
     > della Direzione;
 
   - > rendere disponibili le risorse necessarie al Sistema di Gestione
@@ -430,7 +430,7 @@ prodotti della unit Vectorlab, la partecipazione a bandi e i progetti di
 ricerca.
 
 Sede, aree incluse, interfacce con i fornitori ed esclusioni sono
-descritte in PO02 – Gestione del Contesto, sez. 4.
+descritte in [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto, sez. 4.
 
 ## 7 Comunicazione e disponibilità della Politica
 
@@ -445,4 +445,4 @@ La presente politica è:
 
   - > resa disponibile alle parti interessate (clienti, fornitori,
     > partner) su richiesta, secondo
-    > MDPO07.A – Piano della Comunicazione.
+    > [MDPO07.A](../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione.

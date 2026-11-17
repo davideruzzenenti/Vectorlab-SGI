@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-> Consegna: allegata all'offerta inviata al cliente (PR09.1) e richiamata nelle condizioni generali.
+> Consegna: allegata all'offerta inviata al cliente ([PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md)) e richiamata nelle condizioni generali.
 
 **Informativa ex artt. 13 e 14 Regolamento UE 2016/679**
 

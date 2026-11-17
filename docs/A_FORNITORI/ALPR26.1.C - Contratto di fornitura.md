@@ -55,7 +55,7 @@ svolgimento delle prestazioni nell’ambito del Progetto […].
 Tutto ciò premesso, fra le Parti si conviene e si stipula quanto segue:
 
 **Art. 1** Le Premesse, il Progetto, la Comunicazione e requisiti di
-sicurezza per i fornitori (ALPR26.1.A) e gli Allegati costituiscono parte integrante, inscindibile e
+sicurezza per i fornitori ([ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md)) e gli Allegati costituiscono parte integrante, inscindibile e
 sostanziale, del presente contratto (di seguito, il "*Contratto*").
 
 **Art. 2** Il Committente affida al Fornitore l'esecuzione delle
@@ -139,7 +139,7 @@ tutta la durata del Contratto:
     > eventuali Condizioni particolari di fornitura) e sarà parte attiva
     > nel Sistema di Gestione della Sicurezza delle Informazioni e
     > Protezione dei dati personali secondo quanto declinato in
-    > “ALPR26.1.A - Comunicazione e requisiti di sicurezza per i
+    > “[ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) - Comunicazione e requisiti di sicurezza per i
     > fornitori” allegata al Contratto.
 
 Il Fornitore si impegna a fornire al Committente la seguente
@@ -301,13 +301,13 @@ Allegati:
 
 1.  Progetto
 
-2.  ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori
+2.  [ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) - Comunicazione e requisiti di sicurezza per i fornitori
 
-3.  ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
+3.  [ALPR26.1.B.3](ALPR26.1.B.3%20-%20Accordo%20di%20Riservatezza%20con%20le%20Terze%20Parti.md) - Accordo di Riservatezza con le Terze Parti
 
-4.  ALPR26.1.D - Nomina Responsabile Trattamento Dati Personali
+4.  [ALPR26.1.D](ALPR26.1.D%20-%20Nomina%20Responsabile%20Trattamenti%20Dati%20Personali.md) - Nomina Responsabile Trattamento Dati Personali
 
-5.  ALPR31.2.D - Informativa Privacy Fornitori
+5.  [ALPR31.2.D](../A_CONFORMITA_/ALPR31.2.D%20-%20Informativa%20Privacy%20Fornitori.md) - Informativa Privacy Fornitori
 
 6.  Condizioni particolari di fornitura, se previste (in calce al presente contratto)
 

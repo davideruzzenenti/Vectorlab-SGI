@@ -194,5 +194,5 @@ ss.mm.ii.**
 > improntato ai principi di correttezza, liceità e trasparenza, oltre
 > che alla tutela della Sua riservatezza e dei Suoi diritti. La
 > invitiamo a leggere l’informativa presente nel documento
-> “***ALPR31.2.C - Informativa Privacy Visitatori***” per prestare il
+> “***[ALPR31.2.C](../A_CONFORMITA_/ALPR31.2.C%20-%20Informativa%20Privacy%20Visitatori.md) - Informativa Privacy Visitatori***” per prestare il
 > consenso al trattamento dei Suoi dati.

@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-Registro delle prove di ripristino previste da PR21.1 §7. Il System
+Registro delle prove di ripristino previste da [PR21.1](PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md) §7. Il System
 Administrator lo compila a ogni prova.
 
 ## Piano 2026–2027
@@ -18,4 +18,4 @@ Administrator lo compila a ogni prova.
 | Server Aruba | Novembre 2027 | | | | |
 | Google Workspace – recupero di un file cancellato | Novembre 2027 | | | | |
 
-**Esito**: Riuscito · Riuscito con problemi (descrivere) · Fallito (aprire una non conformità, PR13.1).
+**Esito**: Riuscito · Riuscito con problemi (descrivere) · Fallito (aprire una non conformità, [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)).

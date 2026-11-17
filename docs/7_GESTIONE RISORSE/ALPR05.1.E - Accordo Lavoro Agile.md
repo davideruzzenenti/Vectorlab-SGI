@@ -139,7 +139,7 @@ agile e a fornire le istruzioni operative.
 
 Il lavoratore è obbligato a prestare la propria attività lavorativa con
 regolarità, diligenza, nonché rispettando tutte le istruzioni e le
-indicazioni che verranno fornite dal datore di lavoro (cfr. “*ALPR05.1.F
+indicazioni che verranno fornite dal datore di lavoro (cfr. “*[ALPR05.1.F](ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile.md)
 - Informativa Lavoro Agile*”). Inoltre, è obbligato a non trattare in
 alcun modo affari e a non svolgere alcuna attività lavorativa che si
 ponga in concorrenza con il datore di lavoro.
@@ -150,7 +150,7 @@ aziendali oltre alle altre disposizioni interne all'azienda.
 Il lavoratore dovrà utilizzare una propria connessione dati adeguata
 alle attività lavorative svolte in modalità agile e, in caso di
 necessità (per esempio connessione assente o guasto), seguire le
-indicazioni di “*PR28.1 - Gestione della continuità operativa*” §6.
+indicazioni di “*[PR28.1](../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) - Gestione della continuità operativa*” §6.
 
 **Art. 3 - Sicurezza**
 
@@ -158,7 +158,7 @@ Il lavoratore assume espressamente l'impegno ad utilizzare gli strumenti
 aziendali ed i programmi informatici messi a sua disposizione
 esclusivamente nell'interesse del datore di lavoro, a rispettare le
 relative norme di sicurezza, a non manometterli e a non consentire ad
-altri l'utilizzo degli stessi secondo quanto stabilito da “*REG01 -
+altri l'utilizzo degli stessi secondo quanto stabilito da “*[REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) -
 Regolamento sull'utilizzo degli strumenti aziendali*”, in particolare:
 lavorare solo con il portatile fornito da Vectorlab e con l'account
 aziendale; usare reti protette da password ed evitare le reti Wi-Fi pubbliche
@@ -169,7 +169,7 @@ furto del portatile o un sospetto accesso al proprio account.
 Al fine di garantire la salute e la sicurezza, il datore di lavoro, al
 momento della sottoscrizione del presente accordo e ad ogni variazione
 dell’informativa, consegnerà al lavoratore un'informativa (cfr.
-“*ALPR05.1.F - Informativa Lavoro Agile*”) nella quale indicherà i
+“*[ALPR05.1.F](ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile.md) - Informativa Lavoro Agile*”) nella quale indicherà i
 rischi generali ed i rischi specifici connessi alla particolare modalità
 di esecuzione del rapporto di lavoro. Il lavoratore si atterrà alle
 indicazioni dell'informativa e coopererà secondo tutte le sue
@@ -258,7 +258,7 @@ provvedimento idoneo a garantire tale riservatezza, in relazione alla
 particolare modalità di svolgimento della prestazione.
 
 Inoltre, nella qualità di persona autorizzata al trattamento dei dati
-personali (“*ALPO31.B - Atto di Nomina ad Autorizzato del
+personali (“*[ALPO31.B](../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento.md) - Atto di Nomina ad Autorizzato del
 Trattamento*”),
 anche presso il luogo di prestazione fuori sede, il lavoratore dovrà
 osservare tutte le istruzioni e misure di sicurezza necessarie. In

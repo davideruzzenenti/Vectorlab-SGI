@@ -12,7 +12,7 @@ Questa pagina elenca i documenti che chi lavora per Vectorlab
 (dipendenti e collaboratori, compreso l'IT esterno) deve conoscere. La
 lettura si conferma una volta per tutto il pacchetto, non documento per
 documento, nella lista ClickUp **«Consapevolezza e formazione»**
-(cartella SGI), secondo PR05.1 §8.
+(cartella SGI), secondo [PR05.1](PR05.1%20-%20Gestione%20del%20personale.md) §8.
 
 **Quando si conferma**
 
@@ -48,14 +48,14 @@ del repository.
   strumenti di lavoro; niente account condivisi; credenziali in
   Bitwarden.
 - **Dati e codice dei clienti**: si usano solo dove il cliente lo
-  consente e con gli strumenti approvati da Vectorlab (PR35.1 §2.3).
+  consente e con gli strumenti approvati da Vectorlab ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3).
 
 ## Il tuo portatile
 
-I requisiti del portatile fornito da Vectorlab sono in REG01 §3: disco
+I requisiti del portatile fornito da Vectorlab sono in [REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3: disco
 cifrato, password o PIN con blocco schermo, aggiornamenti automatici,
 antivirus attivo. La seconda voce del sottotask («Il mio portatile
-Vectorlab rispetta i requisiti di REG01 §3») si riferisce a questo
+Vectorlab rispetta i requisiti di [REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3») si riferisce a questo
 elenco.
 
 ## Riferimenti alle norme

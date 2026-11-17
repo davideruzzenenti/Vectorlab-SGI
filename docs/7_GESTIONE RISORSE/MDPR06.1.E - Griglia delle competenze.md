@@ -11,11 +11,11 @@
 
 Competenze ricavate dai curriculum su Drive e confermate nella riunione
 del 04/11/2026. I livelli da 1 a 4 (legenda sotto) li assegna
-l'Amministratore Unico nella valutazione annuale (PR06.1). [DA DEFINIRE:
+l'Amministratore Unico nella valutazione annuale ([PR06.1](PR06.1%20-%20Gestione%20delle%20Performance.md)). [DA DEFINIRE:
 livelli; curriculum di Andrea Ruzzenenti e Francesco Cappetti da
 scrivere.]
 
-| Persona | Ruolo | Competenze tecniche | Livello | Formazione prevista (MDPR06.1.C) |
+| Persona | Ruolo | Competenze tecniche | Livello | Formazione prevista ([MDPR06.1.C](MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D.md)) |
 | --- | --- | --- | --- | --- |
 | Alessandro Castrovillari | Sviluppatore senior | C/C++ (C++20), Qt, Unity, Unreal, VR/AR (HoloLens 2), WebGL/Three.js, Python, SQL | | |
 | Andrea Quidacciolu Turcatti | Sviluppatore | C++, Python, Unreal Engine 5, ottimizzazione numerica, NLP e LLM (PyTorch), Git; laurea in Matematica | | |

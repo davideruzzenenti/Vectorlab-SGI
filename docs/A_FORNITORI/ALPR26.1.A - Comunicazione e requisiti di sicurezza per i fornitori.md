@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-*Modello di lettera da inviare ai fornitori critici (PR26.1 §5), su carta
+*Modello di lettera da inviare ai fornitori critici ([PR26.1](PR26.1%20-%20Gestione%20dei%20fornitori.md) §5), su carta
 intestata di Vectorlab. Le parti tra parentesi quadre si completano a ogni
 invio.*
 

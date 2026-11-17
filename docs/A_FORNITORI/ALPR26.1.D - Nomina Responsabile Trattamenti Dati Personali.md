@@ -28,7 +28,7 @@ referente**, nella propria qualità di legale rappresentante pro tempore
 **Premesso che**
 
   - Vectorlab, nell'ambito del rapporto di fornitura disciplinato dal
-    contratto/ordine in essere (cfr. "*ALPR26.1.C - Contratto di
+    contratto/ordine in essere (cfr. "*[ALPR26.1.C](ALPR26.1.C%20-%20Contratto%20di%20fornitura.md) - Contratto di
     fornitura*"), affida al Fornitore lo svolgimento di attività che
     comportano il trattamento di dati personali;
 
@@ -40,10 +40,10 @@ referente**, nella propria qualità di legale rappresentante pro tempore
     la tutela dei diritti dell'interessato;
 
   - Vectorlab ha valutato tali garanzie nell'ambito del proprio processo
-    di qualifica e monitoraggio dei fornitori, descritto in "*PR26.1 -
+    di qualifica e monitoraggio dei fornitori, descritto in "*[PR26.1](PR26.1%20-%20Gestione%20dei%20fornitori.md) -
     Gestione dei fornitori*", tenendo conto in particolare
     dell'affidabilità del Fornitore e delle misure di sicurezza da esso
-    dichiarate (cfr. "*ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori*");
+    dichiarate (cfr. "*[ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) - Comunicazione e requisiti di sicurezza per i fornitori*");
 
   - il presente atto disciplina i trattamenti di dati personali svolti
     dal Fornitore per conto di Vectorlab (o, nel caso in cui Vectorlab
@@ -107,7 +107,7 @@ Il Responsabile si impegna a:
     adeguato obbligo legale di riservatezza;
 
   - adottare tutte le misure richieste ai sensi dell'art. 32 GDPR,
-    tenendo conto di quanto indicato in "*ALPR26.1.A - Comunicazione e requisiti
+    tenendo conto di quanto indicato in "*[ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) - Comunicazione e requisiti
     di sicurezza per i fornitori*";
 
   - rispettare le condizioni per ricorrere a un altro Responsabile del
@@ -140,7 +140,7 @@ Il Responsabile si impegna a:
 <span style="color:#B3392A">[DA CONFERMARE: modalità e periodicità con
 cui Vectorlab esercita l'attività di verifica/audit sul Fornitore — si
 ipotizza una verifica annuale nell'ambito del monitoraggio fornitori di
-cui a "MDPR26.1.B - Elenco fornitori qualificati" (§6 Valutazione
+cui a "[MDPR26.1.B](MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati.md) - Elenco fornitori qualificati" (§6 Valutazione
 annuale), salvo diversa necessità]</span>.
 
 **7. Ricorso a Sub-Responsabili**
@@ -166,7 +166,7 @@ di cui sia venuto a conoscenza, fornendo tutte le informazioni
 necessarie a consentire al Titolare il rispetto dei propri obblighi di
 notifica all'Autorità Garante (entro il termine di 72 ore previsto
 dall'art. 33 GDPR) e di comunicazione agli interessati, in coerenza con
-quanto previsto in "*PR27.1 - Gestione Incidenti e Data Breach*".
+quanto previsto in "*[PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md) - Gestione Incidenti e Data Breach*".
 
 **9. Trasferimento dei dati verso paesi terzi**
 
@@ -181,7 +181,7 @@ dati extra SEE, da valutare caso per caso]</span>.
 **10. Misure di sicurezza**
 
 Il Responsabile si impegna a rispettare i requisiti minimi di sicurezza
-riportati in "*ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori*", allegato al
+riportati in "*[ALPR26.1.A](ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) - Comunicazione e requisiti di sicurezza per i fornitori*", allegato al
 contratto di fornitura, e a darne applicazione con riferimento a
 tutti gli strumenti, ambienti e infrastrutture utilizzati per lo
 svolgimento del trattamento.

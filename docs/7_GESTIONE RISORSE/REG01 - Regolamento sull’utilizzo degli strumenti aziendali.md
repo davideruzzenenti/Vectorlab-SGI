@@ -15,11 +15,11 @@ strumento usato per lavoro: portatili forniti da Vectorlab, account
 aziendali, smartphone personali usati per la posta, macchine e
 strumenti dei clienti.
 
-È parte del pacchetto *ALPR05.1.H - Documenti per il personale*:
-ognuno ne conferma la lettura all'ingresso e ogni anno (PR05.1).
+È parte del pacchetto *[ALPR05.1.H](ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md) - Documenti per il personale*:
+ognuno ne conferma la lettura all'ingresso e ogni anno ([PR05.1](PR05.1%20-%20Gestione%20del%20personale.md)).
 
-Per i dettagli tecnici si rimanda a PR16.1 (accessi), PR32.1
-(crittografia), PR27.1 (incidenti), PR35.1 (lavoro presso i clienti).
+Per i dettagli tecnici si rimanda a [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) (accessi), [PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md)
+(crittografia), [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md) (incidenti), [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) (lavoro presso i clienti).
 
 ## 2 Account e credenziali
 
@@ -55,7 +55,7 @@ responsabile. Il portatile deve avere sempre:
 **Controllo.** Ogni persona verifica da sola i 4 requisiti
 all'assegnazione del portatile e poi una volta l'anno, e lo registra
 nel proprio sottotask di presa visione (lista ClickUp «Consapevolezza e
-formazione», PR05.1) indicando modello e numero di serie del portatile.
+formazione», [PR05.1](PR05.1%20-%20Gestione%20del%20personale.md)) indicando modello e numero di serie del portatile.
 Questi sottotask formano l'inventario dei portatili. RSGI può
 verificare a campione.
 
@@ -65,14 +65,14 @@ Regole d'uso:
   condivisi;
 - gli sviluppatori sono amministratori del proprio portatile perché
   devono installare strumenti di sviluppo; installano solo software da
-  fonti ufficiali e con licenza valida (ALPR05.1.G - Lista software
+  fonti ufficiali e con licenza valida ([ALPR05.1.G](ALPR05.1.G%20-%20Lista%20software%20permessi.md) - Lista software
   permessi), mai software pirata, e non disattivano i 4 requisiti;
 - si blocca lo schermo (Windows + L) ogni volta che ci si allontana;
 - fuori sede il portatile non si lascia incustodito, né in auto in
   vista.
 
 All'uscita dall'azienda il portatile si restituisce; l'IT cancella i
-dati prima di riassegnarlo o dismetterlo (PR05.1).
+dati prima di riassegnarlo o dismetterlo ([PR05.1](PR05.1%20-%20Gestione%20del%20personale.md)).
 
 ## 4 Smartphone personali
 
@@ -95,11 +95,11 @@ disconnette l'account aziendale dal telefono dalla console di Google.
 | Codice | GitHub, organizzazione Vectorlab; o repository del cliente |
 | Attività, commesse, non conformità | ClickUp |
 | Credenziali | Bitwarden |
-| Intelligenza artificiale | Solo gli strumenti autorizzati in PR35.1 §2.3 |
+| Intelligenza artificiale | Solo gli strumenti autorizzati in [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3 |
 
 Un nuovo servizio che tratta informazioni aziendali o dei clienti si
 attiva solo con l'accordo del CTO, che lo fa registrare
-nell'inventario degli asset e, se serve, tra i fornitori (PR26.1).
+nell'inventario degli asset e, se serve, tra i fornitori ([PR26.1](../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori.md)).
 
 **Messaggistica.** Le decisioni e i passaggi di lavoro (per esempio
 «ho acquistato il certificato, va installato») si registrano in un
@@ -131,7 +131,7 @@ comunicazioni passano da ClickUp e dalla posta aziendale. Discord non
    il tempo necessario.
 2. Per dati e codice dei clienti valgono prima di tutto le regole del
    cliente (offerta, NDA, istruzioni): se il cliente vieta di portarli
-   fuori dai suoi strumenti, si lavora solo lì (PR35.1 §2.3).
+   fuori dai suoi strumenti, si lavora solo lì ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3).
 3. Sulle macchine e sugli strumenti del cliente si seguono le regole
    del cliente.
 4. Mai dati personali o codice dei clienti in strumenti di IA non
@@ -139,7 +139,7 @@ comunicazioni passano da ClickUp e dalla posta aziendale. Discord non
 5. La condivisione dei file su Drive va tenuta aggiornata: si tolgono
    gli accessi quando non servono più.
 6. A fine commessa si cancellano copie locali, ambienti e demo con
-   dati del cliente, salvo diverso accordo (PR35.1 §2.5).
+   dati del cliente, salvo diverso accordo ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.5).
 
 ## 8 Incidenti, perdita o furto
 
@@ -153,7 +153,7 @@ si telefona all'IT esterno o al CISO):
 
 In caso di furto si fa anche denuncia e se ne invia copia al CISO. Si
 cambiano subito le password dei servizi usati da quel dispositivo. La
-gestione segue PR27.1.
+gestione segue [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md).
 
 ## 9 Ufficio
 
@@ -161,7 +161,7 @@ gestione segue PR27.1.
   vista, schermo bloccato quando ci si allontana.
 - Gli ospiti sono accompagnati e non usano i portatili aziendali.
 - Le chiavi della sede sono personali; consegna e restituzione
-  nel registro MDPR05.1.U.
+  nel registro [MDPR05.1.U](MDPR05.1.U%20-%20Gestione%20chiavi.md).
 - I documenti cartacei riservati si distruggono, non si buttano interi.
 - Gli ospiti non ricevono la password della rete Wi-Fi aziendale.
   [DA DECIDERE con il System Administrator: eventuale accesso per gli
@@ -180,9 +180,9 @@ dagli strumenti di ClickUp e GitHub, lo stato dei portatili (cifratura,
 aggiornamenti) durante i controlli dell'IT. Questi dati si usano solo
 per sicurezza, gestione degli incidenti e degli accessi, nel rispetto
 dell'art. 4 della L. 300/1970 e del Regolamento UE 2016/679;
-l'informativa ai dipendenti è *ALPR31.2.A*.
+l'informativa ai dipendenti è *[ALPR31.2.A](../A_CONFORMITA_/ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti.md)*.
 
-L'accesso alla casella di una persona assente o uscita segue PR05.1
+L'accesso alla casella di una persona assente o uscita segue [PR05.1](PR05.1%20-%20Gestione%20del%20personale.md)
 («Casella email e account Google Workspace»).
 
 ## 11 Violazioni e processo disciplinare
@@ -192,11 +192,11 @@ procedure del sistema di gestione è trattata così:
 
 1. **Segnalazione.** Chiunque se ne accorga la segnala a RSGI o a
    sicurezza@vectorlab-cg.com. Le violazioni emergono anche da audit,
-   incidenti (PR27.1) e controlli dell'IT.
+   incidenti ([PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md)) e controlli dell'IT.
 2. **Prima di tutto la sicurezza.** Se serve, l'IT sospende subito
    gli accessi interessati e mette al sicuro le informazioni; l'evento
    si registra nella lista ClickUp «Non conformità e miglioramento»
-   (PR13.1).
+   ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)).
 3. **Valutazione.** L'Amministratore Unico, con RSGI, valuta i fatti,
    la gravità, l'intenzionalità e se la violazione si è ripetuta.
    Un errore in buona fede segnalato subito si gestisce con
@@ -209,7 +209,7 @@ procedure del sistema di gestione è trattata così:
    conseguenze previste dal contratto (fino alla risoluzione) e la
    revoca degli accessi.
 6. **Registrazione.** Il procedimento si registra nel modulo
-   *MDPR05.1.H - Processo Disciplinare*, conservato in modo riservato.
+   *[MDPR05.1.H](MDPR05.1.H%20-%20Processo%20Disciplinare.md) - Processo Disciplinare*, conservato in modo riservato.
 
 ## 12 Riferimenti alle norme
 

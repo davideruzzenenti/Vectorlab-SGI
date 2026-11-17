@@ -13,19 +13,19 @@ delle informazioni con lo strumento ERA (Environmental Risk Analysis,
 servizio cloud di Nextage), in modo che valutazioni ripetute diano
 risultati coerenti, validi e confrontabili (ISO/IEC 27001, 6.1.2 b).
 Il processo complessivo (ruoli, trattamento, approvazione) è descritto
-in *PR33.1 – Processo Analisi del Rischio e Trattamento*; questo allegato
+in *[PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) – Processo Analisi del Rischio e Trattamento*; questo allegato
 descrive solo come si calcola il rischio.
 
 ## 2 Campo di applicazione
 
 Tutti gli asset nel campo di applicazione del Sistema di Gestione
-Integrato (PO02 §4).
+Integrato ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) §4).
 
 ## 3 Riferimenti
 
-- PR33.1 – Processo Analisi del Rischio e Trattamento
-- MDPR33.1.A – Report Analisi dei Rischi
-- MDPR33.1.B – Piano di Trattamento dei Rischi
+- [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) – Processo Analisi del Rischio e Trattamento
+- [MDPR33.1.A](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi%20-%202026.md) – Report Analisi dei Rischi
+- [MDPR33.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026.md) – Piano di Trattamento dei Rischi
 - asset_inventory_vectorlab – Inventario degli asset
 - SOA – Dichiarazione di Applicabilità (gestita in ERA)
 - ISO/IEC 27001:2024+A1:2024, 6.1.2 e 6.1.3; ISO/IEC 27005 (linee guida)
@@ -39,7 +39,7 @@ Integrato (PO02 §4).
 | Process Owner | Valuta il livello delle vulnerabilità dell'asset |
 | Risk Owner | Decide il trattamento dei rischi del proprio asset |
 | Amministratore Unico | Stabilisce il rischio accettabile (RA), approva report e piano, accetta il rischio residuo |
-| RSGI | Riesamina report e piano prima dell'approvazione (misura compensativa, ALPO01.B §3) |
+| RSGI | Riesamina report e piano prima dell'approvazione (misura compensativa, [ALPO01.B](../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0.md) §3) |
 | Nextage | Supporto metodologico e gestione dello strumento ERA |
 
 ## 5 Metodo
@@ -86,22 +86,22 @@ ERA divide i record in tre fasce rispetto a RA:
 | --- | --- | --- |
 | Rischio basso | Verde | Sotto RA: accettabile |
 | Rischio medio | Giallo | Valore limite, vicino o pari a RA: si valuta il trattamento |
-| Rischio alto | Rosso | Sopra RA: da trattare (PR33.1) |
+| Rischio alto | Rosso | Sopra RA: da trattare ([PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md)) |
 
 ## 7 Uscite e registrazioni
 
 | Registrazione | Dove si conserva | Chi |
 | --- | --- | --- |
 | Istanza di analisi (asset, minacce, vulnerabilità, valori) | ERA | CISO |
-| Report di analisi (MDPR33.1.A) | B_REGISTRAZIONI/Analisi dei Rischi/<anno> | CISO |
-| Piano di trattamento (MDPR33.1.B) | B_REGISTRAZIONI/Analisi dei Rischi/<anno> | CISO |
-| Accettazione di RA e dei rischi residui | Verbale del Riesame della Direzione (PR12.1) | Amministratore Unico |
+| Report di analisi ([MDPR33.1.A](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi%20-%202026.md)) | B_REGISTRAZIONI/Analisi dei Rischi/<anno> | CISO |
+| Piano di trattamento ([MDPR33.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026.md)) | B_REGISTRAZIONI/Analisi dei Rischi/<anno> | CISO |
+| Accettazione di RA e dei rischi residui | Verbale del Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)) | Amministratore Unico |
 
 ## 8 Frequenza
 
 Almeno una volta l'anno e in caso di cambiamenti significativi
 (organizzativi, tecnologici, di contesto o dopo incidenti rilevanti),
-come previsto da PR33.1.
+come previsto da [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md).
 
 <span style="color:#B3392A">[DA CONFERMARE con Nextage: numero dei
 livelli di ciascuna scala e formula di calcolo usata da ERA.]</span>

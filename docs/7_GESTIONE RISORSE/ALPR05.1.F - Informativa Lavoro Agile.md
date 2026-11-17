@@ -737,7 +737,7 @@ altro luogo di lavoro privato è importante:**
 
 > La modalità di lavoro “AGILE” richiede che vengano adottate adeguate
 > misure di sicurezza per la protezione delle informazioni, a tal scopo
-> per il lavoratore vale il rispetto del “*IT - REG01 – Regolamento di
+> per il lavoratore vale il rispetto del “*IT - [REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) – Regolamento di
 > utilizzo degli strumenti informatici aziendali*”.
 
 \*\*\* \*\*\* \*\*\*

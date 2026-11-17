@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-> Consegna: fa parte del pacchetto ALPR05.1.H «Documenti per il personale»; la presa visione si registra nella lista ClickUp «Consapevolezza e formazione» all'inizio del rapporto, ogni anno a gennaio e a ogni revisione sostanziale (PR05.1).
+> Consegna: fa parte del pacchetto [ALPR05.1.H](../7_GESTIONE%20RISORSE/ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md) «Documenti per il personale»; la presa visione si registra nella lista ClickUp «Consapevolezza e formazione» all'inizio del rapporto, ogni anno a gennaio e a ogni revisione sostanziale ([PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md)).
 
 **Informativa ex artt. 13 e 14 Regolamento UE 2016/679**
 

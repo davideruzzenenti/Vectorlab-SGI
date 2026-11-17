@@ -53,7 +53,7 @@
 </tr>
 <tr class="even">
 <td>Accordo Lavoro Agile</td>
-<td><p>ALPR05.1.E –</p>
+<td><p><a href="../../7_GESTIONE%20RISORSE/ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile/">ALPR05.1.E</a> –</p>
 <p>Accordo Lavoro Agile</p></td>
 <td>HR</td>
 <td></td>
@@ -61,7 +61,7 @@
 </tr>
 <tr class="odd">
 <td>Informativa lavoro Agile</td>
-<td><p>ALPR05.1.F –</p>
+<td><p><a href="../../7_GESTIONE%20RISORSE/ALPR05.1.F%20-%20Informativa%20Lavoro%20Agile/">ALPR05.1.F</a> –</p>
 <p>Informativa lavoro Agile</p></td>
 <td>HR</td>
 <td></td>
@@ -80,7 +80,7 @@
 </tr>
 <tr class="odd">
 <td>Informativa sul trattamento dei dati personali</td>
-<td><p>ALPR31.2.A –</p>
+<td><p><a href="../../A_CONFORMITA_/ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti/">ALPR31.2.A</a> –</p>
 <p>Informativa Privacy Dipendenti</p></td>
 <td>HR</td>
 <td></td>
@@ -88,7 +88,7 @@
 </tr>
 <tr class="even">
 <td>Nomina Autorizzato</td>
-<td><p>ALPO31.B –</p>
+<td><p><a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> –</p>
 <p>Atto di Nomina ad Autorizzazione del Trattamento</p></td>
 <td>HR</td>
 <td></td>
@@ -96,7 +96,7 @@
 </tr>
 <tr class="odd">
 <td>Liberatoria per foto e video</td>
-<td><p>ALPR31.2.B –</p>
+<td><p><a href="../../A_CONFORMITA_/ALPR31.2.B%20-%20Informativa%20Privacy%20Candidati/">ALPR31.2.B</a> –</p>
 <p>Liberatoria Foto-Video Dipendenti</p></td>
 <td>HR</td>
 <td></td>
@@ -141,28 +141,28 @@
 </tr>
 <tr class="odd">
 <td>Assegnazione Asset</td>
-<td>MDPR05.1.V - Modulo_consegna_riconsegna_HW_utenze</td>
+<td><a href="../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/">MDPR05.1.V</a> - Modulo_consegna_riconsegna_HW_utenze</td>
 <td>IT</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Politica Sistema Integrato</td>
-<td>PO01 – Sistema Integrato</td>
+<td><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/">PO01</a> – Sistema Integrato</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Regolamento utilizzo strumenti informatici aziendali</td>
-<td>REG01 - Regolamento di utilizzo degli strumenti informatici aziendali</td>
+<td><a href="../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/">REG01</a> - Regolamento di utilizzo degli strumenti informatici aziendali</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Piano Obiettivi Personali</td>
-<td>PR06.1 – Gestione delle Performance (obiettivi personali)</td>
+<td><a href="../../7_GESTIONE%20RISORSE/PR06.1%20-%20Gestione%20delle%20Performance/">PR06.1</a> – Gestione delle Performance (obiettivi personali)</td>
 <td></td>
 <td></td>
 <td></td>

@@ -7,7 +7,7 @@
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 Compilazione del modulo *MDPR11.1.B - Piano di Audit e Report* per il
-primo audit interno, previsto dal programma *MDPR11.1.A - Programma Audit*
+primo audit interno, previsto dal programma *[MDPR11.1.A](../../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit.md) - Programma Audit*
 §3 (audit 2026, copertura completa). Prima dell'audit si compilano le
 sezioni 1 e 2 (piano); dopo l'audit le sezioni 3–5 (report).
 
@@ -19,10 +19,10 @@ sezioni 1 e 2 (piano); dopo l'audit le sezioni 3–5 (report).
 | Data del piano | 09/11/2026 |
 | Data/e dell'audit | 25 e 26 novembre 2026 |
 | Tipo | Audit interno di prima parte sul SGI (ISO 9001 + ISO/IEC 27001) |
-| Obiettivi | Verificare che il SGI sia conforme ai requisiti delle norme e ai documenti interni, che sia attuato ed efficace (PR11.1 §2.1) |
-| Campo | Campo di applicazione del SGI (PO02): «Progettazione, sviluppo software e consulenza in particolare in ambito deep tech»; unico sito di Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo |
-| Criteri | ISO 9001 e UNI CEI EN ISO/IEC 27001:2024+A1:2024 secondo MDPR11.1.A §1; Annex A come da SoA in vigore; documenti del SGI; requisiti cogenti (MDPO29.C) e contrattuali |
-| Metodo | Interviste, esame di documenti e registrazioni, verifica a campione negli strumenti; checklist MDPR11.1.D (27001) e MDPR11.1.L (9001) |
+| Obiettivi | Verificare che il SGI sia conforme ai requisiti delle norme e ai documenti interni, che sia attuato ed efficace ([PR11.1](../../../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno.md) §2.1) |
+| Campo | Campo di applicazione del SGI ([PO02](../../../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md)): «Progettazione, sviluppo software e consulenza in particolare in ambito deep tech»; unico sito di Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo |
+| Criteri | ISO 9001 e UNI CEI EN ISO/IEC 27001:2024+A1:2024 secondo [MDPR11.1.A](../../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit.md) §1; Annex A come da SoA in vigore; documenti del SGI; requisiti cogenti ([MDPO29.C](../../../A_CONFORMITA_/MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili.md)) e contrattuali |
+| Metodo | Interviste, esame di documenti e registrazioni, verifica a campione negli strumenti; checklist [MDPR11.1.D](../../../9.2_AUDIT%20INTERNO/MDPR11.1.D%20-%20Checklist%20Audit%20Interno%2027001.md) (27001) e [MDPR11.1.L](../../../9.2_AUDIT%20INTERNO/MDPR11.1.L%20-%20Checklist%20Audit%20Interno%209001.md) (9001) |
 | Responsabile dell'audit (auditor) | Micaela Leone (ML), Nextage |
 | Altri auditor / osservatori | Francesca Capuano (FC), Nextage |
 | Referente Vectorlab | RSGI |
@@ -118,7 +118,7 @@ dell'Annex A della ISO/IEC 27001.
 ## 3 Non conformità
 
 Ogni rilievo si registra nella lista ClickUp «Non conformità e
-miglioramento» con Origine = audit interno (PR13.1).
+miglioramento» con Origine = audit interno ([PR13.1](../../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)).
 
 | N. | Requisito | Descrizione ed evidenza | Funzione | Task ClickUp |
 | --- | --- | --- | --- | --- |

@@ -19,7 +19,7 @@ Al 04/11/2026 Vectorlab non svolge trattamenti di dati personali come
 responsabile per conto dei clienti: il software sviluppato e i progetti
 non contengono dati personali gestiti da Vectorlab (risposta
 dell'Amministrazione). Il registro si compila quando un contratto con un
-cliente prevede la nomina a responsabile (art. 28 GDPR; PR09.1).
+cliente prevede la nomina a responsabile (art. 28 GDPR; [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md)).
 
 <table>
 <tr><th></th><th rowspan="2"></th><th rowspan="2" colspan="6">Registro Trattamenti Responsabile</th><th colspan="2">MDPR31.4.B</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>

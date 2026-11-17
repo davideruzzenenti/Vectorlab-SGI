@@ -82,7 +82,7 @@
 </tr>
 <tr class="odd">
 <td><strong>Modulistica</strong></td>
-<td><p>MDPR05.1.U – Gestione chiavi (consegna / restituzione registrata) SI NO</p></td>
+<td><p><a href="../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/">MDPR05.1.U</a> – Gestione chiavi (consegna / restituzione registrata) SI NO</p></td>
 <td></td>
 <td></td>
 </tr>

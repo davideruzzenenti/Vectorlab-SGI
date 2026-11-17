@@ -56,23 +56,23 @@ dovere di agire in conformità con quanto definito in questo documento.
 
 #  Riferimenti e Allegati
 
-> MDPO15.A - Data Retention
+> [MDPO15.A](MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) - Data Retention
 
-> MDPR31.4.A - Registro dei Trattamenti del Titolare
+> [MDPR31.4.A](../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro dei Trattamenti del Titolare
 
-> MDPR31.4.B - Registro dei Trattamenti del Responsabile
+> [MDPR31.4.B](../A_CONFORMITA_/MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md) - Registro dei Trattamenti del Responsabile
 
-> PR16.1 - Gestione degli Accessi
+> [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) - Gestione degli Accessi
 
-> PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
+> [PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT
 
-> PO31 - Misure di sicurezza protezione dati personali
+> [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) - Misure di sicurezza protezione dati personali
 
-> PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
+> [PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT
 
-> PR33.1 - Processo Analisi del Rischio e Trattamento
+> [PR33.1](../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) - Processo Analisi del Rischio e Trattamento
 
-> *REG01 - Regolamento sull’utilizzo degli strumenti aziendali*
+> *[REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento sull’utilizzo degli strumenti aziendali*
 
 > SOA - Statement of Applicability - Dichiarazione di Applicabilità.
 
@@ -366,7 +366,7 @@ l’asset viene in esso inserito e ne viene gestito l’aggiornamento in
 caso di modifiche della criticità; inoltre, periodicamente l’Asset
 Inventory viene rivisto per il processo di analisi dei rischi sulla
 sicurezza delle informazioni e protezione dei dati personali (secondo
-quanto riportato in “*PR33.1 - Processo Analisi del Rischio e
+quanto riportato in “*[PR33.1](../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) - Processo Analisi del Rischio e
 Trattamento*”).
 
 Gli asset così classificati concorrono alla definizione del rischio per
@@ -408,7 +408,7 @@ In questo contesto, VECTORLAB si impegna a garantire che tutti i dati
 siano:
 
   - trattati garantendo la responsabilità, nel rispetto dei principi di
-    "privacy by design" e di "privacy by default" (vedere “*PO31 -
+    "privacy by design" e di "privacy by default" (vedere “*[PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) -
     Misure di sicurezza protezione dati personali*”);
 
   - trattati in modo lecito, corretto e trasparente;
@@ -433,8 +433,8 @@ In ambito di gestione dei dati personali è presente un ulteriore
 classificazione di dati personali comuni, particolari e giudiziari, al
 fine di identificarne il livello di criticità e garantirne un’adeguata e
 proporzionata gestione. Tale classificazione viene gestita attraverso i
-registri dei trattamenti “*MDPR31.4.A - Registro dei Trattamenti del
-Titolare” e “MDPR31.4.B - Registro dei Trattamenti del Responsabile”*.
+registri dei trattamenti “*[MDPR31.4.A](../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro dei Trattamenti del
+Titolare” e “[MDPR31.4.B](../A_CONFORMITA_/MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md) - Registro dei Trattamenti del Responsabile”*.
 Nei registri citati sono riportate le seguenti informazioni rispetto a
 ciascuna attività di trattamento:
 
@@ -651,7 +651,7 @@ esigenze di business e con i requisiti di legge applicabili.
 
 Chiunque entri in possesso di informazioni di cui non è il reale
 destinatario è chiamato ad attenersi alle norme comportamentali definite
-nel “*REG01 - Regolamento sull’utilizzo degli strumenti aziendali*” (dipendenti e collaboratori) e
+nel “*[REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento sull’utilizzo degli strumenti aziendali*” (dipendenti e collaboratori) e
 nelle clausole contrattuali (Terze Parti).
 
 # Gestione delle Informazioni e dei Dati Classificati secondo Criticità
@@ -697,7 +697,7 @@ informazioni di contatto, informazioni particolari, dati giudiziari,
 ecc.
 
 Tale classificazione viene gestita attraverso il Registro dei
-Trattamenti di VECTORLAB “*MDPR31.4.A - Registro dei Trattamenti del
+Trattamenti di VECTORLAB “*[MDPR31.4.A](../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro dei Trattamenti del
 Titolare*”.
 
 I dati relativi al registro dei trattamenti sono di norma ricadenti
@@ -709,7 +709,7 @@ La classificazione delle informazioni, degli asset e dei trattamenti ha
 un importante impatto sulla gestione degli accessi logici sia da parte
 del personale di VECTORLAB, sia dei clienti che dei fornitori. La
 classificazione e relativa protezione è in linea con quanto definito e
-applicato secondo la politica di gestione degli accessi “*PR16.1* -
+applicato secondo la politica di gestione degli accessi “*[PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md)* -
 *Gestione degli Accessi*”.
 
 # Conservazione e Cancellazione delle Informazioni
@@ -723,7 +723,7 @@ non più necessaria al fine di ridurre i rischi di indisponibilità,
 accesso non autorizzato, modifica o divulgazione.
 
 La cancellazione sicura delle informazioni (le cui modalità sono
-descritte nel documento “*PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT*”), segue il loro
+descritte nel documento “*[PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT*”), segue il loro
 livello di classificazione ma il periodo di archiviazione dipende dalla
 tipologia di informazione, indipendentemente dal livello di riservatezza
 della stessa.
@@ -741,8 +741,8 @@ Alcune semplici regole:
     richiesto, dopodiché esse devono essere cancellate secondo il loro
     livello di riservatezza. A tal proposito, VECTORLAB individua
     la *data retention* dei dati personali trattati nell’ambito dei
-    trattamenti elencati in “*MDPR31.4.A - Registro dei Trattamenti del
-    Titolare” *e *“MDPR31.4.B - Registro dei Trattamenti del
+    trattamenti elencati in “*[MDPR31.4.A](../A_CONFORMITA_/MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro dei Trattamenti del
+    Titolare” *e *“[MDPR31.4.B](../A_CONFORMITA_/MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md) - Registro dei Trattamenti del
     Responsabile”;*
 
   - per le informazioni aziendali che non hanno vincoli di Legge, la
@@ -797,7 +797,7 @@ elettronici che su supporti cartacei.
  
 
 VECTORLAB censisce i principali documenti utilizzati in Azienda nel
-modulo “*MDPO15.A - Data Retention*” dove sono indicate le tipologie di
+modulo “*[MDPO15.A](MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) - Data Retention*” dove sono indicate le tipologie di
 informazione, il relativo periodo di conservazione richiesto e la
 modalità di cancellazione prevista. Nello specifico, la tabella contiene
 i seguenti campi:
@@ -900,18 +900,18 @@ crittografia e sistemi DLP. In particolare:
 
   - il monitoraggio delle reti aziendali (es. utilizzando firewall di
     ultima generazione che includono diverse funzionalità in grado di
-    contrastare l’esfiltrazione di contenuti – cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
+    contrastare l’esfiltrazione di contenuti – cfr. *“[PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT
     delle Reti”*);
 
   - antivirus e web-filtering;
 
-  - la corretta gestione delle utenze e dei privilegi (cfr. *“PR16.1 –
+  - la corretta gestione delle utenze e dei privilegi (cfr. *“[PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) –
     Gestione degli Accessi”*);
 
   - il blocco delle porte USB per i dispositivi esterni di
-    memorizzazione (es. piattaforme Web, ecc. – cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
+    memorizzazione (es. piattaforme Web, ecc. – cfr. *“[PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT
     delle Configurazioni”*)
 
   - l’uso della crittografia e la protezione fisica dei supporti di
     memorizzazione contenenti dati sensibili, inclusi i supporti di
-    backup (cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT”*)
+    backup (cfr. *“[PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) - Gestione delle Configurazioni e dell'Infrastruttura IT”*)

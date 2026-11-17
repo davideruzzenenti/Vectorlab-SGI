@@ -14,7 +14,7 @@
 
 ## 1 Scopo
 
-Il mansionario descrive le figure dell'organigramma *ALPO01.A*:
+Il mansionario descrive le figure dell'organigramma *[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx)*:
 responsabilità, competenze, riporti, attività e separazione dei compiti.
 
 Ogni dipendente è associato a uno dei ruoli seguenti; incarico e
@@ -65,16 +65,16 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <p>Redige il bilancio di esercizio con il supporto dello studio commercialista</p>
 </blockquote></li>
 <li><blockquote>
-<p>Approva la Politica del Sistema Integrato (PO01) e gli obiettivi (MDPO03.A) e assicura le risorse necessarie al Sistema di Gestione</p>
+<p>Approva la Politica del Sistema Integrato (<a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/">PO01</a>) e gli obiettivi (<a href="../../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi/">MDPO03.A</a>) e assicura le risorse necessarie al Sistema di Gestione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Approva i documenti del Sistema di Gestione (PR08.1)</p>
+<p>Approva i documenti del Sistema di Gestione (<a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/PR08.1%20-%20Gestione%20Informazioni%20Documentate/">PR08.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Approva la valutazione dei rischi e il piano di trattamento e accetta formalmente il rischio residuo (PR33.1)</p>
+<p>Approva la valutazione dei rischi e il piano di trattamento e accetta formalmente il rischio residuo (<a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento/">PR33.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conduce il Riesame della Direzione (PR12.1)</p>
+<p>Conduce il Riesame della Direzione (<a href="../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione/">PR12.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Nomina RSGI, Referente Privacy e Amministratori di Sistema</p>
@@ -96,7 +96,7 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce l'organizzazione della società, i ruoli e le responsabilità (ALPO01.A)</p>
+<p>Definisce l'organizzazione della società, i ruoli e le responsabilità (<a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.A%20-%20Organigramma-Rev%200.0.pptx">ALPO01.A</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Individua partnership e strategie di sviluppo tecnologico</p>
@@ -153,10 +153,10 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <p>Esplora il mercato per nuovi prospect</p>
 </blockquote></li>
 <li><blockquote>
-<p>Prepara le offerte secondo PR09.1; la firma spetta all'Amministratore Unico</p>
+<p>Prepara le offerte secondo <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/">PR09.1</a>; la firma spetta all'Amministratore Unico</p>
 </blockquote></li>
 <li><blockquote>
-<p>Cura la comunicazione esterna e i canali social di Vectorlab (PO07)</p>
+<p>Cura la comunicazione esterna e i canali social di Vectorlab (<a href="../../7.4_COMUNICAZIONI/PO07%20-%20Politica%20Gestione%20della%20Comunicazione/">PO07</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Riferisce all'Amministratore Unico</p>
@@ -187,16 +187,16 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Gestisce i contatti con prospect e nuovi clienti nel task Prospect in ClickUp (PR09.1)</p>
+<p>Gestisce i contatti con prospect e nuovi clienti nel task Prospect in ClickUp (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/">PR09.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Supporta la relazione con il cliente nelle fasi di presentazione e pianificazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Verifica la soddisfazione del cliente (MDPR10.1.B)</p>
+<p>Verifica la soddisfazione del cliente (<a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente/">MDPR10.1.B</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Pianifica e controlla le pubblicazioni secondo il Piano della Comunicazione (MDPO07.A)</p>
+<p>Pianifica e controlla le pubblicazioni secondo il Piano della Comunicazione (<a href="../../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione/">MDPO07.A</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -210,7 +210,7 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati di prospect e clienti</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati di prospect e clienti</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -259,10 +259,10 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <p>Definisce le politiche aziendali in materia di qualità e sicurezza delle informazioni e ne garantisce l'applicazione</p>
 </blockquote></li>
 <li><blockquote>
-<p>Garantisce il rispetto degli obblighi di legge applicabili (MDPO29.C)</p>
+<p>Garantisce il rispetto degli obblighi di legge applicabili (<a href="../../A_CONFORMITA_/MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili/">MDPO29.C</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Valuta come i rischi per le informazioni influenzano gli obiettivi aziendali e agisce come Risk Owner (PR33.1)</p>
+<p>Valuta come i rischi per le informazioni influenzano gli obiettivi aziendali e agisce come Risk Owner (<a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento/">PR33.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Garantisce che la gestione del rischio abbia risorse adeguate e sia comunicata al personale</p>
@@ -334,7 +334,7 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 ### 2.4 Chief Technical Officer (CTO)
 
 Nota: la scheda comprende la guida dell'area Digital. Nelle commesse il
-riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
+riferimento operativo del team è il PM (responsabile di commessa, [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md)).
 
 <table>
 <thead>
@@ -359,10 +359,10 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Definisce le strategie di delivery e di crescita dell'offerta tecnologica</p>
 </blockquote></li>
 <li><blockquote>
-<p>Guida l'area Digital: competenze del team, scelta delle persone e formazione tecnica (MDPR06.1.C, con Risorse Umane)</p>
+<p>Guida l'area Digital: competenze del team, scelta delle persone e formazione tecnica (<a href="../../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D/">MDPR06.1.C</a>, con Risorse Umane)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Definisce gli strumenti aziendali approvati per il lavoro nelle commesse (PR35.1)</p>
+<p>Definisce gli strumenti aziendali approvati per il lavoro nelle commesse (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Fornisce supporto tecnico ai PM delle commesse</p>
@@ -390,19 +390,19 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Prepara la parte tecnica delle offerte (PR09.1)</p>
+<p>Prepara la parte tecnica delle offerte (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale/">PR09.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Valuta e approva i change (PR19.1)</p>
+<p>Valuta e approva i change (<a href="../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento/">PR19.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce gli account e i repository GitHub degli sviluppatori e riesamina periodicamente le utenze amministrative (PR16.1)</p>
+<p>Gestisce gli account e i repository GitHub degli sviluppatori e riesamina periodicamente le utenze amministrative (<a href="../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/">PR16.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Verifica con l'Amministrazione i costi delle commesse</p>
 </blockquote></li>
 <li><blockquote>
-<p>Valuta lo sviluppo professionale del team e i livelli della griglia delle competenze (MDPR06.1.E)</p>
+<p>Valuta lo sviluppo professionale del team e i livelli della griglia delle competenze (<a href="../../7_GESTIONE%20RISORSE/MDPR06.1.E%20-%20Griglia%20delle%20competenze/">MDPR06.1.E</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -419,7 +419,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Scelta delle risorse dell'area Digital e del fornitore IT</p>
 </blockquote></li>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti; gestione dei dati personali dei dipendenti</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti; gestione dei dati personali dei dipendenti</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -507,7 +507,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>“<em>SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
+<p>“<em>SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento</em>” per il seguente ambito di trattamento:</p>
 </blockquote></li>
 </ul>
 <ul>
@@ -601,7 +601,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Gestisce la formazione del personale sul Sistema di Gestione e supporta Risorse Umane nel fabbisogno formativo</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce le segnalazioni di non conformità e quelle che possono incidere sulla sicurezza (PR13.1)</p>
+<p>Gestisce le segnalazioni di non conformità e quelle che possono incidere sulla sicurezza (<a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento/">PR13.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Comunica le modifiche al Sistema a tutta l’organizzazione</p>
@@ -618,16 +618,16 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Redige e verifica processi e informazioni documentate, che approva l'Amministratore Unico (PR08.1)</p>
+<p>Redige e verifica processi e informazioni documentate, che approva l'Amministratore Unico (<a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/PR08.1%20-%20Gestione%20Informazioni%20Documentate/">PR08.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
-<p>Pianifica gli audit interni (MDPR11.1.A)</p>
+<p>Pianifica gli audit interni (<a href="../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/">MDPR11.1.A</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti e dei fornitori; gestione dei dati del sistema di gestione integrato; gestione dei dati personali dei dipendenti; gestione dei dati al fine di garantire la conformità al regolamento sulla protezione dei dati personali</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti e dei fornitori; gestione dei dati del sistema di gestione integrato; gestione dei dati personali dei dipendenti; gestione dei dati al fine di garantire la conformità al regolamento sulla protezione dei dati personali</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -801,7 +801,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Applica le patch di sicurezza ai sistemi in carico (PR32.1)</p>
+<p>Applica le patch di sicurezza ai sistemi in carico (<a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Monitora l’operatività del server e dei servizi</p>
@@ -821,7 +821,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Nomina ad Amministratore di Sistema: “ALPO31.A – Lettera incarico AdS” e “ALPO31.C – Addendum Lettera Incarico AdS”</p>
+<p>Nomina ad Amministratore di Sistema: “<a href="../../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS/">ALPO31.A</a> – Lettera incarico AdS” e “<a href="../../A_CONFORMITA_/ALPO31.C%20-%20Addendum%20Lettera%20Incarico%20AdS/">ALPO31.C</a> – Addendum Lettera Incarico AdS”</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -829,7 +829,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>CONDIZIONI PARTICOLARI DI SVOLGIMENTO DELLE MANSIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Libero professionista esterno, gestito come fornitore secondo PR26.1 e vincolato da accordo di riservatezza</p>
+<p>Libero professionista esterno, gestito come fornitore secondo <a href="../../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori/">PR26.1</a> e vincolato da accordo di riservatezza</p>
 </blockquote></li>
 <li><blockquote>
 <p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
@@ -904,13 +904,13 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Gestisce la parte amministrativa delle offerte e degli ordini dei clienti</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce la parte amministrativa dei fornitori: comunicazioni, ingaggi, archivio documentazione e valutazione annuale (PR26.1)</p>
+<p>Gestisce la parte amministrativa dei fornitori: comunicazioni, ingaggi, archivio documentazione e valutazione annuale (<a href="../../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori/">PR26.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Gestisce i fornitori per manutenzioni e servizi dell'ufficio</p>
 </blockquote></li>
 <li><blockquote>
-<p>Raccoglie gli indicatori a carico dell’Amministrazione (MDPR10.1.A)</p>
+<p>Raccoglie gli indicatori a carico dell’Amministrazione (<a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori/">MDPR10.1.A</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -918,7 +918,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali dei dipendenti per gli adempimenti amministrativi; gestione dei dati dei clienti e dei fornitori</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali dei dipendenti per gli adempimenti amministrativi; gestione dei dati dei clienti e dei fornitori</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -952,7 +952,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Gestisce la selezione del personale: annunci, colloqui e archivio dei CV (PR05.1)</p>
+<p>Gestisce la selezione del personale: annunci, colloqui e archivio dei CV (<a href="../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale/">PR05.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Gestisce ferie, permessi e presenze del personale</p>
@@ -961,13 +961,13 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Gestisce con il consulente del lavoro assunzioni, cessazioni e cedolini</p>
 </blockquote></li>
 <li><blockquote>
-<p>Prepara il piano di formazione con CTO e RSGI (MDPR06.1.C)</p>
+<p>Prepara il piano di formazione con CTO e RSGI (<a href="../../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D/">MDPR06.1.C</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Gestisce gli adempimenti del D.Lgs. 81/08 e i rapporti con RSPP e medico competente</p>
 </blockquote></li>
 <li><blockquote>
-<p>Gestisce il processo disciplinare (MDPR05.1.H)</p>
+<p>Gestisce il processo disciplinare (<a href="../../7_GESTIONE%20RISORSE/MDPR05.1.H%20-%20Processo%20Disciplinare/">MDPR05.1.H</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Riferisce all'Amministratore Unico</p>
@@ -995,7 +995,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Gestisce l'ingresso e l'uscita del personale con le checklist MDPR05.1.A e MDPR05.1.L</p>
+<p>Gestisce l'ingresso e l'uscita del personale con le checklist <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.A%20-%20Checklist%20Documenti%20per%20Inserimento%20Personale/">MDPR05.1.A</a> e <a href="../../7_GESTIONE%20RISORSE/MDPR05.1.L%20-%20Checklist%20documenti%20per%20uscita%20personale/">MDPR05.1.L</a></p>
 </blockquote></li>
 <li><blockquote>
 <p>Raccoglie gli indicatori a carico delle Risorse Umane</p>
@@ -1015,7 +1015,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali e particolari dei dipendenti per la gestione del rapporto di lavoro; gestione dei dati personali dei candidati</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati personali e particolari dei dipendenti per la gestione del rapporto di lavoro; gestione dei dati personali dei candidati</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1049,7 +1049,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Avvia, supervisiona e chiude la commessa secondo PR35.1</p>
+<p>Avvia, supervisiona e chiude la commessa secondo <a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a></p>
 </blockquote></li>
 <li><blockquote>
 <p>Tiene i rapporti con il cliente durante la commessa</p>
@@ -1075,7 +1075,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Gestione di progetti e di team</p>
 </blockquote></li>
 <li><blockquote>
-<p>Conoscenza del servizio e delle regole su dati e codice del cliente (PR35.1)</p>
+<p>Conoscenza del servizio e delle regole su dati e codice del cliente (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Capacità relazionali con il cliente</p>
@@ -1103,7 +1103,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Comunica sia con l’interno che con l’esterno in relazione alle proprie competenze</p>
 </blockquote></li>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1140,7 +1140,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p><strong>(livello di discrezionalità e impatto sulle decisioni)</strong></p></td>
 <td><ul>
 <li><blockquote>
-<p>Lavora nelle commesse secondo le indicazioni del PM, con il processo e gli strumenti del cliente (PR35.1)</p>
+<p>Lavora nelle commesse secondo le indicazioni del PM, con il processo e gli strumenti del cliente (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Riferisce al CTO</p>
@@ -1186,7 +1186,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Esegue la manutenzione ordinaria ed evolutiva del software sviluppato</p>
 </blockquote></li>
 <li><blockquote>
-<p>Segnala al PM problemi e incidenti di sicurezza (PR27.1)</p>
+<p>Segnala al PM problemi e incidenti di sicurezza (<a href="../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/">PR27.1</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1194,7 +1194,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>“SGI – ALPO31.B – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
+<p>“SGI – <a href="../../A_CONFORMITA_/ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento/">ALPO31.B</a> – Atto di Nomina ad Autorizzato del Trattamento” per il seguente ambito di trattamento: gestione dei dati dei clienti; gestione dei dati personali presenti sui sistemi dei clienti</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1205,7 +1205,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Lavora in conformità ai requisiti stabiliti dalle politiche aziendali e in particolare garantendo la sicurezza delle informazioni</p>
 </blockquote></li>
 <li><blockquote>
-<p>Rispetta le regole su dati e codice del cliente (PR35.1)</p>
+<p>Rispetta le regole su dati e codice del cliente (<a href="../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital/">PR35.1</a>)</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1344,7 +1344,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Compiti di dettaglio descritti in “<em>ALPO31.D – Atto di Nomina a Referente Privacy</em>”</p>
+<p>Compiti di dettaglio descritti in “<em><a href="../../A_CONFORMITA_/ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy/">ALPO31.D</a> – Atto di Nomina a Referente Privacy</em>”</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1352,7 +1352,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>“<em>SGI – ALPO31.D – Atto di Nomina a Referente Privacy</em>”</p>
+<p>“<em>SGI – <a href="../../A_CONFORMITA_/ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy/">ALPO31.D</a> – Atto di Nomina a Referente Privacy</em>”</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1366,7 +1366,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <p>Il ruolo può essere cumulato con altre funzioni operative purché non generi conflitto di interesse rispetto ai trattamenti sottoposti a verifica</p>
 </blockquote></li>
 <li><blockquote>
-<p>Non essendo Vectorlab soggetta all’obbligo di designazione di un DPO ex art. 37 GDPR (vedi “<em>PO31</em>”), il Referente Privacy opera in autonomia salvo diversa futura decisione dell’Amministratore Unico</p>
+<p>Non essendo Vectorlab soggetta all’obbligo di designazione di un DPO ex art. 37 GDPR (vedi “<em><a href="../../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali/">PO31</a></em>”), il Referente Privacy opera in autonomia salvo diversa futura decisione dell’Amministratore Unico</p>
 </blockquote></li>
 </ul></td>
 </tr>
@@ -1427,14 +1427,14 @@ conflitto:
 
   - > **Area Digital** – gli sviluppatori lavorano sugli ambienti e con
     > il processo del cliente: i test di accettazione e il rilascio in
-    > produzione li esegue il cliente (PR35.1);
+    > produzione li esegue il cliente ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md));
 
   - > **IT** – colui che compie operazioni di amministrazione del
     > sistema IT da cui i log vengono generati non è lo stesso che
     > provvede alla loro analisi al fine di evitare possibili
     > alterazioni/manomissioni dei messaggi di log. In pratica: i log
     > degli accessi degli amministratori al server dedicato Aruba sono
-    > conservati per almeno 6 mesi (MDPO15.A) e RSGI, che non amministra
+    > conservati per almeno 6 mesi ([MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md)) e RSGI, che non amministra
     > il server, li controlla una volta l'anno (provv. Garante del
     > 27/11/2008 sugli amministratori di sistema); l'esito si registra
     > in un task ClickUp.
@@ -1443,8 +1443,8 @@ conflitto:
     > area Digital, CISO, RSPP): le decisioni sulle misure di
     > sicurezza e i relativi esiti sono riesaminati dall’RSGI, che non
     > svolge attività tecniche sui sistemi; l’audit interno sulle aree
-    > tecniche e di sicurezza è svolto da un auditor esterno (PR11.1);
-    > il Riesame della Direzione (PR12.1) si svolge con la
+    > tecniche e di sicurezza è svolto da un auditor esterno ([PR11.1](../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno.md));
+    > il Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)) si svolge con la
     > partecipazione dell’RSGI e del consulente esterno del sistema di
     > gestione;
 
@@ -1457,10 +1457,10 @@ conflitto:
 
   - > **Funzione IT affidata a un professionista esterno**: le attività
     > di System Administrator sono svolte da un libero professionista
-    > incaricato, gestito come fornitore secondo PR26.1, con accordo di
-    > riservatezza e nomina ad Amministratore di Sistema (ALPO31.A); le
+    > incaricato, gestito come fornitore secondo [PR26.1](../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori.md), con accordo di
+    > riservatezza e nomina ad Amministratore di Sistema ([ALPO31.A](../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS.md)); le
     > sue utenze amministrative sono nominative e riesaminate
-    > periodicamente dal CTO secondo PR16.1.
+    > periodicamente dal CTO secondo [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md).
 
 Le misure compensative sono state approvate dall'Amministratore Unico
 nella riunione del 04/11/2026.

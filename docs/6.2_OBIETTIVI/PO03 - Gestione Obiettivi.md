@@ -31,9 +31,9 @@ La presente politica si applica a tutta l’Organizzazione.
 
 ### 1.3 Riferimenti e Allegati
 
-> MDPO03.A – Lista Obiettivi”.
+> [MDPO03.A](MDPO03.A%20-%20Lista%20Obiettivi.md) – Lista Obiettivi”.
 
-> PR10.1 – Gestione del Monitoraggio, misurazione, analisi e valutazione
+> [PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md) – Gestione del Monitoraggio, misurazione, analisi e valutazione
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
 
@@ -121,15 +121,15 @@ Per ciascun obiettivo viene definito:
 Gli obiettivi del SGI possono essere:
 
   - > obiettivi strategici -\> definiti nella politica del sistema
-    > integrato “*PO01 - Sistema Integrato*”
+    > integrato “*[PO01](../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0.md) - Sistema Integrato*”
 
-  - > obiettivi di azione -\> definiti nel file “*MDPO03.A – Lista
+  - > obiettivi di azione -\> definiti nel file “*[MDPO03.A](MDPO03.A%20-%20Lista%20Obiettivi.md) – Lista
     > Obiettivi*”
 
   - > obiettivi di rischio -\> derivanti dal piano di trattamento dei
-    > rischi “*MDPR33.1.B - Piano di Trattamento dei Rischi*”
+    > rischi “*[MDPR33.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026.md) - Piano di Trattamento dei Rischi*”
 
-  - > obiettivi di prestazione -\> definiti nei KPI “*MDPR10.1.A -
+  - > obiettivi di prestazione -\> definiti nei KPI “*[MDPR10.1.A](../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori.md) -
     > Indicatori*”.
 
 #### 2.1.2 Obiettivi di azione
@@ -166,7 +166,7 @@ Il raggiungimento di questi obiettivi si misura in:
 #### 2.1.5 Obiettivi di prestazione
 
 Gli obiettivi di prestazione sono quelli correlati alle misurazioni
-descritte nella “*SGI - PR10.1 – Gestione del Monitoraggio, misurazione,
+descritte nella “*SGI - [PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md) – Gestione del Monitoraggio, misurazione,
 analisi e valutazione”*.
 
 Tutti gli obiettivi sono degli obiettivi di prestazione, in quanto

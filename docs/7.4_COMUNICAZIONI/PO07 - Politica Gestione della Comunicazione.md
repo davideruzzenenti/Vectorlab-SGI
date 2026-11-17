@@ -51,11 +51,11 @@ paragrafi seguenti.
 
 ### 1.3 Riferimenti e Allegati
 
-> MDPO07.A – Piano della Comunicazione
+> [MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione
 
-> PO01 - Politica del sistema di gestione integrato
+> [PO01](../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0.md) - Politica del sistema di gestione integrato
 
-> REG01 - Regolamento sull’utilizzo degli strumenti aziendali.
+> [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento sull’utilizzo degli strumenti aziendali.
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
 
@@ -140,10 +140,10 @@ Elementi essenziali per le comunicazioni sia interne che esterne sono:
 ### 2.1 Cosa comunicare
 
 La formulazione delle comunicazioni aziendali deve tenere conto della
-“*PO01 - Politica del sistema di gestione integrato*”, di altre
+“*[PO01](../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0.md) - Politica del sistema di gestione integrato*”, di altre
 politiche e documenti al fine di comunicare in maniera efficace.
 
-Cosa comunicare viene definito “*MDPO07.A – Piano della Comunicazione*”,
+Cosa comunicare viene definito “*[MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione*”,
 oltre che nelle procedure documentate inerenti tutti quei processi
 aziendali che prevedono fasi di comunicazione.
 
@@ -284,9 +284,9 @@ dell’azienda e la sua reputazione. L’utilizzo dei social media può
 portare a comprendere meglio le esigenze e aspettative del contesto di
 riferimento in cui opera l’azienda.
 
-Per il loro corretto utilizzo si veda il “*REG01 - Regolamento di
+Per il loro corretto utilizzo si veda il “*[REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento di
 utilizzo degli strumenti informatici aziendali*”, mentre per la gestione
-delle comunicazioni su questi strumenti si vedano i documenti “*MDPO07.A
+delle comunicazioni su questi strumenti si vedano i documenti “*[MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md)
 – Piano della Comunicazione*”.
 
 ### 2.5 Tempistiche
@@ -304,7 +304,7 @@ quanto avviene in caso di incidenti o di crisi.
 ### 2.6 Piani di comunicazione
 
 Il processo di comunicazione in azienda viene codificata attraverso i
-piani di comunicazione “*MDPO07.A – Piano della Comunicazione*”, i quali
+piani di comunicazione “*[MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione*”, i quali
 presentano aspetti di comunicazione sia interni che esterni.
 
 **Piano di comunicazione interna**. La Direzione utilizza il Piano di
@@ -330,7 +330,7 @@ questi casi il Piano di comunicazione risponde alle stesse domande di
 cui sopra, anche se è necessario usare maggiore cautela per non esporre
 o diffondere informazioni sensibili che peggiorerebbero la situazione.
 
-Nel modulo “*MDPO07.A – Piano della Comunicazione*” viene riassunto il
+Nel modulo “*[MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione*” viene riassunto il
 diverso mezzo di comunicazione adottato per ogni parte interessata, il
 tema della comunicazione e chi è coinvolto. Nelle procedure vengono poi
 ulteriormente dettagliate, ove necessario, le fasi di ogni
@@ -340,7 +340,7 @@ comunicazione.
 
 Vectorlab ha individuato i principali flussi di comunicazione da/verso
 l’interno e da/verso l’esterno. In particolare, nel documento
-“*MDPO07.A – Piano della Comunicazione*” sono stati identificati i
+“*[MDPO07.A](MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione*” sono stati identificati i
 seguenti processi:
 
   - > comunicazione interna:

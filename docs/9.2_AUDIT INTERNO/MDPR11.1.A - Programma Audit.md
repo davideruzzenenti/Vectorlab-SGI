@@ -10,14 +10,14 @@
 
 | Voce | Contenuto |
 | --- | --- |
-| Periodo | Triennio 2026–2028 (un audit interno all'anno, più audit straordinari se necessari: PR11.1 §2.5) |
+| Periodo | Triennio 2026–2028 (un audit interno all'anno, più audit straordinari se necessari: [PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.5) |
 | Tipo di audit | Audit interno di prima parte sul Sistema di Gestione Integrato (ISO 9001 + ISO/IEC 27001) |
-| Criteri | ISO 9001:2015 (norma di certificazione) e ISO 9001:2026 (su cui è impostato il sistema); UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di MDPO29.C; requisiti contrattuali dei clienti |
-| Metodo | Interviste, esame di documenti e registrazioni, verifica a campione delle evidenze negli strumenti (repository, ClickUp, Google Workspace, console dei servizi cloud); checklist MDPR11.1.D (27001) e MDPR11.1.L (9001). In presenza in sede, con parti da remoto se concordato |
-| Auditor | Auditor esterno qualificato secondo PR11.1 §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: Micaela Leone (responsabile dell'audit) e Francesca Capuano, Nextage (piano MDPR11.1.B I/2026) [DA CONFERMARE: qualifiche; non devono essere le persone che hanno redatto la documentazione] |
-| Siti | Unico sito: Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo di applicazione (PO02 §4) |
+| Criteri | ISO 9001:2015 (norma di certificazione) e ISO 9001:2026 (su cui è impostato il sistema); UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di [MDPO29.C](../A_CONFORMITA_/MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili.md); requisiti contrattuali dei clienti |
+| Metodo | Interviste, esame di documenti e registrazioni, verifica a campione delle evidenze negli strumenti (repository, ClickUp, Google Workspace, console dei servizi cloud); checklist [MDPR11.1.D](MDPR11.1.D%20-%20Checklist%20Audit%20Interno%2027001.md) (27001) e [MDPR11.1.L](MDPR11.1.L%20-%20Checklist%20Audit%20Interno%209001.md) (9001). In presenza in sede, con parti da remoto se concordato |
+| Auditor | Auditor esterno qualificato secondo [PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: Micaela Leone (responsabile dell'audit) e Francesca Capuano, Nextage (piano [MDPR11.1.B](MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report.md) I/2026) [DA CONFERMARE: qualifiche; non devono essere le persone che hanno redatto la documentazione] |
+| Siti | Unico sito: Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo di applicazione ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) §4) |
 | Durata stimata | 2026: 2 giornate con 2 auditor, circa 4 giorni/uomo (primo audit, copertura completa). Dal 2027: circa 2 giorni/uomo all'anno (organizzazione di circa 10 persone, sistema integrato su un sito) |
-| Esiti | Piano e report in MDPR11.1.B; non conformità e azioni secondo PR13.1; risultati riportati nel Riesame della Direzione (PR12.1) |
+| Esiti | Piano e report in [MDPR11.1.B](MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report.md); non conformità e azioni secondo [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md); risultati riportati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)) |
 
 ## 2 Calendario
 
@@ -66,10 +66,10 @@ nell'altro anno del ciclo).
 
 ## 4 Indipendenza degli auditor
 
-Secondo PR11.1 §2.1 e §2.4 nessuno verifica il proprio lavoro. Poiché
+Secondo [PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.1 e §2.4 nessuno verifica il proprio lavoro. Poiché
 RSGI è anche responsabile di Business Development e Innovation &
 Research Projects e l'Amministratore Unico ricopre i ruoli di CTO e
-CISO (ALPO01.B, sez. 3), l'audit interno è affidato per intero a un
+CISO ([ALPO01.B](../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0.md), sez. 3), l'audit interno è affidato per intero a un
 auditor esterno qualificato. Personale interno può affiancarlo solo su
 aree di cui non è responsabile.
 
@@ -78,30 +78,30 @@ aree di cui non è responsabile.
 | Rischio | Misura |
 | --- | --- |
 | Tempo insufficiente prima dello stage 1 | Audit 2026 fissato entro fine novembre, Riesame della Direzione entro la prima settimana di dicembre |
-| Auditor non disponibile o non qualificato | Incarico concordato con almeno 4 settimane di anticipo; verifica della qualifica (PR11.1 §2.4) |
+| Auditor non disponibile o non qualificato | Incarico concordato con almeno 4 settimane di anticipo; verifica della qualifica ([PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.4) |
 | Evidenze non reperibili | Evidenze negli strumenti aziendali (repository, ClickUp, Workspace); RSGI prepara l'elenco dei documenti e degli accessi necessari prima dell'audit |
-| Risultati non seguiti | Ogni rilievo diventa una non conformità o un'azione di miglioramento in PR13.1, verificata nel riesame |
+| Risultati non seguiti | Ogni rilievo diventa una non conformità o un'azione di miglioramento in [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md), verificata nel riesame |
 
 ## 6 Verifiche tecniche periodiche
 
 Sostituiscono il vecchio piano MDPR11.1.C. Ogni verifica si registra
 con un task ClickUp nella cartella SGI (data, esito, evidenze); i
-rilievi diventano non conformità o azioni di miglioramento (PR13.1).
+rilievi diventano non conformità o azioni di miglioramento ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)).
 Le verifiche sui sistemi in produzione si concordano con l'IT e si
 fanno senza interrompere il servizio (A.8.34).
 
 | Verifica | Frequenza | Chi | Riferimento |
 | --- | --- | --- | --- |
-| Utenze e diritti di accesso (Google Workspace, GitHub, ClickUp, Bitwarden, server) | Ogni 6 mesi | IT esterno, CTO | PR16.1; A.5.18 |
-| Operato degli amministratori di sistema e conservazione dei loro log | Ogni anno | RSGI | Provv. Garante 27/11/2008; MDPO29.A |
-| Prova di ripristino dei backup | Ogni 3 mesi | IT esterno | PR21.1; MDPR21.1.A; obiettivo 3 |
-| Prova di continuità operativa (può coincidere con la prova di ripristino) | Ogni anno | CTO, IT esterno | PR28.1 §7; MDPR21.1.A |
-| Aggiornamenti del server e vulnerabilità di server e dipendenze | Ogni 3 mesi | IT esterno | PR32.1; PR23.1 |
+| Utenze e diritti di accesso (Google Workspace, GitHub, ClickUp, Bitwarden, server) | Ogni 6 mesi | IT esterno, CTO | [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md); A.5.18 |
+| Operato degli amministratori di sistema e conservazione dei loro log | Ogni anno | RSGI | Provv. Garante 27/11/2008; [MDPO29.A](../A_CONFORMITA_/MDPO29.A%20-%20Elenco%20AdS.md) |
+| Prova di ripristino dei backup | Ogni 3 mesi | IT esterno | [PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md); [MDPR21.1.A](../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore.md); obiettivo 3 |
+| Prova di continuità operativa (può coincidere con la prova di ripristino) | Ogni anno | CTO, IT esterno | [PR28.1](../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) §7; [MDPR21.1.A](../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore.md) |
+| Aggiornamenti del server e vulnerabilità di server e dipendenze | Ogni 3 mesi | IT esterno | [PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md); [PR23.1](../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) |
 | Scadenze di certificati e abbonamenti critici | Ogni mese | Amministrazione | NC01 |
-| Portatili: requisiti di REG01 §3 | Ogni anno (gennaio) | Ogni persona; RSGI a campione | REG01 §3; PR05.1 |
-| Presa visione e formazione | Ogni anno (gennaio) | RSGI | PR05.1; MDPR06.1.C |
-| Valutazione dei fornitori critici | Ogni anno | Amministrazione, RSGI | MDPR26.1.B §6 |
-| Applicazione dei tempi di conservazione | Ogni anno | Referente Privacy | MDPO15.A |
-| Analisi di incidenti e non conformità | Prima del riesame | RSGI | PR27.1; PR13.1 |
-| Inventario degli asset e analisi dei rischi | Ogni anno, prima del riesame | RSGI con Nextage | PR33.1 |
+| Portatili: requisiti di [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3 | Ogni anno (gennaio) | Ogni persona; RSGI a campione | [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3; [PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md) |
+| Presa visione e formazione | Ogni anno (gennaio) | RSGI | [PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md); [MDPR06.1.C](../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D.md) |
+| Valutazione dei fornitori critici | Ogni anno | Amministrazione, RSGI | [MDPR26.1.B](../A_FORNITORI/MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati.md) §6 |
+| Applicazione dei tempi di conservazione | Ogni anno | Referente Privacy | [MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) |
+| Analisi di incidenti e non conformità | Prima del riesame | RSGI | [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md); [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md) |
+| Inventario degli asset e analisi dei rischi | Ogni anno, prima del riesame | RSGI con Nextage | [PR33.1](../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) |
 

@@ -9,7 +9,7 @@
 
 ## Piano 2026–2027
 
-Il piano si aggiorna durante l'anno (PR05.1): ogni corso svolto si
+Il piano si aggiorna durante l'anno ([PR05.1](PR05.1%20-%20Gestione%20del%20personale.md)): ogni corso svolto si
 consuntiva nelle ultime tre colonne. Le voci [DA DEFINIRE] si
 completano prima dell'avvio del corso.
 
@@ -17,12 +17,12 @@ completano prima dell'avvio del corso.
 
 | Codice | Formazione da effettuare | Obiettivi della formazione | Rilascio certificazione | A cura di | Partecipanti | Modalità | Periodo previsto | Durata |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F01 | Tecniche di sviluppo agentico | Uso di agenti e strumenti di IA nello sviluppo, nei limiti degli strumenti autorizzati (PR35.1 §2.3) | [DA DEFINIRE] | [DA DEFINIRE] | Team di sviluppo | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
+| F01 | Tecniche di sviluppo agentico | Uso di agenti e strumenti di IA nello sviluppo, nei limiti degli strumenti autorizzati ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3) | [DA DEFINIRE] | [DA DEFINIRE] | Team di sviluppo | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
 | F02 | Tecniche di sviluppo e coding | Aggiornamento sulle tecniche di sviluppo e sulla qualità del codice | [DA DEFINIRE] | [DA DEFINIRE] | Team di sviluppo | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
 | F03 | Processi per l'analisi funzionale e l'analisi tecnica | Requisiti dei progetti dei clienti raccolti e documentati in modo uniforme (9001 8.2, 8.3) | [DA DEFINIRE] | [DA DEFINIRE] | Team di sviluppo, PM | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
 | F04 | 3D engineering | Competenze 3D per i progetti dei clienti | [DA DEFINIRE] | [DA DEFINIRE] | [DA DEFINIRE] | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
 | F05 | Game development | Competenze di sviluppo con motori di gioco per i progetti dei clienti | [DA DEFINIRE] | [DA DEFINIRE] | [DA DEFINIRE] | [DA DEFINIRE] | 2026–2027 | [DA DEFINIRE] |
-| F06 | Sicurezza delle informazioni e privacy | Consapevolezza del 100% del team (MDPO03.A, obiettivo 5; 27001 7.3 e A.6.3) | No | CISO, Referente Privacy | Tutto il personale, compreso l'IT esterno | In sede | Entro il 31/03/2027 | [DA DEFINIRE] |
+| F06 | Sicurezza delle informazioni e privacy | Consapevolezza del 100% del team ([MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md), obiettivo 5; 27001 7.3 e A.6.3) | No | CISO, Referente Privacy | Tutto il personale, compreso l'IT esterno | In sede | Entro il 31/03/2027 | [DA DEFINIRE] |
 
 ### Verifica dell'efficacia e consuntivo
 

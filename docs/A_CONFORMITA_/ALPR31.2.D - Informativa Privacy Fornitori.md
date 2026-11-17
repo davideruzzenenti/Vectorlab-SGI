@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-> Consegna: allegata all'ordine o al contratto al momento della qualifica di un nuovo fornitore (PR26.1).
+> Consegna: allegata all'ordine o al contratto al momento della qualifica di un nuovo fornitore ([PR26.1](../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori.md)).
 
 **Informativa ex art. 13 Regolamento UE 2016/679 per il Trattamento dei
 Dati Personali dei fornitori di Vectorlab SRL**

@@ -7,7 +7,7 @@
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 Registro dei controlli periodici sugli impianti e sui presidi della sede
-di Piazza Borgo Pila 39/22, piano 8, Genova (PR18.1). Lo compila
+di Piazza Borgo Pila 39/22, piano 8, Genova ([PR18.1](PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale.md)). Lo compila
 l'Amministrazione; le verifiche fatte da ditte esterne o dal condominio si
 registrano con il riferimento al loro rapporto.
 

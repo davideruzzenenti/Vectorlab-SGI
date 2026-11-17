@@ -24,7 +24,7 @@
 | **Titolo Documento**    | **Nome File**                                         | **In carico a** | **Consegnato** | **Firmato/ Restituito** |
 | Lettera dimissioni      |                                                       | HR              |                |                         |
 | Lettera licenziamento   |                                                       | HR              |                |                         |
-| Restituzione asset      | MDPR05.1.V - Modulo\_consegna\_riconsegna\_HW\_utenze | IT              |                |                         |
+| Restituzione asset      | [MDPR05.1.V](MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze.md) - Modulo\_consegna\_riconsegna\_HW\_utenze | IT              |                |                         |
 | Altro                   |                                                       |                 |                |                         |
 
 Il Sottoscritto

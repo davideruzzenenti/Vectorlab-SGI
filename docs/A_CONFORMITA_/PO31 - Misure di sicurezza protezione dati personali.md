@@ -42,21 +42,21 @@ trattamento di dati personali.
 > circolazione di tali dati e che abroga la direttiva 95/46/CE
 > (Regolamento Generale sulla Protezione dei Dati).
 
-> PR33.2 - Processo Analisi del Rischio Privacy
+> [PR33.2](../6.1_ANALISI%20DEI%20RISCHI/PR33.2%20-%20Processo%20Analisi%20del%20Rischio%20Privacy.md) - Processo Analisi del Rischio Privacy
 
-> MDPR31.4.A - Registro trattamenti Titolare
+> [MDPR31.4.A](MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro trattamenti Titolare
 
-> MDPR31.4.B - Registro trattamenti Responsabile
+> [MDPR31.4.B](MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md) - Registro trattamenti Responsabile
 
-> PR27.1 - Gestione Data Breach
+> [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md) - Gestione Data Breach
 
-> PR31.1 - Gestione dei diritti degli interessati
+> [PR31.1](PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati.md) - Gestione dei diritti degli interessati
 
-> PR31.2 - Gestione dei consensi
+> [PR31.2](PR31.2%20-%20Gestione%20dei%20Consensi.md) - Gestione dei consensi
 
-> PR31.3 - Valutazione d'impatto sulla protezione dei dati (DPIA)
+> [PR31.3](PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29.md) - Valutazione d'impatto sulla protezione dei dati (DPIA)
 
-> REG01 - Regolamento sull’utilizzo degli strumenti aziendali.
+> [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento sull’utilizzo degli strumenti aziendali.
 
 # Definizioni, Acronimi, Abbreviazioni
 
@@ -313,15 +313,15 @@ registro in esso identificati, sui quali si definiscono le relative
 vulnerabilità e minacce.
 
 Maggiori dettagli sulle metodologie adottate sono riportati nei
-documenti *“PR33.2 - Processo Analisi del Rischio Privacy*”.
+documenti *“[PR33.2](../6.1_ANALISI%20DEI%20RISCHI/PR33.2%20-%20Processo%20Analisi%20del%20Rischio%20Privacy.md) - Processo Analisi del Rischio Privacy*”.
 
 # Misure di sicurezza tecniche ed organizzative
 
 Le misure di sicurezza tecniche ed organizzative definite e predisposte
 da Vectorlab per la protezione dei dati personali oggetto di trattamento
 sono dettagliate, per ogni singolo trattamento, all’interno del Registro
-dei trattamenti (cfr. “*MDPR31.4.A - Registro trattamenti Titolare*” e
-“*MDPR31.4.B* - *Registro trattamenti Responsabile*”), predisposto
+dei trattamenti (cfr. “*[MDPR31.4.A](MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md) - Registro trattamenti Titolare*” e
+“*[MDPR31.4.B](MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md)* - *Registro trattamenti Responsabile*”), predisposto
 dall’Azienda sia in qualità di Titolare che di Responsabile.
 
 # Misure organizzative
@@ -356,12 +356,12 @@ dati personali, in Vectorlab avviene attraverso:
 Alcune politiche e procedure sono definite per regolamentare e
 descrivere specifici aspetti di protezione dei dati personali richiesti
 dal GDPR, come il principio di *privacy by design e by default* (§
-«Misure tecniche» e “*PR31.3* - *Valutazione d'impatto*”), la gestione dei diritti
-e dei consensi degli interessati (cfr. “*PR31.1* - *Gestione dei diritti
-degli interessati*” e “*PR31.2* - *Gestione dei consensi*”), la stesura
-ed il mantenimento dei Registri dei trattamenti (cfr. “*MDPR31.4.A* -
-*Registro trattamenti Titolare*” e “*MDPR31.4.B* - *Registro trattamenti
-Responsabile*”) e l’esecuzione della DPIA (cfr. “*PR31.3* - *Valutazione
+«Misure tecniche» e “*[PR31.3](PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29.md)* - *Valutazione d'impatto*”), la gestione dei diritti
+e dei consensi degli interessati (cfr. “*[PR31.1](PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati.md)* - *Gestione dei diritti
+degli interessati*” e “*[PR31.2](PR31.2%20-%20Gestione%20dei%20Consensi.md)* - *Gestione dei consensi*”), la stesura
+ed il mantenimento dei Registri dei trattamenti (cfr. “*[MDPR31.4.A](MDPR31.4.A%20-%20Registro%20dei%20Trattamenti%20Titolare.md)* -
+*Registro trattamenti Titolare*” e “*[MDPR31.4.B](MDPR31.4.B%20-%20Registro%20dei%20Trattamenti%20Responsabile.md)* - *Registro trattamenti
+Responsabile*”) e l’esecuzione della DPIA (cfr. “*[PR31.3](PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29.md)* - *Valutazione
 d'impatto sulla protezione dei dati (DPIA)*”).
 
 # Audit interni e tecnici
@@ -392,11 +392,11 @@ Tutti i corsi di formazione e le iniziative di sensibilizzazione sulla
 sicurezza e sul GDPR sono pianificati ed erogati e sono registrati nella
 lista ClickUp «Consapevolezza e formazione» (cartella SGI).
 
-L'informativa ai dipendenti e collaboratori (*ALPR31.2.A*) fa parte del
-pacchetto *“ALPR05.1.H - Documenti per il personale”*: la presa visione
+L'informativa ai dipendenti e collaboratori (*[ALPR31.2.A](ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti.md)*) fa parte del
+pacchetto *“[ALPR05.1.H](../7_GESTIONE%20RISORSE/ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md) - Documenti per il personale”*: la presa visione
 si registra all'ingresso, ogni anno e a ogni revisione sostanziale,
-secondo *PR05.1* (paragrafo «Consapevolezza»). Le altre informative
-(*ALPR31.2.B–G*) si forniscono nelle occasioni indicate in testa a
+secondo *[PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md)* (paragrafo «Consapevolezza»). Le altre informative
+(*[ALPR31.2.B](ALPR31.2.B%20-%20Informativa%20Privacy%20Candidati.md)–G*) si forniscono nelle occasioni indicate in testa a
 ciascuna: risposta ai candidati, ingresso dei visitatori, ordine o
 contratto con il fornitore, offerta al cliente, sito web, pubblicazione
 di foto e video.
@@ -465,7 +465,7 @@ attraverso:
     comunicazione agli interessati.
 
 Maggiori dettagli sulle modalità di gestione e trattamento dei data
-breach sono riportati nel documento “*PR27.1* - *Gestione Data Breach*”.
+breach sono riportati nel documento “*[PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md)* - *Gestione Data Breach*”.
 
 # Misure tecniche
 
@@ -493,9 +493,9 @@ Per ogni nuovo processo, prodotto o servizio che tratta dati personali
 (art. 25 GDPR) si considerano fin dalla progettazione i requisiti di
 sicurezza applicabili e si limitano trattamento e accessi ai soli dati
 necessari: chi progetta valuta la necessità di una DPIA secondo
-“*PR31.3*”, sceglie impostazioni predefinite che raccolgono il minimo
-dei dati, li conserva per i tempi di MDPO15.A e documenta le scelte nei
-requisiti del progetto (PO25).
+“*[PR31.3](PR31.3%20-%20Procedura%20Valutazione%20d_impatto%20sulla%20protezione%20dei%20dati%20%28DPIA%29.md)*”, sceglie impostazioni predefinite che raccolgono il minimo
+dei dati, li conserva per i tempi di [MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) e documenta le scelte nei
+requisiti del progetto ([PO25](../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro.md)).
 
 Nel rispetto di tali principi, sanciti dal GDPR, nel seguito si citano
 alcune tra le misure di sicurezza tecniche implementate da Vectorlab per

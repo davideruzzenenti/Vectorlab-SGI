@@ -23,7 +23,7 @@ A fronte dell’Analisi dei Rischi sulla Sicurezza delle Informazioni di Vectorl
 |----------------------------------------------|-----------------------------------------------|
 | **Dati in ingresso al Piano di trattamento** |                                               |
 | Data effettuazione Analisi del Rischio       | Agosto – Settembre 2026                       |
-| Report di analisi                            | MDPR33.1.A – Report Analisi dei Rischi - 2026 |
+| Report di analisi                            | [MDPR33.1.A](MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi%20-%202026.md) – Report Analisi dei Rischi - 2026 |
 
 |                                                       |        |     |
 |-------------------------------------------------------|--------|-----|
@@ -183,28 +183,28 @@ residuo vanno ricalcolati in ERA [DA RIPORTARE IN ERA con Nextage].</span>
 
 | Rischio | Motivo della rivalutazione | Trattamento proposto |
 | --- | --- | --- |
-| 2) A0017 – Software di messaggistica | Discord non è ammesso dal Sistema di Gestione e va dismesso (REG01, decisione del 04/11/2026) | Eliminare: dismissione di Discord per il lavoro |
-| 3) A0039 – Codici sorgenti dei clienti | La motivazione «mancato processo di gestione delle configurazioni» non vale più: c'è PR32.1 | Ridurre: accessi personali con verifica in due passaggi e revisione semestrale (PR16.1), revisione del codice e controlli automatici (PO25, PR23.1) |
-| 1), 4), 5) | Stessa motivazione superata | Rivalutare in ERA con le misure di PR32.1, PR19.1, PR21.1 |
+| 2) A0017 – Software di messaggistica | Discord non è ammesso dal Sistema di Gestione e va dismesso ([REG01](../../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md), decisione del 04/11/2026) | Eliminare: dismissione di Discord per il lavoro |
+| 3) A0039 – Codici sorgenti dei clienti | La motivazione «mancato processo di gestione delle configurazioni» non vale più: c'è [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) | Ridurre: accessi personali con verifica in due passaggi e revisione semestrale ([PR16.1](../../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md)), revisione del codice e controlli automatici ([PO25](../../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro.md), [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md)) |
+| 1), 4), 5) | Stessa motivazione superata | Rivalutare in ERA con le misure di [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md), [PR19.1](../../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento.md), [PR21.1](../../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md) |
 
 ## 3.2 Azioni
 
 | # | Azione | Controlli (Allegato A) | Documento | Responsabile | Entro |
 | --- | --- | --- | --- | --- | --- |
-| T1 | Verifica in due passaggi obbligatoria su Google Workspace e GitHub | 5.17, 8.5 | REG01 §2, PR16.1 §5 | Amministratore Unico / System Administrator | 30/11/2026 |
-| T2 | Backup completo del server Aruba e prima prova di ripristino | 8.13, 5.30 | PR21.1, PR28.1 | System Administrator | 15/12/2026 |
-| T3 | Nomina scritta degli amministratori di sistema ed elenco aggiornato; verifica annuale del loro operato | 8.2, 8.18 | PR16.1 §7 | Referente Privacy / RSGI | 25/11/2026 |
-| T4 | Prima revisione semestrale degli accessi con gli elenchi delle console | 5.18, 8.2 | PR16.1 §6 | RSGI e Amministrazione | 25/11/2026 |
-| T5 | Registro delle modifiche ai sistemi | 8.32, 5.37 | PR19.1 | System Administrator | 30/11/2026 |
-| T6 | Scansione delle vulnerabilità del server; avvisi Dependabot e secret scanning su GitHub; iscrizione ai bollettini CSIRT | 8.8, 5.7 | PR23.1 | System Administrator / CTO | 15/12/2026 |
-| T7 | Configurazioni, aggiornamenti, monitoraggio e rete del server documentati | 8.9, 8.20, 8.1 | PR32.1 | System Administrator | 15/12/2026 |
-| T8 | Caselle privacy@ e sicurezza@ attive | 5.24, 5.34, 6.8 | PR31.1, PR27.1 | Amministratore Unico | 20/11/2026 |
-| T9 | Presa visione dei documenti per il personale e sessione di sensibilizzazione | 6.3, 5.1, 7.7 | PR05.1 §8 | RSGI | 25/11/2026 |
-| T10 | Controlli della sede: cassetta di primo soccorso, estintori, addetti all'emergenza, contatti | 7.5, 7.11, 7.13 | MDPR18.1.D, MDPR18.1.G | Amministrazione | 15/12/2026 |
-| T11 | Dismissione di Discord per il lavoro | 5.14, 8.3 | REG01 | Amministratore Unico | 15/12/2026 |
-| T12 | Classificazione ed etichettatura delle informazioni applicate nei documenti e nelle cartelle | 5.12, 5.13 | PO15 | RSGI | 31/03/2027 |
+| T1 | Verifica in due passaggi obbligatoria su Google Workspace e GitHub | 5.17, 8.5 | [REG01](../../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §2, [PR16.1](../../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) §5 | Amministratore Unico / System Administrator | 30/11/2026 |
+| T2 | Backup completo del server Aruba e prima prova di ripristino | 8.13, 5.30 | [PR21.1](../../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md), [PR28.1](../../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) | System Administrator | 15/12/2026 |
+| T3 | Nomina scritta degli amministratori di sistema ed elenco aggiornato; verifica annuale del loro operato | 8.2, 8.18 | [PR16.1](../../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) §7 | Referente Privacy / RSGI | 25/11/2026 |
+| T4 | Prima revisione semestrale degli accessi con gli elenchi delle console | 5.18, 8.2 | [PR16.1](../../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) §6 | RSGI e Amministrazione | 25/11/2026 |
+| T5 | Registro delle modifiche ai sistemi | 8.32, 5.37 | [PR19.1](../../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento.md) | System Administrator | 30/11/2026 |
+| T6 | Scansione delle vulnerabilità del server; avvisi Dependabot e secret scanning su GitHub; iscrizione ai bollettini CSIRT | 8.8, 5.7 | [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) | System Administrator / CTO | 15/12/2026 |
+| T7 | Configurazioni, aggiornamenti, monitoraggio e rete del server documentati | 8.9, 8.20, 8.1 | [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) | System Administrator | 15/12/2026 |
+| T8 | Caselle privacy@ e sicurezza@ attive | 5.24, 5.34, 6.8 | [PR31.1](../../../A_CONFORMITA_/PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati.md), [PR27.1](../../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md) | Amministratore Unico | 20/11/2026 |
+| T9 | Presa visione dei documenti per il personale e sessione di sensibilizzazione | 6.3, 5.1, 7.7 | [PR05.1](../../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md) §8 | RSGI | 25/11/2026 |
+| T10 | Controlli della sede: cassetta di primo soccorso, estintori, addetti all'emergenza, contatti | 7.5, 7.11, 7.13 | [MDPR18.1.D](../../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.D%20-%20Registri%20interventi%20ambientali.md), [MDPR18.1.G](../../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.G%20-%20Contatti%20di%20emergenza.md) | Amministrazione | 15/12/2026 |
+| T11 | Dismissione di Discord per il lavoro | 5.14, 8.3 | [REG01](../../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) | Amministratore Unico | 15/12/2026 |
+| T12 | Classificazione ed etichettatura delle informazioni applicate nei documenti e nelle cartelle | 5.12, 5.13 | [PO15](../../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni.md) | RSGI | 31/03/2027 |
 | T13 | Altri controlli applicabili non attuati (5.28, 5.33, 5.35, 5.36, 6.1, 6.4, 7.2–7.4, 7.6, 7.8–7.10, 7.14, 8.23): stato e scadenza da definire | vari | SoA | Amministratore Unico con RSGI | Riunione del 18/11/2026 |
 
 Lo stato delle azioni si segue nella lista ClickUp «Non conformità e
-miglioramento» e si riporta nel Riesame della Direzione (PR12.1). A
+miglioramento» e si riporta nel Riesame della Direzione ([PR12.1](../../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)). A
 ogni azione completata si aggiorna la colonna «Applicato» della SoA.
