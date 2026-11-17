@@ -11,5 +11,3 @@
 ## Altri file
 
 - [ALPR18.1.A - Piantina accessi.pptx](ALPR18.1.A%20-%20Piantina%20accessi.pptx)
-- [MDPR18.1.D - Registri interventi ambientali.xlsm](MDPR18.1.D%20-%20Registri%20interventi%20ambientali.xlsm)
-- [MDPR18.1.G - Contatti di emergenza.xlsx](MDPR18.1.G%20-%20Contatti%20di%20emergenza.xlsx)

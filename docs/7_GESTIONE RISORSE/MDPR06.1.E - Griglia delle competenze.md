@@ -4,9 +4,7 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
-<tr><td>0.1</td><td>16/07/2026</td><td colspan="4">Revisione assistita da IA: rimosso un placeholder non risolto nella legenda</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
-<tr><td>0.2</td><td>11/11/2026</td><td colspan="4">Aggiunta la sezione «Competenze tecniche del team» con le competenze ricavate dai curriculum e confermate nella riunione del 04/11/2026; livelli da assegnare</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Competenze tecniche del team
@@ -34,7 +32,7 @@ scrivere.]
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Griglia delle competenze</th><th colspan="2">MDPR06.1.E</th><th></th><th colspan="2"></th><th></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Ultimo aggiornamento</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

@@ -4,10 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 20/10/2026 | Prima emissione: sostituisce il foglio «Compliance» del vecchio elenco Excel MDPR08.1.A (riferimenti superati: ISO/IEC 27001:2013, ISO 9001:2015, ISO/IEC 27002:2017); aggiunte le norme su intelligenza artificiale, cybersicurezza dei prodotti, lavoro agile, trasferimenti di dati extra UE | RSGI | Da approvare |
-| 0.1      | 22/10/2026 | Cyber Resilience Act: da «non applicabile» a «da valutare» per i prodotti della unit Vectorlab, esclusi dal campo di applicazione; ISO 9001: indicata la 2015 come norma di certificazione RINA | RSGI | Da approvare |
-| 0.2      | 28/10/2026 | Rimando a PR33.1.1 sostituito da PR33.1 (unite) | RSGI        | Da approvare |
-| 0.3      | 28/10/2026 | L. 300/1970 art. 7 (processo disciplinare) con rimando a REG01 §11; tolti REG02 e PR04.1 (ritirati) | RSGI        | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e uso
 
@@ -37,7 +34,7 @@ nell'offerta (PR09.1, PR26.1).
 | [D.Lgs. 196/2003 – Codice privacy](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196), come modificato dal D.Lgs. 101/2018 | Norme nazionali di adeguamento al GDPR | Applicabile | Come GDPR | Referente Privacy |
 | Provvedimento del Garante privacy del 27/11/2008 sugli Amministratori di Sistema, modificato il 25/06/2009 | Nomina, elenco e verifica degli amministratori di sistema; registrazione degli accessi | Applicabile (amministratore di sistema interno ed esterno) | ALPO31.A, ALPO31.C, MDPO29.A, PR16.1, MDPR11.1.M | CTO |
 | Linee guida del Garante privacy su cookie e altri strumenti di tracciamento (10/06/2021) | Consenso e informativa per cookie e tracciamento sui siti web | Applicabile (sito aziendale) | ALPR31.2.F | Referente Privacy |
-| [Decisione di esecuzione (UE) 2023/1795 – EU-US Data Privacy Framework](https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj) | Trasferimento di dati personali verso organizzazioni certificate negli USA | Applicabile (fornitori cloud con sede o infrastrutture negli USA) | PO40, PR26.1, ALPR26.1.D, registro dei trattamenti | Referente Privacy |
+| [Decisione di esecuzione (UE) 2023/1795 – EU-US Data Privacy Framework](https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj) | Trasferimento di dati personali verso organizzazioni certificate negli USA | Applicabile (fornitori cloud con sede o infrastrutture negli USA) | PR26.1 §6, ALPR26.1.D, registro dei trattamenti | Referente Privacy |
 | Linee guida e raccomandazioni EDPB | Interpretazione del GDPR a livello europeo | Riferimento interpretativo | Consultate in caso di nuovi trattamenti o DPIA (PR31.3) | Referente Privacy |
 
 ## 3 Lavoro, salute e sicurezza
@@ -70,7 +67,7 @@ nell'offerta (PR09.1, PR26.1).
 | [L. 633/1941 – Diritto d'autore](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633) | Tutela del software e dei contenuti; uso di licenze | Applicabile (sviluppo software, uso di librerie e software di terzi) | ALPR05.1.G, PO29 §2.2 (licenze), contratti con clienti (PR09.1) | CTO |
 | Codice civile, artt. 2214–2220 | Tenuta e conservazione delle scritture contabili (10 anni) | Applicabile | MDPO15.A | Resp. Amministrazione |
 | [D.Lgs. 82/2022 – Accessibilità di prodotti e servizi (European Accessibility Act)](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-05-27;82) e [L. 4/2004](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4) | Requisiti di accessibilità per servizi digitali al consumatore e siti della PA | Da valutare: si applica ai prodotti e servizi digitali realizzati per clienti che ricadono nel campo di applicazione (es. e-commerce, PA) | Requisiti di progetto (MDPO25.B) | CTO |
-| [Reg. (UE) 2023/2854 – Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) | Accesso ai dati dei prodotti connessi; passaggio tra fornitori di servizi cloud | Da valutare: solo se Vectorlab fornisce servizi cloud o prodotti connessi | PO40 | CTO |
+| [Reg. (UE) 2023/2854 – Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) | Accesso ai dati dei prodotti connessi; passaggio tra fornitori di servizi cloud | Da valutare: solo se Vectorlab fornisce servizi cloud o prodotti connessi | PR26.1 §6 | CTO |
 
 ## 7 Norme volontarie
 

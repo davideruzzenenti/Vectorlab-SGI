@@ -7,10 +7,7 @@
 |          |            |                 |               |               |
 |----------|------------|-----------------|---------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto**   | **Approvato** |
-| 00       | 24/04/2026 | Prima emissione | Resp. Digital | CTO           |
-|          |            |                 |               |               |
-|          |            |                 |               |               |
-|          |            |                 |               |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 # Indice 
 

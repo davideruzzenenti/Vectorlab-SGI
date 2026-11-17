@@ -2,5 +2,4 @@
 
 ## Documenti
 
-- [PO20 - Gestione della Capacità](PO20%20-%20Gestione%20della%20Capacit%C3%A0.md)
-- [PR20.1 - Capacità e Monitoraggio Tecnico](PR20.1%20-%20Capacit%C3%A0%20e%20Monitoraggio%20Tecnico.md)
+I contenuti di questa sezione sono stati riuniti il 17/11/2026 in [PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni.md).

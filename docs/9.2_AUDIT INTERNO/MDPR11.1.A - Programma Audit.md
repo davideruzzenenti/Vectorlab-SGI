@@ -4,12 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | RSGI | Direzione |
-| 0.1      | 20/10/2026 | Programma triennale 2026–2028 compilato: aree reali di Vectorlab al posto di «Area XXXX», auditor, date, criteri e metodo; rimossi i riferimenti a UNI/PdR 125 (non adottata) e al DPO (non nominato, sostituito dal Referente Privacy) | RSGI | Da approvare |
-| 0.2      | 22/10/2026 | Tolta l'area «Progetti di ricerca e innovazione», esclusa dal campo di applicazione; criteri: ISO 9001:2015 come norma di certificazione | RSGI | Da approvare |
-| 0.3      | 28/10/2026 | Aggiunta la §6 «Verifiche tecniche periodiche» con le verifiche reali: sostituisce il piano MDPR11.1.C, ritirato | RSGI        | Da approvare |
-| 0.4      | 05/11/2026 | Audit 2026 fissato al 24–25 novembre con due auditor Nextage (mail di Micaela Leone del 02/11/2026); durata 2026 aggiornata a circa 4 giorni/uomo; stage 1 RINA confermato al 15/12/2026 | RSGI        | Da approvare |
-| 0.5      | 11/11/2026 | Audit 2026 spostato al 25–26 novembre (mail di Micaela Leone del 10/11/2026); indicati gli auditor del piano I/2026 (Micaela Leone, Francesca Capuano) | RSGI        | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Impostazione del programma
 
@@ -98,9 +93,9 @@ fanno senza interrompere il servizio (A.8.34).
 | Verifica | Frequenza | Chi | Riferimento |
 | --- | --- | --- | --- |
 | Utenze e diritti di accesso (Google Workspace, GitHub, ClickUp, Bitwarden, server) | Ogni 6 mesi | IT esterno, CTO | PR16.1; A.5.18 |
-| Operato degli amministratori di sistema e conservazione dei loro log | Ogni anno | Referente Privacy | Provv. Garante 27/11/2008; MDPO29.A |
+| Operato degli amministratori di sistema e conservazione dei loro log | Ogni anno | RSGI | Provv. Garante 27/11/2008; MDPO29.A |
 | Prova di ripristino dei backup | Ogni 3 mesi | IT esterno | PR21.1; MDPR21.1.A; obiettivo 3 |
-| Prova di continuità operativa (può coincidere con la prova di ripristino) | Ogni anno | CTO, IT esterno | PR28.1; MDPR28.1.B |
+| Prova di continuità operativa (può coincidere con la prova di ripristino) | Ogni anno | CTO, IT esterno | PR28.1 §7; MDPR21.1.A |
 | Aggiornamenti del server e vulnerabilità di server e dipendenze | Ogni 3 mesi | IT esterno | PR32.1; PR23.1 |
 | Scadenze di certificati e abbonamenti critici | Ogni mese | Amministrazione | NC01 |
 | Portatili: requisiti di REG01 §3 | Ogni anno (gennaio) | Ogni persona; RSGI a campione | REG01 §3; PR05.1 |

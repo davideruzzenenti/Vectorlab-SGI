@@ -8,9 +8,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.1      | 16/07/2026 | Prima bozza (fac-simile) — documento mancante generato per colmare una lacuna rilevata nella SOA, sulla base di quanto già previsto in "PR26.1 - Gestione dei fornitori" e "PR27.1 - Gestione Incidenti e Data Breach". Le parti evidenziate in rosso sono ipotesi da confermare prima dell'uso; i campi come "Nome Fornitore" e "Nome Cognome referente" sono normali placeholder da compilare caso per caso | IA          | Da approvare  |
-| 0.2      | 28/10/2026 | Verifica annuale sul responsabile: rimando a MDPR26.1.B §6 (MDPR26.1.A ritirato) | RSGI        | Da approvare |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 **Tra**
 
@@ -45,7 +43,7 @@ referente**, nella propria qualità di legale rappresentante pro tempore
     di qualifica e monitoraggio dei fornitori, descritto in "*PR26.1 -
     Gestione dei fornitori*", tenendo conto in particolare
     dell'affidabilità del Fornitore e delle misure di sicurezza da esso
-    dichiarate (cfr. "*ALPR26.1.E - Requisiti di sicurezza*");
+    dichiarate (cfr. "*ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori*");
 
   - il presente atto disciplina i trattamenti di dati personali svolti
     dal Fornitore per conto di Vectorlab (o, nel caso in cui Vectorlab
@@ -109,8 +107,8 @@ Il Responsabile si impegna a:
     adeguato obbligo legale di riservatezza;
 
   - adottare tutte le misure richieste ai sensi dell'art. 32 GDPR,
-    tenendo conto di quanto indicato in "*ALPR26.1.E - Requisiti di
-    sicurezza*";
+    tenendo conto di quanto indicato in "*ALPR26.1.A - Comunicazione e requisiti
+    di sicurezza per i fornitori*";
 
   - rispettare le condizioni per ricorrere a un altro Responsabile del
     trattamento (Sub-Responsabile) di cui al successivo punto 7;
@@ -183,7 +181,7 @@ dati extra SEE, da valutare caso per caso]</span>.
 **10. Misure di sicurezza**
 
 Il Responsabile si impegna a rispettare i requisiti minimi di sicurezza
-riportati in "*ALPR26.1.E - Requisiti di sicurezza*", allegato al
+riportati in "*ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori*", allegato al
 contratto di fornitura, e a darne applicazione con riferimento a
 tutti gli strumenti, ambienti e infrastrutture utilizzati per lo
 svolgimento del trattamento.

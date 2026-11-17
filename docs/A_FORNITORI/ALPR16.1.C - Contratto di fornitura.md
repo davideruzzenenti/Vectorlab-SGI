@@ -5,10 +5,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 **  
 **
@@ -309,7 +306,7 @@ Allegati:
 
 4.  ALPR26.1.D - Nomina Responsabile Trattamento Dati Personali
 
-5.  ALPR26.1.E – Requisiti di Sicurezza
+5.  ALPR26.1.A – Comunicazione e requisiti di sicurezza per i fornitori
 
 6.  ALPR31.2.D - Informativa Privacy Fornitori
 

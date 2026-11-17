@@ -7,9 +7,7 @@
 |          |            |                 |             |               |
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 25/09/2026 | Prima emissione: analisi dei rischi agosto-settembre 2026 | CISO        | Da approvare (Amministratore Unico) |
-| 0.1      | 20/10/2026 | Corretta la data di emissione (riportava quella del modello); campo di applicazione allineato a PO02; accettazione del rischio attribuita all'Amministratore Unico | RSGI        | Da approvare  |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ### Indice 
 

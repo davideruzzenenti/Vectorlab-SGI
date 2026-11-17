@@ -5,10 +5,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | IT          | DPO           |
-| 0.1      | 16/07/2026 | Revisione assistita da IA: DPO non obbligatorio per Vectorlab (vedi PO31), approvazione riportata all'Amministratore Unico | IT          | Amministratore Unico |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 **Information Security Incident Lessons Learned Report**
 

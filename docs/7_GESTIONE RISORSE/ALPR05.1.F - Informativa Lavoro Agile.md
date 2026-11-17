@@ -3,10 +3,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 **INFORMATIVA SULLA SALUTE E SICUREZZA NEL LAVORO AGILE AI SENSI
 DELL’ART. 22, COMMA 1, L. 81/2017**

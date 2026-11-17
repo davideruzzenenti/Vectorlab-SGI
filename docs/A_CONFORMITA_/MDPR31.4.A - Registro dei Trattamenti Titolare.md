@@ -10,15 +10,14 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Rev.</td><td>Data</td><td colspan="2">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificato</td></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="2">Prima emissione</td><td></td><td></td><td>Interno</td></tr>
-<tr><td>0.1</td><td>11/11/2026</td><td colspan="2">Prima compilazione con i trattamenti indicati dall'Amministrazione (riunione del 04/11/2026): personale, candidati, clienti e fornitori, marketing, IT; contatti del titolare. Basi giuridiche e destinatari proposti, da verificare con il Referente Privacy; tempi di conservazione da MDPO15.A</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="2">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Trattamenti
 
 <table>
 <tr><th></th><th rowspan="2"></th><th rowspan="2" colspan="4">Registro Trattamenti Titolare</th><th colspan="2">MDPR31.4.A</th><th></th><th></th><th></th></tr>
-<tr><td></td><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td><td></td></tr>
+<tr><td></td><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td>Data ultimo aggiornamento</td><td></td><td>Motivo dell&#x27;aggiornamento</td><td></td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

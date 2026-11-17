@@ -2,4 +2,4 @@
 
 ## Documenti
 
-- [PO17 - Crittografia](PO17%20-%20Crittografia.md)
+I contenuti di questa sezione sono stati riuniti il 17/11/2026 in [PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni.md).

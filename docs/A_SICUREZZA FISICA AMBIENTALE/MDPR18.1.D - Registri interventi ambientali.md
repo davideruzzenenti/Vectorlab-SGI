@@ -7,7 +7,7 @@
 <tr><td>Sede: Piazza Borgo Pila 39/22 - 16129 - GENOVA (GE)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Rev.</td><td>Data</td><td colspan="4">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificazione</td></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Scadenziario
@@ -28,7 +28,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th><th colspan="2"></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Elenco estintori</td><td></td><td></td><td></td></tr>
 <tr><td>Periodicità</td><td>Semestrale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -44,7 +44,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th><th></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Controlli periodici estintori</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -61,7 +61,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Controlli periodici impianto elettrico</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -74,7 +74,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th><th></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Elenco contenuto cassetta PS</td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -103,7 +103,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registro interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Controllo cassetta PS</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -144,7 +144,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Filtri Condizionatori</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
@@ -156,7 +156,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th><th></th><th colspan="2"></th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td><td></td><td></td><td></td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Smaltimento Toner</td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -167,7 +167,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Filtri boccioni acqua</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
@@ -179,7 +179,7 @@
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Registri interventi ambientali</th><th colspan="2">MDPR18.1.D</th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td colspan="5">Test Evacuazione</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>

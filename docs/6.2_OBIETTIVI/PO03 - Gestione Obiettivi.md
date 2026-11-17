@@ -15,11 +15,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Introduzione
 

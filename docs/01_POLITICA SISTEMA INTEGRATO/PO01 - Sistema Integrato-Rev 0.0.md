@@ -8,7 +8,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Introduzione
 

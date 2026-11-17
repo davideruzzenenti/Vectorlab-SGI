@@ -4,8 +4,7 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>HR</td><td>Amministratore Unico</td><td>Interno</td></tr>
-<tr><td>0.1</td><td>11/11/2026</td><td colspan="4">Piano 2026–2027 compilato con i temi indicati dall'Amministratore Unico (riunione del 04/11/2026) e la formazione su sicurezza e privacy dell'obiettivo 5 di MDPO03.A; tabella del modello convertita in tabella markdown con le stesse colonne</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Piano 2026–2027

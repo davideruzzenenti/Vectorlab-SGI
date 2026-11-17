@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI | Amministratore Unico |
-| 0.1      | 24/10/2026 | Contatti del titolare completati (ragione sociale, P.IVA, privacy@vectorlab-cg.com, PEC); aggiunte la tabella delle revisioni e le modalità di consegna (presa visione tramite ALPR05.1.H, 26/10) | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 > Consegna: fa parte del pacchetto ALPR05.1.H «Documenti per il personale»; la presa visione si registra nella lista ClickUp «Consapevolezza e formazione» all'inizio del rapporto, ogni anno a gennaio e a ogni revisione sostanziale (PR05.1).
 

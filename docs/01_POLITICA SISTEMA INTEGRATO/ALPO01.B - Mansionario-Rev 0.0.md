@@ -8,7 +8,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 > Indice
 
@@ -801,7 +801,7 @@ riferimento operativo del team è il PM (responsabile di commessa, PR35.1).
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Applica le patch di sicurezza ai sistemi in carico (PR22.1)</p>
+<p>Applica le patch di sicurezza ai sistemi in carico (PR32.1)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Monitora l’operatività del server e dei servizi</p>

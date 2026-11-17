@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0      | 09/11/2026 | Piano dell'audit interno I/2026 redatto da Nextage (Responsabile Audit: Micaela Leone) e inviato con la mail del 10/11/2026 «Piano audit interno»; trascritto nel repo dal file Drive *Vectorlab SGI - Master › B_REGISTRAZIONI › Audit Interno › Anno 2026 › MDPR11.1.B - Piano di Audit e Report.xlsx*, senza modifiche al contenuto | Responsabile Audit | Da approvare | Interno |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 Compilazione del modulo *MDPR11.1.B - Piano di Audit e Report* per il
 primo audit interno, previsto dal programma *MDPR11.1.A - Programma Audit*

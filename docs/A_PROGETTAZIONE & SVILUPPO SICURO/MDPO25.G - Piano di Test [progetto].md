@@ -7,7 +7,7 @@
 <tr><td></td><td></td><td rowspan="6" colspan="2"></td><td rowspan="6" colspan="5">Piano di Test</td><td rowspan="3" colspan="2">MDPO25.G</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td></td><td></td><td rowspan="3">Rev. 0.0</td><td rowspan="3">24/04/2026</td></tr>
+<tr><td></td><td></td><td rowspan="3">Rev. 0.0</td><td rowspan="3">17/11/2026</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -16,7 +16,7 @@
 <tr><td></td><td></td><td colspan="3">Livello di classificazione</td><td colspan="6">Interno</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td>Rev.</td><td>Data</td><td colspan="4">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificazione</td></tr>
-<tr><td></td><td></td><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>Resp. Divisione</td><td>CTO</td><td>Interno</td></tr>
+<tr><td></td><td></td><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 

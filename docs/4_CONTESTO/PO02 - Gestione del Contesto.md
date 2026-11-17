@@ -15,7 +15,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Introduzione
 
@@ -306,8 +306,7 @@ cloud (tra cui Aruba, Google Workspace, GitHub). Questi servizi
 rientrano nel campo di applicazione come attività affidate a terzi: la
 sicurezza fisica e infrastrutturale dei data center è in carico ai
 fornitori, mentre la configurazione, gli accessi e i dati restano in
-carico a Vectorlab. I fornitori sono gestiti secondo PO26, PR26.1 e
-PO40.
+carico a Vectorlab. I fornitori sono gestiti secondo PR26.1.
 
 ### 4.4 Esclusioni
 
@@ -1842,22 +1841,13 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <p>MDPR11.1.A – Programma Audit (§6 verifiche tecniche)</p>
 </blockquote></li>
 <li><blockquote>
-<p>PO21 – Gestione dei Backup e Restore</p>
-</blockquote></li>
-<li><blockquote>
-<p>PO28 – Gestione della Continuità Operativa</p>
-</blockquote></li>
-<li><blockquote>
-<p>PO16 – Gestione degli Accessi</p>
-</blockquote></li>
-<li><blockquote>
-<p>PR03.1 – IT</p>
+<p>PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
 </blockquote></li>
 <li><blockquote>
 <p>PR21.1 – Gestione dei Backup e Restore</p>
 </blockquote></li>
 <li><blockquote>
-<p>PR24.1 – Gestione delle Reti</p>
+<p>PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</p>
 </blockquote></li>
 <li><blockquote>
 <p>PR16.1 – Gestione degli Accessi</p>

@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 26/10/2026 | Prima emissione: pacchetto unico dei documenti da leggere e confermare; requisiti del portatile rimandati a REG01 §3 (27/10) | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## A cosa serve
 

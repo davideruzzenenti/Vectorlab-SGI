@@ -6,8 +6,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | CTO | CEO |
-| 0.1      | 11/11/2026 | Riscritta in forma breve sul modo reale di lavorare, con le risposte del CTO alle 6 domande sullo sviluppo sicuro (riunione del 04/11/2026): codice nei repository dei clienti e nell'organizzazione GitHub vectorlab-cg, verifica in due passaggi, revisione del codice, ambienti di test del cliente, segreti in Bitwarden, controllo delle librerie. Tolti postazioni Ubuntu, ambiente di Quality, team di test, ambiente VA/PT e server di build, che non esistono | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e campo di applicazione
 
@@ -32,7 +31,7 @@ descritto in PR35.1 - Digital.
   A.8.33; A.8.30 per lo sviluppo affidato all'esterno (§6)
 - ISO 9001, 8.3 Progettazione e sviluppo di prodotti e servizi
 - PR35.1 - Digital; PR16.1 - Gestione degli Accessi; PR27.1 -
-  Eventi e incidenti; PO26 e PR26.1 - Fornitori; REG01 - Regolamento
+  Eventi e incidenti; PR26.1 - Fornitori; REG01 - Regolamento
   sull'utilizzo degli strumenti aziendali
 - ALPO25.A - Linee guida per lo sviluppo software; MDPO25.A - OWASP
   ASVS Checklist; MDPO25.B - Definizione dei Requisiti; MDPO25.C -
@@ -136,7 +135,7 @@ sicurezza@vectorlab-cg.com; il PM informa il cliente. Si segue PR27.1.
 Se una parte dello sviluppo è affidata a un fornitore esterno, il
 fornitore firma un accordo di riservatezza (ALPR26.1.B.3), riceve
 questa politica e le regole del progetto, lavora con account nominativi
-e il suo lavoro passa dalla stessa revisione del §5.3 (A.8.30; PO26,
+e il suo lavoro passa dalla stessa revisione del §5.3 (A.8.30;
 PR26.1).
 
 Oggi Vectorlab non affida a terzi lo sviluppo nei progetti dei clienti:
@@ -158,5 +157,5 @@ clienti.
 | --- | --- | --- |
 | Pull request con revisione del codice | Repository del cliente o di vectorlab-cg | Secondo il repository |
 | Requisiti e piano di test di progetto (MDPO25.B, MDPO25.G) | Cartella della commessa su Drive | Secondo MDPO15.A |
-| Accessi all'organizzazione vectorlab-cg | GitHub, lista utenze ALPR16.1.A | Secondo MDPO15.A |
+| Accessi all'organizzazione vectorlab-cg | GitHub; revisione semestrale PR16.1 §6 | Secondo MDPO15.A |
 | Segnalazioni di problemi di sicurezza | Lista ClickUp «Non conformità e miglioramento» (PR27.1) | Secondo PR13.1 |

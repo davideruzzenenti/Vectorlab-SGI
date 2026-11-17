@@ -8,8 +8,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | HR | Amministratore Unico |
-| 0.1      | 28/10/2026 | Art. 2: giornate di lavoro agile non fisse, concordate di settimana in settimana con il PM o la Direzione (al posto di «massimo X giorni»); aggiunta la tabella delle revisioni | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 Tra
 

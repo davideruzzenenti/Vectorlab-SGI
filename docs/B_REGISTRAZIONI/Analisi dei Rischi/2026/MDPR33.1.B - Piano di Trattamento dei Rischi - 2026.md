@@ -9,10 +9,7 @@
 |          |            |                 |             |               |
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 29/09/2026 | Prima emissione: piano di trattamento dei rischi 2026 | CISO        | Da approvare (Amministratore Unico) |
-| 0.1      | 20/10/2026 | Corretta la data di emissione (riportava quella del modello); campo di applicazione allineato a PO02; ruolo «IT» dell'owner corretto in «CTO» (la funzione IT è esterna) | RSGI        | Da approvare  |
-| 0.2      | 22/10/2026 | Owner dei rischi su immagine (A0048) e reputazione (A0049): l'Amministratore Unico al posto di «BD»; controllo «1.23» corretto in 5.23 (inesistente nell'Annex A) | RSGI        | Da approvare  |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ### Indice 
 

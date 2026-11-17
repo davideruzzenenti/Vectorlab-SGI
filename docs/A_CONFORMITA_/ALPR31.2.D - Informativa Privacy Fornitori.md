@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI | Amministratore Unico |
-| 0.1      | 24/10/2026 | Contatti del titolare completati (ragione sociale, P.IVA, privacy@vectorlab-cg.com, PEC); aggiunte la tabella delle revisioni e le modalità di consegna | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 > Consegna: allegata all'ordine o al contratto al momento della qualifica di un nuovo fornitore (PR26.1).
 

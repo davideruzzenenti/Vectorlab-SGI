@@ -5,10 +5,7 @@
 |          |            |                 |                      |               |
 |----------|------------|-----------------|----------------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto**          | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | Responsabile di Area | CTO           |
-|          |            |                 |                      |               |
-|          |            |                 |                      |               |
-|          |            |                 |                      |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 # Indice
 

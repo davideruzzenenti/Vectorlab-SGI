@@ -4,14 +4,14 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>CTO</td><td>Direzione</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Lista sw permessi
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Lista software permessi</th><th colspan="2">HR - ALPR05.1.G</th></tr>
-<tr><td>Rev 0.0</td><td>24/04/2026</td></tr>
+<tr><td>Rev 0.0</td><td>17/11/2026</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>DATA ULTIMO AGGIORNAMENTO</td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>

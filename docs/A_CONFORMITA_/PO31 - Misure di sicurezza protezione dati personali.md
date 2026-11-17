@@ -7,13 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | CISO        | DPO           |
-| 0.1      | 09/07/2026 | Revisione assistita da IA: chiarito lo status del DPO rispetto al Referente Privacy, in assenza di un obbligo di designazione ex art. 37 GDPR | CISO        | Amministratore Unico |
-| 0.2      | 26/10/2026 | Formazione: informativa ai dipendenti e presa visione tramite il pacchetto ALPR05.1.H e la lista ClickUp «Consapevolezza e formazione» (PR05.1); consegna delle altre informative secondo ALPR31.2.B–G | RSGI        | Da approvare |
-| 0.3      | 28/10/2026 | Privacy by design e by default (art. 25 GDPR) riportata qui in sintesi: PO30 unita a questa politica e ritirata | RSGI        | Da approvare |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 > Indice
 

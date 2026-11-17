@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | | | Interno |
-| 0.1      | 11/11/2026 | Prima compilazione in forma minima, proporzionata a Vectorlab: servizi da cui dipende il lavoro, impatto di un'interruzione e decisione. Per tutti i servizi si accetta il rischio (proposta di RSGI dell'11/11/2026, da approvare dall'Amministratore Unico); per il server Aruba, oggi senza backup, l'accettazione riguarda anche la perdita definitiva dei dati. Tolte le tabelle del modello (scale RTO/MTPD per processo), non usate | RSGI | Da approvare (Amministratore Unico) | Interno |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 ## 1 Scopo e metodo
 
@@ -39,19 +38,20 @@ servizio, fatta dalla Direzione con RSGI.
 | 1 | Google Workspace (posta, Drive) | Mail e documenti di commessa non raggiungibili; lavoro rallentato | Nessuno diretto: il team lavora negli strumenti del cliente | **Rischio accettato**: il servizio dipende interamente dal fornitore e Vectorlab non ha leve per ridurlo |
 | 2 | GitHub (organizzazione vectorlab-cg) | Codice su vectorlab-cg non raggiungibile | Nessuno diretto: il codice principale sta nei repository dei clienti | **Rischio accettato**, come sopra |
 | 3 | ClickUp | CRM, task, commesse e registro NC non raggiungibili | Nessuno | **Rischio accettato**, come sopra |
-| 4 | Bitwarden | Password e chiavi non accessibili | Possibile ritardo sui progetti | **Rischio accettato**, come sopra |
-| 5 | Server dedicato Aruba (n8n, siti, gestione delle credenziali) | Automazioni ferme, siti non raggiungibili (es. NC01, ottobre 2026). **Oggi non ci sono backup: un guasto grave comporta la perdita definitiva di n8n, del vault delle credenziali e della configurazione** | Nessuno: il server non ospita servizi o dati dei clienti | **Rischio accettato, compresa la perdita definitiva dei dati**. Da riesaminare se il server inizia a ospitare servizi o dati dei clienti |
+| 4 | Bitwarden | Password e chiavi non accessibili | Possibile ritardo sui progetti | Ospitato sul server Aruba: **trattato** con la copia del server e l'esportazione cifrata (PR21.1) |
+| 5 | Server dedicato Aruba (n8n, siti, Bitwarden) | Automazioni ferme, siti non raggiungibili (es. NC01, ottobre 2026); senza copia, un guasto grave comporterebbe la perdita di n8n, del vault delle credenziali e della configurazione | Nessuno: il server non ospita servizi o dati dei clienti | **Trattato** (decisione del 17/11/2026): copia completa del server e prova di ripristino una volta l'anno (PR21.1, PR28.1 §7). Copie in attivazione: data da confermare con il System Administrator; prima prova entro il 15/12/2026 |
 | 6 | Portatile di uno sviluppatore | Una persona ferma finché non ha un'altra macchina | Ritardo limitato | **Rischio accettato**: si lavora su un altro portatile o sulla macchina del cliente; il codice non sta solo sul portatile |
 | 7 | Connessione internet dell'ufficio | Ufficio senza rete | Nessuno | **Rischio accettato**: si lavora da casa (ALPR05.1.E) |
 
 ## 4 Conseguenze sulla continuità operativa
 
-- Non sono previsti piani di continuità specifici (ALPR28.1.A) né test
-  periodici (MDPR28.1.B), perché per nessun servizio è stato deciso un
-  trattamento: non c'è una soluzione di ripristino da provare.
-- Un'interruzione reale si registra come evento nella lista ClickUp
-  «Non conformità e miglioramento» (PR27.1, PR13.1) e si riesamina qui
-  alla revisione successiva.
+- Il server Aruba è l'unico servizio trattato: il suo piano di ripristino
+  è la copia completa con prova annuale (PR21.1; PR28.1 §7).
+- Per gli altri servizi il rischio è accettato: non ci sono piani di
+  ripristino da provare.
+- Un'interruzione reale si gestisce secondo PR28.1 §6, si registra nella
+  lista ClickUp «Non conformità e miglioramento» (PR13.1) e si riesamina
+  qui alla revisione successiva.
 - I rischi accettati sono riportati nel Riesame della Direzione (PR12.1).
 
 ## 5 Approvazione

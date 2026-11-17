@@ -4,9 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | HR          | Amministratore Unico |
-| 0.1      | 16/07/2026 | Revisione assistita da IA: corretti i riferimenti incrociati a Consegna/Restituzione Chiavi (invertiti rispetto ai codici reali) | HR          | Amministratore Unico |
-| 0.2      | 28/10/2026 | Chiavi: rimando al registro unico MDPR05.1.U (MDPR05.1.S e T ritirati) | RSGI        | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 <table>
 <tbody>

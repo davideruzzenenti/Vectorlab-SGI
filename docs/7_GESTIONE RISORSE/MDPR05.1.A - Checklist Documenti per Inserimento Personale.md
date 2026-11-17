@@ -3,11 +3,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 00       | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-| 0.1      | 28/10/2026 | Tolta la riga di REG02 (ritirato) | RSGI        | Da approvare |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 |                 |  |      |  |
 | --------------- |  | ---- |  |

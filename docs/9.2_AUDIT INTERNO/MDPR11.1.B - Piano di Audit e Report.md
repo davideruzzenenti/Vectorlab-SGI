@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | RSGI | Amministratore Unico | Interno |
-| 0.1      | 04/11/2026 | Modello adattato a Vectorlab e allineato al programma MDPR11.1.A rev 0.3: una sola modalità, per funzione (tolta la modalità per processo); funzioni reali dell'organigramma al posto di «Area XXXX», PM, DPO e CISO separato; tolti i controlli ISO 27017/27018 (fuori dal campo di certificazione) e i controlli non applicabili da SoA (A.7.12, A.8.11, A.8.30); aggiunta la sezione dati dell'audit (obiettivi, campo, criteri, auditor); rilievi collegati alla lista ClickUp «Non conformità e miglioramento» (PR13.1) | RSGI | Da approvare | Interno |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 Modulo previsto da *PR11.1 - Audit Interno* §2.6 (piano) e §2.7.1 (report).
 Si compila una copia per ogni audit: prima dell'audit le sezioni 1 e 2

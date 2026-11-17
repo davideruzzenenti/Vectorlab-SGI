@@ -7,10 +7,7 @@
 |          |            |                 |             |               |
 |----------|------------|-----------------|-------------|---------------|
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
-| 0.1      | 20/10/2026 | §2.1: l'elenco delle normative applicabili è ora il registro MDPO29.C, riesaminato almeno annualmente | RSGI        | Da approvare  |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ### Indice 
 
@@ -84,11 +81,11 @@ La politica si applica a tutto il personale aziendale e di Terze Parti che, in v
 >
 > PO15 - Classificazione delle Informazioni
 >
-> PO16 - Gestione degli Accessi
+> PR16.1 - Gestione degli Accessi
 >
-> PO21 - Gestione dei Backup e Restore
+> PR21.1 - Gestione dei Backup e Restore
 >
-> PO23 - Gestione delle minacce e vulnerabilità
+> PR23.1 - Gestione delle Minacce e delle Vulnerabilità Tecniche
 >
 > PO31 - Misure di sicurezza protezione dati personali
 >
@@ -199,7 +196,7 @@ Tutta la documentazione inerente alla sicurezza delle informazioni aziendali è 
 
 In particolare, l’azienda garantisce la protezione delle registrazioni da perdita, distruzione, accesso e modifica non autorizzata attraverso il controllo degli accessi (sia logici che fisici) e l’implementazione delle procedure di backup e *policy retention*.
 
-Maggiori dettagli sulle misure di sicurezza definite ed implementate sono riportati in “*PO 16 - Gestione degli Accessi*” e “*PO21 - Gestione dei Backup e Restore*” e relative procedure (cfr. “*PR16.1 - Gestione degli Accessi*” e “*PR21.1 - Gestione dei Backup e Restore*”).
+Maggiori dettagli sulle misure di sicurezza definite ed implementate sono riportati in “*PR16.1 - Gestione degli Accessi*”, e in “*PR21.1 - Gestione dei Backup e Restore*”.
 
 # Protezione dei dati personali
 
@@ -253,7 +250,7 @@ Le verifiche di conformità tecnica includono:
 
 - l’esame dei sistemi informativi per verificare che le misure di sicurezza tecniche previste siano attuate correttamente (vedere “*PR11.1 - Audit Interno*”);
 
-- l’esecuzione di test tecnici (come *vulnerability assessment* e *penetration test*) per fornire una fotografia istantanea della vulnerabilità di un sistema in uno specifico momento (vedere “*PO23 - Gestione delle minacce e vulnerabilità*”).
+- l’esecuzione di test tecnici (come *vulnerability assessment* e *penetration test*) per fornire una fotografia istantanea della vulnerabilità di un sistema in uno specifico momento (vedere “*PR23.1 - Gestione delle Minacce e delle Vulnerabilità Tecniche*”).
 
 Tali attività sono pianificate secondo quanto riportato nel piano “*MDPR11.1.A - Programma Audit, §6 verifiche tecniche*” e tracciate attraverso il sistema di ticketing aziendale (come riportato in “*MDPR08.1.A – Informazioni documentate/Tools*”). Le verifiche vengono pianificate in modo da non perturbare le altre attività aziendali, né compromettere la sicurezza dei sistemi.
 

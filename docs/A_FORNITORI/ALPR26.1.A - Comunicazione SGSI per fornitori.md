@@ -1,65 +1,66 @@
-# ALPR26.1.A - Comunicazione SGSI per fornitori
+# ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori
 
-> **Oggetto: comunicazione riguardante il Sistema di Gestione per la
-> Sicurezza delle Informazioni (SGSI)**
+### Revisioni
 
-Spettabile Fornitore,
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-con la presente desideriamo comunicarvi che Vectorlab (detta anche
-“Società”) ha adottato un Sistema di Gestione per la Sicurezza delle
-Informazioni (SGSI) certificato ai sensi della Norma ISO/IEC 27001
-nell’ambito ***“Progettazione ed sviluppo software e consulenza in
-particolare in ambito deep tech”***
+*Modello di lettera da inviare ai fornitori critici (PR26.1 §5), su carta
+intestata di Vectorlab. Le parti tra parentesi quadre si completano a ogni
+invio.*
 
-> Il perimetro della Certificazione si estende a tutte le aree interne
-> alla Società e a tutte le terze parti (tra le quali la vostra società)
-> che trattano in qualunque forma le informazioni e i dati della
-> Società.
+---
 
-> Alla vostra società, pertanto, richiediamo il pieno rispetto delle
-> clausole contrattuali e delle politiche che potranno essere allegate
-> al contratto/ordine stabilite da Vectorlab, nell’ottica di proteggere
-> la sicurezza delle informazioni nel rispetto della normativa adottata.
+**Oggetto: sicurezza delle informazioni nel rapporto con Vectorlab**
 
-> Obiettivo primario del SGSI è quello di preservare la riservatezza,
-> l’integrità e la disponibilità delle informazioni di Vectorlab e dei
-> suoi Clienti. Ai fini della riservatezza, vi ricordiamo che i dati non
-> devono essere diffusi e deve essere consentito l’accesso agli stessi,
-> per il tempo strettamente necessario, esclusivamente alle persone da
-> voi autorizzate per esigenze di lavoro, così come definite nel
-> contratto che regola i rapporti tra le nostre società.
+Spettabile [fornitore],
 
-> Ulteriore obiettivo del SGSI è la conformità alla normativa Privacy
-> (Regolamento UE 2016/679 e D.Lgs. 196/2003 e successive modifiche ed
-> integrazioni nonché i Provvedimenti del Garante per la Protezione dei
-> Dati Personali Italiano ove applicabili e dell’European Data
-> Protection Board – EDPB ed altre norme applicabili). Vi chiediamo
-> pertanto di rispettare tale normativa e tutte le procedure definite da
-> Vectorlab in materia di privacy, in particolare, ma non solo, qualora
-> abbiate il ruolo di Responsabile del trattamento e in relazione alla
-> Nomina da voi sottoscritta.
+Vectorlab S.r.l. ha adottato un Sistema di Gestione Integrato per la
+qualità (ISO 9001) e la sicurezza delle informazioni (ISO/IEC 27001),
+in corso di certificazione, per l'attività di «Progettazione, sviluppo
+software e consulenza in particolare in ambito deep tech».
 
-> Nell’ambito del rapporto in essere tra le nostre società, Vi
-> segnaliamo che potranno essere definiti opportuni accordi in merito
-> alla verifica (audit) del rispetto dei requisiti di cui sopra o alla
-> richiesta di eventuali evidenze che dovessero rendersi necessarie in
-> ottica di garantire la corretta applicazione del SGSI di Vectorlab.
-> Tali accordi verranno in tutti i casi concordati e normati mediante
-> opportune clausole sui contratti di servizio siglati da entrambe le
-> parti.
+Poiché il vostro servizio riguarda informazioni di Vectorlab o dei suoi
+clienti, vi chiediamo di rispettare, per quanto pertinente al servizio
+che ci fornite, i requisiti seguenti, in aggiunta a quanto previsto dal
+contratto.
 
-> Vi comunichiamo infine che nell’ambito del SGSI Vectorlab ha assegnato
-> al proprio interno precise responsabilità. In particolare, ha
-> individuato un Responsabile dei Servizi IT e un Responsabile dei
-> Sistemi di Gestione (RSGI) che hanno il compito di curare lo sviluppo,
-> l’implementazione e il mantenimento delle misure di sicurezza e dei
-> relativi controlli in tutte le aree aziendali. Vi chiediamo pertanto
-> di rivolgervi direttamente a loro per qualsiasi aspetto, incidente o
-> potenziale incidente e spunti di miglioramento riguardanti la
-> sicurezza dei dati dei Clienti di Vectorlab.
+1. **Riservatezza.** Le informazioni di Vectorlab e dei suoi clienti si
+   usano solo per il servizio concordato e sono accessibili solo alle
+   persone che ne hanno bisogno, vincolate alla riservatezza.
+2. **Misure di sicurezza.** Adottate misure tecniche e organizzative
+   adeguate al rischio (art. 32 GDPR), tra cui: account personali,
+   verifica in due passaggi sugli accessi amministrativi, aggiornamenti
+   di sicurezza, protezione dai malware, copie di backup.
+3. **Accesso ai nostri sistemi.** Se vi diamo accesso ai sistemi di
+   Vectorlab, usate solo gli account personali assegnati, nel rispetto
+   delle nostre regole, e non condivideteli.
+4. **Incidenti.** Comunicateci senza ritardo, e comunque entro 24 ore da
+   quando ne venite a conoscenza, ogni incidente o violazione che
+   riguardi le nostre informazioni o i dati personali che trattate per
+   nostro conto, scrivendo a sicurezza@vectorlab-cg.com.
+5. **Dati personali.** Se trattate dati personali per conto di Vectorlab,
+   operate come Responsabile del trattamento (art. 28 GDPR) secondo la
+   nomina o il DPA sottoscritto, e non ricorrete ad altri responsabili
+   senza la nostra autorizzazione.
+6. **Subfornitori.** Se affidate parte del servizio ad altri, imponete
+   loro gli stessi requisiti.
+7. **Verifiche.** Su richiesta, con un preavviso concordato, fornite le
+   evidenze del rispetto di questi requisiti (es. certificazioni,
+   risposte a un questionario).
+8. **Fine del servizio.** Al termine del rapporto restituite o cancellate
+   le nostre informazioni, come previsto dal contratto, e confermatecelo
+   per iscritto.
 
-Con l’occasione Vi porgiamo i nostri più cordiali saluti.
+Per qualsiasi aspetto di sicurezza il vostro riferimento è il
+Responsabile del Sistema di Gestione Integrato (RSGI) di Vectorlab.
 
-Genova, li gg.mm.aaa
+Vi chiediamo di restituirci copia della presente firmata per presa
+visione.
 
-> Il CEO di Vectorlab SRL
+Genova, [data]
+
+Vectorlab S.r.l. – l'Amministratore Unico
+
+Per presa visione, [fornitore], [data e firma]

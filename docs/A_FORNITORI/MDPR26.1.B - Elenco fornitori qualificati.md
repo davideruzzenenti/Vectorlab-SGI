@@ -4,10 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello vuoto) | RSGI | Amministratore Unico |
-| 0.1      | 20/10/2026 | Prima compilazione: fornitori che svolgono attività e processi per conto di Vectorlab nel campo di applicazione del SGI (elenco delle attività svolte presso terzi), ricavati dall'anagrafica fornitori amministrativa e dall'inventario degli asset. Stato di qualifica e accordi da verificare; voce Aruba aggiornata con le informazioni dell'IT esterno (server dedicato) | RSGI | Da approvare |
-| 0.2      | 28/10/2026 | Aggiunta la §6 «Valutazione annuale» con i criteri Q, T, S: sostituisce il modulo MDPR26.1.A, ritirato | RSGI        | Da approvare |
-| 0.3      | 11/11/2026 | Aggiornati con le risposte dell'Amministrazione del 04/11/2026: accordi in essere (termini di servizio, contratti firmati, da fare), intestazione e credenziali di Aruba, certificati SSL (Actalis, GoDaddy), consulenti tecnici esterni, Discord non ammesso; aggiunti Davide Ruzzenenti e Francesco Cappetti tra i fornitori critici | RSGI        | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -37,7 +34,7 @@ Legenda **impatto sulla sicurezza delle informazioni** (PR26.1):
 Stato della qualifica: **Q** qualificato, **QR** qualificato con riserva,
 **R** respinto, **DV** da valutare. Per i fornitori cloud la qualifica si
 basa sulle certificazioni pubbliche del fornitore (es. ISO/IEC 27001) e
-sulle condizioni contrattuali standard (DPA), secondo PO40.
+sulle condizioni contrattuali standard (DPA), secondo PR26.1 §6.
 
 ## 2 Servizi ICT e cloud
 

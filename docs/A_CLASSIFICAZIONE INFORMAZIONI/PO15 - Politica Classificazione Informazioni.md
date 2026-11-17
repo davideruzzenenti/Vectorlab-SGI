@@ -7,11 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | Amministratore Unico |
-| 0.1      | 16/07/2026 | Revisione assistita da IA: rimosso un placeholder non risolto | RSGI        | Amministratore Unico |
-| 0.2      | 28/10/2026 | Rimandi a REG02 sostituiti con REG01 | RSGI        | Da approvare |
-|          |            |                 |             |               |
-|          |            |                 |             |               |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 # Introduzione
 
@@ -66,17 +62,13 @@ dovere di agire in conformità con quanto definito in questo documento.
 
 > MDPR31.4.B - Registro dei Trattamenti del Responsabile
 
-> PO16 - Gestione degli Accessi
+> PR16.1 - Gestione degli Accessi
 
-> PO17 - Crittografia
+> PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
 
 > PO31 - Misure di sicurezza protezione dati personali
 
-> PO32 – Gestione delle Configurazioni
-
-> PR14.1 - Gestione Asset
-
-> PR24.1 – Gestione delle Reti
+> PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
 
 > PR33.1 - Processo Analisi del Rischio e Trattamento
 
@@ -717,7 +709,7 @@ La classificazione delle informazioni, degli asset e dei trattamenti ha
 un importante impatto sulla gestione degli accessi logici sia da parte
 del personale di VECTORLAB, sia dei clienti che dei fornitori. La
 classificazione e relativa protezione è in linea con quanto definito e
-applicato secondo la politica di gestione degli accessi “*PO16* -
+applicato secondo la politica di gestione degli accessi “*PR16.1* -
 *Gestione degli Accessi*”.
 
 # Conservazione e Cancellazione delle Informazioni
@@ -731,7 +723,7 @@ non più necessaria al fine di ridurre i rischi di indisponibilità,
 accesso non autorizzato, modifica o divulgazione.
 
 La cancellazione sicura delle informazioni (le cui modalità sono
-descritte nel documento “*PR14.1 – Gestione Asset*”), segue il loro
+descritte nel documento “*PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT*”), segue il loro
 livello di classificazione ma il periodo di archiviazione dipende dalla
 tipologia di informazione, indipendentemente dal livello di riservatezza
 della stessa.
@@ -908,18 +900,18 @@ crittografia e sistemi DLP. In particolare:
 
   - il monitoraggio delle reti aziendali (es. utilizzando firewall di
     ultima generazione che includono diverse funzionalità in grado di
-    contrastare l’esfiltrazione di contenuti – cfr. *“PR24.1 – Gestione
+    contrastare l’esfiltrazione di contenuti – cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
     delle Reti”*);
 
   - antivirus e web-filtering;
 
-  - la corretta gestione delle utenze e dei privilegi (cfr. *“PO16 –
+  - la corretta gestione delle utenze e dei privilegi (cfr. *“PR16.1 –
     Gestione degli Accessi”*);
 
   - il blocco delle porte USB per i dispositivi esterni di
-    memorizzazione (es. piattaforme Web, ecc. – cfr. *“PO32 – Gestione
+    memorizzazione (es. piattaforme Web, ecc. – cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT
     delle Configurazioni”*)
 
   - l’uso della crittografia e la protezione fisica dei supporti di
     memorizzazione contenenti dati sensibili, inclusi i supporti di
-    backup (cfr. *“PO17 – Crittografia”*)
+    backup (cfr. *“PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT”*)

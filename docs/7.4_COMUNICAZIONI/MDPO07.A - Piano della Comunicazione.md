@@ -4,6 +4,7 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 <tr><td>00</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td></td><td></td><td>Interno</td></tr>
 </table>
 
@@ -11,7 +12,7 @@
 
 <table>
 <tr><th></th><th rowspan="2"></th><th rowspan="2" colspan="2">Piano della Comunicazione</th><th colspan="2">MDPO07.A</th><th></th></tr>
-<tr><td></td><td>Rev 0.0</td><td>24/04/2026</td><td></td></tr>
+<tr><td></td><td>Rev 0.0</td><td>17/11/2026</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Responsabile  comunicazione</td><td>Ricevente</td><td>Tema</td><td>Tipo <br>Comunicazione</td><td>Metodo</td><td>Frequenza</td><td>Informazione documentata</td></tr>
 <tr><td>Amministrazione</td><td>Fornitore</td><td>Offerte/Ordini/Fatturazione</td><td>Esterna</td><td>E-mail</td><td>Offerte e ordini quando è necessario inviare offerta/ordine o sua revisione.<br>Fatturazione concordata con il cliente.</td><td>xxx</td></tr>

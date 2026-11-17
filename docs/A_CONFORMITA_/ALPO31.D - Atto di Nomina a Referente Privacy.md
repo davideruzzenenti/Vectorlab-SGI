@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione | RSGI        | CDA           |
-| 0.1      | 16/07/2026 | Revisione assistita da IA: chiarito il rapporto con il DPO ("ove nominato"); corretto un refuso | RSGI        | Amministratore Unico |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 **<span class="underline">ATTO DI NOMINA A REFERENTE PRIVACY</span>**
 

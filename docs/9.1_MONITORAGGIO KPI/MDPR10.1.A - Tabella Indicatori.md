@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0      | 16/11/2026 | Emissione       | RSGI        | Da approvare  | Interno             |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 ## Indicatori
 
@@ -26,7 +26,7 @@ accettati).
 | GC3 | 8.2 (9001) | Andamento del fatturato | Variazione del fatturato rispetto all'anno precedente (%) |  |  | +5% | ≥ 0% | Annuale | Bilancio di esercizio | Amministrazione |
 | IN1 | A.5.24–5.27 | Incidenti di sicurezza critici | Numero di incidenti di sicurezza critici nell'anno |  |  | 0 | ≤ 1 | Semestrale | Registro incidenti (PR27.1) | CISO |
 | IN4 | A.5.34 | Data breach | Numero di violazioni di dati personali nell'anno |  |  | 0 | 0 | Semestrale | Registro Data Breach MDPR27.1.A | Referente Privacy |
-| DA1 | A.5.18 | Revisione dei diritti di accesso | Numero di revisioni delle utenze nell'anno |  |  | ≥ 1 | 1 | Annuale | Lista utenze ALPR16.1.A | CTO |
+| DA1 | A.5.18 | Revisione dei diritti di accesso | Numero di revisioni delle utenze nell'anno |  |  | 2 | 1 | Annuale | Task ClickUp della revisione semestrale (PR16.1 §6) | RSGI |
 | CN1 | A.8.1 / A.8.24 | Portatili cifrati | Portatili con disco cifrato / totale portatili (%) |  |  | 100% | ≥ 90% | Semestrale | Verifica sui portatili | CTO |
 | SO3 | A.8.13 | Prove di ripristino | Ripristini riusciti / ripristini provati (%) |  |  | 100% | 100% | Almeno un test a semestre | Registro dei test di ripristino (B_REGISTRAZIONI) | System Administrator |
 | RF6 | A.5.20 | Accordi di riservatezza con i fornitori critici | Fornitori critici con NDA firmato / fornitori critici (%) |  |  | 100% | 100% | Annuale | Elenco fornitori qualificati MDPR26.1.B | Amministrazione |

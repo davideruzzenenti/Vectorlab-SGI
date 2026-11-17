@@ -4,10 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0      | 24/04/2026 | Prima emissione (modello) | CISO | CEO |
-| 0.1      | 27/10/2026 | Riscritto sugli strumenti reali: portatili forniti da Vectorlab con 4 requisiti minimi verificati da ciascuno in autonomia, account aziendali con verifica in due passaggi, Bitwarden, regole su dati e codice dei clienti, segnalazioni a sicurezza@. Tolti i riferimenti a strumenti inesistenti (ticketing, firewall con filtri, NAS, VPN, sfondi); uscita allineata a PR05.1 (casella 6 mesi) | RSGI | Da approvare |
-| 0.2      | 28/10/2026 | Aggiunta la §11 «Violazioni e processo disciplinare» (ISO/IEC 27001 A.6.4), che sostituisce REG02, ritirato | RSGI | Da approvare |
-| 0.3      | 11/11/2026 | Punti aperti chiusi con le risposte della riunione del 04/11/2026: nessuna app di messaggistica ammessa per il lavoro (§5); in ufficio non c'è una rete Wi-Fi separata per gli ospiti e non ci sono stampanti (§9) | RSGI | Da approvare |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e destinatari
 
@@ -21,7 +18,7 @@ strumenti dei clienti.
 È parte del pacchetto *ALPR05.1.H - Documenti per il personale*:
 ognuno ne conferma la lettura all'ingresso e ogni anno (PR05.1).
 
-Per i dettagli tecnici si rimanda a PO16 e PR16.1 (accessi), PO17
+Per i dettagli tecnici si rimanda a PR16.1 (accessi), PR32.1
 (crittografia), PR27.1 (incidenti), PR35.1 (lavoro presso i clienti).
 
 ## 2 Account e credenziali

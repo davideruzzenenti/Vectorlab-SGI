@@ -13,7 +13,7 @@
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td>Rev.</td><td>Data</td><td colspan="4">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificazione</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>Direzione</td><td>Interno</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 
@@ -21,7 +21,7 @@
 
 <table>
 <tr><td></td><td></td><td rowspan="2"></td><td rowspan="2" colspan="3">Analisi Rischi Opportunità</td><td colspan="3">MDPR33.1.D</td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan="2"></td><td rowspan="2" colspan="2"></td><td colspan="2"></td></tr>
-<tr><td></td><td></td><td>Rev. 0.0</td><td colspan="2">24/04/2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Rev. 0.0</td><td colspan="2">17/11/2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td>Ultimo aggiornamento</td><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td rowspan="3">Fattore/Processo</td><td rowspan="3">I = Interno     E = Esterno</td><td rowspan="3">Parti interessate</td><td rowspan="3">Requisiti rilevanti</td><td rowspan="3">Rischi (R) ed opportunità (O)</td><td colspan="4">Valutazione iniziale del rischio (Ri)</td><td colspan="4">Azioni per affrontare minacce ed opportunità</td><td colspan="4">Valutazione finale del rischio (Rf)</td><td rowspan="3">Commenti conclusivi e valutazione dell&#x27;efficacia delle azioni attuate</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td rowspan="2">G</td><td rowspan="2">V</td><td rowspan="2">Ri</td><td rowspan="2">Commenti e misure di sicurezza esistenti</td><td rowspan="2">Descrizione azioni</td><td rowspan="2">Responsabiità</td><td rowspan="2">Indicatore</td><td rowspan="2">Data prevista attuazione</td><td rowspan="2">G</td><td rowspan="2">V</td><td rowspan="2">Rf</td><td rowspan="2">Giudizio</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

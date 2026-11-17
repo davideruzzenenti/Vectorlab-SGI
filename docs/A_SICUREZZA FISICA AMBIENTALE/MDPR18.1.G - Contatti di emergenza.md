@@ -4,14 +4,14 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>24/04/2026</td><td colspan="4">Prima emissione</td><td>RSGI</td><td>Amministratore Unico</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Contatti
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Contatti di Emergenza</th><th colspan="2">MDPR18.1.G</th></tr>
-<tr><td>Rev. 0.0</td><td>24/04/2026</td></tr>
+<tr><td>Rev. 0.0</td><td>17/11/2026</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td rowspan="2" colspan="3">Contatto</td><td rowspan="2" colspan="2">Numero</td></tr>
 <tr></tr>
