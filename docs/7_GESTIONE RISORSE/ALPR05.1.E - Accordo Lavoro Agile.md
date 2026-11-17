@@ -12,9 +12,9 @@
 
 Tra
 
-Vectorlab S.rl. con sede in Piazza Borgo Pila 39/22, 16129 – Genova,
+Vectorlab S.r.l. con sede in Piazza Borgo Pila 39/22, 16129 – Genova,
 Codice Fiscale e Partita IVA 02830460990, nella persona del legale
-rappresentate pro tempore Andrea Ruzzenenti,
+rappresentante pro tempore Andrea Ruzzenenti,
 
 (**di seguito datore di lavoro**)
 
@@ -129,7 +129,7 @@ datore di lavoro con la massima tempestività. Il datore di lavoro si
 riserva in tal caso di richiamare il lavoratore in sede.
 
 Il lavoratore dovrà farsi carico, ogni qual volta ne ravvisi la
-necessita\`, in caso di insorgenza di dubbi ovvero problemi, di
+necessità, in caso di insorgenza di dubbi ovvero problemi, di
 interpellare il datore di lavoro per ricevere le istruzioni e le
 direttive del caso.
 
@@ -149,9 +149,8 @@ aziendali oltre alle altre disposizioni interne all'azienda.
 
 Il lavoratore dovrà utilizzare una propria connessione dati adeguata
 alle attività lavorative svolte in modalità agile e, in caso di
-necessità, verificare quanto presente nei piani di continuità operativa
-(cfr. “*MDPR28.1.A - Piani di Continuità Operativa\_Smart Working
-ID-PBC11*”).
+necessità (per esempio connessione assente o guasto), seguire le
+indicazioni di “*PR28.1 - Gestione della continuità operativa*” §6.
 
 **Art. 3 - Sicurezza**
 
@@ -159,8 +158,13 @@ Il lavoratore assume espressamente l'impegno ad utilizzare gli strumenti
 aziendali ed i programmi informatici messi a sua disposizione
 esclusivamente nell'interesse del datore di lavoro, a rispettare le
 relative norme di sicurezza, a non manometterli e a non consentire ad
-altri l'utilizzo degli stessi secondo quanto stabilito dai Regolamenti
-aziendali.
+altri l'utilizzo degli stessi secondo quanto stabilito da “*REG01 -
+Regolamento sull'utilizzo degli strumenti aziendali*”, in particolare:
+lavorare solo con il portatile fornito da Vectorlab e con l'account
+aziendale; usare reti protette da password ed evitare le reti Wi-Fi pubbliche
+aperte (in alternativa, l'hotspot del proprio telefono); non lasciare il portatile
+incustodito; segnalare subito a sicurezza@vectorlab-cg.com la perdita o il
+furto del portatile o un sospetto accesso al proprio account.
 
 Al fine di garantire la salute e la sicurezza, il datore di lavoro, al
 momento della sottoscrizione del presente accordo e ad ogni variazione
@@ -253,14 +257,17 @@ Regolamento UE n. 2016/679. Conseguentemente dovrà adottare ogni
 provvedimento idoneo a garantire tale riservatezza, in relazione alla
 particolare modalità di svolgimento della prestazione.
 
-Inoltre, nella qualità di incaricato del trattamento dei dati personali,
+Inoltre, nella qualità di persona autorizzata al trattamento dei dati
+personali (“*ALPO31.B - Atto di Nomina ad Autorizzato del
+Trattamento*”),
 anche presso il luogo di prestazione fuori sede, il lavoratore dovrà
 osservare tutte le istruzioni e misure di sicurezza necessarie. In
 particolare:
 
   - > deve porre ogni cura per evitare che ai dati possano accedere
     > persone non autorizzate presenti nel luogo di prestazione fuori
-    > sede;
+    > sede, anche guardando lo schermo o ascoltando chiamate e
+    > videochiamate di lavoro;
 
   - > deve procedere a bloccare l'elaboratore in dotazione in caso di
     > allontanamento dalla postazione di lavoro, anche per un intervallo
@@ -273,7 +280,7 @@ particolare:
 
   - > qualora, eccezionalmente, al termine del lavoro risulti necessario
     > trattenere, presso il domicilio, materiale cartaceo contenente
-    > dati personali, lo stesso dovrà\` essere riposto in armadi,
+    > dati personali, lo stesso dovrà essere riposto in armadi,
     > cassetti o altri contenitori muniti di serratura.
 
 **Art. 10 - Sanzioni**

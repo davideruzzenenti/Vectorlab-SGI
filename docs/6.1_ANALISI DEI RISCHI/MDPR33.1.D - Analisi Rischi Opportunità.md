@@ -1,57 +1,48 @@
 # MDPR33.1.D - Analisi Rischi Opportunità
 
+### Revisioni
 
-## Cover
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-<table>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td>Rev.</td><td>Data</td><td colspan="4">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificazione</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
+Registro dei rischi e delle opportunità per la qualità del servizio e la
+soddisfazione dei clienti (ISO 9001:2026, 6.1; PR33.1 «Rischi e
+opportunità per la qualità»). I rischi per la sicurezza delle
+informazioni sono valutati con ERA (MDPR33.1.A, MDPR33.1.B).
 
+<span style="color:#B3392A">**Bozza del 17/11/2026 preparata da RSGI.**
+Fattori, valutazioni G e V e azioni sono proposte da confermare con
+l'Amministratore Unico prima del Riesame della Direzione.</span>
 
-## Analisi Rischi Opportunità
+**Metodo.** Ri = G × V, con G (gravità) e V (probabilità) da 1 a 4.
+Ri da 6 a 16: serve un'azione con responsabile, indicatore e data. Per
+le opportunità: azione per coglierle. Rf = indice dopo l'azione; 1–4
+basso, 6–8 medio, 9–16 alto.
 
-<table>
-<tr><td></td><td></td><td rowspan="2"></td><td rowspan="2" colspan="3">Analisi Rischi Opportunità</td><td colspan="3">MDPR33.1.D</td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan="2"></td><td rowspan="2" colspan="2"></td><td colspan="2"></td></tr>
-<tr><td></td><td></td><td>Rev. 0.0</td><td colspan="2">17/11/2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td>Ultimo aggiornamento</td><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td rowspan="3">Fattore/Processo</td><td rowspan="3">I = Interno     E = Esterno</td><td rowspan="3">Parti interessate</td><td rowspan="3">Requisiti rilevanti</td><td rowspan="3">Rischi (R) ed opportunità (O)</td><td colspan="4">Valutazione iniziale del rischio (Ri)</td><td colspan="4">Azioni per affrontare minacce ed opportunità</td><td colspan="4">Valutazione finale del rischio (Rf)</td><td rowspan="3">Commenti conclusivi e valutazione dell&#x27;efficacia delle azioni attuate</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td rowspan="2">G</td><td rowspan="2">V</td><td rowspan="2">Ri</td><td rowspan="2">Commenti e misure di sicurezza esistenti</td><td rowspan="2">Descrizione azioni</td><td rowspan="2">Responsabiità</td><td rowspan="2">Indicatore</td><td rowspan="2">Data prevista attuazione</td><td rowspan="2">G</td><td rowspan="2">V</td><td rowspan="2">Rf</td><td rowspan="2">Giudizio</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>12</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>15</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="18"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Valutazione iniziale del rischio Ri</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Ri = G*V</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">G = Gravità e puo assumere valori da 1 a 4 in senso crescente relativo alla serietà dell&#x27;aspetto considerato</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">V = Frequenza di accadimento e può assumere i valori da 1 a 4 in senso crescente</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Per i valori compresi tra 6 e 16 è obbligatorio predisporre azioni che indichino le misure di prevenzione/riduzione degli effetti con la data prevista di attuazione e con l&#x27;indicazione della responsabilità</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Valutazione del rischio finale Rf</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Rf = G*V</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">G = Gravità e può assumere valori da 1 a 4 in senso crescente, valutata in seguito all&#x27;attuazione dell&#x27;azione</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">V = Frequenza di accadimento e può assumere i valori da 1 a 4 in senso crescente</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Valori compresi fra 1 e 4 rischio basso , tra 6 e 8 rischio medio , tra 9 e 16 rischio alto</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td></td><td colspan="4">Ulteriori azioni sono previste solamente in caso di Rf alto</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
+## 1 Rischi
+
+| # | Fattore (I/E) | Parti interessate | Rischio | G | V | Ri | Misure in essere | Azione | Resp. | Indicatore | Entro | Rf |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R1 | Concentrazione del fatturato su pochi clienti con commesse lunghe (E) | Clienti, Amministratore Unico | La perdita o la riduzione di un cliente principale riduce molto il lavoro | 4 | 2 | 8 | Rapporti consolidati | Sviluppo di nuovi clienti con la BU Ynsera e le altre BU; monitoraggio trimestrale del portafoglio | Business Development | GC2, GC3 | 31/12/2027 | 4 |
+| R2 | Team piccolo e ruoli chiave concentrati in poche persone (I) | Clienti, personale | Assenza o uscita di una persona chiave blocca commesse o processi | 3 | 2 | 6 | Codice e documenti su strumenti aziendali (REG01) | Passaggio di consegne documentato (PR05.1 §10); almeno due persone che conoscono ogni progetto | CTO | Progetti con almeno due persone informate | 30/06/2027 | 3 |
+| R3 | Lavoro dentro gli ambienti e con le regole dei clienti (I/E) | Clienti | Requisiti del cliente (qualità, sicurezza, privacy) non chiariti all'avvio | 3 | 2 | 6 | Avvio commessa secondo PR35.1 | Checklist di avvio commessa con requisiti, strumenti e accessi concordati | PM | PS4 (reclami) | 31/03/2027 | 3 |
+| R4 | Uso di strumenti di intelligenza artificiale nello sviluppo (I/E) | Clienti, Garante, legislatore (AI Act) | Dati o codice del cliente inseriti in servizi non autorizzati; obblighi AI Act | 3 | 2 | 6 | Strumenti autorizzati (PR35.1 §2.3); REG01 | Formazione annuale sull'uso dell'AI; verifica nel Riesame dei requisiti AI Act | CTO / RSGI | RU1 | 30/06/2027 | 3 |
+| R5 | Mercato del lavoro per profili tecnici (E) | Personale, clienti | Difficoltà a trovare o trattenere sviluppatori qualificati | 3 | 3 | 9 | — | Piano della formazione (MDPR06.1.C); valutazione annuale delle competenze (PR06.1) | Amministratore Unico | RU1 | 31/12/2027 | 6 |
+| R6 | Dipendenza da fornitori cloud e dal server Aruba (E) | Clienti, personale | Interruzione dei servizi interni | 2 | 2 | 4 | BIA (MDPR28.1.A); backup del server (PR21.1) | — | — | — | — | — |
+| R7 | Soddisfazione dei clienti non misurata in modo sistematico (I) | Clienti | Problemi di qualità scoperti tardi | 3 | 3 | 9 | — | Questionario a fine commessa e annuale (PR10.1 §6) | PM / RSGI | PS5 | 15/12/2026 | 3 |
+
+## 2 Opportunità
+
+| # | Fattore (I/E) | Parti interessate | Opportunità | Azione per coglierla | Resp. | Indicatore | Entro |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| O1 | Certificazione ISO 9001 e ISO/IEC 27001 (I) | Clienti, Pubblica Amministrazione | Accesso a clienti e gare che richiedono la certificazione (es. MePA) | Ottenere la certificazione; comunicarla ai clienti | Amministratore Unico | Certificazione ottenuta | 31/03/2027 |
+| O2 | Collaborazioni di ricerca sull'intelligenza artificiale (E) | Enti di ricerca, clienti | Competenze e referenze in ambito deep tech | Valorizzare i progetti di ricerca nell'offerta commerciale | Business Development | GC2 | 31/12/2027 |
+| O3 | Domanda di soluzioni di intelligenza artificiale per le imprese (E) | Clienti | Nuovi servizi e nuovi clienti | Offerta dedicata delle business unit | Business Development | GC2, GC3 | 31/12/2027 |
+
+## 3 Riesame
+
+Il registro si aggiorna una volta l'anno prima del Riesame della Direzione
+e quando cambia il contesto (PO02). Le azioni rilevanti diventano
+obiettivi (MDPO03.A) o azioni nella lista ClickUp «Non conformità e
+miglioramento» (PR13.1).

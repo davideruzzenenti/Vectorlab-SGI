@@ -170,3 +170,41 @@ In quanto l’organizzazione valuta:</p>
 <li id="fn1"><p>Inserire informazioni sull'esito. Ad esempio: positivo, negativo, parziale, si ripropone, ecc.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside>
+
+# 3 Azioni di trattamento 2026
+
+<span style="color:#B3392A">**Aggiunta del 17/11/2026 (bozza RSGI).** Le
+azioni derivano dalle procedure riscritte il 16–17/11/2026 e dai controlli
+che la SoA indica come applicabili ma non ancora attuati. Responsabili e
+scadenze vanno confermati dall'Amministratore Unico; i valori di rischio
+residuo vanno ricalcolati in ERA [DA RIPORTARE IN ERA con Nextage].</span>
+
+## 3.1 Rischi accettati da rivalutare
+
+| Rischio | Motivo della rivalutazione | Trattamento proposto |
+| --- | --- | --- |
+| 2) A0017 – Software di messaggistica | Discord non è ammesso dal Sistema di Gestione e va dismesso (REG01, decisione del 04/11/2026) | Eliminare: dismissione di Discord per il lavoro |
+| 3) A0039 – Codici sorgenti dei clienti | La motivazione «mancato processo di gestione delle configurazioni» non vale più: c'è PR32.1 | Ridurre: accessi personali con verifica in due passaggi e revisione semestrale (PR16.1), revisione del codice e controlli automatici (PO25, PR23.1) |
+| 1), 4), 5) | Stessa motivazione superata | Rivalutare in ERA con le misure di PR32.1, PR19.1, PR21.1 |
+
+## 3.2 Azioni
+
+| # | Azione | Controlli (Allegato A) | Documento | Responsabile | Entro |
+| --- | --- | --- | --- | --- | --- |
+| T1 | Verifica in due passaggi obbligatoria su Google Workspace e GitHub | 5.17, 8.5 | REG01 §2, PR16.1 §5 | Amministratore Unico / System Administrator | 30/11/2026 |
+| T2 | Backup completo del server Aruba e prima prova di ripristino | 8.13, 5.30 | PR21.1, PR28.1 | System Administrator | 15/12/2026 |
+| T3 | Nomina scritta degli amministratori di sistema ed elenco aggiornato; verifica annuale del loro operato | 8.2, 8.18 | PR16.1 §7 | Referente Privacy / RSGI | 25/11/2026 |
+| T4 | Prima revisione semestrale degli accessi con gli elenchi delle console | 5.18, 8.2 | PR16.1 §6 | RSGI e Amministrazione | 25/11/2026 |
+| T5 | Registro delle modifiche ai sistemi | 8.32, 5.37 | PR19.1 | System Administrator | 30/11/2026 |
+| T6 | Scansione delle vulnerabilità del server; avvisi Dependabot e secret scanning su GitHub; iscrizione ai bollettini CSIRT | 8.8, 5.7 | PR23.1 | System Administrator / CTO | 15/12/2026 |
+| T7 | Configurazioni, aggiornamenti, monitoraggio e rete del server documentati | 8.9, 8.20, 8.1 | PR32.1 | System Administrator | 15/12/2026 |
+| T8 | Caselle privacy@ e sicurezza@ attive | 5.24, 5.34, 6.8 | PR31.1, PR27.1 | Amministratore Unico | 20/11/2026 |
+| T9 | Presa visione dei documenti per il personale e sessione di sensibilizzazione | 6.3, 5.1, 7.7 | PR05.1 §8 | RSGI | 25/11/2026 |
+| T10 | Controlli della sede: cassetta di primo soccorso, estintori, addetti all'emergenza, contatti | 7.5, 7.11, 7.13 | MDPR18.1.D, MDPR18.1.G | Amministrazione | 15/12/2026 |
+| T11 | Dismissione di Discord per il lavoro | 5.14, 8.3 | REG01 | Amministratore Unico | 15/12/2026 |
+| T12 | Classificazione ed etichettatura delle informazioni applicate nei documenti e nelle cartelle | 5.12, 5.13 | PO15 | RSGI | 31/03/2027 |
+| T13 | Altri controlli applicabili non attuati (5.28, 5.33, 5.35, 5.36, 6.1, 6.4, 7.2–7.4, 7.6, 7.8–7.10, 7.14, 8.23): stato e scadenza da definire | vari | SoA | Amministratore Unico con RSGI | Riunione del 18/11/2026 |
+
+Lo stato delle azioni si segue nella lista ClickUp «Non conformità e
+miglioramento» e si riporta nel Riesame della Direzione (PR12.1). A
+ogni azione completata si aggiorna la colonna «Applicato» della SoA.

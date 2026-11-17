@@ -65,3 +65,4 @@ PR28.2,Processo Business Impact Analysis,17/11/2026,Unito,PR28.1,"Metodo della B
 ALPR28.1.A,Piani di Continuità Operativa [template],17/11/2026,Unito,PR28.1,"Modello vuoto; il piano di ripristino del server è PR21.1 (PR28.1 §7)"
 MDPR28.1.B,Piano dei Test di Continuità Operativa,17/11/2026,Unito,PR28.1,"Modello vuoto; le prove si registrano in MDPR21.1.A"
 MDPR28.1.C,Report Test di Continuità Operativa [template],17/11/2026,Unito,PR28.1,"Modello vuoto; le prove si registrano in MDPR21.1.A"
+ALPR16.1.C,Contratto di fornitura,17/11/2026,Rinominato,ALPR26.1.C,"Codice corretto: è un allegato della procedura fornitori PR26.1"

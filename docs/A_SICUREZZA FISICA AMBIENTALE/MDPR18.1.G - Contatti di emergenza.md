@@ -1,30 +1,28 @@
 # MDPR18.1.G - Contatti di emergenza
 
-## Cover
+### Revisioni
 
-<table>
-<tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
-</table>
+| **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
+| -------- | ---------- | --------------- | ----------- | ------------- |
+| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-## Contatti
+Contatti da usare in caso di emergenza nella sede di Piazza Borgo Pila
+39/22, piano 8, Genova (PR18.1; PR28.1 §6).
 
-<table>
-<tr><th rowspan="2"></th><th rowspan="2" colspan="2">Contatti di Emergenza</th><th colspan="2">MDPR18.1.G</th></tr>
-<tr><td>Rev. 0.0</td><td>17/11/2026</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td rowspan="2" colspan="3">Contatto</td><td rowspan="2" colspan="2">Numero</td></tr>
-<tr></tr>
-<tr><td colspan="3">Emergenza <br>(Numero Unico Europeo: Forze di Polizia, Vigili del Fuoco, Assistenza sanitaria)</td><td colspan="2">112</td></tr>
-<tr><td colspan="3">Gestore dell&#x27;emergenza</td><td></td><td></td></tr>
-<tr><td colspan="3">Responsabile Antincendio</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Responsabile Primo Soccorso</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Protezione Civile Regionale</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Elettricista</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Energia Elettrica [nome compagnia]</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Manutentore impianto condizionamento</td><td colspan="2"></td></tr>
-<tr><td colspan="3">RLS</td><td colspan="2"></td></tr>
-<tr><td colspan="3">RSGI</td><td colspan="2"></td></tr>
-<tr><td colspan="3">Servizi di rete [nome compagnia]</td><td colspan="2"></td></tr>
-<tr><td colspan="3">altri eventuali servizi di interesse [nome compagnia]</td><td colspan="2"></td></tr>
-</table>
+I **numeri di telefono** delle persone e dei fornitori non sono riportati
+qui perché il repository è pubblico: sono nella copia stampata affissa in
+ufficio e nell'archivio dell'Amministrazione, che li tiene aggiornati.
+
+| Contatto | Chi | Numero |
+| --- | --- | --- |
+| Emergenze (polizia, vigili del fuoco, soccorso sanitario) | Numero unico europeo | **112** |
+| Datore di lavoro / gestione dell'emergenza | Amministratore Unico | Copia in ufficio |
+| Addetto antincendio | [DA CONFERMARE: nominativo designato] | Copia in ufficio |
+| Addetto primo soccorso | [DA CONFERMARE: nominativo designato] | Copia in ufficio |
+| RSPP | Fornitore incaricato (MDPR26.1.B) | Copia in ufficio |
+| RLS | [DA CONFERMARE: non ancora eletto] | — |
+| RSGI (incidenti di sicurezza delle informazioni) | Davide Ruzzenenti | sicurezza@vectorlab-cg.com |
+| System Administrator (guasti informatici) | Fornitore esterno | Copia in ufficio |
+| Amministratore del condominio / proprietario dei locali | [DA CONFERMARE] | Copia in ufficio |
+| Connettività internet | Fornitore della linea (MDPR26.1.B) | Copia in ufficio |
+| Energia elettrica | Fornitore (MDPR26.1.B) | Copia in ufficio |

@@ -16,26 +16,35 @@ ACCORDO DI RISERVATEZZA
 Tra
 
 **Vectorlab SRL** con sede in Piazza Borgo Pila 39/22 – 16129 Genova,
-codice fiscale e partita IVA n. 02830460990, in persona di **XXX YYY**,
-nella propria qualità di Amministratore e legale rappresentante pro
-tempore (di seguito denominata anche “**Vectorlab**”)
+codice fiscale e partita IVA n. 02830460990, in persona di **Andrea Ruzzenenti**,
+nella propria qualità di Amministratore Unico e legale rappresentante
+pro tempore (di seguito denominata anche “**Vectorlab**”)
 
-1.  e
+e
 
-    **YYY** con sede in **YYY**, via **YYY**, n. **YYY,** codice fiscale
-    e partita IVA n. **YYY**, in persona di **YYY** nella propria
-    qualità di Amministratore e legale rappresentante pro tempore (di
-    seguito denominata anche “**YYY**”)
+*[se la controparte è una società]* **[ragione sociale]** con sede in
+**[città]**, via **[…]**, n. **[…]**, codice fiscale e partita IVA n.
+**[…]**, in persona di **[nome e cognome]** nella propria qualità di
+**[carica]** e legale rappresentante pro tempore
 
-**Vectorlab** e **YYY** sono nel prosieguo del presente accordo di
+*[se la controparte è una persona fisica: libero professionista,
+collaboratore, stagista o tirocinante]* **[nome e cognome]**, nato/a a
+**[…]** il **[…]**, residente in **[…]**, codice fiscale **[…]**
+(partita IVA n. **[…]**, se presente)
+
+(di seguito denominata/o anche “**Controparte**”)
+
+**Vectorlab** e la **Controparte** sono nel prosieguo del presente accordo di
 riservatezza (d’ora in poi l’ “Accordo”) definiti anche "*le Parti*",
 e/o singolarmente "*la Parte*",
 
 **Premesso che**
 
   - > nell'ambito delle attività di verifica di possibili aree di
-    > collaborazione e/o sinergia commerciale e nelle eventuali attività
-    > successive, le Parti potrebbero concordare sulla necessità di
+    > collaborazione e/o sinergia commerciale, dell'esecuzione di un
+    > contratto di fornitura, di collaborazione, di stage o tirocinio
+    > e nelle eventuali attività successive (di seguito «attività
+    > concordate»: **[descrizione]**), le Parti potrebbero concordare sulla necessità di
     > scambiarsi reciprocamente informazioni e/o dati (d'ora in poi
     > denominati anche "*Informazioni*") riguardanti i rispettivi
     > affari, prodotti, servizi, competenze, tecnologie ecc. e
@@ -216,13 +225,13 @@ Indirizzo: Piazza Borgo Pila 39/22, 16129 Genova
 
 PEC: [vectorlab@legalmail.it](mailto:vectorlab@legalmail.it)
 
-quanto a **YYY**:
+quanto alla **Controparte**:
 
-Indirizzo: **YYY**
+Indirizzo: **[…]**
 
-PEC: **YYY**
+PEC o e-mail: **[…]**
 
-> Ogni modifica degli indirizzi di cui sopra obbliga dovrà essere
+> Ogni modifica degli indirizzi di cui sopra dovrà essere
 > comunicata all’altra parte nelle medesime forme a pena di inefficacia
 > dell'intervenuto mutamento.
 
@@ -246,13 +255,12 @@ PEC: **YYY**
 <tbody>
 <tr class="odd">
 <td><p>Vectorlab<br />
-L’Amministratore</p>
+L’Amministratore Unico</p>
 <p>_____________________<br />
-(<strong>XXX</strong> <strong>YYY</strong>)</p></td>
-<td><p><strong>YYY</strong><br />
-________________________________</p>
+(Andrea Ruzzenenti)</p></td>
+<td><p>La Controparte</p>
 <p>_____________________<br />
-(<strong>YYY</strong>)</p></td>
+([nome e cognome])</p></td>
 </tr>
 </tbody>
 </table>

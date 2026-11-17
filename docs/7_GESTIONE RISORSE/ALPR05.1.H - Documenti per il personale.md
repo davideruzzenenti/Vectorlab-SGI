@@ -12,7 +12,7 @@ Questa pagina elenca i documenti che chi lavora per Vectorlab
 (dipendenti e collaboratori, compreso l'IT esterno) deve conoscere. La
 lettura si conferma una volta per tutto il pacchetto, non documento per
 documento, nella lista ClickUp **«Consapevolezza e formazione»**
-(cartella SGI), secondo PR05.1 §Consapevolezza.
+(cartella SGI), secondo PR05.1 §8.
 
 **Quando si conferma**
 

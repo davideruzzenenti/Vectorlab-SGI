@@ -28,7 +28,7 @@ referente**, nella propria qualità di legale rappresentante pro tempore
 **Premesso che**
 
   - Vectorlab, nell'ambito del rapporto di fornitura disciplinato dal
-    contratto/ordine in essere (cfr. "*ALPR16.1.C - Contratto di
+    contratto/ordine in essere (cfr. "*ALPR26.1.C - Contratto di
     fornitura*"), affida al Fornitore lo svolgimento di attività che
     comportano il trattamento di dati personali;
 

@@ -29,7 +29,7 @@ descritto in PR35.1 - Digital.
 - ISO/IEC 27001 (UNI CEI EN ISO/IEC 27001:2024+A1:2024), Annex A:
   A.5.8, A.8.4, A.8.8, A.8.25, A.8.26, A.8.27, A.8.28, A.8.29, A.8.31,
   A.8.33; A.8.30 per lo sviluppo affidato all'esterno (§6)
-- ISO 9001, 8.3 Progettazione e sviluppo di prodotti e servizi
+- ISO 9001:2026, 8.3 Progettazione e sviluppo di prodotti e servizi
 - PR35.1 - Digital; PR16.1 - Gestione degli Accessi; PR27.1 -
   Eventi e incidenti; PR26.1 - Fornitori; REG01 - Regolamento
   sull'utilizzo degli strumenti aziendali
@@ -67,8 +67,8 @@ nell'organizzazione GitHub di Vectorlab **vectorlab-cg**.
 
 - Nell'organizzazione vectorlab-cg ogni persona entra con il proprio
   account nominativo e con la **verifica in due passaggi obbligatoria**.
-  [DA DECIDERE: se il secondo fattore si gestisce in Bitwarden o
-  sull'app del telefono personale.]
+  [DA CONFERMARE con il CTO: se il secondo fattore si gestisce in
+  Bitwarden o sull'app del telefono personale.]
 - Gli accessi ai repository sono dati solo a chi lavora sul progetto e
   tolti a fine progetto o all'uscita della persona (PR16.1). Il PM
   segnala al CTO gli ingressi e le uscite dal team.
@@ -96,7 +96,8 @@ compromesso: si cambia subito e si segnala come evento di sicurezza
 
 All'avvio della commessa il PM raccoglie con il cliente i requisiti,
 compresi quelli di sicurezza e privacy (MDPO25.B; ISO 9001 8.3;
-A.8.26). Se il software tratta dati personali, i requisiti di privacy
+A.8.26). [DA CONFERMARE con il CTO: se requisiti e piano di test si
+scrivono in MDPO25.B e MDPO25.G o negli strumenti del cliente.] Se il software tratta dati personali, i requisiti di privacy
 by design li indica il cliente, che è titolare del trattamento.
 
 ### 5.2 Scrittura del codice
@@ -109,12 +110,15 @@ controlli applicabili di MDPO25.A (OWASP ASVS) (A.8.27, A.8.28).
 Ogni modifica è rivista prima del rilascio da un **collega Vectorlab**
 e, quando il cliente la prevede, dal **cliente sulle pull request**.
 La revisione resta tracciata nella pull request (A.8.25, A.8.29).
+[DA CONFERMARE con il CTO: se la revisione di un collega avviene
+sempre o solo dove la prevede il cliente.]
 
 ### 5.4 Librerie e vulnerabilità
 
 Le vulnerabilità delle librerie usate sono controllate dal team con
 strumenti automatici (per esempio Dependabot, npm audit o simili) e,
-quando previsto, dal cliente. Le vulnerabilità gravi si correggono
+quando previsto, dal cliente [DA CONFERMARE con il CTO: strumenti
+attivi oggi; vedi PR23.1 §6]. Le vulnerabilità gravi si correggono
 prima del rilascio o si segnalano al cliente (A.8.8).
 
 ### 5.5 Test e rilascio

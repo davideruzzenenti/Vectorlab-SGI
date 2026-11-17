@@ -10,7 +10,7 @@
 
 Il presente registro elenca i requisiti cogenti (leggi e regolamenti) e
 le norme volontarie che hanno impatto sul Sistema di Gestione Integrato
-di Vectorlab, come previsto da PO29 – Gestione della conformità, §2.1.
+di Vectorlab, come previsto da PO29 – Gestione della conformità, §5.
 
 Per ogni requisito indica se si applica a Vectorlab, con quali documenti
 del SGI viene rispettato e chi ne segue gli aggiornamenti.
@@ -64,7 +64,7 @@ nell'offerta (PR09.1, PR26.1).
 
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
-| [L. 633/1941 – Diritto d'autore](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633) | Tutela del software e dei contenuti; uso di licenze | Applicabile (sviluppo software, uso di librerie e software di terzi) | ALPR05.1.G, PO29 §2.2 (licenze), contratti con clienti (PR09.1) | CTO |
+| [L. 633/1941 – Diritto d'autore](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633) | Tutela del software e dei contenuti; uso di licenze | Applicabile (sviluppo software, uso di librerie e software di terzi) | ALPR05.1.G, PO29 §6 (licenze), contratti con clienti (PR09.1) | CTO |
 | Codice civile, artt. 2214–2220 | Tenuta e conservazione delle scritture contabili (10 anni) | Applicabile | MDPO15.A | Resp. Amministrazione |
 | [D.Lgs. 82/2022 – Accessibilità di prodotti e servizi (European Accessibility Act)](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-05-27;82) e [L. 4/2004](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4) | Requisiti di accessibilità per servizi digitali al consumatore e siti della PA | Da valutare: si applica ai prodotti e servizi digitali realizzati per clienti che ricadono nel campo di applicazione (es. e-commerce, PA) | Requisiti di progetto (MDPO25.B) | CTO |
 | [Reg. (UE) 2023/2854 – Data Act](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) | Accesso ai dati dei prodotti connessi; passaggio tra fornitori di servizi cloud | Da valutare: solo se Vectorlab fornisce servizi cloud o prodotti connessi | PR26.1 §6 | CTO |

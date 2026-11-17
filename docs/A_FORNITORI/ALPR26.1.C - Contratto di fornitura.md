@@ -1,4 +1,4 @@
-# ALPR16.1.C - Contratto di fornitura
+# ALPR26.1.C - Contratto di fornitura
 
 ### Revisioni
 
@@ -7,38 +7,38 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-**  
-**
 
 **Contratto di Fornitura**
 
 Tra
 
 Vectorlab SRL, con sede in Piazza Borgo Pila 39/22 – 16129 Genova,
-Codice Fiscale e Partita IVA 02830460990, nella persona di XXX quale XXX
-e legale rappresentante della stessa, nel seguito denominata
+Codice Fiscale e Partita IVA 02830460990, nella persona di Andrea
+Ruzzenenti quale Amministratore Unico e legale rappresentante della
+stessa, nel seguito denominata
 “Committente”
 
 e
 
-XXX con sede in XXX, Codice Fiscale e Partiva IVA XXX, nella persona di
-XXX quale XXX e legale rappresentante, nel seguito denominata
+[…] con sede in […], Codice Fiscale e Partiva IVA […], nella persona di
+[…] quale […] e legale rappresentante, nel seguito denominata
 “Fornitore”
 
 Di seguito congiuntamente indicati come “Le Parti”
 
 Premesso che:
 
-A) il Committente opera nel settore XXX e svolge quale attività
-principale XXX;
+A) il Committente opera nel settore dei servizi informatici e svolge
+quale attività principale la progettazione, lo sviluppo software e la
+consulenza, in particolare in ambito deep tech;
 
 B) il Committente ha necessità dell'intervento qualificato di un
 soggetto specializzato con riferimento ad attività relative a (di
 seguito per brevità "*prestazioni*"):
 
-1\) XXX…..
+1\) […]..
 
-2\) XXX....
+2\) […]
 
 C) il Fornitore ha dichiarato e dichiara di essere in possesso della
 professionalità, della competenza, dell'esperienza, dell'organizzazione
@@ -50,16 +50,16 @@ buona fede contrattuale;
 
 D) il Committente, sulla base di quanto sopra, si è dunque dichiarato
 interessato ad avvalersi del Fornitore e a commissionargli lo
-svolgimento delle prestazioni nell’ambito del Progetto XXX.
+svolgimento delle prestazioni nell’ambito del Progetto […].
 
 Tutto ciò premesso, fra le Parti si conviene e si stipula quanto segue:
 
-**Art. 1** Le Premesse, il Progetto, la Comunicazione SGSI per
-Fornitori, e gli Allegati costituiscono parte integrante, inscindibile e
+**Art. 1** Le Premesse, il Progetto, la Comunicazione e requisiti di
+sicurezza per i fornitori (ALPR26.1.A) e gli Allegati costituiscono parte integrante, inscindibile e
 sostanziale, del presente contratto (di seguito, il "*Contratto*").
 
 **Art. 2** Il Committente affida al Fornitore l'esecuzione delle
-prestazioni sopra descritte e nel Progetto e precisamente \<XXX\>.
+prestazioni sopra descritte e nel Progetto e precisamente \<[…]\>.
 
 **Art. 3** Le prestazioni verranno eseguite dal Fornitore, in totale
 autonomia, con organizzazione di mezzi e gestione a proprio rischio, nel
@@ -84,7 +84,7 @@ operazioni e le attività che ritenga necessarie, opportune, utili o
 funzionali per la realizzazione delle prestazioni e conseguentemente
 rimarrà responsabile di esse.
 
-**Art. 5** Il Contratto produrrà i propri effetti dal XXX sino al XXX,
+**Art. 5** Il Contratto produrrà i propri effetti dal […] sino al […],
 senza tacito rinnovo / e dovrà intendersi tacitamente rinnovato se non
 disdetto da una delle due Parti a mezzo PEC entro 60 giorni prima della
 scadenza dello stesso.
@@ -92,7 +92,7 @@ scadenza dello stesso.
 **Art. 6** A fronte dell’espletamento a regola d’arte delle prestazioni
 oggetto del Contratto in conformità a quanto in esso previsto, Vectorlab
 si impegna a corrispondere al Fornitore un corrispettivo globale
-omnicomprensivo lordo di euro XXX per ogni giornata di lavoro ovvero XXX
+omnicomprensivo lordo di euro […] per ogni giornata di lavoro ovvero […]
 per ogni ora, che sarà pagato, a fronte della presentazione di regolare
 documentazione fiscale, nei termini sottoindicati. In caso di eventuali
 trasferte – previamente autorizzate dal Committente per scritto – il
@@ -110,12 +110,12 @@ soggetto a verifica da parte del Committente. Ulteriori prestazioni –
 rispetto a quelle previste nel Contratto - dovranno essere
 preventivamente concordate per scritto con il Committente.
 
-L’importo contrattuale sarà fatturato dal Fornitore XXX
+L’importo contrattuale sarà fatturato dal Fornitore […]
 
-La fattura dovrà richiamare il Contratto e dovrà essere inviata a: XXX
+La fattura dovrà richiamare il Contratto e dovrà essere inviata a: […]
 
 Il pagamento avverrà a mezzo bonifico bancario sul conto corrente
-indicato dal Fornitore a XXX giorni dalla data di ricezione della
+indicato dal Fornitore a […] giorni dalla data di ricezione della
 fattura o della nota pro forma. Nel caso in cui il Progetto sia svolto
 per un Committente principale il pagamento del Fornitore è in ogni caso
 sempre subordinato all’avvenuto pagamento da parte del Committente
@@ -139,10 +139,11 @@ tutta la durata del Contratto:
     > eventuali Condizioni particolari di fornitura) e sarà parte attiva
     > nel Sistema di Gestione della Sicurezza delle Informazioni e
     > Protezione dei dati personali secondo quanto declinato in
-    > “Comunicazione SGSI per fornitori” allegata al Contratto.
+    > “ALPR26.1.A - Comunicazione e requisiti di sicurezza per i
+    > fornitori” allegata al Contratto.
 
 Il Fornitore si impegna a fornire al Committente la seguente
-documentazione: XXX
+documentazione: […]
 
 **Art. 9** il Committente ha il diritto di verificare il corretto
 svolgimento delle prestazioni da parte del Fornitore e l’effettiva
@@ -204,7 +205,7 @@ esse orali, elettroniche o scritte, e documenti relativi al Committente,
 o all’eventuale Committente principale, (c.d. Informazioni Riservate) di
 cui il Fornitore sia venuto a conoscenza o che gli fossero comunicati
 dal Committente (o dal Committente principale), in conseguenza o in
-occasione del Contratto. Tale obbligo rimarrà in vigore fino a XXX mesi
+occasione del Contratto. Tale obbligo rimarrà in vigore fino a […] mesi
 successivi alla cessazione del Contratto.
 
 Sono fatti salvi gli obblighi di comunicazione di determinati fatti,
@@ -237,8 +238,8 @@ previa autorizzazione scritta del Committente.
 delle prestazioni in assenza di detta autorizzazione il Contratto si
 risolverà di diritto ed il Fornitore dovrà risarcire tutti i danni
 cagionati al Committente.* Il Committente autorizza il Fornitore ad
-avvalersi di Subfornitori, sin da ora così identificati XXX, per la
-seguente attività XXX ferma in ogni caso l’applicazione delle
+avvalersi di Subfornitori, sin da ora così identificati […], per la
+seguente attività […] ferma in ogni caso l’applicazione delle
 disposizioni di legge. L’eventuale sostituzione dei Subfornitori dovrà
 essere previamente autorizzata per scritto dal Committente. *In ogni
 caso il Fornitore è e rimane responsabile, nei confronti del
@@ -306,15 +307,13 @@ Allegati:
 
 4.  ALPR26.1.D - Nomina Responsabile Trattamento Dati Personali
 
-5.  ALPR26.1.A – Comunicazione e requisiti di sicurezza per i fornitori
+5.  ALPR31.2.D - Informativa Privacy Fornitori
 
-6.  ALPR31.2.D - Informativa Privacy Fornitori
+6.  Condizioni particolari di fornitura, se previste (in calce al presente contratto)
 
-7.  Condizioni particolari di fornitura (in calce al presente contratto)
+7.  […]
 
-8.  XXX
-
-Luogo e data XXX
+Luogo e data […]
 
 Il Fornitore Vectorlab SRL
 
@@ -368,7 +367,7 @@ Art. 19 Foro esclusivo.
 
 Art. 21 Spese inerenti al Contratto.
 
-Luogo e data XXX
+Luogo e data […]
 
 Il Fornitore Vectorlab SRL
 

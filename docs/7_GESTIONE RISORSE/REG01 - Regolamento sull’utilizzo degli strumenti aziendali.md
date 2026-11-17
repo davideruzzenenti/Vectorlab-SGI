@@ -163,8 +163,9 @@ gestione segue PR27.1.
 - Le chiavi della sede sono personali; consegna e restituzione
   nel registro MDPR05.1.U.
 - I documenti cartacei riservati si distruggono, non si buttano interi.
-- In ufficio c'è una sola rete Wi-Fi, senza rete separata per gli
-  ospiti. [DA DECIDERE: se agli ospiti si dà l'accesso a questa rete.]
+- Gli ospiti non ricevono la password della rete Wi-Fi aziendale.
+  [DA DECIDERE con il System Administrator: eventuale accesso per gli
+  ospiti.]
 - In ufficio non ci sono stampanti.
 
 ## 10 Controlli della Società
