@@ -44,7 +44,7 @@ pertinenti a:
 
 # Riferimenti e Allegati
 
-> MDPR26.1.A – Monitoraggio fornitori
+> MDPR26.1.B – Elenco fornitori qualificati
 
 > PO15 – Classificazione delle Informazioni
 
@@ -137,7 +137,7 @@ servizio cloud).
 Vectorlab indirizza tutti gli aspetti di sicurezza negli accordi
 stabiliti con i CSP e ne dà evidenza del loro periodico monitoraggio
 nell’ambito della gestione e controllo dei rapporti con i fornitori,
-all’interno del documento *“MDPR26.1.A – Monitoraggio fornitori”.*
+all’interno del documento *“MDPR26.1.B – Elenco fornitori qualificati”.*
 
 Tutti gli asset in cloud di Vectorlab sono censiti nell’inventario degli
 asset e sottoposti ad analisi del rischio in ambito ISO/IEC 27001,

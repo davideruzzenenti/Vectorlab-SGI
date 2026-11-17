@@ -30,9 +30,7 @@ Questo documento si applica a tutte le componenti hardware, software, servizi cl
 
 #  Riferimenti e Allegati
 
-> MDPR32.1 - Template di Configurazione di Base di \[elemento\]
->
-> ALPR24.1.A - Schema di Rete
+> Schema ICT (documento riservato, fuori dal repository)
 >
 > PO16 - Gestione degli Accessi
 >
@@ -252,7 +250,7 @@ Per garantire un adeguato livello di sicurezza della rete interna, sono messe in
 
 - vengono utilizzati filtri per bloccare la trasmissione di tutti i dati e i pacchetti di controllo non necessari;
 
-- i segmenti della rete interna sono isolati secondo lo schema di rete “*ALPR24.1.A - Schema di Rete*”;
+- i segmenti della rete interna sono isolati secondo lo schema di rete “*Schema ICT (documento riservato, fuori dal repository)*”;
 
 - eventuali regole contrarie e cambiamenti devono essere chiaramente tracciate come modifiche alla configurazione nel sistema di ticketing aziendale.
 

@@ -70,7 +70,7 @@ La presente politica si applica a tutto il personale IT, al personale che si occ
 
 # Riferimenti e Allegati
 
-> PO27 – Gestione degli Incidenti
+> PR27.1 – Gestione Incidenti e Data Breach
 >
 > PR23.1 – Gestione delle Vulnerabilità Tecniche
 >
@@ -156,7 +156,7 @@ Vectorlab ha definito ed attua un processo per la gestione delle minacce e delle
 
 3)  L’analisi del rischio, nell’ambito della quale sono mappate le minacce e le vulnerabilità (non solo di tipo tecnico) afferenti agli asset oggetto dell’analisi.
 
-4)  Il mantenimento di canali di comunicazione attivi tra le parti interessate, al fine di garantire lo scambio tempestivo di notizie in merito a minacce e vulnerabilità riscontrate nei propri prodotti e servizi e alle possibili soluzioni disponibili. Tali segnalazioni vengono gestisce dall’Organizzazione come incidenti secondo quanto descritto nella “*PO27 - Gestione degli Incidenti*”.
+4)  Il mantenimento di canali di comunicazione attivi tra le parti interessate, al fine di garantire lo scambio tempestivo di notizie in merito a minacce e vulnerabilità riscontrate nei propri prodotti e servizi e alle possibili soluzioni disponibili. Tali segnalazioni vengono gestisce dall’Organizzazione come incidenti secondo quanto descritto nella “*PR27.1 - Gestione Incidenti e Data Breach*”.
 
 5)  Le campagne di formazione e le iniziative di sensibilizzazione del personale dell’Organizzazione, al fine di aumentarne la consapevolezza.
 
@@ -286,9 +286,9 @@ Le vulnerabilità considerate nell’ambito dell’analisi di rischio sono di ti
 
 Ogni vulnerabilità viene associata alla minaccia (o minacce) in grado di sfruttarla e la coppia è valorizzata sulla base delle caratteristiche intrinseche dell’asset sul quale incombe e/o sulla presenza/efficacia di contromisure implementate per la protezione dell’asset stesso.
 
-Per maggiori dettagli sulla metodologia utilizzata per lo svolgimento dell’analisi del rischio e della mappatura di minacce e vulnerabilità, si veda il documento “*ALPR09.1.A - Metodologia Analisi del Rischio”*.
+Per maggiori dettagli sulla metodologia utilizzata per lo svolgimento dell’analisi del rischio e della mappatura di minacce e vulnerabilità, si veda il documento “*ALPR33.1.A - Metodologia di Analisi del Rischio (ERA)”*.
 
-Le evidenze di tale attività vengono riportate in un report di analisi del rischio, secondo il modello “*MDPR09.1.C - Report analisi dei rischi*” e trattate attraverso un piano, secondo il modello “*MDPR09.1.D - Piano di trattamento dei rischi*”.
+Le evidenze di tale attività vengono riportate in un report di analisi del rischio, secondo il modello “*MDPR33.1.A - Report Analisi dei Rischi*” e trattate attraverso un piano, secondo il modello “*MDPR33.1.B - Piano di Trattamento dei Rischi*”.
 
 # Condivisione e Diffusione delle Informazioni sui rischi
 

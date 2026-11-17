@@ -35,7 +35,7 @@ La presente politica si applica a tutta l’Organizzazione.
 
 ### 1.3 Riferimenti e Allegati
 
-> MDPO03.A.1 – Lista Obiettivi”.
+> MDPO03.A – Lista Obiettivi”.
 
 > PR10.1 – Gestione del Monitoraggio, misurazione, analisi e valutazione
 
@@ -127,7 +127,7 @@ Gli obiettivi del SGI possono essere:
   - > obiettivi strategici -\> definiti nella politica del sistema
     > integrato “*PO01 - Sistema Integrato*”
 
-  - > obiettivi di azione -\> definiti nel file “*MDPO03.A.1 – Lista
+  - > obiettivi di azione -\> definiti nel file “*MDPO03.A – Lista
     > Obiettivi*”
 
   - > obiettivi di rischio -\> derivanti dal piano di trattamento dei

@@ -334,3 +334,11 @@ Metodo: una domanda alla volta; i documenti si aprono in chat in versione HTML l
 11. Mail al team del gruppo 1 entro il 25/11.
 Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: accettazione di RA = 45 e valutazione dei cambiamenti da settembre (campo ristretto a Ynsera, AWS tolto, NC01 TLS) senza nuova analisi dei rischi.
 
+## Riferimenti rotti e metodologia rischi (17/11/2026)
+
+- Corretti 26 riferimenti con codice sbagliato in 19 documenti (es. PO34 → PO40, ALPR26.1.C → ALPR16.1.C, ALPR26.1.B → ALPR26.1.B.3, MDPO29.D → MDPO29.A, MDPR09.1.* → MDPR33.1.*, MDPR07.A → MDPO07.A, codici con suffisso .1/.2/.3); righe di revisione storiche non toccate.
+- Tolti 8 rimandi a documenti mai scritti (PR39.1, MDPR05.1.Q/R, REG03 → PR18.1, PO05 → PO01, ALPR28.1.B Disaster Recovery Plan, MDPR09.1.A Maturity model, template MDPR32.1 → repository Ansible e REG01 §3). MDPO25.F (UI-UX, solo su Drive) non importato.
+- Nuovo `ALPR33.1.A – Metodologia di Analisi del Rischio (ERA)` rev 0.0, scritto da Claude dal report 2026 (decisione di Davide): da confermare con Nextage numero dei livelli delle scale e formula di ERA. PR33.1 e PO23 ora rimandano ad ALPR33.1.A.
+- Corretti anche i rimandi a documenti ritirati il 28/10 (decisione di Davide, 17/11), con il sostituto di tools/ritirati.csv: MDPR11.1.C → MDPR11.1.A §6, MDPR26.1.A → MDPR26.1.B, PO27 → PR27.1, PO30 → PO31, MDPR05.1.S/T → MDPR05.1.U, MDPR05.1.D → MDPR06.1.E, MDPR06.1.B/D → lista ClickUp «Consapevolezza e formazione», MDPR21.1.B → richiesta via mail o task ClickUp (PR21.1), PR29 → PO29, ALPR24.1.A/B → schema ICT riservato fuori dal repo, MDPR05.1.M → anagrafica tenuta dall'Amministrazione fuori dal repo. Restano solo le citazioni storiche («sostituisce il vecchio…») e le righe di revisione. Tabelle delle revisioni non modificate: sono correzioni di rimandi.
+- **SoA**: corretti nel repo 27 link a documenti ritirati (PO27, PO30, MDPR11.1.C, MDPR26.1.A, MDPR21.1.B, MDPR05.1.S/T/D, MDPR06.1.B, ALPR24.1.A/B). **Da comunicare a Nextage** nella mail unica perché allineino ERA.
+

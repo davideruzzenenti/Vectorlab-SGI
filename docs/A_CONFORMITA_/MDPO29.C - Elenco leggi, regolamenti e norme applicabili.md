@@ -33,7 +33,7 @@ nell'offerta (PR09.1, PR26.1).
 
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
-| [Reg. (UE) 2016/679 – GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | Regolamento generale sulla protezione dei dati personali | Applicabile: Vectorlab è titolare (personale, clienti, fornitori) e responsabile del trattamento (dati dei clienti nei progetti) | PO30, PO31, PR31.1–PR31.4, MDPR31.4.A/B, informative ALPR31.2.*, PR27.1 (data breach), PR33.2 | Referente Privacy |
+| [Reg. (UE) 2016/679 – GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | Regolamento generale sulla protezione dei dati personali | Applicabile: Vectorlab è titolare (personale, clienti, fornitori) e responsabile del trattamento (dati dei clienti nei progetti) | PO31, PR31.1–PR31.4, MDPR31.4.A/B, informative ALPR31.2.*, PR27.1 (data breach), PR33.2 | Referente Privacy |
 | [D.Lgs. 196/2003 – Codice privacy](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196), come modificato dal D.Lgs. 101/2018 | Norme nazionali di adeguamento al GDPR | Applicabile | Come GDPR | Referente Privacy |
 | Provvedimento del Garante privacy del 27/11/2008 sugli Amministratori di Sistema, modificato il 25/06/2009 | Nomina, elenco e verifica degli amministratori di sistema; registrazione degli accessi | Applicabile (amministratore di sistema interno ed esterno) | ALPO31.A, ALPO31.C, MDPO29.A, PR16.1, MDPR11.1.M | CTO |
 | Linee guida del Garante privacy su cookie e altri strumenti di tracciamento (10/06/2021) | Consenso e informativa per cookie e tracciamento sui siti web | Applicabile (sito aziendale) | ALPR31.2.F | Referente Privacy |
@@ -44,7 +44,7 @@ nell'offerta (PR09.1, PR26.1).
 
 | Riferimento | Contenuto in breve | Applicabilità | Come lo rispettiamo | Owner |
 | --- | --- | --- | --- | --- |
-| [D.Lgs. 81/2008 – Testo unico salute e sicurezza](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81) | Valutazione dei rischi, RSPP, RLS, formazione, emergenze | Applicabile | DVR (gestito da RSPP), PR18.1, MDPR18.1.*, ALPR05.1.A–D | RSPP |
+| [D.Lgs. 81/2008 – Testo unico salute e sicurezza](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81) | Valutazione dei rischi, RSPP, RLS, formazione, emergenze | Applicabile | DVR (gestito da RSPP), PR18.1, MDPR18.1.* | RSPP |
 | [L. 300/1970 – Statuto dei lavoratori](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300), in particolare artt. 4 e 7 | Limiti ai controlli a distanza sui lavoratori tramite strumenti informatici (art. 4); procedimento disciplinare e affissione del codice disciplinare (art. 7) | Applicabile | REG01 §10–§11, ALPR31.2.A | HR |
 | [L. 81/2017 – Lavoro agile](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-05-22;81) | Accordo individuale e sicurezza nel lavoro agile | Applicabile | ALPR05.1.E, ALPR05.1.F | HR |
 | [D.Lgs. 24/2023 – Whistleblowing](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-10;24) | Canali di segnalazione degli illeciti | Non applicabile: meno di 50 lavoratori e nessun modello 231 adottato | — | HR |

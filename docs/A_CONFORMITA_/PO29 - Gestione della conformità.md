@@ -78,9 +78,9 @@ La politica si applica a tutto il personale aziendale e di Terze Parti che, in v
 
 > MDPR08.1.A - Informazioni documentate
 >
-> MDPR11.1.C - Piano di Audit Tecnici
+> MDPR11.1.A - Programma Audit, §6 verifiche tecniche
 >
-> MDPR26.1.A - Monitoraggio fornitori
+> MDPR26.1.B - Elenco fornitori qualificati
 >
 > PO15 - Classificazione delle Informazioni
 >
@@ -90,7 +90,7 @@ La politica si applica a tutto il personale aziendale e di Terze Parti che, in v
 >
 > PO23 - Gestione delle minacce e vulnerabilità
 >
-> PO30 - Privacy by design e by default
+> PO31 - Misure di sicurezza protezione dati personali
 >
 > PO31 - Misure di sicurezza protezione dati personali
 >
@@ -100,7 +100,6 @@ La politica si applica a tutto il personale aziendale e di Terze Parti che, in v
 >
 > PR21.1 - Gestione dei Backup e Restore
 >
-> PR29 – Gestione Verifiche Ispettive
 >
 > <u>Decreto legislativo 8 giugno 2001 n. 231</u> - Disciplina della responsabilità amministrativa delle persone giuridiche, delle società e delle associazioni anche prive di personalità giuridica
 >
@@ -170,7 +169,7 @@ Nell’ambito di specifiche normative, Vectorlab può avvalersi di consulenza le
 
 ### Evidenze digitali
 
-Per quanto riguarda la produzione di evidenze digitali a seguito di richieste di procedimenti legali, contrattuali e/o di normative, Vectorlab recepisce le impostazioni definite dai propri provider di servizi cloud utilizzati per erogare i propri servizi cloud nei relativi documenti di qualifica e monitoraggio “*MDPR26.1.A - Monitoraggio fornitori*”.
+Per quanto riguarda la produzione di evidenze digitali a seguito di richieste di procedimenti legali, contrattuali e/o di normative, Vectorlab recepisce le impostazioni definite dai propri provider di servizi cloud utilizzati per erogare i propri servizi cloud nei relativi documenti di qualifica e monitoraggio “*MDPR26.1.B - Elenco fornitori qualificati*”.
 
 In qualità di provider la produzione di evidenze digitali, che riguarda i servizi cloud erogati da Vectorlab, riguarda gli accessi effettuati e falliti agli applicativi (*login, logout e failed login*).
 
@@ -206,7 +205,7 @@ Maggiori dettagli sulle misure di sicurezza definite ed implementate sono riport
 
 Vectorlab adempie agli obblighi contenuti nel GDPR svolgendo una serie di attività che garantiscono il rispetto dei requisiti cogenti in materia di privacy ed assicurano la protezione dei dati personali che sono oggetto dei trattamenti eseguiti dall’Azienda.
 
-In particolare, il mantenimento del Registro dei trattamenti (uno redatto in qualità di Titolare e l’altro redatto in qualità di Responsabile) dimostra come l’Azienda abbia conoscenza di tutti i dati personali gestiti, con le loro finalità ed i mezzi adoperati per la loro protezione; i documenti “*PO31 - Misure di Sicurezza protezione dati personali*“ e “*PO30 - Privacy by design e by default*” descrivono le misure di sicurezza tecniche ed organizzative implementate ed i principi in base ai quali sono attuate così come da disposizione normativa. Anche in “*PO15 - Classificazione Informazioni*“ si tiene conto della protezione dei dati personali garantendo una classificazione dei trattamenti ed una categorizzazione dei dati come “riservati”.
+In particolare, il mantenimento del Registro dei trattamenti (uno redatto in qualità di Titolare e l’altro redatto in qualità di Responsabile) dimostra come l’Azienda abbia conoscenza di tutti i dati personali gestiti, con le loro finalità ed i mezzi adoperati per la loro protezione; i documenti “*PO31 - Misure di Sicurezza protezione dati personali*“ e “*PO31 - Misure di sicurezza protezione dati personali*” descrivono le misure di sicurezza tecniche ed organizzative implementate ed i principi in base ai quali sono attuate così come da disposizione normativa. Anche in “*PO15 - Classificazione Informazioni*“ si tiene conto della protezione dei dati personali garantendo una classificazione dei trattamenti ed una categorizzazione dei dati come “riservati”.
 
 # Uso dei controlli crittografici
 
@@ -256,8 +255,8 @@ Le verifiche di conformità tecnica includono:
 
 - l’esecuzione di test tecnici (come *vulnerability assessment* e *penetration test*) per fornire una fotografia istantanea della vulnerabilità di un sistema in uno specifico momento (vedere “*PO23 - Gestione delle minacce e vulnerabilità*”).
 
-Tali attività sono pianificate secondo quanto riportato nel piano “*MDPR11.1.C - Piano di Audit Tecnici*” e tracciate attraverso il sistema di ticketing aziendale (come riportato in “*MDPR08.1.A – Informazioni documentate/Tools*”). Le verifiche vengono pianificate in modo da non perturbare le altre attività aziendali, né compromettere la sicurezza dei sistemi.
+Tali attività sono pianificate secondo quanto riportato nel piano “*MDPR11.1.A - Programma Audit, §6 verifiche tecniche*” e tracciate attraverso il sistema di ticketing aziendale (come riportato in “*MDPR08.1.A – Informazioni documentate/Tools*”). Le verifiche vengono pianificate in modo da non perturbare le altre attività aziendali, né compromettere la sicurezza dei sistemi.
 
 # Preparazione alle Ispezioni delle Autorità Competenti
 
-Affinché l’Azienda possa dimostrare la conformità a normative nazionali ed internazionali, quali GDPR, essa si adopera per affrontare e gestire efficacemente eventuali ispezioni da parte delle Autorità competenti secondo le indicazioni riportate nel documento “*PR29 – Gestione Verifiche Ispettive*”.
+Affinché l’Azienda possa dimostrare la conformità a normative nazionali ed internazionali, quali GDPR, essa si adopera per affrontare e gestire efficacemente eventuali ispezioni da parte delle Autorità competenti secondo le indicazioni di questo paragrafo.

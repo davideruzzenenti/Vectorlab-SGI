@@ -4,7 +4,7 @@
 ## Cover
 
 <table>
-<tr><td></td><td rowspan="4" colspan="2"></td><td rowspan="4" colspan="5">Vectorlab - OWASP ASVS Checklist</td><td rowspan="2" colspan="2">DIG - MDPO25.A.1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td rowspan="4" colspan="2"></td><td rowspan="4" colspan="5">Vectorlab - OWASP ASVS Checklist</td><td rowspan="2" colspan="2">DIG - MDPO25.A</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td rowspan="2">Rev. 0.0</td><td rowspan="2">24/04/2026</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

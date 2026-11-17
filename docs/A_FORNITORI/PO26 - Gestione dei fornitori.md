@@ -29,7 +29,7 @@ servizio ha un'influenza sulle attività di Vectorlab.
 
 #  Riferimenti e Allegati
 
-> ALPR26.1.B - Accordo di Riservatezza con le Terze Parti
+> ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
 
 
 > MDPR26.1.B - Elenco fornitori qualificati
@@ -290,7 +290,7 @@ aspetti:
         fuori dell’azienda e definire misure appropriate per proteggere
         la riservatezza, l'integrità e la disponibilità delle stesse,
         formalizzando tali misure negli accordi tra le parti
-        (“*ALPR26.1.B - Accordo di Riservatezza con le Terze Parti”*);
+        (“*ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti”*);
 
       - garantire che lo scambio di informazioni avvenga in conformità
         con le normative locali e internazionali e i requisiti normativi

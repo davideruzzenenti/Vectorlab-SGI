@@ -176,7 +176,7 @@ In particolare, l’organizzazione ha definito:
     sistemi informatici;
 
   - verifiche di correttezza dei backup e periodiche prove di ripristino
-    secondo quanto programmato nel piano “*MDPR21.1.A.1 - Piano di
+    secondo quanto programmato nel piano “*MDPR21.1.A - Piano di
     Restore*”. Anche se non vengono generati codici di errore,
     potrebbero esserci diversi motivi per cui il backup non può essere
     ripristinato o il suo ripristino non sia facile. Una buona strategia

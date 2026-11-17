@@ -305,7 +305,7 @@ Allegati:
 
 2.  ALPR26.1.A - Comunicazione SGSI per fornitori
 
-3.  ALPR26.1.B - Accordo di Riservatezza con le Terze Parti
+3.  ALPR26.1.B.3 - Accordo di Riservatezza con le Terze Parti
 
 4.  ALPR26.1.D - Nomina Responsabile Trattamento Dati Personali
 

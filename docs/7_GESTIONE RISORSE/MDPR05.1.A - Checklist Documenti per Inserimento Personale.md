@@ -84,7 +84,7 @@
 </tr>
 <tr class="odd">
 <td>Informativa sul trattamento dei dati personali</td>
-<td><p>ALPR31.2.A.1 –</p>
+<td><p>ALPR31.2.A –</p>
 <p>Informativa Privacy Dipendenti</p></td>
 <td>HR</td>
 <td></td>
@@ -92,7 +92,7 @@
 </tr>
 <tr class="even">
 <td>Nomina Autorizzato</td>
-<td><p>ALPO31.B.1 –</p>
+<td><p>ALPO31.B –</p>
 <p>Atto di Nomina ad Autorizzazione del Trattamento</p></td>
 <td>HR</td>
 <td></td>
@@ -100,7 +100,7 @@
 </tr>
 <tr class="odd">
 <td>Liberatoria per foto e video</td>
-<td><p>ALPR31.2.B.1 –</p>
+<td><p>ALPR31.2.B –</p>
 <p>Liberatoria Foto-Video Dipendenti</p></td>
 <td>HR</td>
 <td></td>
@@ -166,14 +166,14 @@
 </tr>
 <tr class="odd">
 <td>Piano Obiettivi Personali</td>
-<td>MDPR06.1.A.2 – Piano Obiettivi Personali</td>
+<td>PR06.1 – Gestione delle Performance (obiettivi personali)</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Scheda personale formazione</td>
-<td>MDPR06.1.B.2 - Scheda personale della formazione</td>
+<td>Lista ClickUp «Consapevolezza e formazione»</td>
 <td></td>
 <td></td>
 <td></td>

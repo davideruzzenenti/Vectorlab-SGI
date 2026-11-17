@@ -31,7 +31,7 @@ descritto in PR35.1 - Digital.
   A.5.8, A.8.4, A.8.8, A.8.25, A.8.26, A.8.27, A.8.28, A.8.29, A.8.31,
   A.8.33; A.8.30 per lo sviluppo affidato all'esterno (§6)
 - ISO 9001, 8.3 Progettazione e sviluppo di prodotti e servizi
-- PR35.1 - Digital; PR16.1 - Gestione degli Accessi; PO27 e PR27.1 -
+- PR35.1 - Digital; PR16.1 - Gestione degli Accessi; PR27.1 -
   Eventi e incidenti; PO26 e PR26.1 - Fornitori; REG01 - Regolamento
   sull'utilizzo degli strumenti aziendali
 - ALPO25.A - Linee guida per lo sviluppo software; MDPO25.A - OWASP

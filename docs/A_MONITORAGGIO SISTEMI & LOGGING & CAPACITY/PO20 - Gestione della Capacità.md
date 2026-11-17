@@ -27,7 +27,7 @@ coinvolti nell’implementazione della ISO/IEC 27001.
 
 #  Riferimenti e Allegati
 
-> PO27 - Gestione Eventi e Incidenti
+> PR27.1 - Gestione Incidenti e Data Breach
 
 > PR19.1 - Gestione del Cambiamento
 
@@ -470,7 +470,7 @@ in uscita tra segmenti di rete, in particolare:
     dati e i pacchetti di controllo non necessari;
 
   - i segmenti della rete interna sono isolati secondo lo schema di rete
-    “*ALPR24.1.A - Schema di Rete*”;
+    “*Schema ICT (documento riservato, fuori dal repository)*”;
 
   - eventuali regole contrarie e cambiamenti devono essere chiaramente
     tracciate come modifiche alla configurazione nel sistema di

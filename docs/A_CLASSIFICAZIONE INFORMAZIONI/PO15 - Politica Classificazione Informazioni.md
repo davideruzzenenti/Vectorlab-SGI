@@ -70,7 +70,7 @@ dovere di agire in conformità con quanto definito in questo documento.
 
 > PO17 - Crittografia
 
-> PO30 - Privacy by design e by default
+> PO31 - Misure di sicurezza protezione dati personali
 
 > PO32 – Gestione delle Configurazioni
 
@@ -416,8 +416,8 @@ In questo contesto, VECTORLAB si impegna a garantire che tutti i dati
 siano:
 
   - trattati garantendo la responsabilità, nel rispetto dei principi di
-    "privacy by design" e di "privacy by default" (vedere “*PO30 -
-    Privacy by design e by default*”);
+    "privacy by design" e di "privacy by default" (vedere “*PO31 -
+    Misure di sicurezza protezione dati personali*”);
 
   - trattati in modo lecito, corretto e trasparente;
 
