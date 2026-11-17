@@ -174,7 +174,7 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **PR05.1** (rev 0.3): gestione della casella email dell'uscente secondo il Garante (04/12/2019).
 - **PR13.1** (rev 0.1): registro delle non conformità = lista ClickUp «Non conformità e miglioramento» (creata il 22/10, cartella SGI); stati e campi da configurare a mano.
 - **PR11.1** (rev 0.3) e **PR12.1** (rev 0.2): allineate al registro NC in ClickUp, ai codici corretti dei documenti sui rischi e degli obiettivi, al campo di applicazione.
-- Utenze: 10 account Google Workspace, nessuno con verifica in due passaggi; 4 interni in ClickUp con Gmail personale (task di correzione creato in ClickUp, scadenza 30/10).
+- Utenze: 10 account Google Workspace (verifica in due passaggi: vedi riunione del 18/11); 4 interni in ClickUp con Gmail personale (task di correzione creato in ClickUp, scadenza 30/10).
 
 ## Incidenti e prima non conformità (23–24/10/2026)
 
@@ -352,7 +352,7 @@ Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: acce
 - Attenzione audit: nessuna prova di ripristino è ancora stata fatta; la prima entro il 15/12/2026. In ERA il controllo 8.13 risulta «attuato»: va corretto.
 - Da decidere il 18/11 con Andrea: copia esterna di GitHub o rischio accettato (registro rischi e Riesame).
 - Terzo gruppo fatto (17/11): PR16.1 «Gestione degli Accessi» (rev 0.0, Da approvare) riunisce PO16 e ALPR16.1.A, ritirati. Decisioni di Davide: gli account (Google Workspace, GitHub, ClickUp, Bitwarden) li gestiscono RSGI e Francesco; n8n lo usano solo Davide e Andrei; revisione degli accessi ogni 6 mesi con gli elenchi scaricati dalle console allegati al task ClickUp (niente lista utenze nel repo: dati personali). KPI DA1: obiettivo 2 revisioni l'anno.
-- Scoperta del 17/11 (console Google): verifica in due passaggi registrata da 0 utenti su 10, amministratori compresi; applicazione forzata OFF. REG01 §2 la dichiara obbligatoria: oggi non è vero. Primo punto della riunione del 18/11 (proposta: obbligo dal 24/11, senza SMS).
+- Verifica in due passaggi su Google Workspace: controllata il 17/11 nella console; dettaglio nella checklist privata della riunione. Primo punto della riunione del 18/11 (proposta: obbligo dal 24/11, senza SMS).
 - Nomine degli amministratori di sistema (Provv. Garante 27/11/2008): da far firmare ad Andrei (con verifica del contratto art. 28 GDPR) e a Davide; elenco MDPO29.A da compilare (Francesco).
 - Quarto gruppo fatto (17/11): PR23.1 «Gestione delle Minacce e delle Vulnerabilità Tecniche» (rev 0.0, Da approvare) riunisce PO23, PR23.2, MDPR23.1.A e MDPR23.2.A, ritirati. Davide (17/11): il foglio Nextage del 27/07 sulle minacce è generico e non adatto a Vectorlab; sostituito da MDPR23.1.B «Monitoraggio delle minacce 2026» (10 minacce riferite a Vectorlab, colonna ERA da completare). Da verificare il 18/11: scansioni del server (Andrei), Dependabot e secret scanning su GitHub (Andrea), regola sui cambi IBAN (Francesco).
 - Quinto gruppo fatto (17/11): PR26.1 «Gestione dei fornitori» (rev 0.0, Da approvare) riunisce PO26 e PO40, ritirati; allineato all'Elenco fornitori MDPR26.1.B già compilato. La lettera ALPR26.1.A ora include i requisiti di sicurezza (ALPR26.1.E ritirato). Corretto un errore: ALPR26.1.A ed E dichiaravano un SGSI «certificato ISO/IEC 27001»; ora «in corso di certificazione». Davide (17/11): la lettera non è mai stata inviata. Termine di 24 ore per la notifica degli incidenti dei fornitori: proposta da confermare.

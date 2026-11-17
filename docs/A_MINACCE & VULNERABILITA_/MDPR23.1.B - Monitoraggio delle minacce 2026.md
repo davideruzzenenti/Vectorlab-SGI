@@ -18,7 +18,7 @@ completata confrontando la tabella con l'analisi dei rischi 2026
 
 | # | Minaccia (fonte) | Perché riguarda Vectorlab | Misure in essere | Rischio in ERA | Azione |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Phishing e furto di credenziali (ACN, ENISA, Clusit) | Tutto il lavoro passa dagli account Google aziendali, che danno accesso anche a GitHub e ClickUp | Password secondo REG01; formazione | [DA VERIFICARE] | Verifica in due passaggi obbligatoria (al 17/11 nessun account la usa): decisione del 18/11 |
+| 1 | Phishing e furto di credenziali (ACN, ENISA, Clusit) | Tutto il lavoro passa dagli account Google aziendali, che danno accesso anche a GitHub e ClickUp | Password secondo REG01; formazione | [DA VERIFICARE] | Verifica in due passaggi obbligatoria su tutti gli account (REG01 §2) |
 | 2 | Compromissione della casella di posta e frodi con finte fatture o cambio IBAN (ACN) | L'Amministrazione riceve fatture e richieste di pagamento via mail | — | [DA VERIFICARE] | Regola: ogni cambio di IBAN di un fornitore si conferma per telefono a un numero già noto [DA CONFERMARE con Francesco] |
 | 3 | Malware e ransomware sui portatili (ACN, Clusit) | Ogni persona lavora su un portatile Windows | Antivirus, aggiornamenti, disco cifrato (REG01 §3); dati su cloud (PR21.1) | [DA VERIFICARE] | Nessuna |
 | 4 | Sfruttamento di falle su servizi esposti su internet (ACN, ENISA, Clusit) | Il server Aruba ospita siti, n8n e Bitwarden raggiungibili da internet | Aggiornamenti (PR32.1 §7) | [DA VERIFICARE] | Scansione annuale del server (PR23.1 §6) [DA CONFERMARE con Andrei] |
