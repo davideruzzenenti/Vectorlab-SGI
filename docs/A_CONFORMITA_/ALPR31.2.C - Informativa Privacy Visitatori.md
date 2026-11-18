@@ -6,7 +6,7 @@
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
 
-> Consegna: affissa all'ingresso della sede o consegnata al visitatore al momento della registrazione.
+> Consegna: affissa all'ingresso della sede o consegnata al visitatore al suo arrivo.
 
 **Informativa ex art. 13 Regolamento UE 2016/679**
 

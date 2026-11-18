@@ -1,10 +1,10 @@
 # MDPR08.1.A - Elenco Informazioni documentate
 
-Elenco generato automaticamente dal repository del Sistema di Gestione Integrato (script `tools/genera_elenco.py`, PR08.1 §2.9). Ultima generazione: 17/11/2026.
+Elenco generato automaticamente dal repository del Sistema di Gestione Integrato (script `tools/genera_elenco.py`, PR08.1 §2.9). Ultima generazione: 18/11/2026.
 
 Per ogni documento sono riportati i dati dell'ultima riga della tabella «Revisioni». «Da approvare» indica una revisione non ancora approvata dalla Direzione; «n.d.» indica un documento senza tabella «Revisioni» (allegato o modulo). Lo storico completo di ogni documento è nella cronologia del repository.
 
-## Documenti del Sistema di Gestione (102)
+## Documenti del Sistema di Gestione (101)
 
 <table>
 <tr><th>Tipo</th><th>Codice</th><th>Titolo</th><th>Rev.</th><th>Data rev.</th><th>Redatto</th><th>Approvato</th><th>Formato</th><th>Cartella</th></tr>
@@ -107,7 +107,6 @@ Per ogni documento sono riportati i dati dell'ultima riga della tabella «Revisi
 <tr><td>Allegato</td><td>ALPR18.1.A</td><td>Piantina accessi</td><td>n.d.</td><td></td><td></td><td></td><td>pptx</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
 <tr><td>Modulo</td><td><a href="../../A_SICUREZZA FISICA AMBIENTALE/MDPR18.1.A - Registro del personale/">MDPR18.1.A</a></td><td>Registro del personale</td><td>n.d.</td><td></td><td></td><td></td><td>md</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
 <tr><td>Modulo</td><td><a href="../../A_SICUREZZA FISICA AMBIENTALE/MDPR18.1.D - Registri interventi ambientali/">MDPR18.1.D</a></td><td>Registri interventi ambientali</td><td>0.0</td><td>17/11/2026</td><td>RSGI</td><td>Da approvare</td><td>md</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
-<tr><td>Modulo</td><td><a href="../../A_SICUREZZA FISICA AMBIENTALE/MDPR18.1.E - Registro dei visitatori/">MDPR18.1.E</a></td><td>Registro dei visitatori</td><td>n.d.</td><td></td><td></td><td></td><td>md</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
 <tr><td>Modulo</td><td><a href="../../A_SICUREZZA FISICA AMBIENTALE/MDPR18.1.G - Contatti di emergenza/">MDPR18.1.G</a></td><td>Contatti di emergenza</td><td>0.0</td><td>17/11/2026</td><td>RSGI</td><td>Da approvare</td><td>md</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
 <tr><td>Procedura</td><td><a href="../../A_SICUREZZA FISICA AMBIENTALE/PR18.1 - Gestione sicurezza fisica e ambientale/">PR18.1</a></td><td>Gestione sicurezza fisica e ambientale</td><td>0.0</td><td>17/11/2026</td><td>RSGI</td><td>Da approvare</td><td>md</td><td>A_SICUREZZA FISICA AMBIENTALE</td></tr>
 </table>
@@ -121,7 +120,7 @@ Per ogni documento sono riportati i dati dell'ultima riga della tabella «Revisi
 <tr><td>Modulo</td><td><a href="../../B_REGISTRAZIONI/Audit Interno/2026/MDPR11.1.B - Piano di Audit e Report - I-2026/">MDPR11.1.B</a></td><td>Piano di Audit e Report - I-2026</td><td>0.0</td><td>17/11/2026</td><td>RSGI</td><td>Da approvare</td><td>md</td><td>B_REGISTRAZIONI/Audit Interno/2026</td></tr>
 </table>
 
-## Documenti ritirati o uniti (67)
+## Documenti ritirati o uniti (68)
 
 Documenti tolti dal Sistema di Gestione (PR08.1, conservazione e successive disposizioni). Il testo resta nella cronologia del repository; l'elenco è in `tools/ritirati.csv`.
 
@@ -194,4 +193,5 @@ Documenti tolti dal Sistema di Gestione (PR08.1, conservazione e successive disp
 <tr><td>MDPR28.1.B</td><td>Piano dei Test di Continuità Operativa</td><td>17/11/2026</td><td>Unito</td><td>PR28.1</td><td>Modello vuoto; le prove si registrano in MDPR21.1.A</td></tr>
 <tr><td>MDPR28.1.C</td><td>Report Test di Continuità Operativa [template]</td><td>17/11/2026</td><td>Unito</td><td>PR28.1</td><td>Modello vuoto; le prove si registrano in MDPR21.1.A</td></tr>
 <tr><td>ALPR16.1.C</td><td>Contratto di fornitura</td><td>17/11/2026</td><td>Rinominato</td><td>ALPR26.1.C</td><td>Codice corretto: è un allegato della procedura fornitori PR26.1</td></tr>
+<tr><td>MDPR18.1.E</td><td>Registro dei visitatori</td><td>18/11/2026</td><td>Ritirato</td><td>PR18.1</td><td>Nessun registro: ospiti molto rari e sempre accompagnati (rischio accettato il 18/11/2026)</td></tr>
 </table>

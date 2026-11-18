@@ -46,7 +46,7 @@ sulle condizioni contrattuali standard (DPA), secondo [PR26.1](PR26.1%20-%20Gest
 | 4 | Mango Technologies, Inc. (ClickUp) | Gestione progetti, ticketing, CRM, promemoria (A0014, A0015) | SI | SI | A | SI | DV | Trasferimento USA. Accordo: termini di servizio |
 | 5 | Bitwarden, Inc. | Gestione delle credenziali aziendali | NO | SI | B | NO | DV | |
 | 6 | Anthropic, OpenAI | Servizi di intelligenza artificiale usati nel lavoro | NO | SI | A | da verificare | DV | Definire quali dati dei clienti possono essere inseriti (AI Act, [PO15](../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni.md)) |
-| 7 | Discord | Messaggistica interna (A0017) | NO | SI | A | SI | DV | Discord non è accettato dal SGI e per il lavoro non è ammessa nessuna app di messaggistica ([REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §5, decisione del 04/11/2026): da dismettere |
+| 7 | Discord | Messaggistica interna (A0017) | NO | SI | A | SI | DV | Uso ammesso con le regole di [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §5 (niente dati dei clienti né credenziali); rischio accettato dall'Amministratore Unico il 18/11/2026 |
 | 8 | Fastweb S.p.A. | Connettività internet e telefonia mobile della sede | NO | SI | C | NO | DV | |
 | 9 | Bunny.net, GoDaddy | CDN, registrazione domini e certificati SSL (GoDaddy) | NO | SI | C | NO | DV | |
 | 10 | iubenda S.r.l. | Gestione cookie e informative del sito | NO | NO | — | SI | DV | |

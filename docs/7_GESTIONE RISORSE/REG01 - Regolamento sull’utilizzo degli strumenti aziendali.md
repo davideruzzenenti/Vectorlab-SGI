@@ -103,10 +103,12 @@ nell'inventario degli asset e, se serve, tra i fornitori ([PR26.1](../A_FORNITOR
 
 **Messaggistica.** Le decisioni e i passaggi di lavoro (per esempio
 «ho acquistato il certificato, va installato») si registrano in un
-task ClickUp o per mail, non in chat. Per il lavoro non è ammessa
-nessuna app di messaggistica (decisione del 04/11/2026): le
-comunicazioni passano da ClickUp e dalla posta aziendale. Discord non
-è accettato dal sistema di gestione e non si usa per il lavoro.
+task ClickUp o per mail, non in chat. Per i messaggi rapidi tra
+colleghi si usa Discord (decisione dell'Amministratore Unico del
+18/11/2026, rischio accettato). Su Discord non si scrivono dati
+personali, dati o codice dei clienti, password o altre credenziali:
+per questi si usano ClickUp, la posta aziendale e Bitwarden. Non si
+usano altre app di messaggistica per il lavoro.
 
 ## 6 Posta elettronica
 
@@ -163,9 +165,9 @@ gestione segue [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20In
 - Le chiavi della sede sono personali; consegna e restituzione
   nel registro [MDPR05.1.U](MDPR05.1.U%20-%20Gestione%20chiavi.md).
 - I documenti cartacei riservati si distruggono, non si buttano interi.
-- Gli ospiti non ricevono la password della rete Wi-Fi aziendale.
-  [DA DECIDERE con il System Administrator: eventuale accesso per gli
-  ospiti.]
+- Gli ospiti non ricevono la password della rete Wi-Fi aziendale: se
+  serve, usano la connessione del proprio telefono o un hotspot di un
+  telefono dell'ufficio (decisione del 18/11/2026).
 - In ufficio non ci sono stampanti.
 
 ## 10 Controlli della Società
