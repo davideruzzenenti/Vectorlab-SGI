@@ -46,7 +46,8 @@ responsabile. Il portatile deve avere sempre:
 
 1. **disco cifrato** (BitLocker o «Crittografia dispositivo» di
    Windows); la chiave di ripristino si salva nel Bitwarden aziendale,
-   così l'azienda può recuperare i dati se serve;
+   in una voce accessibile solo al System Administrator e
+   all'Amministrazione, così l'azienda può recuperare i dati se serve;
 2. **password o PIN** all'accesso e **blocco automatico dello
    schermo**;
 3. **aggiornamenti automatici** di Windows attivi;
