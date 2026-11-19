@@ -12,7 +12,7 @@ Questa pagina elenca i documenti che chi lavora per Vectorlab
 (dipendenti e collaboratori, compreso l'IT esterno) deve conoscere. La
 lettura si conferma una volta per tutto il pacchetto, non documento per
 documento, nella lista ClickUp **«Consapevolezza e formazione»**
-(cartella SGI), secondo [PR05.1](PR05.1%20-%20Gestione%20del%20personale.md) §8.
+(cartella Evidenze), secondo [PR05.1](PR05.1%20-%20Gestione%20del%20personale.md) §8.
 
 **Quando si conferma**
 
@@ -22,8 +22,8 @@ documento, nella lista ClickUp **«Consapevolezza e formazione»**
   (RSGI lo comunica e apre un nuovo task).
 
 **Come si conferma**: nel task dell'occasione apri il **tuo**
-sottotask, spunta le due voci e chiudilo. Chi lo chiude e quando è la
-registrazione. La revisione in vigore alla data di conferma risulta
+sottotask, scrivi il commento «Letto, il portatile è a posto» e chiudilo.
+Il commento, con il tuo nome e l'ora, è la registrazione. La revisione in vigore alla data di conferma risulta
 dalla tabella delle revisioni di ciascun documento e dalla cronologia
 del repository.
 
@@ -55,10 +55,11 @@ del repository.
 ## Il tuo portatile
 
 I requisiti del portatile fornito da Vectorlab sono in [REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3: disco
-cifrato, password o PIN con blocco schermo, aggiornamenti automatici,
-antivirus attivo. La seconda voce del sottotask («Il mio portatile
-Vectorlab rispetta i requisiti di [REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3») si riferisce a questo
-elenco.
+cifrato, password o PIN all'accesso, aggiornamenti automatici,
+antivirus attivo. Il commento «il portatile è a posto» conferma questo
+elenco; chi usa un portatile personale scrive «Letto, uso un portatile
+personale». Lo schermo lo blocchi tu ogni volta che ti allontani
+(Windows + L).
 
 ## Riferimenti alle norme
 

@@ -48,8 +48,9 @@ responsabile. Il portatile deve avere sempre:
    Windows); la chiave di ripristino si salva nel Bitwarden aziendale,
    in una voce accessibile solo al System Administrator e
    all'Amministrazione, così l'azienda può recuperare i dati se serve;
-2. **password o PIN** all'accesso e **blocco automatico dello
-   schermo**;
+2. **password o PIN** all'accesso; lo **schermo si blocca** ogni volta
+   che ci si allontana dal portatile (Windows + L): è responsabilità di
+   chi lo usa;
 3. **aggiornamenti automatici** di Windows attivi;
 4. **antivirus attivo** (Microsoft Defender è sufficiente).
 

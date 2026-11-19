@@ -390,7 +390,7 @@ personali.
 
 Tutti i corsi di formazione e le iniziative di sensibilizzazione sulla
 sicurezza e sul GDPR sono pianificati ed erogati e sono registrati nella
-lista ClickUp «Consapevolezza e formazione» (cartella SGI).
+lista ClickUp «Consapevolezza e formazione» (cartella Evidenze).
 
 L'informativa ai dipendenti e collaboratori (*[ALPR31.2.A](ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti.md)*) fa parte del
 pacchetto *“[ALPR05.1.H](../7_GESTIONE%20RISORSE/ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md) - Documenti per il personale”*: la presa visione
