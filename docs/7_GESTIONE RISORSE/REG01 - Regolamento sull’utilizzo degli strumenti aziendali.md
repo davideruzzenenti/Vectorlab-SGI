@@ -158,6 +158,10 @@ In caso di furto si fa anche denuncia e se ne invia copia al CISO. Si
 cambiano subito le password dei servizi usati da quel dispositivo. La
 gestione segue [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md).
 
+Le domande e le richieste sui dati personali (proprie, dei clienti o di
+altre persone) si inviano a **privacy@vectorlab-cg.com**, gestita dal
+Referente Privacy ([PR31.1](../A_CONFORMITA_/PR31.1%20-%20Gestione%20dei%20Diritti%20degli%20Interessati.md)).
+
 ## 9 Ufficio
 
 - Scrivania e schermo puliti: documenti riservati non lasciati in

@@ -47,6 +47,8 @@ del repository.
 - **Account**: solo account aziendali (@vectorlab-cg.com) per gli
   strumenti di lavoro; niente account condivisi; credenziali in
   Bitwarden.
+- **Discord**: solo per messaggi rapidi; mai password, dati o codice
+  dei clienti, dati personali ([REG01](REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §5).
 - **Dati e codice dei clienti**: si usano solo dove il cliente lo
   consente e con gli strumenti approvati da Vectorlab ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3).
 
