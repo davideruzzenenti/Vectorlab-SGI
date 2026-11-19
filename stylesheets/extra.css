@@ -1,0 +1,27 @@
+/* Le tabelle HTML dei documenti convertiti da Excel non hanno bordi propri:
+   senza queste regole le celle vuote (frequenti nelle tabelle a molte colonne
+   come la SOA) collassano a larghezza quasi zero e la tabella sembra testo
+   sparso nel vuoto invece di una griglia leggibile. */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  display: table;
+  width: max-content;
+  max-width: 100%;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  padding: 0.5rem 0.7rem;
+  vertical-align: top;
+  min-width: 2.5rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: var(--md-code-bg-color);
+}
