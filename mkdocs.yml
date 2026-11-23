@@ -9,9 +9,11 @@ theme:
     accent: indigo
   features:
     - navigation.sections
-    - navigation.expand
+    - navigation.indexes
     - search.suggest
     - content.code.copy
 docs_dir: docs
+exclude_docs: |
+  D_GESTIONE PROGETTO/logokit vectorlab/
 extra_css:
   - stylesheets/extra.css
