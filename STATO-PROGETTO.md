@@ -399,3 +399,8 @@ Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: acce
 - I file vanno tolti con git: `git --literal-pathspecs rm --pathspec-from-file=_ritira.txt`, poi `del _ritira.txt`.
 - Da chiedere a Nextage (mail unica): togliere in ERA i rimandi della SoA a MDPO25.A/B/C, ALPR27.1.B, ALPO31.C, MDPR18.1.A. Da decidere: MDPR11.1.D e MDPR11.1.L (se all'audit Nextage usa le sue checklist); MDPR05.1.H (chiedere a Francesco chi prepara le contestazioni disciplinari). Resta il problema già noto del controllo 5.8 senza documenti nella SoA.
 
+## Organigramma e Contesto e processi sul sito (23/11/2026)
+- ALPO01.A Organigramma: pagina Markdown con l'immagine ricavata dal PowerPoint (che resta l'originale). Da chiarire: nel team Digital compare Tommaso Ramella, che non è tra le persone Ynsera del 22/10.
+- ALPO02.A Contesto e processi rev 0.1 (Da approvare): riscritto in Markdown sul solo servizio Ynsera (diagramma del contesto e mappa dei processi in HTML, con link alle procedure; stile in extra.css §6). Il modello Nextage in PowerPoint conteneva «E' UN ESEMPIO va FATTO AD HOC», segnaposto «XXXXX» e processi fuori campo. PowerPoint, draw.io e immagini da togliere con `git --literal-pathspecs rm --pathspec-from-file=_ritira.txt`.
+- Da sistemare: PO02 §5 ha residui del modello («Jira e pipeline CI/CD», «Parità di Genere»); PO02 §4.4 dichiara applicabile la 9001 8.3 mentre requisiti e progettazione li scrive il cliente (da rivedere con Nextage); Discord: decisione AU «resta in uso con regole» in contrasto con il vincolo «Discord non accettato».
+

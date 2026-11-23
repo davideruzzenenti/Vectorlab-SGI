@@ -42,7 +42,7 @@ documento è pertanto rivolto ai seguenti destinatari:
 
 [ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx) – Organigramma
 
-[ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e Processi
+[ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e Processi
 
 [ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
 

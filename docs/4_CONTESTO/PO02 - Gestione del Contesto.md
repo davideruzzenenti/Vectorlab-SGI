@@ -100,7 +100,7 @@ La presente politica si applica a tutta l’Organizzazione.
 
 ### 1.3 Riferimenti e Allegati
 
-> [ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e Processi
+> [ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e Processi
 
 > [ALPO02.B](ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
 
@@ -236,7 +236,7 @@ Pertanto, anche gli stakeholders esterni non nutrono preoccupazioni nei
 confronti dell’operatività di Vectorlab, la quale garantisce la
 continuità dei propri servizi.
 
-Il risultato di tale analisi è riportato in “*[ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.pptx) – Contesto e
+Il risultato di tale analisi è riportato in “*[ALPO02.A](ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e
 Processi*”.
 
 ## 3 Comprendere le esigenze e le aspettative delle terze parti
