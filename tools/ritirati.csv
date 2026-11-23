@@ -67,3 +67,15 @@ MDPR28.1.B,Piano dei Test di Continuità Operativa,17/11/2026,Unito,PR28.1,"Mode
 MDPR28.1.C,Report Test di Continuità Operativa [template],17/11/2026,Unito,PR28.1,"Modello vuoto; le prove si registrano in MDPR21.1.A"
 ALPR16.1.C,Contratto di fornitura,17/11/2026,Rinominato,ALPR26.1.C,"Codice corretto: è un allegato della procedura fornitori PR26.1"
 MDPR18.1.E,Registro dei visitatori,18/11/2026,Ritirato,PR18.1,"Nessun registro: ospiti molto rari e sempre accompagnati (rischio accettato il 18/11/2026)"
+MDPR11.1.M,Checklist Audit Interno Ads,23/11/2026,Ritirato,PR11.1 + ALPO01.B §3,"Basata sull'Allegato B del D.Lgs. 196/2003, abrogato dal D.Lgs. 101/2018; la verifica annuale sugli amministratori di sistema è il controllo dei log (ALPO01.B §3)"
+MDPO25.A,Vectorlab - OWASP ASVS Checklist [progetto],23/11/2026,Ritirato,PO25 + ALPO25.A,Non usata nei progetti dei clienti: la sicurezza del codice segue ALPO25.A e la revisione delle pull request
+MDPO25.B,Definizione dei Requisiti [progetto],23/11/2026,Ritirato,PO25,Nei progetti Ynsera i requisiti li scrive il cliente nei propri strumenti
+MDPO25.C,Documentazione Tecnica [progetto],23/11/2026,Ritirato,PO25,Nei progetti Ynsera la documentazione tecnica la scrive il cliente nei propri strumenti
+MDPO25.D,Changelog,23/11/2026,Ritirato,PO25,La storia delle modifiche è nei repository del cliente
+MDPO25.E,Definizione di Progetto [progetto],23/11/2026,Ritirato,PR09.1 + PR35.1,Modello mai usato: offerta e commessa sono in PR09.1 e PR35.1
+MDPO25.G,Piano di Test [progetto],23/11/2026,Ritirato,PO25,Si usa il piano di test del cliente
+ALPR27.1.B,Information Security Incident Lessons Learned - Template,23/11/2026,Ritirato,PR27.1 + PR13.1,"Cause, azioni e lezioni apprese nel task dell’incidente nella lista ClickUp «Non conformità e miglioramento»"
+ALPO31.C,Addendum Lettera Incarico AdS,23/11/2026,Ritirato,ALPO31.A,La nomina ad amministratore di sistema sui sistemi di un cliente la fa il cliente
+MDPR18.1.A,Registro del personale,23/11/2026,Ritirato,PR18.1,"Modulo cartaceo non usato: le presenze sono registrate nel software interno Planner"
+ALPR31.2.H,Registro Consensi,23/11/2026,Ritirato,PR31.2,Gli unici consensi raccolti sono le liberatorie foto e video: si conservano le liberatorie firmate (ALPR31.2.G)
+asset_inventory_vectorlab,Inventario degli asset,23/11/2026,Rinominato,MDPR32.1.B,Catalogato come registrazione 2026 in B_REGISTRAZIONI/Analisi dei Rischi/2026

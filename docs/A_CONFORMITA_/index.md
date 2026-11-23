@@ -4,7 +4,6 @@
 
 - [ALPO31.A - Lettera incarico AdS](ALPO31.A%20-%20Lettera%20incarico%20AdS.md)
 - [ALPO31.B - Atto di Nomina ad Autorizzato del Trattamento](ALPO31.B%20-%20Atto%20di%20Nomina%20ad%20Autorizzato%20del%20Trattamento.md)
-- [ALPO31.C - Addendum Lettera Incarico AdS](ALPO31.C%20-%20Addendum%20Lettera%20Incarico%20AdS.md)
 - [ALPO31.D - Atto di Nomina a Referente Privacy](ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy.md)
 - [ALPR31.2.A - Informativa Privacy Dipendenti](ALPR31.2.A%20-%20Informativa%20Privacy%20Dipendenti.md)
 - [ALPR31.2.B - Informativa Privacy Candidati](ALPR31.2.B%20-%20Informativa%20Privacy%20Candidati.md)
@@ -13,7 +12,6 @@
 - [ALPR31.2.E - Informativa Privacy Clienti](ALPR31.2.E%20-%20Informativa%20Privacy%20Clienti.md)
 - [ALPR31.2.F - Informativa Privacy Sito](ALPR31.2.F%20-%20Informativa%20Privacy%20Sito.md)
 - [ALPR31.2.G - Liberatoria Foto-Video](ALPR31.2.G%20-%20Liberatoria%20Foto-Video.md)
-- [ALPR31.2.H - Registro Consensi](ALPR31.2.H%20-%20Registro%20Consensi.md)
 - [MDPO29.A - Elenco AdS](MDPO29.A%20-%20Elenco%20AdS.md)
 - [MDPO29.C - Elenco leggi, regolamenti e norme applicabili](MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili.md)
 - [MDPR31.1.A - Registro delle richieste](MDPR31.1.A%20-%20Registro%20delle%20richieste.md)

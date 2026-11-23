@@ -40,7 +40,8 @@ REVISIONI_EXTRA = [
     ("0.1", "23/11/2026",
      "Nuova vista (riepilogo e dettaglio); corretti il campo Set controlli "
      "e l'intestazione della sezione 7; tolta la sezione AGID CSP-SAAS "
-     "(residui di un altro cliente)", "RSGI", "Da approvare", "Interno"),
+     "(residui di un altro cliente); tolti i rimandi ai documenti ritirati "
+     "il 23/11/2026", "RSGI", "Da approvare", "Interno"),
 ]
 # Indici delle colonne nella tabella Controlli della sorgente
 C = dict(id=0, titolo=1, testo=2, set=3, app_si=5, app_no=6, att_si=7, att_no=8,

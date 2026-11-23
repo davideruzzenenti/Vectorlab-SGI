@@ -2,7 +2,6 @@
 
 ## Documenti
 
-- [MDPR18.1.A - Registro del personale](MDPR18.1.A%20-%20Registro%20del%20personale.md)
 - [MDPR18.1.D - Registri interventi ambientali](MDPR18.1.D%20-%20Registri%20interventi%20ambientali.md)
 - [MDPR18.1.G - Contatti di emergenza](MDPR18.1.G%20-%20Contatti%20di%20emergenza.md)
 - [PR18.1 - Gestione sicurezza fisica e ambientale](PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale.md)

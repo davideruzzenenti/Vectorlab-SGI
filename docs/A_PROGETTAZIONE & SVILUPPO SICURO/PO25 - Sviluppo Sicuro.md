@@ -7,6 +7,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Requisiti, documentazione tecnica e test negli strumenti del cliente; ritirati i modelli MDPO25.A–G | RSGI | Da approvare |
 
 ## 1 Scopo e campo di applicazione
 
@@ -33,9 +34,7 @@ descritto in [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) -
 - [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) - Digital; [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) - Gestione degli Accessi; [PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md) -
   Eventi e incidenti; [PR26.1](../A_FORNITORI/PR26.1%20-%20Gestione%20dei%20fornitori.md) - Fornitori; [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) - Regolamento
   sull'utilizzo degli strumenti aziendali
-- [ALPO25.A](ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software.md) - Linee guida per lo sviluppo software; [MDPO25.A](MDPO25.A%20-%20Vectorlab%20-%20OWASP%20ASVS%20Checklist%20%5Bprogetto%5D.md) - OWASP
-  ASVS Checklist; [MDPO25.B](MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D.md) - Definizione dei Requisiti; [MDPO25.C](MDPO25.C%20-%20Documentazione%20Tecnica%20%5Bprogetto%5D.md) -
-  Documentazione Tecnica; [MDPO25.G](MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D.md) - Piano di Test
+- [ALPO25.A](ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software.md) - Linee guida per lo sviluppo software
 
 ## 3 Responsabilità
 
@@ -95,15 +94,15 @@ compromesso: si cambia subito e si segnala come evento di sicurezza
 ### 5.1 Requisiti
 
 All'avvio della commessa il PM raccoglie con il cliente i requisiti,
-compresi quelli di sicurezza e privacy ([MDPO25.B](MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D.md); ISO 9001 8.3;
-A.8.26). [DA CONFERMARE con il CTO: se requisiti e piano di test si
-scrivono in [MDPO25.B](MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D.md) e [MDPO25.G](MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D.md) o negli strumenti del cliente.] Se il software tratta dati personali, i requisiti di privacy
+compresi quelli di sicurezza e privacy (ISO 9001 8.3; A.8.26).
+Requisiti, documentazione tecnica e piano di test li scrive il cliente
+nei propri strumenti; il team lavora su quella documentazione (deciso
+il 23/11/2026). Se il software tratta dati personali, i requisiti di privacy
 by design li indica il cliente, che è titolare del trattamento.
 
 ### 5.2 Scrittura del codice
 
-Il team segue le linee guida [ALPO25.A](ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software.md) e, per le applicazioni web, i
-controlli applicabili di [MDPO25.A](MDPO25.A%20-%20Vectorlab%20-%20OWASP%20ASVS%20Checklist%20%5Bprogetto%5D.md) (OWASP ASVS) (A.8.27, A.8.28).
+Il team segue le linee guida [ALPO25.A](ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software.md) (A.8.27, A.8.28).
 
 ### 5.3 Revisione del codice
 
@@ -124,7 +123,7 @@ prima del rilascio o si segnalano al cliente (A.8.8).
 ### 5.5 Test e rilascio
 
 I test si svolgono negli ambienti del cliente, secondo il piano di test
-concordato ([MDPO25.G](MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D.md)). Il rilascio in produzione lo decide il cliente.
+del cliente. Il rilascio in produzione lo decide il cliente.
 Ambienti di sviluppo, test e produzione restano separati come previsto
 dal cliente (A.8.31).
 
@@ -160,6 +159,6 @@ clienti.
 | Registrazione | Dove | Conservazione |
 | --- | --- | --- |
 | Pull request con revisione del codice | Repository del cliente o di vectorlab-cg | Secondo il repository |
-| Requisiti e piano di test di progetto ([MDPO25.B](MDPO25.B%20-%20Definizione%20dei%20Requisiti%20%5Bprogetto%5D.md), [MDPO25.G](MDPO25.G%20-%20Piano%20di%20Test%20%5Bprogetto%5D.md)) | Cartella della commessa su Drive | Secondo [MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) |
+| Requisiti e piano di test di progetto | Strumenti del cliente | Secondo [MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) |
 | Accessi all'organizzazione vectorlab-cg | GitHub; revisione semestrale [PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md) §6 | Secondo [MDPO15.A](../A_CLASSIFICAZIONE%20INFORMAZIONI/MDPO15.A%20-%20Data%20Retention%20informazioni%20aziendali.md) |
 | Segnalazioni di problemi di sicurezza | Lista ClickUp «Non conformità e miglioramento» ([PR27.1](../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach.md)) | Secondo [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md) |

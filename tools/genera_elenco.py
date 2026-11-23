@@ -59,14 +59,16 @@ def ultima_revisione(text):
 
 def main():
     voci = {}
+    senza_codice = []  # file pubblicati senza codice: non entrano nell'elenco, vanno segnalati
     for f in sorted(DOCS.rglob("*")):
         if not f.is_file() or f.suffix.lower() not in EXT_OK or f.name == "index.md":
             continue
-        if any(p in SKIP_DIRS for p in f.relative_to(DOCS).parts) or f == OUT or f.name.startswith("STATO-"):
+        if any(p in SKIP_DIRS for p in f.relative_to(DOCS).parts) or f.name.startswith("STATO-"):
             continue
         stem = f.stem
         m = CODE_RE.match(stem)
         if not m:
+            senza_codice.append(f.relative_to(DOCS).as_posix())
             continue
         code, title = m.group(1).rstrip("."), m.group(2)
         title = re.sub(r"-?Rev \d+\.\d+$", "", title).strip(" -")
@@ -78,7 +80,10 @@ def main():
         v["formati"].add(f.suffix.lower().lstrip("."))
         if f.suffix.lower() == ".md":
             v["md"] = f
-            v["rev"] = ultima_revisione(f.read_text(encoding="utf-8", errors="replace"))
+            # L'elenco stesso è incluso (7.5.3: tutte le informazioni documentate), ma viene
+            # rigenerato a ogni esecuzione e non ha una tabella «Revisioni»: resta «n.d.».
+            if f != OUT:
+                v["rev"] = ultima_revisione(f.read_text(encoding="utf-8", errors="replace"))
 
     def riga(v):
         rev, data, redatto, approvato = v["rev"] or ("n.d.", "", "", "")
@@ -137,6 +142,8 @@ def main():
         ]
     OUT.write_text("\n".join(out), encoding="utf-8")
     print(f"Generato {OUT.relative_to(DOCS.parent)}: {len(docs)} documenti, {len(regs)} registrazioni")
+    for s in senza_codice:
+        print(f"ATTENZIONE: file senza codice, non incluso nell'elenco: {s}")
 
 
 if __name__ == "__main__":

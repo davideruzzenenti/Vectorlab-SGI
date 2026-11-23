@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Inventario degli asset catalogato come MDPR32.1.B | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -26,7 +27,7 @@ Integrato ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) §4).
 - [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) – Processo Analisi del Rischio e Trattamento
 - [MDPR33.1.A](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.A%20-%20Report%20Analisi%20dei%20Rischi%20-%202026.md) – Report Analisi dei Rischi
 - [MDPR33.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026.md) – Piano di Trattamento dei Rischi
-- asset_inventory_vectorlab – Inventario degli asset
+- [MDPR32.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR32.1.B%20-%20Inventario%20degli%20asset%20-%202026.md) – Inventario degli asset
 - SOA – Dichiarazione di Applicabilità (gestita in ERA)
 - ISO/IEC 27001:2024+A1:2024, 6.1.2 e 6.1.3; ISO/IEC 27005 (linee guida)
 

@@ -9,6 +9,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Tolto il rimando all’Addendum AdS ALPO31.C, ritirato | RSGI | Da approvare |
 
 > Indice
 
@@ -821,7 +822,7 @@ riferimento operativo del team è il PM (responsabile di commessa, [PR35.1](../8
 <td><strong>AUTORIZZAZIONI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Nomina ad Amministratore di Sistema: “<a href="../../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS/">ALPO31.A</a> – Lettera incarico AdS” e “<a href="../../A_CONFORMITA_/ALPO31.C%20-%20Addendum%20Lettera%20Incarico%20AdS/">ALPO31.C</a> – Addendum Lettera Incarico AdS”</p>
+<p>Nomina ad Amministratore di Sistema: “<a href="../../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS/">ALPO31.A</a> – Lettera incarico AdS”</p>
 </blockquote></li>
 </ul></td>
 </tr>
