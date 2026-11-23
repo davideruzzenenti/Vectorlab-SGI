@@ -25,3 +25,34 @@
 .md-typeset table:not([class]) tr:nth-child(even) {
   background-color: var(--md-code-bg-color);
 }
+
+/* Layout (23/11/2026): più spazio alla colonna centrale, barre laterali
+   più strette. Il tema scuro è impostato in mkdocs.yml (palette: slate). */
+
+/* Colonna centrale: quasi tutta la larghezza dello schermo invece del
+   limite fisso di Material (circa 1220 px). */
+.md-grid {
+  max-width: 96vw;
+}
+
+/* Barre laterali più strette, solo su schermi larghi. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {   /* menu di sinistra */
+    width: 10.5rem;
+  }
+  .md-sidebar--secondary { /* indice di destra */
+    width: 9rem;
+  }
+}
+
+/* Menu e indice più compatti. */
+.md-nav {
+  font-size: 0.62rem;
+  line-height: 1.25;
+}
+
+/* Nelle celle il testo va a capo invece di allargare la tabella. */
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  white-space: normal;
+}
