@@ -15,7 +15,7 @@
 
 ## 1 Scopo
 
-Il mansionario descrive le figure dell'organigramma *[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx)*:
+Il mansionario descrive le figure dell'organigramma *[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.md)*:
 responsabilità, competenze, riporti, attività e separazione dei compiti.
 
 Ogni dipendente è associato a uno dei ruoli seguenti; incarico e
@@ -97,7 +97,7 @@ anche i ruoli di CEO, CTO, CISO e RSPP.
 <td><strong>COMPITI</strong></td>
 <td><ul>
 <li><blockquote>
-<p>Definisce l'organizzazione della società, i ruoli e le responsabilità (<a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.A%20-%20Organigramma-Rev%200.0.pptx">ALPO01.A</a>)</p>
+<p>Definisce l'organizzazione della società, i ruoli e le responsabilità (<a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.A%20-%20Organigramma-Rev%200.0/">ALPO01.A</a>)</p>
 </blockquote></li>
 <li><blockquote>
 <p>Individua partnership e strategie di sviluppo tecnologico</p>

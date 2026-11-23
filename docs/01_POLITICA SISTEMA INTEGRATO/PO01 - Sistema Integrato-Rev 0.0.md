@@ -1,448 +1,138 @@
 # PO01 - Sistema Integrato-Rev 0.0
 
-|  |                                |  |
-|  | ------------------------------ |  |
-|  | Politica del Sistema Integrato |  |
+**Politica del Sistema Integrato**
 
 ### Revisioni
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Testo ridotto a parità di contenuti | RSGI | Da approvare |
 
 ## 1 Introduzione
 
-### 1.1 Scopo
+### 1.1 Scopo e destinatari
 
-La presente Politica è utilizzata come strumento per sensibilizzare
-l’intera organizzazione (soci, dipendenti e collaboratori esterni) sui
-principi di Qualità, Sicurezza delle Informazioni aziendali e Protezione
-dei Dati personali e viene applicata in tutti gli ambiti specificati nel
-perimetro di certificazione nonché a tutto il personale di Vectorlab,
-inclusi i collaboratori costanti con Partita IVA, ai clienti e ai
-fornitori coinvolti nel trattamento di informazioni e dati personali.
+La politica stabilisce i principi di Vectorlab per la qualità, la sicurezza delle informazioni e la protezione dei dati personali e serve a farli conoscere a tutta l'organizzazione. Si applica all'intero campo di applicazione del Sistema di Gestione Integrato ed è rivolta a:
 
-### 1.2 Campo di applicazione
+- socio, dipendenti e collaboratori stabili in Partita IVA;
+- clienti, fornitori e partner commerciali coinvolti nel trattamento di informazioni e dati personali.
 
-La presente politica si applica a tutti gli ambiti aziendali, a tutto il
-personale (sia dipendente che in regime di collaborazione professionale
-esterna) coinvolto nel campo di applicazione del Sistema di Gestione
-Integrato e a tutti gli stakeholder identificati nel contesto. Tale
-documento è pertanto rivolto ai seguenti destinatari:
+### 1.2 Riferimenti
 
-  - > dipendenti
+- [ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.md) – Organigramma · [ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e Processi · [ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
+- [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto · [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione Obiettivi · [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) – Misure di sicurezza protezione dati personali
+- [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) – Digital · [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione Commerciale
+- ISO 9001:2026 – Sistemi di gestione per la qualità; la certificazione è sulla ISO 9001:2015 (offerta RINA 2026/CITGE/749), con transizione alla 2026 alla prima ricertificazione
+- UNI CEI EN ISO/IEC 27001:2024+A1:2024 – Sistemi di gestione per la sicurezza delle informazioni
+- Regolamento UE 2016/679 (GDPR)
 
-  - > clienti
+### 1.3 Definizioni
 
-  - > fornitori
+- **CDA** – organo di amministrazione. Vectorlab è una società a socio unico e amministratore unico: le funzioni che il Sistema di Gestione attribuisce al CDA sono esercitate dall'Amministratore Unico.
+- **RSGI** – Responsabile del Sistema di Gestione Integrato.
+- **SGI, SGQ, SGSI** – Sistema di Gestione Integrato, per la Qualità, per la Sicurezza delle Informazioni.
 
-  - > partner commerciali.
+### 1.4 Responsabilità
 
-### 1.3 Riferimenti e Allegati
+Con una struttura snella, le responsabilità sono condivise e non divise per compartimenti. Il socio unico, Andrea Ruzzenenti, partecipa ai processi tecnici e decisionali; amministrazione, dipendenti e collaboratori stabili in Partita IVA fanno parte della gestione operativa. Ogni persona, qualunque sia il suo contratto, è custode del Sistema: il miglioramento continuo è una pratica collettiva e qualità e sicurezza si verificano tra pari nel lavoro di ogni giorno.
 
-[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx) – Organigramma
+### 1.5 Violazione della politica
 
-[ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e Processi
+Ogni azione non conforme alla politica è una violazione della sicurezza e può comportare la sospensione dell'accesso ad aree, risorse informatiche, rete e documenti. L'uso improprio degli strumenti aziendali è una grave violazione del dovere di correttezza e può portare a provvedimenti disciplinari secondo la normativa. I casi gravi sono segnalati all'autorità competente.
 
-[ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
+### 1.6 Riesame
 
-[PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto
+La Direzione riesamina la politica almeno una volta all'anno, prima del Riesame della Direzione, e ogni volta che cambiano in modo significativo l'organizzazione, il business, le norme o le tecnologie. Il riesame valuta l'efficienza e l'efficacia del Sistema e avvia le azioni di miglioramento necessarie, anche quando un cambiamento dell'attività può incidere su qualità, sicurezza delle informazioni od operatività.
 
-[PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione Obiettivi
+## 2 Impostazione della politica
 
-[PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) – Misure di sicurezza protezione dati personali
+Vectorlab considera la soddisfazione di clienti e dipendenti e la cultura della sicurezza condizioni della propria crescita. Per questo ha adottato un Sistema di Gestione per la Qualità e per la Sicurezza delle Informazioni, anche a supporto della protezione dei dati personali secondo il GDPR, con presidi organizzativi adeguati.
 
-DIG - [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) – Digital
-
-BD - [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione Commerciale
-
-> ISO 9001:2026 – Sistemi di Gestione per la Qualità – Requisiti
-
-> ISO 9001:2015 – Sistemi di Gestione per la Qualità – Requisiti
-> (norma di certificazione, offerta RINA 2026/CITGE/749; transizione
-> alla 2026 alla prima ricertificazione)
-
-> UNI CEI EN ISO/IEC 27001:2024+A1:2024 – Sistemi di gestione per la
-> sicurezza delle informazioni, cybersecurity e protezione della
-> privacy – Requisiti
-
-> RDGP (GDPR) – Regolamento Generale sulla Protezione dei Dati
-
-### 1.4 Definizioni, Acronimi, Abbreviazioni
-
-> CDA – Organo di Amministrazione. Coerentemente con la forma societaria
-> di Vectorlab (società a socio unico e amministratore unico), le
-> funzioni e le responsabilità attribuite in questo Sistema di Gestione
-> al CDA sono esercitate dall'Amministratore Unico, quale organo di
-> governo e di approvazione del Sistema di Gestione Integrato.
-
-> RSGI – Responsabile del Sistema di Gestione Integrato
-
-> SGI – Sistema di Gestione Integrato
-
-> SGQ – Sistema di Gestione per la Qualità
-
-> SGSI – Sistema di Gestione per la Sicurezza delle Informazioni.
-
-### 1.5 Responsabilità
-
-In Vectorlab, data la nostra struttura snella, le responsabilità non
-sono compartimenti stagni ma flussi integrati. L'unico socio, Andrea
-Ruzzenenti, partecipa attivamente ai processi tecnici e decisionali. La
-responsabilità è diffusa tra tutti i membri del team, inclusi l'area
-amministrativa, i dipendenti e i collaboratori in P.IVA costante, il cui
-coinvolgimento è parte integrante della gestione operativa.
-
-Ogni componente dell'Organizzazione, indipendentemente dal contratto di
-lavoro, è custode del Sistema Integrato. La gestione snella garantisce
-che il miglioramento continuo sia una pratica collettiva, dove la
-verifica della qualità e della sicurezza avviene peer-to-peer durante lo
-sviluppo quotidiano tra socio fondatore, dipendenti e collaboratori.
-
-### 1.6 Violazione della Politica
-
-Qualsiasi azione non conforme alla politica aziendale di Vectorlab sarà
-considerata una violazione della sicurezza e come tale potrà tradursi
-nella sospensione dell'accesso alle aree e alle risorse informatiche,
-rete e documenti. L'uso improprio degli strumenti aziendali costituisce
-una grave violazione del dovere di correttezza e può comportare
-l'adozione di provvedimenti disciplinari in conformità alla normativa
-vigente.
-
-I casi gravi saranno segnalati all'autorità competente e potranno essere
-oggetto di provvedimenti disciplinari o legali.
-
-### 1.7 Riesame
-
-La revisione di tale politica è effettuata dalla Direzione almeno una
-volta all'anno e prima del Riesame della direzione, e in risposta a
-cambiamenti significativi dell'ambiente organizzativo, del business, di
-riferimenti normativi o dell’ambiente tecnologico aziendale. Il riesame
-è condotto per valutare l'efficienza e l'efficacia del sistema e per
-assicurare che siano implementate le azioni necessarie per consentire il
-miglioramento continuo secondo i requisiti definiti dai sistemi di
-gestione e in tutte le situazioni per le quali è richiesta una modifica
-dell'attività aziendale che possa anche avere impatto sulla qualità,
-sulla sicurezza delle informazioni o sull'operatività.
-
-## 2 Impostazione della Politica
-
-Vectorlab percepisce come necessità di crescita aziendale la sempre
-maggiore diffusione della cultura della soddisfazione del cliente, del
-dipendente e della sicurezza al suo interno, e pertanto ha assunto un
-ruolo attivo e operativo nelle attività di impostazione e di
-implementazione di un Sistema di Gestione per la Qualità (SGQ), di un
-Sistema di Gestione per la Sicurezza delle Informazioni (SGSI) anche a
-supporto della protezione dei dati personali secondo il Regolamento
-europeo GDPR, attuando un modello di governance dell’organizzazione
-volto a definire gli adeguati presidi organizzativi.
-
-La Direzione promuove attivamente il **Risk-Based Thinking** in ogni
-attività aziendale. Vectorlab adotta un approccio basato sul rischio che
-spazia dalla gestione dei singoli progetti allo sviluppo software,
-trasformando ogni potenziale minaccia in un'opportunità concreta di
-miglioramento continuo e innovazione sicura.
+La Direzione promuove il **pensiero basato sul rischio** in ogni attività, dalla gestione dei progetti allo sviluppo del software, per trasformare le minacce in occasioni di miglioramento e di innovazione sicura.
 
 ## 3 Vectorlab
 
-Vectorlab è una software house B2B, a socio unico e amministratore
-unico, specializzata nello sviluppo di software custom ad alto
-contenuto tecnologico. L’azienda realizza applicazioni web, desktop,
-mobile ed embedded, sistemi 3D e di computer graphics, simulatori,
-applicazioni di realtà virtuale e aumentata, videogiochi, piattaforme
-cloud e soluzioni basate su Intelligenza Artificiale.
+Vectorlab è una software house B2B, a socio unico e amministratore unico, specializzata in software su misura ad alto contenuto tecnologico: applicazioni web, desktop, mobile ed embedded, sistemi 3D e di computer graphics, simulatori, realtà virtuale e aumentata, videogiochi, piattaforme cloud e soluzioni di intelligenza artificiale. Lavora per settori come healthcare, difesa, robotica, industria, formazione, gaming, entertainment, lusso e ricerca.
 
-L’attività comprende analisi dei requisiti, progettazione
-architetturale, sviluppo software, integrazione con sistemi e
-dispositivi di terze parti, manutenzione evolutiva, consulenza tecnica
-e ricerca e sviluppo. I progetti vengono realizzati sia come commesse
-complete sia attraverso consulenza specialistica all’interno dei team
-del cliente.
+L'attività copre analisi dei requisiti, progettazione, sviluppo, integrazione con sistemi di terzi, manutenzione evolutiva e consulenza, sia con commesse complete sia con specialisti inseriti nei team del cliente. Le tecnologie si scelgono solo in base ai requisiti del progetto, senza dipendere da un fornitore, e il cliente è coinvolto in tutte le fasi di uno sviluppo iterativo. Vectorlab sviluppa anche tecnologie e prodotti propri (intelligenza artificiale, LLM, computer graphics, applicazioni realtime) e dedica risorse alla ricerca e sviluppo.
 
-Vectorlab opera in diversi settori, tra cui healthcare, difesa,
-robotica, industria, formazione, gaming, entertainment, lusso e
-ricerca, sviluppando soluzioni su misura in funzione delle esigenze
-specifiche di ciascun cliente.
+La struttura è snella e orizzontale: un team compatto e multidisciplinare, decisioni rapide, comunicazione diretta e responsabilità tracciate con strumenti digitali (versionamento del codice, tracciamento dei progetti, revisione tra pari).
 
-L’azienda adotta un approccio tecnologicamente indipendente: linguaggi,
-framework, motori grafici, servizi cloud e modelli di Intelligenza
-Artificiale vengono selezionati esclusivamente in base ai requisiti
-tecnici e funzionali del progetto, senza dipendere da specifici vendor.
-
-Oltre alle attività conto terzi, Vectorlab investe nello sviluppo di
-tecnologie e prodotti proprietari, con particolare attenzione ai
-sistemi basati su Intelligenza Artificiale, Large Language Models,
-computer graphics e applicazioni realtime. L’azienda dedica inoltre
-parte delle proprie risorse ad attività di ricerca e sviluppo, alla
-sperimentazione di nuove tecnologie e alla realizzazione di componenti
-software riutilizzabili.
-
-Il processo di sviluppo è iterativo e collaborativo e prevede il
-coinvolgimento continuo del cliente durante tutte le fasi del progetto,
-dalla definizione dei requisiti fino al rilascio e alla manutenzione
-del software.
-
-Vectorlab mantiene una struttura organizzativa volutamente snella e
-orizzontale, in cui le competenze tecniche e gestionali sono
-distribuite su un team compatto e multidisciplinare. Questo modello
-favorisce rapidità decisionale, comunicazione diretta tra tutte le
-funzioni aziendali e un forte allineamento tra strategia, sviluppo e
-delivery, con responsabilità distribuite e verificate tramite strumenti
-digitali di controllo e tracciabilità (versionamento del codice,
-sistemi di project tracking, revisione tra pari).
-
-### 3.1 Area Digital
-
-L’area Digital è dedicata alla progettazione, sviluppo e integrazione di
-soluzioni software, applicazioni digitali, sistemi interattivi e
-tecnologie innovative.
-
-L’area opera nell’ambito dello sviluppo software custom, delle
-tecnologie immersive, della computer grafica 3D, dell’automazione dei
-processi e delle soluzioni basate su tecnologie emergenti.
-
-Le attività e i servizi erogati da questa area di business sono
-dettagliatamente descritti nella procedura “*PR 35.1 – Digital”.*
-
-### 3.2 Area Business Development
-
-L’Area Business Development è responsabile dello sviluppo commerciale,
-della gestione delle relazioni con clienti e partner e
-dell’individuazione di nuove opportunità di mercato.
-
-L’area supporta l’Organizzazione nella definizione delle offerte
-commerciali, nella gestione delle commesse e nel coordinamento delle
-attività orientate alla crescita e al consolidamento del business.
-
-Le attività e i servizi erogati da questa area di business sono
-dettagliatamente descritti nella procedura “*[PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione
-Commerciale”.*
-
-### 3.3 Area Innovation & Research Projects
-
-Internamente all’area Ricerca e Sviluppo, l’area Innovation & Research
-Projects è dedicata alle attività di ricerca, sperimentazione e sviluppo
-di soluzioni innovative ad alto contenuto tecnologico.
-
-L’area si occupa dell’analisi di nuove tecnologie, dello sviluppo di
-prototipi e della realizzazione di progetti innovativi nell’ambito
-software, automazione, intelligenza artificiale e tecnologie immersive.
-
-Le attività di quest'area (progetti di ricerca, anche finanziati da
-bandi) sono escluse dal campo di applicazione del Sistema di Gestione
-Integrato ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md), sez. 4.4).
+| Area | Attività | Riferimento |
+| ---- | -------- | ----------- |
+| Digital | Progettazione, sviluppo e integrazione di software su misura, tecnologie immersive, grafica 3D, automazione e tecnologie emergenti | [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) |
+| Business Development | Sviluppo commerciale, relazioni con clienti e partner, offerte e nuove opportunità | [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) |
+| Innovation & Research Projects | Ricerca, sperimentazione e prototipi, anche in progetti finanziati da bandi | Esclusa dal campo di applicazione ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) §4.4) |
 
 ## 4 Contesto
 
-L’Organizzazione ha identificato il contesto in termini di siti fisici,
-ambienti cloud, stakeholder afferenti al sistema di gestione e ha
-mappato i processi aziendali sia di core business che di supporto in
-documento “*[PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md)* *– Gestione del Contesto*”.
+Siti, ambienti cloud, parti interessate e processi sono descritti in [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto; l'analisi delle parti interessate è in [ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) e l'organigramma, coerente con i processi, in [ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.md).
 
-L’analisi degli Stakeholder interni ed esterni di Vectorlab è illustrata
-in dettaglio nell’Allegato “*[ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder”.*
+## 5 Politica per la qualità, la sicurezza delle informazioni e la protezione dei dati personali
 
-L'organigramma è definito in "*[ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.pptx)* *– Organigramma*" e riflette
-la struttura dei processi definiti nel contesto.
+Vectorlab si impegna a:
 
-## 5 Politica per la Qualità, la Sicurezza delle informazioni e la Protezione dei dati personali
+- proteggere le persone e il patrimonio informativo da minacce interne o esterne, intenzionali o accidentali, e svolgere il proprio business nel rispetto della sicurezza delle informazioni;
+- attuare, gestire, monitorare, riesaminare e migliorare il Sistema di Gestione Integrato secondo la UNI CEI EN ISO/IEC 27001:2024+A1:2024, la ISO 9001:2026 (certificazione sulla ISO 9001:2015, i cui requisiti sono coperti) e il Regolamento UE 2016/679;
+- garantire a clienti e dipendenti prodotti sicuri e di qualità;
+- valorizzare il capitale umano, suo asset fondamentale, con formazione continua e condivisione della conoscenza, allineate agli standard di sicurezza e qualità.
 
-Vectorlab si impegna a proteggere da minacce, interne o esterne,
-intenzionali o accidentali, le persone, il patrimonio informativo
-aziendale e a svolgere attività di business nel pieno rispetto della
-Sicurezza delle Informazioni.
+**Pilastri strategici**
 
-Vectorlab si impegna ad attuare, implementare, gestire, monitorare,
-revisionare, mantenere e migliorare il sistema di gestione per la
-Sicurezza delle Informazioni, Qualità e Protezione dei dati personali in
-conformità alla norma UNI CEI EN ISO/IEC 27001:2024+A1:2024, alla
-norma ISO 9001:2026 (certificazione sulla ISO 9001:2015, i cui
-requisiti sono coperti) e al Regolamento UE 2016/679.
+- **Indipendenza tecnologica**: tecnologie e strumenti si scelgono solo in base ai requisiti e agli obiettivi del progetto.
+- **Sviluppo iterativo e collaborativo**: il coinvolgimento costante del cliente è il principale metodo di verifica della qualità in ogni fase.
+- **Sicurezza proattiva**: *security by design*, cioè rischi valutati e mitigati già in architettura e progettazione, non solo al rilascio.
 
-Con l’attuazione della presente politica, Vectorlab garantisce ai propri
-dipendenti e Clienti prodotti sicuri nel rispetto della qualità e della
-sicurezza delle informazioni.
+### 5.1 Obiettivi per la sicurezza delle informazioni e la qualità
 
-Vectorlab riconosce nel capitale umano il proprio asset fondamentale. Ci
-impegniamo a valorizzare le competenze specifiche del team attraverso la
-formazione continua e la condivisione sistematica della conoscenza,
-garantendo che l'eccellenza tecnica del nostro team sia costantemente
-allineata agli standard di sicurezza e qualità.
+Vectorlab si propone di assicurare che:
 
-**Pilastri Strategici di Vectorlab**
+- le informazioni siano protette da accessi e divulgazioni non autorizzati (riservatezza), da modifiche non autorizzate (integrità) e siano disponibili agli utenti autorizzati quando servono (disponibilità);
+- gli accessi fisici e logici seguano una procedura definita, documentata e riesaminata periodicamente;
+- gli incidenti di sicurezza, in particolare quelli che coinvolgono dati personali (data breach), siano comunicati subito e gestiti secondo una procedura documentata;
+- esistano piani di continuità aggiornati e verificati;
+- l'accesso di terzi a informazioni e asset sia concesso solo dopo controlli adeguati;
+- dipendenti e personale esterno che opera a lungo nell'organizzazione ricevano formazione su qualità, sicurezza delle informazioni e protezione dei dati;
+- la soddisfazione del cliente resti al centro di prodotti e servizi.
 
-  - > **Approccio Tecnologicamente Indipendente**: selezioniamo le
-    > tecnologie e i tool esclusivamente in base ai requisiti tecnici e
-    > agli obiettivi del progetto, mantenendo la totale indipendenza dai
-    > singoli vendor.
+### 5.2 Protezione dei dati personali
 
-  - > **Sviluppo Iterativo e Collaborativo**: consideriamo il
-    > coinvolgimento costante del cliente non solo come un feedback, ma
-    > come il principale metodo di validazione della qualità del
-    > prodotto in ogni fase del ciclo di vita.
+Titolare del trattamento è il Legale Rappresentante (Amministratore Unico), responsabile di ogni trattamento svolto direttamente o per conto di Vectorlab. Vectorlab adotta misure adeguate ed efficaci, commisurate a natura, ambito, contesto e finalità del trattamento e al rischio per i diritti e le libertà delle persone, ed è in grado di dimostrarne la conformità al GDPR e l'efficacia. In particolare:
 
-  - > **Cultura della Sicurezza Proattiva**: adottiamo il principio
-    > della "security by design"; la valutazione e la mitigazione del
-    > rischio iniziano nella fase di architettura e progettazione, non
-    > solo al momento del rilascio.
+- tiene il registro delle attività di trattamento, come titolare e come responsabile;
+- svolge la valutazione d'impatto quando è richiesta;
+- applica misure tecniche e organizzative scelte con l'analisi dei rischi;
+- non è obbligata a nominare un Responsabile della Protezione dei Dati (art. 37 GDPR) e si avvale di un Referente Privacy interno ([PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md));
+- definisce ruoli e responsabilità del trattamento, all'interno e se necessario all'esterno.
 
-Vectorlab si impegna ad adempiere agli obblighi di adeguamento al
-Regolamento Generale sulla Protezione dei Dati (GDPR/RDGP) direttamente
-applicabile a partire da 25 Maggio 2018, attraverso:
+I dati sono trattati secondo i principi del GDPR: con responsabilizzazione (*accountability*) e protezione fin dalla progettazione e per impostazione predefinita; in modo lecito, corretto e trasparente; per finalità determinate, esplicite e legittime; in modo adeguato, pertinente e limitato al necessario; esatti e aggiornati; conservati solo per il tempo necessario; nel rispetto dei diritti degli interessati; in sicurezza; senza trasferimenti all'estero privi di adeguate garanzie.
 
-  - > l’elaborazione del registro delle attività di trattamento (sia
-    > come Titolare del Trattamento che Responsabile esterno);
+### 5.3 Impegni della Direzione
 
-  - > la valutazione d'impatto sulla protezione dei dati, laddove
-    > applicabile;
+L'Amministratore Unico, in qualità di Direzione, si impegna a:
 
-  - > l’applicazione di misure tecniche ed organizzative adeguate intese
-    > a garantire la sicurezza dei dati e derivanti da un processo di
-    > analisi del rischio;
+- soddisfare i requisiti applicabili: dei clienti e dei contratti, cogenti (leggi e regolamenti, tra cui il GDPR) e relativi alla sicurezza delle informazioni;
+- fissare ogni anno obiettivi misurabili per la qualità e la sicurezza delle informazioni, coerenti con questa politica e con l'analisi dei rischi, secondo [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md); gli obiettivi sono registrati in [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) e verificati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md));
+- migliorare in modo continuo l'efficacia del Sistema, a partire dai risultati di audit, non conformità ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)), indicatori ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md)) e Riesame della Direzione;
+- rendere disponibili le risorse necessarie al Sistema.
 
-  - > la valutazione della necessità di designare un Responsabile della
-    > Protezione dei Dati (DPO): Vectorlab non rientra nei casi di
-    > designazione obbligatoria (art. 37 GDPR) e si avvale di un
-    > Referente Privacy interno, come descritto in [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md);
+## 6 Ambito di applicazione
 
-  - > definizione all'interno (e se necessario all’esterno) dell’azienda
-    > di ruoli e responsabilità relativi al trattamento dei dati.
-
-Vectorlab si impegna ad attenersi ai principi di protezione dei dati
-contenuti nel GDPR per garantire che tutti i dati siano:
-
-  - > trattati dimostrando l’accountability, nel rispetto dei principi
-    > di privacy by design e by default;
-
-  - > trattati in modo lecito, corretto e trasparente;
-
-  - > raccolti per finalità determinate, esplicite e legittime, e
-    > successivamente trattati in modo che siano compatibili con tali
-    > finalità;
-
-  - > adeguati, pertinenti e non sovrabbondanti;
-
-  - > accurati e mantenuti aggiornati;
-
-  - > conservati per il tempo necessario;
-
-  - > trattati in conformità dei diritti dell'interessato;
-
-  - > sicuri;
-
-  - > non trasferiti all'estero senza adeguata protezione.
-
-Sono state stabilite le responsabilità generali del Titolare del
-trattamento nella figura del Legale Rappresentante (Amministratore
-Unico) per
-qualsiasi trattamento di dati personali che effettui direttamente o che
-altri effettuino per suo conto. In particolare, Vectorlab mette in atto
-misure adeguate ed efficaci, così da essere in grado di dimostrare la
-conformità delle attività di trattamento con il GDPR, compresa
-l’efficacia delle misure, che tengono conto della natura, dell’ambito
-di applicazione, del contesto e delle finalità del trattamento, nonché
-del rischio per i diritti e le libertà delle persone fisiche.
-
-È scopo di Vectorlab assicurare che:
-
-  - > le informazioni siano protette da accessi non autorizzati e non
-    > vengano divulgate a persone non autorizzate;
-
-  - > vengano definiti programmi formativi di dettaglio sulla Qualità,
-    > sulla Sicurezza delle Informazioni e sulla Protezione dei Dati
-    > personali per tutti i dipendenti interni e per tutto il personale
-    > esterno che opera per prolungati periodi all’interno
-    > dell’organizzazione qualora si verificasse quest’ultima
-    > eventualità.
-
-  - > l’integrità delle informazioni sia protetta e salvaguardata da
-    > modifiche non autorizzate;
-
-  - > venga definita, documentata e riesaminata periodicamente una
-    > procedura per il controllo degli accessi alle informazioni basata
-    > sui requisiti per l’accesso relativi alla sicurezza e all’attività
-    > dell’Azienda, dettagliando in base a accessi fisici e accessi
-    > logici;
-
-  - > venga definita e documentata la procedura per la comunicazione
-    > tempestiva e per la gestione degli incidenti in caso di minaccia
-    > alla sicurezza dell’informazione in particolar modo quando questi
-    > coinvolgano dati personali (Data Breach);
-
-  - > le informazioni siano a disposizione degli utenti autorizzati
-    > quando ne hanno bisogno;
-
-  - > vengano redatti piani per la continuità dell’attività aziendale, e
-    > che tali piani siano il più possibile tenuti aggiornati e
-    > controllati;
-
-  - > quando è concesso l’accesso alle informazioni o agli asset
-    > dell’Organizzazione da parte di terzi vengano attuati controlli
-    > appropriati prima di concedere l’accesso;
-
-  - > sia sempre messa al centro delle attività per la realizzazione di
-    > prodotti/servizi la soddisfazione del cliente.
-
-<!-- end list -->
-
-### 5.1 Impegni della Direzione
-
-L’Amministratore Unico, in qualità di Direzione, si impegna a:
-
-  - > soddisfare i requisiti applicabili: quelli dei clienti e dei
-    > contratti, quelli cogenti (leggi e regolamenti, tra cui il GDPR) e
-    > quelli relativi alla sicurezza delle informazioni;
-
-  - > fissare ogni anno obiettivi misurabili per la qualità e la
-    > sicurezza delle informazioni, coerenti con questa politica e con
-    > i risultati dell’analisi dei rischi, secondo [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione
-    > Obiettivi; gli obiettivi sono registrati in [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) – Lista
-    > Obiettivi e verificati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md));
-
-  - > migliorare in modo continuo l’efficacia del Sistema di Gestione
-    > Integrato, a partire dai risultati degli audit, delle non
-    > conformità ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)), degli indicatori ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md)) e del Riesame
-    > della Direzione;
-
-  - > rendere disponibili le risorse necessarie al Sistema di Gestione
-    > Integrato.
-
-## 6 Ambito di Applicazione
-
-L’obiettivo di Vectorlab è quello di certificare l’azienda in materia di
-qualità e sicurezza delle informazioni, in quanto ritiene che questo
-possa essere di supporto al business e quindi al raggiungimento degli
-obiettivi strategici. La Direzione ha definito il seguente ambito di
-certificazione:
+Vectorlab certifica il proprio Sistema di Gestione per la qualità e la sicurezza delle informazioni perché lo ritiene un supporto al business e ai propri obiettivi strategici. La Direzione ha definito l'ambito di certificazione:
 
 Sistema di Gestione Integrato Qualità e Sicurezza delle Informazioni
 
-***“Progettazione, sviluppo software e consulenza in particolare in
-ambito deep tech”.***
+***“Progettazione, sviluppo software e consulenza in particolare in ambito deep tech”.***
 
-***“Design, software development and consultancy primarily in deep
-tech”.***
+***“Design, software development and consultancy primarily in deep tech”.***
 
-Il campo di applicazione riguarda il servizio erogato tramite la
-business unit Ynsera: team di sviluppo e consulenza software di
-Vectorlab inseriti nei progetti dei clienti. Sono escluse la vendita di
-prodotti della unit Vectorlab, la partecipazione a bandi e i progetti di
-ricerca.
+Il campo di applicazione riguarda il servizio erogato tramite la business unit Ynsera: team di sviluppo e consulenza software di Vectorlab inseriti nei progetti dei clienti. Sono escluse la vendita di prodotti della unit Vectorlab, la partecipazione a bandi e i progetti di ricerca. Sede, aree incluse, interfacce con i fornitori ed esclusioni sono descritte in [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto, sez. 4.
 
-Sede, aree incluse, interfacce con i fornitori ed esclusioni sono
-descritte in [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto, sez. 4.
+## 7 Comunicazione e disponibilità della politica
 
-## 7 Comunicazione e disponibilità della Politica
+La politica è:
 
-La presente politica è:
-
-  - > approvata dall’Amministratore Unico e riesaminata secondo il
-    > par. 1.7;
-
-  - > comunicata a tutto il personale e ai collaboratori al momento
-    > dell’inserimento e a ogni nuova revisione, e resa disponibile
-    > nell’archivio documentale del Sistema di Gestione Integrato;
-
-  - > resa disponibile alle parti interessate (clienti, fornitori,
-    > partner) su richiesta, secondo
-    > [MDPO07.A](../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione.
+- approvata dall'Amministratore Unico e riesaminata secondo il par. 1.6;
+- comunicata a tutto il personale e ai collaboratori all'inserimento e a ogni nuova revisione, e disponibile nell'archivio documentale del Sistema di Gestione Integrato;
+- resa disponibile alle parti interessate (clienti, fornitori, partner) su richiesta, secondo [MDPO07.A](../7.4_COMUNICAZIONI/MDPO07.A%20-%20Piano%20della%20Comunicazione.md) – Piano della Comunicazione.

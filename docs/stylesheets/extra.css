@@ -234,3 +234,18 @@
   .md-typeset .sgi-flusso, .md-typeset .sgi-contesto { grid-template-columns: 1fr; }
   .md-typeset .sgi-freccia { justify-self: center; transform: rotate(90deg); }
 }
+
+/* ---------- 7. Organigramma in SVG (ALPO01.A) ---------- */
+
+.md-typeset .sgi-org-svg svg { width: 100%; max-width: 62rem; height: auto; display: block; margin: 0.8rem auto 0; }
+.md-typeset .sgi-org-svg .org-l { fill: none; stroke: var(--md-default-fg-color--light); stroke-width: 1.2; }
+.md-typeset .sgi-org-svg .org-tratt { stroke-dasharray: 5 4; }
+.md-typeset .sgi-org-svg .org-box rect { fill: var(--md-default-bg-color); stroke: var(--md-default-fg-color--light); stroke-width: 1.2; }
+.md-typeset .sgi-org-svg .org-box.dir rect { fill: rgba(127, 119, 221, 0.18); stroke: #7F77DD; }
+.md-typeset .sgi-org-svg .org-box.pri rect { fill: rgba(29, 158, 117, 0.18); stroke: #1D9E75; }
+.md-typeset .sgi-org-svg .org-box.est rect { stroke-dasharray: 5 4; }
+.md-typeset .sgi-org-svg text { text-anchor: middle; dominant-baseline: central; fill: var(--md-default-fg-color); font-family: var(--md-text-font-family, sans-serif); }
+.md-typeset .sgi-org-svg .org-t { font-size: 15px; font-weight: 600; }
+.md-typeset .sgi-org-svg .org-s { font-size: 13px; fill: var(--md-default-fg-color--light); }
+.md-typeset .sgi-org-svg .org-team-t { text-anchor: start; font-size: 13px; }
+.md-typeset .sgi-org-svg a:hover rect { stroke: var(--md-accent-fg-color); stroke-width: 2; }
