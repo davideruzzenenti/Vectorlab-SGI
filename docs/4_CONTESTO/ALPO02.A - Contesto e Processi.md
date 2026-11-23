@@ -35,7 +35,7 @@ Rappresenta il contesto dell'organizzazione e i processi del Sistema di Gestione
 <p class="sgi-etichetta">Processi di direzione</p>
 <div class="sgi-riga">
 <div class="sgi-box dir"><strong>Contesto e rischi</strong><span><a href="../../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto/">PO02</a> · <a href="../../6.1_ANALISI%20DEI%20RISCHI/PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento/">PR33.1</a></span></div>
-<div class="sgi-box dir"><strong>Politica e obiettivi</strong><span><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/">PO01</a> · <a href="../../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi/">PO03</a></span></div>
+<div class="sgi-box dir"><strong>Politica e obiettivi</strong><span><a href="../../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0/">PO01</a> · <a href="../../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi/">MDPO03.A</a></span></div>
 <div class="sgi-box dir"><strong>Riesame della direzione</strong><span><a href="../../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione/">PR12.1</a></span></div>
 </div>
 <p class="sgi-etichetta">Processi primari: servizio Ynsera</p>
@@ -58,7 +58,7 @@ Rappresenta il contesto dell'organizzazione e i processi del Sistema di Gestione
 </div>
 <p class="sgi-etichetta">Monitoraggio e miglioramento</p>
 <div class="sgi-riga">
-<div class="sgi-box dir"><strong>Indicatori</strong><span><a href="../../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione/">PR10.1</a></span></div>
+<div class="sgi-box dir"><strong>Indicatori</strong><span><a href="../../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori/">MDPR10.1.A</a></span></div>
 <div class="sgi-box dir"><strong>Audit interno</strong><span><a href="../../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno/">PR11.1</a></span></div>
 <div class="sgi-box dir"><strong>NC e incidenti</strong><span><a href="../../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento/">PR13.1</a> · <a href="../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/">PR27.1</a></span></div>
 <div class="sgi-box dir"><strong>Cambiamenti e continuità</strong><span><a href="../../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento/">PR19.1</a> · <a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/">PR28.1</a></span></div>

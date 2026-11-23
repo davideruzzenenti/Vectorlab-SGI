@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Rimando a PR10.1 (ritirata) sostituito da MDPR10.1.A | RSGI | Da approvare |
 
 Piano delle comunicazioni rilevanti per il Sistema di Gestione Integrato
 (ISO 9001:2026 e ISO/IEC 27001:2024+A1, 7.4 Comunicazione; [PO07](PO07%20-%20Politica%20Gestione%20della%20Comunicazione.md)). Per
@@ -37,7 +38,7 @@ Indirizzi comuni: **privacy@vectorlab-cg.com** (Referente Privacy),
 | --- | --- | --- | --- | --- | --- |
 | Offerte, contratti, ordini | Business Development / Amministratore Unico | Clienti | Quando serve | Mail; firma digitale | Cartella del cliente su Drive; CRM in ClickUp |
 | Comunicazioni di progetto (avanzamento, problemi, rilasci) | PM | Cliente | Secondo gli accordi di commessa | Strumenti concordati con il cliente | [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) |
-| Questionario di soddisfazione | PM | Cliente | A fine commessa e ogni anno per i clienti continuativi | Pagina web | [MDPR10.1.B](../9.1_MONITORAGGIO%20KPI/MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente.md) ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md) §6) |
+| Questionario di soddisfazione | PM | Cliente | A fine commessa e ogni anno per i clienti continuativi | Pagina web | [MDPR10.1.B](../9.1_MONITORAGGIO%20KPI/MDPR10.1.B%20%20-%20Analisi%20Soddisfazione%20Cliente.md) ([MDPR10.1.A](../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori.md), «Soddisfazione del cliente») |
 | Reclami dei clienti | Cliente | PM / RSGI | Quando emergono | Mail | Lista ClickUp «Non conformità e miglioramento» |
 | Ordini, fatture, comunicazioni amministrative | Amministrazione | Fornitori, clienti | Quando serve | Mail; PEC per le comunicazioni con valore legale | Archivio dell'Amministrazione |
 | Requisiti di sicurezza per i fornitori | Amministrazione / RSGI | Fornitori critici | Alla qualifica e a ogni cambio rilevante | Lettera [ALPR26.1.A](../A_FORNITORI/ALPR26.1.A%20-%20Comunicazione%20e%20requisiti%20di%20sicurezza%20per%20i%20fornitori.md) | Elenco fornitori [MDPR26.1.B](../A_FORNITORI/MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati.md) |

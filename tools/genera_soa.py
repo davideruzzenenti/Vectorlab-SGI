@@ -41,7 +41,12 @@ REVISIONI_EXTRA = [
      "Nuova vista (riepilogo e dettaglio); corretti il campo Set controlli "
      "e l'intestazione della sezione 7; tolta la sezione AGID CSP-SAAS "
      "(residui di un altro cliente); tolti i rimandi ai documenti ritirati "
-     "il 23/11/2026", "RSGI", "Da approvare", "Interno"),
+     "il 23/11/2026; nel controllo 5.1 PO03 sostituito da MDPO03.A, nel 5.37 PR10.1 sostituita da MDPR10.1.A", "RSGI", "Da approvare", "Interno"),
+    ("0.2", "23/11/2026",
+     "Motivo R (Risultato analisi dei rischi) sui 77 controlli collegati ad asset "
+     "nell'analisi ERA «Agosto 2026»; 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a "
+     "«non attuato» per allineamento con ERA e con il piano di trattamento MDPR33.1.B",
+     "RSGI", "Da approvare", "Interno"),
 ]
 # Indici delle colonne nella tabella Controlli della sorgente
 C = dict(id=0, titolo=1, testo=2, set=3, app_si=5, app_no=6, att_si=7, att_no=8,

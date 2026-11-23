@@ -5,15 +5,18 @@
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
 <tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.1</td><td>23/11/2026</td><td colspan="4">Aggiunte le regole per la gestione degli obiettivi, prima in PO03 (ritirato)</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
-## Obiettivi 2026–2027
+## Regole per la gestione degli obiettivi
 
-Obiettivi di azione e di prestazione secondo [PO03](PO03%20-%20Gestione%20Obiettivi.md) – Gestione Obiettivi.
-Lo stato è aggiornato da RSGI almeno prima di ogni Riesame della
-Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)), che valuta il raggiungimento e fissa i nuovi
-obiettivi. Esito: completato secondo quanto pianificato; completato ma
-non secondo quanto pianificato; non completato ([PO03](PO03%20-%20Gestione%20Obiettivi.md) §2.1.2).
+- **Origine**: gli obiettivi nascono dalla politica ([PO01](../01_POLITICA%20SISTEMA%20INTEGRATO/PO01%20-%20Sistema%20Integrato-Rev%200.0.md)), dal piano di trattamento dei rischi ([MDPR33.1.B](../B_REGISTRAZIONI/Analisi%20dei%20Rischi/2026/MDPR33.1.B%20-%20Piano%20di%20Trattamento%20dei%20Rischi%20-%202026.md)), dagli indicatori ([MDPR10.1.A](../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori.md)) e dai risultati di audit, non conformità e incidenti.
+- **Contenuto**: per ogni obiettivo si indicano cosa fare, risorse, responsabile (owner), scadenza e come si verifica il risultato, con indicatore e traguardo quando è misurabile (colonne della tabella).
+- **Responsabilità**: l'Amministratore Unico approva gli obiettivi; l'owner li porta avanti; RSGI aggiorna lo stato almeno prima di ogni Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)), che valuta i risultati e fissa i nuovi obiettivi.
+- **Comunicazione e aggiornamento**: gli obiettivi si comunicano alle persone coinvolte e si aggiornano quando cambiano le condizioni.
+- **Esito**: completato secondo quanto pianificato; completato ma non secondo quanto pianificato; non completato. Per gli obiettivi con un indicatore si riporta anche il valore raggiunto rispetto al traguardo.
+
+## Obiettivi 2026–2027
 
 | # | Obiettivo | Origine | Owner | Indicatore e traguardo | Scadenza | Risorse | Come si verifica | Stato |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

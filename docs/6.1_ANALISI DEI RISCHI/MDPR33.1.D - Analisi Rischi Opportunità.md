@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Rimando a PR10.1 (ritirata) sostituito da MDPR10.1.A | RSGI | Da approvare |
 
 Registro dei rischi e delle opportunità per la qualità del servizio e la
 soddisfazione dei clienti (ISO 9001:2026, 6.1; [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) «Rischi e
@@ -29,7 +30,7 @@ basso, 6–8 medio, 9–16 alto.
 | R3 | Lavoro dentro gli ambienti e con le regole dei clienti (I/E) | Clienti | Requisiti del cliente (qualità, sicurezza, privacy) non chiariti all'avvio | 3 | 2 | 6 | Avvio commessa secondo [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) | Checklist di avvio commessa con requisiti, strumenti e accessi concordati | PM | PS4 (reclami) | 31/03/2027 | 3 |
 | R4 | Uso di strumenti di intelligenza artificiale nello sviluppo (I/E) | Clienti, Garante, legislatore (AI Act) | Dati o codice del cliente inseriti in servizi non autorizzati; obblighi AI Act | 3 | 2 | 6 | Strumenti autorizzati ([PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) §2.3); [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) | Formazione annuale sull'uso dell'AI; verifica nel Riesame dei requisiti AI Act | CTO / RSGI | RU1 | 30/06/2027 | 3 |
 | R6 | Dipendenza da fornitori cloud e dal server Aruba (E) | Clienti, personale | Interruzione dei servizi interni | 2 | 2 | 4 | BIA ([MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md)); backup del server ([PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md)) | — | — | — | — | — |
-| R7 | Soddisfazione dei clienti non misurata in modo sistematico (I) | Clienti | Problemi di qualità scoperti tardi | 3 | 3 | 9 | — | Questionario a fine commessa e annuale ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md) §6) | PM / RSGI | PS5 | 15/12/2026 | 3 |
+| R7 | Soddisfazione dei clienti non misurata in modo sistematico (I) | Clienti | Problemi di qualità scoperti tardi | 3 | 3 | 9 | — | Questionario a fine commessa e annuale ([MDPR10.1.A](../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori.md), «Soddisfazione del cliente») | PM / RSGI | PS5 | 15/12/2026 | 3 |
 
 ## 2 Opportunità
 

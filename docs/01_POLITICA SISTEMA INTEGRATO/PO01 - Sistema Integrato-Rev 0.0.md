@@ -7,7 +7,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Testo ridotto a parità di contenuti | RSGI | Da approvare |
+| 0.1 | 23/11/2026 | Testo ridotto a parità di contenuti; rimandi a PO03 e PR10.1 sostituiti da MDPO03.A e MDPR10.1.A | RSGI | Da approvare |
 
 ## 1 Introduzione
 
@@ -21,7 +21,7 @@ La politica stabilisce i principi di Vectorlab per la qualità, la sicurezza del
 ### 1.2 Riferimenti
 
 - [ALPO01.A](ALPO01.A%20-%20Organigramma-Rev%200.0.md) – Organigramma · [ALPO02.A](../4_CONTESTO/ALPO02.A%20-%20Contesto%20e%20Processi.md) – Contesto e Processi · [ALPO02.B](../4_CONTESTO/ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
-- [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto · [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md) – Gestione Obiettivi · [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) – Misure di sicurezza protezione dati personali
+- [PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) – Gestione del Contesto · [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) – Lista Obiettivi · [PO31](../A_CONFORMITA_/PO31%20-%20Misure%20di%20sicurezza%20protezione%20dati%20personali.md) – Misure di sicurezza protezione dati personali
 - [PR35.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) – Digital · [PR09.1](../8.2_PRODOTTI%20%26%20SERVIZI/PR09.1%20-%20Gestione%20Commerciale.md) – Gestione Commerciale
 - ISO 9001:2026 – Sistemi di gestione per la qualità; la certificazione è sulla ISO 9001:2015 (offerta RINA 2026/CITGE/749), con transizione alla 2026 alla prima ricertificazione
 - UNI CEI EN ISO/IEC 27001:2024+A1:2024 – Sistemi di gestione per la sicurezza delle informazioni
@@ -113,8 +113,8 @@ I dati sono trattati secondo i principi del GDPR: con responsabilizzazione (*acc
 L'Amministratore Unico, in qualità di Direzione, si impegna a:
 
 - soddisfare i requisiti applicabili: dei clienti e dei contratti, cogenti (leggi e regolamenti, tra cui il GDPR) e relativi alla sicurezza delle informazioni;
-- fissare ogni anno obiettivi misurabili per la qualità e la sicurezza delle informazioni, coerenti con questa politica e con l'analisi dei rischi, secondo [PO03](../6.2_OBIETTIVI/PO03%20-%20Gestione%20Obiettivi.md); gli obiettivi sono registrati in [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) e verificati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md));
-- migliorare in modo continuo l'efficacia del Sistema, a partire dai risultati di audit, non conformità ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)), indicatori ([PR10.1](../9.1_MONITORAGGIO%20KPI/PR10.1-Procedura%20Gestione%20del%20Monitoraggio%2C%20misurazione%2C%20analisi%20e%20valutazione.md)) e Riesame della Direzione;
+- fissare ogni anno obiettivi misurabili per la qualità e la sicurezza delle informazioni, coerenti con questa politica e con l'analisi dei rischi; gli obiettivi e le regole per gestirli sono in [MDPO03.A](../6.2_OBIETTIVI/MDPO03.A%20-%20Lista%20Obiettivi.md) e sono verificati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md));
+- migliorare in modo continuo l'efficacia del Sistema, a partire dai risultati di audit, non conformità ([PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md)), indicatori ([MDPR10.1.A](../9.1_MONITORAGGIO%20KPI/MDPR10.1.A%20-%20Tabella%20Indicatori.md)) e Riesame della Direzione;
 - rendere disponibili le risorse necessarie al Sistema.
 
 ## 6 Ambito di applicazione
