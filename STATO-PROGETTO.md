@@ -176,21 +176,19 @@ Visura camerale aggiornata (estratta il 09/09/2026) ricevuta: conferma sede 39/2
 - **PR11.1** (rev 0.3) e **PR12.1** (rev 0.2): allineate al registro NC in ClickUp, ai codici corretti dei documenti sui rischi e degli obiettivi, al campo di applicazione.
 - Utenze: 10 account Google Workspace (verifica in due passaggi: vedi riunione del 18/11); 4 interni in ClickUp con Gmail personale (task di correzione creato in ClickUp, scadenza 30/10).
 
-## Incidenti e prima non conformità (23–24/10/2026)
+## Incidenti e segnalazioni (23–24/10/2026)
 
-- Prima NC registrata nella lista ClickUp: certificato SSL *.vectorlab-cg.com scaduto il 21/10 (n8n e sito Ynsera con problemi, nessun cliente coinvolto); causa: mancato passaggio di informazioni tra acquisto (Amministrazione) e installazione (IT esterno).
 - **PR27.1** (rev 0.2) e **PR13.1**: segnalazioni a sicurezza@vectorlab-cg.com (gruppo Google da creare); incidenti registrati nella lista NC con Origine = Incidente.
 - PO25 in attesa delle risposte del CTO (task ClickUp con 6 domande); sviluppatori su PC personali Windows.
 - Informative privacy ALPR31.2.A–G e PR31.1: titolare Vector Lab S.r.l. con P.IVA, privacy@vectorlab-cg.com (gruppo Google), PEC vectorlab@legalmail.it. Gruppo sicurezza@vectorlab-cg.com creato il 24/10.
 - Privacy semplificata (24/10, rivista il 26/10): le informative restano solo nel repo SGI; ALPR31.2.A–G (rev 0.1) hanno tabella delle revisioni e riga «Consegna». Le altre informative si consegnano nelle rispettive occasioni.
 
-## Verifica sui testi di norma e NC certificati (26/10/2026)
+## Verifica sui testi di norma (26/10/2026)
 
 - **Testi di norma letti dai PDF UNI** (cartella Drive «NORME ISO»). Edizione da citare per la 27001: **UNI CEI EN ISO/IEC 27001:2024+A1:2024**, recepimento della EN ISO/IEC 27001:2023+A1:2024, ratificata dal Presidente UNI il 07/10/2024 ed entrata nel corpo normativo nazionale il 16/10/2024. In 27001 il punto 10.2 si scrive «Nonconformità e azioni correttive» (una parola); in 9001 «Non conformità e azioni correttive» (due).
 - **Attenzione**: «ISO/IEC 27001:2022» non è un errore — è l'edizione ISO originale, di cui la UNI CEI EN è il recepimento italiano. Nel repo convivono le due forme (16 occorrenze della prima su 5 documenti: MDPO03.A, REG01, PR09.1, PR35.1, MDPR11.1.D). Da uniformare per scelta, non per correzione.
 - **PR13.1 rev 0.2**: aggiunta la verifica dell'efficacia alle fasi delle NC di produzione-progettazione (§2.1), reclami e segnalazioni clienti (§2.2) e fornitura (§2.3). Prima era prevista solo per le NC di processo, mentre 27001 10.2 e 9001 10.2.1 d) la richiedono per ogni azione correttiva. Stato «Da approvare».
 - **PO27**: il rimando rotto a «PR A16.1» risulta già corretto in rev 0.1 (16/07/2026). Il Drive è indietro su questo documento.
-- **NC certificati, aggiornamento**: i certificati li ha ricaricati Andrea (Amministratore Unico e CTO) previo confronto con Andrei; servizi ripristinati. La correzione è fatta, l'azione correttiva no. Causa confermata: il passaggio acquisto (Amministrazione) → installazione (IT) non ha proprietario né scadenza presidiata. Registrazione del 23/10 eliminata e ricostruita il 26/10 come NC01 nella lista «Non conformità e miglioramento» (stato «azione in corso»). Azioni: proprietario unico del ciclo di vita (Andrei), task ClickUp al posto dei passaggi su Telegram, rinnovo automatico ACME, allarme a 30 giorni indipendente da n8n, certificati nell'inventario asset. Contesto: ballot CA/Browser Forum SC-081v3, durata massima dei certificati TLS pubblici 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029.
 - **Da verificare**: organigramma SGI con il doppio ruolo di Andrea (AU e CTO) e, collegata, la separazione dei compiti (27001 5.3) da dichiarare nell'analisi dei rischi con le misure compensative.
 - **Fine riga**: i file sul PC Windows sono CRLF, nel repo sono LF (git per Windows converte, l'ambiente Linux no). Chi scrive nel repo da Linux deve salvare in LF, altrimenti il diff mostra l'intero documento riscritto.
 
@@ -332,7 +330,7 @@ Metodo: una domanda alla volta; i documenti si aprono in chat in versione HTML l
 9. Confermare i 14 KPI di MDPR10.1.A e fare la prima misurazione prima del 25/11.
 10. Livelli della griglia competenze MDPR06.1.E (Andrea) prima dell'audit.
 11. Mail al team del gruppo 1 entro il 25/11.
-Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: accettazione di RA = 45 e valutazione dei cambiamenti da settembre (campo ristretto a Ynsera, AWS tolto, NC01 TLS) senza nuova analisi dei rischi.
+Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: accettazione di RA = 45 e valutazione dei cambiamenti da settembre (campo ristretto a Ynsera, AWS tolto) senza nuova analisi dei rischi.
 
 ## Riferimenti rotti e metodologia rischi (17/11/2026)
 
@@ -415,4 +413,14 @@ Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: acce
 - Non allineati e lasciati come sono: 5.1, 5.12, 5.13 «non attuati» nella SoA ma «Do» in ERA; 7.13, 8.18, 8.20, 8.23 «non attuati» e «nessuna» in ERA (coperti dal piano).
 - **MDPR33.1.B rev 0.1** (Da approvare): colonne «Asset ERA ridotti (rischio)» (asset a 45 e numero di asset sotto soglia) ed «Esito» (T8 fatto, T1 in corso, le altre aperte); T13 generica suddivisa in T13–T27 (5.28, 5.33, 5.35, 5.36, 6.1, 6.4, 7.2, 7.3, 7.4, 7.6, 7.8, 7.9, 7.10, 7.14, 8.23); aggiunte T28–T30 (5.3, 8.3, 8.15). Tutti i 35 controlli non attuati hanno un'azione. Responsabili e scadenze di T13–T30 «da confermare AU» (proposta 12/12/2026). Sezioni di Nextage (§2, §3.1) invariate.
 - Le azioni che toccano tutti e 5 gli asset a 45 sono T1, T3, T4, T5, T7, T9, T11, T12, T14, T19, T29, T30; le più rilevanti per abbassarli sono T5 e T7 (5.37, 8.9: gestione delle configurazioni).
+
+## Verifica del server con Andrei (24/11/2026)
+- Firewall (ufw) attivo con policy di blocco in entrata e sole porte 22, 80, 443; una scansione esterna e `docker ps` mostrano servizi in container pubblicati oltre il firewall (Docker scavalca ufw). **Rischio accettato temporaneamente dall'Amministratore Unico il 24/11**, da mitigare entro il 15/12 con l'azione **T31** (porte dei container solo in locale dietro il reverse proxy, scansione esterna completa nella CI). Dettagli ed evidenze nella nuova lista ClickUp **«Server»** (cartella Evidenze), fuori dal repo pubblico. Conferma scritta di Andrea da raccogliere nel task.
+- SSH: accesso solo con chiave; una chiave in Bitwarden usata dalla CI (Ansible), nessun accesso personale ordinario. Da documentare in PR16.1/PR32.1: chi può aprire la voce in Bitwarden, registrazione degli accessi di emergenza, rotazione della chiave.
+- Monitoraggio con avvisi (8.16, 8.6): il server piccolo monitora il server grande, **entro febbraio 2027** (azione **T32**). PR32.1 rev 0.2 aggiornata.
+- **SoA rev 0.4**: 8.22, 8.16 e 8.6 passati a «non attuato» (ora 52 attuati, 38 non attuati). **MDPR33.1.B rev 0.3**: T31 e T32; T7 limitata agli aggiornamenti automatici del server.
+- **Backup (8.13, 5.30, T2 chiusa)**: il server secondario scarica ogni settimana i volumi delle applicazioni dal server principale e li conserva 3 settimane; copie cifrate, chiavi in Ansible Vault nel repository GitHub, password di Ansible Vault nel Bitwarden aziendale (cloud, bitwarden.eu). Prima prova di ripristino riuscita il 18/11/2026, registrata in MDPR21.1.A rev 0.1. Aggiornati PR21.1 rev 0.1, MDPO15.A rev 0.1 (conservazione 3 settimane), BIA rev 0.2 (Bitwarden in cloud, non sul server). **SoA rev 0.5**: 54 attuati, 36 non attuati. Aperti: entrambi i server presso Aruba (accettazione dell'AU da decidere); coerenza delle copie dei database mentre girano (la prova di ripristino la dimostra).
+- **Separazione degli ambienti (8.31) e dati di test (8.33)**: strumenti interni sviluppati in locale con dati finti (salvo indicazioni del cliente), in produzione solo immagini Docker distribuite dalla CI, nessuna modifica a mano sul server, container isolati ciascuno nella propria rete; nessun ambiente di prova separato per strumenti di queste dimensioni. n8n non è sviluppato internamente.
+- **Cambiamenti (8.32, T5)**: PR19.1 rev 0.1 — il registro è lo storico Git del repository Ansible; pull request rivista da un'altra persona per i cambiamenti importanti (firewall, porte, accessi, backup, cifratura, certificati, nuovi servizi); log di audit dei fornitori per le console (Aruba, DNS, Google Workspace, GitHub). La lista ClickUp «Modifiche ai sistemi» decisa il 18/11 non serve più. Da decidere: workflow di n8n esportati in Git.
+- Nuovi task nella lista ClickUp «Server» (cartella Evidenze), entro il 15/12: demo dei clienti chiusi da rimuovere o motivare (8.10), scansione delle vulnerabilità di server e container (8.8, T6), cambiamenti (8.32, T5, entro il 30/11).
 

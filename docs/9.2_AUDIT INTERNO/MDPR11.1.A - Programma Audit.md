@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 24/11/2026 | Riferimento del controllo mensile sulle scadenze: A.5.9 e A.8.24 | RSGI | Da approvare |
 
 ## 1 Impostazione del programma
 
@@ -97,7 +98,7 @@ fanno senza interrompere il servizio (A.8.34).
 | Prova di ripristino dei backup | Ogni 3 mesi | IT esterno | [PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md); [MDPR21.1.A](../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore.md); obiettivo 3 |
 | Prova di continuità operativa (può coincidere con la prova di ripristino) | Ogni anno | CTO, IT esterno | [PR28.1](../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) §7; [MDPR21.1.A](../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore.md) |
 | Aggiornamenti del server e vulnerabilità di server e dipendenze | Ogni 3 mesi | IT esterno | [PR32.1](../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md); [PR23.1](../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) |
-| Scadenze di certificati e abbonamenti critici | Ogni mese | Amministrazione | NC01 |
+| Scadenze di certificati e abbonamenti critici | Ogni mese | Amministrazione | A.5.9; A.8.24 |
 | Portatili: requisiti di [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3 | Ogni anno (gennaio) | Ogni persona; RSGI a campione | [REG01](../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali.md) §3; [PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md) |
 | Presa visione e formazione | Ogni anno (gennaio) | RSGI | [PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md); [MDPR06.1.C](../7_GESTIONE%20RISORSE/MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D.md) |
 | Valutazione dei fornitori critici | Ogni anno | Amministrazione, RSGI | [MDPR26.1.B](../A_FORNITORI/MDPR26.1.B%20-%20Elenco%20fornitori%20qualificati.md) §6 |

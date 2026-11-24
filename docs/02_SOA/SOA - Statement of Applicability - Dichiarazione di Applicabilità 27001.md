@@ -9,11 +9,14 @@
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
 | 0.1 | 23/11/2026 | Nuova vista (riepilogo e dettaglio); corretti il campo Set controlli e l'intestazione della sezione 7; tolta la sezione AGID CSP-SAAS (residui di un altro cliente); tolti i rimandi ai documenti ritirati il 23/11/2026; nel controllo 5.1 PO03 sostituito da MDPO03.A, nel 5.37 PR10.1 sostituita da MDPR10.1.A | RSGI | Da approvare | Interno |
 | 0.2 | 23/11/2026 | Motivo R (Risultato analisi dei rischi) sui 77 controlli collegati ad asset nell'analisi ERA «Agosto 2026»; 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a «non attuato» per allineamento con ERA e con il piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
+| 0.3 | 24/11/2026 | 8.22 passato a «non attuato»: servizi in container raggiungibili oltre il firewall (scansione esterna del 24/11/2026); rischio accettato temporaneamente, azione T31 del piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
+| 0.4 | 24/11/2026 | 8.16 e 8.6 passati a «non attuato»: monitoraggio dal server secondario entro febbraio 2027, azione T32 del piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
+| 0.5 | 24/11/2026 | 8.13 e 5.30 passati ad «attuato»: backup dal server secondario e prova di ripristino riuscita il 18/11/2026 (azione T2 chiusa) | RSGI | Da approvare | Interno |
 
 | | |
 |---|---|
-| Data ultima versione | 23/11/2026 |
-| Versione | 0.2 |
+| Data ultima versione | 24/11/2026 |
+| Versione | 0.5 |
 | Set di Controlli inclusi | • ISO/IEC 27002 • GDPR |
 | Controlli Non Applicabili | 7.12, 8.11, 8.30 |
 | Acronimi Controllo | ID X.X: ISO/IEC 27002 |
@@ -21,7 +24,7 @@
 
 ## Riepilogo
 
-**93 controlli**: 90 applicabili, di cui 55 attuati e 35 non ancora attuati; 3 non applicabili.
+**93 controlli**: 90 applicabili, di cui 54 attuati e 36 non ancora attuati; 3 non applicabili.
 
 Motivo di inclusione: **L** = Requisito legale · **C** = Obbligo contrattuale · **B** = Requisito business / best practice · **R** = Risultato analisi dei rischi.
 Clic sull'ID per aprire il dettaglio del controllo.
@@ -59,7 +62,7 @@ Clic sull'ID per aprire il dettaglio del controllo.
 | [5.27](#c-5-27) | Apprendimento dagli incidenti relativi alla sicurezza delle informazioni | Sì | Sì | L B R | [PR27.1](../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/) |
 | [5.28](#c-5-28) | Raccolta di prove | Sì | No | L B R | [PR27.1](../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/), [MDPR27.1.A](../../A_EVENTI%20%26%20INCIDENTI/MDPR27.1.A%20-%20Registro%20Data%20Breach/) |
 | [5.29](#c-5-29) | Sicurezza delle informazioni durante le interruzioni | Sì | Sì | L B R | [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [MDPR28.1.A](../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
-| [5.30](#c-5-30) | Preparazione dell’ICT per la continuità operativa | Sì | No | B R | [PR21.1](../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/), [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [MDPR28.1.A](../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
+| [5.30](#c-5-30) | Preparazione dell’ICT per la continuità operativa | Sì | Sì | B R | [PR21.1](../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/), [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [MDPR28.1.A](../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
 | [5.31](#c-5-31) | Requisiti legali, statutari, regolamentari e contrattuali | Sì | Sì | L C B R | [MDPR08.1.A](../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/), [PO29](../../A_CONFORMITA_/PO29%20-%20Gestione%20della%20conformit%C3%A0/) |
 | [5.32](#c-5-32) | Diritti di proprietà intellettuale | Sì | Sì | L C B R | [PO29](../../A_CONFORMITA_/PO29%20-%20Gestione%20della%20conformit%C3%A0/) |
 | [5.33](#c-5-33) | Protezione delle registrazioni | Sì | No | L B R | [MDPR08.1.A](../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/), [PO29](../../A_CONFORMITA_/PO29%20-%20Gestione%20della%20conformit%C3%A0/) |
@@ -109,23 +112,23 @@ Clic sull'ID per aprire il dettaglio del controllo.
 | [8.3](#c-8-3) | Restrizione degli accessi alle informazioni | Sì | No | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.4](#c-8-4) | Controllo degli accessi al codice sorgente dei programmi | Sì | Sì | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/) |
 | [8.5](#c-8-5) | Autenticazione sicura | Sì | No | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/) |
-| [8.6](#c-8-6) | Gestione della capacità | Sì | Sì | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
+| [8.6](#c-8-6) | Gestione della capacità | Sì | No | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.7](#c-8-7) | Protezione contro il malware | Sì | Sì | B R | [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/) |
 | [8.8](#c-8-8) | Gestione delle vulnerabilità tecniche | Sì | Sì | L B R | [PR23.1](../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche/), [PR11.1](../../9.2_AUDIT%20INTERNO/PR11.1%20-%20Audit%20Interno/), [MDPR11.1.A](../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/) |
 | [8.9](#c-8-9) | Gestione delle configurazioni sicure e dell’hardening | Sì | No | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.10](#c-8-10) | Cancellazione delle informazioni | Sì | Sì | L C B R | [PO15](../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.11](#c-8-11) | Mascheramento e anonimizzazione dei dati | No | — | L B | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/) |
 | [8.12](#c-8-12) | Prevenzione dalla perdita di dati | Sì | Sì | L B R | [PO15](../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
-| [8.13](#c-8-13) | Backup delle informazioni | Sì | No | L B | [PR21.1](../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
+| [8.13](#c-8-13) | Backup delle informazioni | Sì | Sì | L B | [PR21.1](../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
 | [8.14](#c-8-14) | Ridondanza delle strutture di elaborazione delle informazioni | Sì | Sì | L B R | [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/) |
 | [8.15](#c-8-15) | Logging | Sì | No | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [MDPR11.1.A](../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/) |
-| [8.16](#c-8-16) | Attività di monitoraggio | Sì | Sì | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
+| [8.16](#c-8-16) | Attività di monitoraggio | Sì | No | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.17](#c-8-17) | Sincronizzazione degli orologi | Sì | Sì | B | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.18](#c-8-18) | Uso di programmi di utilità privilegiati | Sì | No | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [ALPR05.1.G](../../7_GESTIONE%20RISORSE/ALPR05.1.G%20-%20Lista%20software%20permessi/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.19](#c-8-19) | Installazione del software sui sistemi di produzione | Sì | Sì | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [ALPR05.1.G](../../7_GESTIONE%20RISORSE/ALPR05.1.G%20-%20Lista%20software%20permessi/) |
 | [8.20](#c-8-20) | Sicurezza delle reti | Sì | No | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.21](#c-8-21) | Sicurezza dei servizi di rete | Sì | Sì | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
-| [8.22](#c-8-22) | Segregazione delle reti | Sì | Sì | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
+| [8.22](#c-8-22) | Segregazione delle reti | Sì | No | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.23](#c-8-23) | Filtro del web | Sì | No | B R | [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.24](#c-8-24) | Uso della crittografia | Sì | Sì | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.25](#c-8-25) | Ciclo di vita dello sviluppo sicuro | Sì | Sì | B | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/), [ALPO25.A](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software/) |
@@ -520,13 +523,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-5-30">
-<summary><strong>5.30</strong> Preparazione dell’ICT per la continuità operativa <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
+<summary><strong>5.30</strong> Preparazione dell’ICT per la continuità operativa <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Preparazione dell’ICT per la continuità operativa<br/>(ICT readiness for business continuity)<br><em>ICT readiness should be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’organizzazione riconosce l’importanza della continuità operativa dei sistemi ICT a supporto delle attività aziendali.<br/><br/>L’operatività aziendale si basa prevalentemente su servizi cloud e piattaforme gestite da provider qualificati, che forniscono misure di disponibilità , backup e continuità del servizio.<br/><br/>Attualmente, non è presente un piano formalizzato e testato di continuità ICT interno.<br/><br/>L’organizzazione prevede di definire progressivamente misure e procedure proporzionate alla propria dimensione e ai rischi identificati, con particolare attenzione a:<br/><br/>disponibilità dei servizi critici<br/>accessibilità dei dati e dei repository<br/>gestione delle interruzioni operative<br/>ripristino degli accessi e delle attività essenziali<br/><br/>Le esigenze di continuità ICT vengono comunque considerate nella selezione dei servizi cloud e dei fornitori tecnologici utilizzati.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Attuato dal 18/11/2026:</strong> backup settimanale dei volumi delle applicazioni, scaricato da un server secondario separato dal principale e conservato 3 settimane; copie cifrate; configurazione ricostruibile da Ansible; prima prova di ripristino riuscita il 18/11/2026 (MDPR21.1.A).<br/><br/>L’organizzazione riconosce l’importanza della continuità operativa dei sistemi ICT a supporto delle attività aziendali.<br/><br/>L’operatività aziendale si basa prevalentemente su servizi cloud e piattaforme gestite da provider qualificati, che forniscono misure di disponibilità , backup e continuità del servizio.<br/><br/>Attualmente, non è presente un piano formalizzato e testato di continuità ICT interno.<br/><br/>L’organizzazione prevede di definire progressivamente misure e procedure proporzionate alla propria dimensione e ai rischi identificati, con particolare attenzione a:<br/><br/>disponibilità dei servizi critici<br/>accessibilità dei dati e dei repository<br/>gestione delle interruzioni operative<br/>ripristino degli accessi e delle attività essenziali<br/><br/>Le esigenze di continuità ICT vengono comunque considerate nella selezione dei servizi cloud e dei fornitori tecnologici utilizzati.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/">PR21.1 - Gestione dei Backup e Restore</a><br/><a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/">PR28.1 - Gestione della continuità operativa</a> <br/><a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/">PR28.1 - Gestione della continuità operativa</a><br/><a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/">MDPR28.1.A - Piani di Continuità Operativa</a><br/><a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/">MDPR21.1.A - Piano di Restore</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Corrective<br>Proprietà di sicurezza: #Availability<br>Concetti cybersecurity: #Respond<br>Capacità operative: #Continuity<br>Domini di sicurezza: #Resilience<br>Processi: #Continuità operativa</td></tr>
 </table>
@@ -981,13 +984,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-8-6">
-<summary><strong>8.6</strong> Gestione della capacità <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>8.6</strong> Gestione della capacità <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Gestione della capacità<br/>(Capacity management)<br><em>The use of resources should be monitored and adjusted in line with current and expected capacity requirements.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>Le risorse infrastrutturali e le capacità dei sistemi utilizzati per l’erogazione dei servizi sono monitorate e gestite al fine di garantire adeguate prestazioni e continuità operativa. Eventuali esigenze di incremento delle risorse vengono valutate e pianificate in funzione dell’evoluzione dei progetti e dei carichi di lavoro.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> nessun controllo automatico delle risorse del server (disco, memoria, carico). Arriva con il monitoraggio dal server secondario, entro febbraio 2027 (azione T32 del piano di trattamento MDPR33.1.B).<br/><br/>Le risorse infrastrutturali e le capacità dei sistemi utilizzati per l’erogazione dei servizi sono monitorate e gestite al fine di garantire adeguate prestazioni e continuità operativa. Eventuali esigenze di incremento delle risorse vengono valutate e pianificate in funzione dell’evoluzione dei progetti e dei carichi di lavoro.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive <br/>#Detective<br>Proprietà di sicurezza: #Integrity <br/>#Availability<br>Concetti cybersecurity: #Identify <br/>#Protect <br/>#Detect<br>Capacità operative: #Continuity<br>Domini di sicurezza: #Governance_ and_Ecosystem #Protection<br>Processi: #Continuità operativa</td></tr>
 </table>
@@ -1073,13 +1076,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-8-13">
-<summary><strong>8.13</strong> Backup delle informazioni <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
+<summary><strong>8.13</strong> Backup delle informazioni <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Backup delle informazioni<br/>(Information backup)<br><em>Backup copies of information, software and systems should be maintained and regularly tested in accordance with the agreed topic-specific policy on backup.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito legale, Requisito business / best practice</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (23/11/2026):</strong> backup del server Aruba e prima prova di ripristino in corso (azione T2 del piano di trattamento MDPR33.1.B).<br/><br/>L’organizzazione effettua copie di backup delle informazioni rilevanti al fine di garantirne la disponibilità e il ripristino in caso di perdita o incidente.<br/><br/>I backup sono gestiti tramite strumenti cloud, con accesso controllato e adeguate misure di protezione.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Attuato dal 18/11/2026:</strong> backup settimanale dei volumi delle applicazioni, scaricato da un server secondario separato dal principale e conservato 3 settimane; copie cifrate; configurazione ricostruibile da Ansible; prima prova di ripristino riuscita il 18/11/2026 (MDPR21.1.A).<br/><br/>L’organizzazione effettua copie di backup delle informazioni rilevanti al fine di garantirne la disponibilità e il ripristino in caso di perdita o incidente.<br/><br/>I backup sono gestiti tramite strumenti cloud, con accesso controllato e adeguate misure di protezione.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/">PR21.1 - Gestione dei Backup e Restore</a><br/><a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/">MDPR21.1.A - Piano di Restore</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Corrective<br>Proprietà di sicurezza: #Integrity <br/>#Availability<br>Concetti cybersecurity: #Recover<br>Capacità operative: #Continuity<br>Domini di sicurezza: #Protection<br>Processi: #Continuità operativa</td></tr>
 </table>
@@ -1112,13 +1115,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-8-16">
-<summary><strong>8.16</strong> Attività di monitoraggio <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>8.16</strong> Attività di monitoraggio <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Attività di monitoraggio<br/>(Monitoring activities)<br><em>Networks, systems and applications should be monitored for anomalous behaviour and appropriate actions taken to evaluate potential information security incidents.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’organizzazione adotta attività di monitoraggio dei sistemi e dei servizi digitali mediante gli strumenti di logging e supervisione messi a disposizione dalle piattaforme cloud e dalle soluzioni software utilizzate. Gli eventi rilevanti vengono registrati e analizzati al fine di individuare anomalie, problemi di sicurezza e malfunzionamenti, consentendo un intervento tempestivo.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> nessun monitoraggio con avvisi sul server. È previsto un monitoraggio eseguito da un server secondario sul server principale, con avvisi a sicurezza@, entro febbraio 2027 (azione T32 del piano di trattamento MDPR33.1.B).<br/><br/>L’organizzazione adotta attività di monitoraggio dei sistemi e dei servizi digitali mediante gli strumenti di logging e supervisione messi a disposizione dalle piattaforme cloud e dalle soluzioni software utilizzate. Gli eventi rilevanti vengono registrati e analizzati al fine di individuare anomalie, problemi di sicurezza e malfunzionamenti, consentendo un intervento tempestivo.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Detective <br/>#Corrective<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Detect <br/>#Respond<br>Capacità operative: #Information_security_event_management<br>Domini di sicurezza: #Defence<br>Processi: #Monitoraggio dei Sistemi e Logging</td></tr>
 </table>
@@ -1190,13 +1193,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-8-22">
-<summary><strong>8.22</strong> Segregazione delle reti <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>8.22</strong> Segregazione delle reti <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Segregazione delle reti<br/>(Segregation of networks)<br><em>Groups of information services, users and information systems should be segregated in the organization’s networks.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito legale, Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’organizzazione utilizza infrastrutture e servizi cloud che prevedono la separazione logica degli ambienti e dei servizi esposti, adottando meccanismi di segregazione delle reti e di isolamento delle risorse messi a disposizione dai fornitori delle piattaforme utilizzate. L’accesso ai servizi è limitato agli utenti autorizzati e gestito mediante configurazioni dedicate e controlli di autenticazione.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> firewall attivo sul server con sole porte web e SSH consentite, ma la scansione esterna del 24/11/2026 ha rilevato servizi in container raggiungibili oltre le regole del firewall. Rischio accettato temporaneamente dall'Amministratore Unico il 24/11/2026, da mitigare con l'azione T31 del piano di trattamento MDPR33.1.B.<br/><br/>L’organizzazione utilizza infrastrutture e servizi cloud che prevedono la separazione logica degli ambienti e dei servizi esposti, adottando meccanismi di segregazione delle reti e di isolamento delle risorse messi a disposizione dai fornitori delle piattaforme utilizzate. L’accesso ai servizi è limitato agli utenti autorizzati e gestito mediante configurazioni dedicate e controlli di autenticazione.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</a><br/>Schema ICT (documento riservato, fuori dal repository)</td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Protect<br>Capacità operative: #System_and_network_security<br>Domini di sicurezza: #Protection<br>Processi: #Sicurezza Sistemi e Reti</td></tr>
 </table>

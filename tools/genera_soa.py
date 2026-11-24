@@ -47,6 +47,18 @@ REVISIONI_EXTRA = [
      "nell'analisi ERA «Agosto 2026»; 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a "
      "«non attuato» per allineamento con ERA e con il piano di trattamento MDPR33.1.B",
      "RSGI", "Da approvare", "Interno"),
+    ("0.3", "24/11/2026",
+     "8.22 passato a «non attuato»: servizi in container raggiungibili oltre il firewall "
+     "(scansione esterna del 24/11/2026); rischio accettato temporaneamente, azione T31 "
+     "del piano di trattamento MDPR33.1.B",
+     "RSGI", "Da approvare", "Interno"),
+    ("0.4", "24/11/2026",
+     "8.16 e 8.6 passati a «non attuato»: monitoraggio dal server secondario entro "
+     "febbraio 2027, azione T32 del piano di trattamento MDPR33.1.B",
+     "RSGI", "Da approvare", "Interno"),    ("0.5", "24/11/2026",
+     "8.13 e 5.30 passati ad «attuato»: backup dal server secondario e prova di "
+     "ripristino riuscita il 18/11/2026 (azione T2 chiusa)",
+     "RSGI", "Da approvare", "Interno"),
 ]
 # Indici delle colonne nella tabella Controlli della sorgente
 C = dict(id=0, titolo=1, testo=2, set=3, app_si=5, app_no=6, att_si=7, att_no=8,

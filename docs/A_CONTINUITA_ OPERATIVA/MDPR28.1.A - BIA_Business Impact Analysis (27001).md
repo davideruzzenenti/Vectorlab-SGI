@@ -5,6 +5,8 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
+| 0.1 | 24/11/2026 | Tolto un esempio non più pertinente dalla riga del server dedicato | RSGI | Da approvare | Interno |
+| 0.2 | 24/11/2026 | Bitwarden è un servizio cloud (bitwarden.eu), non ospitato sul server Aruba | RSGI | Da approvare | Interno |
 
 ## 1 Scopo e metodo
 
@@ -38,8 +40,8 @@ servizio, fatta dalla Direzione con RSGI.
 | 1 | Google Workspace (posta, Drive) | Mail e documenti di commessa non raggiungibili; lavoro rallentato | Nessuno diretto: il team lavora negli strumenti del cliente | **Rischio accettato**: il servizio dipende interamente dal fornitore e Vectorlab non ha leve per ridurlo |
 | 2 | GitHub (organizzazione vectorlab-cg) | Codice su vectorlab-cg non raggiungibile | Nessuno diretto: il codice principale sta nei repository dei clienti | **Rischio accettato**, come sopra |
 | 3 | ClickUp | CRM, task, commesse e registro NC non raggiungibili | Nessuno | **Rischio accettato**, come sopra |
-| 4 | Bitwarden | Password e chiavi non accessibili | Possibile ritardo sui progetti | Ospitato sul server Aruba: **trattato** con la copia del server e l'esportazione cifrata ([PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md)) |
-| 5 | Server dedicato Aruba (n8n, siti, Bitwarden) | Automazioni ferme, siti non raggiungibili (es. NC01, ottobre 2026); senza copia, un guasto grave comporterebbe la perdita di n8n, del vault delle credenziali e della configurazione | Nessuno: il server non ospita servizi o dati dei clienti | **Trattato** (decisione del 17/11/2026): copia completa del server e prova di ripristino una volta l'anno ([PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md), [PR28.1](PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) §7). Copie in attivazione: data da confermare con il System Administrator; prima prova entro il 15/12/2026 |
+| 4 | Bitwarden | Password e chiavi non accessibili | Possibile ritardo sui progetti | Servizio cloud (bitwarden.eu), separato dai server Aruba: **accettato** sulla protezione del fornitore |
+| 5 | Server dedicato Aruba (n8n, siti) | Automazioni ferme, siti non raggiungibili; senza copia, un guasto grave comporterebbe la perdita di n8n e dei dati delle applicazioni | Nessuno: il server non ospita servizi o dati dei clienti | **Trattato** (decisione del 17/11/2026): copia completa del server e prova di ripristino una volta l'anno ([PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md), [PR28.1](PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa.md) §7). Copie in attivazione: data da confermare con il System Administrator; prima prova entro il 15/12/2026 |
 | 6 | Portatile di uno sviluppatore | Una persona ferma finché non ha un'altra macchina | Ritardo limitato | **Rischio accettato**: si lavora su un altro portatile o sulla macchina del cliente; il codice non sta solo sul portatile |
 | 7 | Connessione internet dell'ufficio | Ufficio senza rete | Nessuno | **Rischio accettato**: si lavora da casa ([ALPR05.1.E](../7_GESTIONE%20RISORSE/ALPR05.1.E%20-%20Accordo%20Lavoro%20Agile.md)) |
 
