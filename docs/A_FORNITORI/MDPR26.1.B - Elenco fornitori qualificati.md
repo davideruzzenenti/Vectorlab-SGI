@@ -5,6 +5,7 @@
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.1 | 24/11/2026 | Tolta la voce 14 (consulenti tecnici esterni): non sono fornitori di Vectorlab nel campo del SGI; motivazione in §1. Tolto il rimando a NC01 nella voce 11 | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -22,6 +23,11 @@ sono del fornitore (voce 1).
 
 Non sono elencati i fornitori senza impatto sul SGI (ristorazione,
 viaggi, cancelleria, acquisti occasionali di attrezzature).
+Non sono elencati nemmeno i consulenti tecnici esterni: lavorano con un
+contratto diretto con il cliente, per il quale Vectorlab gestisce solo la
+parte amministrativa e contabile, oppure svolgono lavori interni fuori dal
+campo del SGI. Non è sviluppo affidato all'esterno da Vectorlab: per
+questo il controllo 8.30 della SoA è escluso ([PO25](../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro.md) §6).
 L'anagrafica amministrativa completa è tenuta dall'Amministrazione.
 
 Legenda **impatto sulla sicurezza delle informazioni** ([PR26.1](PR26.1%20-%20Gestione%20dei%20fornitori.md)):
@@ -50,7 +56,7 @@ sulle condizioni contrattuali standard (DPA), secondo [PR26.1](PR26.1%20-%20Gest
 | 8 | Fastweb S.p.A. | Connettività internet e telefonia mobile della sede | NO | SI | C | NO | DV | |
 | 9 | Bunny.net, GoDaddy | CDN, registrazione domini e certificati SSL (GoDaddy) | NO | SI | C | NO | DV | |
 | 10 | iubenda S.r.l. | Gestione cookie e informative del sito | NO | NO | — | SI | DV | |
-| 11 | InfoCert / Tinexta InfoCert S.p.A., Namirial S.p.A., Actalis S.p.A. | Firma digitale, PEC, certificati SSL dei siti (Actalis) | NO | SI | B | NO | DV | Certificati SSL da Actalis e GoDaddy con abbonamento annuale, ancora necessario; rinnovo automatico (ACME) da verificare (NC01) |
+| 11 | InfoCert / Tinexta InfoCert S.p.A., Namirial S.p.A., Actalis S.p.A. | Firma digitale, PEC, certificati SSL dei siti (Actalis) | NO | SI | B | NO | DV | Certificati SSL da Actalis e GoDaddy con abbonamento annuale, ancora necessario; rinnovo automatico (ACME) da verificare |
 | 12 | BrowserStack, Figma | Test su dispositivi, progettazione interfacce | SI | SI | A | da verificare | DV | Possono contenere materiale dei clienti |
 
 ## 3 Servizi professionali
@@ -58,7 +64,6 @@ sulle condizioni contrattuali standard (DPA), secondo [PR26.1](PR26.1%20-%20Gest
 | # | Fornitore | Attività svolta per Vectorlab | Critico 9001 | Critico 27001 | Impatto | Dati personali (art. 28 GDPR) | Qualifica | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 13 | Andrei Apostu (libero professionista) | Amministrazione di sistema e gestione IT | SI | SI | A | SI | DV | Incarico, accordo di riservatezza ([ALPR26.1.B.3](ALPR26.1.B.3%20-%20Accordo%20di%20Riservatezza%20con%20le%20Terze%20Parti.md)) e nomina ad Amministratore di Sistema ([ALPO31.A](../A_CONFORMITA_/ALPO31.A%20-%20Lettera%20incarico%20AdS.md)): da fare |
-| 14 | Consulenti tecnici esterni (es. Paolo Macco, Simone Ponte, Zona Web S.r.l., V.B. S.a.s., Lucia Tozzi) | Consulenze tecniche | da verificare | da verificare | da verificare | da verificare | DV | Paolo Macco e Simone Ponte lavorano direttamente con clienti per i quali Vectorlab gestisce solo la parte amministrativa e contabile; gli altri svolgono lavori interni che non rientrano nel campo di applicazione del SGI (Amministrazione, 04/11/2026; confermato da RSGI l'11/11/2026). Il contratto con il cliente è del consulente, non di Vectorlab (confermato da RSGI l'11/11/2026): non è sviluppo affidato all'esterno da Vectorlab e il controllo 8.30 della SoA resta escluso, con questa motivazione |
 | 15 | ABCD Lavoro S.r.l. – S.T.P. | Elaborazione paghe e consulenza del lavoro | NO | SI | A | SI | DV | Dati dei dipendenti. Contratto firmato. Ruolo GDPR indicato dall'Amministrazione: titolare autonomo [DA VERIFICARE] |
 | 16 | Commercialista / elaborazione contabile (Cerra Alessandro, SMRTAX S.r.l.) | Contabilità e adempimenti fiscali | NO | SI | A | SI | DV | Contratto firmato |
 | 17 | Nextage S.r.l. | Consulenza per il Sistema di Gestione Integrato, analisi dei rischi (strumento ERA) | SI | SI | A | SI | DV | Contratto firmato |

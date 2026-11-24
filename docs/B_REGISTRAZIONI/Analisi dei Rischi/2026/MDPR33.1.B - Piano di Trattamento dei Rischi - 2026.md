@@ -15,6 +15,7 @@
 | 0.3 | 24/11/2026 | Aggiunta T32 (monitoraggio dal server secondario, entro febbraio 2027); T7 limitata agli aggiornamenti automatici del server | RSGI | Da approvare |
 | 0.4 | 24/11/2026 | T2 chiusa: backup dal server secondario e prova di ripristino riuscita il 18/11/2026 | RSGI | Da approvare |
 | 0.5 | 24/11/2026 | T5: registro dei cambiamenti = storico Git, pull request e log di audit dei fornitori (PR19.1 rev 0.1) | RSGI | Da approvare |
+| 0.6 | 24/11/2026 | Aggiunte T33 (fonti di aggiornamento, 5.6), T34 (checklist di sicurezza nei progetti, 5.8), T35 (pianta della sede, 7.1) | RSGI | Da approvare |
 
 ### Indice 
 
@@ -229,12 +230,15 @@ residuo vanno ricalcolati in ERA [DA RIPORTARE IN ERA con Nextage].</span>
 | T30 | Definire quali log si conservano (Google Workspace, GitHub, server Aruba), per quanto tempo e chi li controlla | 8.15 | **a 45:** A0002, A0017, A0039, A0048, A0049 · sotto soglia: 35 asset | [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md), [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) | System Administrator [DA CONFERMARE: Amministratore Unico] | 12/12/2026 | Aperta |
 | T31 | Pubblicare le porte dei servizi in container solo in locale, dietro il reverse proxy in HTTPS (con Ansible); scansione esterna completa delle porte dopo ogni deploy nella CI. Rischio accettato temporaneamente dall'Amministratore Unico il 24/11/2026 fino alla chiusura dell'azione; evidenze nella lista ClickUp «Server» (cartella Evidenze) | 8.22, 8.20 | **a 45:** A0002, A0017, A0039, A0048, A0049 · sotto soglia: 35 asset | [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md), [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) | System Administrator [DA CONFERMARE: Amministratore Unico] | 15/12/2026 (proposta) | Aperta: rischio accettato dall'AU il 24/11/2026, da mitigare |
 | T32 | Monitoraggio dal server secondario sul server principale: disponibilità dei servizi, risorse (disco, memoria, carico), backup falliti e certificati in scadenza a 30 giorni, con avvisi a sicurezza@ | 8.16, 8.6 | **a 45:** A0002, A0017, A0039, A0048, A0049 · sotto soglia: 42 asset | [PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md), [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) | System Administrator | 28/02/2027 | Aperta |
+| T33 | Fonti di aggiornamento sulla sicurezza: iscrizione ai bollettini di CSIRT Italia e agli avvisi di sicurezza dei fornitori (Aruba, Google Workspace, GitHub, Bitwarden); avvisi delle dipendenze su GitHub già attivi; elenco e responsabili in PR23.1 | 5.6 | nessun asset collegato in ERA | [PR23.1](../../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) | System Administrator | 15/12/2026 | Aperta |
+| T34 | Checklist di sicurezza in apertura di ogni progetto (dati personali, regole del cliente, accessi, NDA, dati di test, fine commessa) come passo della pipeline di progetto di VectorHub; prima checklist compilata su una commessa reale | 5.8 | **a 45:** A0002, A0017, A0039, A0048, A0049 · sotto soglia: 30 asset | [PR35.1](../../../8.2_PRODOTTI%20%26%20SERVIZI/PR35.1%20-%20Digital.md) | RSGI | 15/12/2026 (al più tardi febbraio 2027) | Aperta |
+| T35 | Pianta della sede con perimetro, accessi all'edificio e all'ufficio, posizione degli apparati di rete (ALPR18.1.A) | 7.1 | **a 45:** A0002 · sotto soglia: 25 asset | [PR18.1](../../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale.md) | RSGI e Amministrazione | 15/12/2026 | Aperta |
 
 La colonna «Asset ERA ridotti» viene dall'analisi ERA «Agosto 2026»
 (collegamento controllo ↔ asset): indica gli asset al rischio limite
 (45) e il numero di asset sotto soglia su cui agiscono i controlli
 dell'azione. Le azioni T13–T30 (aggiunte il 23/11/2026) coprono i
-controlli che la SoA rev. 0.2 indica come applicabili ma non attuati; T31 e T32 (aggiunte il 24/11/2026) coprono 8.22, 8.16 e 8.6, passati a «non attuato» nella SoA rev. 0.3 e 0.4.
+controlli che la SoA rev. 0.2 indica come applicabili ma non attuati; T31–T35 (aggiunte il 24/11/2026) coprono 8.22, 8.16, 8.6, 5.6, 5.8 e 7.1, passati a «non attuato» nella SoA rev. 0.3, 0.4 e 0.6.
 La colonna «Esito» registra il risultato di ogni azione (data ed
 evidenza) quando viene chiusa (ISO/IEC 27001:2022, 8.3).
 

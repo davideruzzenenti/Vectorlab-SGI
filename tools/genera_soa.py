@@ -58,6 +58,14 @@ REVISIONI_EXTRA = [
      "RSGI", "Da approvare", "Interno"),    ("0.5", "24/11/2026",
      "8.13 e 5.30 passati ad «attuato»: backup dal server secondario e prova di "
      "ripristino riuscita il 18/11/2026 (azione T2 chiusa)",
+     "RSGI", "Da approvare", "Interno"),    ("0.6", "24/11/2026",
+     "5.6, 5.8 e 7.1 passati a «non attuato» (evidenza assente), da mitigare con le "
+     "azioni T33, T34 e T35 del piano di trattamento MDPR33.1.B",
+     "RSGI", "Da approvare", "Interno"),
+    ("0.7", "24/11/2026",
+     "8.14 riscritto sul modello reale (server unico, rischio accettato nella BIA, "
+     "copie sul server secondario, prova di ripristino del 18/11/2026); 8.26: "
+     "riferimento PR32.1 sostituito da PO25, requisiti di sicurezza del cliente nei progetti",
      "RSGI", "Da approvare", "Interno"),
 ]
 # Indici delle colonne nella tabella Controlli della sorgente

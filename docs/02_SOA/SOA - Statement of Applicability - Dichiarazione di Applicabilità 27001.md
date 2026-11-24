@@ -12,11 +12,13 @@
 | 0.3 | 24/11/2026 | 8.22 passato a «non attuato»: servizi in container raggiungibili oltre il firewall (scansione esterna del 24/11/2026); rischio accettato temporaneamente, azione T31 del piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
 | 0.4 | 24/11/2026 | 8.16 e 8.6 passati a «non attuato»: monitoraggio dal server secondario entro febbraio 2027, azione T32 del piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
 | 0.5 | 24/11/2026 | 8.13 e 5.30 passati ad «attuato»: backup dal server secondario e prova di ripristino riuscita il 18/11/2026 (azione T2 chiusa) | RSGI | Da approvare | Interno |
+| 0.6 | 24/11/2026 | 5.6, 5.8 e 7.1 passati a «non attuato» (evidenza assente), da mitigare con le azioni T33, T34 e T35 del piano di trattamento MDPR33.1.B | RSGI | Da approvare | Interno |
+| 0.7 | 24/11/2026 | 8.14 riscritto sul modello reale (server unico, rischio accettato nella BIA, copie sul server secondario, prova di ripristino del 18/11/2026); 8.26: riferimento PR32.1 sostituito da PO25, requisiti di sicurezza del cliente nei progetti | RSGI | Da approvare | Interno |
 
 | | |
 |---|---|
 | Data ultima versione | 24/11/2026 |
-| Versione | 0.5 |
+| Versione | 0.7 |
 | Set di Controlli inclusi | • ISO/IEC 27002 • GDPR |
 | Controlli Non Applicabili | 7.12, 8.11, 8.30 |
 | Acronimi Controllo | ID X.X: ISO/IEC 27002 |
@@ -24,7 +26,7 @@
 
 ## Riepilogo
 
-**93 controlli**: 90 applicabili, di cui 54 attuati e 36 non ancora attuati; 3 non applicabili.
+**93 controlli**: 90 applicabili, di cui 51 attuati e 39 non ancora attuati; 3 non applicabili.
 
 Motivo di inclusione: **L** = Requisito legale · **C** = Obbligo contrattuale · **B** = Requisito business / best practice · **R** = Risultato analisi dei rischi.
 Clic sull'ID per aprire il dettaglio del controllo.
@@ -38,9 +40,9 @@ Clic sull'ID per aprire il dettaglio del controllo.
 | [5.3](#c-5-3) | Separazione dei compiti | Sì | No | B R | [ALPO01.A](../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.A%20-%20Organigramma-Rev%200.0/), [ALPO01.B](../../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0/) |
 | [5.4](#c-5-4) | Responsabilità della direzione | Sì | Sì | B R | [PR05.1](../../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [MDPR05.1.A](../../7_GESTIONE%20RISORSE/MDPR05.1.A%20-%20Checklist%20Documenti%20per%20Inserimento%20Personale/), [MDPR05.1.V](../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/) |
 | [5.5](#c-5-5) | Contatti con le autorità | Sì | Sì | L B | [MDPR08.1.A](../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/), [PR27.1](../../A_EVENTI%20%26%20INCIDENTI/PR27.1%20-%20Gestione%20Incidenti%20e%20Data%20Breach/) |
-| [5.6](#c-5-6) | Contatti con gruppi di interesse | Sì | Sì | B | [MDPR08.1.A](../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/), [PR23.1](../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche/) |
+| [5.6](#c-5-6) | Contatti con gruppi di interesse | Sì | No | B | [MDPR08.1.A](../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/), [PR23.1](../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche/) |
 | [5.7](#c-5-7) | Monitoraggio delle minacce | Sì | Sì | B | [PR23.1](../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche/), [MDPR23.1.B](../../A_MINACCE%20%26%20VULNERABILITA_/MDPR23.1.B%20-%20Monitoraggio%20delle%20minacce%202026/) |
-| [5.8](#c-5-8) | Sicurezza delle informazioni nella gestione dei progetti | Sì | Sì | L B R |  |
+| [5.8](#c-5-8) | Sicurezza delle informazioni nella gestione dei progetti | Sì | No | L B R |  |
 | [5.9](#c-5-9) | Inventario delle informazioni e degli altri asset associati | Sì | Sì | L B R | [MDPR05.1.V](../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [PO15](../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/) |
 | [5.10](#c-5-10) | Uso accettabile delle informazioni e degli altri asset associati | Sì | Sì | L B R | [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/) |
 | [5.11](#c-5-11) | Restituzione degli asset | Sì | Sì | B R | [MDPR05.1.V](../../7_GESTIONE%20RISORSE/MDPR05.1.V%20-%20Modulo_consegna_riconsegna_HW_utenze/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/) |
@@ -88,7 +90,7 @@ Clic sull'ID per aprire il dettaglio del controllo.
 
 | ID | Controllo | Applicabile | Attuato | Motivo | Riferimenti |
 |---|---|---|---|---|---|
-| [7.1](#c-7-1) | Perimetri di sicurezza fisica | Sì | Sì | B R | [PR18.1](../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/), [ALPR18.1.A](../../A_SICUREZZA%20FISICA%20AMBIENTALE/ALPR18.1.A%20-%20Piantina%20accessi.pptx), [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/) |
+| [7.1](#c-7-1) | Perimetri di sicurezza fisica | Sì | No | B R | [PR18.1](../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/), [ALPR18.1.A](../../A_SICUREZZA%20FISICA%20AMBIENTALE/ALPR18.1.A%20-%20Piantina%20accessi.pptx), [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/) |
 | [7.2](#c-7-2) | Accessi fisici | Sì | No | L B R | [PR18.1](../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/), [ALPR18.1.A](../../A_SICUREZZA%20FISICA%20AMBIENTALE/ALPR18.1.A%20-%20Piantina%20accessi.pptx), [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [MDPR18.1.D](../../A_SICUREZZA%20FISICA%20AMBIENTALE/MDPR18.1.D%20-%20Registri%20interventi%20ambientali/), [MDPR05.1.U](../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/), [MDPR05.1.U](../../7_GESTIONE%20RISORSE/MDPR05.1.U%20-%20Gestione%20chiavi/) |
 | [7.3](#c-7-3) | Sicurezza degli uffici, stanze e strutture | Sì | No | L B R | [PR18.1](../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/) |
 | [7.4](#c-7-4) | Monitoraggio della sicurezza fisica | Sì | No | B R | [PR18.1](../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/) |
@@ -120,7 +122,7 @@ Clic sull'ID per aprire il dettaglio del controllo.
 | [8.11](#c-8-11) | Mascheramento e anonimizzazione dei dati | No | — | L B | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/) |
 | [8.12](#c-8-12) | Prevenzione dalla perdita di dati | Sì | Sì | L B R | [PO15](../../A_CLASSIFICAZIONE%20INFORMAZIONI/PO15%20-%20Politica%20Classificazione%20Informazioni/), [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.13](#c-8-13) | Backup delle informazioni | Sì | Sì | L B | [PR21.1](../../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
-| [8.14](#c-8-14) | Ridondanza delle strutture di elaborazione delle informazioni | Sì | Sì | L B R | [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/) |
+| [8.14](#c-8-14) | Ridondanza delle strutture di elaborazione delle informazioni | Sì | Sì | L B R | [PR28.1](../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/), [MDPR28.1.A](../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/), [MDPR21.1.A](../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/) |
 | [8.15](#c-8-15) | Logging | Sì | No | L B R | [PR16.1](../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/), [MDPR11.1.A](../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit/) |
 | [8.16](#c-8-16) | Attività di monitoraggio | Sì | No | B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.17](#c-8-17) | Sincronizzazione degli orologi | Sì | Sì | B | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
@@ -132,7 +134,7 @@ Clic sull'ID per aprire il dettaglio del controllo.
 | [8.23](#c-8-23) | Filtro del web | Sì | No | B R | [REG01](../../7_GESTIONE%20RISORSE/REG01%20-%20Regolamento%20sull%E2%80%99utilizzo%20degli%20strumenti%20aziendali/), [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.24](#c-8-24) | Uso della crittografia | Sì | Sì | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
 | [8.25](#c-8-25) | Ciclo di vita dello sviluppo sicuro | Sì | Sì | B | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/), [ALPO25.A](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/ALPO25.A%20-%20Linee%20guida%20per%20lo%20sviluppo%20software/) |
-| [8.26](#c-8-26) | Requisiti di sicurezza delle applicazioni | Sì | Sì | L B R | [PR32.1](../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/) |
+| [8.26](#c-8-26) | Requisiti di sicurezza delle applicazioni | Sì | Sì | L B R | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/) |
 | [8.27](#c-8-27) | Principi di architettura e ingegnerizzazione dei sistemi sicuri | Sì | Sì | B R | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/) |
 | [8.28](#c-8-28) | Codifica sicura | Sì | Sì | C B | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/) |
 | [8.29](#c-8-29) | Test di sicurezza durante lo sviluppo e per l’accettazione | Sì | Sì | B R | [PO25](../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/) |
@@ -212,13 +214,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-5-6">
-<summary><strong>5.6</strong> Contatti con gruppi di interesse <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>5.6</strong> Contatti con gruppi di interesse <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Contatti con gruppi di interesse<br/>(Contact with special interest groups)<br><em>The organization should establish and maintain contact with special interest groups or other specialist security forums and professional associations.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito business / best practice</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>informazioni attraverso il monitoraggio di fonti pubbliche, documentazione tecnica e community professionali.<br/><br/>Il personale tecnico partecipa attivamente a community di sviluppo software e tecnologia, e si aggiorna costantemente su best practice e vulnerabilità attraverso:<br/><br/>documentazione ufficiale dei fornitori tecnologici<br/>piattaforme di sviluppo e collaborazione<br/>risorse online e community tecniche<br/><br/>Data la natura dell’organizzazione, non sono attualmente formalizzati rapporti con specifiche associazioni o gruppi strutturati di sicurezza, ma viene comunque garantito un aggiornamento continuo e informale sulle tematiche rilevanti.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> non sono ancora definite le fonti di aggiornamento seguite. Previste CSIRT Italia, avvisi di sicurezza dei fornitori (Aruba, Google Workspace, GitHub, Bitwarden) e avvisi delle dipendenze su GitHub, con iscrizioni a cura del System Administrator, entro il 15/12/2026 (azione T33 del piano di trattamento MDPR33.1.B).<br/><br/>informazioni attraverso il monitoraggio di fonti pubbliche, documentazione tecnica e community professionali.<br/><br/>Il personale tecnico partecipa attivamente a community di sviluppo software e tecnologia, e si aggiorna costantemente su best practice e vulnerabilità attraverso:<br/><br/>documentazione ufficiale dei fornitori tecnologici<br/>piattaforme di sviluppo e collaborazione<br/>risorse online e community tecniche<br/><br/>Data la natura dell’organizzazione, non sono attualmente formalizzati rapporti con specifiche associazioni o gruppi strutturati di sicurezza, ma viene comunque garantito un aggiornamento continuo e informale sulle tematiche rilevanti.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../7.5_INFORMAZIONI%20DOCUMENTATE/MDPR08.1.A%20-%20Elenco%20Informazioni%20documentate/">MDPR08.1.A - Elenco Informazioni Documentate / Forum</a><br/><a href="../../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche/">PR23.1 - Gestione delle Minacce e delle Vulnerabilità Tecniche</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive <br/>#Corrective<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Protect #Respond #Recover<br>Capacità operative: #Governance<br>Domini di sicurezza: #Defence<br>Processi: #Governance</td></tr>
 </table>
@@ -238,13 +240,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 </details>
 
 <details class="soa-ctrl" id="c-5-8">
-<summary><strong>5.8</strong> Sicurezza delle informazioni nella gestione dei progetti <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>5.8</strong> Sicurezza delle informazioni nella gestione dei progetti <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Sicurezza delle informazioni nella gestione dei progetti<br/>(Information security in project management)<br><em>Information security shall be integrated into project management.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito legale, Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’organizzazione integra la sicurezza delle informazioni nella gestione dei progetti, in particolare nei progetti di sviluppo software e nelle attività tecniche.<br/><br/>Durante le fasi di progettazione e sviluppo vengono considerate le principali esigenze di sicurezza, tra cui:<br/><br/>gestione degli accessi ai sistemi e ai repository<br/>protezione dei dati dei clienti e delle informazioni sensibili<br/>utilizzo di infrastrutture e servizi cloud sicuri<br/>aggiornamento e manutenzione delle dipendenze software<br/><br/>Le attività progettuali sono gestite tramite strumenti di collaborazione e versionamento che garantiscono tracciabilità e controllo delle modifiche.<br/><br/>Il personale tecnico applica buone pratiche di sviluppo sicuro e tiene conto delle implicazioni di sicurezza durante l’intero ciclo di vita del progetto.<br/><br/>Data la natura agile dell’organizzazione, la sicurezza è integrata in modo continuo nelle attività operative, piuttosto che gestita come fase separata.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> manca una registrazione della sicurezza nei progetti. Prevista una checklist di sicurezza in apertura di ogni progetto, come passo della pipeline di progetto del software interno VectorHub, entro il 15/12/2026 o al più tardi entro febbraio 2027 (azione T34 del piano di trattamento MDPR33.1.B).<br/><br/>L’organizzazione integra la sicurezza delle informazioni nella gestione dei progetti, in particolare nei progetti di sviluppo software e nelle attività tecniche.<br/><br/>Durante le fasi di progettazione e sviluppo vengono considerate le principali esigenze di sicurezza, tra cui:<br/><br/>gestione degli accessi ai sistemi e ai repository<br/>protezione dei dati dei clienti e delle informazioni sensibili<br/>utilizzo di infrastrutture e servizi cloud sicuri<br/>aggiornamento e manutenzione delle dipendenze software<br/><br/>Le attività progettuali sono gestite tramite strumenti di collaborazione e versionamento che garantiscono tracciabilità e controllo delle modifiche.<br/><br/>Il personale tecnico applica buone pratiche di sviluppo sicuro e tiene conto delle implicazioni di sicurezza durante l’intero ciclo di vita del progetto.<br/><br/>Data la natura agile dell’organizzazione, la sicurezza è integrata in modo continuo nelle attività operative, piuttosto che gestita come fase separata.</td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Identify <br/>#Protect<br>Capacità operative: #Governance<br>Domini di sicurezza: #Governance_ and_Ecosystem #Protection<br>Processi: #Governance</td></tr>
 </table>
 </details>
@@ -735,13 +737,13 @@ Clic sull'ID per aprire il dettaglio del controllo.
 ### 7. Controlli fisici (Physical controls)
 
 <details class="soa-ctrl" id="c-7-1">
-<summary><strong>7.1</strong> Perimetri di sicurezza fisica <span class="soa-stato">Applicabile: Sì · Attuato: Sì</span></summary>
+<summary><strong>7.1</strong> Perimetri di sicurezza fisica <span class="soa-stato">Applicabile: Sì · Attuato: No</span></summary>
 <table class="soa-scheda">
 <tr><th>Controllo</th><td>Perimetri di sicurezza fisica<br/>(Physical security perimeters)<br><em>Security perimeters should be defined and used to protect areas that contain information and other associated assets.</em></td></tr>
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
-<tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
+<tr><th>Applicabile / Attuato</th><td>Sì / No</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’organizzazione definisce e mantiene un perimetro di sicurezza fisica per proteggere le aree in cui sono presenti informazioni e asset aziendali.<br/><br/>Le attività operative sono svolte presso sedi e uffici con accesso controllato, in cui l’ingresso è limitato al personale autorizzato.<br/><br/>La protezione fisica è garantita attraverso:<br/><br/>accesso agli uffici controllato tramite chiavi o sistemi equivalenti<br/>presenza di aree operative destinate alle attività aziendali<br/>supervisione degli accessi da parte del personale autorizzato<br/><br/>L’organizzazione adotta un approccio proporzionato alla propria dimensione e alla natura delle attività svolte, in cui la maggior parte delle informazioni è gestita tramite sistemi digitali e piattaforme cloud.</td></tr>
+<tr><th>Descrizione dell'attuazione</th><td><strong>Non ancora attuato (24/11/2026):</strong> manca la pianta della sede con il perimetro (ALPR18.1.A). Prevista entro il 15/12/2026 (azione T35 del piano di trattamento MDPR33.1.B).<br/><br/>L’organizzazione definisce e mantiene un perimetro di sicurezza fisica per proteggere le aree in cui sono presenti informazioni e asset aziendali.<br/><br/>Le attività operative sono svolte presso sedi e uffici con accesso controllato, in cui l’ingresso è limitato al personale autorizzato.<br/><br/>La protezione fisica è garantita attraverso:<br/><br/>accesso agli uffici controllato tramite chiavi o sistemi equivalenti<br/>presenza di aree operative destinate alle attività aziendali<br/>supervisione degli accessi da parte del personale autorizzato<br/><br/>L’organizzazione adotta un approccio proporzionato alla propria dimensione e alla natura delle attività svolte, in cui la maggior parte delle informazioni è gestita tramite sistemi digitali e piattaforme cloud.</td></tr>
 <tr><th>Riferimenti documentali</th><td><a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/PR18.1%20-%20Gestione%20sicurezza%20fisica%20e%20ambientale/">PR18.1 - Gestione Sicurezza Fisica e Ambientale</a><br/><a href="../../A_SICUREZZA%20FISICA%20AMBIENTALE/ALPR18.1.A%20-%20Piantina%20accessi.pptx">ALPR18.1.A - Piantina accessi</a><br/><a href="../../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi/">PR16.1 - Gestione degli Accessi</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Protect<br>Capacità operative: #Physical_security<br>Domini di sicurezza: #Protection<br>Processi: #Sicurezza Fisica ed Ambientale</td></tr>
 </table>
@@ -1095,8 +1097,8 @@ Clic sull'ID per aprire il dettaglio del controllo.
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
 <tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito legale, Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>L’infrastruttura utilizzata per l’erogazione dei servizi digitali si basa su piattaforme cloud che adottano meccanismi di ridondanza e alta disponibilità per garantire la continuità operativa e ridurre il rischio di interruzione dei servizi. I dati e le risorse critiche sono ospitati su sistemi che prevedono adeguate misure di resilienza e recovery.</td></tr>
-<tr><th>Riferimenti documentali</th><td><a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/">PR28.1 - Gestione della continuità operativa</a></td></tr>
+<tr><th>Descrizione dell'attuazione</th><td>Il livello di ridondanza è deciso in base ai requisiti di disponibilità definiti nella BIA. I servizi interni girano su un unico server principale (Aruba), senza ridondanza attiva: il fermo fino al tempo di ripristino previsto è accettato nella BIA. A copertura, il server secondario scarica ogni settimana le copie dei volumi e la configurazione è nel repository Ansible, così il server può essere ricostruito; la prova di ripristino del 18/11/2026 è riuscita.</td></tr>
+<tr><th>Riferimenti documentali</th><td><a href="../../A_CONTINUITA_%20OPERATIVA/PR28.1%20-%20Gestione%20della%20continuit%C3%A0%20operativa/">PR28.1 - Gestione della continuità operativa</a><br/><a href="../../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29/">MDPR28.1.A - Piani di Continuità Operativa</a><br/><a href="../../A_BACKUP%20%26%20RESTORE/MDPR21.1.A%20-%20Piano%20di%20Restore/">MDPR21.1.A - Piano di Restore</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive<br>Proprietà di sicurezza: #Availability<br>Concetti cybersecurity: #Protect<br>Capacità operative: #Continuity <br/>#Asset_management<br>Domini di sicurezza: #Protection <br/>#Resilience<br>Processi: #Continuità operativa</td></tr>
 </table>
 </details>
@@ -1251,8 +1253,8 @@ Clic sull'ID per aprire il dettaglio del controllo.
 <tr><th>Set di controlli</th><td>ISO/IEC 27002</td></tr>
 <tr><th>Applicabile / Attuato</th><td>Sì / Sì</td></tr>
 <tr><th>Motivo di inclusione</th><td>Requisito legale, Requisito business / best practice, Risultato analisi dei rischi</td></tr>
-<tr><th>Descrizione dell'attuazione</th><td>Durante lo sviluppo delle applicazioni vengono considerati i requisiti di sicurezza, inclusi autenticazione, controllo degli accessi e protezione dei dati.<br/><br/>Le applicazioni sono sviluppate adottando pratiche di sicurezza adeguate al contesto operativo.</td></tr>
-<tr><th>Riferimenti documentali</th><td><a href="../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT/">PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT</a></td></tr>
+<tr><th>Descrizione dell'attuazione</th><td>Durante lo sviluppo delle applicazioni vengono considerati i requisiti di sicurezza, inclusi autenticazione, controllo degli accessi e protezione dei dati. Nei progetti per i clienti i requisiti di sicurezza sono definiti dal cliente e recepiti nel progetto; per gli strumenti interni si applica PO25.</td></tr>
+<tr><th>Riferimenti documentali</th><td><a href="../../A_PROGETTAZIONE%20%26%20SVILUPPO%20SICURO/PO25%20-%20Sviluppo%20Sicuro/">PO25 - Sviluppo Sicuro</a></td></tr>
 <tr><th>Attributi ISO/IEC 27002</th><td>Tipo di controllo: #Preventive<br>Proprietà di sicurezza: #Confidentiality <br/>#Integrity <br/>#Availability<br>Concetti cybersecurity: #Protect<br>Capacità operative: #Application_security <br/>#System_and_network_security<br>Domini di sicurezza: #Protection <br/>#Defence<br>Processi: #Progettazione e Sviluppo Sicuro</td></tr>
 </table>
 </details>
