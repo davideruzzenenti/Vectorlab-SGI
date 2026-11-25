@@ -1,0 +1,532 @@
+<title>Stato documentazione SGI — Vectorlab</title>
+<style>
+:root{
+  --paper:#EEF0EA; --ink:#1B211D; --ink-soft:#4B554E; --panel:#FFFFFF; --line:#D7DAD0;
+  --accent:#1E5C56; --accent-soft:#DCEAE7;
+  --good:#2F7A4D; --good-soft:#E3F1E6;
+  --todo:#9C6B0A; --todo-soft:#F5EBD6;
+  --boiler:#6E4E86; --boiler-soft:#ECE3F1;
+  --bad:#B3392A; --bad-soft:#F6E2DE;
+  --missing:#5B6169; --missing-soft:#E7E8E5;
+  --actor-ia:#1E5C56; --actor-ia-soft:#DCEAE7;
+  --actor-misto:#2A5C8A; --actor-misto-soft:#DCE6EF;
+  --actor-umano:#8A3A6E; --actor-umano-soft:#F0DEEA;
+  --shadow: 0 1px 2px rgba(27,33,29,.06), 0 6px 16px rgba(27,33,29,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#131715; --ink:#E7EAE4; --ink-soft:#A9B1A9; --panel:#1B211D; --line:#2B322C;
+    --accent:#57B3AA; --accent-soft:#1E3230;
+    --good:#63C08A; --good-soft:#1D3324;
+    --todo:#E0AA4E; --todo-soft:#3A2E13;
+    --boiler:#C6A0DE; --boiler-soft:#2E2438;
+    --bad:#E8887A; --bad-soft:#3B211D;
+    --missing:#9BA1A6; --missing-soft:#262A28;
+    --actor-ia:#57B3AA; --actor-ia-soft:#1E3230;
+    --actor-misto:#6FA8D6; --actor-misto-soft:#1E2A33;
+    --actor-umano:#D98BB8; --actor-umano-soft:#33212C;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 20px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131715; --ink:#E7EAE4; --ink-soft:#A9B1A9; --panel:#1B211D; --line:#2B322C;
+  --accent:#57B3AA; --accent-soft:#1E3230;
+  --good:#63C08A; --good-soft:#1D3324;
+  --todo:#E0AA4E; --todo-soft:#3A2E13;
+  --boiler:#C6A0DE; --boiler-soft:#2E2438;
+  --bad:#E8887A; --bad-soft:#3B211D;
+  --missing:#9BA1A6; --missing-soft:#262A28;
+  --actor-ia:#57B3AA; --actor-ia-soft:#1E3230;
+  --actor-misto:#6FA8D6; --actor-misto-soft:#1E2A33;
+  --actor-umano:#D98BB8; --actor-umano-soft:#33212C;
+}
+:root[data-theme="light"]{
+  --paper:#EEF0EA; --ink:#1B211D; --ink-soft:#4B554E; --panel:#FFFFFF; --line:#D7DAD0;
+  --accent:#1E5C56; --accent-soft:#DCEAE7;
+  --good:#2F7A4D; --good-soft:#E3F1E6;
+  --todo:#9C6B0A; --todo-soft:#F5EBD6;
+  --boiler:#6E4E86; --boiler-soft:#ECE3F1;
+  --bad:#B3392A; --bad-soft:#F6E2DE;
+  --missing:#5B6169; --missing-soft:#E7E8E5;
+  --actor-ia:#1E5C56; --actor-ia-soft:#DCEAE7;
+  --actor-misto:#2A5C8A; --actor-misto-soft:#DCE6EF;
+  --actor-umano:#8A3A6E; --actor-umano-soft:#F0DEEA;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.5; font-size:16px;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:2.5rem 1.5rem 5rem}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif; text-wrap:balance; margin:0}
+code,.mono,.num{font-family:ui-monospace,"SF Mono","Cascadia Code",Consolas,monospace; font-variant-numeric:tabular-nums}
+
+header.top{display:flex;flex-direction:column;gap:.6rem;margin-bottom:2.2rem;border-bottom:2px solid var(--ink);padding-bottom:1.4rem}
+header.top .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--accent);font-weight:700}
+header.top h1{font-size:2.1rem;font-weight:700}
+header.top .meta{color:var(--ink-soft);font-size:.92rem}
+
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:1.8rem 0 2.4rem}
+.kpi{background:var(--panel);padding:1.1rem 1.3rem;display:flex;flex-direction:column;gap:.25rem}
+.kpi .n{font-family:Georgia,serif;font-size:2.1rem;font-weight:700;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:.8rem;color:var(--ink-soft)}
+.kpi.good .n{color:var(--good)}
+.kpi.todo .n{color:var(--todo)}
+.kpi.bad .n{color:var(--bad)}
+.kpi.missing .n{color:var(--missing)}
+
+section{margin:2.6rem 0}
+section > h2{font-size:1.4rem;margin-bottom:.3rem}
+section > .sub{color:var(--ink-soft);font-size:.92rem;margin-bottom:1.1rem;max-width:70ch}
+
+.chip{display:inline-flex;align-items:center;gap:.35rem;border-radius:999px;padding:.2rem .65rem;font-size:.78rem;font-weight:600;white-space:nowrap}
+.chip.good{background:var(--good-soft);color:var(--good)}
+.chip.todo{background:var(--todo-soft);color:var(--todo)}
+.chip.boiler{background:var(--boiler-soft);color:var(--boiler)}
+.chip.bad{background:var(--bad-soft);color:var(--bad)}
+.chip.missing{background:var(--missing-soft);color:var(--missing)}
+.chip.nuovo{background:var(--actor-ia-soft);color:var(--actor-ia)}
+.chip.approve{background:var(--good-soft);color:var(--good);outline:1px dashed var(--good)}
+.stage1{width:100%;border-collapse:collapse;font-size:.88rem}
+.stage1 th,.stage1 td{border-bottom:1px solid var(--line);padding:.5rem .6rem;text-align:left;vertical-align:top}
+.stage1 th{font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-soft)}
+.todo-list li{margin:.35rem 0}
+
+.actor-tag{display:inline-flex;align-items:center;gap:.3rem;border-radius:5px;padding:.18rem .5rem;font-size:.74rem;font-weight:700;white-space:nowrap;border-left:3px solid}
+.actor-tag.ia{background:var(--actor-ia-soft);color:var(--actor-ia);border-color:var(--actor-ia)}
+.actor-tag.misto{background:var(--actor-misto-soft);color:var(--actor-misto);border-color:var(--actor-misto)}
+.actor-tag.umano{background:var(--actor-umano-soft);color:var(--actor-umano);border-color:var(--actor-umano)}
+.actor-tag.nextage{background:var(--todo-soft);color:var(--todo);border-color:var(--todo)}
+.actor-tag.ok{background:transparent;color:var(--ink-soft);border-color:var(--line);font-weight:500}
+
+.split-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+@media (max-width:820px){.split-grid{grid-template-columns:1fr}}
+.split-col{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.3rem}
+.split-col h3{font-size:1rem;display:flex;align-items:center;gap:.5rem;margin-bottom:.9rem}
+.split-col ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.7rem}
+.split-col li{font-size:.88rem;line-height:1.45;padding-left:.9rem;border-left:2px solid var(--line)}
+.split-col li b{display:block;color:var(--ink)}
+.split-col li span{color:var(--ink-soft)}
+.split-col.ia-col{border-top:3px solid var(--actor-ia)}
+.split-col.umano-col{border-top:3px solid var(--actor-umano)}
+.split-col.ia-col li{border-left-color:var(--actor-ia)}
+.split-col.umano-col li{border-left-color:var(--actor-umano)}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.2rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.5rem}
+.card .file{font-family:ui-monospace,"SF Mono",Consolas,monospace;font-size:.8rem;color:var(--ink-soft)}
+.card h3{font-size:1.02rem;font-weight:700;line-height:1.3}
+.card p{margin:0;font-size:.92rem;color:var(--ink-soft)}
+
+.missing-cluster{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.3rem;margin-bottom:1rem}
+.missing-cluster h3{font-size:.98rem;margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
+.missing-list{display:flex;flex-wrap:wrap;gap:.4rem}
+.missing-list span{font-family:ui-monospace,"SF Mono",Consolas,monospace;font-size:.78rem;background:var(--missing-soft);color:var(--missing);padding:.18rem .5rem;border-radius:5px}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:1rem;position:sticky;top:0;background:var(--paper);padding:.7rem 0;z-index:5}
+.toolbar input[type=search]{
+  background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem;
+  color:var(--ink);font-size:.88rem;min-width:220px;font-family:inherit;
+}
+.filter-btn{
+  border:1px solid var(--line);background:var(--panel);color:var(--ink-soft);
+  border-radius:999px;padding:.32rem .8rem;font-size:.8rem;font-weight:600;cursor:pointer;
+  font-family:inherit;
+}
+.filter-btn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.filter-btn:focus-visible, .filter-btn:focus{outline:2px solid var(--accent);outline-offset:2px}
+.count-label{font-size:.8rem;color:var(--ink-soft);margin-left:auto}
+
+.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.87rem;background:var(--panel)}
+thead th{
+  position:sticky;top:0;background:var(--panel);text-align:left;font-size:.72rem;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--ink-soft);padding:.6rem .8rem;border-bottom:1px solid var(--line);white-space:nowrap
+}
+tbody td{padding:.55rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--accent-soft)}
+td.cat{color:var(--ink-soft);font-size:.78rem;white-space:nowrap}
+td.file code{font-size:.82rem}
+td.note{color:var(--ink-soft);max-width:420px}
+td.rev{white-space:nowrap;font-size:.8rem;color:var(--ink-soft)}
+
+.next-steps{counter-reset:step}
+.next-steps ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.8rem}
+.next-steps li{
+  counter-increment:step;display:grid;grid-template-columns:2.2rem 1fr;gap:.9rem;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.9rem 1.1rem;
+}
+.next-steps li::before{
+  content:counter(step);font-family:Georgia,serif;font-weight:700;font-size:1.3rem;color:var(--accent);
+}
+.next-steps li b{display:block;margin-bottom:.15rem}
+.next-steps li span{color:var(--ink-soft);font-size:.9rem}
+
+footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--ink-soft);font-size:.82rem}
+
+@media (max-width:640px){
+  header.top h1{font-size:1.5rem}
+  .kpi .n{font-size:1.6rem}
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Vectorlab · Sistema di Gestione Integrato ISO 9001 / ISO 27001</div>
+    <h1>Stato della documentazione: cosa c'è, cosa è valido, cosa manca</h1>
+    <div class="meta">Revisione completa del repository — 16 luglio 2026 · aggiornata il 19 ottobre 2026 (allineamento con Drive) e il 20 ottobre 2026 (revisione dei documenti dello stage 1, uno alla volta)</div>
+  </header>
+
+  <div class="kpi-grid">
+    <div class="kpi"><div class="n num">164</div><div class="l">Documenti tracciati (161 al 19/10 + 3 procedure dei processi principali citate ma mancanti)</div></div>
+    <div class="kpi good"><div class="n num">17</div><div class="l">Corretti o creati dal 20/10, da approvare</div></div>
+    <div class="kpi good"><div class="n num">34</div><div class="l">Pronti così come sono</div></div>
+    <div class="kpi todo"><div class="n num">62</div><div class="l">Template vuoti da popolare</div></div>
+    <div class="kpi bad"><div class="n num">48</div><div class="l">Con difetti da correggere</div></div>
+    <div class="kpi" style="background:var(--actor-ia-soft)"><div class="n num" style="color:var(--actor-ia)">4</div><div class="l">Bozze IA senza corrispettivo su Drive</div></div>
+    <div class="kpi missing"><div class="n num">2</div><div class="l">Mancanti (REG03 da decidere, MDPO25.F da copiare da Drive)</div></div>
+  </div>
+
+  <section>
+    <h2>Avanzamento stage 1 (aggiornato il 23/11/2026)</h2>
+    <p class="sub">Documenti che RINA verifica allo stage 1 (lista Nextage del 07/10/2026), in ordine di lavorazione. «Da approvare» = contenuto corretto nel repo, manca l'approvazione dell'Amministratore Unico, prevista in un'unica sessione a fine lavoro (con mail di conferma come evidenza).</p>
+    <table class="stage1">
+      <thead><tr><th>#</th><th>Documento</th><th>Stato</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Campo di applicazione (PO02 §4, PO01 §6)</td><td><span class="chip approve">Da approvare</span></td><td>Integrato 9001+27001, testo uguale alla domanda RINA. 22/10: limitato al servizio della BU Ynsera; esclusi prodotti della unit Vectorlab, bandi e progetti di ricerca (PO02 §4.2, §4.4).</td></tr>
+        <tr><td>2</td><td>Politica (PO01)</td><td><span class="chip approve">Da approvare</span></td><td>Da decidere la pubblicazione sul sito.</td></tr>
+        <tr><td>3</td><td>Organigramma SGI (ALPO01.A) + Mansionario</td><td><span class="chip approve">Da approvare</span></td><td>16/11: Mansionario riscritto sulla realtà Vectorlab (14 schede: tolte IT Staff, HR Staff, Innovation; HR unificata per Francesco; Digital nel CTO; aggiunta scheda PM; tolti anni di esperienza e contenuti del modello Nextage). Organigramma rev 0.0: Innovation segnata fuori campo. Aperto: RLS (Marco indicato ma non eletto, nessun corso) da decidere con Francesco.</td></tr>
+        <tr><td>4</td><td>Metodologia rischio (PR33.1), report e piano 2026</td><td><span class="chip approve">Da approvare</span></td><td>16/11: PR33.1 rev 0.0 con criteri di rischio (ERA, RA = 45, trattamento sopra soglia, eccezioni solo con motivazione e accettazione AU), selezione dei controlli e SoA (6.1.3 b–d), approvazione di Risk Owner e AU, misura compensativa CISO = AU. Aperto: verbalizzare l’accettazione di RA = 45 nel Riesame; rischio Copilot in ERA. 23/11 sera: piano rev 0.1 con asset ERA per ogni azione, colonna Esito e azioni T13–T30; responsabili e scadenze da confermare con Andrea.</td></tr>
+        <tr><td>5</td><td>SoA</td><td><span class="chip approve">Da approvare</span></td><td>24/11: rev 0.7, 8.14 con evidenza (BIA, copie sul server secondario, ripristino del 18/11) e 8.26 riferito a PO25. Rev 0.6, 5.6, 5.8 e 7.1 non attuati (T33–T35, entro il 15/12): 51 attuati, 39 non attuati. Rev 0.5, 8.13 e 5.30 attuati (backup dal server secondario, ripristino riuscito il 18/11). Rev 0.4, 8.22 (rischio accettato dall'AU fino al 15/12, T31), 8.16 e 8.6 (monitoraggio dal server secondario, T32, febbraio 2027) passati a «non attuato»: 54 attuati, 36 non attuati. 23/11 sera: rev 0.2, motivo «R» su 77 controlli dal collegamento controlli ↔ asset di ERA; 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a «non attuato»: 55 attuati, 35 non attuati, 3 esclusi. Tutti i non attuati hanno un'azione nel piano MDPR33.1.B. 23/11: nuova vista generata da tools/genera_soa.py, tolta la sezione AGID. Aperti con Nextage: motivazioni di 7.12 e 8.30 in ERA; 8.13 e controlli di sviluppo sicuro senza asset collegati in ERA.</td></tr>
+        <tr><td>6</td><td>Elenco procedure (MDPR08.1.A) + PR08.1</td><td><span class="chip approve">Da approvare</span></td><td>Elenco generato in automatico dal repo; PR08.1 adeguata a repo privato e approvazione tramite tabella Revisioni. PR35.1 (21/10) e PR09.1 (22/10) scritte; PR36.1 sostituita da PR09.1, PR34.1 non serve (ricerca esclusa). Aperto: codici duplicati (MDPR10.1.A ×2).</td></tr>
+        <tr><td>7</td><td>Elenco leggi e regolamenti (MDPO29.C)</td><td><span class="chip approve">Da approvare</span></td><td>Creato il 20/10: 27 riferimenti con applicabilità, documenti SGI collegati e owner; include AI Act (dopo Digital Omnibus), L. 132/2025, Cyber Resilience Act, NIS2 (non applicabile direttamente). PO29 aggiornata.</td></tr>
+        <tr><td>8</td><td>Elenco attività svolte presso terzi (MDPR26.1.B)</td><td><span class="chip approve">Da approvare</span></td><td>Compilato il 20/10 nel registro fornitori qualificati: 21 voci con criticità e impatto. Aperti: AWS sì/no, consulenti tecnici su progetti clienti (8.30), Discord, qualifica e NDA dei fornitori critici.</td></tr>
+        <tr><td>9</td><td>Pianta sito e infrastruttura ICT</td><td><span class="chip todo">In attesa</span></td><td>Piantina ALPR18.1.A vuota (solo intestazione). Planimetria o foto e schema ICT da vedere mercoledì 18/11.</td></tr>
+        <tr><td>10</td><td>Pianificazione audit interni (MDPR11.1.A)</td><td><span class="chip approve">Da approvare</span></td><td>Programma 2026–2028 compilato il 20/10; audit 2026 il <strong>25–26/11</strong>. Piano I/2026 di Nextage in B_REGISTRAZIONI/Audit Interno/2026. 16/11: da segnalare a Nextage l’indipendenza di Francesca Capuano sull’analisi rischi (ha partecipato alla checklist) e Andrea in due sessioni parallele il 26/11 ore 9:30.</td></tr>
+        <tr><td>11</td><td>Verbale ultimo riesame</td><td><span class="chip todo">Dopo l'audit</span></td><td>Dopo l'audit interno di fine novembre.</td></tr>
+        <tr><td>—</td><td>Visura camerale</td><td><span class="chip good">Fatto</span></td><td>Visura aggiornata estratta il 09/09/2026 (Drive): sede Piazza Borgo Pila 39/22, CAP 16129, piano 8. Resta da comunicare a RINA il civico corretto del sito.</td></tr>
+      </tbody>
+    </table>
+    <h3 style="margin-top:1.4rem">Cose aperte (anche nel task ClickUp «ISO» di Davide)</h3>
+    <ul class="todo-list">
+      <li>Durata dei certificati TLS in calo per il ballot CA/Browser Forum SC-081v3: 200 giorni dal 15/03/2026, 100 dal 15/03/2027, 47 dal 15/03/2029. Il rinnovo manuale non regge: automazione necessaria entro il 2027.</li>
+      <li>Organigramma SGI: verificare che Andrea risulti sia Amministratore Unico sia CTO. Collegato: separazione dei compiti (27001 5.3) da dichiarare nell’analisi dei rischi con le misure compensative.</li>
+      <li>Edizione 27001 citata in modo non uniforme: «ISO/IEC 27001:2022» in 16 punti su 5 documenti, «UNI CEI EN ISO/IEC 27001:2024+A1:2024» altrove. Non è un errore (sono due designazioni valide della stessa norma), ma va resa coerente. Da decidere quale forma adottare.</li>
+      <li>Quando Claude scrive nel repo deve salvare i file con fine riga Unix: i file sul PC Windows sono CRLF, nel repo sono LF, e una scrittura CRLF fa apparire l’intero documento riscritto nel diff.</li>
+      <li>Andrei Apostu (IT esterno): incarico firmato, accordo di riservatezza, nomina ad Amministratore di Sistema.</li>
+      <li>Registro Amministratori di Sistema (MDPO29.A) da compilare con Andrei e Andrea.</li>
+      <li>Nomina di Francesco a Referente Privacy (ALPO31.D) da firmare.</li>
+      <li>Piano di trattamento rischi 2026: con Nextage, valutare se A0039 (codici sorgente clienti) passa da accettato a trattato e inserire in ERA il rischio Copilot su account condiviso.</li>
+      <li>Politica PO01 da pubblicare sul sito, o togliere il riferimento.</li>
+      <li>Comunicare a RINA il civico corretto del sito (39/22, non 39/2) con la visura nuova.</li>
+      <li>PR09.1 Gestione Commerciale (22/10): completare il modello di preventivo Ynsera con le condizioni generali (riservatezza, proprietà intellettuale, organizzazione del lavoro a cura del PM, dati personali), dopo revisione legale.</li>
+      <li>Campo di applicazione (22/10): comunicare a Nextage la limitazione a Ynsera (testo RINA invariato); Cyber Resilience Act da valutare per i prodotti Vectorlab; contratti Ynsera come appalto di servizi, non somministrazione.</li>
+      <li>MDPO15.A Data Retention (22/10): compilato; resta da fissare con l'IT la durata dei backup.</li>
+      <li>23/11: ritirati 11 documenti mai usati o superati (MDPR11.1.M, MDPO25.A–E e G, ALPR27.1.B, ALPO31.C, MDPR18.1.A (presenze in Planner), ALPR31.2.H): da 102 a 91 documenti; inventario asset catalogato come MDPR32.1.B. Da chiedere a Nextage: togliere gli stessi rimandi in ERA. Restano da decidere MDPR11.1.D/L (checklist, se Nextage usa le sue) e MDPR05.1.H (chiedere a Francesco chi prepara le contestazioni disciplinari).</li>
+      <li>SoA: sezione AGID CSP-SAAS tolta dal repo il 23/11 (da togliere anche in ERA); verificare con Nextage i 29 controlli solo pianificati in ERA e il motivo «Risultato analisi dei rischi», oggi mai indicato.</li>
+      <li>Repo ancora pubblico su GitHub: spostarlo sul server aziendale e renderlo privato (i documenti sono già scritti come se lo fosse).</li>
+      <li>Codice duplicato: due documenti MDPR10.1.A (Questionario soddisfazione e Tabella indicatori), da rinumerare.</li>
+      <li>Infrastruttura: ricevute il 20/10 le risposte dell'IT esterno (server dedicato Aruba, nessun servizio AWS secondo l'IT; conferma attesa dall'Amministrazione). Le azioni tecniche prioritarie prima dell'audit interno sono tracciate nel task ClickUp «ISO» (non nel repo, finché è pubblico).</li>
+      <li>Repo pubblico: non inserire nel repository dettagli dell'infrastruttura (indirizzi, servizi esposti, debolezze) finché non è privato; lo schema ICT è tenuto fuori dal repo.</li>
+      <li>Fornitori: chiarire se i consulenti tecnici esterni lavorano su progetti dei clienti (SoA 8.30 esclusa); completare qualifica, NDA e nomine dei fornitori critici (MDPR26.1.B).</li>
+      <li>Discord è in uso come messaggistica (asset A0017) ma non è accettato dal SGI: decidere sostituzione o limitazione.</li>
+      <li>Audit interno 2026 il 25–26/11 (piano I/2026 di Nextage, mail del 10/11): rispondere a Micaela sui punti aperti del piano; prenotare Andrei (25/11 ore 14:00, 26/11 ore 9:30–11:30) e uno sviluppatore (25/11 ore 11:00); verificare chi è «Resp. BD» e «Resp HR»; fissare il Riesame della Direzione tra il 27/11 e l'11/12.</li>
+      <li>PR35.1 Digital: creare lo stato «finito» nella lista Prospect; definire gli strumenti di IA autorizzati (Claude piano individuale; Copilot «Copilot Max» su account GitHub personale condiviso dai programmatori); form di fine commessa (Andrei); riallineare PO25 alla realtà.</li>
+      <li>23/11: ALPO02.A Contesto e processi riscritto in Markdown sul servizio Ynsera (rev 0.1, Da approvare); ALPO01.A Organigramma visibile sul sito come immagine (resta il PowerPoint). Restano solo da scaricare: ALPR18.1.A Piantina (vuota), MDPR12.1.A Riesame.</li>
+      <li>11/11: applicate le risposte della riunione del 04/11 con Andrea e Francesco in PO01, PO02, PR18.1, REG01, MDPR26.1.B, ALPO01.B, MDPR06.1.C, MDPR06.1.E, PR19.1, PO25 (riscritta), MDPR31.4.A/B (dettaglio in STATO-PROGETTO). Da decidere: backup «di competenza di Aruba», BIA e continuità «non inerenti», ruolo GDPR di ABCD Lavoro e Google, A.8.30 con i consulenti esterni, misura compensativa sui log, evidenze dei casi già avvenuti.</li>
+      <li>16/11: revisione dei documenti stage 1 con Davide. Riscritti ALPO01.B, PR33.1, MDPR10.1.A (14 KPI in bozza, prima misurazione prima del 25/11); PO02 rivista processo per processo (tolti contenuti del modello e 9 KPI inesistenti); allineati PO01, PR11.1, PR06.1; revisioni azzerate a rev 0.0 su tutti i documenti toccati (decisione di Davide, regola per i prossimi). La versione Nextage su Drive è solo un punto di partenza: fa fede il repo. Punti per la riunione del 18/11 in STATO-PROGETTO.</li>
+      <li>17/11: corretti 26 codici sbagliati e tolti 8 rimandi a documenti mai scritti (dettaglio in STATO-PROGETTO); nuovo ALPR33.1.A Metodologia di analisi del rischio (ERA), scale e formula da confermare con Nextage. Restano 111 rimandi a documenti ritirati il 28/10.</li>
+      <li>Approvazione unica di Andrea a fine stage 1 (documenti «Da approvare» + soglia rischio 45).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Come leggere questi numeri</h2>
+    <p class="sub">Molti documenti sono stati consegnati dall'ente di certificazione come template standard: non è un errore che siano ancora vuoti — è normale finché non vengono usati la prima volta. Il 16/07/2026 la IA aveva generato in bozza i documenti citati nella SOA ma mai creati; il 19/10/2026, allineando il repo a Drive, quasi tutte quelle bozze sono state sostituite dalle versioni scritte da Nextage, e sono arrivati documenti nuovi (PR29, PR33.1.1, modelli di progetto, analisi dei rischi 2026). Restano 4 bozze IA senza corrispettivo su Drive. Su Drive nessun documento è ancora in "Da Approvare" o "Ultima Versione": anche i documenti "pronti" non sono formalmente approvati.</p>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+      <span class="chip good">● Reale — testo compilato, specifico per Vectorlab</span>
+      <span class="chip todo">● Template vuoto — normale, da popolare al primo uso</span>
+      <span class="chip boiler">● Boilerplate — policy vera ma mai adattata a Vectorlab</span>
+      <span class="chip bad">● Da correggere — difetto concreto (placeholder, contraddizione, riferimento rotto)</span>
+      <span class="chip missing">● Mancante — citato nella SOA o presente su Drive, ma il file non è nel repo</span>
+      <span class="chip nuovo">● Nuovo — bozza IA del 16/07/2026 senza corrispettivo su Drive, da confermare</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Chi deve fare cosa</h2>
+    <p class="sub">Per ogni documento, oltre allo stato, la tabella più sotto indica anche chi deve intervenire: <span class="actor-tag ia">IA</span> = posso farlo da solo, non serve nessuna informazione nuova da voi (correzioni, riferimenti rotti, riformulazioni coerenti con documenti già scritti). <span class="actor-tag misto">Misto</span> = posso scrivere una prima bozza, ma serve la vostra conferma o un dato specifico che non è scritto da nessuna parte. <span class="actor-tag umano">Umano</span> = serve un fatto, una decisione o un'azione che solo voi potete fornire (un nome reale, una scelta aziendale, un'elezione, un sopralluogo). <span class="actor-tag nextage">Nextage</span> = correzione formale su un documento che Nextage sta ancora curando su Drive: va segnalata a loro, perché una modifica fatta solo nel repo verrebbe sovrascritta al prossimo allineamento.</p>
+    <div class="split-grid">
+      <div class="split-col ia-col">
+        <h3><span class="actor-tag ia">IA</span> Posso farlo in autonomia adesso</h3>
+        <ul>
+          <li><b>Correggere riferimenti incrociati rotti</b><span>PR12.1→MDPR10.1.B, PO27→PR27.1, MDPR05.1.V, PO31/PR27.1/ALPR27.1.B sul DPO, ALPO31.A "NOME AZIENDA"→Vectorlab.</span></li>
+          <li><b>Riscrivere testo incoerente con documenti già maturi</b><span>PO15 e la SOA sulla classificazione, la sezione Introduzione vuota di PR11.1, i sistemi dismessi ancora citati in MDPR21.1.A.</span></li>
+          <li><b>Ripulire artefatti di conversione</b><span>Errori Excel residui (#DIV/0!, #VALUE!), elenchi corrotti, refusi ("FRIMA"→"FIRMA"), tabelle Revisioni mancanti dove lo storico esiste già su git.</span></li>
+          <li><b>Preparare l'elenco delle segnalazioni per Nextage</b><span>Documenti importati da Drive con «Approvato: CDA», segnaposto XXX, revisioni datate prima del contenuto reale (analisi dei rischi 2026): filtra "Nextage (su Drive)" nella tabella.</span></li>
+        </ul>
+      </div>
+      <div class="split-col umano-col">
+        <h3><span class="actor-tag umano">Umano</span> Le domande a cui solo voi potete rispondere</h3>
+        <ul>
+          <li><b>Quali sono i nomi e i contatti reali da inserire?</b><span>Addetto emergenze, contatti fornitori utenze, email/telefono/PEC privacy — mandami l'elenco anche informale, li inserisco io nei documenti giusti. La PEC aziendale vectorlab@legalmail.it, confermata, è già inserita nell'accordo di riservatezza ALPR26.1.B.3.</span></li>
+          <li><b>Quali decisioni aziendali avete già preso, o dovete prendere ora?</b><span>Giorni settimanali di lavoro agile, codice ufficiale del tool di ticketing, policy BYOD — sono scelte di gestione: dimmi cosa avete deciso e lo scrivo.</span></li>
+          <li><b>Le date sospette e i riferimenti a "NOME AZIENDA" sono davvero residui di un altro cliente del consulente?</b><span>Compaiono in più punti (05/2009, 15/03/2021, alcune informative privacy); e qual è lo stato reale del kit di primo soccorso?</span></li>
+          <li><b>Sono già accaduti questi eventi/processi in azienda?</b><span>Elezione RLS, primo audit interno svolto, primo test di continuità operativa, censimento dipendenti/competenze/fornitori — questi moduli restano vuoti finché il processo non avviene davvero, non solo perché manca la compilazione.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>I problemi che pesano di più</h2>
+    <p class="sub">Non tutti i 49 "da correggere" sono uguali. Questi sono quelli con impatto reale su un audit o sulla sicurezza, non semplice pulizia di forma.</p>
+    <div class="cards" id="priority-cards"></div>
+  </section>
+
+  <section>
+    <h2>Allineamento con Drive del 19/10/2026</h2>
+    <p class="sub">Il 16/07/2026 la IA aveva generato in bozza il blocco tecnologico citato nella SOA ma mai scritto (accessi, crittografia, vulnerabilità, sviluppo sicuro, reti, configurazioni, patch). Nel frattempo Nextage ha scritto le proprie versioni su Drive, che per decisione di Davide prevalgono sul contenuto: il 19/10 sono state importate nel repo al posto delle bozze IA. Sono versioni complete nel testo, ma molte hanno ancora segnaposto XXX o «Approvato: CDA», da segnalare a Nextage (filtro "Nextage (su Drive)" nella tabella).</p>
+    <div class="missing-cluster">
+      <h3><span class="chip nuovo">4</span> Bozze IA rimaste senza corrispettivo su Drive</h3>
+      <p style="margin:.2rem 0 .7rem;font-size:.85rem;color:var(--ink-soft)">Da confermare, o da eliminare se Nextage le copre con altri documenti.</p>
+      <div class="missing-list">
+        <span>PR06.1 - Gestione delle Performance</span>
+        <span>PR28.2 - Processo Business Impact Analysis</span>
+        <span>ALPR23.2.A - Report Monitoraggio Minacce (forse superato da MDPR23.2.A)</span>
+        <span>ALPR26.1.D - Nomina Responsabile Trattamenti</span>
+      </div>
+    </div>
+    <div class="missing-cluster">
+      <h3><span class="chip good">13 + 2</span> Documenti arrivati solo da Drive</h3>
+      <p style="margin:.2rem 0 .7rem;font-size:.85rem;color:var(--ink-soft)">13 documenti e 2 registrazioni (analisi dei rischi 2026). Non erano previsti nella revisione di luglio. PR33.1.1 è la metodologia HLS semplificata citata nell'elenco documenti: chiude il dubbio su un secondo PR33.1.</p>
+      <div class="missing-list">
+        <span>PR29 - Gestione Verifiche Ispettive</span>
+        <span>PR33.1.1 - Analisi Rischi e Opportunità</span>
+        <span>MDPR33.1.A / B / D - modelli analisi dei rischi</span>
+        <span>MDPO25.D / E / G - modelli di progetto</span>
+        <span>MDPO29.A - Elenco AdS (sostituisce MDPO29.D)</span>
+        <span>MDPR23.2.A - modello e registrazione 27/07/2026</span>
+        <span>Modulo RINA firmato (PDF) e versione corretta</span>
+        <span>B_REGISTRAZIONI: report e piano di trattamento dei rischi 2026</span>
+        <span>B_REGISTRAZIONI: piano di audit interno I/2026 (11/11/2026)</span>
+      </div>
+    </div>
+    <div class="missing-cluster">
+      <h3><span class="chip missing">1</span> Non generato: REG03</h3>
+      <p style="margin:.2rem 0 .7rem;font-size:.85rem;color:var(--ink-soft)">Scoperta durante la generazione: REG03 non riguarda il lavoro agile come ipotizzato inizialmente, ma un "Regolamento accesso esterni" (processo Sicurezza Fisica e Ambientale / Accessi fisici, secondo l'elenco documenti). Resta da decidere con la Direzione se serve davvero, dato che ALPR05.1.E/F coprono già il lavoro agile.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tutti i documenti, uno per uno</h2>
+    <p class="sub">Filtra per stato, per chi deve agire, o cerca per nome. Ogni riga riporta il tipo di documento (PO=Politica, PR=Procedura, MD=Modulo/registro, AL=Allegato, REG=Regolamento), lo stato della revisione e la domanda aperta da chiudere.</p>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Cerca per nome file…">
+      <button class="filter-btn" data-filter="all" data-group="status" aria-pressed="true">Tutti gli stati</button>
+      <button class="filter-btn" data-filter="approve" data-group="status" aria-pressed="false">Corretto, da approvare</button>
+      <button class="filter-btn" data-filter="good" data-group="status" aria-pressed="false">Reale</button>
+      <button class="filter-btn" data-filter="todo" data-group="status" aria-pressed="false">Template vuoto</button>
+      <button class="filter-btn" data-filter="boiler" data-group="status" aria-pressed="false">Boilerplate</button>
+      <button class="filter-btn" data-filter="bad" data-group="status" aria-pressed="false">Da correggere</button>
+      <button class="filter-btn" data-filter="nuovo" data-group="status" aria-pressed="false">Nuovo (bozza IA)</button>
+      <button class="filter-btn" data-filter="missing" data-group="status" aria-pressed="false">Mancante</button>
+    </div>
+    <div class="toolbar" style="margin-top:-.6rem">
+      <button class="filter-btn" data-filter="all" data-group="actor" aria-pressed="true">Chiunque</button>
+      <button class="filter-btn" data-filter="ia" data-group="actor" aria-pressed="false">Fa la IA</button>
+      <button class="filter-btn" data-filter="misto" data-group="actor" aria-pressed="false">Misto</button>
+      <button class="filter-btn" data-filter="umano" data-group="actor" aria-pressed="false">Serve l'umano</button>
+      <button class="filter-btn" data-filter="nextage" data-group="actor" aria-pressed="false">Nextage (su Drive)</button>
+      <span class="count-label" id="count-label"></span>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Categoria</th><th>File</th><th>Tipo</th><th>Stato</th><th>Rev.</th><th>Nota</th><th>Chi agisce</th><th>Domanda aperta</th></tr></thead>
+        <tbody id="doc-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="next-steps">
+    <h2>Ordine consigliato per chiudere il lavoro</h2>
+    <ol>
+      <li><b>Avvia il giro di approvazioni con Nextage.</b><span>Su Drive 164 file su 166 sono in "0_Working" e nessuno in "Ultima Versione": senza approvazioni formali il sistema non è certificabile, indipendentemente dalla qualità dei testi. Insieme, gira a Nextage le segnalazioni del filtro "Nextage (su Drive)".</span></li>
+      <li><b>Compila applicabilità e attuazione nella SOA.</b><span>91 controlli su 93 senza «Applicabile», nessuno con «Applicato», più le incoerenze su 7.11, 7.12, 8.11 e 8.30: è il documento che l'auditor apre per primo.</span></li>
+      <li><b>Rispondi alle domande sui documenti di Nextage e decidi sulle 4 bozze IA rimaste.</b><span>Filtra "Serve l'umano" e "Nuovo (bozza IA)" nella tabella: segnaposto XXX su rete ospiti, responsabili delle configurazioni, archiviazione di report e schede.</span></li>
+      <li><b>Correggi le contraddizioni ancora aperte.</b><span>PO20 col contenuto sbagliato resta da sistemare (REG01 riscritto il 27/10) — sono cose che un auditor nota entro i primi minuti.</span></li>
+      <li><b>Verifica se ci sono davvero residui di un altro cliente del consulente.</b><span>Date sospette (05/2009, 15/03/2021), "NOME AZIENDA" al posto di Vectorlab in un atto ancora da correggere — vale la pena un controllo mirato su tutto il corpus.</span></li>
+      <li><b>Compila i moduli di emergenza con nomi reali.</b><span>MDPR18.1.F/G/H hanno ancora "Nome Cognome" al posto degli addetti — qui non è solo documentazione, è conformità D.Lgs 81/08.</span></li>
+      <li><b>Decidi su REG03.</b><span>REG03 è in realtà un regolamento sull'accesso di esterni, non sul lavoro agile: verifica se serve ancora. Il dubbio su un secondo PR33.1 è chiuso: è PR33.1.1, arrivato da Drive.</span></li>
+      <li><b>Solo alla fine, popola i template vuoti "normali".</b><span>Registri e moduli come RLS, formazione, fornitori qualificati: normale lavoro operativo, non blocca la certificazione se il processo dietro esiste già.</span></li>
+    </ol>
+  </section>
+
+  <footer>Generato leggendo integralmente 114 documenti + confronto degli elenchi documentali nella SOA; il 16/07/2026 generate le bozze dei 36 documenti mancanti e corrette 13 contraddizioni già identificate; il 19/10/2026 aggiornate le righe del blocco importato da Drive, valutate dalla tabella revisioni, dai segnaposto (XXX, «Nome Cognome», «CDA») e da una lettura dell'inizio di ciascun testo, non da una rilettura integrale. La colonna "Chi agisce" è una stima: "IA" = correzione meccanica o coerente con documenti già scritti, nessun dato nuovo richiesto; "Misto" = posso scrivere una bozza ma serve una conferma o un dato specifico; "Umano" = serve un fatto, una decisione o un evento che solo Vectorlab può fornire; "Nextage" = correzione da chiedere a Nextage su Drive. I documenti non toccati dall'allineamento riflettono il contenuto al 16/07/2026.</footer>
+</div>
+
+<script>
+const DATA = [
+["01_POLITICA SISTEMA INTEGRATO", "PO01 - Sistema Integrato", "PO", "approve", "0.0", "16/11/2026: revisioni azzerate a rev 0.0. Campo limitato alla BU Ynsera (22/10).", "ok", ""],
+["01_POLITICA SISTEMA INTEGRATO", "ALPO01.B - Mansionario", "AL", "approve", "0.0", "16/11/2026: riscritto sulla realtà Vectorlab: 14 schede (AU, BD, CEO, CTO con area Digital, CISO, RSGI, RLS, System Administrator esterno, Amministrazione, Risorse Umane, PM, Sviluppatore, RSPP, Referente Privacy) + tabella Responsabile di Area; tolti anni di esperienza e contenuti del modello; §3 accettazione dei test a cura del cliente.", "umano", "RLS: elezione interna o RLS territoriale?"],
+["02_SOA", "SOA - Statement of Applicability", "Registro ISO", "approve", "0.0", "24/11/2026: rev 0.7, 8.14 descritto sul modello reale (server unico, rischio accettato nella BIA, copie sul server secondario), 8.26 riferito a PO25. 24/11/2026: rev 0.6, 5.6, 5.8, 7.1 a «non attuato». 24/11/2026: rev 0.5, 8.13 e 5.30 attuati. 24/11/2026: rev 0.3–0.4, 8.22, 8.16, 8.6 a «non attuato» (T31, T32). 23/11/2026 sera: rev 0.2 Da approvare. Motivo R (Risultato analisi dei rischi) sui 77 controlli collegati ad asset nell'analisi ERA «Agosto 2026» (export controlli ↔ asset); 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a «non attuato» (allineamento con ERA e con il piano MDPR33.1.B): ora 55 attuati, 35 non attuati, 3 esclusi. 13 controlli attuati senza asset collegati in ERA (5.5–5.7, 6.2, 6.5, 6.7, 8.13, 8.17, 8.25, 8.28, 8.31, 8.33, 8.34): restano motivati L/C/B. 23/11/2026: rev 0.1 Da approvare. Vista generata da tools/genera_soa.py (sorgente tools/soa/SOA-sorgente.md): riepilogo per sezione e dettaglio apribile; corretto «27002.0» in «ISO/IEC 27002», aggiunta l'intestazione della sezione 7, tolta la sezione AGID CSP-SAAS. 28/10/2026: 6.4 processo disciplinare formalizzato (REG01 §11); rimandi a REG02 e PR04.1 tolti. 20/10/2026: compilati «Applicabile», «Applicato» e motivi di inclusione per tutti i 93 controlli dall'export ERA (Applicato = fase Do in ERA): 61 applicati, 29 applicabili non attuati, 3 esclusi (7.12, 8.11, 8.30). Restano: la sezione AGID CSP-SAAS contiene residui di un altro cliente (Nutanix, «LD in iter di certificazione 2019», CMDBuild); 8.11 escluso ma con descrizione sull'HTTPS.", "umano", "Andrea: approvare. Da verificare: 5.1, 5.12, 5.13 «non attuati» nella SoA ma «Do» in ERA; 8.13 e controlli di sviluppo sicuro senza asset collegati in ERA."],
+["4_CONTESTO", "PO02 - Gestione del Contesto", "PO", "approve", "0.0", "16/11/2026: schede di processo riviste con Davide (tolti contenuti del modello, gare, ricerca, parità di genere); KPI allineati ai 14 di MDPR10.1.A; codici documento corretti; Z1 Social Media Manager esterno.", "umano", "Digital: chi fa progettazione e requisiti, quali test, quali strumenti (18/11)"],
+["4_CONTESTO", "ALPO02.B - Analisi Stakeholder", "AL", "good", "0.0", "Tabella aspettative compilata per tutte le categorie di stakeholder.", "ok", ""],
+["6.1_ANALISI DEI RISCHI", "PR33.2 - Analisi Rischio Privacy", "PR", "good", "0.0", "Metodologia WP29/ENISA con classificazione tarata su Vectorlab.", "ok", ""],
+["B_REGISTRAZIONI", "MDPR32.1.B - Inventario degli asset - 2026", "MD", "approve", "0.0", "23/11/2026: ex asset_inventory_vectorlab, catalogato come registrazione 2026 (export ERA, A.5.9) ed entrato nell'elenco MDPR08.1.A.", "ok", ""],
+["6.2_OBIETTIVI", "MDPO03.A - Lista Obiettivi", "MD", "approve", "0.0", "22/10/2026: 6 obiettivi 2026–2027 con owner, indicatore, scadenza, risorse e verifica: certificazione, accessi sicuri (2SV, ClickUp aziendale), backup e ripristino, soddisfazione clienti Ynsera, formazione sicurezza e privacy, processo commerciale.", "ok", ""],
+["10_NC E MIGLIORAMENTO", "PR13.1 - Gestione NC", "PR", "approve", "0.0", "26/10/2026: aggiunta la verifica dell’efficacia alle fasi delle NC di produzione-progettazione (§2.1), reclami clienti (§2.2) e fornitura (§2.3); prima era prevista solo per le NC di processo, mentre 27001 10.2 e 9001 10.2.1 d) la richiedono per ogni azione correttiva. 22/10: registro delle NC nella lista ClickUp «Non conformità e miglioramento» (cartella SGI) con stati e campi; tolto Jira. Aperto: configurare in ClickUp gli stati e i 3 campi (Tipo, Origine, Riferimento norma).", "ok", ""],
+["7.4_COMUNICAZIONI", "PO07 - Politica Comunicazione", "PO", "good", "0.0", "Testo specifico Vectorlab (Jira, GitHub, ruoli reali).", "ok", ""],
+["7.4_COMUNICAZIONI", "MDPO07.A - Piano Comunicazione", "MD", "approve", "0.0", "17/11/2026: rifatto da zero (25 comunicazioni interne ed esterne con canali reali: privacy@, sicurezza@, ClickUp, PEC, portale del Garante). Tolti «xxx», DPO, HelpDesk, ticket, cedolini. Corretto l'errore sulla notifica al Garante (72 ore se c'è rischio, art. 33; rischio elevato solo per avvisare gli interessati, art. 34). Da approvare.", "ok", ""],
+["7.5_INFORMAZIONI DOCUMENTATE", "PR08.1 - Gestione Informazioni Documentate", "PR", "approve", "0.0", "23/11/2026: rev 0.2 accorciata al modo di lavoro reale (approva l'Amministratore Unico, elenco generato, ritirati.csv); tolti fogli TOOLS/FORUM/MAILING LIST e doppioni GDPR. Aperto: fonti di aggiornamento per il controllo 5.6 [DA CONFERMARE]. 28/10/2026: tolti i modelli Word/Excel MDPR08.1.B–F, si scrive in Markdown. 20/10/2026: repository privato sul server aziendale e sito interno (situazione obiettivo: oggi il repo è ancora pubblico su GitHub); approvazione registrata nella tabella Revisioni con evidenza commit/PR/e-mail, PR facoltativa; nuovo §2.9 sull'elenco generato automaticamente.", "umano", "Quando viene spostato il repository sul server aziendale e reso privato?"],
+["7.5_INFORMAZIONI DOCUMENTATE", "MDPR08.1.A - Elenco Informazioni documentate", "MD", "approve", "auto", "20/10/2026: l'elenco è ora generato automaticamente dal repository (tools/genera_elenco.py, anche a ogni pubblicazione del sito): codice, titolo, ultima revisione, redattore, approvatore, formato, cartella. L'Excel di Nextage resta come storico (conteneva rev 0.0/«Working» per tutti, codici diversi dai file, owner CDA/DPO). Il foglio «Compliance» dell'Excel è la base dell'elenco leggi (documento 7).", "ok", ""],
+["7_GESTIONE RISORSE", "PR05.1 - Gestione del personale", "PR", "approve", "0.0", "17/11/2026: riscritto da 1050 righe a 4 pagine sui requisiti ISO (7.2, 7.3, A.6.1–A.6.7): selezione, ingresso, competenze e formazione, presa visione, cambio ruolo, uscita (casella email invariata). Tolti gli aspetti di sola amministrazione del personale e i segnaposto XXXXXX. Da approvare.", "umano", "Francesco: dove si trova l'archivio del personale (cartella riservata)."],
+["7_GESTIONE RISORSE", "ALPR05.1.H - Documenti per il personale", "AL", "approve", "0.0", "26/10/2026: pacchetto unico da leggere e confermare (PO01, REG01, ALPR31.2.A, PR27.1). 27/10: requisiti del portatile Vectorlab rimandati a REG01 §3.", "—", ""],
+["7_GESTIONE RISORSE", "REG01 - Regolamento strumenti aziendali", "REG", "approve", "0.0", "18/11/2026: Discord ammesso con regole d'uso (§5, rischio accettato dall'AU); ospiti senza Wi-Fi aziendale, usano telefono o hotspot (§9). 28/10/2026: aggiunta la §11 processo disciplinare (A.6.4), sostituisce REG02. 27/10/2026: riscritto sugli strumenti reali (da 1.435 a ~200 righe): portatili forniti da Vectorlab con 4 requisiti (cifratura, blocco, aggiornamenti, antivirus) confermati da Andrei e Andrea e verificati da ciascuno in autonomia, account aziendali con 2SV, Bitwarden, dati dei clienti, sicurezza@, controlli art. 4 L. 300/1970. Aperti: app di messaggistica ammessa; rete Wi-Fi e stampante dell'ufficio.", "umano", "Quale app di messaggistica è ammessa al posto di Discord? Com'è la rete Wi-Fi dell'ufficio?"],
+["7_GESTIONE RISORSE", "ALPR05.1.E - Accordo Lavoro Agile", "AL", "approve", "—", "17/11/2026: corretti rimando sbagliato alla continuità (ora PR28.1 §6), «incaricato» → persona autorizzata (ALPO31.B), refusi; Art. 3 con le regole di sicurezza del REG01 (portatile aziendale, reti, smarrimento) e Art. 9 con riservatezza di schermo e chiamate (A.6.7). Da approvare.", "ok", ""],
+["7_GESTIONE RISORSE", "ALPR05.1.F - Informativa Lavoro Agile", "AL", "good", "0.0", "Contenuto coerente, collegato correttamente a REG01/ALPR05.1.E.", "ok", ""],
+["7_GESTIONE RISORSE", "ALPR05.1.G - Lista software permessi", "AL", "good", "0.0", "Elenco reale di strumenti usati (GitHub Desktop, Postman, MongoDB...).", "ok", ""],
+["7_GESTIONE RISORSE", "MDPR05.1.A/B/L/S/T/U - moduli HR vari", "MD", "todo", "0.0", "Checklist/registri mai compilati con un caso reale.", "umano", "C'è già un caso reale (nuovo assunto, trasferta, consegna chiavi...) da usare per compilare questi moduli?"],
+["7_GESTIONE RISORSE", "MDPR05.1.H - Processo Disciplinare", "MD", "todo", "0.0", "Modulo mai usato; refuso \"FRIMA\" invece di \"FIRMA\".", "misto", "C'è già stato un caso disciplinare reale da registrare in questo modulo, o resta vuoto per ora?"],
+["7_GESTIONE RISORSE", "MDPR05.1.V - Modulo consegna/riconsegna HW", "MD", "todo", "0.0", "Corretti i riferimenti incrociati a Consegna/Restituzione Chiavi (prima invertiti). Ora è un template vuoto normale.", "umano", "C'è già un caso reale di consegna/riconsegna HW da registrare in questo modulo?"],
+["7_GESTIONE RISORSE", "MDPR06.1.C - Piano formazione [aaaa]", "MD", "todo", "0.0", "Nome file con placeholder anno mai risolto — mai usato.", "umano", "Per quale anno va compilato il piano formativo, e qual è il piano reale da inserire?"],
+["7_GESTIONE RISORSE", "MDPR06.1.E - Griglia competenze", "MD", "todo", "0.0", "Rimosso il placeholder nella legenda. Nessun dipendente censito, è un template vuoto normale.", "umano", "Puoi fornirmi il censimento reale delle competenze del personale da inserire nella griglia?"],
+["9.1_MONITORAGGIO KPI", "PR10.1 - Gestione Monitoraggio", "PR", "approve", "0.0", "17/11/2026: riscritto e allineato ai 14 KPI di MDPR10.1.A; tolte le affermazioni non vere (monitoraggio automatico, audit trail, log digitali degli accessi fisici), il DPO, la cartella XXXXX e i codici invertiti. Soddisfazione cliente: questionario web a fine commessa e una volta l'anno per i clienti continuativi. Da approvare.", "umano", "Andrei prepara la pagina web del questionario; decidere dove finiscono le risposte."],
+["9.1_MONITORAGGIO KPI", "MDPR10.1.A - Tabella Indicatori", "MD", "approve", "0.0", "23/11/2026: assorbite le regole di PR10.1 (ritirata). 16/11/2026: da 54 KPI vuoti a 14 con obiettivo, soglia, frequenza, fonte e responsabile (bozza da confermare il 18/11); versione Excel di Nextage tolta dal repo.", "umano", "Confermare i valori e fare la prima misurazione prima del 25/11"],
+["9.1_MONITORAGGIO KPI", "MDPR10.1.B - Analisi Soddisfazione Cliente", "MD", "todo", "0.0", "Nessun cliente/valutazione mai inserito.", "umano", "Ci sono valutazioni clienti reali già raccolte da registrare in questo modulo?"],
+["9.2_AUDIT INTERNO", "PR11.1 - Audit Interno", "PR", "approve", "0.0", "16/11/2026: revisioni azzerate a rev 0.0.", "ok", ""],
+["9.2_AUDIT INTERNO", "MDPR11.1.A - Programma Audit", "MD", "approve", "0.0", "11/11/2026: audit 2026 spostato al 25–26/11, auditor Micaela Leone e Francesca Capuano (Nextage). 05/11/2026: date e durata 2026. 28/10/2026: aggiunta la §6 Verifiche tecniche periodiche (sostituisce MDPR11.1.C). 20/10/2026: programma triennale 2026–2028 compilato: audit 2026 completo (4–10 e tutto l'Annex A) nella settimana 23–27/11, auditor esterno qualificato, 2 giorni/uomo, aree reali al posto di «Area XXXX», temi a rischio alto ogni anno. 22/10/2026: tolta l'area «Progetti di ricerca», esclusa dal campo.", "umano", "Gli auditor Nextage del 2026 hanno redatto parte della documentazione? Se sì, come si garantisce l'indipendenza richiesta dalla §1?"],
+["9.2_AUDIT INTERNO", "MDPR11.1.B - Piano di Audit e Report", "MD", "approve", "0.0", "04/11/2026: modello adattato a Vectorlab su richiesta di Nextage per l'audit interno: una sola modalità (per funzione), funzioni reali allineate a MDPR11.1.A §3, tolti 27017/27018, DPO, PM, «Area XXXX» e i controlli non applicabili da SoA; aggiunti dati dell'audit e collegamento dei rilievi alla lista ClickUp NC. Il file .xlsx accanto è ancora il modello Nextage rev 0.0.", "umano", "Modello: resta il formato VectorLab. La compilazione I/2026 è in B_REGISTRAZIONI/Audit Interno/2026."],
+["9.2_AUDIT INTERNO", "MDPR11.1.D - Checklist Audit 27001", "MD", "boiler", "0.0", "Intero documento in inglese, mai tradotto/adattato a Vectorlab.", "misto", "Vuoi che traduca e adatti a Vectorlab una prima bozza di questa checklist (oggi è interamente in inglese)?"],
+["9.2_AUDIT INTERNO", "MDPR11.1.L - Checklist Audit 9001", "MD", "boiler", "—", "Traduzione letterale della norma, zero personalizzazione.", "misto", "Vuoi che scriva una prima bozza personalizzata di questa checklist invece della traduzione letterale della norma?"],
+["9.3_RIESAME DIREZIONE", "PR12.1 - Riesame della Direzione", "PR", "approve", "0.0", "28/10/2026: rimandi a MDPR11.1.A §6 e MDPR26.1.B §6. 22/10/2026: codici dei documenti sui rischi e degli obiettivi corretti (MDPR33.1.*, MDPO03.A); NC nella lista ClickUp; aggiunti in ingresso fornitori, risorse, efficacia delle azioni sui rischi. Corretto il riferimento a documento inesistente (MDPR10.1.C → MDPR10.1.B).", "ok", ""],
+["A_BACKUP & RESTORE", "PR21.1 - Gestione dei Backup e Restore", "PR", "bad", "0.0", "18/11/2026: copia settimanale automatica dei dati delle applicazioni su server esterno; prima prova di ripristino 18/11 (da registrare in MDPR21.1.A); GitHub senza copia esterna, rischio accettato; avvisi via mail a sicurezza@. 17/11/2026: riscritto, unisce PO21 (ritirata). Tolti AWS e i dettagli tecnici (repo pubblico). Prova di ripristino annuale del server Aruba; Google Workspace e GitHub affidati al fornitore come rischio accettato. Da approvare.", "umano", "Andrei conferma il 18/11 tipo, frequenza e luogo delle copie del server e la data della prima prova (entro il 15/12). Andrea decide se fare una copia esterna di GitHub."],
+["A_BACKUP & RESTORE", "MDPR21.1.A - Piano di Restore", "MD", "bad", "0.0", "17/11/2026: rifatto in md (xlsx tolto) con Server Aruba e Google Workspace, prove 2026 e 2027. Tolti Dropbox, VMware, Hyper-V, OneDrive, AWS. Da approvare.", "umano", "Nessuna prova ancora eseguita: la prima va fatta entro il 15/12/2026."],
+["A_CAMBIAMENTO", "PR19.1 - Gestione del Cambiamento", "PR", "approve", "0.0", "17/11/2026: riscritto (2 pagine). Tre tipi di cambiamento ai sistemi (ordinario, importante, urgente) con task ClickUp; cambiamenti al Sistema di Gestione (6.3); tolti ticketing, DPO, Service Manager, «tool XX» e l'allegato dei requisiti. Da approvare.", "umano", "Andrei: oggi registra le modifiche a modo suo; confermare la lista ClickUp «Modifiche ai sistemi»."],
+["A_CLASSIFICAZIONE INFORMAZIONI", "PO15 - Classificazione Informazioni", "PO", "good", "0.0", "Rimosso un placeholder; la SOA (5.12) ora rimanda correttamente a questa policy invece di contraddirla.", "ok", ""],
+["A_CLASSIFICAZIONE INFORMAZIONI", "MDPO15.A - Data Retention", "MD", "approve", "0.0", "22/10/2026: registro compilato (23 righe): commerciale, commesse, personale, amministrazione, IT, privacy, Sistema di Gestione. Tempi di legge con riferimento (art. 2220 c.c., art. 39 D.L. 112/2008, Provv. Garante AdS); casella email dei cessati 6 mesi. Aperto: durata dei backup da decidere con l'IT quando il backup sarà attivo.", "ok", ""],
+["A_CONFORMITA_", "PO31 - Misure sicurezza dati personali", "PO", "approve", "0.0", "28/10/2026: privacy by design (art. 25) riportata qui, PO30 ritirata. 26/10/2026: formazione e prese visione registrate nella lista ClickUp «Consapevolezza e formazione»; informativa dipendenti tramite ALPR05.1.H; consegna delle altre informative secondo ALPR31.2.B–G. Posizione DPO/Referente Privacy coerente.", "—", ""],
+["A_CONFORMITA_", "PR31.1 - Diritti Interessati", "PR", "approve", "0.0", "17/11/2026: riscritto (2 pagine). Corretto un errore: come responsabile del trattamento Vectorlab inoltra la richiesta al cliente titolare entro 3 giorni lavorativi e non risponde nel merito (art. 28.3.e). Esclusioni riformulate (art. 17.3, 12.5); tolti DPO e modello. Da approvare.", "umano", "La casella privacy@vectorlab-cg.com, citata in 39 punti e nelle informative, non esiste: da creare (gruppo Google)."],
+["A_CONFORMITA_", "PR31.2 - Gestione Consensi", "PR", "good", "0.0", "Coerente con l'assenza di obbligo DPO.", "ok", ""],
+["A_CONFORMITA_", "PR31.3 - Procedura DPIA", "PR", "good", "0.0", "Data di revisione corretta, contenuto coerente.", "ok", ""],
+["A_CONFORMITA_", "PR31.4 - Registro trattamenti", "PR", "good", "0.0", "Clausola DPO esplicita e corretta.", "ok", ""],
+["A_CONFORMITA_", "ALPO31.A - Lettera incarico AdS", "AL", "good", "0.0", "Corretto \"NOME AZIENDA\" → Vectorlab.", "ok", ""],
+["A_CONFORMITA_", "ALPO31.B - Nomina Autorizzato (ALPO31.C ritirato il 23/11/2026)", "AL", "todo", "0.0", "Placeholder normali per un fac-simile da compilare caso per caso.", "umano", "C'è già una nomina reale (Autorizzato o Amministratore di Sistema) da usare per compilare questi fac-simile?"],
+["A_CONFORMITA_", "ALPO31.D - Nomina Referente Privacy", "AL", "good", "0.0", "Aggiunta la tabella Revisioni mancante, ora traccia le modifiche già fatte via git.", "ok", ""],
+["A_CONFORMITA_", "ALPR31.2.A-F - Informative Privacy (dipendenti/candidati/visitatori/fornitori/clienti/sito)", "AL", "approve", "0.0", "24/10/2026: titolare con ragione sociale e P.IVA, privacy@vectorlab-cg.com, PEC; aggiunte tabella delle revisioni e riga «Consegna» (A: pacchetto ALPR05.1.H con presa visione in ClickUp; B: link nella risposta ai candidati; C: all'ingresso; D: con ordine/contratto; E: con l'offerta; F: sito/iubenda).", "umano", "Il testo pubblicato con iubenda riporta lo stesso titolare e gli stessi contatti?"],
+["A_CONFORMITA_", "ALPR31.2.G - Liberatoria Foto-Video", "AL", "approve", "0.0", "24/10/2026: titolare completo; tabella delle revisioni; si firma solo quando serve, prima di pubblicare foto o video. Restano i campi del firmatario, da compilare caso per caso.", "—", ""],
+["A_CONFORMITA_", "MDPR31.1.A - Registro delle richieste", "MD", "todo", "0.0", "Nessuna richiesta mai registrata.", "umano", "Sono già arrivate richieste reali degli interessati da registrare in questo modulo?"],
+["A_CONFORMITA_", "MDPR31.4.A/B - Registro Trattamenti Titolare/Responsabile", "MD", "todo", "0.0", "Contatti \"COMPLETARE\" non risolti in copertina; zero trattamenti censiti.", "umano", "Quali sono email/telefono/PEC reali da mettere in copertina, e qual è il censimento reale dei trattamenti effettuati?"],
+["A_CONTINUITA_ OPERATIVA", "PR28.1 - Gestione della continuità operativa", "PR", "bad", "0.0", "17/11/2026: riscritto, unisce PO28, PR28.2, ALPR28.1.A, MDPR28.1.B e MDPR28.1.C (ritirati). BIA per servizio; regole di sicurezza durante l'interruzione (A.5.29); piano di ripristino = backup del server con prova annuale (PR21.1). Da approvare.", "umano", "Prima prova di ripristino del server entro il 15/12/2026."],
+["A_EVENTI & INCIDENTI", "PR27.1 - Gestione Incidenti e Data Breach", "PR", "approve", "0.0", "24/10/2026: segnalazione a sicurezza@vectorlab-cg.com (gruppo da creare in Google Workspace); registro incidenti = lista ClickUp NC con Origine = Incidente. Chiarito che il DPO non è obbligatorio (coerente con PO31); corretto il riferimento al registro (MDPR31.5.A → MDPR27.1.A).", "ok", ""],
+["A_EVENTI & INCIDENTI", "ALPR27.1.A - Notifica Data Breach", "AL", "todo", "—", "Fac-simile normale, mai usato.", "umano", "C'è già stato un data breach reale da registrare in questo modulo?"],
+["A_EVENTI & INCIDENTI", "MDPR27.1.A - Registro Data Breach", "MD", "todo", "0.0", "Corretta la copertina (\"Approvato: DPO\" → Amministratore Unico). È un template vuoto normale.", "umano", "Ci sono data breach reali già avvenuti da registrare in questo registro?"],
+["A_FORNITORI", "PR26.1 - Gestione dei fornitori", "PR", "bad", "0.0", "17/11/2026: riscritto (da 65 KB a 2 pagine), unisce PO26, PO40 e ALPR26.1.E (ritirati); allineato a MDPR26.1.B (classificazione A/B/C, valutazione Q/T/S). Servizi cloud in §6. Da approvare.", "misto", "Contratti, NDA e nomine dei fornitori critici ancora da completare (MDPR26.1.B §5)."],
+["A_FORNITORI", "MDPR26.1.B - Elenco fornitori qualificati (= elenco attività presso terzi)", "MD", "approve", "0.0", "18/11/2026: Discord ammesso con le regole di REG01. Da inserire Z1 (Dash). 28/10/2026: aggiunta la §6 Valutazione annuale Q/T/S (sostituisce MDPR26.1.A). 20/10/2026: compilato con 21 voci di fornitori che svolgono attività nel campo del SGI (cloud, IT esterno, consulenti, paghe, contabilità, sicurezza lavoro, sede), con criticità 9001/27001 e impatto. Qualifica di tutti «da valutare»; NDA/nomine da verificare.", "umano", "Usate AWS (citato in molti documenti ma assente dall'anagrafica fornitori)? I consulenti tecnici esterni lavorano su progetti dei clienti (controllo 8.30)?"],
+["A_FORNITORI", "ALPR26.1.C - Contratto di fornitura", "AL", "approve", "0.0", "17/11/2026: codice corretto (era ALPR16.1.C), dati di Vectorlab compilati, campi da compilare uniformati in «[…]», allegati senza doppioni. Testo giuridico invariato. Da approvare.", "ok", ""],
+["A_FORNITORI", "ALPR26.1.A - Comunicazione e requisiti di sicurezza per i fornitori", "AL", "bad", "0.0", "17/11/2026: riscritta. Tolta la frase «SGSI certificato» (falsa: certificazione in corso); inclusi gli 8 requisiti di sicurezza (ex ALPR26.1.E). Mai inviata finora. Da approvare.", "misto", "Da inviare ai fornitori critici dopo l'approvazione."],
+["A_FORNITORI", "ALPR26.1.B.3 - Accordo di Riservatezza", "AL", "approve", "0.0", "17/11/2026: dati di Vectorlab compilati (Andrea Ruzzenenti, Amministratore Unico); controparte con due varianti (società o persona fisica: professionista, collaboratore, stagista, tirocinante); campi in «[…]»; ambito esteso a fornitura, collaborazione e stage. Testo giuridico invariato. Da approvare.", "ok", ""],
+["A_SICUREZZA FISICA AMBIENTALE", "PR18.1 - Gestione sicurezza fisica", "PR", "good", "0.0", "18/11/2026: nessun registro visitatori, rischio accettato; MDPR18.1.E ritirato. 28/10/2026: registro chiavi unico MDPR05.1.U; verifiche in MDPR11.1.A §6; emergenza = documenti D.Lgs. 81 fuori dal SGI. Coerente col modello cloud-first, nessun CED fittizio. 20/10/2026: indirizzo completo della sede.", "ok", ""],
+["A_SICUREZZA FISICA AMBIENTALE", "MDPR18.1.D - Registri interventi ambientali", "MD", "approve", "0.0", "17/11/2026: rifatto in markdown; tolti date rotte, toner (niente stampanti), boccioni e la lista della cassetta con scadenze 2021–2023. Schede: cassetta PS (presente), estintori, impianto elettrico, condizionatori, prova di evacuazione da confermare. Da approvare.", "umano", "Francesco: quali impianti/presidi ci sono e chi li gestisce (condominio?); controllare la cassetta di primo soccorso (l'ultimo elenco aveva materiale scaduto)."],
+["A_SICUREZZA FISICA AMBIENTALE", "MDPR18.1.G - Contatti di emergenza", "MD", "approve", "0.0", "17/11/2026: rifatto con ruoli e nomi; numeri di telefono fuori dal repo pubblico (copia in ufficio e archivio dell'Amministrazione). Da approvare.", "umano", "Francesco: addetti antincendio e primo soccorso designati (D.Lgs. 81/2008), amministratore del condominio; preparare la copia stampata con i numeri."],
+["D_GESTIONE PROGETTO", "3 moduli RINA per certificazione", "Modulo esterno", "good", "—", "Compilati con dati reali Vectorlab; importato da Drive il modulo firmato (PDF), che riporta la PEC reale vectorlab@legalmail.it (confermata e inserita in ALPR26.1.B.3). 2 dei file sono duplicati quasi identici, uno eliminabile.", "ia", ""],
+];
+
+// Documenti generati il 16/07/2026 per colmare le lacune rilevate rispetto alla SOA (ex "mancanti")
+const NEW_DOCS = [
+["A_ACCESSI", "PR16.1 - Gestione degli Accessi", "PR", "bad", "0.0", "18/11/2026: secondo fattore solo passkey o token su un dispositivo (non in Bitwarden); GitHub con app; recupero da confermare. 17/11/2026: riscritto, unisce PO16 e ALPR16.1.A (ritirati). Account gestiti da RSGI e Amministrazione; revisione ogni 6 mesi con export dalle console allegati al task ClickUp; amministratori nominati (ALPO31.A, MDPO29.A). Da approvare.", "umano", "Nomine AdS di Andrei e Davide da firmare (Francesco). Punti della riunione del 18/11."],
+["A_MINACCE & VULNERABILITA_", "PR23.1 - Gestione delle Minacce e delle Vulnerabilità Tecniche", "PR", "bad", "0.0", "18/11/2026: Dependabot e secret scanning attivi; data della prima scansione da decidere. 17/11/2026: riscritto, unisce PO23, PR23.2, MDPR23.1.A e MDPR23.2.A (ritirati). Monitoraggio minacce annuale (RSGI) + avvisi CSIRT/fornitori/GitHub; scansione annuale del server; falle come task ClickUp con scadenze per gravità. Da approvare.", "umano", "Andrei: scansione del server e iscrizione CSIRT. Andrea: Dependabot e secret scanning su GitHub."],
+["A_MINACCE & VULNERABILITA_", "MDPR23.1.B - Monitoraggio delle minacce 2026", "MD", "bad", "0.0", "17/11/2026: nuova tabella di 10 minacce riferite a Vectorlab, sostituisce il foglio Nextage generico del 27/07. Da approvare.", "misto", "Colonna «Rischio in ERA» da completare con Nextage."],
+["A_PROGETTAZIONE & SVILUPPO SICURO", "PO25 - Sviluppo Sicuro", "PO", "approve", "0.0", "Riscritta dopo il 28/10 sulla realtà (team inserito nei progetti dei clienti, vectorlab-cg, Bitwarden, ambienti del cliente). 17/11/2026: segnati 4 punti da confermare con il CTO. Da approvare.", "umano", "Andrea: revisione del codice di un collega sempre o solo se la chiede il cliente? MDPO25.B/G usati o strumenti del cliente? Dependabot attivo? Secondo fattore GitHub su telefono o Bitwarden?"],
+["A_PROGETTAZIONE & SVILUPPO SICURO", "ALPO25.A - Linee guida per lo sviluppo software", "AL", "good", "0.0", "Versione Nextage da Drive (19/10/2026) (sostituisce la bozza IA «Regole scrittura codice»).", "ok", ""],
+["A_ASSET & CONFIGURAZIONE", "PR32.1 - Gestione delle Configurazioni e dell'Infrastruttura IT", "PR", "bad", "0.0", "18/11/2026: aggiornamenti automatici del server; avvisi del monitoraggio a sicurezza@; ospiti senza Wi-Fi aziendale. 17/11/2026: riscritto, unisce PO32, PR03.1, PR14.1, PR22.1, PO20, PR20.1, PR24.1 e PO17 (ritirati). Da approvare.", "umano", "Andrei conferma il 18/11 i punti [DA CONFERMARE]: Ansible, aggiornamenti, monitoraggio, NTP, SSH, firewall."],
+["A_CONFORMITA_", "PO29 - Gestione della conformità", "PO", "approve", "0.0", "17/11/2026: riscritto (13 sezioni brevi). Tolti DPO, audit sul DPO, «provider di servizi cloud», ticketing, censimento licenze in MDPR08.1.A, indice rotto. Aggiunti requisiti contrattuali, prove in caso di incidente (A.5.28), riesame indipendente (A.5.35), ispezioni. Licenze: inventario dell'Amministrazione. Da approvare.", "ok", ""],
+["A_CONFORMITA_", "MDPO29.A - Elenco AdS", "MD", "todo", "0.0", "Versione Nextage da Drive (19/10/2026) (sostituisce la bozza IA MDPO29.D): registro vuoto.", "umano", "Chi sono gli Amministratori di Sistema nominati da registrare?"],
+["6.1_ANALISI DEI RISCHI", "PR33.1 - Processo Analisi del Rischio e Trattamento", "PR", "approve", "0.0", "16/11/2026: criteri di rischio (RA = 45), selezione dei controlli e SoA, approvazione Risk Owner e AU, misura compensativa CISO = AU; tolti segnaposto e testo generico del modello.", "ok", ""],
+["6.1_ANALISI DEI RISCHI", "MDPR33.1.A / B / D - modelli di report, piano di trattamento e analisi rischi e opportunità", "MD", "approve", "0.0", "18/11/2026: MDPR33.1.D, tolto R5 «Mercato del lavoro» (decisione AU). 17/11/2026: MDPR33.1.D (rischi e opportunità ISO 9001, 6.1) compilato per la prima volta in bozza: 7 rischi e 3 opportunità con valutazione G×V e azioni. Prima era vuoto. Da approvare.", "umano", "Andrea: confermare fattori, punteggi e azioni prima del Riesame."],
+["B_REGISTRAZIONI", "MDPR33.1.A - Report Analisi dei Rischi - 2026", "MD", "approve", "0.0", "20/10/2026: data di emissione corretta (25/09/2026), campo allineato a PO02, accettazione della soglia RA 45 attribuita all'Amministratore Unico (da registrare nel riesame 2026).", "umano", "Andrea approva la soglia di rischio accettabile 45 (nel riesame della direzione)?"],
+["B_REGISTRAZIONI", "MDPR33.1.B - Piano di Trattamento dei Rischi - 2026", "MD", "approve", "0.0", "24/11/2026: rev 0.5–0.6, T5 (registro = Git), T33–T35. 24/11/2026: rev 0.4, T2 chiusa. 24/11/2026: rev 0.2–0.3, T31 (porte dei container, rischio accettato dall'AU fino al 15/12) e T32 (monitoraggio, febbraio 2027). 23/11/2026 sera: rev 0.1 Da approvare. Colonne «Asset ERA ridotti (rischio)» ed «Esito» nelle azioni; T13 suddivisa in T13–T27 (un'azione per controllo non attuato); aggiunte T28–T30 per 5.3, 8.3, 8.15. Tutti i 35 controlli non attuati della SoA rev 0.2 hanno un'azione. 18/11/2026: decisioni dell'AU: Discord e GitHub rischio accettato, codice dei clienti rischio ridotto; aggiornate T1, T2, T5–T8, T11. Restano da confermare T1–T13 e T13. 17/11/2026: aggiunta la sezione 3 «Azioni di trattamento 2026» (T1–T13, con controlli, documenti, responsabili e scadenze) e la rivalutazione dei rischi accettati (Discord da eliminare; codice dei clienti da ridurre). Valori ERA da ricalcolare con Nextage. Da approvare.", "umano", "Andrea: confermare responsabili e scadenze di T13–T30 (proposta 12/12/2026). Nextage: ricalcolo in ERA dei 5 asset a 45."],
+["B_REGISTRAZIONI", "MDPR11.1.B - Piano di Audit e Report - I-2026", "MD", "approve", "0.0", "11/11/2026: piano dell'audit interno I/2026 (25–26/11) redatto da Nextage e trascritto dal file Drive senza modifiche. Da chiarire con Nextage: controlli non applicabili da SoA (A.7.12, A.8.11, A.8.30), CISO doppio (CTO e RSGI), A.5.1 assente. Report (§3–5) da compilare dopo l'audit.", "Nextage", "Nextage conferma le correzioni al piano prima del 25/11?"],
+["7_GESTIONE RISORSE", "PR06.1 - Gestione delle Performance", "PR", "approve", "0.0", "16/11/2026: monitoraggio tramite RU1 (MDPR10.1.A); revisioni azzerate a rev 0.0.", "misto", "Quando si svolge la valutazione annuale delle performance?"],
+["A_FORNITORI", "ALPR26.1.D - Nomina Responsabile Trattamenti", "AL", "nuovo", "0.0", "Bozza IA del 16/07, senza corrispettivo su Drive: fac-simile ex art. 28 GDPR.", "umano", "C'è già un fornitore reale che tratta dati personali per cui compilare questa nomina?"],
+["8.2_PRODOTTI & SERVIZI", "PR09.1 - Gestione Commerciale", "PR", "approve", "0.0", "22/10/2026: riscritta sul processo reale, solo BU Ynsera: Lead Inbound, telefonata e riunione, Prospect, offerta dal modello Ynsera firmata dal CTO, invio per email, firma del cliente = riesame requisiti, motivo delle perdite, conservazione 24 mesi dei lead, analisi annuale. Assorbe PR36.1. Aperto: condizioni generali nel modello di preventivo.", "ok", ""]
+];
+DATA.push(...NEW_DOCS);
+// Aggiunti il 20/10/2026 (lavoro sui documenti dello stage 1)
+DATA.push(
+["A_CONFORMITA_", "MDPO29.C - Elenco leggi, regolamenti e norme applicabili", "MD", "approve", "0.0", "20/10/2026: nuovo registro dei requisiti cogenti e volontari (sostituisce il foglio «Compliance» dell'Excel MDPR08.1.A). Cyber Resilience Act non applicabile (nessun prodotto software proprio sul mercato, solo consulenza B2B). Da valutare: accessibilità, Data Act. 22/10/2026: Cyber Resilience Act da valutare per i prodotti della unit Vectorlab (fuori campo).", "ok", ""],
+["01_POLITICA SISTEMA INTEGRATO", "ALPO01.A - Organigramma", "AL", "approve", "0.0", "16/11/2026: rev 0.0; Innovation & Research segnata fuori dal campo di applicazione. RLS Marco Ottone Casagrande indicato ma non eletto: da decidere.", "umano", "RLS: elezione interna o RLS territoriale?"],
+["8.2_PRODOTTI & SERVIZI", "PR35.1 - Digital", "PR", "approve", "0.0", "27/10/2026: allineata a PR09.1 (offerta firmata dal CTO; clausole contrattuali «DA COMPLETARE», non più date per presenti), a REG01 (portatili Vectorlab con i 4 requisiti) e a PR27.1 (incidenti a sicurezza@). 21/10/2026: nuova procedura dalle risposte di Davide: offerta firmata = riesame requisiti; task Prospect = scheda commessa con commenti di avvio e chiusura e nuovo stato «finito»; team nel processo e negli strumenti del cliente; capacity planner per l'allocazione; regole su dati, codice e IA; form di fine commessa. Aperti: elenco strumenti di IA autorizzati (Claude piano individuale, Copilot su account condiviso), stato «finito» da creare in ClickUp, PO25 da riallineare (descrive ambienti e team di test che non esistono). 22/10/2026: limitata alle commesse Ynsera; fase commerciale solo in PR09.1.", "umano", "Quali strumenti di IA sono autorizzati per lavoro (§2.3)?"],
+);
+
+const PRIORITIES = [
+  ["Repository pubblico","Il repository con analisi dei rischi, inventario asset e organigramma è pubblico su GitHub, mentre i documenti sono classificati «Interno» (27001 controlli 5.12, 5.13, 8.3). PR08.1 è già scritta per il repository privato sul server aziendale: va completato lo spostamento prima dell'audit."],
+  ["Nessun documento formalmente approvato","Su Drive 164 file su 166 sono in \"0_Working\"; \"Da Approvare\" e \"Ultima Versione\" sono vuote. È il blocco principale per la certificazione."],
+  ["SOA · applicabilità non compilata","91 controlli su 93 senza «Applicabile», nessuno con «Applicato»; 8.11 escluso ma con motivi di inclusione e descrizione sbagliata; 7.12 e 8.30 descritti come «applicabili ma non applicati» pur essendo esclusi."],
+    ["«Approvato: CDA» nei documenti di Nextage","Più documenti importati da Drive riportano ancora il CDA, che Vectorlab non ha (Amministratore Unico). Corretto il 20/10 in organigramma, PO01, PR33.1 e registrazioni rischi 2026; resta negli altri documenti Nextage."],
+  ["Piano di trattamento rischi 2026: tutto accettato","Date di revisione corrette il 20/10. Resta il punto sostanziale: tutti e 5 i rischi sopra soglia sono accettati senza azioni, con una motivazione («mancato processo di gestione delle configurazioni») che contraddice PO32/PR32.1."],
+  ["PO20 · Gestione della Capacità","L'80% del documento tratta Gestione delle Configurazioni, non Capacità come da titolo — probabile copia-incolla sbagliato, non ancora corretto."],
+  ["REG01 · Regolamento strumenti","Risolto il 27/10/2026: riscritto sugli strumenti reali, il sistema di ticketing inesistente non è più citato."],
+  ["Moduli di emergenza fisica","MDPR18.1.F/G/H hanno ancora \"Nome Cognome\" al posto degli addetti reali — non solo carta, è conformità D.Lgs 81/08."],
+  ["Possibili residui di un altro cliente","Date sospette (05/2009, 15/03/2021), \"NOME AZIENDA\" al posto di Vectorlab in più atti — da verificare su tutto il corpus."],
+  ["REG03 · argomento chiarito, non ancora scritto","Non riguarda il lavoro agile come ipotizzato: l'elenco documenti lo classifica come \"Regolamento accesso esterni\" (sicurezza fisica). Da decidere se serve, dato che ALPR05.1.E/F coprono già il lavoro agile."],
+  ["Checklist di audit non tradotte","MDPR11.1.D è interamente in inglese; L e M ricalcano la norma senza alcun adattamento a Vectorlab. Bozze di traduzione possibili ma non ancora fatte."],
+];
+
+const tbody = document.getElementById('doc-table-body');
+const STATUS_LABEL = {approve:'Corretto, da approvare',good:'Reale',todo:'Template vuoto',boiler:'Boilerplate',bad:'Da correggere',nuovo:'Nuovo (bozza IA)',missing:'Mancante'};
+const ACTOR_LABEL = {ia:'IA',misto:'Misto',umano:'Umano',nextage:'Nextage',ok:'—'};
+DATA.forEach(row=>{
+  const [cat,file,type,status,rev,note,actor,input] = row;
+  const tr = document.createElement('tr');
+  tr.dataset.status = status;
+  tr.dataset.actor = actor;
+  tr.dataset.text = (file+' '+note+' '+input).toLowerCase();
+  tr.innerHTML = `<td class="cat">${cat}</td><td class="file"><code>${file}</code></td><td>${type}</td><td><span class="chip ${status}">${STATUS_LABEL[status]}</span></td><td class="rev">${rev}</td><td class="note">${note}</td><td><span class="actor-tag ${actor}">${ACTOR_LABEL[actor]}</span></td><td class="note">${input}</td>`;
+  tbody.appendChild(tr);
+});
+
+// CLUSTERS (elenco storico dei documenti mancanti) non più renderizzato: i 36 documenti
+// sono stati generati il 16/07/2026 e sono ora tracciati direttamente in DATA/NEW_DOCS.
+
+const cardsWrap = document.getElementById('priority-cards');
+PRIORITIES.forEach(([title,note])=>{
+  const div = document.createElement('div');
+  div.className='card';
+  div.innerHTML = `<h3>${title}</h3><p>${note}</p>`;
+  cardsWrap.appendChild(div);
+});
+
+const buttons = document.querySelectorAll('.filter-btn');
+const searchInput = document.getElementById('search');
+const countLabel = document.getElementById('count-label');
+const activeFilters = {status:'all', actor:'all'};
+
+function applyFilters(){
+  const q = searchInput.value.trim().toLowerCase();
+  let visible = 0;
+  document.querySelectorAll('#doc-table-body tr').forEach(tr=>{
+    const matchesStatus = activeFilters.status==='all' || tr.dataset.status===activeFilters.status;
+    const matchesActor = activeFilters.actor==='all' || tr.dataset.actor===activeFilters.actor;
+    const matchesText = !q || tr.dataset.text.includes(q);
+    const show = matchesStatus && matchesActor && matchesText;
+    tr.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  countLabel.textContent = visible + ' di ' + DATA.length + ' documenti';
+}
+buttons.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const group = btn.dataset.group;
+    document.querySelectorAll(`.filter-btn[data-group="${group}"]`).forEach(b=>b.setAttribute('aria-pressed','false'));
+    btn.setAttribute('aria-pressed','true');
+    activeFilters[group] = btn.dataset.filter;
+    applyFilters();
+  });
+});
+searchInput.addEventListener('input', applyFilters);
+applyFilters();
+</script>
