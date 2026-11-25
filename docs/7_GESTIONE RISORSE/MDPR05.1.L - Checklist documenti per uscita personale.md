@@ -91,7 +91,7 @@ L’Azienda dichiara di aver consegnato tale documentazione.
 Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Firma:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Apertura ticket uscita: \#\<\>
+Task ClickUp di uscita: \#\<\>
 
 1.  Assunzione a tempo
     indeterminato/determinato/borsista/stagista/tirocinante

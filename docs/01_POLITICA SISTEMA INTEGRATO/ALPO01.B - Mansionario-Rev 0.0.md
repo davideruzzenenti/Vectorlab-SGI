@@ -8,8 +8,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Tolto il rimando all’Addendum AdS ALPO31.C, ritirato | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 > Indice
 

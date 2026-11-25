@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 23/11/2026 | Catalogazione dell'inventario esportato da ERA (prima: asset_inventory_vectorlab); criticità senza decimali | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 Inventario degli asset nel campo di applicazione (ISO/IEC 27001:2024+A1:2024, Allegato A 5.9), esportato dallo strumento ERA. Si aggiorna almeno una volta l'anno, prima dell'analisi dei rischi ([PR32.1](../../../A_ASSET%20%26%20CONFIGURAZIONE/PR32.1%20-%20Gestione%20delle%20Configurazioni%20e%20dell%27Infrastruttura%20IT.md) §5).
 

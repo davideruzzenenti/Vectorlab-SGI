@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 24/11/2026 | Riferimento del controllo mensile sulle scadenze: A.5.9 e A.8.24 | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Impostazione del programma
 
@@ -15,7 +14,7 @@
 | Tipo di audit | Audit interno di prima parte sul Sistema di Gestione Integrato (ISO 9001 + ISO/IEC 27001) |
 | Criteri | ISO 9001:2015 (norma di certificazione) e ISO 9001:2026 (su cui è impostato il sistema); UNI CEI EN ISO/IEC 27001:2024+A1:2024 (Annex A come da SoA in vigore); documenti del SGI; requisiti cogenti di [MDPO29.C](../A_CONFORMITA_/MDPO29.C%20-%20Elenco%20leggi%2C%20regolamenti%20e%20norme%20applicabili.md); requisiti contrattuali dei clienti |
 | Metodo | Interviste, esame di documenti e registrazioni, verifica a campione delle evidenze negli strumenti (repository, ClickUp, Google Workspace, console dei servizi cloud); checklist [MDPR11.1.D](MDPR11.1.D%20-%20Checklist%20Audit%20Interno%2027001.md) (27001) e [MDPR11.1.L](MDPR11.1.L%20-%20Checklist%20Audit%20Interno%209001.md) (9001). In presenza in sede, con parti da remoto se concordato |
-| Auditor | Auditor esterno qualificato secondo [PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: Micaela Leone (responsabile dell'audit) e Francesca Capuano, Nextage (piano [MDPR11.1.B](MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report.md) I/2026) [DA CONFERMARE: qualifiche; non devono essere le persone che hanno redatto la documentazione] |
+| Auditor | Auditor esterno qualificato secondo [PR11.1](PR11.1%20-%20Audit%20Interno.md) §2.4 (lead auditor ISO 9001 e ISO/IEC 27001), indipendente dalle aree verificate. Per il 2026: Micaela Leone (responsabile dell'audit) e Francesca Capuano, Nextage (piano [MDPR11.1.B](MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report.md) I/2026), auditor esterne di Nextage che non hanno redatto la documentazione del Sistema |
 | Siti | Unico sito: Piazza Borgo Pila 39/22, piano 8, 16129 Genova, più i servizi cloud nel campo di applicazione ([PO02](../4_CONTESTO/PO02%20-%20Gestione%20del%20Contesto.md) §4) |
 | Durata stimata | 2026: 2 giornate con 2 auditor, circa 4 giorni/uomo (primo audit, copertura completa). Dal 2027: circa 2 giorni/uomo all'anno (organizzazione di circa 10 persone, sistema integrato su un sito) |
 | Esiti | Piano e report in [MDPR11.1.B](MDPR11.1.B%20-%20Piano%20di%20Audit%20e%20Report.md); non conformità e azioni secondo [PR13.1](../10_GESTIONE%20NON%20CONFORMITA_%20E%20MIGLIORAMENTO/PR13.1%20-%20Gestione%20delle%20Non%20Conformit%C3%A0%20e%20Azioni%20di%20Miglioramento.md); risultati riportati nel Riesame della Direzione ([PR12.1](../9.3_RIESAME%20DIREZIONE/PR12.1%20-%20Riesame%20della%20Direzione.md)) |

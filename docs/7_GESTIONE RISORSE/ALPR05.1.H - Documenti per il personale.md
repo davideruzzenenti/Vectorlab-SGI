@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## A cosa serve
 
@@ -63,9 +63,9 @@ personale». Lo schermo lo blocchi tu ogni volta che ti allontani
 
 ## Riferimenti alle norme
 
-- ISO/IEC 27001:2022, 7.3 Consapevolezza; A.6.3 Consapevolezza,
-  istruzione e formazione sulla sicurezza delle informazioni; A.5.10
-  Utilizzo accettabile delle informazioni; A.8.1 Dispositivi endpoint
-  degli utenti
+- UNI CEI EN ISO/IEC 27001:2024+A1:2024, 7.3 Consapevolezza; A.6.3 Consapevolezza,
+  istruzione, formazione e addestramento sulla sicurezza delle
+  informazioni; A.5.10 Uso accettabile delle informazioni e degli altri
+  asset relativi; A.8.1 Endpoint degli utenti
 - ISO 9001:2015 (sistema impostato sulla 2026), 7.3 Consapevolezza
 - Regolamento UE 2016/679, art. 13 (informativa ai dipendenti)

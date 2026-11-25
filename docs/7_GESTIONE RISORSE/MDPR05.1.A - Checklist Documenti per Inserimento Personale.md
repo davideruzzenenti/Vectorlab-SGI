@@ -262,7 +262,7 @@ L’azienda dichiara di aver ricevuto tale documentazione.
 Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Firma:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Apertura ticket entrata: \#\<\>
+Task ClickUp di entrata: \#\<\>
 
 1.  Assunzione a tempo
     indeterminato/determinato/borsista/stagista/tirocinante

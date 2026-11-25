@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Rimando a PR10.1 (ritirata) sostituito da MDPR10.1.A | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 Registro dei rischi e delle opportunità per la qualità del servizio e la
 soddisfazione dei clienti (ISO 9001:2026, 6.1; [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md) «Rischi e

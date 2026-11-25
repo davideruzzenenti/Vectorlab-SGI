@@ -4,9 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
-| 0.1 | 24/11/2026 | Tolto un esempio non più pertinente dalla riga del server dedicato | RSGI | Da approvare | Interno |
-| 0.2 | 24/11/2026 | Bitwarden è un servizio cloud (bitwarden.eu), non ospitato sul server Aruba | RSGI | Da approvare | Interno |
+| 0.0 | 24/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 ## 1 Scopo e metodo
 

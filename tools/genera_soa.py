@@ -36,38 +36,8 @@ SEZIONI = {
 INCLUDI_AGID = False
 
 # Revisioni aggiunte alla vista (la rev. 0.0 viene dalla sorgente)
-REVISIONI_EXTRA = [
-    ("0.1", "23/11/2026",
-     "Nuova vista (riepilogo e dettaglio); corretti il campo Set controlli "
-     "e l'intestazione della sezione 7; tolta la sezione AGID CSP-SAAS "
-     "(residui di un altro cliente); tolti i rimandi ai documenti ritirati "
-     "il 23/11/2026; nel controllo 5.1 PO03 sostituito da MDPO03.A, nel 5.37 PR10.1 sostituita da MDPR10.1.A", "RSGI", "Da approvare", "Interno"),
-    ("0.2", "23/11/2026",
-     "Motivo R (Risultato analisi dei rischi) sui 77 controlli collegati ad asset "
-     "nell'analisi ERA «Agosto 2026»; 5.3, 8.3, 8.5, 8.9, 8.13, 8.15 passati a "
-     "«non attuato» per allineamento con ERA e con il piano di trattamento MDPR33.1.B",
-     "RSGI", "Da approvare", "Interno"),
-    ("0.3", "24/11/2026",
-     "8.22 passato a «non attuato»: servizi in container raggiungibili oltre il firewall "
-     "(scansione esterna del 24/11/2026); rischio accettato temporaneamente, azione T31 "
-     "del piano di trattamento MDPR33.1.B",
-     "RSGI", "Da approvare", "Interno"),
-    ("0.4", "24/11/2026",
-     "8.16 e 8.6 passati a «non attuato»: monitoraggio dal server secondario entro "
-     "febbraio 2027, azione T32 del piano di trattamento MDPR33.1.B",
-     "RSGI", "Da approvare", "Interno"),    ("0.5", "24/11/2026",
-     "8.13 e 5.30 passati ad «attuato»: backup dal server secondario e prova di "
-     "ripristino riuscita il 18/11/2026 (azione T2 chiusa)",
-     "RSGI", "Da approvare", "Interno"),    ("0.6", "24/11/2026",
-     "5.6, 5.8 e 7.1 passati a «non attuato» (evidenza assente), da mitigare con le "
-     "azioni T33, T34 e T35 del piano di trattamento MDPR33.1.B",
-     "RSGI", "Da approvare", "Interno"),
-    ("0.7", "24/11/2026",
-     "8.14 riscritto sul modello reale (server unico, rischio accettato nella BIA, "
-     "copie sul server secondario, prova di ripristino del 18/11/2026); 8.26: "
-     "riferimento PR32.1 sostituito da PO25, requisiti di sicurezza del cliente nei progetti",
-     "RSGI", "Da approvare", "Interno"),
-]
+# Revisioni azzerate il 25/11/2026 (emissione pre audit interno): resta solo la 0.0 della sorgente
+REVISIONI_EXTRA = []
 # Indici delle colonne nella tabella Controlli della sorgente
 C = dict(id=0, titolo=1, testo=2, set=3, app_si=5, app_no=6, att_si=7, att_no=8,
          mot_escl=9, legale=10, contratto=11, business=12, rischio=13,

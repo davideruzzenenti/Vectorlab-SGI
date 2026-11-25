@@ -427,3 +427,20 @@ Dopo la riunione: un'unica mail a Nextage (SoA + piano audit). Nel Riesame: acce
 - **Gialle non tecniche (24/11)**: blocco A presa visione e portatili (5.4, 5.10, 8.7) dopo l'approvazione di Andrea, sottotask entro il 1/12, completati entro il 12/12; i sottotask valgono anche come consegna dei portatili (5.11; nessuna uscita dal personale finora). Blocco B accessi (5.15–5.18) task in Evidenze › Accessi entro il 15/12. Blocco C incidenti (5.25–5.27) da mitigare con il primo evento reale. Blocco D fornitori (5.20, 5.22, 6.6) task in Evidenze › Fornitori: accordi di Andrei entro il 5/12, il resto entro il 15/12. Blocco E proprietà intellettuale (5.32): clausole nel preventivo Ynsera con revisione legale entro il 15/12. 5.5: PR27.1 rev 0.2 con i contatti delle autorità. 5.14: **Discord resta** con le regole di REG01 §5. Tommaso Ramella tolto dall'organigramma (ALPO01.A rev 0.2): non ha accessi.
 - **Blocco H (24/11)**: 8.14 ridondanza con evidenza (server unico, fermo accettato nella BIA MDPR28.1.A, copie sul server secondario, ripristino riuscito il 18/11); 8.26 cita PO25 al posto di PR32.1 (nei progetti per i clienti i requisiti di sicurezza sono del cliente). **SoA rev 0.7** (51 attuati, 39 non attuati, 3 esclusi). Documento «SoA VectorLab – controlli attuati e controlli da sistemare» aggiornato: dei 22 attuati deboli, 4 con evidenza (5.5, 5.14, 8.14, 8.26) e 18 in mitigazione con scadenza.
 
+
+## Controllo refusi ed errori su tutta la documentazione (25/11/2026)
+
+Controllo automatico (ortografia, link interni, codici citati, segnaposto) su 96 documenti, poi correzioni decise con Davide una alla volta. Tutte le revisioni del giorno sono «Da approvare»; all'approvazione dopo l'audit interno tutti i documenti ripartono dalla rev 0.0.
+
+- MDPR08.1.A rigenerato (ritirati del 23/11 fuori dall'elenco, revisioni aggiornate).
+- PO01 §5.1 e PO02: tolti i piani di continuità non previsti; continuità = BIA MDPR28.1.A + ripristino del server secondo PR21.1.
+- PR32.1: chiave SSH unica in Bitwarden usata solo dalla CI (Ansible), ufw con porte 22/80/443; repository Ansible privato in vectorlab-cg.
+- PO25: verifica in due passaggi sul cellulare, non in Bitwarden; Dependabot sui repository che ne hanno bisogno. PR23.1 e MDPR23.1.B allineati (colonna «Rischio in ERA» tolta; IBAN confermato per telefono; scansione annuale del server).
+- MDPR18.1.G: RLS Marco Ottone Casagrande.
+- ALPR33.1.A: scale, formula e RA = 45 sono quelli del metodo ERA, adottati dall'Amministratore Unico. Da registrare nel prossimo Riesame: «RA = 45 confermato».
+- MDPO03.A: obiettivo 3 raggiunto il 18/11/2026.
+- Citazioni 27001 uniformate («UNI CEI EN ISO/IEC 27001:2024+A1:2024», poi «27001:2024+A1»); titoli dei controlli e numerazione 9001:2026 verificati sui testi UNI.
+- PR35.1 (clausole = modello di offerta e contratto; IA autorizzata: solo GitHub Copilot), PR09.1 (modello di offerta in uso; «Lead»), MDPR31.4.A/B (contatti, DPO non nominato), MDPR06.1.E (scala a 3 livelli, senza AU e Amministrazione), MDPR06.1.C (corsi completati, verifica orale a fine corso con esito unico; PR05.1 e PR06.1 allineati), MDPR33.1.B (note di conferma tolte; T19 = MDPR05.1.U), PR19.1, PR16.1, PR08.1 (fonti A.5.6), MDPR11.1.A (auditor).
+- Refusi corretti in 10 documenti.
+
+Restano aperti: rischi residui da riportare in ERA (MDPR33.1.B); strumento di scansione e iscrizione CSIRT (PR23.1); NTP (PR32.1); riquadri di bozza in PR21.1, PR23.1, PR32.1 con punti da verificare con Andrei; MDPR10.1.A (dove salva il questionario); MDPR18.1.D e .G (dati da Francesco); MDPR26.1.B; checklist MDPR11.1.D ancora su «27001:2022»; PR13.1 cita ancora un «sistema di ticketing aziendale».

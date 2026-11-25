@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Tolti i rimandi ai documenti ritirati ALPO31.C, MDPR11.1.M, MDPO25.A e MDPO25.B | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e uso
 

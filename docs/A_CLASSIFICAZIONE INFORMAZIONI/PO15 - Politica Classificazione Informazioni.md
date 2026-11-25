@@ -7,7 +7,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 # Introduzione
 
@@ -539,7 +539,7 @@ VECTORLAB sono:
 <td>Personale autorizzato di VECTORLAB e di Terze Parti autorizzate.</td>
 <td>A discrezione dell’Owner dell’informazione e solo da parte di personale autorizzato di VECTORLAB e di Terze Parti autorizzate.</td>
 <td><p>A discrezione dell’Owner dell’informazione e solo da parte di personale autorizzato di VECTORLAB (no Terze Parti).</p>
-<p>I dati devono essere resi inintellegibili ed irrecuperabili.</p>
+<p>I dati devono essere resi inintelligibili ed irrecuperabili.</p>
 <p>Leggi e regolamentazioni locali devono essere tenuti in debita considerazione.</p>
 <p>I dispositivi elettronici contenenti i dati devono essere sottoposti a processi adeguati di cancellazione sicura e, se necessario, resi fisicamente inutilizzabili.</p></td>
 <td><p>I dati devono essere archiviati all’interno di repository adeguatamente protetti (es. mediante l’uso di cifratura)</p>
@@ -552,7 +552,7 @@ VECTORLAB sono:
 <p>I servizi Cloud sono consentiti solo nella misura in cui i dati archiviati siano cifrati e le chiavi siano in possesso di VECTORLAB.</p>
 <p>I fornitori dei Servizi Cloud devono essere valutati conformi alla normativa interna in tema di cloud e terze parti, allo scopo di prevenire incidenti e determinare l’eventuale necessità della loro nomina a Responsabile del trattamento.</p>
 <p>Assicurarsi che il ricevente abbia ricevuto correttamente l’informazione (non ripudio).</p>
-<p>Vietato uso di strumenti quali SMS, istant messaging, social network e file sharing che non garantiscano la crittografia.</p></td>
+<p>Vietato uso di strumenti quali SMS, instant messaging, social network e file sharing che non garantiscano la crittografia.</p></td>
 <td><p>Sotto il diretto controllo dell’Owner dell’informazione.</p>
 <p>Ogni copia è soggetta agli stessi meccanismi di protezione dell’accesso e della trasmissione dell’originale.</p>
 <p>Ogni copia deve riportare lo stesso livello di classificazione del documento originale.</p></td>
@@ -570,7 +570,7 @@ VECTORLAB sono:
 <p>L’uso di dispositivi esterni (es. USB) è consentito solo nella misura in cui questi siano cifrati.</p>
 <p>I servizi Cloud sono consentiti solo nella misura in cui i dati archiviati siano cifrati e le chiavi siano in possesso di VECTORLAB.</p>
 <p>I fornitori dei Servizi Cloud devono essere valutati conformi alla normativa interna in tema di cloud e terze parti, allo scopo di prevenire incidenti e determinare l’eventuale necessità della loro nomina a Responsabile del trattamento.</p>
-<p>Vietato uso di strumenti quali SMS, istant messaging, social network e file sharing che non garantiscano la crittografia.</p></td>
+<p>Vietato uso di strumenti quali SMS, instant messaging, social network e file sharing che non garantiscano la crittografia.</p></td>
 <td><p>Nessuna limitazione specifica, per esigenze lavorative.</p>
 <p>Ogni copia deve riportare lo stesso livello di classificazione del documento originale.</p></td>
 </tr>

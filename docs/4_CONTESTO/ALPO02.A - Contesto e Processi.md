@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 24/04/2026 | Emissione (modello Nextage, in PowerPoint) | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Riscritto sul campo di applicazione (servizio Ynsera) e convertito in Markdown; sostituisce il PowerPoint e il file draw.io | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 Rappresenta il contesto dell'organizzazione e i processi del Sistema di Gestione Integrato nel campo di applicazione definito in [PO02](PO02%20-%20Gestione%20del%20Contesto.md) §4 (ISO 9001 4.1–4.4; ISO/IEC 27001:2024+A1:2024, 4.1–4.4). Input, output, responsabilità e indicatori di ogni processo sono descritti nella procedura indicata ([PO02](PO02%20-%20Gestione%20del%20Contesto.md) §5.1). I codici sono link alle procedure.
 

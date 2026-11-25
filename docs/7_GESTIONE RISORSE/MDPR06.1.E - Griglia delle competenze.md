@@ -4,16 +4,16 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>25/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Competenze tecniche del team
 
 Competenze ricavate dai curriculum su Drive e confermate nella riunione
-del 04/11/2026. I livelli da 1 a 4 (legenda sotto) li assegna
-l'Amministratore Unico nella valutazione annuale ([PR06.1](PR06.1%20-%20Gestione%20delle%20Performance.md)). [DA DEFINIRE:
-livelli; curriculum di Andrea Ruzzenenti e Francesco Cappetti da
-scrivere.]
+del 04/11/2026. I livelli da 1 a 3 (legenda sotto) li assegna
+l'Amministratore Unico nella valutazione annuale ([PR06.1](PR06.1%20-%20Gestione%20delle%20Performance.md)). Le
+competenze dell'Amministratore Unico e dell'Amministrazione sono
+descritte nel Mansionario ([ALPO01.B](../01_POLITICA%20SISTEMA%20INTEGRATO/ALPO01.B%20-%20Mansionario-Rev%200.0.md)).
 
 | Persona | Ruolo | Competenze tecniche | Livello | Formazione prevista ([MDPR06.1.C](MDPR06.1.C%20-%20Piano%20della%20formazione_%5Baaaa%5D.md)) |
 | --- | --- | --- | --- | --- |
@@ -25,8 +25,6 @@ scrivere.]
 | Stefano Nae | Sviluppatore | C#, C++, Unity, TypeScript, Three.js, Python/Qt, AR (HoloLens 2), Git; laurea in Informatica in corso | | |
 | Andrei Apostu (esterno) | IT | Linux, Docker, NGINX, TLS, firewall, VPN, CI/CD (GitHub Actions), database, TypeScript, Python, Unreal | | |
 | Davide Ruzzenenti | RSGI, gestione progetti, sviluppo commerciale | Gestione di progetti e team, sviluppo commerciale, Unreal, Houdini, Cinema 4D, contenuti 3D/AR/VR, formazione | | |
-| Andrea Ruzzenenti | Amministratore Unico, CTO | [DA DEFINIRE] | | |
-| Francesco Cappetti | Amministrazione, Referente Privacy | [DA DEFINIRE] | | |
 
 ## Legenda
 
@@ -39,10 +37,10 @@ scrivere.]
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Tipologia di competenze</td><td colspan="5">Descrizione</td><td></td><td>Livello competenza</td><td>Definizione</td></tr>
-<tr><td>Soft skills</td><td colspan="5">Competenze relative alle attitudini del personale a svolgere certe mansioni</td><td></td><td>1</td><td>non competente</td></tr>
-<tr><td>Trasversali</td><td colspan="5">Competenze idonee al mantenimento del Sistema di Gestione e trasversali a tutti i sistemi certificati</td><td></td><td>2</td><td>competente ma non autonomo o competenza di basso livello</td></tr>
-<tr><td>ISO27001 - ISO9001</td><td colspan="5">Competenze specifiche necessarie al mantenimento dei Sistemi ISO27001 e relativo Annex A, ISO9001</td><td></td><td>3</td><td>competente e autonomo</td></tr>
-<tr><td>GDPR</td><td colspan="5">Competenze specifiche necessarie alla compliance al GDPR</td><td></td><td>4</td><td>competente e capace di insegnare agli altri e aiutare chi è competente ma non autonomo</td></tr>
+<tr><td>Soft skills</td><td colspan="5">Competenze relative alle attitudini del personale a svolgere certe mansioni</td><td></td><td>1</td><td>Base: lavora con supervisione</td></tr>
+<tr><td>Trasversali</td><td colspan="5">Competenze idonee al mantenimento del Sistema di Gestione e trasversali a tutti i sistemi certificati</td><td></td><td>2</td><td>Autonomo: lavora da solo</td></tr>
+<tr><td>ISO27001 - ISO9001</td><td colspan="5">Competenze specifiche necessarie al mantenimento dei Sistemi ISO27001 e relativo Annex A, ISO9001</td><td></td><td>3</td><td>Esperto: lavora da solo e fa da riferimento per gli altri</td></tr>
+<tr><td>GDPR</td><td colspan="5">Competenze specifiche necessarie alla compliance al GDPR</td><td></td><td></td><td></td></tr>
 <tr><td>Competenze specifiche area business</td><td colspan="5">Competenze specifiche necessarie all&#x27;erogazione dei servizi offerti dalle differenti aree di business</td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td colspan="5">Il livello di competenza della risorsa è in linea con la mansione e non necessita di formazione</td><td></td><td></td><td></td></tr>

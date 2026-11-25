@@ -4,10 +4,10 @@
 
 <table>
 <tr><th>Rev.</th><th>Data</th><th colspan="4">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td>0.0</td><td>17/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>25/11/2026</td><td colspan="4">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
-## Chiavi assegnte
+## Chiavi assegnate
 
 <table>
 <tr><th rowspan="2"></th><th rowspan="2" colspan="2">Gestione chiavi</th><th colspan="2">HR - MDPR05.1.U</th></tr>

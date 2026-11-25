@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 24/11/2026 | Tolta la voce 14 (consulenti tecnici esterni): non sono fornitori di Vectorlab nel campo del SGI; motivazione in §1. Tolto il rimando a NC01 nella voce 11 | RSGI | Da approvare |
+| 0.0 | 24/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -70,6 +69,7 @@ sulle condizioni contrattuali standard (DPA), secondo [PR26.1](PR26.1%20-%20Gest
 | 18 | 2 SPAM Sicurezza sul Lavoro S.a.s., Sicurnet Liguria S.r.l., medico competente | Supporto alla sicurezza sul lavoro, formazione, sorveglianza sanitaria | NO | NO | — | SI | DV | D.Lgs. 81/2008 |
 | 22 | Davide Ruzzenenti | RSGI, gestione dei progetti e sviluppo commerciale | SI | SI | A | da verificare | DV | Contratto e accordo di riservatezza: da fare |
 | 23 | Francesco Cappetti | Amministrazione e Referente Privacy | SI | SI | A | da verificare | DV | Contratto e accordo di riservatezza: da fare |
+| 24 | Z1 | Marketing e comunicazione | NO | da verificare | da verificare | da verificare | DV | Da verificare a cosa accede (sito, account social, materiali dei clienti, dati di contatto) per stabilire impatto, ruolo GDPR e se serve l'accordo di riservatezza ([ALPR26.1.B.3](ALPR26.1.B.3%20-%20Accordo%20di%20Riservatezza%20con%20le%20Terze%20Parti.md)) |
 
 ## 4 Sede e servizi generali
 

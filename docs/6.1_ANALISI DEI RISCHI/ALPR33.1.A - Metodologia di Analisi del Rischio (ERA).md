@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Inventario degli asset catalogato come MDPR32.1.B | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo
 
@@ -76,10 +75,11 @@ un codice (es. «Agosto 2026») e si conserva nello strumento.
 ## 6 Rischio accettabile e fasce
 
 Il **rischio accettabile (RA)** è il valore al di sopra del quale un
-rischio va trattato. Lo stabilisce l'Amministratore Unico a ogni
-analisi, prendendo come riferimento il valore di rischio di un gruppo
-di asset ritenuti sicuri, e lo riesamina nel Riesame della Direzione
-(«Piano di rischio accettabile» nel report). Per l'analisi 2026 RA = 45.
+rischio va trattato. Il valore di riferimento è quello proposto dal
+metodo ERA (RA = 45); l'Amministratore Unico lo adotta a ogni analisi
+e lo riesamina nel Riesame della Direzione («Piano di rischio
+accettabile» nel report). Per l'analisi 2026 RA = 45, valore adottato
+dall'Amministratore Unico.
 
 ERA divide i record in tre fasce rispetto a RA:
 
@@ -104,5 +104,10 @@ Almeno una volta l'anno e in caso di cambiamenti significativi
 (organizzativi, tecnologici, di contesto o dopo incidenti rilevanti),
 come previsto da [PR33.1](PR33.1%20-%20Processo%20Analisi%20del%20Rischio%20e%20Trattamento.md).
 
-<span style="color:#B3392A">[DA CONFERMARE con Nextage: numero dei
-livelli di ciascuna scala e formula di calcolo usata da ERA.]</span>
+Scale e formula di calcolo sono quelle dello strumento ERA e restano
+le stesse in tutte le analisi: per questo i risultati sono confrontabili
+da un anno all'altro. La criticità degli asset ha cinque livelli (Molto
+bassa, Bassa, Media, Alta, Molto alta). Il dettaglio di ogni valutazione
+(probabilità, impatto e vulnerabilità di ciascun record) si consulta
+nell'istanza di analisi in ERA. Se Nextage cambia il metodo di calcolo,
+l'analisi si ripete secondo [PR19.1](../A_CAMBIAMENTO/PR19.1%20-%20Gestione%20del%20Cambiamento.md) – Gestione del Cambiamento.

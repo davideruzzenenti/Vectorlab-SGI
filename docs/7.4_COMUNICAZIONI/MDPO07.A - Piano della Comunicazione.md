@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Rimando a PR10.1 (ritirata) sostituito da MDPR10.1.A | RSGI | Da approvare |
+| 0.0 | 23/11/2026 | Emissione | RSGI | Da approvare |
 
 Piano delle comunicazioni rilevanti per il Sistema di Gestione Integrato
 (ISO 9001:2026 e ISO/IEC 27001:2024+A1, 7.4 Comunicazione; [PO07](PO07%20-%20Politica%20Gestione%20della%20Comunicazione.md)). Per

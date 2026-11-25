@@ -6,8 +6,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Testo ridotto a parità di contenuti; rimandi a PO03 e PR10.1 sostituiti da MDPO03.A e MDPR10.1.A | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Introduzione
 
@@ -91,7 +90,7 @@ Vectorlab si propone di assicurare che:
 - le informazioni siano protette da accessi e divulgazioni non autorizzati (riservatezza), da modifiche non autorizzate (integrità) e siano disponibili agli utenti autorizzati quando servono (disponibilità);
 - gli accessi fisici e logici seguano una procedura definita, documentata e riesaminata periodicamente;
 - gli incidenti di sicurezza, in particolare quelli che coinvolgono dati personali (data breach), siano comunicati subito e gestiti secondo una procedura documentata;
-- esistano piani di continuità aggiornati e verificati;
+- la continuità dei servizi critici sia valutata con l'analisi d'impatto ([MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md)) e il ripristino del server sia previsto e provato secondo [PR21.1](../A_BACKUP%20%26%20RESTORE/PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md);
 - l'accesso di terzi a informazioni e asset sia concesso solo dopo controlli adeguati;
 - dipendenti e personale esterno che opera a lungo nell'organizzazione ricevano formazione su qualità, sicurezza delle informazioni e protezione dei dati;
 - la soddisfazione del cliente resti al centro di prodotti e servizi.

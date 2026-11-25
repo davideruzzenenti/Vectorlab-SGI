@@ -4,8 +4,8 @@
 
 <table>
 <tr><th colspan="6">SoA - Statement of Applicability <br>Dichiarazione di Applicabilità</th><th></th><th>Rev.</th><th>Data</th><th colspan="3">Descrizione</th><th>Redatto</th><th>Approvato</th><th>Classificazione</th></tr>
-<tr><td colspan="3">Team di compilazione SoA</td><td colspan="3"></td><td></td><td>0.0</td><td>17/11/2026</td><td colspan="3">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
-<tr><td colspan="3">Data ultima versione</td><td colspan="3">17/11/2026</td><td></td><td></td><td></td><td colspan="3"></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">Team di compilazione SoA</td><td colspan="3"></td><td></td><td>0.0</td><td>25/11/2026</td><td colspan="3">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td colspan="3">Data ultima versione</td><td colspan="3">25/11/2026</td><td></td><td></td><td></td><td colspan="3"></td><td></td><td></td><td></td></tr>
 <tr><td colspan="3">Versione</td><td colspan="3">0.0</td><td></td><td></td><td></td><td colspan="3"></td><td></td><td></td><td></td></tr>
 <tr><td colspan="3">Set di Controlli inclusi</td><td colspan="3">• ISO/IEC 27002<br> • GDPR</td><td></td><td></td><td></td><td colspan="3"></td><td></td><td></td><td></td></tr>
 <tr><td colspan="3">Controlli Non Applicabili</td><td colspan="3">7.12, 8.11, 8.30</td><td></td><td></td><td></td><td colspan="3"></td><td></td><td></td><td></td></tr>

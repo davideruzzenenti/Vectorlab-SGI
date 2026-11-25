@@ -350,7 +350,7 @@
 <p>- sono coerenti con la politica per la qualità;</p>
 <p>- sono misurabili;</p>
 <p>- tengono in considerazione i requisiti applicabili;</p>
-<p>- sonopertinenti alla conformità dei prodotti e servizi e all'aumento della soddisfazione del cliente;</p>
+<p>- sono pertinenti alla conformità dei prodotti e servizi e all'aumento della soddisfazione del cliente;</p>
 <p>- sono monitorati;</p>
 <p>- sono comunicati;</p>
 <p>- sono aggiornati per quanto appropriato?</p></td>

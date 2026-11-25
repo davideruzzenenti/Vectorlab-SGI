@@ -9,7 +9,7 @@
 |          |            |                 |             |               |
 | -------- | ---------- | --------------- | ----------- | ------------- |
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 |       |  |    |  |          |  |
 | ----- |  | -- |  | -------- |  |
@@ -573,7 +573,7 @@
 <tr class="even">
 <td></td>
 <td><p>Has the organization retained documented information of the results of the information security risk treatment?</p>
-<p><em>Mandatory Document: RIsk Assessment Report</em></p></td>
+<p><em>Mandatory Document: Risk Assessment Report</em></p></td>
 <td></td>
 <td></td>
 <td></td>

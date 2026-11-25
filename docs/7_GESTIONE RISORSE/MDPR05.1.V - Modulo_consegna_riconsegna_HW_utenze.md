@@ -398,7 +398,7 @@
 <td><strong>Descrizione</strong></td>
 <td><strong>Richiedente</strong></td>
 <td><strong>Credenziali</strong></td>
-<td><strong>N. Ticket</strong></td>
+<td><strong>Task ClickUp</strong></td>
 <td><strong>Note</strong></td>
 <td><strong>Data Attivazione</strong></td>
 <td><p><strong>Data</strong></p>

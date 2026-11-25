@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare | Interno |
-| 0.1 | 23/11/2026 | Aggiunte le regole del monitoraggio e della soddisfazione del cliente, prima in PR10.1 (ritirata) | RSGI | Da approvare | Interno |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare | Interno |
 
 ## Regole del monitoraggio
 
@@ -111,4 +110,4 @@ accettati).
 
 ## Riferimenti
 
-- ISO 9001:2026 e ISO/IEC 27001:2022, 9.1 Monitoraggio, misurazione, analisi e valutazione; ISO 9001:2026, 9.1.2 Soddisfazione del cliente
+- ISO 9001:2026 e UNI CEI EN ISO/IEC 27001:2024+A1:2024, 9.1 Monitoraggio, misurazione, analisi e valutazione; ISO 9001:2026, 9.1.2 Soddisfazione del cliente

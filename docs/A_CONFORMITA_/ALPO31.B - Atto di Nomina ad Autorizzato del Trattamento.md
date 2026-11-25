@@ -128,7 +128,7 @@ inoltre, a:
     > deve conoscere e rispettare e che fanno parte del Sistema di
     > gestione privacy;
 
-  - > garantire il pieno rispetto delle vigenti diposizioni legislative
+  - > garantire il pieno rispetto delle vigenti disposizioni legislative
     > in materia di protezione dei dati personali, compreso il profilo
     > relativo alla sicurezza, nonché delle connesse procedure
     > aziendali, per quanto di propria competenza;

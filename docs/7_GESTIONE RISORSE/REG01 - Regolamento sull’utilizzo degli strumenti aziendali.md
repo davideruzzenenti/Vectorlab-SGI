@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e destinatari
 
@@ -223,17 +223,15 @@ procedure del sistema di gestione è trattata così:
 
 | Requisito | Dove nel regolamento |
 | --- | --- |
-| ISO/IEC 27001:2022, A.5.10 Utilizzo accettabile delle informazioni e degli altri asset associati | §5, §6, §7 |
-| ISO/IEC 27001:2022, A.5.17 Informazioni di autenticazione | §2 |
-| ISO/IEC 27001:2022, A.6.7 Lavoro da remoto | §3, §4 |
-| ISO/IEC 27001:2022, A.6.4 Processo disciplinare | §11 |
-| ISO/IEC 27001:2022, A.6.8 Segnalazione degli eventi relativi alla sicurezza delle informazioni | §8 |
-| ISO/IEC 27001:2022, A.7.7 Scrivania pulita e schermo pulito | §3, §9 |
-| ISO/IEC 27001:2022, A.7.9 Sicurezza degli asset all'esterno delle sedi | §3 |
-| ISO/IEC 27001:2022, A.8.1 Dispositivi terminali degli utenti | §3, §4 |
-| ISO/IEC 27001:2022, A.8.7 Protezione contro il malware | §3 |
+| UNI CEI EN ISO/IEC 27001:2024+A1:2024, A.5.10 Uso accettabile delle informazioni e degli altri asset relativi | §5, §6, §7 |
+| 27001:2024+A1, A.5.17 Informazioni di autenticazione | §2 |
+| 27001:2024+A1, A.6.7 Lavoro a distanza | §3, §4 |
+| 27001:2024+A1, A.6.4 Processo disciplinare | §11 |
+| 27001:2024+A1, A.6.8 Segnalazione degli eventi relativi alla sicurezza delle informazioni | §8 |
+| 27001:2024+A1, A.7.7 Schermo e scrivania puliti | §3, §9 |
+| 27001:2024+A1, A.7.9 Sicurezza degli asset all'esterno delle sedi | §3 |
+| 27001:2024+A1, A.8.1 Endpoint degli utenti | §3, §4 |
+| 27001:2024+A1, A.8.7 Protezione dal malware | §3 |
 | L. 300/1970, art. 4; Regolamento UE 2016/679 | §10 |
 | L. 300/1970, art. 7 | §11 |
 
-I titoli dei controlli sono da verificare sul testo UNI CEI EN ISO/IEC
-27001:2024+A1:2024.

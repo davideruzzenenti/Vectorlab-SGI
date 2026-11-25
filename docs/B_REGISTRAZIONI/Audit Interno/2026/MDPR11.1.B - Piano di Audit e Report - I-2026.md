@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** | **Classificazione** |
 | -------- | ---------- | --------------- | ----------- | ------------- | ------------------- |
-| 0.0 | 09/11/2026 | Emissione: piano redatto da Nextage (Responsabile Audit: Micaela Leone), inviato con la mail del 10/11/2026 «Piano audit interno» | Nextage (Micaela Leone) | Da approvare | Interno |
+| 0.0 | 09/11/2026 | Emissione | Nextage (Micaela Leone) | Da approvare | Interno |
 
 Compilazione del modulo *MDPR11.1.B - Piano di Audit e Report* per il
 primo audit interno, previsto dal programma *[MDPR11.1.A](../../../9.2_AUDIT%20INTERNO/MDPR11.1.A%20-%20Programma%20Audit.md) - Programma Audit*

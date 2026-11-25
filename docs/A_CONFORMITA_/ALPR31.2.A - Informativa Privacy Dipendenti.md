@@ -4,7 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 > Consegna: fa parte del pacchetto [ALPR05.1.H](../7_GESTIONE%20RISORSE/ALPR05.1.H%20-%20Documenti%20per%20il%20personale.md) «Documenti per il personale»; la presa visione si registra nella lista ClickUp «Consapevolezza e formazione» all'inizio del rapporto, ogni anno a gennaio e a ogni revisione sostanziale ([PR05.1](../7_GESTIONE%20RISORSE/PR05.1%20-%20Gestione%20del%20personale.md)).
 
@@ -189,7 +189,7 @@ altri familiari).
 Nel caso in cui le informazioni in possesso del Titolare, come previsto
 dall’art. 14 del Regolamento, non siano state ottenute direttamente
 dall’interessato, la informiamo che le categorie di dati personali
-sono quelle sopra indentificate nei “Tipi di dati oggetto del
+sono quelle sopra identificate nei “Tipi di dati oggetto del
 trattamento”.
 
 **Destinatari e trasferimento dei dati personali**

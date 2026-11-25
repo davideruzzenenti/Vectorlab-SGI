@@ -4,13 +4,13 @@
 
 <table>
 <tr><th colspan="7">REGISTRO DEI TRATTAMENTI</th></tr>
-<tr><td colspan="7">TITOLARE: VECTORLAB SRL<br>PIAZZA BORGO PILA 39/22 - 16129 GENOVA<br>TEL      COMPLETARE<br>Emal:       COMPLETARE<br>PEC:       COMPLETARE</td></tr>
+<tr><td colspan="7">TITOLARE: VECTORLAB SRL<br>PIAZZA BORGO PILA 39/22 - 16129 GENOVA<br>TEL: 347 755 9770<br>Email: privacy@vectorlab-cg.com<br>PEC: vectorlab@legalmail.it</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td colspan="7">Responsabile della Protezione dei Dati (DPO): SE PRESENTE<br>INDIRIZZO       COMPLETARE<br>TEL       COMPLETARE<br>Emal:       COMPLETARE</td></tr>
+<tr><td colspan="7">Responsabile della Protezione dei Dati (DPO): non nominato (art. 37 GDPR). Referente Privacy: Francesco Cappetti (<a href="../../A_CONFORMITA_/ALPO31.D%20-%20Atto%20di%20Nomina%20a%20Referente%20Privacy/">ALPO31.D</a>)<br>Email: privacy@vectorlab-cg.com</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Rev.</td><td>Data</td><td colspan="2">Descrizione</td><td>Redatto</td><td>Approvato</td><td>Classificato</td></tr>
-<tr><td>0.0</td><td>17/11/2026</td><td colspan="2">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
+<tr><td>0.0</td><td>25/11/2026</td><td colspan="2">Emissione</td><td>RSGI</td><td>Da approvare</td><td>Interno</td></tr>
 </table>
 
 ## Trattamenti
@@ -36,14 +36,14 @@ cliente prevede la nomina a responsabile (art. 28 GDPR; [PR09.1](../8.2_PRODOTTI
 <table>
 <tr><th colspan="2">Tipologie dati</th><th>Asset trattamento</th></tr>
 <tr><td>Comuni</td><td>Particolari</td><td>Badge</td></tr>
-<tr><td>Anagrafica (nome, cognome, dati di contatto) e/o ruolo aziendale</td><td>Dati che rivelino l&#x27;origine raziale o etnica</td><td>Cablaggi</td></tr>
+<tr><td>Anagrafica (nome, cognome, dati di contatto) e/o ruolo aziendale</td><td>Dati che rivelino l&#x27;origine razziale o etnica</td><td>Cablaggi</td></tr>
 <tr><td>Solvibilità e/o Credito</td><td>Dati che rivelino opinioni politiche</td><td>Auto e veicoli</td></tr>
 <tr><td>Reddito e/o patrimonio</td><td>Dati che rivelino convinzioni religiose o filosofiche</td><td>Equipment ambientali e tecnologici</td></tr>
 <tr><td>Coordinate Bancarie, Coordinate altri sistemi di pagamento elettronici</td><td>Dati che rivelino appartenenza sindacale</td><td>Firewall</td></tr>
 <tr><td>Dati di monitoraggio e controllo nei luoghi di lavoro</td><td>Dati genetici</td><td>Chiavi</td></tr>
 <tr><td>Email, navigazione in internet, operazioni sui sistemi IT</td><td>Dati biometrici</td><td>Media (supporti)</td></tr>
-<tr><td>Anagrafica (nome, cognome, dati dicontatto) e credenziali di accesso a servizi aziendali</td><td>Dati relativi alla salute</td><td>Equipment di Rete</td></tr>
-<tr><td>Anagrafica (nome, cognome, dati dicontatto) e credenziali di accesso a servizi personali</td><td>Dati relativi alla vita sessuale/orientamento sessuale</td><td>Sistemi di monitoraggio di rete</td></tr>
+<tr><td>Anagrafica (nome, cognome, dati di contatto) e credenziali di accesso a servizi aziendali</td><td>Dati relativi alla salute</td><td>Equipment di Rete</td></tr>
+<tr><td>Anagrafica (nome, cognome, dati di contatto) e credenziali di accesso a servizi personali</td><td>Dati relativi alla vita sessuale/orientamento sessuale</td><td>Sistemi di monitoraggio di rete</td></tr>
 <tr><td>Anagrafica (nome, cognome, dati di contatto)</td><td>Dati relativi a condanne penali e reati</td><td>Sistemi di Alimentazione</td></tr>
 <tr><td>Altri</td><td></td><td>Router</td></tr>
 <tr><td>Anagrafica (nome, cognome, dati di contatto), Coordinate Bancarie, Coordinate altri sistemi di pagamento elettronici</td><td></td><td>Cassaforte</td></tr>

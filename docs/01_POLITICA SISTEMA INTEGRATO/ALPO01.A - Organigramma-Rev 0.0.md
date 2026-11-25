@@ -4,9 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 16/11/2026 | Emissione (PowerPoint) | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Convertito in Markdown, stessi contenuti; sostituisce il PowerPoint | RSGI | Da approvare |
-| 0.2 | 24/11/2026 | Team Digital aggiornato | RSGI | Da approvare |
+| 0.0 | 24/11/2026 | Emissione | RSGI | Da approvare |
 
 Organigramma del Sistema di Gestione Integrato (ISO 9001 5.3; ISO/IEC 27001:2024+A1:2024, 5.3). Compiti e responsabilità di ogni ruolo sono descritti nel [Mansionario (ALPO01.B)](ALPO01.B%20-%20Mansionario-Rev%200.0.md).
 

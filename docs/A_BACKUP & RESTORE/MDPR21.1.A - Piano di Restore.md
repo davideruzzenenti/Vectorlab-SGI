@@ -4,8 +4,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 24/11/2026 | Registrata la prova di ripristino del server del 18/11/2026 (riuscita) | RSGI | Da approvare |
+| 0.0 | 24/11/2026 | Emissione | RSGI | Da approvare |
 
 Registro delle prove di ripristino previste da [PR21.1](PR21.1%20-%20Gestione%20dei%20Backup%20e%20Restore.md) §7. Il System
 Administrator lo compila a ogni prova.

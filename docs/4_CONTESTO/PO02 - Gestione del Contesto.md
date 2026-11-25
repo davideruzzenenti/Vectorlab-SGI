@@ -15,7 +15,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Introduzione
 
@@ -104,8 +104,7 @@ La presente politica si applica a tutta l’Organizzazione.
 
 > [ALPO02.B](ALPO02.B-%20Analisi%20Stakeholder.md) – Analisi Stakeholder
 
-> [MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) – Piani di Continuità Operativa\_Indisponibilità sede
-> eventi avversi esterni ID-PBC05.
+> [MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) – BIA Business Impact Analysis
 
 ### 1.4 Definizioni, Acronimi, Abbreviazioni
 
@@ -227,11 +226,9 @@ piogge e possibili inondazioni. Nonostante la sede aziendale si
 collochi, quindi, in un territorio potenzialmente soggetto ad alluvioni,
 questo non è un problema per la produttività aziendale né per la
 sicurezza delle informazioni, dal momento che l’ufficio si trova ad un
-piano alto ed è stato definito un apposito piano per la continuità
-operativa in caso di indisponibilità della sede per eventi avversi
-esterni (vedere “*[MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) - Piani di Continuità
-Operativa\_Indisponibilità sede eventi avversi esterni ID-PBC05*”), per
-il quale facilmente si attivano le procedure per lo smart working.
+piano alto e, se la sede non è disponibile, il personale lavora da
+remoto con i portatili aziendali secondo l'accordo di lavoro agile
+(vedere [MDPR28.1.A](../A_CONTINUITA_%20OPERATIVA/MDPR28.1.A%20-%20BIA_Business%20Impact%20Analysis%20%2827001%29.md) – BIA Business Impact Analysis).
 Pertanto, anche gli stakeholders esterni non nutrono preoccupazioni nei
 confronti dell’operatività di Vectorlab, la quale garantisce la
 continuità dei propri servizi.
@@ -1559,7 +1556,7 @@ Nota: processo escluso dal campo di applicazione del Sistema di Gestione
 <td>Risorse</td>
 <td><ul>
 <li><blockquote>
-<p>SW Developper</p>
+<p>SW Developer</p>
 </blockquote></li>
 <li><blockquote>
 <p>Innovation &amp; Research Projects Staff</p>

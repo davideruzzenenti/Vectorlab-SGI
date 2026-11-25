@@ -6,8 +6,7 @@
 
 | **Rev.** | **Data**   | **Descrizione** | **Redatto** | **Approvato** |
 | -------- | ---------- | --------------- | ----------- | ------------- |
-| 0.0 | 17/11/2026 | Emissione | RSGI | Da approvare |
-| 0.1 | 23/11/2026 | Requisiti, documentazione tecnica e test negli strumenti del cliente; ritirati i modelli MDPO25.A–G | RSGI | Da approvare |
+| 0.0 | 25/11/2026 | Emissione | RSGI | Da approvare |
 
 ## 1 Scopo e campo di applicazione
 
@@ -65,9 +64,9 @@ Il codice dei progetti sta nei repository del cliente e, quando serve,
 nell'organizzazione GitHub di Vectorlab **vectorlab-cg**.
 
 - Nell'organizzazione vectorlab-cg ogni persona entra con il proprio
-  account nominativo e con la **verifica in due passaggi obbligatoria**.
-  [DA CONFERMARE con il CTO: se il secondo fattore si gestisce in
-  Bitwarden o sull'app del telefono personale.]
+  account nominativo e con la **verifica in due passaggi obbligatoria**,
+  attivata sul cellulare; il secondo fattore non si conserva in
+  Bitwarden.
 - Gli accessi ai repository sono dati solo a chi lavora sul progetto e
   tolti a fine progetto o all'uscita della persona ([PR16.1](../A_ACCESSI/PR16.1%20-%20Gestione%20degli%20Accessi.md)). Il PM
   segnala al CTO gli ingressi e le uscite dal team.
@@ -115,9 +114,9 @@ sempre o solo dove la prevede il cliente.]
 ### 5.4 Librerie e vulnerabilità
 
 Le vulnerabilità delle librerie usate sono controllate dal team con
-strumenti automatici (per esempio Dependabot, npm audit o simili) e,
-quando previsto, dal cliente [DA CONFERMARE con il CTO: strumenti
-attivi oggi; vedi [PR23.1](../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) §6]. Le vulnerabilità gravi si correggono
+avvisi automatici di GitHub (Dependabot), attivi sui repository che
+usano librerie di terze parti gestite con un package manager, e, quando
+previsto, dal cliente ([PR23.1](../A_MINACCE%20%26%20VULNERABILITA_/PR23.1%20-%20Gestione%20delle%20Minacce%20e%20delle%20Vulnerabilit%C3%A0%20Tecniche.md) §6). Le vulnerabilità gravi si correggono
 prima del rilascio o si segnalano al cliente (A.8.8).
 
 ### 5.5 Test e rilascio
